@@ -1,0 +1,44 @@
+{
+  "order": 46,
+  "slug": "uae-workforce-scheduling-platform",
+  "client": "SmartShifts",
+  "anonymous": true,
+  "publicName": "A UAE workforce scheduling platform",
+  "industry": "Technology",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "Custom Software Development",
+    "UI/UX Design",
+    "SEO Optimization"
+  ],
+  "summary": "A scheduling product built from the interface down, with discoverability planned in.",
+  "challenge": "Before TDM, the business needed a stronger digital foundation in the tech market, with clearer positioning, better visibility, and a more conversion-ready user journey.",
+  "approach": [
+    "TDM aligned custom software development, UI/UX design, and SEO to sharpen the business’ digital presence. We improved product clarity, optimized the user journey, and created a stronger path from first impression to enquiry or sale."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better product communication"
+    },
+    {
+      "value": "40%",
+      "label": "Improved user experience"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger search discoverability"
+    },
+    {
+      "value": "30%",
+      "label": "Cleaner enquiry journey"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM helped us improve product communication, strengthen UX, and build a clearer path from discovery to conversion.",
+    "author": "Technology client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE workforce scheduling platform | TDM",
+  "metaDescription": "A scheduling product built from the interface down, with discoverability planned in."
+}

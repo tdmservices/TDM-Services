@@ -1,0 +1,45 @@
+{
+  "order": 30,
+  "slug": "uae-fine-jewellery-house",
+  "client": "Dahlia Jewellery",
+  "anonymous": true,
+  "publicName": "A UAE fine-jewellery house",
+  "industry": "Luxury e-commerce",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "Shopify eCommerce Development",
+    "eCommerce Strategy",
+    "Luxury UX Design",
+    "Payment & Inventory Integration"
+  ],
+  "summary": "A Shopify build with luxury UX, payments and inventory joined up behind it.",
+  "challenge": "Before TDM, the brand needed a refined online storefront that could reflect the elegance of its collections, support secure purchases, and appeal to Dubai’s luxury market.",
+  "approach": [
+    "TDM developed a bespoke Shopify store with luxury-focused UX, visual storytelling, secure payment gateways, and inventory integration. The platform improved product discovery, created a seamless shopping journey, and positioned the brand as a premium online destination."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Mobile-responsive luxury store"
+    },
+    {
+      "value": "45%",
+      "label": "Improved product presentation"
+    },
+    {
+      "value": "40%",
+      "label": "Smoother shopping experience"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger online brand presence"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM created an elegant Shopify store that captured our jewelry brand’s luxury feel and made online shopping smooth and secure",
+    "author": "Luxury e-commerce client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE fine-jewellery house | TDM",
+  "metaDescription": "A Shopify build with luxury UX, payments and inventory joined up behind it."
+}

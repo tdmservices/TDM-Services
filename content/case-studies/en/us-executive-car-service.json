@@ -1,0 +1,44 @@
+{
+  "order": 44,
+  "slug": "us-executive-car-service",
+  "client": "Portland Luxury Town Car",
+  "anonymous": true,
+  "publicName": "A US executive car service",
+  "industry": "Transport",
+  "country": "United States",
+  "sector": "marketing",
+  "services": [
+    "WordPress Development",
+    "SEO Optimization",
+    "Social Media Management"
+  ],
+  "summary": "Search and social presence for a chauffeur service competing against apps.",
+  "challenge": "Before TDM, the business needed a stronger digital foundation with clearer service positioning, higher trust, better visibility, and a more conversion-ready enquiry journey.",
+  "approach": [
+    "TDM aligned WordPress development, SEO, and social media strategy to sharpen the business's online presence. We improved discoverability, refined package presentation, and built a clearer path from first impression to enquiry or booking."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better package discovery"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Improved social media presence"
+    },
+    {
+      "value": "30%",
+      "label": "Smoother enquiry journey"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our online visibility, strengthened customer trust, and made it easier for users to discover services and book with confidence.",
+    "author": "Transport client, United States"
+  },
+  "metaTitle": "Case Study: US executive car service | TDM",
+  "metaDescription": "Search and social presence for a chauffeur service competing against apps."
+}

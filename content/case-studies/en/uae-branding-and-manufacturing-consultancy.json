@@ -1,0 +1,49 @@
+{
+  "order": 34,
+  "slug": "uae-branding-and-manufacturing-consultancy",
+  "client": "Your Brand Creator",
+  "anonymous": true,
+  "publicName": "A UAE branding and manufacturing consultancy",
+  "industry": "Professional services",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "WordPress Website Development",
+    "Branding Website Design",
+    "Manufacturing Website Design",
+    "UI/UX Design",
+    "Responsive Design",
+    "SEO Optimization",
+    "Service Page Structuring",
+    "Easy Navigation Setup"
+  ],
+  "summary": "A structured service site that made a broad consultancy offer navigable.",
+  "challenge": "Before TDM, the business needed a professional website to clearly present its branding and manufacturing services, improve credibility, and guide visitors through its key offerings.",
+  "approach": [
+    "TDM developed a clean WordPress website with responsive layouts, SEO optimization, and smooth navigation. The structure was designed to highlight services clearly, improve user experience, and position the brand as a reliable partner for business branding and manufacturing needs."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Responsive website experience"
+    },
+    {
+      "value": "40%",
+      "label": "Improved service visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Better user navigation"
+    },
+    {
+      "value": "30%",
+      "label": "Stronger organic reach potential"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM created a professional website that clearly presented our services and improved our brand’s online presence",
+    "author": "Professional services client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE branding and manufacturing consultancy | TDM",
+  "metaDescription": "A structured service site that made a broad consultancy offer navigable."
+}

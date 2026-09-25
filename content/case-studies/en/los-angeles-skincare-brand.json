@@ -1,0 +1,44 @@
+{
+  "order": 18,
+  "slug": "los-angeles-skincare-brand",
+  "client": "Saffrose (LA)",
+  "anonymous": true,
+  "publicName": "A Los Angeles skincare brand",
+  "industry": "Beauty e-commerce",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "E-commerce Website Development",
+    "UI/UX Design",
+    "Responsive Web Design",
+    "Secure Transactions",
+    "SEO Optimization",
+    "Performance Testing & QA"
+  ],
+  "summary": "A responsive storefront built for secure checkout and search visibility from launch.",
+  "challenge": "A skincare brand needed an online store that felt as considered as the products, worked on any device, and could be found in search.",
+  "approach": [
+    "Built the storefront around a responsive UI and a secure checkout, then tested both across devices before launch.",
+    "Set the technical SEO foundations at build time rather than retrofitting them once traffic mattered."
+  ],
+  "results": [
+    {
+      "value": "50%",
+      "label": "More organic traffic"
+    },
+    {
+      "value": "40%",
+      "label": "Increased user engagement"
+    },
+    {
+      "value": "35%",
+      "label": "Higher online sales"
+    },
+    {
+      "value": "100%",
+      "label": "Mobile & desktop responsive"
+    }
+  ],
+  "metaTitle": "Case Study: Los Angeles skincare brand | TDM",
+  "metaDescription": "A responsive storefront built for secure checkout and search visibility from launch."
+}

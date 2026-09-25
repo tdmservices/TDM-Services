@@ -1,0 +1,41 @@
+{
+  "order": 20,
+  "slug": "uae-wholesale-fragrance-distributor",
+  "client": "Fragrance Perfumes",
+  "anonymous": true,
+  "publicName": "A UAE wholesale fragrance distributor",
+  "industry": "Wholesale e-commerce",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "Wholesale eCommerce Website Development",
+    "Shopify Setup",
+    "UX & Navigation Design"
+  ],
+  "summary": "Over 4,000 products and 100+ brands organised into a wholesale storefront buyers can navigate.",
+  "challenge": "A wholesale distributor needed thousands of products across more than a hundred brands to be browsable, not just listed.",
+  "approach": [
+    "Set up a Shopify storefront structured for wholesale buying, with the catalogue organised by brand rather than dumped into one list.",
+    "Designed navigation and search around how buyers actually look for stock, which is what turned a large catalogue into a usable one."
+  ],
+  "results": [
+    {
+      "value": "4000+",
+      "label": "Products listed efficiently"
+    },
+    {
+      "value": "100+",
+      "label": "Brands organized for easy navigation"
+    },
+    {
+      "value": "50%",
+      "label": "Faster order processing"
+    },
+    {
+      "value": "35%",
+      "label": "Improved search visibility"
+    }
+  ],
+  "metaTitle": "Case Study: UAE wholesale fragrance distributor | TDM",
+  "metaDescription": "Over 4,000 products and 100+ brands organised into a wholesale storefront buyers can navigate."
+}

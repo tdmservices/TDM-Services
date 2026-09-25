@@ -1,0 +1,44 @@
+{
+  "order": 45,
+  "slug": "us-software-consultancy",
+  "client": "Puissant Technologies",
+  "anonymous": true,
+  "publicName": "A US software consultancy",
+  "industry": "Technology",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "Custom Software Development",
+    "UI/UX Design",
+    "SEO Optimization"
+  ],
+  "summary": "Custom software delivery with interface design and search visibility built in.",
+  "challenge": "Before TDM, the business needed a stronger digital foundation in the tech market, with clearer positioning, better visibility, and a more conversion-ready user journey.",
+  "approach": [
+    "TDM aligned custom software development, UI/UX design, and SEO to sharpen the business’ digital presence. We improved product clarity, optimized the user journey, and created a stronger path from first impression to enquiry or sale."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better product communication"
+    },
+    {
+      "value": "40%",
+      "label": "Improved user experience"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger search discoverability"
+    },
+    {
+      "value": "30%",
+      "label": "Cleaner enquiry journey"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM helped us improve product communication, strengthen UX, and build a clearer path from discovery to conversion.",
+    "author": "Technology client, United States"
+  },
+  "metaTitle": "Case Study: US software consultancy | TDM",
+  "metaDescription": "Custom software delivery with interface design and search visibility built in."
+}

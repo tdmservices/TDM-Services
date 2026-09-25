@@ -1,0 +1,45 @@
+{
+  "order": 31,
+  "slug": "french-fashion-retailer",
+  "client": "Frenchco",
+  "anonymous": true,
+  "publicName": "A French fashion retailer",
+  "industry": "Fashion e-commerce",
+  "country": "France",
+  "sector": "marketing",
+  "services": [
+    "Website Development",
+    "Content Writing",
+    "SEO Services",
+    "Staff Augmentation"
+  ],
+  "summary": "Content and search work backed by a dedicated team, for a retailer competing on discovery.",
+  "challenge": "Before TDM, the brand.lawyer needed a sleek, modern, and fully optimized website to present legal business legislation, business law information, and legal services for clients across France, Europe, and the USA.",
+  "approach": [
+    "TDM handled website design, development, content writing, SEO, and staff augmentation to create a complete legal platform from scratch. We structured the website around trust, authority, legal clarity, and international service reach, helping users access business law information and enquire with confidence."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Website built from scratch"
+    },
+    {
+      "value": "50%",
+      "label": "Stronger legal service positioning"
+    },
+    {
+      "value": "40%",
+      "label": "Better search visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Improved qualified enquiry flow"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM built a modern legal website with strong content, SEO structure, and international positioning for our business law services.",
+    "author": "Fashion e-commerce client, France"
+  },
+  "metaTitle": "Case Study: French fashion retailer | TDM",
+  "metaDescription": "Content and search work backed by a dedicated team, for a retailer competing on discovery."
+}

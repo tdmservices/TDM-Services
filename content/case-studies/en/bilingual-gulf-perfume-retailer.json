@@ -1,0 +1,45 @@
+{
+  "order": 15,
+  "slug": "bilingual-gulf-perfume-retailer",
+  "client": "Olfactory",
+  "anonymous": true,
+  "publicName": "A bilingual Gulf perfume retailer",
+  "industry": "Perfume e-commerce",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "Bilingual Shopify Development",
+    "RTL Localization",
+    "SEO Optimization",
+    "Payment & Currency Integration"
+  ],
+  "summary": "A luxury Shopify store serving Arabic and English shoppers equally, RTL and payments included.",
+  "challenge": "Before TDM, the brand Fragrance needed a premium eCommerce platform that could serve both Arabic and English customers while reflecting the elegance of Middle Eastern luxury perfumery.",
+  "approach": [
+    "TDM developed a bilingual Shopify store with RTL Arabic layouts, English localization, mobile-first UX, multi-currency support, and local payment gateways. The platform improved browsing, checkout, and brand storytelling for Dubai, GCC, and international fragrance buyers."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Arabic-English localized store"
+    },
+    {
+      "value": "45%",
+      "label": "Better mobile shopping experience"
+    },
+    {
+      "value": "40%",
+      "label": "Improved checkout convenience"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger search visibility"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM created a bilingual luxury Shopify store that made our brand accessible, elegant, and easy to shop for both Arabic and English customers.",
+    "author": "Perfume e-commerce client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: bilingual Gulf perfume retailer | TDM",
+  "metaDescription": "A luxury Shopify store serving Arabic and English shoppers equally, RTL and payments included."
+}

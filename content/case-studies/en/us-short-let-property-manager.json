@@ -1,0 +1,45 @@
+{
+  "order": 22,
+  "slug": "us-short-let-property-manager",
+  "client": "BnB Hyperion",
+  "anonymous": true,
+  "publicName": "A US short-let property manager",
+  "industry": "Hospitality",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "Website Development",
+    "UI/UX Design",
+    "Mobile & Desktop Responsive Design",
+    "Brand Storytelling",
+    "SEO Optimization",
+    "Content Writing",
+    "Data-Driven Service Highlights"
+  ],
+  "summary": "Brand storytelling and service detail built into a site aimed at property owners.",
+  "challenge": "A property manager needed to win owners, not just guests, which meant a site that argued for the service rather than listing it.",
+  "approach": [
+    "Built a responsive site around brand storytelling, with the service highlights led by data rather than adjectives.",
+    "Structured the content and SEO for the owner audience the business needed to reach."
+  ],
+  "results": [
+    {
+      "value": "50%",
+      "label": "Increased website traffic"
+    },
+    {
+      "value": "40%",
+      "label": "Higher engagement with property owners"
+    },
+    {
+      "value": "35%",
+      "label": "Improved service inquiries"
+    },
+    {
+      "value": "100%",
+      "label": "Fully responsive, modern design"
+    }
+  ],
+  "metaTitle": "Case Study: US short-let property manager | TDM",
+  "metaDescription": "Brand storytelling and service detail built into a site aimed at property owners."
+}

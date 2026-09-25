@@ -1,0 +1,44 @@
+{
+  "order": 38,
+  "slug": "french-chateau-sales-platform",
+  "client": "French Chateau",
+  "anonymous": true,
+  "publicName": "A French château sales platform",
+  "industry": "Luxury real estate",
+  "country": "France",
+  "sector": "staff-augmentation",
+  "services": [
+    "Web Development",
+    "UI/UX Design",
+    "Staff Augmentation"
+  ],
+  "summary": "A dedicated build team behind a platform selling châteaux to an international market.",
+  "challenge": "Before TDM, the business needed a complete website built from the ground up, including ideas, design direction, development, deployment, and launch support.",
+  "approach": [
+    "TDM managed the full website lifecycle from concept to launch. Our team handled planning, UI/UX design, development, deployment, and staff support, creating a polished digital platform that professionally presents luxury the business listings and supports future growth."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Website built from scratch"
+    },
+    {
+      "value": "50%",
+      "label": "Improved luxury property presentation"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger user experience"
+    },
+    {
+      "value": "35%",
+      "label": "Smoother launch execution"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM handled everything from idea to launch, giving us a polished website and reliable development support.",
+    "author": "Luxury real estate client, France"
+  },
+  "metaTitle": "Case Study: French château sales platform | TDM",
+  "metaDescription": "A dedicated build team behind a platform selling châteaux to an international market."
+}

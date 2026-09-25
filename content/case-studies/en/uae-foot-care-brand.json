@@ -1,0 +1,44 @@
+{
+  "order": 36,
+  "slug": "uae-foot-care-brand",
+  "client": "Baby Foot",
+  "anonymous": true,
+  "publicName": "A UAE foot-care brand",
+  "industry": "Beauty retail",
+  "country": "United Arab Emirates",
+  "sector": "marketing",
+  "services": [
+    "SEO Services",
+    "Online Presence Optimization",
+    "Lead Generation Strategy"
+  ],
+  "summary": "Search and lead-generation work for a personal-care brand in a crowded category.",
+  "challenge": "Before TDM, the brand needed stronger online visibility and a more optimized digital presence to attract potential customers and generate consistent leads.",
+  "approach": [
+    "TDM provided SEO services focused on improving website visibility, search performance, and online discoverability. By optimizing their digital presence and strengthening lead-focused search pathways, the brand was able to attract more relevant traffic and generate more customer enquiries."
+  ],
+  "results": [
+    {
+      "value": "50%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "40%",
+      "label": "Improved online presence"
+    },
+    {
+      "value": "35%",
+      "label": "More qualified leads"
+    },
+    {
+      "value": "30%",
+      "label": "Better customer discovery"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our online visibility through SEO and helped us generate more qualified leads from digital channels.",
+    "author": "Beauty retail client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE foot-care brand | TDM",
+  "metaDescription": "Search and lead-generation work for a personal-care brand in a crowded category."
+}

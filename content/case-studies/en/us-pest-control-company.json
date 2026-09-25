@@ -1,0 +1,44 @@
+{
+  "order": 43,
+  "slug": "us-pest-control-company",
+  "client": "Pest Control",
+  "anonymous": true,
+  "publicName": "A US pest-control company",
+  "industry": "Home services",
+  "country": "United States",
+  "sector": "marketing",
+  "services": [
+    "WordPress Development",
+    "SEO Optimization",
+    "Performance Marketing"
+  ],
+  "summary": "Local search and paid work for a service bought at the moment it is needed.",
+  "challenge": "Before TDM, the brand needed a stronger digital foundation with clearer trust-first messaging, better visibility, and a more conversion-ready user journey.",
+  "approach": [
+    "TDM aligned WordPress development, SEO, and performance marketing to sharpen the brand's online presence. We improved discoverability, strengthened service messaging, and created a clearer path from first impression to enquiry or sale."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "40%",
+      "label": "Easier lead capture flow"
+    },
+    {
+      "value": "35%",
+      "label": "Improved customer trust"
+    },
+    {
+      "value": "30%",
+      "label": "Higher enquiry potential"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our visibility, strengthened customer trust, and created an easier path for users to enquire.",
+    "author": "Home services client, United States"
+  },
+  "metaTitle": "Case Study: US pest-control company | TDM",
+  "metaDescription": "Local search and paid work for a service bought at the moment it is needed."
+}

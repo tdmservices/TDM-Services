@@ -1,0 +1,45 @@
+{
+  "order": 14,
+  "slug": "uae-health-and-fitness-coach",
+  "client": "Alaa Shakra",
+  "anonymous": true,
+  "publicName": "A UAE health and fitness coach",
+  "industry": "Health coaching",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "WordPress Website Development",
+    "Personal Branding",
+    "Lead Generation Integration",
+    "Mobile-Optimized UI/UX"
+  ],
+  "summary": "A personal-brand hub that moved a coaching practice off social media and into a platform it owns.",
+  "challenge": "Before TDM, the business relied heavily on social media and needed a professional digital hub to showcase her coaching expertise, programs, results, and client transformation journey.",
+  "approach": [
+    "TDM built a custom WordPress website aligned with her fitness brand, integrating booking and contact forms, clear CTAs, mobile optimization, and easy content management. The platform helped centralize her coaching business and convert visitors into potential trainees."
+  ],
+  "results": [
+    {
+      "value": "50%",
+      "label": "Improved client inquiry flow"
+    },
+    {
+      "value": "45%",
+      "label": "Better mobile experience"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger personal brand presence"
+    },
+    {
+      "value": "35%",
+      "label": "Higher coaching program visibility"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM gave my fitness brand a professional digital home that improved client inquiries and made my coaching programs easier to access.",
+    "author": "Health coaching client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE health and fitness coach | TDM",
+  "metaDescription": "A personal-brand hub that moved a coaching practice off social media and into a platform it owns."
+}

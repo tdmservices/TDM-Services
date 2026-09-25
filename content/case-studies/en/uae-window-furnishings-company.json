@@ -1,0 +1,44 @@
+{
+  "order": 41,
+  "slug": "uae-window-furnishings-company",
+  "client": "Meticulous Blinds",
+  "anonymous": true,
+  "publicName": "A UAE window-furnishings company",
+  "industry": "Home improvement",
+  "country": "United Arab Emirates",
+  "sector": "marketing",
+  "services": [
+    "WordPress Development",
+    "SEO Optimization",
+    "Performance Marketing"
+  ],
+  "summary": "Search and paid work for a fit-out business competing on local intent.",
+  "challenge": "Before TDM, the brand needed a stronger digital foundation with clearer positioning, better visibility, stronger trust signals, and a more conversion-ready user journey.",
+  "approach": [
+    "TDM aligned WordPress development, SEO, and performance marketing to sharpen the brand’ online presence. We improved discoverability, refined service presentation, and created a clearer path from first impression to enquiry or sale."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better lead capture journey"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Improved brand trust"
+    },
+    {
+      "value": "30%",
+      "label": "Higher enquiry potential"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our visibility, strengthened our digital presence, and created a clearer path for customers to trust and enquire.",
+    "author": "Home improvement client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE window-furnishings company | TDM",
+  "metaDescription": "Search and paid work for a fit-out business competing on local intent."
+}

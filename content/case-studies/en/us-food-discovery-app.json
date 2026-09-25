@@ -1,0 +1,44 @@
+{
+  "order": 40,
+  "slug": "us-food-discovery-app",
+  "client": "Filter to Fork",
+  "anonymous": true,
+  "publicName": "A US food-discovery app",
+  "industry": "Mobile apps",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "iOS App Development",
+    "Android App Development",
+    "App Deployment"
+  ],
+  "summary": "iOS and Android apps built, deployed and shipped to both stores.",
+  "challenge": "Before TDM, the brand needed a fully functional mobile app on an urgent timeline, with both iOS and Android versions developed, tested, and deployed without delays.",
+  "approach": [
+    "TDM managed the full mobile app development process from build to deployment. Our team structured the work around fast execution, platform-specific testing, and timely delivery, successfully launching both iOS and Android apps within the required deadline."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "iOS and Android apps delivered"
+    },
+    {
+      "value": "100%",
+      "label": "Deployed within deadline"
+    },
+    {
+      "value": "50%",
+      "label": "Faster digital launch readiness"
+    },
+    {
+      "value": "40%",
+      "label": "Improved mobile user accessibility"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM delivered our iOS and Android apps on time, helping us launch quickly with a fully functional mobile solution.",
+    "author": "Mobile apps client, United States"
+  },
+  "metaTitle": "Case Study: US food-discovery app | TDM",
+  "metaDescription": "iOS and Android apps built, deployed and shipped to both stores."
+}
