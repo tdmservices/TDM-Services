@@ -1,0 +1,44 @@
+{
+  "order": 27,
+  "slug": "uae-software-product-company",
+  "client": "Magnify",
+  "anonymous": true,
+  "publicName": "A UAE software product company",
+  "industry": "Technology",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "Custom Software Development",
+    "UI/UX Design",
+    "SEO Optimization"
+  ],
+  "summary": "Custom software with the interface and search visibility treated as part of the build.",
+  "challenge": "Before TDM, the business needed clearer product communication, stronger UX, better discoverability, and a more structured digital funnel to build trust and convert users in the tech market.",
+  "approach": [
+    "TDM aligned custom software development, UI/UX design, and SEO to sharpen the business's digital presence. We improved product clarity, optimized the user journey, and created a cleaner path from first impression to enquiry or sale."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better product communication"
+    },
+    {
+      "value": "40%",
+      "label": "Improved user experience"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger search discoverability"
+    },
+    {
+      "value": "30%",
+      "label": "Cleaner enquiry journey"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM helped us communicate our product better, improve user experience, and build a clearer path from discovery to conversion.",
+    "author": "Technology client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE software product company | TDM",
+  "metaDescription": "Custom software with the interface and search visibility treated as part of the build."
+}

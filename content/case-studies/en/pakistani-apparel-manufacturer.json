@@ -1,0 +1,44 @@
+{
+  "order": 32,
+  "slug": "pakistani-apparel-manufacturer",
+  "client": "NB Sons",
+  "anonymous": true,
+  "publicName": "A Pakistani apparel manufacturer",
+  "industry": "Apparel manufacturing",
+  "country": "Pakistan",
+  "sector": "media",
+  "services": [
+    "Website Design",
+    "Product Packaging Design",
+    "Packaging Print Management"
+  ],
+  "summary": "Packaging design and print management alongside the website, handled as one creative job.",
+  "challenge": "Before TDM, the brand needed a professional digital presence and market-ready packaging for its cosmetic and nutraceutical product lines to improve brand presentation and product appeal.",
+  "approach": [
+    "TDM designed the company website and created professional packaging designs for their cosmetic and nutraceutical products. We also managed the printing process, ensuring the final packaging was production-ready, visually polished, and aligned with the brand’s market positioning."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Website and packaging delivered"
+    },
+    {
+      "value": "50%",
+      "label": "Stronger product presentation"
+    },
+    {
+      "value": "40%",
+      "label": "Improved brand credibility"
+    },
+    {
+      "value": "35%",
+      "label": "Print-ready packaging execution"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM handled our website and packaging from design to printing, giving our products a more professional and market-ready look.",
+    "author": "Apparel manufacturing client, Pakistan"
+  },
+  "metaTitle": "Case Study: Pakistani apparel manufacturer | TDM",
+  "metaDescription": "Packaging design and print management alongside the website, handled as one creative job."
+}

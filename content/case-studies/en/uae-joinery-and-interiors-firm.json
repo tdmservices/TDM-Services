@@ -1,0 +1,44 @@
+{
+  "order": 42,
+  "slug": "uae-joinery-and-interiors-firm",
+  "client": "Multi Wood",
+  "anonymous": true,
+  "publicName": "A UAE joinery and interiors firm",
+  "industry": "Interiors",
+  "country": "United Arab Emirates",
+  "sector": "marketing",
+  "services": [
+    "WordPress Development",
+    "SEO Optimization",
+    "Performance Marketing"
+  ],
+  "summary": "Search and performance marketing for a joinery business selling considered purchases.",
+  "challenge": "Before TDM, the business needed a stronger digital foundation with clearer positioning, better visibility, stronger trust signals, and a more conversion-ready user journey.",
+  "approach": [
+    "TDM aligned WordPress development, SEO, and performance marketing to sharpen the business’s online presence. We improved discoverability, refined service presentation, and created a clearer path from first impression to enquiry or sale."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better lead capture journey"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Improved brand trust"
+    },
+    {
+      "value": "30%",
+      "label": "Higher enquiry potential"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our digital visibility, strengthened trust signals, and created a clearer path for customers to enquire.",
+    "author": "Interiors client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE joinery and interiors firm | TDM",
+  "metaDescription": "Search and performance marketing for a joinery business selling considered purchases."
+}

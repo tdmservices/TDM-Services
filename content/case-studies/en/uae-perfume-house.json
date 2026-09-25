@@ -1,0 +1,44 @@
+{
+  "order": 12,
+  "slug": "uae-perfume-house",
+  "client": "Mark Des Vince",
+  "anonymous": true,
+  "publicName": "A UAE perfume house",
+  "industry": "Perfume e-commerce",
+  "country": "United Arab Emirates",
+  "sector": "marketing",
+  "services": [
+    "SEO",
+    "Performance-marketing",
+    "Social Media Management"
+  ],
+  "summary": "Search, paid and social run together for a Gulf perfume brand, lifting product visibility and conversion.",
+  "challenge": "Before TDM, the brand needed a professional eCommerce platform to showcase its perfume collection, simplify product discovery, and support secure online purchases.",
+  "approach": [
+    "TDM developed a visually appealing Shopify store with responsive design, optimized product listings, product filters, shopping cart functionality, and secure payment gateways. The website improved user experience, supported SEO visibility, and created a smoother buying journey for fragrance customers."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Responsive shopping experience"
+    },
+    {
+      "value": "45%",
+      "label": "Improved product visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Better product browsing"
+    },
+    {
+      "value": "30%",
+      "label": "Higher conversion potential"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM built a polished Shopify store that improved product presentation, user experience, and the overall shopping journey.",
+    "author": "Perfume e-commerce client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE perfume house | TDM",
+  "metaDescription": "Search, paid and social run together for a Gulf perfume brand, lifting product visibility and conversion."
+}

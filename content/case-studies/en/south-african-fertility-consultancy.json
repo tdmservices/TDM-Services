@@ -1,0 +1,46 @@
+{
+  "order": 19,
+  "slug": "south-african-fertility-consultancy",
+  "client": "Future gen labs - IVF Consultancy",
+  "anonymous": true,
+  "publicName": "A South African fertility consultancy",
+  "industry": "Healthcare",
+  "country": "South Africa",
+  "sector": "development",
+  "services": [
+    "Web Platform Development",
+    "Process Automation",
+    "UI/UX Design",
+    "Appointment Scheduling Automation",
+    "Patient Data Management",
+    "Treatment Tracking",
+    "Data Security & Privacy Compliance",
+    "Testing & QA"
+  ],
+  "summary": "Scheduling, patient records and treatment tracking automated into one compliant platform.",
+  "challenge": "A fertility consultancy was running appointments, patient records and treatment tracking by hand, which does not scale and carries real privacy risk.",
+  "approach": [
+    "Built a web platform covering appointment scheduling, patient data and treatment tracking in one place, with the manual steps automated out.",
+    "Designed data handling around security and privacy compliance from the start, then tested the flows end to end before going live."
+  ],
+  "results": [
+    {
+      "value": "80%",
+      "label": "Faster appointment scheduling"
+    },
+    {
+      "value": "90%",
+      "label": "Reduced manual data handling"
+    },
+    {
+      "value": "70%",
+      "label": "Improved patient experience"
+    },
+    {
+      "value": "100%",
+      "label": "Reliable, secure system operations"
+    }
+  ],
+  "metaTitle": "Case Study: South African fertility consultancy | TDM",
+  "metaDescription": "Scheduling, patient records and treatment tracking automated into one compliant platform."
+}

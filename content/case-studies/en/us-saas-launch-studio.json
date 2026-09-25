@@ -1,0 +1,44 @@
+{
+  "order": 24,
+  "slug": "us-saas-launch-studio",
+  "client": "Swift Launch",
+  "anonymous": true,
+  "publicName": "A US SaaS launch studio",
+  "industry": "Technology",
+  "country": "United States",
+  "sector": "staff-augmentation",
+  "services": [
+    "Website Development",
+    "Staff Augmentation",
+    "Social Media Management"
+  ],
+  "summary": "A dedicated team plus website and social support for a studio launching products for others.",
+  "challenge": "Before TDM, the business needed reliable support to manage multiple online stores across eBay, Amazon, and TikTok Shop, while maintaining consistent operations, listings, and communication.",
+  "approach": [
+    "TDM provided staff augmentation by hiring and supervising dedicated resources to manage daily marketplace operations. We also supported website development and social media management, creating a more organized structure for store handling, team productivity, and digital growth."
+  ],
+  "results": [
+    {
+      "value": "3+",
+      "label": "Marketplaces managed efficiently"
+    },
+    {
+      "value": "50%",
+      "label": "Better store operation flow"
+    },
+    {
+      "value": "40%",
+      "label": "Improved team productivity"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger social media consistency"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM helped us manage multiple online stores with dedicated staff, better supervision, and a more organized digital operation.",
+    "author": "Technology client, United States"
+  },
+  "metaTitle": "Case Study: US SaaS launch studio | TDM",
+  "metaDescription": "A dedicated team plus website and social support for a studio launching products for others."
+}

@@ -1,0 +1,45 @@
+{
+  "order": 13,
+  "slug": "uk-lifestyle-matching-app",
+  "client": "Jollof Republik",
+  "anonymous": true,
+  "publicName": "A UK lifestyle matching app",
+  "industry": "Mobile apps",
+  "country": "United Kingdom",
+  "sector": "development",
+  "services": [
+    "Mobile App Development",
+    "Admin Panel Development",
+    "Matching Algorithm Development",
+    "App Marketing Strategy"
+  ],
+  "summary": "A matching platform built around food, lifestyle and local discovery rather than swipes alone.",
+  "challenge": "Before TDM, the business needed more than a standard dating app. The goal was to create a modern platform that connects people through shared lifestyle interests, food preferences, location, and local experiences.",
+  "approach": [
+    "TDM developed an interactive dating app with an advanced cuisine and location-based matching algorithm, rich media profiles, and local discovery features for restaurants, jobs, and events. The result was a unique dating ecosystem that blends social connection with real-world lifestyle planning."
+  ],
+  "results": [
+    {
+      "value": "60%",
+      "label": "Better user discovery experience"
+    },
+    {
+      "value": "45%",
+      "label": "Higher profile engagement"
+    },
+    {
+      "value": "40%",
+      "label": "Improved match relevance"
+    },
+    {
+      "value": "35%",
+      "label": "Easier app management through admin panels"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM built a unique dating app experience that goes beyond matching and helps users connect through lifestyle, food, and local discovery.",
+    "author": "Mobile apps client, United Kingdom"
+  },
+  "metaTitle": "Case Study: UK lifestyle matching app | TDM",
+  "metaDescription": "A matching platform built around food, lifestyle and local discovery rather than swipes alone."
+}

@@ -1,0 +1,43 @@
+{
+  "order": 39,
+  "slug": "uae-luxury-car-service",
+  "client": "Exotic Car Services",
+  "anonymous": true,
+  "publicName": "A UAE luxury car service",
+  "industry": "Automotive",
+  "country": "United Arab Emirates",
+  "sector": "development",
+  "services": [
+    "Website Redesign",
+    "Conversion-Focused Development"
+  ],
+  "summary": "A redesign focused on one thing: turning visits into bookings.",
+  "challenge": "Before TDM, the business already had a website, but it was not converting visitors effectively. The brand needed a more professional, sleek, and trust-building digital presence.",
+  "approach": [
+    "TDM revamped the website from the ground up with a cleaner layout, premium visuals, stronger service presentation, and a conversion-focused user journey. The new website helped improve credibility, user experience, and the path from visitor interest to enquiry."
+  ],
+  "results": [
+    {
+      "value": "50%",
+      "label": "Improved website experience"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger luxury brand presentation"
+    },
+    {
+      "value": "35%",
+      "label": "Better enquiry flow"
+    },
+    {
+      "value": "30%",
+      "label": "Higher conversion potential"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM transformed our outdated website into a sleek, professional platform that better represents our brand and supports more enquiries.",
+    "author": "Automotive client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE luxury car service | TDM",
+  "metaDescription": "A redesign focused on one thing: turning visits into bookings."
+}

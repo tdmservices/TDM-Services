@@ -1,0 +1,44 @@
+{
+  "order": 37,
+  "slug": "uae-logistics-operator",
+  "client": "Al-Eid International Logistics",
+  "anonymous": true,
+  "publicName": "A UAE logistics operator",
+  "industry": "Logistics",
+  "country": "United Arab Emirates",
+  "sector": "marketing",
+  "services": [
+    "WordPress Development",
+    "SEO Optimization",
+    "Social Media Management"
+  ],
+  "summary": "Search and social presence built for an operator whose clients start with a Google search.",
+  "challenge": "Before TDM, the business needed a stronger digital foundation with clearer service positioning, higher trust, better visibility, and a more conversion-ready enquiry journey.",
+  "approach": [
+    "TDM aligned WordPress development, SEO, and social media strategy to sharpen the business’ online presence. We improved discoverability, refined package presentation, and built a clearer path from first impression to enquiry."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Better package discovery"
+    },
+    {
+      "value": "40%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "35%",
+      "label": "Improved social media presence"
+    },
+    {
+      "value": "30%",
+      "label": "Smoother enquiry journey"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our digital visibility, strengthened customer trust, and made it easier for users to discover packages and enquire.",
+    "author": "Logistics client, United Arab Emirates"
+  },
+  "metaTitle": "Case Study: UAE logistics operator | TDM",
+  "metaDescription": "Search and social presence built for an operator whose clients start with a Google search."
+}

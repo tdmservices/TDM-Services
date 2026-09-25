@@ -1,0 +1,44 @@
+{
+  "order": 17,
+  "slug": "us-returns-and-fulfilment-operator",
+  "client": "Oro Returns and Fulfillment Center",
+  "anonymous": true,
+  "publicName": "A US returns and fulfilment operator",
+  "industry": "Logistics",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "Website Development",
+    "Custom Web Design",
+    "Google Sheets Integration",
+    "Data Tracking & Lead Management",
+    "Multi-Site Management",
+    "UX Optimization"
+  ],
+  "summary": "Five websites and a lead pipeline wired into Google Sheets for a multi-site fulfilment business.",
+  "challenge": "A fulfilment operator running several sites needed each one presented properly and every enquiry landing somewhere the team could actually work from.",
+  "approach": [
+    "Designed and built five websites under one consistent standard, so the group reads as one operation rather than five unrelated pages.",
+    "Wired lead capture straight into Google Sheets with tracking, giving the team one place to manage enquiries without new software to learn."
+  ],
+  "results": [
+    {
+      "value": "5+",
+      "label": "Professional websites delivered"
+    },
+    {
+      "value": "100%",
+      "label": "Efficient lead management via Google Sheets"
+    },
+    {
+      "value": "90%",
+      "label": "Improved operational efficiency"
+    },
+    {
+      "value": "100%",
+      "label": "Client satisfaction with polished UX"
+    }
+  ],
+  "metaTitle": "Case Study: US returns and fulfilment operator | TDM",
+  "metaDescription": "Five websites and a lead pipeline wired into Google Sheets for a multi-site fulfilment business."
+}

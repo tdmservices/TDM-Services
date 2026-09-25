@@ -1,0 +1,44 @@
+{
+  "order": 26,
+  "slug": "french-debt-recovery-firm",
+  "client": "Debt Collection France",
+  "anonymous": true,
+  "publicName": "A French debt-recovery firm",
+  "industry": "Legal services",
+  "country": "France",
+  "sector": "marketing",
+  "services": [
+    "WordPress Development",
+    "SEO Optimization",
+    "UI/UX Design"
+  ],
+  "summary": "Search visibility and a clearer user journey for a recovery practice in a trust-sensitive market.",
+  "challenge": "Before TDM, the business needed a stronger digital foundation in the law market, with clearer positioning, better visibility, stronger authority signals, and a more conversion-ready user journey.",
+  "approach": [
+    "TDM aligned WordPress development, SEO, and UI/UX design to sharpen the business's authority-first presence. We improved discoverability, refined trust-building service pages, and created a clearer path from first impression to qualified enquiry."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "40%",
+      "label": "Improved qualified enquiry flow"
+    },
+    {
+      "value": "35%",
+      "label": "Better trust-building user journey"
+    },
+    {
+      "value": "30%",
+      "label": "Clearer legal service positioning"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM helped us build a more authoritative digital presence with stronger visibility, trust-focused UX, and better enquiry flow.",
+    "author": "Legal services client, France"
+  },
+  "metaTitle": "Case Study: French debt-recovery firm | TDM",
+  "metaDescription": "Search visibility and a clearer user journey for a recovery practice in a trust-sensitive market."
+}

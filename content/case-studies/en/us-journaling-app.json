@@ -1,0 +1,45 @@
+{
+  "order": 25,
+  "slug": "us-journaling-app",
+  "client": "Muted Grace Daily Journal App",
+  "anonymous": true,
+  "publicName": "A US journaling app",
+  "industry": "Mobile apps",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "Mobile App Development",
+    "Admin Panel Development",
+    "User Management System",
+    "App UI/UX Development"
+  ],
+  "summary": "A daily journaling app with the admin and user management behind it built to match.",
+  "challenge": "Before TDM, the business needed a simple, calming, and user-friendly journal app where users could record daily thoughts while the backend remained easy to manage.",
+  "approach": [
+    "TDM developed the mobile app with a clean user experience focused on daily journaling, personal reflection, and smooth navigation. We also built an admin panel to manage users, content, and app activity, creating a scalable system for long-term app management."
+  ],
+  "results": [
+    {
+      "value": "60%",
+      "label": "Improved user journaling experience"
+    },
+    {
+      "value": "45%",
+      "label": "Better app usability"
+    },
+    {
+      "value": "40%",
+      "label": "Easier content and user management"
+    },
+    {
+      "value": "35%",
+      "label": "Stronger app scalability"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM built a smooth journaling app with an easy-to-manage admin panel that helped us launch a calm and scalable digital experience.",
+    "author": "Mobile apps client, United States"
+  },
+  "metaTitle": "Case Study: US journaling app | TDM",
+  "metaDescription": "A daily journaling app with the admin and user management behind it built to match."
+}

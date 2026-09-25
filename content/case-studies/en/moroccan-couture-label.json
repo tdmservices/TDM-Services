@@ -1,0 +1,45 @@
+{
+  "order": 16,
+  "slug": "moroccan-couture-label",
+  "client": "Zaineb Elkhayat",
+  "anonymous": true,
+  "publicName": "A Moroccan couture label",
+  "industry": "Luxury fashion",
+  "country": "Egypt",
+  "sector": "media",
+  "services": [
+    "Shopify eCommerce Development",
+    "Content Production",
+    "Product Photography & Videography",
+    "Luxury Brand Storytelling"
+  ],
+  "summary": "Product photography, video and brand storytelling behind a premium kaftan and kandoora store.",
+  "challenge": "Before TDM, the brand needed a premium digital platform that could reflect the elegance of its Moroccan Kaftan and Kandoora collections while supporting online sales.",
+  "approach": [
+    "TDM developed a responsive Shopify store tailored for Dubai’s luxury fashion audience. We combined high-end product photography, cinematic videos, and visual storytelling to highlight craftsmanship, improve trust, and create a refined click-to-couture shopping journey."
+  ],
+  "results": [
+    {
+      "value": "100%",
+      "label": "Luxury eCommerce experience"
+    },
+    {
+      "value": "45%",
+      "label": "Stronger product presentation"
+    },
+    {
+      "value": "40%",
+      "label": "Improved customer trust"
+    },
+    {
+      "value": "35%",
+      "label": "Better brand engagement"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM transformed our luxury fashion brand into a premium digital shopping experience with elegant visuals and seamless functionality.",
+    "author": "Luxury fashion client, Egypt"
+  },
+  "metaTitle": "Case Study: Moroccan couture label | TDM",
+  "metaDescription": "Product photography, video and brand storytelling behind a premium kaftan and kandoora store."
+}

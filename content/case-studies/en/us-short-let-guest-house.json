@@ -1,0 +1,44 @@
+{
+  "order": 21,
+  "slug": "us-short-let-guest-house",
+  "client": "BnB Guest House",
+  "anonymous": true,
+  "publicName": "A US short-let guest house",
+  "industry": "Hospitality",
+  "country": "United States",
+  "sector": "development",
+  "services": [
+    "Website Development",
+    "UI/UX Design",
+    "Mobile & Desktop Responsive Design",
+    "SEO Optimization",
+    "Content Writing",
+    "Property Management Marketing"
+  ],
+  "summary": "A responsive site built to turn property browsing into service enquiries.",
+  "challenge": "A short-let operator needed its properties presented well enough to convert browsing into enquiries, on mobile as much as desktop.",
+  "approach": [
+    "Built a fully responsive site with the property listings designed for engagement rather than as a bare grid.",
+    "Wrote the content and set the SEO foundations so the business could be found for the services it actually offers."
+  ],
+  "results": [
+    {
+      "value": "45%",
+      "label": "More website traffic"
+    },
+    {
+      "value": "35%",
+      "label": "Increased service inquiries"
+    },
+    {
+      "value": "50%",
+      "label": "Higher engagement on property listings"
+    },
+    {
+      "value": "100%",
+      "label": "Fully responsive website"
+    }
+  ],
+  "metaTitle": "Case Study: US short-let guest house | TDM",
+  "metaDescription": "A responsive site built to turn property browsing into service enquiries."
+}

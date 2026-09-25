@@ -1,0 +1,44 @@
+{
+  "order": 29,
+  "slug": "pakistani-food-brand",
+  "client": "Cheez Wala",
+  "anonymous": true,
+  "publicName": "A Pakistani food brand",
+  "industry": "Food & beverage",
+  "country": "Pakistan",
+  "sector": "marketing",
+  "services": [
+    "SEO Services",
+    "Online Presence Optimization",
+    "Lead Generation Strategy"
+  ],
+  "summary": "Search and local presence work that turned an unfound food brand into a discoverable one.",
+  "challenge": "Before TDM, the brand needed stronger online visibility and a more optimized digital presence to attract potential customers and generate consistent leads.",
+  "approach": [
+    "TDM provided SEO services focused on improving search performance, online discoverability, and lead-focused visibility. By optimizing the brand's digital presence, we helped the brand attract more relevant traffic and generate more customer enquiries."
+  ],
+  "results": [
+    {
+      "value": "50%",
+      "label": "Stronger search visibility"
+    },
+    {
+      "value": "40%",
+      "label": "Improved online presence"
+    },
+    {
+      "value": "35%",
+      "label": "More qualified leads"
+    },
+    {
+      "value": "30%",
+      "label": "Better customer discovery"
+    }
+  ],
+  "testimonial": {
+    "quote": "TDM improved our online visibility through SEO and helped us generate more qualified leads from digital channels.",
+    "author": "Food & beverage client, Pakistan"
+  },
+  "metaTitle": "Case Study: Pakistani food brand | TDM",
+  "metaDescription": "Search and local presence work that turned an unfound food brand into a discoverable one."
+}
