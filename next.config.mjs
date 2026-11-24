@@ -25,6 +25,8 @@ const vercelConfig = JSON.parse(
 /** @type {import("next").NextConfig} */
 const nextConfig = {
   trailingSlash: true,
+  // One designed 404 for addresses that match no route. See global-not-found.tsx.
+  experimental: { globalNotFound: true },
   redirects: async () => vercelConfig.redirects,
   headers: async () => vercelConfig.headers,
 };
