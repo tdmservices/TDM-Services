@@ -25,10 +25,10 @@ export const fr: ServiceGuides = {
         ],
       },
       {
-        heading: "À quoi s'attendre les trois premiers mois",
+        heading: "À quoi s'attendre une fois les campagnes lancées",
         body: [
-          "Les premières semaines sont consacrées aux fondations : vérification du suivi, restructuration des campagnes et définition des objectifs. Faire l'impasse sur cette étape est la raison la plus fréquente des mauvais résultats d'un compte, car toutes les décisions ultérieures reposent sur les données qu'elle produit.",
-          "Après le lancement, les plateformes publicitaires ont besoin d'une période d'apprentissage, en général quelques semaines de dépenses régulières, avant que les résultats se stabilisent. Le premier mois sert à trouver ce qui fonctionne, le deuxième à couper ce qui ne fonctionne pas, et le troisième à développer ce qui tient. Juger une campagne sur ses dix premiers jours conduit presque toujours à la mauvaise décision.",
+          "La première étape est consacrée aux fondations : vérification du suivi, restructuration des campagnes et définition des objectifs. Faire l'impasse sur cette étape est la raison la plus fréquente des mauvais résultats d'un compte, car toutes les décisions ultérieures reposent sur les données qu'elle produit.",
+          "Après le lancement, les plateformes publicitaires ont besoin d'une période d'apprentissage, avec des dépenses régulières, avant que les résultats se stabilisent. Le travail passe ensuite par trois étapes : trouver ce qui fonctionne, couper ce qui ne fonctionne pas, puis développer ce qui tient. La durée de chaque étape dépend de votre budget, de votre marché et des données dont le compte dispose déjà : le calendrier est donc convenu avec vous dans le plan. Juger une campagne sur ses tout premiers jours conduit presque toujours à la mauvaise décision.",
         ],
       },
       {
@@ -69,7 +69,7 @@ export const fr: ServiceGuides = {
       {
         heading: "À quoi s'attendre, et quand",
         body: [
-          "Le premier mois est consacré à un audit et à un plan : corrections techniques, recherche de mots-clés et liste des pages à créer ou à améliorer. Les deuxième et troisième mois voient la mise en ligne de la plupart des corrections et des premiers nouveaux contenus. Les positions commencent en général à bouger entre le troisième et le sixième mois, et une croissance significative des demandes ou des ventes suit le plus souvent à partir du sixième mois. Les sites récents et les marchés très concurrentiels demandent plus de temps.",
+          "Le travail commence par un audit et un plan : corrections techniques, recherche de mots-clés et liste des pages à créer ou à améliorer. Viennent ensuite la mise en ligne des corrections et des premiers nouveaux contenus, puis les positions commencent à bouger, et la croissance des demandes ou des ventes suit. Le SEO progresse graduellement : sa durée dépend du point de départ du site, de la force de la concurrence et du volume de contenu nécessaire. Les sites récents et les marchés très concurrentiels demandent plus de temps.",
           "Lancez notre audit SEO gratuit sur vos pages principales avant un premier appel. Il montre en quelques secondes ce qui manque sur la page elle-même et donne aux deux parties un point de départ.",
         ],
       },
@@ -111,8 +111,8 @@ export const fr: ServiceGuides = {
       {
         heading: "À quoi s'attendre, et quand",
         body: [
-          "Le premier mois pose les bases : un audit de vos profils, un plan de contenu, un style visuel et un calendrier que vous validez avant toute publication. À partir du deuxième mois, le rythme est régulier : le contenu est planifié et validé à l'avance, publié aux dates prévues et analysé chaque mois au regard des chiffres.",
-          "Les abonnés et l'engagement progressent graduellement. Trois mois constituent un délai raisonnable pour juger de la direction prise, et six pour juger des résultats.",
+          "Le travail commence par les bases : un audit de vos profils, un plan de contenu, un style visuel et un calendrier que vous validez avant toute publication. Le rythme devient ensuite régulier : le contenu est planifié et validé à l'avance, publié aux dates prévues et analysé régulièrement au regard des chiffres.",
+          "Les abonnés et l'engagement progressent graduellement. Le rythme dépend de votre point de départ, de votre marché et du volume de contenu et de promotion payante engagé : jugez donc la direction prise sur la durée, et non sur quelques publications.",
         ],
       },
       {
@@ -126,7 +126,7 @@ export const fr: ServiceGuides = {
     faqs: [
       { q: "À quelle fréquence une entreprise doit-elle publier sur les réseaux sociaux ?", a: "La régularité compte plus que le volume. Trois à cinq bonnes publications par semaine sur votre plateforme principale, avec des stories entre-temps, valent mieux que des publications quotidiennes auxquelles personne ne réagit. Choisissez un rythme que vous pourrez tenir pendant un an." },
       { q: "Quel réseau social convient le mieux à mon entreprise ?", a: "Celui où vos clients passent déjà du temps. Instagram et TikTok conviennent aux produits grand public visuels, LinkedIn aux services vendus à d'autres entreprises, et Facebook touche encore un public plus âgé et local. Mieux vaut bien gérer une ou deux plateformes que cinq médiocrement." },
-      { q: "En combien de temps les réseaux sociaux amènent-ils des clients ?", a: "Le contenu organique met généralement trois à six mois à constituer une audience qui achète. La promotion payante de vos meilleures publications raccourcit ce délai, car elle les montre à des personnes qui ne vous suivent pas encore." },
+      { q: "En combien de temps les réseaux sociaux amènent-ils des clients ?", a: "Cela dépend de votre marché, de votre fréquence de publication et de la promotion de vos meilleures publications. Le contenu organique constitue une audience graduellement. La promotion payante raccourcit ce délai, car elle montre vos publications à des personnes qui ne vous suivent pas encore." },
     ],
   },
   "development/wordpress": {
@@ -176,7 +176,7 @@ export const fr: ServiceGuides = {
       {
         heading: "Shopify est-il adapté à votre projet ?",
         body: [
-          "Shopify convient à la plupart des entreprises qui vendent des produits directement à leurs clients. L'hébergement, la sécurité, les paiements et les mises à jour sont pris en charge : votre temps est donc consacré aux produits et au marketing plutôt qu'à la maintenance. Une boutique peut être en ligne en quelques semaines.",
+          "Shopify convient à la plupart des entreprises qui vendent des produits directement à leurs clients. L'hébergement, la sécurité, les paiements et les mises à jour sont pris en charge : votre temps est donc consacré aux produits et au marketing plutôt qu'à la maintenance.",
           "Il convient moins bien lorsque votre catalogue ou votre tarification est particulièrement complexe, lorsque vous vendez surtout à d'autres entreprises avec des prix propres à chaque client, ou lorsque vous avez besoin de maîtriser entièrement le tunnel de commande et le code. Notre quiz « Choisir sa plateforme e-commerce » compare Shopify, WooCommerce, Magento et le développement sur mesure à partir de vos réponses.",
         ],
       },
@@ -207,7 +207,7 @@ export const fr: ServiceGuides = {
       },
     ],
     faqs: [
-      { q: "Combien de temps faut-il pour créer une boutique Shopify ?", a: "Une boutique fondée sur un thème personnalisé, avec un catalogue modeste, demande généralement quatre à huit semaines. Un design entièrement sur mesure, un grand catalogue ou une migration depuis une autre plateforme prennent plus de temps, surtout à cause du contenu, des données produits et des tests plutôt que du code." },
+      { q: "Combien de temps faut-il pour créer une boutique Shopify ?", a: "Cela dépend du design, de la taille du catalogue, des fonctionnalités nécessaires et d'une éventuelle migration depuis une autre plateforme. Une boutique fondée sur un thème personnalisé est la plus rapide à réaliser. Un design entièrement sur mesure, un grand catalogue ou une migration prennent plus de temps, surtout à cause du contenu, des données produits et des tests plutôt que du code. Nous indiquons un calendrier avec le devis, une fois votre brief étudié." },
       { q: "Ai-je besoin de Shopify Plus ?", a: "La plupart des boutiques n'en ont pas besoin. Plus s'adresse aux entreprises à fort volume qui ont besoin de personnaliser le tunnel de commande, de canaux de vente en gros, de plusieurs boutiques ou de limites d'API plus élevées. Il devient pertinent lorsque ce sont ces limites, et non le prix, qui vous freinent." },
       { q: "Puis-je transférer ma boutique existante vers Shopify ?", a: "Oui. Les produits, les clients et l'historique des commandes peuvent être transférés depuis WooCommerce, Magento et la plupart des autres plateformes. Le point qui demande du soin est la redirection de chaque ancienne adresse vers la nouvelle, afin de conserver le référencement et les liens." },
     ],
@@ -238,7 +238,7 @@ export const fr: ServiceGuides = {
         heading: "À quoi s'attendre",
         body: [
           "Un projet Magento se déroule par étapes : cadrage et spécifications, design, développement, intégration, migration des données, tests et mise en ligne. Le cadrage compte ici plus que sur toute autre plateforme, car les intégrations et les règles de prix décidées tardivement coûtent cher à modifier.",
-          "Les projets se comptent généralement en mois, pas en semaines. Après la mise en ligne, prévoyez les correctifs de sécurité, les montées de version et le travail sur les performances comme une ligne permanente du budget.",
+          "Le calendrier dépend du périmètre : nombre d'intégrations, de boutiques et de modules sur mesure, et état des données à migrer. Il est fixé pendant la phase de cadrage. Après la mise en ligne, prévoyez les correctifs de sécurité, les montées de version et le travail sur les performances comme une ligne permanente du budget.",
         ],
       },
       {
@@ -298,7 +298,7 @@ export const fr: ServiceGuides = {
     faqs: [
       { q: "Combien coûte un logiciel sur mesure ?", a: "Cela dépend du nombre de fonctionnalités, d'intégrations et de types d'utilisateurs : un chiffre réel exige donc des spécifications. Une courte phase de cadrage permet de les obtenir. Toute agence peut vous donner une fourchette approximative après un premier appel, et cette fourchette doit se resserrer à mesure que les besoins se précisent." },
       { q: "Forfait ou régie ?", a: "Le forfait convient aux travaux dont les besoins sont clairs et stables. La régie convient aux travaux pour lesquels vous prévoyez d'apprendre et de changer de cap en cours de route, puisque vous payez ce qui est réalisé. Beaucoup de projets combinent les deux : un prix fixe pour une première version définie, puis un budget mensuel pour les améliorations." },
-      { q: "Combien de temps faut-il pour développer une application web sur mesure ?", a: "Une première version ciblée demande couramment trois à six mois, des spécifications à la mise en ligne. Les plateformes plus importantes prennent plus de temps et gagnent à être livrées par étapes, chacune utilisable en tant que telle." },
+      { q: "Combien de temps faut-il pour développer une application web sur mesure ?", a: "Cela dépend du nombre de fonctionnalités, d'intégrations et de types d'utilisateurs, ainsi que de la clarté des besoins. La phase de cadrage fournit un calendrier en même temps que les spécifications. Les plateformes importantes gagnent à être livrées par étapes, chacune utilisable en tant que telle." },
     ],
   },
   "development/crm-erp": {
@@ -467,7 +467,7 @@ export const fr: ServiceGuides = {
     ],
     faqs: [
       { q: "Combien coûte un tournage vidéo professionnel ?", a: "Cela dépend du nombre de jours, de l'équipe, des intervenants, des lieux et du montage qui suit. Le tournage d'une interview dans un seul lieu coûte une fraction du prix d'un film publicitaire tourné sur plusieurs jours. Un brief clair, précisant le nombre de vidéos finales dont vous avez besoin, permet à une équipe de production d'établir un devis précis." },
-      { q: "Combien de temps dure une production vidéo du début à la fin ?", a: "Un projet simple demande couramment trois à six semaines : une à deux pour la préparation et l'écriture, un jour ou plus de tournage, et une à trois semaines de montage et de retouches. Les tournages complexes avec casting, décors ou animation prennent plus de temps." },
+      { q: "Combien de temps dure une production vidéo du début à la fin ?", a: "Cela dépend du brief : la préparation et l'écriture nécessaires, le nombre de jours de tournage, puis le montage et les retouches. Les tournages avec casting, décors ou animation prennent plus de temps. Une équipe de production peut donner un planning une fois le brief validé." },
       { q: "À qui appartiennent les images après le tournage ?", a: "C'est le contrat qui le fixe : convenez-en donc avant le jour J. Les entreprises souhaitent généralement détenir tous les droits sur les vidéos finales et sur les rushes. La musique et les personnes qui apparaissent à l'écran peuvent être soumises à leurs propres limites quant aux lieux et à la durée d'utilisation." },
     ],
   },
