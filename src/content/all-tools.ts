@@ -1,7 +1,7 @@
 import type { Faq, Locale } from "@/lib/types";
 import { TOOL_SLUGS, getTools } from "./tools";
 import { MORE_TOOL_SLUGS, getMoreTool } from "./more-tools";
-import { SERVICE_TOOL } from "@/lib/tool-defs";
+import { SERVICE_TOOLS } from "@/lib/tool-defs";
 
 /**
  * Every free tool, whichever way it is built: the three hand-built ones
@@ -30,8 +30,10 @@ export function getToolSummary(locale: Locale, slug: string): ToolSummary | unde
   return copy ? { slug, ...copy } : undefined;
 }
 
-/** The tool that belongs with a service or sector page, given its canonical path. */
-export function toolForService(locale: Locale, path: string): ToolSummary | undefined {
-  const slug = SERVICE_TOOL[path];
-  return slug && isTool(slug) ? getToolSummary(locale, slug) : undefined;
+/** The tools that belong with a service or sector page, given its canonical path. */
+export function toolsForService(locale: Locale, path: string): ToolSummary[] {
+  return (SERVICE_TOOLS[path] ?? [])
+    .filter(isTool)
+    .map((slug) => getToolSummary(locale, slug))
+    .filter((x): x is ToolSummary => Boolean(x));
 }

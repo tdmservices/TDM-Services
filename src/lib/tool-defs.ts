@@ -49,6 +49,8 @@ export interface BuilderDef {
   kind: "builder";
   slug: string;
   service: string;
+  /** Other service pages that should also show this tool. */
+  alsoFor?: string[];
   fields: FieldDef[];
   /**
    * The document, as lines. `t` looks up the tool's copy by key; `v` reads a
@@ -433,15 +435,150 @@ export const TOOL_DEFS: ToolDef[] = [
       return lines;
     },
   },
+  {
+    kind: "builder",
+    slug: "irresistible-offer-generator",
+    service: "/marketing/performance-marketing/",
+    alsoFor: ["/marketing/social-media/"],
+    fields: [
+      { id: "business", type: "text", required: true },
+      { id: "product", type: "text", required: true },
+      { id: "audience", type: "text", required: true },
+      { id: "pain", type: "textarea", required: true },
+      { id: "outcome", type: "text", required: true },
+      { id: "time", type: "text" },
+      { id: "effort", type: "text" },
+      { id: "proof", type: "textarea" },
+      { id: "price", type: "text" },
+      { id: "guarantee", type: "select", options: ["results", "moneyback", "conditional", "payafter", "none"] },
+      { id: "bonuses", type: "textarea" },
+      { id: "limit", type: "text" },
+      { id: "deadline", type: "text" },
+      { id: "cta", type: "select", options: ["call", "message", "claim", "buy", "visit"] },
+    ],
+    build(v, picked, t) {
+      const vals: Record<string, string> = {};
+      for (const k of ["business", "product", "audience", "pain", "outcome", "time", "effort", "proof", "price", "limit", "deadline"]) vals[k] = v(k);
+      const cap = (x: string) => x.charAt(0).toUpperCase() + x.slice(1);
+      const fill = (key: string) => cap(t(key).replace(/\{(\w+)\}/g, (_, k: string) => vals[k] ?? ""));
+      // A sentence is built from the parts that were answered, so a blank never leaves a hole.
+      const part = (key: string, when: string) => (v(when) ? t(key).replace(/\{(\w+)\}/g, (_, k: string) => vals[k] ?? "") : "");
+      const g = v("guarantee");
+      const cta = t(`doc.cta.${v("cta")}`);
+      const bonuses = v("bonuses").split("\n").map((b) => b.trim()).filter(Boolean);
+
+      const sentence = [fill("doc.s.base"), part("doc.s.time", "time"), part("doc.s.effort", "effort")].join("") + t("doc.s.end");
+      const lines = [`# ${t("doc.title")}: ${v("business")}`, "", `# ${t("doc.sentence")}`, sentence];
+      if (g !== "none") lines.push(fill(`doc.g.${g}.short`));
+
+      lines.push("", `# ${t("doc.names")}`);
+      lines.push(`- ${fill(v("time") ? "doc.n1" : "doc.n1.notime")}`, `- ${fill("doc.n2")}`);
+      if (v("effort")) lines.push(`- ${fill("doc.n3")}`);
+
+      // The four things that decide how valuable an offer feels.
+      lines.push("", `# ${t("doc.value")}`);
+      lines.push(`- ${t("doc.v.outcome")}: ${t("doc.v.ok")} ${v("outcome")}`);
+      lines.push(`- ${t("doc.v.belief")}: ${v("proof") || g !== "none" ? t("doc.v.ok") : t("doc.v.weak")} ${v("proof") || g !== "none" ? t("doc.v.belief.ok") : t("doc.v.belief.fix")}`);
+      lines.push(`- ${t("doc.v.time")}: ${v("time") ? `${t("doc.v.ok")} ${v("time")}` : `${t("doc.v.weak")} ${t("doc.v.time.fix")}`}`);
+      lines.push(`- ${t("doc.v.effort")}: ${v("effort") ? `${t("doc.v.ok")} ${fill("doc.v.effort.ok")}` : `${t("doc.v.weak")} ${t("doc.v.effort.fix")}`}`);
+
+      lines.push("", `# ${t("doc.stack")}`, `- ${v("product")}${v("price") ? ` (${v("price")})` : ""}`);
+      if (bonuses.length) lines.push(...bonuses.map((b) => `- ${t("doc.bonus")}: ${b}`));
+      else lines.push(t("doc.bonus.fix"));
+
+      lines.push("", `# ${t("doc.guarantee")}`, fill(`doc.g.${g}`));
+
+      lines.push("", `# ${t("doc.now")}`);
+      if (v("limit")) lines.push(`- ${fill("doc.now.limit")}`);
+      if (v("deadline")) lines.push(`- ${fill("doc.now.deadline")}`);
+      if (!v("limit") && !v("deadline")) lines.push(t("doc.now.fix"));
+
+      lines.push("", `# ${t("doc.hooks")}`, `- ${fill("doc.h1")}`, `- ${fill("doc.h2")}`, `- ${fill(v("time") ? "doc.h3" : "doc.h3.notime")}`);
+
+      lines.push("", `# ${t("doc.ad")}`, fill("doc.ad.1"), sentence);
+      if (v("proof")) lines.push(fill("doc.ad.proof"));
+      if (bonuses.length) lines.push(`${t("doc.ad.bonus")} ${bonuses.join(", ")}.`);
+      if (g !== "none") lines.push(fill(`doc.g.${g}.short`));
+      if (v("limit")) lines.push(fill("doc.now.limit"));
+      if (v("deadline")) lines.push(fill("doc.now.deadline"));
+      lines.push(cta);
+
+      lines.push("", `# ${t("doc.post")}`, fill("doc.post.1"), fill("doc.post.2"), sentence, cta);
+      lines.push("", `# ${t("doc.check")}`, ...["k1", "k2", "k3", "k4"].map((k) => `- ${t(`doc.${k}`)}`));
+      return lines;
+    },
+  },
+  {
+    kind: "builder",
+    slug: "social-media-calendar-generator",
+    service: "/marketing/social-media/",
+    fields: [
+      { id: "business", type: "text", required: true },
+      { id: "topic", type: "text", required: true },
+      { id: "audience", type: "text" },
+      { id: "goal", type: "select", options: ["sales", "leads", "awareness", "community"] },
+      { id: "platforms", type: "multi", options: ["instagram", "tiktok", "facebook", "linkedin", "youtube", "x"] },
+      { id: "perWeek", type: "select", options: ["3", "4", "5", "7"] },
+      { id: "weeks", type: "select", options: ["4", "2", "1"] },
+      { id: "offer", type: "text" },
+    ],
+    build(v, picked, t) {
+      const vals: Record<string, string> = { business: v("business"), topic: v("topic"), audience: v("audience") || t("doc.audienceDefault"), offer: v("offer") || t("doc.offerDefault") };
+      const fill = (key: string) => t(key).replace(/\{(\w+)\}/g, (_, k: string) => vals[k] ?? "");
+      // The goal sets how the five kinds of post are mixed across a week.
+      const MIX: Record<string, string[]> = {
+        sales: ["teach", "proof", "offer", "teach", "behind", "offer", "engage"],
+        leads: ["teach", "proof", "teach", "offer", "engage", "teach", "behind"],
+        awareness: ["teach", "engage", "behind", "teach", "proof", "engage", "teach"],
+        community: ["engage", "behind", "teach", "engage", "proof", "behind", "offer"],
+      };
+      const DAYS: Record<string, number[]> = { "3": [1, 3, 5], "4": [1, 2, 4, 6], "5": [1, 2, 3, 4, 5], "7": [1, 2, 3, 4, 5, 6, 7] };
+      const mix = MIX[v("goal")] ?? MIX.sales;
+      const days = DAYS[v("perWeek")] ?? DAYS["3"];
+      const weeks = Number(v("weeks")) || 4;
+      const used: Record<string, number> = {};
+
+      const lines = [`# ${t("doc.title")}: ${v("business")}`, `${t("f.goal")}: ${t(`o.goal.${v("goal")}`)} · ${days.length} ${t("doc.perWeek")} · ${weeks} ${t("doc.weeks")}`];
+      const platforms = picked("platforms");
+      if (platforms.length) lines.push(`${t("f.platforms")}: ${platforms.map((p) => t(`o.platforms.${p}`)).join(", ")}`);
+
+      for (let w = 1; w <= weeks; w++) {
+        lines.push("", `# ${t("doc.week")} ${w}: ${t(`doc.theme.${((w - 1) % 4) + 1}`)}`);
+        days.forEach((d, i) => {
+          const pillar = mix[i % mix.length];
+          const idea = (used[pillar] = (used[pillar] ?? 0) + 1);
+          lines.push(`- ${t(`doc.day.${d}`)} · ${t(`doc.p.${pillar}`)} · ${fill(`doc.i.${pillar}.${((idea - 1) % 6) + 1}`)}`);
+        });
+      }
+
+      lines.push("", `# ${t("doc.mix")}`, ...["teach", "proof", "behind", "offer", "engage"].map((p) => `- ${t(`doc.p.${p}`)}: ${t(`doc.why.${p}`)}`));
+      if (platforms.length) lines.push("", `# ${t("doc.adapt")}`, ...platforms.map((p) => `- ${t(`o.platforms.${p}`)}: ${t(`doc.a.${p}`)}`));
+      lines.push("", `# ${t("doc.rules")}`, ...["r1", "r2", "r3", "r4"].map((k) => `- ${t(`doc.${k}`)}`));
+      return lines;
+    },
+  },
 ];
 
 export const getToolDef = (slug: string) => TOOL_DEFS.find((d) => d.slug === slug);
 
-/** Which tool belongs with each service or sector page. */
-export const SERVICE_TOOL: Record<string, string> = {
+/** Which tools belong with each service or sector page, the main one first. */
+const SERVICE_MAIN: Record<string, string> = {
   "/marketing/performance-marketing/": "roas-calculator",
   "/marketing/seo/": "seo-audit",
+  "/marketing/social-media/": "engagement-rate-calculator",
   "/staff-augmentation/": "staff-augmentation-calculator",
   "/development/wordpress/": "wordpress-security-checker",
-  ...Object.fromEntries(TOOL_DEFS.map((d) => [d.service, d.slug])),
 };
+
+export const SERVICE_TOOLS: Record<string, string[]> = (() => {
+  const map: Record<string, string[]> = {};
+  const add = (path: string, slug: string) => {
+    if (!(map[path] ??= []).includes(slug)) map[path].push(slug);
+  };
+  for (const [path, slug] of Object.entries(SERVICE_MAIN)) add(path, slug);
+  for (const d of TOOL_DEFS) {
+    add(d.service, d.slug);
+    for (const extra of d.kind === "builder" ? (d.alsoFor ?? []) : []) add(extra, d.slug);
+  }
+  return map;
+})();
