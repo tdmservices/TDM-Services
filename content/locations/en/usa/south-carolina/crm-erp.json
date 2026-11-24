@@ -5,15 +5,14 @@
   "service": "development/crm-erp",
   "title": "CRM and ERP Development in South Carolina",
   "metaTitle": "CRM and ERP Development in South Carolina | TDM",
-  "metaDescription": "Custom CRM and ERP systems for South Carolina manufacturers, suppliers, logistics firms and service businesses: sales, inventory, finance and operations in one place.",
+  "metaDescription": "Custom CRM and ERP systems for South Carolina manufacturers, suppliers, logistics firms and service businesses: sales, inventory, finance and operations.",
   "lead": "TDM (The Digital Marketing Services) builds custom CRM and ERP systems for South Carolina businesses: a CRM shaped around how your team sells, and ERP modules for inventory, purchasing, HR, finance and operations. Much of the state's economy makes, moves or stores physical goods, from Upstate suppliers to warehouses near the Port of Charleston, and that is the kind of company that outgrows spreadsheets first.",
   "sections": [
     {
       "heading": "Why South Carolina companies outgrow spreadsheets",
       "paragraphs": [
         "The Upstate is built around manufacturing. BMW assembles vehicles in Spartanburg County, Michelin runs its North American business from Greenville, and around them sit many smaller suppliers of parts, tooling, plastics, packaging and services. A supplier in that chain lives on delivery dates, lot traceability and accurate stock. When quotes sit in one file, orders in another and inventory in a third, the mistakes show up as late shipments.",
-        "The Lowcountry has a similar pattern with different goods. Boeing builds aircraft in North Charleston, Volvo builds cars in Berkeley County, and the port feeds warehouses, freight forwarders and trucking firms along I-26 and up to the inland port at Greer. These companies track containers, appointments, storage and billing, often across more than one site.",
-        "Then there are the businesses that sell time rather than goods: contractors, medical practices, property managers on the coast, staffing firms. Their problem is usually the customer record. Leads arrive by phone, web form and referral, and nobody can see which ones were followed up."
+        "The Lowcountry has a similar pattern with different goods. Boeing builds aircraft in North Charleston, Volvo builds cars in Berkeley County, and the port feeds warehouses, freight forwarders and trucking firms along I-26 and up to the inland port at Greer. These companies track containers, appointments, storage and billing, often across more than one site."
       ]
     },
     {
@@ -25,7 +24,6 @@
         "CRM: lead capture, pipeline stages, contact histories, task automation and follow-up workflows.",
         "Inventory and warehouse: stock by location, purchasing, receiving and movements between sites.",
         "Finance: invoicing and expenses, connected to the accounting software you already use.",
-        "HR: attendance and payroll records for shift-based and multi-site teams.",
         "Dashboards by role, so a plant manager, a sales lead and an owner each see their own numbers.",
         "Role-based access, so staff see only what their job requires."
       ]
@@ -47,20 +45,45 @@
   "cards": {
     "heading": "Where we see the need in South Carolina",
     "items": [
-      { "title": "Upstate suppliers", "text": "Quotes, orders, production status and stock in one system, with the delivery history a large buyer will ask for." },
-      { "title": "Warehousing and freight", "text": "Receiving, storage, appointments and billing tracked per customer for operators around Charleston, Greer and the interstates." },
-      { "title": "Coastal property and hospitality", "text": "Owner, guest and maintenance records for rental managers in Myrtle Beach, Hilton Head and the Charleston islands." },
-      { "title": "Contractors and trades", "text": "Leads, estimates, jobs and invoices linked, so follow-up does not depend on one person's memory." },
-      { "title": "Healthcare and education suppliers", "text": "Companies selling to hospital systems and universities need long sales cycles and contract renewals tracked properly." },
-      { "title": "Growing family businesses", "text": "A first real system for a company that has run on spreadsheets and one long-serving office manager." }
+      {
+        "title": "Upstate suppliers",
+        "text": "Quotes, orders, production status and stock in one system, with the delivery history a large buyer will ask for."
+      },
+      {
+        "title": "Warehousing and freight",
+        "text": "Receiving, storage, appointments and billing tracked per customer for operators around Charleston, Greer and the interstates."
+      },
+      {
+        "title": "Coastal property and hospitality",
+        "text": "Owner, guest and maintenance records for rental managers in Myrtle Beach, Hilton Head and the Charleston islands."
+      },
+      {
+        "title": "Contractors and trades",
+        "text": "Leads, estimates, jobs and invoices linked, so follow-up does not depend on one person's memory."
+      },
+      {
+        "title": "Healthcare and education suppliers",
+        "text": "Companies selling to hospital systems and universities need long sales cycles and contract renewals tracked properly."
+      }
     ]
   },
   "presence": "A member of our team is based in South Carolina, so you can speak with someone who knows the state. Design and development are delivered remotely by our wider team, with calls, demos and progress reviews on a schedule agreed with you.",
   "faqs": [
-    { "q": "Do you build CRM and ERP software for South Carolina manufacturers?", "a": "Yes. We build custom CRM and ERP modules for manufacturers and suppliers, covering sales, inventory, purchasing, finance and operations. We start from how your plant and office actually work, then build the modules you need first." },
-    { "q": "Is a custom ERP better than buying an existing product?", "a": "Not always. If a standard product fits your process, buy it. Custom makes sense when your workflow is unusual, when per-seat fees keep growing as you hire, or when you are stitching several tools together by hand. We will tell you which case you are in." },
-    { "q": "How much does a custom CRM or ERP cost?", "a": "It depends on the number of modules, the integrations and the amount of data to migrate. We quote after a free consultation, once we understand your process and what is already in place." },
-    { "q": "How long does it take to build?", "a": "It depends on your requirements and the brief. A single module is a very different project from a full system. The timeline is agreed in the project plan before work starts, and modules are released one at a time." },
-    { "q": "Can you connect the system to our accounting software and website?", "a": "Yes. Integrations with your website, online store, accounting tools, email, payment gateways and logistics providers are a standard part of the work, so data is entered once and flows where it is needed." }
+    {
+      "q": "Do you build CRM and ERP software for South Carolina manufacturers?",
+      "a": "Yes. We build custom CRM and ERP modules for manufacturers and suppliers, covering sales, inventory, purchasing, finance and operations. We start from how your plant and office actually work, then build the modules you need first."
+    },
+    {
+      "q": "Is a custom ERP better than buying an existing product?",
+      "a": "Not always. If a standard product fits your process, buy it. Custom makes sense when your workflow is unusual, when per-seat fees keep growing as you hire, or when you are stitching several tools together by hand. We will tell you which case you are in."
+    },
+    {
+      "q": "How much does a custom CRM or ERP cost?",
+      "a": "It depends on the number of modules, the integrations and the amount of data to migrate. We quote after a free consultation, once we understand your process and what is already in place."
+    },
+    {
+      "q": "How long does it take to build?",
+      "a": "It depends on your requirements and the brief. A single module is a very different project from a full system. The timeline is agreed in the project plan before work starts, and modules are released one at a time."
+    }
   ]
 }

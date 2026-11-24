@@ -24,7 +24,6 @@
       "bullets": [
         "Separate campaigns and budgets for each metro, never one statewide ad group.",
         "Suburb-level landing pages for businesses that serve wide areas.",
-        "Call tracking, since many Texas service customers still pick up the phone.",
         "Seasonal budgets for trades tied to heat and storms."
       ]
     },
@@ -38,27 +37,56 @@
     {
       "heading": "Business-to-business in the Texas economy",
       "paragraphs": [
-        "Much of the state's economy sells to other companies: oilfield services, engineering, construction, logistics, software. These buyers take longer to decide and involve more people. For them we concentrate on search visibility for specific technical needs, clear capability and case pages on the site, and paid campaigns aimed at job roles rather than broad audiences. Local identity also carries weight in Texas, so a firm that is Texas owned and operated should say so plainly."
+        "Much of the state's economy sells to other companies: oilfield services, engineering, construction, logistics, software. These buyers take longer to decide and involve more people. For them we concentrate on search visibility for specific technical needs, clear capability and case pages on the site, and paid campaigns aimed at job roles rather than broad audiences."
       ]
     }
   ],
   "cards": {
     "heading": "Texas sectors we plan campaigns for",
     "items": [
-      { "title": "Energy and oilfield services", "text": "Houston and Permian Basin suppliers need technical content and targeted outreach to engineers and procurement teams." },
-      { "title": "Home services", "text": "HVAC, roofing, plumbing and pest control firms compete in the map results across fast-growing suburbs." },
-      { "title": "Healthcare", "text": "Practices and clinics around the big medical centres need clear service pages, reviews and compliant ad wording." },
-      { "title": "Technology and SaaS", "text": "Austin and Dallas software firms need search content, paid acquisition and sites that turn trials into customers." },
-      { "title": "Restaurants and food brands", "text": "Tex-Mex, barbecue and new concepts rely on short video, local search and an active social presence." },
-      { "title": "Construction and real estate", "text": "Builders, developers and agents market to newcomers arriving from other states." }
+      {
+        "title": "Energy and oilfield services",
+        "text": "Houston and Permian Basin suppliers need technical content and targeted outreach to engineers and procurement teams."
+      },
+      {
+        "title": "Home services",
+        "text": "HVAC, roofing, plumbing and pest control firms compete in the map results across fast-growing suburbs."
+      },
+      {
+        "title": "Healthcare",
+        "text": "Practices and clinics around the big medical centres need clear service pages, reviews and compliant ad wording."
+      },
+      {
+        "title": "Technology and SaaS",
+        "text": "Austin and Dallas software firms need search content, paid acquisition and sites that turn trials into customers."
+      },
+      {
+        "title": "Restaurants and food brands",
+        "text": "Tex-Mex, barbecue and new concepts rely on short video, local search and an active social presence."
+      }
     ]
   },
   "presence": "We work with Texas businesses remotely. Meetings are held by video call, reporting is shared online, and strategy, design, development and video are delivered by one team.",
   "faqs": [
-    { "q": "Do you have an office in Texas?", "a": "No. We work with businesses in Texas remotely, by video call and shared reporting, with a plan and schedule agreed with you." },
-    { "q": "How much does it cost to hire a marketing agency in Texas?", "a": "It depends on scope: the channels, the number of locations and how competitive your trade is in your metro. We quote after a free consultation." },
-    { "q": "Should I advertise differently in Houston and Dallas?", "a": "Yes. The industries, suburbs, competitors and ad costs are different. We set up each metro as its own campaign with its own keywords, pages and budget." },
-    { "q": "Do Texas businesses need Spanish-language ads?", "a": "Many do, particularly in San Antonio, El Paso, the Rio Grande Valley and parts of Houston. We check who your customers are before recommending Spanish or bilingual campaigns." },
-    { "q": "How soon will I see results from SEO in Texas?", "a": "It depends on your requirements, your starting point and the competition in your market. The timeline is agreed in the plan before work begins." }
+    {
+      "q": "Do you have an office in Texas?",
+      "a": "No. We work with businesses in Texas remotely, by video call and shared reporting, with a plan and schedule agreed with you."
+    },
+    {
+      "q": "How much does it cost to hire a marketing agency in Texas?",
+      "a": "It depends on scope: the channels, the number of locations and how competitive your trade is in your metro. We quote after a free consultation."
+    },
+    {
+      "q": "Should I advertise differently in Houston and Dallas?",
+      "a": "Yes. The industries, suburbs, competitors and ad costs are different. We set up each metro as its own campaign with its own keywords, pages and budget."
+    },
+    {
+      "q": "Do Texas businesses need Spanish-language ads?",
+      "a": "Many do, particularly in San Antonio, El Paso, the Rio Grande Valley and parts of Houston. We check who your customers are before recommending Spanish or bilingual campaigns."
+    },
+    {
+      "q": "How soon will I see results from SEO in Texas?",
+      "a": "It depends on your requirements, your starting point and the competition in your market. The timeline is agreed in the plan before work begins."
+    }
   ]
 }

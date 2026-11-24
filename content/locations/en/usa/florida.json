@@ -4,7 +4,7 @@
   "kind": "state",
   "title": "Digital Marketing Agency in Florida",
   "metaTitle": "Digital Marketing Agency in Florida | TDM",
-  "metaDescription": "Digital marketing for Florida businesses: SEO, paid ads, social media, websites and video, planned around seasons, tourism and bilingual buyers. Team member in Miami.",
+  "metaDescription": "Digital marketing for Florida businesses: SEO, paid ads, social media, websites and video, planned around seasons, tourism and bilingual buyers.",
   "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works with Florida businesses on SEO, paid advertising, social media, websites and video. Florida's customers change with the month: residents all year, winter residents from the north, holidaymakers, cruise passengers and buyers from Latin America. We plan marketing around who is in the state, and in your part of it, at the time you need them.",
   "sections": [
     {
@@ -31,8 +31,7 @@
       "heading": "Who is searching, and in which language",
       "paragraphs": [
         "Spanish is an everyday business language in Miami-Dade and widely used around Orlando and Tampa. South Florida also has Portuguese and Haitian Creole speakers. For many trades, Spanish keywords are less contested and cheaper to advertise on than their English equivalents, so a bilingual campaign can be a matter of cost as much as courtesy.",
-        "Florida also has a large retired population. Older customers search and compare online like anyone else, but they tend to prefer a phone call to a form, read reviews carefully and respond to plain wording and legible pages. Sites for healthcare, legal, financial and home services should make the phone number obvious and the next step simple.",
-        "Many buyers are not in Florida yet. People planning a move, a holiday or a property purchase search from other states and other countries, so campaigns often need to reach beyond the state while the landing pages stay local."
+        "Florida also has a large retired population. Older customers search and compare online like anyone else, but they tend to prefer a phone call to a form, read reviews carefully and respond to plain wording and legible pages. Sites for healthcare, legal, financial and home services should make the phone number obvious and the next step simple."
       ]
     },
     {
@@ -45,20 +44,49 @@
   "cards": {
     "heading": "Florida industries and what they need",
     "items": [
-      { "title": "Tourism and attractions", "text": "Hotels, tours and attractions need to be found during trip planning, with ads timed to school holidays and winter travel." },
-      { "title": "Vacation rentals", "text": "Owners and managers in Orlando and on both coasts rely on photography, direct-booking sites and campaigns that reduce dependence on listing platforms." },
-      { "title": "Home services", "text": "Roofing, air conditioning, pool and restoration firms win on map rankings, reviews and ads that can be scaled up after a storm." },
-      { "title": "Healthcare and senior living", "text": "Practices and communities need clear pages, careful ad wording and an easy way to call." },
-      { "title": "Real estate and relocation", "text": "Agents, builders and movers market to people who are still living in another state or country." },
-      { "title": "Marine and boating", "text": "Dealers, charters and marinas sell a visual product, suited to video, social media and seasonal search campaigns." }
+      {
+        "title": "Tourism and attractions",
+        "text": "Hotels, tours and attractions need to be found during trip planning, with ads timed to school holidays and winter travel."
+      },
+      {
+        "title": "Vacation rentals",
+        "text": "Owners and managers in Orlando and on both coasts rely on photography, direct-booking sites and campaigns that reduce dependence on listing platforms."
+      },
+      {
+        "title": "Home services",
+        "text": "Roofing, air conditioning, pool and restoration firms win on map rankings, reviews and ads that can be scaled up after a storm."
+      },
+      {
+        "title": "Healthcare and senior living",
+        "text": "Practices and communities need clear pages, careful ad wording and an easy way to call."
+      },
+      {
+        "title": "Real estate and relocation",
+        "text": "Agents, builders and movers market to people who are still living in another state or country."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami. The wider team works remotely with businesses across Florida, from the Panhandle to the Keys, and delivers the strategy, design, development and video.",
   "faqs": [
-    { "q": "Does TDM have anyone in Florida?", "a": "Yes. A member of our team is based in Miami. Work for clients elsewhere in Florida is delivered remotely by the wider team, with regular calls and shared reporting." },
-    { "q": "How should a Florida business budget for the off-season?", "a": "Reduce spend on demand that is not there and use the quiet months for work that pays later: search content, reviews, site improvements and creative. The split depends on your trade and region and is set in the plan." },
-    { "q": "Do I need Spanish-language marketing in Florida?", "a": "In South and Central Florida it is often worth it. Elsewhere it depends on your customers. We check your customer base and local search terms before recommending it." },
-    { "q": "How much do digital marketing services cost in Florida?", "a": "It depends on the scope of work, the channels and the competition in your area. We provide a quote after a free consultation." },
-    { "q": "Can you run campaigns in several Florida cities?", "a": "Yes. We set up separate keywords, landing pages, budgets and business profiles for each location, so Tampa is not competing with Orlando for the same spend." }
+    {
+      "q": "Does TDM have anyone in Florida?",
+      "a": "Yes. A member of our team is based in Miami. Work for clients elsewhere in Florida is delivered remotely by the wider team, with regular calls and shared reporting."
+    },
+    {
+      "q": "How should a Florida business budget for the off-season?",
+      "a": "Reduce spend on demand that is not there and use the quiet months for work that pays later: search content, reviews, site improvements and creative. The split depends on your trade and region and is set in the plan."
+    },
+    {
+      "q": "Do I need Spanish-language marketing in Florida?",
+      "a": "In South and Central Florida it is often worth it. Elsewhere it depends on your customers. We check your customer base and local search terms before recommending it."
+    },
+    {
+      "q": "How much do digital marketing services cost in Florida?",
+      "a": "It depends on the scope of work, the channels and the competition in your area. We provide a quote after a free consultation."
+    },
+    {
+      "q": "Can you run campaigns in several Florida cities?",
+      "a": "Yes. We set up separate keywords, landing pages, budgets and business profiles for each location, so Tampa is not competing with Orlando for the same spend."
+    }
   ]
 }

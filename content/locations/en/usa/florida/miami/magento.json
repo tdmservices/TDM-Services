@@ -1,0 +1,67 @@
+{
+  "slug": "usa/florida/miami/magento",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/magento",
+  "title": "Magento Development Agency in Miami",
+  "metaTitle": "Magento Development Agency in Miami, FL | TDM",
+  "metaDescription": "Magento and Adobe Commerce development for Miami distributors, exporters and retailers: B2B catalogs, multi-store setups, ERP integration, upgrades and support.",
+  "lead": "TDM (The Digital Marketing Services) builds, upgrades and supports Magento stores, including Adobe Commerce, for Miami companies with large catalogs or complicated selling rules. That describes much of the city's trade economy: distributors, wholesalers and exporters around Doral, Medley and the airport who sell electronics, auto parts, medical supplies, fragrances and consumer goods to business buyers across Latin America and the Caribbean as well as in the United States.",
+  "sections": [
+    {
+      "heading": "Why Magento suits Miami's trade businesses",
+      "paragraphs": [
+        "Miami is a gateway for goods moving between the United States and Latin America. Its airport handles a great deal of international cargo, PortMiami and Port Everglades are close by, and the warehouse districts west of the airport are full of companies whose customers are other businesses abroad. Those companies do not sell the way a consumer brand does. A buyer in Panama may have negotiated prices, a credit limit, a minimum order and a preferred freight forwarder. A buyer in Brazil needs the catalog in Portuguese. A sales rep wants to place orders on a client's behalf.",
+        "Magento handles this kind of selling well. It supports customer-specific price lists, company accounts with several users, quote requests, and separate storefronts for different countries, languages and currencies, all managed from one back office. It also copes with catalogs of tens of thousands of items with many attributes, which is common in parts and electronics.",
+        "It is not the right answer for everyone. If your catalog is modest and your rules are simple, Shopify or WooCommerce will cost less to run, and we will tell you so before you commit."
+      ]
+    },
+    {
+      "heading": "What our Magento work covers",
+      "paragraphs": [
+        "We take on new builds, but a large part of Magento work is improving stores that already exist."
+      ],
+      "bullets": [
+        "B2B features: company accounts, tiered and customer-specific pricing, quotes and quick ordering by part number.",
+        "Multi-store setups for different countries, with English, Spanish and Portuguese storefronts and local currencies.",
+        "Integration with ERP, CRM, warehouse and accounting systems, so stock, prices and orders stay in step.",
+        "Custom modules where an off-the-shelf extension does not fit or slows the site down.",
+        "Performance audits: caching, indexing, extension conflicts and hosting.",
+        "Version upgrades, security patches and migration from Magento 1 or other platforms.",
+        "Monthly support covering maintenance and a set amount of development time."
+      ]
+    },
+    {
+      "heading": "The questions an exporter's store has to answer",
+      "paragraphs": [
+        "For a Miami distributor, the website is often a working tool for existing customers more than a shop window. So we start with the practical questions. Can a customer see their own prices and stock that is accurate today? Can they reorder last month's order in a few clicks? Does the order reach the warehouse system without someone retyping it? Are export orders, which may be tax-exempt, handled differently from domestic ones? Can the buyer name their freight forwarder at checkout?",
+        "Getting these right reduces phone calls and emailed spreadsheets, which is usually where the return on a Magento project comes from. Search visibility still matters for winning new accounts, so category and product pages are built to be indexed properly in each language."
+      ]
+    },
+    {
+      "heading": "Choosing a Magento partner",
+      "paragraphs": [
+        "Magento is not a launch-and-leave platform. Ask a prospective agency how it handles patches and upgrades, who has access to the code repository, and whether you will own the code and hosting accounts. Ask how integrations are monitored when a sync fails overnight. An agency that cannot answer those questions clearly will cost you more later."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Magento projects typical of Miami",
+    "items": [
+      { "title": "Wholesale portals", "text": "Login-only catalogs for trade buyers, with negotiated prices, credit terms and order history per account." },
+      { "title": "Stores for several countries", "text": "One back office running separate storefronts by market, each with its own language, currency and catalog selection." },
+      { "title": "ERP and warehouse sync", "text": "Two-way connections so inventory, pricing, orders and customer records match between the store and back-office systems." },
+      { "title": "Speeding up a slow store", "text": "An audit that finds the caching, extension or hosting problems, fixed in order of impact, usually without a rebuild." },
+      { "title": "Upgrading an old version", "text": "Moving from unsupported releases to a current one, including extension compatibility and theme migration." },
+      { "title": "Large parts catalogs", "text": "Search and filters by brand, model and part number so buyers find the exact item among thousands." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami. Magento development, integration and support are delivered remotely by the wider TDM team, with staging environments for testing before each release.",
+  "faqs": [
+    { "q": "Is Magento a good choice for a Miami wholesale or export business?", "a": "Often, yes. Customer-specific pricing, company accounts, multiple storefronts and deep integrations are where Magento is strongest. If your needs are simpler, a lighter platform may serve you better, and we will say so." },
+    { "q": "Can one Magento store serve the US and Latin America?", "a": "Yes. Magento can run several storefronts from one installation, each with its own language, currency, prices and product selection, which suits companies selling in English, Spanish and Portuguese." },
+    { "q": "Can you connect Magento to our ERP?", "a": "Yes. We build integrations that sync stock, pricing, orders and customers using native APIs, middleware or custom connectors, depending on the system you run." },
+    { "q": "How much does Magento development cost in Miami?", "a": "It depends on the catalog, the B2B rules, the number of storefronts and the integrations required. We quote after a free consultation and a look at what you have today." },
+    { "q": "How long does a Magento build or upgrade take?", "a": "That depends on your requirements, the extensions in use and the state of the current store. The schedule is agreed in the plan after discovery." }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "usa/florida/miami/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/custom-development",
+  "title": "Custom Web Development Company in Miami",
+  "metaTitle": "Custom Web Development Company in Miami, FL | TDM",
+  "metaDescription": "Custom web applications for Miami companies: portals, booking systems, marketplaces and integrations, built with Next.js, React and Laravel. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) builds custom websites and web applications for Miami companies whose needs go beyond what WordPress or Shopify can do. That includes customer portals, booking systems, marketplaces and internal tools, built mainly with Next.js and React on the front end and Laravel or Node.js behind them. We write a specification with you first, deliver in milestones, and hand over the source code when the project is complete.",
+  "sections": [
+    {
+      "heading": "Where off-the-shelf software runs out in Miami",
+      "paragraphs": [
+        "Many of the city's businesses work in ways standard platforms were not designed for. A freight forwarder near the airport gives each overseas customer a local shipping address, receives their parcels, consolidates them and bills by weight. A yacht charter firm sells by the hour or the day, with crew, catering and fuel as options, and takes deposits from clients in several countries. A property manager handles short-term rentals across dozens of condos, each with its own building rules. Plugins can imitate parts of these workflows, but the gaps end up filled by staff and spreadsheets.",
+        "Miami has also grown as a base for startups, particularly in finance, health and property technology, and many of them serve Latin American customers from here. A product company cannot run on a template. It needs an application that is its own, built so it can be extended and so another team could maintain it.",
+        "In both cases the test is the same. If a platform fits, use it: it is cheaper and quicker. Custom development makes sense when the platform keeps getting in the way of how you actually operate."
+      ]
+    },
+    {
+      "heading": "How a custom project runs with TDM",
+      "paragraphs": [
+        "We begin with discovery: who uses the system, what they need to do, and which other systems it must talk to. That becomes a written specification and a set of milestones. Design and prototypes come next, then development with a working version on a staging server from early in the build."
+      ],
+      "bullets": [
+        "Web applications in Next.js and React, with server-side rendering for speed and search visibility.",
+        "Back ends and APIs in Laravel or Node.js, on PostgreSQL or MySQL.",
+        "Portals, marketplaces and booking systems with user roles, payments and notifications.",
+        "Integrations with payment providers, accounting software, CRMs, shipping carriers and messaging tools.",
+        "Interfaces in English, Spanish and Portuguese, with multiple currencies where customers are abroad.",
+        "Takeover of half-finished or legacy projects, starting with a code audit and a plain report.",
+        "Full source code, repository access and documentation at handover."
+      ]
+    },
+    {
+      "heading": "Building for Miami's conditions",
+      "paragraphs": [
+        "A few local realities shape the technical choices. Customers are often spread across time zones and countries, so dates, currencies, phone number formats and tax handling cannot assume a US user. WhatsApp is the normal way many Latin American and local customers expect to hear from a business, so notifications often need to go there as well as by email.",
+        "Resilience counts too. During a hurricane warning an office in Doral or downtown may lose power or close for days. Systems hosted in the cloud, with backups in another region and no dependence on a server in the back room, keep running while the team works from wherever it has gone.",
+        "Finally, anything public should be built to accessibility standards and, where health or payment data is involved, designed around the rules that apply to that data. We raise those requirements in discovery so they are part of the specification and not a late surprise."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Custom builds that fit Miami businesses",
+    "items": [
+      { "title": "Booking and charter systems", "text": "Live availability, options and deposits for boats, tours, venues and rentals, with calendars the operations team can trust." },
+      { "title": "Logistics and forwarding portals", "text": "Customer accounts, package tracking, consolidation requests and invoicing for companies shipping to Latin America and the Caribbean." },
+      { "title": "Property platforms", "text": "Listing portals, owner and tenant dashboards, and tools for managing short-term rentals across many units." },
+      { "title": "Startup products", "text": "A first version built to a clear scope, on a stack that can grow and that future hires will know." },
+      { "title": "Platform plus custom", "text": "A Shopify or WordPress front with a custom application behind it, when only part of the business needs something bespoke." },
+      { "title": "Internal tools", "text": "Dashboards, quoting tools and CRM or ERP modules that replace spreadsheets and connect to systems you already use." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami. Design, engineering and testing are carried out remotely by the wider TDM team, with regular demos on a staging environment so you see progress throughout.",
+  "faqs": [
+    { "q": "When should a Miami business choose custom development over WordPress or Shopify?", "a": "When your workflow, pricing or customer accounts cannot be modelled without stacking plugins and manual steps. If a platform fits your needs, we will recommend it, because it costs less to build and maintain." },
+    { "q": "How much does custom web development cost in Miami?", "a": "It depends on the features, user roles and integrations in the specification. We quote after a free consultation and a discovery phase, and any later change in scope is priced and agreed before it is built." },
+    { "q": "How long does a custom web application take to build?", "a": "That depends on your requirements and the brief. The specification sets out milestones with dates, and those are agreed in the plan before development starts." },
+    { "q": "Who owns the code?", "a": "You do. When the project is complete and paid for, you receive the source code, repository access, infrastructure credentials and documentation, so any developer can continue the work." },
+    { "q": "Can you build a platform that works in Spanish and Portuguese as well as English?", "a": "Yes. We build the interface so every label, message and email can be supplied in each language, with currency and date formats per market. We agree with you who writes and reviews the text in each language." }
+  ]
+}

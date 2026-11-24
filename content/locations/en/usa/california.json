@@ -24,8 +24,7 @@
       "bullets": [
         "Long, specific search terms instead of the costliest head terms.",
         "Neighbourhood and city targeting: Silver Lake, Pasadena, Oakland, Irvine, La Jolla.",
-        "Several ad creatives tested against each other, with budget moved to the winners.",
-        "Landing pages built to convert, since each visit costs more to buy."
+        "Several ad creatives tested against each other, with budget moved to the winners."
       ]
     },
     {
@@ -45,20 +44,49 @@
   "cards": {
     "heading": "California businesses we plan for",
     "items": [
-      { "title": "Software and startups", "text": "Bay Area and Los Angeles tech firms need search content, paid acquisition and sites that explain the product quickly." },
-      { "title": "Direct-to-consumer brands", "text": "Beauty, fashion, food and wellness brands need Shopify stores that convert and UGC-style ads tested continuously." },
-      { "title": "Entertainment and creators", "text": "Studios, production companies and creator-led businesses need video editing, social content and audience growth." },
-      { "title": "Wine, food and agriculture", "text": "Wineries in Napa and Sonoma and Central Valley producers sell through direct online orders, clubs and trade buyers." },
-      { "title": "Health and biotech", "text": "San Diego and Bay Area firms need careful, accurate content written for specialists and investors." },
-      { "title": "Local services", "text": "Contractors, clinics and law firms compete suburb by suburb, where map results and reviews decide the choice." }
+      {
+        "title": "Software and startups",
+        "text": "Bay Area and Los Angeles tech firms need search content, paid acquisition and sites that explain the product quickly."
+      },
+      {
+        "title": "Direct-to-consumer brands",
+        "text": "Beauty, fashion, food and wellness brands need Shopify stores that convert and UGC-style ads tested continuously."
+      },
+      {
+        "title": "Entertainment and creators",
+        "text": "Studios, production companies and creator-led businesses need video editing, social content and audience growth."
+      },
+      {
+        "title": "Wine, food and agriculture",
+        "text": "Wineries in Napa and Sonoma and Central Valley producers sell through direct online orders, clubs and trade buyers."
+      },
+      {
+        "title": "Health and biotech",
+        "text": "San Diego and Bay Area firms need careful, accurate content written for specialists and investors."
+      },
+      {
+        "title": "Local services",
+        "text": "Contractors, clinics and law firms compete suburb by suburb, where map results and reviews decide the choice."
+      }
     ]
   },
   "presence": "We work with California businesses remotely. Calls are scheduled in Pacific time, reporting is shared online, and one team handles strategy, design, development and video.",
   "faqs": [
-    { "q": "Does TDM have a California office?", "a": "No. We serve California businesses remotely, with video calls arranged for Pacific time and shared reporting." },
-    { "q": "Why are ads more expensive in California?", "a": "More advertisers compete for the same audiences, particularly in Los Angeles and the Bay Area. We respond by narrowing targeting, improving creative and raising the conversion rate of the pages people land on." },
-    { "q": "How much does digital marketing cost in California?", "a": "It depends on scope, channels and competition in your field. We give a quote after a free consultation, once we understand your goals." },
-    { "q": "Can you set up tracking that respects California privacy law?", "a": "We configure consent, analytics and ad pixels to honour visitor choices. Whether and how the law applies to your business should be confirmed with your legal adviser." },
-    { "q": "Do you work with small businesses outside Los Angeles and San Francisco?", "a": "Yes. We work with businesses across the state, including San Diego, Sacramento, Orange County, the Inland Empire and the Central Valley." }
+    {
+      "q": "Does TDM have a California office?",
+      "a": "No. We serve California businesses remotely, with video calls arranged for Pacific time and shared reporting."
+    },
+    {
+      "q": "Why are ads more expensive in California?",
+      "a": "More advertisers compete for the same audiences, particularly in Los Angeles and the Bay Area. We respond by narrowing targeting, improving creative and raising the conversion rate of the pages people land on."
+    },
+    {
+      "q": "How much does digital marketing cost in California?",
+      "a": "It depends on scope, channels and competition in your field. We give a quote after a free consultation, once we understand your goals."
+    },
+    {
+      "q": "Can you set up tracking that respects California privacy law?",
+      "a": "We configure consent, analytics and ad pixels to honour visitor choices. Whether and how the law applies to your business should be confirmed with your legal adviser."
+    }
   ]
 }

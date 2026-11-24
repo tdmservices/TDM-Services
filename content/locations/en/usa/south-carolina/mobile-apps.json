@@ -19,8 +19,7 @@
     {
       "heading": "Native or cross-platform",
       "paragraphs": [
-        "This is the first decision, and it is about money and performance, not fashion. Native development in Swift for iOS and Kotlin with Jetpack Compose for Android gives the best performance and platform feel. It suits apps with live maps, heavy device use or demanding interfaces. Cross-platform development in Flutter or React Native puts one codebase on both stores, which suits a first version, a booking app or a content and commerce app where speed to market and budget lead.",
-        "We will recommend one and explain why. A startup coming out of a university programme with limited funding has different needs from an established distributor replacing paper forms for its drivers."
+        "This is the first decision, and it is about money and performance, not fashion. Native development in Swift for iOS and Kotlin with Jetpack Compose for Android gives the best performance and platform feel. It suits apps with live maps, heavy device use or demanding interfaces. Cross-platform development in Flutter or React Native puts one codebase on both stores, which suits a first version, a booking app or a content and commerce app where speed to market and budget lead."
       ]
     },
     {
@@ -47,20 +46,45 @@
   "cards": {
     "heading": "App projects that fit South Carolina businesses",
     "items": [
-      { "title": "Tourism and booking", "text": "Tours, charters, golf, rentals and attractions on the coast, with booking and payment that work for a first-time visitor." },
-      { "title": "Field and plant-floor tools", "text": "Inspections, checklists, stock counts and maintenance requests for manufacturers and suppliers, with offline support." },
-      { "title": "Delivery and fleet", "text": "Driver apps with routes, proof of delivery and live status for freight and distribution companies." },
-      { "title": "Restaurants and retail", "text": "Ordering, loyalty and pickup for local brands with repeat customers in Charleston, Greenville and Columbia." },
-      { "title": "Startup first versions", "text": "A cross-platform build that lets founders test an idea with real users before committing to a larger product." },
-      { "title": "Patient and member apps", "text": "Appointments, reminders and messaging for clinics, gyms and membership organisations." }
+      {
+        "title": "Tourism and booking",
+        "text": "Tours, charters, golf, rentals and attractions on the coast, with booking and payment that work for a first-time visitor."
+      },
+      {
+        "title": "Field and plant-floor tools",
+        "text": "Inspections, checklists, stock counts and maintenance requests for manufacturers and suppliers, with offline support."
+      },
+      {
+        "title": "Delivery and fleet",
+        "text": "Driver apps with routes, proof of delivery and live status for freight and distribution companies."
+      },
+      {
+        "title": "Restaurants and retail",
+        "text": "Ordering, loyalty and pickup for local brands with repeat customers in Charleston, Greenville and Columbia."
+      },
+      {
+        "title": "Startup first versions",
+        "text": "A cross-platform build that lets founders test an idea with real users before committing to a larger product."
+      }
     ]
   },
   "presence": "A member of our team is based in South Carolina. Research, design and engineering are carried out remotely by our wider team, with regular demos so you can see the app take shape and test builds on your own phone.",
   "faqs": [
-    { "q": "Do you build both iPhone and Android apps?", "a": "Yes. We build native iOS apps in Swift, native Android apps in Kotlin with Jetpack Compose, and cross-platform apps in Flutter or React Native that run on both from one codebase. The choice depends on your users, features and budget." },
-    { "q": "How much does it cost to build an app in South Carolina?", "a": "It depends on the features, the number of platforms and the backend the app needs. We quote after a free consultation, once the scope is clear." },
-    { "q": "How long does app development take?", "a": "It depends on your requirements and the brief. A simple booking app and a marketplace with live tracking are very different projects. The timeline is agreed in the project plan before development starts." },
-    { "q": "Can you build an app that works without a signal?", "a": "Yes. Offline support is a design decision made early: the app stores data on the device and syncs when a connection returns. It is common for warehouse, plant and field apps, and for use in rural parts of the state." },
-    { "q": "Will you handle the App Store and Google Play submission?", "a": "Yes. Store submission and release are part of the service. The developer accounts should be in your company's name, and we manage the submission process through them." }
+    {
+      "q": "Do you build both iPhone and Android apps?",
+      "a": "Yes. We build native iOS apps in Swift, native Android apps in Kotlin with Jetpack Compose, and cross-platform apps in Flutter or React Native that run on both from one codebase. The choice depends on your users, features and budget."
+    },
+    {
+      "q": "How much does it cost to build an app in South Carolina?",
+      "a": "It depends on the features, the number of platforms and the backend the app needs. We quote after a free consultation, once the scope is clear."
+    },
+    {
+      "q": "How long does app development take?",
+      "a": "It depends on your requirements and the brief. A simple booking app and a marketplace with live tracking are very different projects. The timeline is agreed in the project plan before development starts."
+    },
+    {
+      "q": "Can you build an app that works without a signal?",
+      "a": "Yes. Offline support is a design decision made early: the app stores data on the device and syncs when a connection returns. It is common for warehouse, plant and field apps, and for use in rural parts of the state."
+    }
   ]
 }

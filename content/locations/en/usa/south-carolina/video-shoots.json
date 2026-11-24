@@ -5,15 +5,14 @@
   "service": "media/video-shoots",
   "title": "Video Shoots and Production in South Carolina",
   "metaTitle": "Video Shoots and Production in South Carolina | TDM",
-  "metaDescription": "Planned, scripted video shoots for South Carolina businesses. TDM handles concept, scripts, shot lists and post-production, with filming arranged locally where needed.",
+  "metaDescription": "Planned, scripted video shoots for South Carolina businesses. TDM handles concept, scripts and post-production, with filming arranged locally where needed.",
   "lead": "TDM (The Digital Marketing Services) plans and produces video shoots for South Carolina businesses: concept, scripting, casting, direction, filming and post-production. To be clear about how it works, TDM does not keep a studio or a standing film crew in South Carolina. Planning, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business or product is. For product-led video, many clients ship products to us and approve the treatment remotely.",
   "sections": [
     {
       "heading": "What is worth filming in South Carolina",
       "paragraphs": [
         "A lot of what businesses sell here has to be seen. A resort on Hilton Head, a restaurant on King Street in Charleston, an attraction in Myrtle Beach or an outfitter in the Upstate is selling a place and a feeling, and still photos only go so far. Those shoots have to happen on location, which is why filming is arranged in the state.",
-        "Industry is the other half. Upstate manufacturers and their suppliers use video to show buyers a plant they may never visit, and to show job applicants what the work looks like. Ports and logistics companies use it to explain capacity. Hospitals, clinics and universities use it to introduce people: a surgeon, a programme director, a campus.",
-        "Consumer brands are different again. If the subject is a product that fits in a box, it does not need a South Carolina location at all, and shipping it to our team is often the simpler route."
+        "Industry is the other half. Upstate manufacturers and their suppliers use video to show buyers a plant they may never visit, and to show job applicants what the work looks like. Ports and logistics companies use it to explain capacity. Hospitals, clinics and universities use it to introduce people: a surgeon, a programme director, a campus."
       ]
     },
     {
@@ -47,20 +46,45 @@
   "cards": {
     "heading": "Shoots South Carolina businesses ask for",
     "items": [
-      { "title": "Hospitality and destinations", "text": "Property, dining and experience footage for hotels, resorts, restaurants and attractions, planned around the season." },
-      { "title": "Plant and capability films", "text": "Process, equipment and people on camera for manufacturers and suppliers who sell to buyers elsewhere." },
-      { "title": "Recruitment video", "text": "Real employees and real workplaces, for employers hiring technicians, drivers, nurses and operators." },
-      { "title": "Product video", "text": "Detail shots and in-use demonstrations, often filmed from products shipped to our team." },
-      { "title": "Healthcare and education", "text": "Introductions to practitioners, programmes and facilities, scripted with care about what can be claimed." },
-      { "title": "Ad footage", "text": "Multiple hooks and variations captured in one day so an ad account has enough to test." }
+      {
+        "title": "Hospitality and destinations",
+        "text": "Property, dining and experience footage for hotels, resorts, restaurants and attractions, planned around the season."
+      },
+      {
+        "title": "Plant and capability films",
+        "text": "Process, equipment and people on camera for manufacturers and suppliers who sell to buyers elsewhere."
+      },
+      {
+        "title": "Recruitment video",
+        "text": "Real employees and real workplaces, for employers hiring technicians, drivers, nurses and operators."
+      },
+      {
+        "title": "Product video",
+        "text": "Detail shots and in-use demonstrations, often filmed from products shipped to our team."
+      },
+      {
+        "title": "Healthcare and education",
+        "text": "Introductions to practitioners, programmes and facilities, scripted with care about what can be claimed."
+      }
     ]
   },
   "presence": "A member of our team is based in South Carolina, so you can talk to someone who knows the state. We do not have a studio or a resident film crew here: planning and post-production are handled remotely by our production team, and filming is arranged locally for each project.",
   "faqs": [
-    { "q": "Does TDM have a film crew or studio in South Carolina?", "a": "No. A member of our team is based in South Carolina, but we do not keep a studio or a standing crew in the state. Planning, scripting and post-production run from our Lahore hub, and filming is arranged locally where your business or product is." },
-    { "q": "Can you produce a video without filming on site?", "a": "For product-led video, often yes. Clients ship products to us, approve the treatment remotely and receive finished video. Anything that depends on a place or on your people, such as a resort, a plant or a clinic, needs filming on location." },
-    { "q": "How much does a video shoot cost in South Carolina?", "a": "It depends on the concept, the number of locations, talent and the amount of finished video. We quote after a free consultation, once the brief is clear." },
-    { "q": "How long does a video production take?", "a": "It depends on the brief, the locations and the approvals needed. Pre-production, the shoot and editing are scheduled in a plan agreed with you before anything is booked." },
-    { "q": "Do we need a concept before we contact you?", "a": "No. Most clients arrive with a product or a goal. We develop the concepts, scripts and storyboards for your approval. If you already have a direction, we test it against what works on the platforms you plan to use." }
+    {
+      "q": "Does TDM have a film crew or studio in South Carolina?",
+      "a": "No. A member of our team is based in South Carolina, but we do not keep a studio or a standing crew in the state. Planning, scripting and post-production run from our Lahore hub, and filming is arranged locally where your business or product is."
+    },
+    {
+      "q": "Can you produce a video without filming on site?",
+      "a": "For product-led video, often yes. Clients ship products to us, approve the treatment remotely and receive finished video. Anything that depends on a place or on your people, such as a resort, a plant or a clinic, needs filming on location."
+    },
+    {
+      "q": "How much does a video shoot cost in South Carolina?",
+      "a": "It depends on the concept, the number of locations, talent and the amount of finished video. We quote after a free consultation, once the brief is clear."
+    },
+    {
+      "q": "How long does a video production take?",
+      "a": "It depends on the brief, the locations and the approvals needed. Pre-production, the shoot and editing are scheduled in a plan agreed with you before anything is booked."
+    }
   ]
 }

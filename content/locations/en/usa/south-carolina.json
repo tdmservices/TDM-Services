@@ -45,20 +45,45 @@
   "cards": {
     "heading": "South Carolina sectors we plan for",
     "items": [
-      { "title": "Hospitality and weddings", "text": "Charleston venues, restaurants and inns compete on photography, reviews and being found months before the date." },
-      { "title": "Beach rentals and golf", "text": "Along the Grand Strand and on Hilton Head, bookings follow the school calendar and the golf season, and ads should too." },
-      { "title": "Home services", "text": "Builders, roofers, HVAC and landscaping firms serve a growing number of new homeowners who choose from the map results." },
-      { "title": "Manufacturing and suppliers", "text": "Upstate firms need capability pages and targeted campaigns that reach engineers and buyers, not general traffic." },
-      { "title": "Healthcare and senior services", "text": "Clinics, dentists and care providers serve many recent arrivals who are picking a provider for the first time." },
-      { "title": "Real estate", "text": "Agents and developers market to buyers who are still living in another state when they start looking." }
+      {
+        "title": "Hospitality and weddings",
+        "text": "Charleston venues, restaurants and inns compete on photography, reviews and being found months before the date."
+      },
+      {
+        "title": "Beach rentals and golf",
+        "text": "Along the Grand Strand and on Hilton Head, bookings follow the school calendar and the golf season, and ads should too."
+      },
+      {
+        "title": "Home services",
+        "text": "Builders, roofers, HVAC and landscaping firms serve a growing number of new homeowners who choose from the map results."
+      },
+      {
+        "title": "Manufacturing and suppliers",
+        "text": "Upstate firms need capability pages and targeted campaigns that reach engineers and buyers, not general traffic."
+      },
+      {
+        "title": "Healthcare and senior services",
+        "text": "Clinics, dentists and care providers serve many recent arrivals who are picking a provider for the first time."
+      }
     ]
   },
   "presence": "A member of our team is based in South Carolina, so you can speak to someone who knows the state. The wider team works with you remotely and delivers the strategy, design, development and video.",
   "faqs": [
-    { "q": "Is TDM based in South Carolina?", "a": "A member of our team is based in South Carolina. The rest of the team works remotely, with calls and reporting arranged around your schedule." },
-    { "q": "What does digital marketing cost for a South Carolina small business?", "a": "It depends on the scope: the channels you need, how much content is involved and how competitive your trade is in your area. We give a quote after a free consultation." },
-    { "q": "Do you work with businesses outside Charleston and Greenville?", "a": "Yes. We work with businesses across the state, including Columbia, Myrtle Beach, Spartanburg, Rock Hill, Hilton Head and smaller towns. Local search is planned around the specific areas you serve." },
-    { "q": "When should a coastal business start advertising for the season?", "a": "Before the bookings start, not when they peak. People plan beach trips and weddings well ahead. The exact timing depends on your business and is set out in the plan we agree with you." },
-    { "q": "Can you market a South Carolina manufacturer to buyers in other states?", "a": "Yes. Industrial marketing is rarely local. We build search visibility and targeted ads around your capabilities so buyers find you wherever they are based." }
+    {
+      "q": "Is TDM based in South Carolina?",
+      "a": "A member of our team is based in South Carolina. The rest of the team works remotely, with calls and reporting arranged around your schedule."
+    },
+    {
+      "q": "What does digital marketing cost for a South Carolina small business?",
+      "a": "It depends on the scope: the channels you need, how much content is involved and how competitive your trade is in your area. We give a quote after a free consultation."
+    },
+    {
+      "q": "Do you work with businesses outside Charleston and Greenville?",
+      "a": "Yes. We work with businesses across the state, including Columbia, Myrtle Beach, Spartanburg, Rock Hill, Hilton Head and smaller towns. Local search is planned around the specific areas you serve."
+    },
+    {
+      "q": "When should a coastal business start advertising for the season?",
+      "a": "Before the bookings start, not when they peak. People plan beach trips and weddings well ahead. The exact timing depends on your business and is set out in the plan we agree with you."
+    }
   ]
 }

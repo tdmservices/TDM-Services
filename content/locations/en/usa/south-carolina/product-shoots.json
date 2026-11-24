@@ -1,0 +1,89 @@
+{
+  "slug": "usa/south-carolina/product-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/product-shoots",
+  "title": "Product Photography for South Carolina Businesses",
+  "metaTitle": "Product Photography for South Carolina Brands | TDM",
+  "metaDescription": "Product photography for South Carolina brands and suppliers: catalog, lifestyle and detail shots. You ship products to TDM's studio and receive retouched images.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for South Carolina businesses: clean catalog images, styled lifestyle scenes and close-up detail shots, retouched and delivered in every size your store, marketplace listings and ads require. This is not an on-site service and we do not have a studio in South Carolina. You ship your products to TDM's production studio in Lahore, approve the shot list and art direction remotely, and receive the finished images digitally.",
+  "sections": [
+    {
+      "heading": "Who needs product photography in this state",
+      "paragraphs": [
+        "Two quite different groups. The first is consumer brands: food and pantry goods, clothing and accessories, candles and skincare, home goods, golf and outdoor products. Many started in Charleston, Greenville or a small town in between, sell on their own Shopify store and on Amazon, and are still using photos taken on a kitchen counter. Those images cost sales, because online the picture is the only way a buyer can inspect the product.",
+        "The second group is industrial. The Upstate is full of companies that make components, tools, fittings and packaging for larger manufacturers. Their catalogs often show grey parts on grey benches, or a supplier's drawing. Consistent, well-lit part photography makes a catalog easier to buy from and makes a small supplier look like a serious one to a purchasing team."
+      ]
+    },
+    {
+      "heading": "How it works from South Carolina",
+      "paragraphs": [
+        "The process is built around shipping. That suits products that travel well and are not needed back in a hurry, and it should be planned with transit time and customs paperwork in mind."
+      ],
+      "bullets": [
+        "Shot list and art direction: we map your catalog, channels and gaps, and agree the angles, scenes and detail shots per product.",
+        "You ship the products to the studio. We confirm their condition on arrival.",
+        "The shoot follows the approved list, with lighting and styling kept consistent across the range.",
+        "Selected images are retouched and sent for review, and your revision notes are applied.",
+        "Finals are exported in each crop and resolution you need, organised and named to your convention."
+      ]
+    },
+    {
+      "heading": "What you can ask for",
+      "paragraphs": [
+        "Studio catalog photography on white or coloured backgrounds gives a large range the repeatable look it needs. Sets can be specified to meet Amazon and other marketplace requirements for background, framing and resolution. Lifestyle scenes stage the product with props and surfaces that match your brand, for ads and social posts. Macro shots show materials, finishes, labels and mechanisms, the close views that stand in for holding the item.",
+        "Retouching is done for accuracy as well as polish. Colours should match the real product, because misleading images come back as returns."
+      ]
+    },
+    {
+      "heading": "When shipping is not the right answer",
+      "paragraphs": [
+        "Be realistic about what suits this model. Perishable food, very heavy or oversized items, one-off pieces you cannot spare and anything restricted for international shipping need a conversation first, and sometimes a different approach. A photograph that depends on a real South Carolina setting, such as a product on a Lowcountry dock or in a restaurant dining room, is a location shoot, not a studio one. Styled scenes can suggest a setting, but they should not pretend to be a place. We will tell you plainly whether your products are a good fit before you ship anything."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Typical projects",
+    "items": [
+      {
+        "title": "Amazon and marketplace sets",
+        "text": "White-background images that meet listing requirements, plus the supporting detail and scale shots."
+      },
+      {
+        "title": "Shopify store catalogs",
+        "text": "A consistent look across every item so the store reads as one brand, with a lighting and framing system that new products can follow."
+      },
+      {
+        "title": "Packaged food and gifts",
+        "text": "Shelf-stable goods, gift boxes and labels photographed for stores, wholesale sheets and holiday campaigns."
+      },
+      {
+        "title": "Industrial parts catalogs",
+        "text": "Components, tools and fittings from Upstate suppliers, shot at consistent angles for web and print catalogs."
+      },
+      {
+        "title": "Lifestyle images for ads",
+        "text": "Styled scenes produced alongside the catalog set, sized for paid social placements."
+      }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, so you can talk through a project with someone in the state. The photography is done at TDM's production studio in Lahore: products are shipped there and images are delivered digitally.",
+  "faqs": [
+    {
+      "q": "Do you have a product photography studio in South Carolina?",
+      "a": "No. A member of our team is based in South Carolina, but products are photographed at TDM's studio in Lahore. You ship the products, approve the shot list and art direction remotely, and receive retouched images digitally."
+    },
+    {
+      "q": "How much does product photography cost?",
+      "a": "It depends on the number of products, the number of images per product and how much styling is involved. We quote after a free consultation, once we have seen the range."
+    },
+    {
+      "q": "How long does a product shoot take?",
+      "a": "It depends on the brief, the size of the range and shipping time to the studio. Dates are agreed in the plan before you send anything, so allow for transit when planning a launch."
+    },
+    {
+      "q": "Can you photograph a whole catalog, including industrial parts?",
+      "a": "Yes. Catalog work is a core part of the service. We set up a repeatable lighting and framing system per category so a large number of items come out consistent, then batch the shooting and retouching."
+    }
+  ]
+}

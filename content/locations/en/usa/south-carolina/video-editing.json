@@ -12,8 +12,7 @@
       "heading": "Plenty of footage, not enough finished video",
       "paragraphs": [
         "South Carolina is easy to film. Charleston's streets, the marshes of the Lowcountry, the beaches, Falls Park in Greenville and the Blue Ridge foothills all look good on a phone. Hotels, restaurants, charter captains and tour operators collect hours of clips every season and post very little of it, because turning raw footage into something worth watching takes time nobody on staff has.",
-        "Manufacturers have the opposite problem. They have walkthroughs, machine footage and trade show recordings that are long, unlabelled and silent. A buyer or a job applicant will not sit through twelve minutes of it. The same material, cut into a short capability video and a few recruiting clips, becomes useful.",
-        "In both cases the shooting is done. What is missing is the edit."
+        "Manufacturers have the opposite problem. They have walkthroughs, machine footage and trade show recordings that are long, unlabelled and silent. A buyer or a job applicant will not sit through twelve minutes of it. The same material, cut into a short capability video and a few recruiting clips, becomes useful."
       ]
     },
     {
@@ -47,20 +46,45 @@
   "cards": {
     "heading": "Common editing work for South Carolina clients",
     "items": [
-      { "title": "Hospitality and attractions", "text": "Guest clips, drone shots and staff footage cut into seasonal reels and booking ads for coastal and city businesses." },
-      { "title": "Manufacturing and suppliers", "text": "Plant walkthroughs and machine footage turned into short capability videos for buyers and trade shows." },
-      { "title": "Recruiting video", "text": "Short clips of real staff and workplaces for employers competing for skilled workers in the Upstate and Lowcountry." },
-      { "title": "Real estate and rentals", "text": "Walkthrough footage edited into listing videos and vertical clips for buyers and guests who are still out of state." },
-      { "title": "Restaurants and breweries", "text": "Kitchen and dining room footage paced for social feeds, with captions and menu call-outs." },
-      { "title": "E-commerce brands", "text": "Creator and product footage cut into ad variations in every ratio the campaign uses." }
+      {
+        "title": "Hospitality and attractions",
+        "text": "Guest clips, drone shots and staff footage cut into seasonal reels and booking ads for coastal and city businesses."
+      },
+      {
+        "title": "Manufacturing and suppliers",
+        "text": "Plant walkthroughs and machine footage turned into short capability videos for buyers and trade shows."
+      },
+      {
+        "title": "Recruiting video",
+        "text": "Short clips of real staff and workplaces for employers competing for skilled workers in the Upstate and Lowcountry."
+      },
+      {
+        "title": "Real estate and rentals",
+        "text": "Walkthrough footage edited into listing videos and vertical clips for buyers and guests who are still out of state."
+      },
+      {
+        "title": "Restaurants and breweries",
+        "text": "Kitchen and dining room footage paced for social feeds, with captions and menu call-outs."
+      }
     ]
   },
   "presence": "A member of our team is based in South Carolina, so you have someone in the state to talk to. The editing itself is done remotely by our post-production team, and files move digitally in both directions.",
   "faqs": [
-    { "q": "Can you edit footage we filmed ourselves on a phone?", "a": "Yes. Many clients send phone footage, creator clips or archive material and we handle the full edit. We review it first, tell you what it can support, and point out any gaps a short pickup shot would fix." },
-    { "q": "Do you have video editors in South Carolina?", "a": "A member of our team is based in South Carolina, but editing is done remotely by our post-production team at TDM's Lahore hub. You upload footage, review cuts online and receive finished files digitally." },
-    { "q": "How much does video editing cost?", "a": "It depends on the amount of footage, the number of finished videos and the formats required. We quote after a free consultation, once we have seen the brief and a sample of the material." },
-    { "q": "How long does an edit take?", "a": "It depends on the brief, the amount of footage and the number of versions. Delivery dates are agreed in the plan before editing starts, and seasonal content is scheduled ahead of the dates it is needed for." },
-    { "q": "What formats will we receive?", "a": "Each approved edit is delivered in the ratios and lengths its placements require: vertical for reels, stories and TikTok, square and 4:5 for feeds, and widescreen for YouTube and websites, with captioned and clean versions as needed." }
+    {
+      "q": "Can you edit footage we filmed ourselves on a phone?",
+      "a": "Yes. Many clients send phone footage, creator clips or archive material and we handle the full edit. We review it first, tell you what it can support, and point out any gaps a short pickup shot would fix."
+    },
+    {
+      "q": "Do you have video editors in South Carolina?",
+      "a": "A member of our team is based in South Carolina, but editing is done remotely by our post-production team at TDM's Lahore hub. You upload footage, review cuts online and receive finished files digitally."
+    },
+    {
+      "q": "How much does video editing cost?",
+      "a": "It depends on the amount of footage, the number of finished videos and the formats required. We quote after a free consultation, once we have seen the brief and a sample of the material."
+    },
+    {
+      "q": "How long does an edit take?",
+      "a": "It depends on the brief, the amount of footage and the number of versions. Delivery dates are agreed in the plan before editing starts, and seasonal content is scheduled ahead of the dates it is needed for."
+    }
   ]
 }

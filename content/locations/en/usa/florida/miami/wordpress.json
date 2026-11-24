@@ -1,0 +1,61 @@
+{
+  "slug": "usa/florida/miami/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/wordpress",
+  "title": "WordPress Development Agency in Miami",
+  "metaTitle": "WordPress Development Agency in Miami, FL | TDM",
+  "metaDescription": "Custom WordPress sites for Miami businesses: bilingual builds, fast mobile pages, SEO-ready structure, security and maintenance. Quote after a free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and maintains WordPress websites for Miami businesses. We write custom themes, rebuild slow or hacked sites, and set up the editing screens so your own staff can update pages without a developer. For a Miami company the site usually has to do two extra jobs: work properly in English and Spanish, and load fast on the phone of someone deciding where to go in the next ten minutes.",
+  "sections": [
+    {
+      "heading": "What a Miami website has to handle",
+      "paragraphs": [
+        "A bilingual site is more than a translate button. Each language needs its own pages with their own addresses, its own titles and descriptions, and tags that tell Google which version to show to whom. Menus, forms, confirmation emails and error messages all need a Spanish version too. Automatic translation widgets give none of this and produce text that Spanish-speaking customers notice immediately. We build the two languages into the structure of the site from the first day.",
+        "Many Miami sites also depend on connections to other systems. A broker's site pulls listings from the MLS. A restaurant in Little Havana links to its reservation and ordering providers. A clinic in Coral Gables takes appointment requests and must treat patient details with care. A charter company in Coconut Grove needs live availability. WordPress can do all of this, but the quality of those integrations decides whether the site is quick and stable or slow and fragile.",
+        "Florida businesses have also faced a large number of claims that their websites are not usable by people with disabilities. We build with accessibility in mind: readable contrast, keyboard navigation, text alternatives for images and properly labelled forms. That is good practice for every visitor and lowers a real risk."
+      ]
+    },
+    {
+      "heading": "What our WordPress work includes",
+      "paragraphs": [
+        "Each project runs through discovery, design, build and launch, followed by support. You see the design before it is built and a working version on a staging address before it goes live."
+      ],
+      "bullets": [
+        "Custom themes that carry only the code your site needs, not a pre-made theme loaded with unused features.",
+        "English and Spanish versions with correct language tags and separate, editable content for each.",
+        "SEO built in: clean URLs, structured data, optimised images and strong mobile speed.",
+        "WooCommerce stores where WordPress is the right fit for selling online.",
+        "Migration of existing content with redirects, so current rankings are protected during a rebuild.",
+        "Security hardening, updates, backups and ongoing maintenance.",
+        "A handover session so your team can edit pages and publish posts."
+      ]
+    },
+    {
+      "heading": "Fix, rebuild or start again",
+      "paragraphs": [
+        "A lot of the WordPress work we are asked about in Miami is not a new site. It is a site built years ago on a bought theme, weighed down by plugins, that has become slow or has been hacked. We audit it first. Sometimes cleaning up, updating and hardening the existing build is enough. Sometimes a rebuild on a custom theme costs less over the next few years than keeping the old one alive. We tell you which, with reasons.",
+        "Hosting is part of that conversation. If most of your visitors are in South Florida and Latin America, where the server sits and how pages are cached affects how fast the site feels to them."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Sites we build on WordPress for Miami businesses",
+    "items": [
+      { "title": "Law and professional firms", "text": "Practice area pages in two languages, attorney profiles, and intake forms that route enquiries to the right person." },
+      { "title": "Real estate brokerages", "text": "Listing feeds, building and neighbourhood pages, and lead capture for buyers researching from other states and countries." },
+      { "title": "Restaurants and hospitality", "text": "Menus that are real text and not PDFs, hours that are easy to update, and links to booking and ordering that work on a phone." },
+      { "title": "Clinics and med spas", "text": "Treatment pages, practitioner bios, appointment requests and forms handled with attention to patient privacy." },
+      { "title": "Content and media sites", "text": "Large article libraries with structured categories, fast search and an editing workflow for several authors." },
+      { "title": "Nonprofits and associations", "text": "Event listings, donation and membership pages, and multilingual content for the communities they serve." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami. Design and development are done remotely by the wider TDM team, with review calls at each stage and a staging site you can test yourself.",
+  "faqs": [
+    { "q": "Can you build a WordPress site in English and Spanish?", "a": "Yes. We build each language as its own set of pages with correct language tags, so Google shows the right version and your team can edit both. The Spanish text should be written or reviewed by a fluent speaker, and we agree with you who supplies it." },
+    { "q": "How much does a WordPress website cost in Miami?", "a": "It depends on the number of page types, languages, integrations and whether the site sells online. We give a quote after a free consultation, once the scope is clear." },
+    { "q": "How long does it take to build a WordPress site?", "a": "That depends on your requirements, the content to be prepared and the integrations involved. The timeline is agreed in the project plan after discovery." },
+    { "q": "My Miami business site was hacked. Can you fix it?", "a": "Usually, yes. We clean the site, find how the attacker got in, update and harden it, and set up backups and monitoring. If the build is too old or damaged to trust, we recommend a rebuild and explain why." },
+    { "q": "Will you maintain the site after launch?", "a": "Yes. We offer ongoing maintenance covering updates, security, backups and small changes. You own the site and can move it elsewhere at any time." }
+  ]
+}
