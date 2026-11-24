@@ -1,0 +1,65 @@
+{
+  "slug": "usa",
+  "locale": "en",
+  "kind": "country",
+  "title": "Digital Marketing Agency for US Businesses",
+  "metaTitle": "Digital Marketing Agency for US Businesses | TDM",
+  "metaDescription": "TDM is a digital marketing agency for US businesses: SEO, paid ads, social media, websites and video, planned state by state and delivered across time zones.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works with businesses across the United States on SEO, paid advertising, social media, websites, video and staff augmentation. The US is sold to as one country but bought in as many: a roofer in Tampa, a software firm in Austin and a restaurant in Queens face different customers, costs and competitors. We plan the work for the states and cities you actually sell in.",
+  "sections": [
+    {
+      "heading": "How American buyers search and decide",
+      "paragraphs": [
+        "Most purchases start with a search, and the search is usually local. People type the service plus a city, a neighbourhood or \"near me\", then choose from the map results on a phone. Reviews carry a great deal of weight: a business with few or old Google reviews loses to a neighbour with a steady flow of recent ones, whatever its website says.",
+        "Product searches behave differently. Many shoppers begin on Amazon or a large retailer's site rather than on Google, and they compare on price, delivery speed and returns. A store that sells nationally has to state shipping and returns clearly and load fast on a phone, or the ad spend that brought the visitor is lost at checkout.",
+        "More people now ask an AI assistant for a recommendation before they open a search page. Those answers lean on the same evidence as local rankings: clear service pages, structured data, reviews and mentions on other sites."
+      ]
+    },
+    {
+      "heading": "One country, several markets",
+      "paragraphs": [
+        "Advertising costs, competition and customer habits change from region to region. A campaign that pays back in a mid-sized Southern city can lose money in Manhattan or Los Angeles with the same budget."
+      ],
+      "bullets": [
+        "Northeast: dense, expensive and neighbourhood-driven, with New York setting the cost of attention in finance, law, media and food.",
+        "Southeast: fast-growing metros, tourism along the coasts, and many people who have moved in from other states and are choosing providers for the first time.",
+        "Texas and the Southwest: large distances, strong Spanish-language demand, energy, construction and home services.",
+        "Midwest: manufacturing, agriculture and regional service firms, where trust and long local standing often decide the sale.",
+        "West Coast: technology, entertainment and direct-to-consumer brands, with stricter privacy rules and some of the highest ad prices in the country."
+      ]
+    },
+    {
+      "heading": "Language, calendar and rules",
+      "paragraphs": [
+        "Spanish is part of everyday buying in Florida, Texas, California, New York and many other states. Whether to market in Spanish is a business decision, taken service by service, not a translation job applied to the whole site. Large cities also have sizeable communities who search in other languages, including Arabic and French speakers that we can serve directly.",
+        "The retail year peaks between Black Friday and the end of December, but each trade has its own calendar: tax season for accountants, summer for air conditioning and moving, winter for Florida tourism, back-to-school for education and retail. Budgets should follow that calendar rather than being spread evenly.",
+        "There is no single national privacy law for marketing. States set their own, with California's the best known, and sales tax also varies by state. Tracking, consent banners and checkout settings have to reflect where your customers live."
+      ]
+    },
+    {
+      "heading": "Why a cross-time-zone, multilingual team suits the US",
+      "paragraphs": [
+        "The mainland alone covers four time zones, and many American companies also sell to Canada, Latin America, Europe or the Gulf. Our team works remotely across time zones and in English, French and Arabic, so campaigns can be watched outside your office hours and extended to other markets without hiring a second agency. Strategy, ads, content, development and video sit in one team, which keeps the website, the tracking and the creative pointing at the same goal."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where we work in the United States",
+    "items": [
+      { "title": "Florida", "text": "Tourism, real estate, health and home services, with bilingual demand in the south and centre and a strong winter season." },
+      { "title": "South Carolina", "text": "Coastal hospitality in Charleston and Myrtle Beach, manufacturing in the Upstate and many new residents looking for local providers." },
+      { "title": "Texas", "text": "Four big metros that behave like separate markets, from energy in Houston to technology in Austin." },
+      { "title": "California", "text": "Technology, entertainment and online brands, with high ad costs and the country's strictest privacy rules." },
+      { "title": "New York", "text": "New York City's neighbourhood-level competition, plus very different markets on Long Island and upstate." },
+      { "title": "National and online brands", "text": "Stores and software companies selling in every state need search visibility, paid media and creative that scale without wasting budget." }
+    ]
+  },
+  "presence": "Members of our team are based in South Carolina and in Miami. The rest of the team works remotely, and we serve businesses in every other state the same way: by video call, shared reporting and a plan agreed with you.",
+  "faqs": [
+    { "q": "Do you work with businesses anywhere in the US?", "a": "Yes. We work remotely with businesses in any state. Members of our team are based in South Carolina and in Miami, and the wider team delivers strategy, ads, content, development and video for clients wherever they are." },
+    { "q": "How much does a digital marketing agency cost in the USA?", "a": "It depends on scope: which channels, how much content and how competitive your field and region are. We quote after a free consultation, once we understand your goals and what you already have in place." },
+    { "q": "How long does digital marketing take to work?", "a": "It depends on your requirements and brief. Paid ads can be live soon after tracking is set up, while search visibility builds over a longer period. The timeline is agreed in the plan before work starts." },
+    { "q": "Should a US business market in Spanish?", "a": "If a meaningful share of your customers search or buy in Spanish, usually yes. We look at your customer base and the search terms used in your area, then recommend where Spanish or bilingual campaigns are worth the cost." },
+    { "q": "Can one agency handle several states at once?", "a": "Yes, provided each state is planned separately. We set budgets, keywords, landing pages and business profiles by location, so results in one market are not hidden by averages from another." }
+  ]
+}

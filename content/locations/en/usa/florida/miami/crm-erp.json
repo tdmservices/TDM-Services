@@ -1,0 +1,64 @@
+{
+  "slug": "usa/florida/miami/crm-erp",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/crm-erp",
+  "title": "CRM and ERP Development in Miami",
+  "metaTitle": "CRM and ERP Development in Miami, FL | TDM",
+  "metaDescription": "Custom CRM and ERP systems for Miami companies: bilingual sales pipelines, inventory, finance and operations modules, integrations and clean data migration.",
+  "lead": "TDM (The Digital Marketing Services) builds custom CRM and ERP systems for Miami companies that have outgrown spreadsheets, shared inboxes and off-the-shelf tools. We model the software on how your business really runs: a sales pipeline that handles leads in English and Spanish, and modules for inventory, finance, HR and operations that fit a company trading between South Florida and Latin America.",
+  "sections": [
+    {
+      "heading": "Why Miami companies end up needing their own system",
+      "paragraphs": [
+        "A lot of Miami business is trade. Freight forwarders and customs brokers around Doral and Medley, exporters shipping through PortMiami and the cargo side of Miami International Airport, and distributors supplying buyers in the Caribbean and South America all juggle the same things: quotes in more than one currency, customers in several countries, documents per shipment and stock that sits in more than one place. Generic software handles a piece of that and leaves the rest to spreadsheets.",
+        "The sales side has its own local shape. A real estate brokerage in Brickell or Coral Gables may get an enquiry from Bogotá, Caracas or São Paulo in the morning and one from New York in the afternoon. A med spa or clinic takes bookings by phone, web form and WhatsApp, in two languages. If the CRM cannot record which language a lead prefers and which channel they came through, follow-up gets slow and leads go cold."
+      ]
+    },
+    {
+      "heading": "What is locally specific about the build",
+      "paragraphs": [
+        "We start from your workflow, then decide the modules. For Miami companies a few requirements come up again and again, and they are cheaper to design in from the start than to bolt on later."
+      ],
+      "bullets": [
+        "Bilingual records and templates: contact language stored per customer, with emails, quotes and invoices generated in English or Spanish, and Portuguese where you sell to Brazil.",
+        "WhatsApp and phone follow-up logged against the contact, since many Latin American buyers prefer messaging to email.",
+        "Multi-currency quoting and customers with addresses and tax details in other countries.",
+        "Seasonal planning: hospitality, events and marine businesses staff up and stock up for the winter season, so reports need to compare season against season, not month against month.",
+        "Continuity: a cloud-hosted system with backups that staff can reach from anywhere, which matters in hurricane season when an office may close for days."
+      ]
+    },
+    {
+      "heading": "How the project runs",
+      "paragraphs": [
+        "We map your process first: pipeline stages, approval chains, stock locations and who needs to see what. We then build only the modules you need now, on an architecture that lets the next one slot in later. The system connects to your website, online store, accounting tools and communication channels, with role-based access so each person sees their own part.",
+        "If you are moving off an older tool, we migrate the historical data: cleaned, deduplicated and checked against the source before anyone relies on it. Dashboards come last, once the data underneath them is trustworthy."
+      ]
+    },
+    {
+      "heading": "What to check before you hire a developer",
+      "paragraphs": [
+        "Ask who owns the code and the data when the project ends. Ask how the system will be hosted and backed up, and what happens when you need a new module in a year. Ask to see the process map before any screens are designed. And be honest about whether you need custom software at all: if a standard CRM fits your sales process with light configuration, that is the cheaper answer, and we will say so in the consultation."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where custom systems fit in Miami",
+    "items": [
+      { "title": "Freight and logistics", "text": "Quotes, shipments, documents and customer accounts in one place for forwarders and brokers working between Miami and Latin America." },
+      { "title": "Real estate brokerages", "text": "A pipeline that tracks overseas and out-of-state buyers, their language, their agent and every conversation up to closing." },
+      { "title": "Import, export and distribution", "text": "Inventory across warehouses, purchase orders, multi-currency pricing and customer-specific price lists." },
+      { "title": "Clinics and med spas", "text": "Lead capture from forms, calls and messaging, with reminders and follow-up sequences in the patient's language." },
+      { "title": "Hospitality and events", "text": "Group enquiries, vendor management and staffing plans that follow the winter season and the event calendar." },
+      { "title": "Marine and yacht services", "text": "Job tracking, parts stock and recurring service schedules for businesses along the Miami River and the marinas." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami, so discovery conversations can happen with someone in your time zone who understands how business is done here. The system itself is designed and built by our wider development team, working with you remotely.",
+  "faqs": [
+    { "q": "How much does a custom CRM or ERP cost for a Miami business?", "a": "It depends on scope: how many modules, how many integrations and how much data has to be migrated. We quote after a free consultation, once we have mapped what you need now and what can wait." },
+    { "q": "Can the CRM work in both English and Spanish?", "a": "Yes. We can build the interface, templates and customer communications to work in both languages, and store a preferred language for each contact so quotes and follow-ups go out correctly. Portuguese can be added if you sell to Brazil." },
+    { "q": "How long does it take to build a custom ERP?", "a": "It depends on your requirements and how clearly the processes are defined. A single module is a much smaller project than a full system. The timeline is agreed in the project plan before work starts." },
+    { "q": "Can you connect the system to QuickBooks, Shopify or our website?", "a": "Integration with accounting tools, online stores, websites and communication channels is part of the service. In the consultation we check what each of your current tools allows through its API and plan the connections around that." },
+    { "q": "Do you have someone in Miami we can talk to about the project?", "a": "Yes. A member of our team is based in Miami. Design and development are carried out by our wider team remotely, with regular calls and demos as each module is finished." }
+  ]
+}
