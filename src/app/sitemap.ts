@@ -5,7 +5,7 @@ import { sectors } from "@/content/en/sectors";
 import { allServices } from "@/content/en/services";
 import { getBlogPosts, getCaseStudies, getSitePages } from "@/content/db";
 import { offices } from "@/content/en/locations";
-import { TOOL_SLUGS } from "@/content/tools";
+import { ALL_TOOL_SLUGS as TOOL_SLUGS } from "@/content/all-tools";
 
 // Posts and case studies are published from the admin without a deploy, so the
 // sitemap has to be rebuilt on a timer rather than frozen at build time.

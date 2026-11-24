@@ -8,6 +8,7 @@ import { getBlogPosts, getCaseStudies } from "@/content/db";
 import { sectorForCategory } from "@/lib/service-links";
 import { ui } from "@/content/ui";
 import { JsonLd } from "@/components/JsonLd";
+import { ToolPromo } from "@/components/ToolPromo";
 import {
   Breadcrumbs,
   CtaBand,
@@ -207,6 +208,8 @@ export async function ServiceView({
           </div>
         </section>
       )}
+
+      <ToolPromo locale={locale} path={`/${sv.sector}/${sv.slug}/`} />
 
       {posts.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
