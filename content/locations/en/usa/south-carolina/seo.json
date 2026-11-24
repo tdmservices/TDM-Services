@@ -11,14 +11,14 @@
       "heading": "How people search in South Carolina",
       "paragraphs": [
         "On the coast, a large part of search demand comes from people who do not live here yet. Visitors to Charleston, Myrtle Beach and the Grand Strand, and Hilton Head research weeks ahead from home, then search again on a phone once they arrive, so a tour operator or restaurant needs planning content for the first search and accurate map listings, hours and menus for the second.",
-        "Inland, the pattern changes. The Upstate around Greenville and Spartanburg is built on manufacturing, with large automotive and tire plants and the suppliers that serve them. Their buyers search by part, process, certification or capability, often from outside the state. Columbia runs on state government, the University of South Carolina and Fort Jackson, so a steady flow of students, military families and public employees arrive needing housing, healthcare and services, and they search for them from scratch.",
+        "Inland, the pattern changes. The Upstate around Greenville and Spartanburg is built on manufacturing, with large automotive and tire plants and the suppliers that serve them. Their buyers search by part, process, certification or capability, often from outside the state. Columbia, with state government, the University of South Carolina and Fort Jackson, receives a steady flow of students, military families and public employees who search for housing, healthcare and services from scratch.",
         "The state is also growing, and people moving in from elsewhere have no local habits, so they ask Google or an AI assistant who to call for a roof, a dentist or a lawyer."
       ]
     },
     {
       "heading": "The place-name problem",
       "paragraphs": [
-        "Several South Carolina cities share their names with better-known or equally known places elsewhere. There is a Charleston in West Virginia, a Columbia in Missouri and in Maryland, a Greenville in North Carolina, and a Beaufort in North Carolina that is spelled the same and pronounced differently. Search engines and AI systems have to work out which one a page is about.",
+        "Several South Carolina cities share their names with better-known or equally known places elsewhere. There is a Charleston in West Virginia, a Columbia in Missouri and in Maryland, a Greenville in North Carolina, and a Beaufort in North Carolina that is spelled the same and pronounced differently.",
         "We remove the doubt. That means a full address and state in structured data, consistent name, address and phone details across directories, a complete Google Business Profile, and copy that names nearby places a local would name: Mount Pleasant and Summerville, Lexington and Irmo, Greer and Simpsonville, Bluffton and Beaufort."
       ]
     },
