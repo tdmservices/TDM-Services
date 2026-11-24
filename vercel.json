@@ -193,6 +193,11 @@
       "permanent": true
     },
     {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/home-main",
       "destination": "/",
       "permanent": true
