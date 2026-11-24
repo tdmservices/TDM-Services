@@ -60,6 +60,7 @@ const navByLocale: Record<Locale, NavItem[]> = {
     { label: "Portfolio", path: "/portfolio/" },
     { label: "About", path: "/about/" },
     { label: "Blog", path: "/blog/" },
+    { label: "Tools", path: "/tools/" },
   ],
   fr: [
     {
@@ -98,6 +99,7 @@ const navByLocale: Record<Locale, NavItem[]> = {
     { label: "Portfolio", path: "/portfolio/" },
     { label: "À propos", path: "/about/" },
     { label: "Blog", path: "/blog/" },
+    { label: "Outils", path: "/tools/" },
   ],
   ar: [
     {
@@ -136,6 +138,7 @@ const navByLocale: Record<Locale, NavItem[]> = {
     { label: "أعمالنا", path: "/portfolio/" },
     { label: "من نحن", path: "/about/" },
     { label: "المدونة", path: "/blog/" },
+    { label: "الأدوات", path: "/tools/" },
   ],
 };
 

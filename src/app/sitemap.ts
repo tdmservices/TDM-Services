@@ -5,6 +5,7 @@ import { sectors } from "@/content/en/sectors";
 import { allServices } from "@/content/en/services";
 import { getBlogPosts, getCaseStudies, getSitePages } from "@/content/db";
 import { offices } from "@/content/en/locations";
+import { TOOL_SLUGS } from "@/content/tools";
 
 // Posts and case studies are published from the admin without a deploy, so the
 // sitemap has to be rebuilt on a timer rather than frozen at build time.
@@ -16,7 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Pages that exist in every language at the same path.
   const shared: { path: string; priority: number; changeFrequency: Entry["changeFrequency"] }[] = [
     { path: "/", priority: 1, changeFrequency: "monthly" },
-    ...["/about/", "/contact/", "/clients/", "/portfolio/", "/case-studies/", "/locations/", "/blog/"].map(
+    ...["/about/", "/contact/", "/clients/", "/portfolio/", "/case-studies/", "/locations/", "/blog/", "/tools/"].map(
       (path) => ({ path, priority: 0.8, changeFrequency: "monthly" as const }),
     ),
     ...sectors.map((s) => ({ path: `/${s.slug}/`, priority: 0.9, changeFrequency: "monthly" as const })),
@@ -25,6 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
       changeFrequency: "monthly" as const,
     })),
+    ...TOOL_SLUGS.map((slug) => ({ path: `/tools/${slug}/`, priority: 0.8, changeFrequency: "monthly" as const })),
     ...offices.map((o) => ({ path: `/locations/${o.slug}/`, priority: 0.7, changeFrequency: "yearly" as const })),
   ];
 

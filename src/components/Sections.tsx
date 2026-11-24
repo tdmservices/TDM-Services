@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Faq, Feature, Locale, ProcessStep, ResultStat, Testimonial } from "@/lib/types";
 import { href, isRtl } from "@/lib/i18n";
 import { ui } from "@/content/ui";
+import { getTools } from "@/content/tools";
 import { SECTOR_IMAGE } from "@/lib/sector-media";
 import { partners } from "@/lib/partner-media";
 import { ConsultationLink } from "./ConsultationLink";
@@ -845,10 +846,13 @@ export function CtaBand({
   headline,
   sub,
   locale = "en",
+  audit = true,
 }: {
   headline?: string;
   sub?: string;
   locale?: Locale;
+  /** Offer the free SEO audit beside the consultation button. Off on the audit page itself. */
+  audit?: boolean;
 }) {
   const t = ui[locale];
   return (
@@ -861,12 +865,22 @@ export function CtaBand({
           <p className="mt-3 max-w-xl text-white/80">{sub ?? t.ctaSub}</p>
         </Reveal>
         <Reveal delay={0.15}>
-          <ConsultationLink
-            locale={locale}
-            className="btn-fluid btn-shine inline-block shrink-0 rounded-full bg-amber px-7 py-3.5 font-semibold text-white shadow-lg shadow-amber/25 hover:brightness-110"
-          >
-            {t.cta}
-          </ConsultationLink>
+          <div className="flex shrink-0 flex-col gap-3 sm:flex-row md:flex-col lg:flex-row">
+            <ConsultationLink
+              locale={locale}
+              className="btn-fluid btn-shine inline-block shrink-0 rounded-full bg-amber px-7 py-3.5 text-center font-semibold text-white shadow-lg shadow-amber/25 hover:brightness-110"
+            >
+              {t.cta}
+            </ConsultationLink>
+            {audit && (
+              <Link
+                href={href(locale, "/tools/seo-audit/")}
+                className="btn-fluid inline-block shrink-0 rounded-full border-2 border-amber/70 px-7 py-3 text-center font-semibold text-white transition-colors hover:border-amber hover:bg-amber"
+              >
+                {getTools(locale).hub.auditCta}
+              </Link>
+            )}
+          </div>
         </Reveal>
       </div>
     </section>
