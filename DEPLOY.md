@@ -1,49 +1,67 @@
 # Deploying thedigitalmarketing.services
 
-## Build
+## How the site runs
+
+The site is a Next.js app that runs on Node.js (`next start`). It is no longer a static
+export: blog posts and case studies are read from Supabase, so there is no `out/` folder
+to upload.
 
 ```bash
 npm install
 npm run build
+npm start        # listens on $PORT, 3000 by default
 ```
 
-The complete static site is written to `out/` — plain HTML/CSS/JS, no server needed.
+Node.js 20.9 or newer is required.
 
-Before building for production, set the contact-form key (free at https://web3forms.com,
-registered to the email that should receive inquiries):
+## Environment variables
 
-```bash
-# PowerShell
-$env:NEXT_PUBLIC_WEB3FORMS_KEY = "your-key-here"; npm run build
-```
+Set these on the host **before building** — `NEXT_PUBLIC_` values are compiled into the
+build, so changing one means rebuilding.
 
-## Option A — Vercel (recommended)
+| Variable | What it is for |
+| --- | --- |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL (blog posts, case studies, admin). |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anon key. See `supabase/README.md`. |
+| `NEXT_PUBLIC_WEB3FORMS_KEY` | Contact form (free at https://web3forms.com). Until set, the form shows an error directing users to email instead. |
 
-1. Push this folder to a Git repo and import it in Vercel (framework: Next.js — it detects
-   the static export automatically), or run `npx vercel deploy` from this folder.
-2. Copy `deploy/vercel.json` to the project root as `vercel.json` (it carries the 301
-   redirects from the old WordPress URLs).
-3. In Vercel → Domains, add `thedigitalmarketing.services` and follow the DNS instructions
-   (point the domain's A/CNAME records at Vercel).
+`SUPABASE_SERVICE_ROLE_KEY` is only for `scripts/seed-content.mjs` on your own machine.
+It does not belong on the host.
 
-## Option B — Existing cPanel/Apache hosting
+## Option A — Hostinger (Node.js web app)
 
-1. Run `npm run build`.
-2. Upload the **contents** of `out/` to `public_html/` (replacing the WordPress site —
-   back it up first: files + database).
-3. `out/.htaccess` is already included — it carries the 301 redirects and caching rules.
+Needs a plan with Node.js web apps (Business or Cloud).
+
+1. In hPanel → Websites → Add Website, choose **Node.js Apps** and import the GitHub
+   repository `tdmservices/TDM-Services`, branch `main`.
+2. Framework: **Next.js**. Build command `npm run build`, start command `npm start`,
+   Node.js 20 or newer.
+3. Add the environment variables above, then deploy.
+4. Point `thedigitalmarketing.services` at the app in hPanel → Domains. If the old
+   WordPress site is on the same account, back up its files and database first.
+
+Every push to `main` redeploys the site.
+
+## Option B — Vercel
+
+Import the repository in Vercel (framework: Next.js), add the environment variables
+above, and deploy.
+
+## Redirects and headers
+
+The redirects from the old WordPress URLs and the response headers are listed in
+`vercel.json`. `next.config.mjs` applies the same list, so they work on any Node.js
+host, not only on Vercel. Edit them in `vercel.json`.
 
 ## After go-live (either option)
 
-1. Verify a few old URLs 301 correctly, e.g.
+1. Verify a few old URLs redirect correctly, e.g.
    `/search-engine-optimization-services/` → `/marketing/seo/`.
 2. In Google Search Console, submit `https://thedigitalmarketing.services/sitemap.xml`.
 3. Keep the old WordPress database backup for 30 days in case content needs recovering.
 
 ## Content still pending (safe to launch without, better with)
 
-- `NEXT_PUBLIC_WEB3FORMS_KEY` — until set, the contact form shows an error directing
-  users to email instead. **Set this before launch.**
 - Client approval list (`E:\TDM\build\client-approval-list.md`) — case studies are
   anonymized by default; flip `anonymous: false` in
   `src/content/en/case-studies.ts` (+ fr/ar files) per approved client.
