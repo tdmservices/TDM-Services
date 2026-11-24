@@ -11,7 +11,7 @@
       "heading": "Why online stores matter for South Carolina sellers",
       "paragraphs": [
         "Tourism brings a steady stream of customers through shop doors on King Street, at the Charleston City Market, along the Grand Strand and on Hilton Head. Most of them leave the state within a week. A Shopify store, connected to the till through Shopify POS, turns a one-off holiday purchase into a customer you can email and sell to all year.",
-        "The state also produces things people want shipped. Lowcountry food is the obvious example: stone-ground grits, rice, barbecue sauces, tea, pecans and peaches in season. Alongside that sit clothing and lifestyle labels, golf and fishing gear, home goods and craft work. These brands compete nationally, so the store has to load fast, look right on a phone and make checkout simple."
+        "The state also produces things people want shipped. Lowcountry food is the obvious example: stone-ground grits, rice, barbecue sauces, tea, pecans and peaches in season. These and the state's clothing, golf and fishing brands compete nationally, so the store has to load fast, look right on a phone and make checkout simple."
       ]
     },
     {
@@ -19,7 +19,7 @@
       "paragraphs": [
         "Shipping is the first. Food sent in a hot, humid summer needs rules for which products can ship when, which services are offered and what packaging costs are added. We configure shipping profiles and product availability so customers see accurate options and you do not lose margin on every box.",
         "Tax is the second. South Carolina has a state sales tax with local taxes on top that differ by county, and selling into other states brings its own obligations. Shopify can calculate this, but it has to be set up correctly, and we recommend confirming the settings with your accountant.",
-        "Timing is the third. Gift-driven stores do much of their yearly trade before the winter holidays, while stores tied to tourism see online orders follow the visitor seasons. A relaunch or migration should be finished and tested before your peak, not during it. Inventory also needs to stay in sync between the shop floor and the website when both are busy."
+        "Timing is the third. Gift-driven stores do much of their yearly trade before the winter holidays, while stores tied to tourism see online orders follow the visitor seasons. A relaunch or migration should be finished and tested before your peak, not during it."
       ]
     },
     {
@@ -40,27 +40,57 @@
     {
       "heading": "Before you hire a Shopify developer",
       "paragraphs": [
-        "Make sure the store is opened in your name, with the developer added as a collaborator. Ask how many apps the build will rely on and what they cost each month, since app fees add up quietly. Ask how redirects will be handled if you are moving from another platform. And ask whether the theme can be edited by your own staff after launch, section by section, without code."
+        "Make sure the store is opened in your name, with the developer added as a collaborator. Ask how many apps the build will rely on and what they cost each month, since app fees add up quietly. Ask how redirects will be handled if you are moving from another platform."
       ]
     }
   ],
   "cards": {
     "heading": "Who we build Shopify stores for",
     "items": [
-      { "title": "Food and drink producers", "text": "Stores with shipping rules for perishable goods, gift sets, subscriptions and reorder reminders." },
-      { "title": "Boutiques with a storefront", "text": "Online stores linked to the shop's stock and till, so visitors can keep buying after they leave town." },
-      { "title": "Clothing and lifestyle brands", "text": "Themes built around photography, size and colour variants, and collections that are easy to refresh each season." },
-      { "title": "Golf, fishing and outdoor gear", "text": "Catalogues with many variants and specifications, clear filtering and product pages that answer buyers' questions." },
-      { "title": "Makers and artists", "text": "Simple, well-designed stores for one-of-a-kind and small-batch work, with made-to-order options." },
-      { "title": "Merchants changing platform", "text": "Moves to Shopify from an older or slower store, planned so trading and search rankings continue." }
+      {
+        "title": "Food and drink producers",
+        "text": "Stores with shipping rules for perishable goods, gift sets, subscriptions and reorder reminders."
+      },
+      {
+        "title": "Boutiques with a storefront",
+        "text": "Online stores linked to the shop's stock and till, so visitors can keep buying after they leave town."
+      },
+      {
+        "title": "Clothing and lifestyle brands",
+        "text": "Themes built around photography, size and colour variants, and collections that are easy to refresh each season."
+      },
+      {
+        "title": "Golf, fishing and outdoor gear",
+        "text": "Catalogues with many variants and specifications, clear filtering and product pages that answer buyers' questions."
+      },
+      {
+        "title": "Merchants changing platform",
+        "text": "Moves to Shopify from an older or slower store, planned so trading and search rankings continue."
+      }
     ]
   },
   "presence": "A member of our team is based in South Carolina. Store design, development and support are delivered by our wider team remotely, with previews shared at each stage.",
+  "service": "development/shopify",
   "faqs": [
-    { "q": "How much does it cost to build a Shopify store in South Carolina?", "a": "It depends on the size of your catalogue, the level of custom design and the integrations needed. We quote after a free consultation. Shopify's own subscription and any app fees are separate and paid to those providers." },
-    { "q": "How long does a Shopify store take to launch?", "a": "It depends on your requirements, the number of products and how ready your photos and descriptions are. We agree the timeline in the plan and aim to finish before your busy season." },
-    { "q": "Can you connect my shop in Charleston or Myrtle Beach to an online store?", "a": "Yes. With Shopify POS, in-store and online sales share one product list and one stock count, and customers from the shop can be invited to buy online later." },
-    { "q": "Can you move my store from WooCommerce or Magento to Shopify?", "a": "Yes. We migrate products, customers and order history, rebuild the design on Shopify and map redirects from old addresses to new ones so existing rankings and links keep working." },
-    { "q": "Is Shopify the right platform for my business?", "a": "For most consumer brands and retailers, yes. If you have complex B2B pricing or a very large catalogue tied to an ERP, Magento or a custom build may suit better. We build on all of them and will tell you which fits." }
+    {
+      "q": "How much does it cost to build a Shopify store in South Carolina?",
+      "a": "It depends on the size of your catalogue, the level of custom design and the integrations needed. We quote after a free consultation."
+    },
+    {
+      "q": "How long does a Shopify store take to launch?",
+      "a": "It depends on your requirements, the number of products and how ready your photos and descriptions are. We agree the timeline in the plan and aim to finish before your busy season."
+    },
+    {
+      "q": "Can you connect my shop in Charleston or Myrtle Beach to an online store?",
+      "a": "Yes. With Shopify POS, in-store and online sales share one product list and one stock count, and customers from the shop can be invited to buy online later."
+    },
+    {
+      "q": "Can you move my store from WooCommerce or Magento to Shopify?",
+      "a": "Yes. We migrate products, customers and order history, rebuild the design on Shopify and map redirects from old addresses to new ones so existing rankings and links keep working."
+    },
+    {
+      "q": "Is Shopify the right platform for my business?",
+      "a": "For most consumer brands and retailers, yes. If you have complex B2B pricing or a very large catalogue tied to an ERP, Magento or a custom build may suit better. We build on all of them and will tell you which fits."
+    }
   ]
 }
