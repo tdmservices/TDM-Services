@@ -468,7 +468,7 @@ export const TOOL_DEFS: ToolDef[] = [
       const bonuses = v("bonuses").split("\n").map((b) => b.trim()).filter(Boolean);
 
       const sentence = [fill("doc.s.base"), part("doc.s.time", "time"), part("doc.s.effort", "effort")].join("") + t("doc.s.end");
-      const lines = [`# ${t("doc.title")}: ${v("business")}`, "", `# ${t("doc.sentence")}`, sentence];
+      const lines = [`# ${t("doc.title")}${t("doc.colon")}${v("business")}`, "", `# ${t("doc.sentence")}`, sentence];
       if (g !== "none") lines.push(fill(`doc.g.${g}.short`));
 
       lines.push("", `# ${t("doc.names")}`);
@@ -477,13 +477,13 @@ export const TOOL_DEFS: ToolDef[] = [
 
       // The four things that decide how valuable an offer feels.
       lines.push("", `# ${t("doc.value")}`);
-      lines.push(`- ${t("doc.v.outcome")}: ${t("doc.v.ok")} ${v("outcome")}`);
-      lines.push(`- ${t("doc.v.belief")}: ${v("proof") || g !== "none" ? t("doc.v.ok") : t("doc.v.weak")} ${v("proof") || g !== "none" ? t("doc.v.belief.ok") : t("doc.v.belief.fix")}`);
-      lines.push(`- ${t("doc.v.time")}: ${v("time") ? `${t("doc.v.ok")} ${v("time")}` : `${t("doc.v.weak")} ${t("doc.v.time.fix")}`}`);
-      lines.push(`- ${t("doc.v.effort")}: ${v("effort") ? `${t("doc.v.ok")} ${fill("doc.v.effort.ok")}` : `${t("doc.v.weak")} ${t("doc.v.effort.fix")}`}`);
+      lines.push(`- ${t("doc.v.outcome")}${t("doc.colon")}${t("doc.v.ok")} ${v("outcome")}`);
+      lines.push(`- ${t("doc.v.belief")}${t("doc.colon")}${v("proof") || g !== "none" ? t("doc.v.ok") : t("doc.v.weak")} ${v("proof") || g !== "none" ? t("doc.v.belief.ok") : t("doc.v.belief.fix")}`);
+      lines.push(`- ${t("doc.v.time")}${t("doc.colon")}${v("time") ? `${t("doc.v.ok")} ${v("time")}` : `${t("doc.v.weak")} ${t("doc.v.time.fix")}`}`);
+      lines.push(`- ${t("doc.v.effort")}${t("doc.colon")}${v("effort") ? `${t("doc.v.ok")} ${t("doc.v.effort.ok").replace("{effort}", v("effort"))}` : `${t("doc.v.weak")} ${t("doc.v.effort.fix")}`}`);
 
       lines.push("", `# ${t("doc.stack")}`, `- ${v("product")}${v("price") ? ` (${v("price")})` : ""}`);
-      if (bonuses.length) lines.push(...bonuses.map((b) => `- ${t("doc.bonus")}: ${b}`));
+      if (bonuses.length) lines.push(...bonuses.map((b) => `- ${t("doc.bonus")}${t("doc.colon")}${b}`));
       else lines.push(t("doc.bonus.fix"));
 
       lines.push("", `# ${t("doc.guarantee")}`, fill(`doc.g.${g}`));
@@ -497,7 +497,7 @@ export const TOOL_DEFS: ToolDef[] = [
 
       lines.push("", `# ${t("doc.ad")}`, fill("doc.ad.1"), sentence);
       if (v("proof")) lines.push(fill("doc.ad.proof"));
-      if (bonuses.length) lines.push(`${t("doc.ad.bonus")} ${bonuses.join(", ")}.`);
+      if (bonuses.length) lines.push(`${t("doc.ad.bonus")} ${bonuses.join(t("doc.listSep"))}.`);
       if (g !== "none") lines.push(fill(`doc.g.${g}.short`));
       if (v("limit")) lines.push(fill("doc.now.limit"));
       if (v("deadline")) lines.push(fill("doc.now.deadline"));
@@ -538,12 +538,12 @@ export const TOOL_DEFS: ToolDef[] = [
       const weeks = Number(v("weeks")) || 4;
       const used: Record<string, number> = {};
 
-      const lines = [`# ${t("doc.title")}: ${v("business")}`, `${t("f.goal")}: ${t(`o.goal.${v("goal")}`)} · ${days.length} ${t("doc.perWeek")} · ${weeks} ${t("doc.weeks")}`];
+      const lines = [`# ${t("doc.title")}${t("doc.colon")}${v("business")}`, `${t("f.goal")}${t("doc.colon")}${t(`o.goal.${v("goal")}`)} · ${days.length} ${t("doc.perWeek")} · ${weeks} ${t("doc.weeks")}`];
       const platforms = picked("platforms");
-      if (platforms.length) lines.push(`${t("f.platforms")}: ${platforms.map((p) => t(`o.platforms.${p}`)).join(", ")}`);
+      if (platforms.length) lines.push(`${t("f.platforms")}${t("doc.colon")}${platforms.map((p) => t(`o.platforms.${p}`)).join(t("doc.listSep"))}`);
 
       for (let w = 1; w <= weeks; w++) {
-        lines.push("", `# ${t("doc.week")} ${w}: ${t(`doc.theme.${((w - 1) % 4) + 1}`)}`);
+        lines.push("", `# ${t("doc.week")} ${w}${t("doc.colon")}${t(`doc.theme.${((w - 1) % 4) + 1}`)}`);
         days.forEach((d, i) => {
           const pillar = mix[i % mix.length];
           const idea = (used[pillar] = (used[pillar] ?? 0) + 1);
@@ -551,8 +551,8 @@ export const TOOL_DEFS: ToolDef[] = [
         });
       }
 
-      lines.push("", `# ${t("doc.mix")}`, ...["teach", "proof", "behind", "offer", "engage"].map((p) => `- ${t(`doc.p.${p}`)}: ${t(`doc.why.${p}`)}`));
-      if (platforms.length) lines.push("", `# ${t("doc.adapt")}`, ...platforms.map((p) => `- ${t(`o.platforms.${p}`)}: ${t(`doc.a.${p}`)}`));
+      lines.push("", `# ${t("doc.mix")}`, ...["teach", "proof", "behind", "offer", "engage"].map((p) => `- ${t(`doc.p.${p}`)}${t("doc.colon")}${t(`doc.why.${p}`)}`));
+      if (platforms.length) lines.push("", `# ${t("doc.adapt")}`, ...platforms.map((p) => `- ${t(`o.platforms.${p}`)}${t("doc.colon")}${t(`doc.a.${p}`)}`));
       lines.push("", `# ${t("doc.rules")}`, ...["r1", "r2", "r3", "r4"].map((k) => `- ${t(`doc.${k}`)}`));
       return lines;
     },

@@ -5,6 +5,8 @@ import { fr } from "./fr";
 import { ar } from "./ar";
 import { WP_SLUG, wpAr, wpEn, wpFr } from "./wp";
 import { marketingEn } from "./marketing-en";
+import { marketingFr } from "./marketing-fr";
+import { marketingAr } from "./marketing-ar";
 
 /**
  * Copy for the data-driven tools (src/lib/tool-defs.ts) and the WordPress
@@ -20,7 +22,7 @@ const withWp = (copy: MoreToolsCopy, wp: MoreToolCopy, more: Record<string, More
 
 const base = withWp(en, wpEn, marketingEn);
 /** Every language's copy, English fallbacks not applied. */
-export const MORE_TOOLS: Partial<Record<Locale, MoreToolsCopy>> = { en: base, fr: withWp(fr, wpFr), ar: withWp(ar, wpAr) };
+export const MORE_TOOLS: Partial<Record<Locale, MoreToolsCopy>> = { en: base, fr: withWp(fr, wpFr, marketingFr), ar: withWp(ar, wpAr, marketingAr) };
 const registry = MORE_TOOLS;
 
 export const getToolUi = (locale: Locale) => (registry[locale] ?? base).ui;
