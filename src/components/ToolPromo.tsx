@@ -1,22 +1,23 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/types";
 import { href, isRtl } from "@/lib/i18n";
-import { toolForService } from "@/content/all-tools";
+import { toolsForService } from "@/content/all-tools";
 import { getToolUi } from "@/content/more-tools";
 
 /**
- * The free tool that goes with a service, shown on that service's page.
+ * The free tools that go with a service, shown on that service's page.
  * `path` is the page's canonical English path, e.g. "/marketing/seo/".
  * Renders nothing for a service that has no tool.
  */
 export function ToolPromo({ locale, path }: { locale: Locale; path: string }) {
-  const tool = toolForService(locale, path);
-  if (!tool) return null;
+  const tools = toolsForService(locale, path);
+  if (tools.length === 0) return null;
   const ui = getToolUi(locale);
 
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-      <div className="relative overflow-hidden rounded-3xl bg-forest p-7 text-white sm:p-10 md:flex md:items-center md:justify-between md:gap-10">
+    <section className="mx-auto max-w-7xl space-y-5 px-4 py-10 sm:px-6">
+      {tools.map((tool) => (
+        <div key={tool.slug} className="relative overflow-hidden rounded-3xl bg-forest p-7 text-white sm:p-10 md:flex md:items-center md:justify-between md:gap-10">
         <div aria-hidden className="blob pointer-events-none absolute -end-20 -top-20 h-64 w-64 rounded-full bg-fern/45 blur-3xl" />
         <div aria-hidden className="blob-slow pointer-events-none absolute -bottom-24 start-1/4 h-56 w-56 rounded-full bg-amber/20 blur-3xl" />
         <div className="relative">
@@ -34,6 +35,7 @@ export function ToolPromo({ locale, path }: { locale: Locale; path: string }) {
           {ui.tryTool} <span className="arrow-nudge">{isRtl(locale) ? "←" : "→"}</span>
         </Link>
       </div>
+      ))}
     </section>
   );
 }
