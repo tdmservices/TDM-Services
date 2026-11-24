@@ -10,7 +10,7 @@ export const offices: Office[] = [
     roleLabel: "Headquarters",
     metaTitle: "Digital Marketing Agency in Dubai, UAE | TDM Services",
     metaDescription:
-      "TDM is a Dubai-headquartered digital agency delivering SEO, performance marketing, media production and web development for UAE and GCC brands. 100% client satisfaction.",
+      "TDM is a Dubai-headquartered digital agency delivering SEO, performance marketing, media production and web development for UAE and GCC brands.",
     hero: {
       headline: "Your digital growth partner in Dubai.",
       sub: "From our UAE headquarters, TDM runs SEO, paid advertising, media production and e-commerce development for brands across Dubai and the GCC.",
@@ -28,6 +28,18 @@ export const offices: Office[] = [
         q: "Does TDM run Arabic-language marketing campaigns?",
         a: "Yes. TDM plans and executes Arabic SEO, Arabic ad campaigns and Arabic social content natively (including successful Arabic-first SEO projects for UAE e-commerce stores) alongside English and French.",
       },
+      {
+        q: "What digital marketing services does TDM offer in Dubai?",
+        a: "TDM's Dubai team offers SEO (including native Arabic SEO), performance marketing on Google, Meta and TikTok, social media management, video and product shoots, UGC ads, and website, e-commerce and app development. Everything is delivered by one in-house team, so the people running your ads work alongside the people building your website.",
+      },
+      {
+        q: "Which industries does TDM work with in the UAE?",
+        a: "Our UAE and GCC work covers e-commerce and retail (with a strong record in fragrance and perfume brands), real estate, legal services and travel. The case studies section documents results for each, including 16× organic traffic growth and 10× return on ad spend for a Dubai fragrance retailer.",
+      },
+      {
+        q: "How do I start working with TDM in Dubai?",
+        a: "Book a free consultation through the site or email info@thedigitalmarketing.services. We review where your marketing or website stands today, agree the scope in writing before any work begins, and report on progress every month in numbers you can check in your own accounts.",
+      },
     ],
   },
   {
@@ -39,7 +51,7 @@ export const offices: Office[] = [
     roleLabel: "Global Delivery Hub",
     metaTitle: "TDM Lahore: Delivery Hub & Staff Augmentation in Pakistan",
     metaDescription:
-      "TDM's Lahore hub houses 50+ marketing and tech specialists delivering SEO, development, media production and dedicated staff augmentation for clients worldwide.",
+      "TDM's Lahore hub houses 50+ marketing and tech specialists delivering SEO, development, media production and staff augmentation for clients worldwide.",
     hero: {
       headline: "The engine room: TDM Lahore.",
       sub: "Our Pakistan delivery hub is where 50+ specialists produce the work, and where we recruit, manage and mentor dedicated teams for clients abroad.",
@@ -57,6 +69,18 @@ export const offices: Office[] = [
         q: "Can I hire dedicated staff through TDM's Lahore office?",
         a: "Yes. TDM recruits, employs and manages full-time dedicated professionals (developers, designers, marketers and more) who work exclusively on your projects, aligned to your timezone and tools. See our Staff Augmentation service for details.",
       },
+      {
+        q: "Which services are delivered from TDM's Lahore hub?",
+        a: "All of them: SEO, performance marketing and social media, video editing and ad creatives, Shopify, WordPress, Magento and custom development, CRM/ERP systems and mobile apps. Lahore is where TDM's specialists sit, whichever country the client is in.",
+      },
+      {
+        q: "Does TDM work with businesses in Pakistan as well as abroad?",
+        a: "Yes. Lahore serves local businesses directly and delivers the work for TDM's clients in the UAE, UK, USA, Europe and Africa. Whether you are in Lahore or abroad, you can start by emailing info@thedigitalmarketing.services or booking a free consultation.",
+      },
+      {
+        q: "What roles can I hire through staff augmentation in Lahore?",
+        a: "Developers, designers, video editors, SEO specialists and campaign managers, hired as full-time dedicated team members who work only on your projects. TDM recruits, employs and manages them in our Lahore office, typically at 50–70% below the cost of an equivalent hire in the US, UK or Gulf.",
+      },
     ],
   },
   {
@@ -66,7 +90,7 @@ export const offices: Office[] = [
     address: "Lowercroft Rd, Bury BL8 3PA, United Kingdom",
     role: "partner",
     roleLabel: "UK Office",
-    metaTitle: "Digital Marketing & Development Agency for UK Businesses | TDM",
+    metaTitle: "Digital Marketing Agency for UK Businesses | TDM",
     metaDescription:
       "TDM serves UK businesses from Bury, Greater Manchester: SEO, paid ads, web development and dedicated offshore teams with UK-facing account management.",
     hero: {
@@ -86,6 +110,18 @@ export const offices: Office[] = [
         q: "Why do UK businesses work with TDM instead of a local-only agency?",
         a: "TDM combines UK-based account contact with a 50+ person delivery hub, so UK businesses get agency-grade SEO, paid media, development and content at significantly better rates than comparable UK-only teams: with the same accountability.",
       },
+      {
+        q: "What services does TDM offer UK businesses?",
+        a: "SEO, paid advertising on Google and Meta, social media management, website and e-commerce development on Shopify, WordPress and custom stacks, mobile apps, media production, and dedicated offshore team members through staff augmentation.",
+      },
+      {
+        q: "Has TDM delivered results for UK companies?",
+        a: "Yes. Documented UK work includes +20% organic traffic in two months for a UK-targeted manufacturer and a complete Android food-delivery app for a UK business. Both are written up in the case studies section.",
+      },
+      {
+        q: "How do UK businesses get started with TDM?",
+        a: "Call +44 7946 186955, email info@thedigitalmarketing.services or book a free consultation online. We agree the scope and deliverables in writing first, then report monthly on rankings, traffic, ad spend and results.",
+      },
     ],
   },
   {
@@ -95,7 +131,7 @@ export const offices: Office[] = [
     address: undefined,
     role: "partner",
     roleLabel: "US Offices",
-    metaTitle: "Digital Marketing Agency for US Brands: Florida & South Carolina | TDM",
+    metaTitle: "Digital Marketing Agency for US Brands | TDM",
     metaDescription:
       "TDM partners with US businesses from South Florida and Greenville, SC: performance marketing, SEO, e-commerce builds and dedicated offshore teams.",
     hero: {
@@ -114,6 +150,18 @@ export const offices: Office[] = [
       {
         q: "How do US companies benefit from TDM's staff augmentation?",
         a: "US companies hire dedicated developers, designers or marketers managed from TDM's Lahore hub at typically 50–70% below equivalent US salaries: full-time professionals aligned to US working hours, with TDM handling recruiting, HR and quality.",
+      },
+      {
+        q: "What services does TDM offer US businesses?",
+        a: "Performance marketing on Google and Meta, SEO, Shopify and WordPress builds, custom web platforms, media production and ad creatives, plus dedicated developers, designers and marketers through staff augmentation.",
+      },
+      {
+        q: "How does working with a team outside the US affect turnaround?",
+        a: "The time difference works in your favour: work is often completed overnight and ready when your day starts. You deal with a US-facing contact, and staff-augmentation team members are aligned to US working hours.",
+      },
+      {
+        q: "How do I start a project with TDM from the US?",
+        a: "Email info@thedigitalmarketing.services or book a free consultation online. We scope the work and agree deliverables in writing before anything begins, and report on results every month.",
       },
     ],
   },
@@ -144,6 +192,18 @@ export const offices: Office[] = [
         q: "Can TDM run French-language campaigns in Africa?",
         a: "Yes. French is one of TDM's three working languages. We produce French SEO content, French ad campaigns and French websites natively, including for European and African francophone markets.",
       },
+      {
+        q: "What services does TDM offer in Cameroon?",
+        a: "Digital marketing in French and English (SEO, paid advertising and social media), website and e-commerce development, mobile apps, and media production, delivered with a local contact in Akwa, Douala.",
+      },
+      {
+        q: "Which languages does TDM work in for Central African clients?",
+        a: "French and English, natively in both, with Arabic also available. Campaigns, websites and content are written by people fluent in the language rather than translated afterwards.",
+      },
+      {
+        q: "How can a business in Cameroon contact TDM?",
+        a: "Email info@thedigitalmarketing.services or book a free consultation online, and you will be put in touch with our Douala contact. Scope and deliverables are agreed in writing before work starts.",
+      },
     ],
   },
   {
@@ -153,7 +213,7 @@ export const offices: Office[] = [
     address: "Gifu Prefecture, Japan",
     role: "partner",
     roleLabel: "Japan Office",
-    metaTitle: "Digital Marketing & Development Partner in Japan: Gifu | TDM",
+    metaTitle: "Digital Marketing Partner in Japan: Gifu | TDM",
     metaDescription:
       "TDM's Japan presence in Gifu Prefecture connects Japanese businesses with global-standard digital marketing, e-commerce development and offshore teams.",
     hero: {
@@ -163,11 +223,24 @@ export const offices: Office[] = [
     intro: [
       "TDM maintains a presence in Gifu Prefecture, Japan, serving Japanese businesses that want international-standard digital marketing and development with a local point of contact.",
       "Japanese clients particularly benefit from our staff-augmentation model: dedicated English-capable developers and marketers at globally competitive rates, managed end-to-end by TDM.",
+      "The work itself is produced by TDM's delivery hub: SEO, paid advertising, Shopify and custom e-commerce builds, mobile apps and media production, in English, French and Arabic. That makes TDM most useful to Japanese companies selling into English-speaking markets, Europe or the Gulf.",
     ],
     faqs: [
       {
         q: "Does TDM operate in Japan?",
         a: "Yes: TDM has a partner office in Gifu Prefecture, Japan, offering digital marketing, e-commerce development and staff augmentation to Japanese businesses.",
+      },
+      {
+        q: "What services does TDM offer businesses in Japan?",
+        a: "Digital marketing for international audiences, e-commerce and website development, mobile apps, and staff augmentation: dedicated English-capable developers and marketers managed by TDM.",
+      },
+      {
+        q: "Which languages does TDM work in?",
+        a: "English, French and Arabic. For Japanese businesses selling abroad, that covers English-speaking markets, francophone Europe and Africa, and the Gulf. TDM does not produce Japanese-language campaigns.",
+      },
+      {
+        q: "How can a company in Japan start working with TDM?",
+        a: "Email info@thedigitalmarketing.services or book a free consultation online. We agree the scope in writing first and report on progress every month.",
       },
     ],
   },
@@ -178,7 +251,7 @@ export const offices: Office[] = [
     address: undefined, // TODO(user): France office address
     role: "partner",
     roleLabel: "France Office",
-    metaTitle: "Agence Digitale pour Entreprises Françaises | TDM Services",
+    metaTitle: "Digital Agency for French Businesses | TDM Services",
     metaDescription:
       "TDM serves French businesses with native French marketing, SEO and platform development: including a 2,400-article legal platform for a Paris law practice.",
     hero: {
@@ -188,11 +261,24 @@ export const offices: Office[] = [
     intro: [
       "France is one of TDM's strongest markets. We designed, built and grew a complete digital platform for a Paris-based business-law practice (2,400+ legal articles, bilingual EN/FR delivery, serving companies from 20+ countries) and run French-language sites for company formation, debt recovery and premium real estate.",
       "French businesses get native-French content, campaigns and platforms, backed by our global delivery hub and sales partners in France.",
+      "Our services in France cover the full range: SEO and content in French, paid advertising, website and platform builds, e-commerce, media production and dedicated offshore team members. Every project is scoped in writing first and reported on monthly.",
     ],
     faqs: [
       {
         q: "Does TDM work with French companies?",
         a: "Yes. TDM has sales partners in France and deep French-market experience: legal-services platforms, company-formation portals, debt-recovery sites and premium real-estate brands, all delivered natively in French.",
+      },
+      {
+        q: "What services does TDM offer in France?",
+        a: "French-language SEO and content, paid advertising, website and platform development, and e-commerce, all produced natively in French, alongside English and Arabic for companies that sell internationally.",
+      },
+      {
+        q: "What French-market work has TDM delivered?",
+        a: "The largest is a complete digital platform for a Paris business-law practice, with more than 2,400 legal articles in English and French. TDM has also built French-language sites for company formation, debt recovery and premium real estate.",
+      },
+      {
+        q: "How can a French company contact TDM?",
+        a: "Email info@thedigitalmarketing.services or book a free consultation online. You can also use the French version of this site. Scope and deliverables are agreed in writing before work begins.",
       },
     ],
   },
@@ -212,11 +298,24 @@ export const offices: Office[] = [
     },
     intro: [
       "TDM works with Bulgarian and Southeast European businesses through local sales partners, delivering the same services our clients get worldwide: performance marketing, SEO, e-commerce and custom development, media production and staff augmentation.",
+      "Bulgarian companies most often come to TDM for two things: growing sales in English-speaking, francophone or Gulf markets, where we run campaigns natively in English, French and Arabic, and adding dedicated developers or marketers to their own team through staff augmentation.",
     ],
     faqs: [
       {
         q: "Does TDM operate in Bulgaria?",
         a: "Yes: TDM serves Bulgarian businesses through local sales partners, with delivery from our global hub. Contact info@thedigitalmarketing.services to be connected with our Bulgaria team.",
+      },
+      {
+        q: "What services does TDM offer Bulgarian businesses?",
+        a: "Performance marketing, SEO, social media, e-commerce and custom web development, mobile apps, media production, and staff augmentation for companies that want dedicated developers or marketers.",
+      },
+      {
+        q: "Which languages does TDM work in for Southeast European clients?",
+        a: "English, French and Arabic. That suits Bulgarian businesses selling to English-speaking markets, francophone countries or the Gulf. TDM does not produce Bulgarian-language campaigns.",
+      },
+      {
+        q: "How do I start working with TDM from Bulgaria?",
+        a: "Email info@thedigitalmarketing.services or book a free consultation online, and you will be connected with our Bulgaria partner. We agree the scope in writing before work starts and report monthly.",
       },
     ],
   },

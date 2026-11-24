@@ -82,7 +82,7 @@
       ]
     },
     {
-      "source": "/clients/(.*)",
+      "source": "/clients/(.+)",
       "headers": [
         {
           "key": "Cache-Control",

@@ -4,11 +4,14 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { href, isRtl } from "@/lib/i18n";
 import { absoluteUrl, site } from "@/lib/site";
+import { SHARE_IMAGE } from "@/lib/meta";
+import { servicePathFor } from "@/lib/service-links";
 import { getContent } from "@/content";
 import { getCaseStudies, getCaseStudy } from "@/content/db";
 import { ui } from "@/content/ui";
 import { JsonLd } from "@/components/JsonLd";
 import {
+  ArrowPill,
   Breadcrumbs,
   CtaBand,
   HeroBlobs,
@@ -176,6 +179,11 @@ export async function CaseStudyView({ locale, slug }: { locale: Locale; slug: st
   const cs = await getCaseStudy(locale, slug);
   if (!cs) notFound();
   const copy = c.pages.caseStudyPage;
+  // More proof from the same line of work, so the page is not a dead end.
+  const related = (await getCaseStudies(locale))
+    .filter((x) => x.sector === cs.sector && x.slug !== cs.slug)
+    .slice(0, 3);
+  const sector = c.sectors.find((x) => x.slug === cs.sector);
   const pageUrl = absoluteUrl(href(locale, `/case-studies/${cs.slug}/`));
 
   return (
@@ -193,6 +201,7 @@ export async function CaseStudyView({ locale, slug }: { locale: Locale; slug: st
           abstract: `${cs.summary} Measured results: ${cs.results
             .map((r) => `${r.value} ${r.label}`)
             .join("; ")}.`,
+          image: absoluteUrl(SHARE_IMAGE.url),
           about: { "@type": "Thing", name: cs.industry },
           keywords: cs.services.join(", "),
           inLanguage: locale,
@@ -223,11 +232,20 @@ export async function CaseStudyView({ locale, slug }: { locale: Locale; slug: st
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="flex flex-wrap gap-2">
-          {cs.services.map((s) => (
-            <span key={s} className="rounded-full bg-mint px-3 py-1 text-xs font-semibold text-forest">
-              {s}
-            </span>
-          ))}
+          {cs.services.map((s) => {
+            // Link the label to the service it describes, where there is one.
+            const to = servicePathFor(s);
+            const chip = "rounded-full bg-mint px-3 py-1 text-xs font-semibold text-forest";
+            return to ? (
+              <Link key={s} href={href(locale, to)} className={`${chip} transition-colors hover:bg-fern hover:text-white`}>
+                {s}
+              </Link>
+            ) : (
+              <span key={s} className={chip}>
+                {s}
+              </span>
+            );
+          })}
           {cs.timeline && (
             <span className="rounded-full border border-mint px-3 py-1 text-xs font-semibold text-ink/70">
               {cs.timeline}
@@ -241,13 +259,13 @@ export async function CaseStudyView({ locale, slug }: { locale: Locale; slug: st
 
         <div className="mt-12 grid gap-12 lg:grid-cols-2">
           <div>
-            <Kicker glow>{copy.challengeLabel}</Kicker>
+            <Kicker glow as="h2">{copy.challengeLabel}</Kicker>
             <div className="mt-4">
               <Prose paragraphs={[cs.challenge]} />
             </div>
           </div>
           <div>
-            <Kicker glow>{copy.approachLabel}</Kicker>
+            <Kicker glow as="h2">{copy.approachLabel}</Kicker>
             <ul className="mt-4 space-y-3">
               {cs.approach.map((a) => (
                 <li key={a} className="flex gap-3 text-base leading-relaxed text-ink/85">
@@ -267,6 +285,40 @@ export async function CaseStudyView({ locale, slug }: { locale: Locale; slug: st
           </Reveal>
         )}
       </section>
+
+      {related.length > 0 && (
+        <section className="ribbon-bg bg-mint/50">
+          <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
+            <Kicker glow>{t.proof}</Kicker>
+            <h2 className="mt-3 text-3xl font-bold text-forest">{t.relatedResults}</h2>
+            <div className="mt-8 grid gap-6 lg:grid-cols-3">
+              {related.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={href(locale, `/case-studies/${r.slug}/`)}
+                  className="group card-lift block h-full rounded-3xl border border-mint bg-white p-6 transition-colors duration-300 hover:border-fern hover:shadow-xl"
+                >
+                  <p className="text-xs font-medium uppercase tracking-wide text-ink/50">{r.industry}</p>
+                  <h3 className="mt-2 font-display text-lg font-semibold text-forest transition-colors group-hover:text-fern">
+                    {displayName(r)}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/75">{r.summary}</p>
+                </Link>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-x-4">
+              <ArrowPill to={href(locale, "/case-studies/")} locale={locale}>
+                {t.allCaseStudies}
+              </ArrowPill>
+              {sector && (
+                <ArrowPill to={href(locale, `/${sector.slug}/`)} locale={locale}>
+                  {sector.name}
+                </ArrowPill>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CtaBand locale={locale} headline={copy.ctaHeadline} />
     </>

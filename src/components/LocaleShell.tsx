@@ -41,6 +41,7 @@ export function LocaleShell({ locale, children }: { locale: Locale; children: Re
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${site.url}/#organization`,
     name: site.name,
     alternateName: "TDM Services",
     url: site.url,
@@ -66,6 +67,17 @@ export function LocaleShell({ locale, children }: { locale: Locale; children: Re
     knowsLanguage: ["en", "fr", "ar"],
   };
 
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${site.url}/#website`,
+    name: site.name,
+    alternateName: "TDM",
+    url: site.url,
+    inLanguage: ["en", "fr", "ar"],
+    publisher: { "@id": `${site.url}/#organization` },
+  };
+
   return (
     <html lang={locale} dir={isRtl(locale) ? "rtl" : "ltr"} className={`${montserrat.variable} ${notoArabic.variable}`}>
       <body>
@@ -73,6 +85,7 @@ export function LocaleShell({ locale, children }: { locale: Locale; children: Re
           <style>{`.reveal{opacity:1 !important;transform:none !important}`}</style>
         </noscript>
         <JsonLd data={organizationSchema} />
+        <JsonLd data={websiteSchema} />
         <Header locale={locale} megaSectors={megaSectors} />
         <main>{children}</main>
         <Footer locale={locale} />

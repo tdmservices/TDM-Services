@@ -6,6 +6,9 @@ import { href, isRtl } from "@/lib/i18n";
 import { site } from "@/lib/site";
 import { getBlogPost, getBlogPosts } from "@/content/db";
 import { ui } from "@/content/ui";
+import { SHARE_IMAGE } from "@/lib/meta";
+import { getContent } from "@/content";
+import { sectorForCategory } from "@/lib/service-links";
 import { JsonLd } from "@/components/JsonLd";
 import {
   Breadcrumbs,
@@ -181,6 +184,48 @@ function outline(body: string[]) {
     .map((x) => ({ text: x.slice(3), id: headingId(x.slice(3)) }));
 }
 
+/**
+ * Inline formatting inside a block: [text](url) links and **bold**.
+ *
+ * Deliberately not a markdown parser — the admin's textarea holds plain text,
+ * and these two are what an article needs to point at a service page and to
+ * stress a term. Internal links go through next/link; anything else opens as an
+ * ordinary external link.
+ */
+function inline(text: string): React.ReactNode[] {
+  const out: React.ReactNode[] = [];
+  const pattern = /\[([^\]]+)\]\(([^)\s]+)\)|\*\*([^*]+)\*\*/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = pattern.exec(text))) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    if (m[1]) {
+      const to = m[2];
+      const cls = "font-semibold text-fern underline decoration-amber/60 underline-offset-4 hover:text-forest";
+      out.push(
+        to.startsWith("/") ? (
+          <Link key={m.index} href={to} className={cls}>
+            {m[1]}
+          </Link>
+        ) : (
+          <a key={m.index} href={to} className={cls} rel="noopener noreferrer" target="_blank">
+            {m[1]}
+          </a>
+        ),
+      );
+    } else {
+      out.push(
+        <strong key={m.index} className="font-semibold text-forest">
+          {m[3]}
+        </strong>,
+      );
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
 function Body({ body }: { body: string[] }) {
   // The opening paragraph is set larger — it does the work a standfirst does,
   // giving the eye somewhere to land before the body proper.
@@ -217,7 +262,7 @@ function Body({ body }: { body: string[] }) {
               {block.split(NEWLINE).map((li, j) => (
                 <li key={j} className="flex items-start gap-3">
                   <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber" />
-                  {li.replace(/^- /, "")}
+                  <span>{inline(li.replace(/^- /, ""))}</span>
                 </li>
               ))}
             </ul>
@@ -232,7 +277,7 @@ function Body({ body }: { body: string[] }) {
                 : "mt-5 text-base leading-relaxed text-ink/85"
             }
           >
-            {block}
+            {inline(block)}
           </p>
         );
       })}
@@ -249,6 +294,9 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
   const minutes = readMinutes(p);
   const others = (await getBlogPosts(locale)).filter((x) => x.slug !== p.slug).slice(0, 3);
   const sections = outline(p.body);
+  const content = getContent(locale);
+  const sector = content.sectors.find((x) => x.slug === sectorForCategory(p.category));
+  const sectorServices = sector ? content.services.filter((sv) => sv.sector === sector.slug) : [];
 
   return (
     <>
@@ -257,10 +305,13 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Article",
+          "@type": "BlogPosting",
           headline: p.title,
           description: p.metaDescription,
+          image: `${site.url}${SHARE_IMAGE.url}`,
           datePublished: p.date,
+          dateModified: p.date,
+          articleSection: p.category,
           inLanguage: locale,
           author: { "@type": "Organization", name: site.name, url: site.url },
           publisher: {
@@ -321,6 +372,34 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
       <div className="ribbon-bg mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[minmax(0,1fr)_17rem] lg:gap-14">
         <article>
           <Body body={p.body} />
+
+          {/* The services this article is about, so a reader who wants the
+              work done has somewhere to go besides the next article. */}
+          {sector && (
+            <div className="mt-12 rounded-3xl border border-mint bg-white p-6 sm:p-7">
+              <p className="kicker text-fern">{t.services}</p>
+              <h2 className="mt-2 font-display text-xl font-bold text-forest">
+                <Link href={href(locale, `/${sector.slug}/`)} className="hover:text-fern">
+                  {sector.name}
+                </Link>
+              </h2>
+              <p className="mt-2 text-sm leading-relaxed text-ink/70">{sector.tagline}</p>
+              {sectorServices.length > 0 && (
+                <ul className="mt-5 flex flex-wrap gap-2">
+                  {sectorServices.map((sv) => (
+                    <li key={sv.slug}>
+                      <Link
+                        href={href(locale, `/${sv.sector}/${sv.slug}/`)}
+                        className="inline-block rounded-full bg-mint px-3.5 py-1.5 text-sm font-semibold text-forest transition-colors hover:bg-fern hover:text-white"
+                      >
+                        {sv.navLabel ?? sv.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
 
           <Reveal>
             <div className="mt-14 border-t border-mint pt-10">
