@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Locale } from "@/lib/types";
 import { site } from "@/lib/site";
 import { ui } from "@/content/ui";
+import { saveLead } from "@/lib/leads";
 
 // TODO(user): create a free access key at https://web3forms.com (submissions
 // are emailed to the address the key is registered with) and set it here or
@@ -18,22 +19,45 @@ export function ContactForm({ locale = "en" }: { locale?: Locale }) {
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!ACCESS_KEY) {
-      setStatus("error");
+    const data = Object.fromEntries(new FormData(e.currentTarget).entries()) as Record<string, string>;
+
+    // A field no person can see. Anything that fills it in is a bot: show it
+    // the thank-you and keep nothing.
+    if (data.company_website) {
+      setStatus("sent");
       return;
     }
+    delete data.company_website;
+
     setStatus("sending");
-    const data = Object.fromEntries(new FormData(e.currentTarget).entries());
-    try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ access_key: ACCESS_KEY, subject: "New inquiry - thedigitalmarketing.services", ...data }),
-      });
-      setStatus(res.ok ? "sent" : "error");
-    } catch {
-      setStatus("error");
-    }
+
+    // Two independent routes, so one being down does not lose the enquiry: the
+    // leads table behind the admin, and the email notification.
+    const saved = saveLead({
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+      service: data.service,
+      message: data.message,
+      locale,
+      source: "contact-form",
+    });
+    const emailed = ACCESS_KEY
+      ? fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            access_key: ACCESS_KEY,
+            subject: "New inquiry - thedigitalmarketing.services",
+            ...data,
+          }),
+        })
+          .then((res) => res.ok)
+          .catch(() => false)
+      : Promise.resolve(false);
+
+    const [inTable, inInbox] = await Promise.all([saved, emailed]);
+    setStatus(inTable || inInbox ? "sent" : "error");
   }
 
   if (status === "sent") {
@@ -47,6 +71,15 @@ export function ContactForm({ locale = "en" }: { locale?: Locale }) {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
+      {/* Honeypot: hidden from people and from assistive technology. */}
+      <input
+        type="text"
+        name="company_website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="absolute -left-[9999px] h-0 w-0 opacity-0"
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block">
           <span className="text-sm font-medium">{t.name}</span>

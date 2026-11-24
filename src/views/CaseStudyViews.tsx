@@ -9,6 +9,8 @@ import { servicePathFor } from "@/lib/service-links";
 import { getContent } from "@/content";
 import { getCaseStudies, getCaseStudy } from "@/content/db";
 import { ui } from "@/content/ui";
+import { cleanHtml } from "@/lib/html";
+import { HtmlContent } from "@/components/HtmlContent";
 import { JsonLd } from "@/components/JsonLd";
 import {
   ArrowPill,
@@ -257,25 +259,32 @@ export async function CaseStudyView({ locale, slug }: { locale: Locale; slug: st
           <StatBand stats={cs.results} />
         </div>
 
-        <div className="mt-12 grid gap-12 lg:grid-cols-2">
-          <div>
-            <Kicker glow as="h2">{copy.challengeLabel}</Kicker>
-            <div className="mt-4">
-              <Prose paragraphs={[cs.challenge]} />
+        {/* Written as HTML in the admin: that replaces the two standard blocks. */}
+        {cs.html ? (
+          <div className="mt-12">
+            <HtmlContent content={cleanHtml(cs.html, { demoteH1: true })} />
+          </div>
+        ) : (
+          <div className="mt-12 grid gap-12 lg:grid-cols-2">
+            <div>
+              <Kicker glow as="h2">{copy.challengeLabel}</Kicker>
+              <div className="mt-4">
+                <Prose paragraphs={[cs.challenge]} />
+              </div>
+            </div>
+            <div>
+              <Kicker glow as="h2">{copy.approachLabel}</Kicker>
+              <ul className="mt-4 space-y-3">
+                {cs.approach.map((a) => (
+                  <li key={a} className="flex gap-3 text-base leading-relaxed text-ink/85">
+                    <span className="mt-1 text-fern" aria-hidden>✓</span>
+                    {a}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
-          <div>
-            <Kicker glow as="h2">{copy.approachLabel}</Kicker>
-            <ul className="mt-4 space-y-3">
-              {cs.approach.map((a) => (
-                <li key={a} className="flex gap-3 text-base leading-relaxed text-ink/85">
-                  <span className="mt-1 text-fern" aria-hidden>✓</span>
-                  {a}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+        )}
 
         {cs.testimonial && (
           <Reveal>

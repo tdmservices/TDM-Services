@@ -9,6 +9,8 @@ import { ui } from "@/content/ui";
 import { SHARE_IMAGE } from "@/lib/meta";
 import { getContent } from "@/content";
 import { sectorForCategory } from "@/lib/service-links";
+import { cleanHtml } from "@/lib/html";
+import { HtmlContent } from "@/components/HtmlContent";
 import { JsonLd } from "@/components/JsonLd";
 import {
   Breadcrumbs,
@@ -35,7 +37,11 @@ import { ReadingProgress } from "@/components/motion/ReadingProgress";
 
 const DATE_LOCALE: Record<Locale, string> = { en: "en-US", fr: "fr-FR", ar: "ar-AE" };
 
-const readMinutes = (p: BlogPost) => Math.max(2, Math.round(p.body.join(" ").split(/\s+/).length / 200));
+/** Words in a post, whichever way it was written. */
+const wordCount = (p: BlogPost) =>
+  (p.html ? p.html.replace(/<style[\s\S]*?<\/style>|<[^>]+>/g, " ") : p.body.join(" ")).split(/\s+/).filter(Boolean).length;
+
+const readMinutes = (p: BlogPost) => Math.max(2, Math.round(wordCount(p) / 200));
 
 const categoryColor: Record<string, string> = {
   Marketing: "bg-fern/10 text-fern",
@@ -293,7 +299,9 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
 
   const minutes = readMinutes(p);
   const others = (await getBlogPosts(locale)).filter((x) => x.slug !== p.slug).slice(0, 3);
-  const sections = outline(p.body);
+  // A post written as HTML is rendered from that; the plain-text body is the fallback.
+  const rich = p.html ? cleanHtml(p.html, { demoteH1: true }) : null;
+  const sections = rich ? rich.headings : outline(p.body);
   const content = getContent(locale);
   const sector = content.sectors.find((x) => x.slug === sectorForCategory(p.category));
   const sectorServices = sector ? content.services.filter((sv) => sv.sector === sector.slug) : [];
@@ -312,6 +320,7 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
           datePublished: p.date,
           dateModified: p.date,
           articleSection: p.category,
+          wordCount: wordCount(p),
           inLanguage: locale,
           author: { "@type": "Organization", name: site.name, url: site.url },
           publisher: {
@@ -371,7 +380,7 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
           contents and a way to get in touch. */}
       <div className="ribbon-bg mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[minmax(0,1fr)_17rem] lg:gap-14">
         <article>
-          <Body body={p.body} />
+          {rich ? <HtmlContent content={rich} className="max-w-3xl" /> : <Body body={p.body} />}
 
           {/* The services this article is about, so a reader who wants the
               work done has somewhere to go besides the next article. */}

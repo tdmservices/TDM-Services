@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 import { href, locales } from "@/lib/i18n";
 import { sectors } from "@/content/en/sectors";
 import { allServices } from "@/content/en/services";
-import { getBlogPosts, getCaseStudies } from "@/content/db";
+import { getBlogPosts, getCaseStudies, getSitePages } from "@/content/db";
 import { offices } from "@/content/en/locations";
 
 // Posts and case studies are published from the admin without a deploy, so the
@@ -56,6 +56,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${site.url}${href(locale, `/blog/${post.slug}/`)}`,
         lastModified: post.date,
         changeFrequency: "yearly",
+        priority: 0.6 * weight,
+      });
+    }
+    // Pages published from the admin as HTML.
+    for (const page of await getSitePages(locale)) {
+      urls.push({
+        url: `${site.url}${href(locale, `/${page.slug}/`)}`,
+        lastModified: page.updatedAt,
+        changeFrequency: "monthly",
         priority: 0.6 * weight,
       });
     }

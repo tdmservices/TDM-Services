@@ -21,9 +21,16 @@ const SPAM_SLUGS = new Set([
   "ultimata-alternativen-2025",
 ]);
 
-export function isHackedUrl(pathname: string): boolean {
-  if (SPAM_PREFIXES.some((prefix) => pathname.startsWith(prefix))) return true;
+/** Under one of the prefixes the hack used. Nothing real lives there. */
+export function hasSpamPrefix(pathname: string): boolean {
+  return SPAM_PREFIXES.some((prefix) => pathname.startsWith(prefix));
+}
 
+/**
+ * Shaped like one of the spam posts. Unlike the prefixes this is a guess, so
+ * the caller must first rule out pages that really exist at that address.
+ */
+export function hasSpamShape(pathname: string): boolean {
   let slug = pathname.replace(/^\/+|\/+$/g, "");
   if (!slug || slug.includes("/")) return false;
   try {
@@ -37,4 +44,8 @@ export function isHackedUrl(pathname: string): boolean {
   if (/[^\x00-\x7F]/.test(slug)) return true;
   const separators = (slug.match(/[-_]/g) ?? []).length;
   return slug.length >= 25 && separators >= 3;
+}
+
+export function isHackedUrl(pathname: string): boolean {
+  return hasSpamPrefix(pathname) || hasSpamShape(pathname);
 }

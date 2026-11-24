@@ -8,6 +8,7 @@ import { browserDb, isConfigured } from "@/lib/supabase";
 import { FieldInput } from "./FieldInput";
 import { ShatterDefs, ShatterSurface } from "@/components/Sections";
 import { PagesPanel } from "./PagesPanel";
+import { HtmlGuidePanel, LeadsPanel, RedirectsPanel, SeoPanel, SitePagesPanel } from "./AdminPanels";
 import {
   BLOG_LOCALE_FIELDS,
   BLOG_SHARED_FIELDS,
@@ -21,7 +22,20 @@ import {
 } from "./schema";
 
 type Row = Record<string, unknown>;
-type Collection = "blog" | "case-studies" | "pages";
+type Collection = "blog" | "case-studies" | "site-pages" | "pages" | "seo" | "redirects" | "leads" | "guide";
+
+/** The dashboard's sections, in the order they appear in the tab bar. */
+const SECTIONS: { id: Collection; label: string; blurb: string }[] = [
+  { id: "blog", label: "Blog posts", blurb: "Write or paste articles, in each language." },
+  { id: "case-studies", label: "Case studies", blurb: "Client results, always shown anonymously." },
+  { id: "site-pages", label: "Pages", blurb: "Publish new pages from HTML at any address." },
+  { id: "pages", label: "Page sections", blurb: "FAQs and featured case studies on built-in pages." },
+  { id: "seo", label: "SEO", blurb: "Titles and descriptions Google shows for built-in pages." },
+  { id: "redirects", label: "Redirects", blurb: "Send old addresses to new ones." },
+  { id: "leads", label: "Leads", blurb: "Every enquiry from the site, with status and notes." },
+  { id: "guide", label: "HTML guide", blurb: "The brief to give Claude so its HTML works here." },
+];
+const sectionOf = (c: Collection) => SECTIONS.find((x) => x.id === c)!;
 
 /**
  * Both collections are edited the same way: some fields are shared by every
@@ -42,7 +56,7 @@ const COLLECTIONS = {
   },
 } as const;
 
-type Editable = Exclude<Collection, "pages">;
+type Editable = "blog" | "case-studies";
 type Draft = Record<AdminLocale, Row>;
 
 const slugify = (s: string) =>
@@ -384,7 +398,22 @@ export default function AdminPage() {
       const dropped = LOCALES.filter((l) => !done.includes(l));
       if (dropped.length) await db.from(spec.table).delete().eq("slug", slug).in("locale", dropped);
 
-      const payload = done.map((l) => ({ ...clean(draft[l]), slug, locale: l }));
+      const payload = done.map((l) => {
+        const row: Row = { ...clean(draft[l]), slug, locale: l };
+        // A post written as HTML needs no plain body, but the column cannot be
+        // empty: keep the HTML's text there, which is also what a search of the
+        // table would look through.
+        if (editable === "blog" && !String(row.body ?? "").trim()) {
+          row.body = String(row.html ?? "")
+            .replace(/<style[\s\S]*?<\/style>|<[^>]+>/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+        }
+        return row;
+      });
+      if (editable === "blog" && payload.some((row) => !String(row.body ?? "").trim())) {
+        return setStatus({ tone: "bad", text: "Still needed: an HTML version or a plain-text body" });
+      }
       const { error } = await db.from(spec.table).upsert(payload, { onConflict: "slug,locale" });
       if (error) return setStatus({ tone: "bad", text: error.message });
 
@@ -468,8 +497,8 @@ export default function AdminPage() {
             </span>
           </span>
 
-          <div className="flex gap-1 rounded-full border border-mint/70 bg-white/80 p-1 shadow-sm shadow-forest/5">
-            {(["blog", "case-studies", "pages"] as Collection[]).map((c) => (
+          <div className="flex flex-wrap gap-1 rounded-3xl border border-mint/70 bg-white/80 p-1 shadow-sm shadow-forest/5">
+            {SECTIONS.map(({ id: c }) => (
               <button
                 key={c}
                 className={tab(collection === c)}
@@ -480,7 +509,7 @@ export default function AdminPage() {
                   })
                 }
               >
-                {c === "blog" ? "Blog posts" : c === "case-studies" ? "Case studies" : "Pages"}
+                {sectionOf(c).label}
               </button>
             ))}
           </div>
@@ -525,10 +554,10 @@ export default function AdminPage() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-amber" />
               </span>
-              {collection === "blog" ? "Blog posts" : collection === "case-studies" ? "Case studies" : "Pages"}
+              {sectionOf(collection).label}
             </p>
             <h1 className="mt-4 font-display text-2xl font-bold leading-snug md:text-3xl">
-              Everything you publish, in one place.
+              {sectionOf(collection).blurb}
             </h1>
             <div className="mt-4 h-1 w-14 rounded-full bg-amber" />
           </div>
@@ -554,6 +583,16 @@ export default function AdminPage() {
 
       {collection === "pages" ? (
         <PagesPanel db={db} status={status} setStatus={setStatus} />
+      ) : collection === "site-pages" ? (
+        <SitePagesPanel db={db} setStatus={setStatus} />
+      ) : collection === "seo" ? (
+        <SeoPanel db={db} setStatus={setStatus} />
+      ) : collection === "redirects" ? (
+        <RedirectsPanel db={db} setStatus={setStatus} />
+      ) : collection === "leads" ? (
+        <LeadsPanel db={db} setStatus={setStatus} />
+      ) : collection === "guide" ? (
+        <HtmlGuidePanel />
       ) : (
         <div className="mx-auto grid max-w-7xl gap-8 px-6 py-8 lg:grid-cols-[19rem_1fr]">
           <aside>

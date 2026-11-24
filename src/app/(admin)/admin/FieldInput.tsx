@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Field } from "./schema";
 
 /** One control per field type, so the page can be about loading and saving. */
@@ -49,6 +50,84 @@ function SubField({
   );
 }
 
+/** Live length against a recommended maximum, for SEO titles and descriptions. */
+export function Count({ value, limit }: { value: string; limit: number }) {
+  const n = value.length;
+  return (
+    <p className={`mt-1 text-xs font-semibold ${n === 0 ? "text-ink/40" : n > limit ? "text-red-600" : "text-fern"}`}>
+      {n} / {limit} characters{n > limit ? " — Google will cut this off" : ""}
+    </p>
+  );
+}
+
+/**
+ * Where a writer's HTML goes: paste it, or pick the .html file. The preview is
+ * a rough one — it shows the markup on its own, without the site's styles or
+ * animations — but it is enough to catch a paste that went wrong.
+ */
+function HtmlField({ field, value, onChange }: { field: Field; value: string; onChange: (next: unknown) => void }) {
+  const [preview, setPreview] = useState(false);
+  const words = value.replace(/<style[\s\S]*?<\/style>|<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+
+  return (
+    <div>
+      <div className="flex flex-wrap items-center gap-3">
+        <span className={labelCls}>{field.label}</span>
+        <label className="cursor-pointer rounded-full border border-mint bg-white px-3 py-1 text-xs font-bold text-forest transition-colors hover:border-fern">
+          Upload .html file
+          <input
+            type="file"
+            accept=".html,.htm,text/html"
+            className="sr-only"
+            onChange={async (e) => {
+              const file = e.target.files?.[0];
+              if (file) onChange(await file.text());
+              e.target.value = "";
+            }}
+          />
+        </label>
+        {value && (
+          <>
+            <button
+              type="button"
+              onClick={() => setPreview((p) => !p)}
+              className="rounded-full border border-mint bg-white px-3 py-1 text-xs font-bold text-forest transition-colors hover:border-fern"
+            >
+              {preview ? "Hide preview" : "Rough preview"}
+            </button>
+            <button
+              type="button"
+              onClick={() => onChange("")}
+              className="rounded-full border border-mint bg-white px-3 py-1 text-xs font-bold text-ink/60 transition-colors hover:border-red-300 hover:text-red-600"
+            >
+              Clear
+            </button>
+            <span className="text-xs text-ink/50">{words.toLocaleString()} words</span>
+          </>
+        )}
+      </div>
+      <textarea
+        className={`${box} mt-1.5 font-mono text-xs leading-relaxed`}
+        rows={value ? 14 : 4}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder="<section class=&quot;band&quot;>…</section>"
+        spellCheck={false}
+        dir="ltr"
+      />
+      {preview && value && (
+        <iframe
+          title="HTML preview"
+          sandbox=""
+          srcDoc={value}
+          className="mt-2 h-96 w-full rounded-xl border border-mint bg-white"
+        />
+      )}
+      <Hint>{field.hint}</Hint>
+    </div>
+  );
+}
+
 const addLabel = (label: string) => `Add ${label.toLowerCase().replace(/s$/, "")}`;
 
 export function FieldInput({
@@ -60,6 +139,10 @@ export function FieldInput({
   value: unknown;
   onChange: (next: unknown) => void;
 }) {
+  if (field.type === "html") {
+    return <HtmlField field={field} value={asString(value)} onChange={onChange} />;
+  }
+
   if (field.type === "boolean") {
     return (
       <div>
@@ -109,6 +192,7 @@ export function FieldInput({
           onChange={(e) => onChange(e.target.value)}
           dir="auto"
         />
+        {"limit" in field && field.limit ? <Count value={asString(value)} limit={field.limit} /> : null}
       </Row>
     );
   }
@@ -223,6 +307,7 @@ export function FieldInput({
         onChange={(e) => onChange(e.target.value)}
         dir="auto"
       />
+      {"limit" in field && field.limit ? <Count value={asString(value)} limit={field.limit} /> : null}
     </Row>
   );
 }
