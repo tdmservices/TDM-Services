@@ -11,7 +11,15 @@
  */
 
 export type Field =
-  | { name: string; label: string; type: "text" | "textarea" | "markdown" | "date"; hint?: string; required?: boolean }
+  | {
+      name: string;
+      label: string;
+      type: "text" | "textarea" | "markdown" | "date" | "html";
+      hint?: string;
+      required?: boolean;
+      /** Recommended maximum length; shows a live character count. */
+      limit?: number;
+    }
   | { name: string; label: string; type: "number"; hint?: string; required?: boolean }
   | { name: string; label: string; type: "boolean"; hint?: string }
   | { name: string; label: string; type: "select"; options: string[]; hint?: string; required?: boolean }
@@ -58,14 +66,19 @@ export const BLOG_LOCALE_FIELDS: Field[] = [
   { name: "title", label: "Title", type: "text", required: true },
   { name: "excerpt", label: "Excerpt", type: "textarea", required: true, hint: "One or two sentences, shown on the blog index." },
   {
-    name: "body",
-    label: "Body",
-    type: "markdown",
-    required: true,
-    hint: "Blank line between paragraphs. “## ” starts a heading, “### ” a sub-heading, and lines beginning “- ” become a bullet list.",
+    name: "html",
+    label: "HTML version",
+    type: "html",
+    hint: "Optional. Paste or upload the HTML your writer produced: only what goes between the header and footer. When this is filled in, it is what readers see and the plain body below is ignored. See the HTML guide tab for the blocks and animations it can use.",
   },
-  { name: "meta_title", label: "SEO title", type: "text", required: true },
-  { name: "meta_description", label: "SEO description", type: "textarea", required: true },
+  {
+    name: "body",
+    label: "Body (plain text)",
+    type: "markdown",
+    hint: "Leave empty if you pasted HTML above. Blank line between paragraphs. “## ” starts a heading, “### ” a sub-heading, lines beginning “- ” become a bullet list, [text](/path/) makes a link and **text** is bold.",
+  },
+  { name: "meta_title", label: "SEO title", type: "text", required: true, limit: 60 },
+  { name: "meta_description", label: "SEO description", type: "textarea", required: true, limit: 160 },
   {
     name: "faqs",
     label: "FAQs",
@@ -131,8 +144,14 @@ export const CASE_LOCALE_FIELDS: Field[] = [
       { name: "author", label: "Author", type: "text" },
     ],
   },
-  { name: "meta_title", label: "SEO title", type: "text", required: true },
-  { name: "meta_description", label: "SEO description", type: "textarea", required: true },
+  {
+    name: "html",
+    label: "HTML version",
+    type: "html",
+    hint: "Optional. Paste or upload HTML to tell the story in your own layout. When filled in, it replaces the Challenge and Approach blocks on the page; the results, services and testimonial above still show.",
+  },
+  { name: "meta_title", label: "SEO title", type: "text", required: true, limit: 60 },
+  { name: "meta_description", label: "SEO description", type: "textarea", required: true, limit: 160 },
 ];
 
 export const LOCALES = ["en", "fr", "ar"] as const;

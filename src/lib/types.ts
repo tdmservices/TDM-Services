@@ -70,6 +70,8 @@ export interface CaseStudy {
   approach: string[];
   results: ResultStat[];
   testimonial?: { quote: string; author: string };
+  /** HTML pasted into the admin. When set, it replaces the challenge and approach blocks. */
+  html?: string;
   metaTitle: string;
   metaDescription: string;
 }
@@ -115,5 +117,18 @@ export interface BlogPost {
   excerpt: string;
   /** Markdown-ish paragraphs & headings: strings starting with "## " render as h2, "### " as h3. */
   body: string[];
+  /** HTML pasted into the admin. When set, it is rendered instead of `body`. */
+  html?: string;
   faqs?: Faq[];
+}
+
+/** A page published from the admin as HTML. */
+export interface SitePage {
+  /** Path without leading or trailing slashes; may contain slashes. */
+  slug: string;
+  title: string;
+  html: string;
+  metaTitle: string;
+  metaDescription: string;
+  updatedAt: string;
 }

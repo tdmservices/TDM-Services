@@ -1,4 +1,5 @@
-import type { BlogPost, CaseStudy, Faq, Locale, SectorSlug } from "@/lib/types";
+import { cache } from "react";
+import type { BlogPost, CaseStudy, Faq, Locale, SectorSlug, SitePage } from "@/lib/types";
 import { publicDb } from "@/lib/supabase";
 
 /**
@@ -26,6 +27,7 @@ type BlogRow = {
   meta_description: string;
   faqs: { q: string; a: string }[] | null;
   locale: string;
+  html: string | null;
 };
 
 type CaseRow = {
@@ -47,6 +49,7 @@ type CaseRow = {
   testimonial: { quote: string; author: string } | null;
   meta_title: string;
   meta_description: string;
+  html: string | null;
 };
 
 /** The renderer wants blocks; the column holds one markdown string. Blank lines
@@ -67,6 +70,7 @@ const toPost = (r: BlogRow): BlogPost => ({
   category: r.category,
   excerpt: r.excerpt,
   body: toBlocks(r.body),
+  ...(r.html?.trim() ? { html: r.html } : {}),
   ...(r.faqs?.length ? { faqs: r.faqs } : {}),
 });
 
@@ -87,6 +91,7 @@ const toCase = (r: CaseRow): CaseStudy => ({
   ...(r.testimonial ? { testimonial: r.testimonial } : {}),
   metaTitle: r.meta_title,
   metaDescription: r.meta_description,
+  ...(r.html?.trim() ? { html: r.html } : {}),
 });
 
 /**
@@ -212,4 +217,67 @@ export async function getPageCases(page: string): Promise<string[] | null> {
   // the default rather than as "show nothing" — a sector page with a silently
   // missing proof section is a worse outcome than one showing the automatic set.
   return slugs.length ? slugs : null;
+}
+
+// --- pages published from the admin -----------------------------------------
+
+type SitePageRow = {
+  slug: string;
+  title: string;
+  html: string;
+  meta_title: string;
+  meta_description: string;
+  updated_at: string;
+};
+
+const toSitePage = (r: SitePageRow): SitePage => ({
+  slug: r.slug,
+  title: r.title,
+  html: r.html,
+  metaTitle: r.meta_title || r.title,
+  metaDescription: r.meta_description,
+  updatedAt: r.updated_at,
+});
+
+/** A published HTML page, by its path ("usa/florida"). Drafts are not readable. */
+export const getSitePage = cache(async (locale: Locale, slug: string): Promise<SitePage | undefined> => {
+  const rows = await safely(`site_pages(${locale}/${slug})`, () =>
+    publicDb().from("site_pages").select("*").eq("locale", locale).eq("slug", slug).eq("published", true).limit(1),
+  );
+  return (rows as SitePageRow[]).map(toSitePage)[0];
+});
+
+/** Every published HTML page in a language — for the sitemap. */
+export async function getSitePages(locale: Locale): Promise<Pick<SitePage, "slug" | "updatedAt">[]> {
+  const rows = await safely(`site_pages(${locale})`, () =>
+    publicDb().from("site_pages").select("slug, updated_at").eq("locale", locale).eq("published", true),
+  );
+  return (rows as { slug: string; updated_at: string }[]).map((r) => ({ slug: r.slug, updatedAt: r.updated_at }));
+}
+
+/** Which languages a published HTML page exists in — for hreflang. */
+export async function getSitePageLocales(slug: string): Promise<Locale[]> {
+  const rows = await safely(`site_pages locales(${slug})`, () =>
+    publicDb().from("site_pages").select("locale").eq("slug", slug).eq("published", true),
+  );
+  return (rows as { locale: string }[]).map((r) => r.locale as Locale);
+}
+
+// --- SEO overrides -----------------------------------------------------------
+
+type MetaRow = { path: string; locale: string; meta_title: string | null; meta_description: string | null };
+
+/** All overrides at once: there are few of them, and every page needs to check. */
+const allPageMeta = cache(async (): Promise<MetaRow[]> => {
+  const rows = await safely("page_meta", () => publicDb().from("page_meta").select("path, locale, meta_title, meta_description"));
+  return rows as MetaRow[];
+});
+
+/** The title and description an editor has set for a built-in page, if any. */
+export async function getPageMeta(locale: Locale, path: string) {
+  const row = (await allPageMeta()).find((r) => r.locale === locale && r.path === path);
+  return {
+    title: row?.meta_title?.trim() || undefined,
+    description: row?.meta_description?.trim() || undefined,
+  };
 }

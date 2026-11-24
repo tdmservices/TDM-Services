@@ -224,3 +224,143 @@ grant insert, update, delete on
 grant all on
   public.blog_posts, public.case_studies, public.page_faqs, public.page_cases
   to service_role;
+
+-- ---------------------------------------------------------------------------
+-- HTML content
+--
+-- A post or case study can be written as HTML instead of the plain-text body.
+-- When `html` is set the site renders it (sanitized) in place of the body.
+-- ---------------------------------------------------------------------------
+
+alter table public.blog_posts   add column if not exists html text;
+alter table public.case_studies add column if not exists html text;
+
+-- ---------------------------------------------------------------------------
+-- Pages published from the admin as HTML
+--
+-- `slug` is the path without leading or trailing slashes and may contain
+-- slashes ("usa/florida/miami"). English pages live at /<slug>/, the others at
+-- /fr/<slug>/ and /ar/<slug>/. Only published rows are readable by visitors.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.site_pages (
+  slug              text        not null,
+  locale            text        not null check (locale in ('en', 'fr', 'ar')),
+  title             text        not null,
+  html              text        not null default '',
+  meta_title        text        not null default '',
+  meta_description  text        not null default '',
+  published         boolean     not null default false,
+  created_at        timestamptz not null default now(),
+  updated_at        timestamptz not null default now(),
+  primary key (slug, locale)
+);
+
+drop trigger if exists site_pages_touch on public.site_pages;
+create trigger site_pages_touch before update on public.site_pages
+  for each row execute function public.touch_updated_at();
+
+alter table public.site_pages enable row level security;
+drop policy if exists "public read published" on public.site_pages;
+drop policy if exists "authenticated all"     on public.site_pages;
+create policy "public read published" on public.site_pages for select to anon using (published);
+create policy "authenticated all"     on public.site_pages for all
+  to authenticated using (true) with check (true);
+
+-- ---------------------------------------------------------------------------
+-- SEO overrides for the pages that are defined in the codebase
+--
+-- `path` is the canonical English path ("/", "/marketing/seo/"). A row
+-- replaces that page's built-in title and description in one language.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.page_meta (
+  path              text        not null,
+  locale            text        not null check (locale in ('en', 'fr', 'ar')),
+  meta_title        text,
+  meta_description  text,
+  updated_at        timestamptz not null default now(),
+  primary key (path, locale)
+);
+
+drop trigger if exists page_meta_touch on public.page_meta;
+create trigger page_meta_touch before update on public.page_meta
+  for each row execute function public.touch_updated_at();
+
+alter table public.page_meta enable row level security;
+drop policy if exists "public read"         on public.page_meta;
+drop policy if exists "authenticated write" on public.page_meta;
+create policy "public read"         on public.page_meta for select using (true);
+create policy "authenticated write" on public.page_meta for all
+  to authenticated using (true) with check (true);
+
+-- ---------------------------------------------------------------------------
+-- Redirects managed from the admin
+--
+-- `source` is a path beginning with "/" and is matched with and without its
+-- trailing slash. `destination` is a path or a full URL.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.redirects (
+  id           uuid        primary key default gen_random_uuid(),
+  source       text        not null unique check (source like '/%'),
+  destination  text        not null,
+  permanent    boolean     not null default true,
+  enabled      boolean     not null default true,
+  note         text,
+  created_at   timestamptz not null default now(),
+  updated_at   timestamptz not null default now()
+);
+
+drop trigger if exists redirects_touch on public.redirects;
+create trigger redirects_touch before update on public.redirects
+  for each row execute function public.touch_updated_at();
+
+alter table public.redirects enable row level security;
+drop policy if exists "public read"         on public.redirects;
+drop policy if exists "authenticated write" on public.redirects;
+create policy "public read"         on public.redirects for select using (true);
+create policy "authenticated write" on public.redirects for all
+  to authenticated using (true) with check (true);
+
+-- ---------------------------------------------------------------------------
+-- Leads
+--
+-- Every contact-form submission. Visitors may add a row and nothing else: they
+-- cannot read, change or delete leads. Only signed-in editors can.
+-- ---------------------------------------------------------------------------
+
+create table if not exists public.leads (
+  id          uuid        primary key default gen_random_uuid(),
+  created_at  timestamptz not null default now(),
+  name        text        not null check (char_length(name) between 1 and 200),
+  email       text        not null check (char_length(email) between 3 and 320),
+  phone       text        check (phone is null or char_length(phone) <= 60),
+  service     text        check (service is null or char_length(service) <= 200),
+  message     text        check (message is null or char_length(message) <= 5000),
+  locale      text,
+  page        text        check (page is null or char_length(page) <= 500),
+  source      text        not null default 'contact-form',
+  status      text        not null default 'new'
+                check (status in ('new', 'contacted', 'qualified', 'won', 'lost', 'spam')),
+  notes       text
+);
+
+create index if not exists leads_created_idx on public.leads (created_at desc);
+
+alter table public.leads enable row level security;
+drop policy if exists "anyone can submit"   on public.leads;
+drop policy if exists "authenticated read"  on public.leads;
+drop policy if exists "authenticated write" on public.leads;
+drop policy if exists "authenticated delete" on public.leads;
+create policy "anyone can submit"    on public.leads for insert to anon, authenticated
+  with check (status = 'new' and notes is null);
+create policy "authenticated read"   on public.leads for select to authenticated using (true);
+create policy "authenticated write"  on public.leads for update to authenticated using (true) with check (true);
+create policy "authenticated delete" on public.leads for delete to authenticated using (true);
+
+grant select on public.site_pages, public.page_meta, public.redirects to anon, authenticated;
+grant insert, update, delete on public.site_pages, public.page_meta, public.redirects to authenticated;
+grant insert on public.leads to anon, authenticated;
+grant select, update, delete on public.leads to authenticated;
+grant all on public.site_pages, public.page_meta, public.redirects, public.leads to service_role;

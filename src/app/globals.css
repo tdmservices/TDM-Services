@@ -795,3 +795,177 @@ details[open] .faq-answer {
     transform: none;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   HTML content pasted into the admin (.tdm-html)
+
+   Sensible defaults for bare tags, so plain HTML already looks like the site,
+   plus a set of ready-made blocks and animations that pasted pages can use by
+   class name. The same list is documented for writers in the admin's HTML guide.
+   Pasted <style> rules are scoped to this container and win over these.
+   --------------------------------------------------------------------------- */
+
+.tdm-html {
+  color: var(--color-ink);
+  font-size: 1rem;
+  line-height: 1.75;
+  overflow-wrap: break-word;
+}
+.tdm-html > * + * { margin-top: 1.25rem; }
+.tdm-html h1, .tdm-html h2, .tdm-html h3, .tdm-html h4 {
+  font-family: var(--font-display);
+  color: var(--color-forest);
+  line-height: 1.2;
+  font-weight: 700;
+  scroll-margin-top: 7rem;
+}
+.tdm-html h1 { font-size: clamp(2rem, 4vw, 3rem); }
+.tdm-html h2 { font-size: clamp(1.5rem, 3vw, 2rem); margin-top: 3rem; border-inline-start: 4px solid var(--color-amber); padding-inline-start: 1rem; }
+.tdm-html h3 { font-size: 1.3rem; margin-top: 2rem; font-weight: 600; }
+.tdm-html h4 { font-size: 1.1rem; margin-top: 1.5rem; font-weight: 600; }
+.tdm-html p, .tdm-html li { color: color-mix(in srgb, var(--color-ink) 85%, transparent); }
+.tdm-html a { color: var(--color-fern); font-weight: 600; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--color-amber) 60%, transparent); text-underline-offset: 4px; }
+.tdm-html a:hover { color: var(--color-forest); }
+.tdm-html strong { color: var(--color-forest); font-weight: 600; }
+.tdm-html ul, .tdm-html ol { padding-inline-start: 1.4rem; }
+.tdm-html ul { list-style: disc; }
+.tdm-html ol { list-style: decimal; }
+.tdm-html li + li { margin-top: 0.5rem; }
+.tdm-html li::marker { color: var(--color-amber); font-weight: 700; }
+.tdm-html img, .tdm-html video { max-width: 100%; height: auto; border-radius: 1.25rem; }
+.tdm-html figure figcaption { margin-top: 0.6rem; font-size: 0.85rem; color: color-mix(in srgb, var(--color-ink) 60%, transparent); text-align: center; }
+.tdm-html blockquote { border-inline-start: 4px solid var(--color-fern); background: var(--color-mint); border-radius: 0 1rem 1rem 0; padding: 1rem 1.25rem; font-size: 1.1rem; color: var(--color-forest); }
+[dir="rtl"] .tdm-html blockquote { border-radius: 1rem 0 0 1rem; }
+.tdm-html hr { border: 0; height: 1px; background: var(--color-mint); margin-block: 2.5rem; }
+.tdm-html code { background: var(--color-mint); border-radius: 0.4rem; padding: 0.1rem 0.4rem; font-size: 0.9em; }
+.tdm-html pre { background: var(--color-forest); color: #fff; border-radius: 1rem; padding: 1.25rem; overflow-x: auto; font-size: 0.9rem; }
+.tdm-html pre code { background: none; padding: 0; }
+.tdm-html iframe { width: 100%; border: 0; border-radius: 1.25rem; aspect-ratio: 16 / 9; height: auto; }
+
+/* Tables scroll sideways on a phone instead of breaking the page. */
+.tdm-html table { width: 100%; border-collapse: collapse; font-size: 0.95rem; background: #fff; border-radius: 1rem; overflow: hidden; }
+@media (max-width: 640px) { .tdm-html table { display: block; overflow-x: auto; } }
+.tdm-html th { background: var(--color-forest); color: #fff; text-align: start; padding: 0.8rem 1rem; font-weight: 600; white-space: nowrap; }
+.tdm-html td { padding: 0.8rem 1rem; border-top: 1px solid var(--color-mint); vertical-align: top; }
+.tdm-html tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--color-mint) 35%, #fff); }
+
+/* Accordion: plain <details>/<summary> needs no script. */
+.tdm-html details { background: #fff; border: 1px solid var(--color-mint); border-radius: 1rem; padding: 0; }
+.tdm-html details + details { margin-top: 0.75rem; }
+.tdm-html summary { cursor: pointer; list-style: none; padding: 1rem 1.25rem; font-weight: 600; color: var(--color-forest); display: flex; justify-content: space-between; gap: 1rem; }
+.tdm-html summary::-webkit-details-marker { display: none; }
+.tdm-html summary::after { content: "+"; color: var(--color-amber); font-weight: 700; transition: transform 0.25s; }
+.tdm-html details[open] summary::after { transform: rotate(45deg); }
+.tdm-html details > :not(summary) { padding: 0 1.25rem 1rem; margin: 0; }
+
+/* --- blocks ---------------------------------------------------------------- */
+
+/* Full-width dark band, e.g. the opening of a landing page. */
+.tdm-html .band { background: var(--color-forest); color: #fff; border-radius: 1.75rem; padding: clamp(1.75rem, 5vw, 3.5rem); position: relative; overflow: hidden; }
+.tdm-html .band::before { content: ""; position: absolute; inset-inline-end: -6rem; top: -6rem; width: 20rem; height: 20rem; border-radius: 50%; background: color-mix(in srgb, var(--color-fern) 55%, transparent); filter: blur(60px); pointer-events: none; }
+.tdm-html .band > * { position: relative; }
+.tdm-html .band h1, .tdm-html .band h2, .tdm-html .band h3, .tdm-html .band strong { color: #fff; border: 0; padding: 0; }
+.tdm-html .band h2 { margin-top: 0; }
+.tdm-html .band p, .tdm-html .band li { color: rgb(255 255 255 / 0.82); }
+.tdm-html .band.light { background: var(--color-mint); color: var(--color-ink); }
+.tdm-html .band.light::before { display: none; }
+.tdm-html .band.light h1, .tdm-html .band.light h2, .tdm-html .band.light h3, .tdm-html .band.light strong { color: var(--color-forest); }
+.tdm-html .band.light p, .tdm-html .band.light li { color: color-mix(in srgb, var(--color-ink) 85%, transparent); }
+
+.tdm-html .kicker { display: inline-flex; align-items: center; gap: 0.6rem; color: var(--color-fern); margin: 0; }
+.tdm-html .kicker::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--color-amber); }
+.tdm-html .band .kicker { color: var(--color-sage); }
+.tdm-html .lead { font-size: 1.2rem; line-height: 1.7; color: var(--color-forest); }
+.tdm-html .band .lead { color: rgb(255 255 255 / 0.85); }
+
+.tdm-html .grid-2, .tdm-html .grid-3, .tdm-html .grid-4 { display: grid; gap: 1.25rem; }
+@media (min-width: 640px) { .tdm-html .grid-2, .tdm-html .grid-3, .tdm-html .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .tdm-html .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } .tdm-html .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.tdm-html .grid-2 > *, .tdm-html .grid-3 > *, .tdm-html .grid-4 > * { margin: 0; }
+
+.tdm-html .card { background: #fff; border: 1px solid var(--color-mint); border-radius: 1.5rem; padding: 1.5rem; transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }
+.tdm-html .card:hover { transform: translateY(-4px); border-color: var(--color-fern); box-shadow: 0 18px 40px -18px rgb(15 53 39 / 0.35); }
+.tdm-html .card > :first-child { margin-top: 0; }
+.tdm-html .card h3, .tdm-html .card h4 { margin-top: 0; }
+.tdm-html .band .card { background: rgb(255 255 255 / 0.08); border-color: rgb(255 255 255 / 0.16); backdrop-filter: blur(6px); }
+.tdm-html .band .card:hover { border-color: var(--color-amber); }
+
+.tdm-html .stats { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); }
+.tdm-html .stat { background: #fff; border: 1px solid var(--color-mint); border-radius: 1.25rem; padding: 1.25rem; text-align: center; margin: 0; }
+.tdm-html .stat b, .tdm-html .stat strong, .tdm-html .stat .value { display: block; font-family: var(--font-display); font-size: 2.2rem; line-height: 1.1; font-weight: 800; color: var(--color-amber); }
+.tdm-html .stat span:not(.value), .tdm-html .stat small { display: block; margin-top: 0.35rem; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: color-mix(in srgb, var(--color-ink) 60%, transparent); }
+.tdm-html .band .stat { background: rgb(255 255 255 / 0.08); border-color: rgb(255 255 255 / 0.16); }
+.tdm-html .band .stat span:not(.value), .tdm-html .band .stat small { color: rgb(255 255 255 / 0.65); }
+
+.tdm-html .callout { border-radius: 1.25rem; padding: 1.25rem 1.5rem; background: var(--color-mint); border-inline-start: 4px solid var(--color-fern); }
+.tdm-html .callout.tip { background: color-mix(in srgb, var(--color-amber) 12%, #fff); border-color: var(--color-amber); }
+.tdm-html .callout.warn { background: #fef2f2; border-color: #dc2626; }
+.tdm-html .callout > :first-child { margin-top: 0; }
+
+.tdm-html .steps { counter-reset: step; list-style: none; padding: 0; }
+.tdm-html .steps > li { counter-increment: step; position: relative; padding-inline-start: 3.5rem; padding-block: 0.25rem 1.25rem; margin: 0; }
+.tdm-html .steps > li::before { content: counter(step); position: absolute; inset-inline-start: 0; top: 0; width: 2.4rem; height: 2.4rem; display: grid; place-items: center; border-radius: 50%; background: var(--color-forest); color: #fff; font-weight: 700; font-family: var(--font-display); }
+.tdm-html .steps > li:not(:last-child)::after { content: ""; position: absolute; inset-inline-start: 1.2rem; top: 2.6rem; bottom: 0.2rem; width: 2px; background: var(--color-mint); }
+
+.tdm-html .checklist { list-style: none; padding: 0; }
+.tdm-html .checklist > li { position: relative; padding-inline-start: 2rem; }
+.tdm-html .checklist > li::before { content: "✓"; position: absolute; inset-inline-start: 0; top: 0; color: var(--color-fern); font-weight: 800; }
+
+.tdm-html .btn, .tdm-html .btn-outline { display: inline-block; border-radius: 999px; padding: 0.8rem 1.75rem; font-weight: 700; text-decoration: none; transition: filter 0.2s, transform 0.2s, background 0.2s, color 0.2s; }
+.tdm-html .btn { background: var(--color-amber); color: #fff; box-shadow: 0 10px 24px -10px rgb(232 134 45 / 0.7); }
+.tdm-html .btn:hover { color: #fff; filter: brightness(1.08); transform: translateY(-2px); }
+.tdm-html .btn-outline { border: 2px solid var(--color-amber); color: var(--color-forest); }
+.tdm-html .btn-outline:hover { background: var(--color-amber); color: #fff; }
+.tdm-html .band .btn-outline { color: #fff; }
+.tdm-html .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+
+.tdm-html .badge { display: inline-block; border-radius: 999px; background: var(--color-mint); color: var(--color-forest); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.tdm-html .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+.tdm-html .split { display: grid; gap: 2rem; align-items: center; }
+@media (min-width: 900px) { .tdm-html .split { grid-template-columns: 1fr 1fr; } }
+.tdm-html .split > * { margin: 0; }
+
+.tdm-html .quote { background: #fff; border: 1px solid var(--color-mint); border-radius: 1.5rem; padding: 1.75rem; font-size: 1.15rem; color: var(--color-forest); }
+.tdm-html .quote cite, .tdm-html .quote footer { display: block; margin-top: 1rem; font-size: 0.9rem; font-style: normal; font-weight: 600; color: var(--color-fern); }
+
+.tdm-html .center { text-align: center; }
+.tdm-html .center .actions, .tdm-html .center .badges { justify-content: center; }
+.tdm-html .narrow { max-width: 46rem; margin-inline: auto; }
+
+/* Tabs: buttons with data-tab, panels with data-panel, inside [data-tabs]. */
+.tdm-html [data-tabs] > .tab-list, .tdm-html .tab-list { display: flex; flex-wrap: wrap; gap: 0.4rem; background: #fff; border: 1px solid var(--color-mint); border-radius: 999px; padding: 0.3rem; width: fit-content; max-width: 100%; }
+.tdm-html [data-tab] { border: 0; background: none; border-radius: 999px; padding: 0.5rem 1.1rem; font-weight: 700; font-size: 0.9rem; color: color-mix(in srgb, var(--color-ink) 60%, transparent); cursor: pointer; transition: background 0.2s, color 0.2s; }
+.tdm-html [data-tab].is-active { background: var(--color-forest); color: #fff; }
+.tdm-html [data-panel] { margin-top: 1.25rem; }
+
+/* Progress bar: <div class="progress" data-progress="72"><span></span></div> */
+.tdm-html .progress { background: var(--color-mint); border-radius: 999px; height: 0.7rem; overflow: hidden; }
+.tdm-html .progress > span { display: block; height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--color-fern), var(--color-amber)); transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
+.tdm-html .progress.is-in > span { width: var(--progress, 0%); }
+
+.tdm-html [data-copy] { cursor: pointer; }
+.tdm-html [data-copy].is-copied::after { content: " ✓"; color: var(--color-fern); }
+
+/* --- animation -------------------------------------------------------------
+   Elements with data-reveal start hidden only once the script has marked the
+   container ready, so the content is fully visible without JavaScript. */
+.tdm-html.reveal-ready [data-reveal] { opacity: 0; transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1); will-change: opacity, transform; }
+.tdm-html.reveal-ready [data-reveal="up"], .tdm-html.reveal-ready [data-reveal=""] { transform: translateY(28px); }
+.tdm-html.reveal-ready [data-reveal="down"] { transform: translateY(-28px); }
+.tdm-html.reveal-ready [data-reveal="left"] { transform: translateX(-36px); }
+.tdm-html.reveal-ready [data-reveal="right"] { transform: translateX(36px); }
+.tdm-html.reveal-ready [data-reveal="zoom"] { transform: scale(0.92); }
+.tdm-html.reveal-ready [data-reveal].is-in { opacity: 1; transform: none; }
+
+.tdm-html .float { animation: tdm-float 6s ease-in-out infinite; }
+.tdm-html .pulse { animation: tdm-pulse 2.4s ease-in-out infinite; }
+.tdm-html .shimmer { background-image: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.35) 50%, transparent 70%); background-size: 200% 100%; animation: tdm-shimmer 3s linear infinite; }
+@keyframes tdm-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes tdm-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+@keyframes tdm-shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .tdm-html .float, .tdm-html .pulse, .tdm-html .shimmer { animation: none; }
+  .tdm-html .card, .tdm-html .btn { transition: none; }
+}
