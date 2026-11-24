@@ -1,0 +1,66 @@
+{
+  "slug": "usa/south-carolina/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "title": "WordPress Development in South Carolina",
+  "metaTitle": "WordPress Development in South Carolina | TDM",
+  "metaDescription": "Custom WordPress and WooCommerce sites for South Carolina businesses: fast, secure and easy to update. A member of our team is based in South Carolina.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds WordPress websites for South Carolina businesses: company sites, service businesses, content publishers and WooCommerce stores. We build on custom themes with only the plugins a site needs, so pages load quickly and your own staff can update them. That matters in a state where a restaurant in Charleston, a builder in Lexington and a rental manager in North Myrtle Beach all need to change hours, prices and availability without waiting for a developer.",
+  "sections": [
+    {
+      "heading": "Why WordPress fits so many South Carolina businesses",
+      "paragraphs": [
+        "Most businesses in the state are small or mid-sized and locally owned: contractors, medical and dental practices, law firms, restaurants, churches and nonprofits, wedding vendors, tour operators. They need a site that explains what they do, ranks for local searches, takes enquiries or bookings, and can be edited in-house. WordPress does that well and does not tie you to one supplier. If you change agency, the site and its content go with you.",
+        "It also grows with the business. A site can start as a few service pages and later add a blog, location pages for new towns, online booking or a shop. For a firm expanding from Greenville into Spartanburg and Anderson, or from Charleston into Summerville and Mount Pleasant, that flexibility saves a rebuild."
+      ]
+    },
+    {
+      "heading": "Local conditions we build for",
+      "paragraphs": [
+        "Visitors to the coast look things up on a phone, often on a mobile connection while travelling, so speed and a clean mobile layout come first. Heavy page builders and unused plugins are the usual reason a WordPress site is slow, and we leave them out.",
+        "Coastal businesses also need to change their message fast. When a storm is forecast, customers want to know if you are open, whether bookings can be moved and when you will reopen. We set up a simple notice area and clear editing screens so a manager can publish that from a phone.",
+        "Seasonal traffic is the third factor. A site that copes in February can struggle in July when visitor numbers rise. Caching, image handling and hosting are chosen with the busy months in mind. And for practices and public-facing organisations, we build to accessibility good practice, with readable contrast, keyboard navigation and proper labels, since many visitors and retirees depend on it."
+      ]
+    },
+    {
+      "heading": "What a WordPress project with us includes",
+      "paragraphs": [
+        "Every build follows the same steps: discovery and planning, design and prototyping, development, testing, then launch and support. You see designs before anything is coded."
+      ],
+      "bullets": [
+        "A custom theme designed around your brand, not an off-the-shelf template.",
+        "WooCommerce stores with catalogues, payment gateways, shipping rules and tax settings.",
+        "SEO built into the theme: clean URLs, schema markup, optimised images and Core Web Vitals.",
+        "Location and service pages structured for local search.",
+        "Security hardening, managed updates, monitoring and automated backups.",
+        "Rebuilds of slow or hacked sites, with content migrated and redirects mapped so rankings are kept.",
+        "Analytics and conversion tracking set up before launch."
+      ]
+    },
+    {
+      "heading": "What to check before hiring a WordPress developer",
+      "paragraphs": [
+        "Ask whether you will own the domain, hosting account and site files. Ask which plugins will be installed and why, and who updates them after launch, because most hacked WordPress sites were simply left unpatched. Ask to edit a test page yourself before signing off. If you already have a site, you can run it through the free WordPress security checker on our website to see where it stands."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "WordPress sites we build for South Carolina businesses",
+    "items": [
+      { "title": "Service company sites", "text": "For builders, roofers, HVAC and landscaping firms: service pages, areas covered, reviews and enquiry forms that reach the right inbox." },
+      { "title": "Practices and firms", "text": "Clear, trustworthy sites for clinics, dentists, lawyers and accountants, with provider profiles and appointment requests." },
+      { "title": "Hospitality and tourism", "text": "Sites for restaurants, tours, charters and rentals with menus, booking links and seasonal information that staff can update." },
+      { "title": "WooCommerce stores", "text": "Online shops for local makers, food producers and retailers who want to sell beyond their storefront." },
+      { "title": "Content libraries", "text": "Large sites with many articles or resources, organised with custom post types and categories so they stay manageable." },
+      { "title": "Nonprofits and associations", "text": "Sites with events, donations and member information that volunteers can keep current." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina. Design, development and support are delivered by our wider team remotely, with review calls at each stage of the project.",
+  "faqs": [
+    { "q": "How much does a WordPress website cost in South Carolina?", "a": "It depends on the number of pages, the design work, and features such as booking or a shop. We give a quote after a free consultation, once the scope is clear." },
+    { "q": "How long does it take to build a WordPress site?", "a": "It depends on your requirements and how quickly content and feedback arrive. The timeline is set out in the plan we agree with you before work starts." },
+    { "q": "Can you fix or rebuild my existing WordPress site?", "a": "Yes. We take over slow, outdated or compromised sites, rebuild them on a clean theme and migrate the content with redirects so existing search rankings are protected." },
+    { "q": "Will I be able to update the site myself?", "a": "Yes. We set up the editor so your team can change text, images, hours, menus and notices without a developer, and we show you how before launch." },
+    { "q": "Do you work with South Carolina businesses in person?", "a": "A member of our team is based in South Carolina. The build itself is carried out remotely by our wider team, and most clients find calls and shared previews are enough." }
+  ]
+}

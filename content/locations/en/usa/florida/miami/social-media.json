@@ -12,8 +12,7 @@
       "heading": "A city that decides on Instagram and TikTok",
       "paragraphs": [
         "In many places social media supports the sale. In Miami it often is the sale. A diner picks a Wynwood restaurant from a reel of the food. A renter tours an Edgewater apartment through a video before calling. A visitor saves a list of beach clubs and rooftop bars weeks before the flight. If your account looks abandoned, or looks like stock photography, those people move on to the next one.",
-        "The audience is mixed in ways that affect every post. Followers may read English, Spanish or both, and many locals switch between the two in a single sentence. Some are residents who will come back every week, others are visitors who will come once. A content plan has to decide which of those groups each post is for.",
-        "Competition for attention is also high. The city is full of creators, venues and brands producing polished content daily. Standing out does not require a bigger budget so much as consistency, a clear look and content that shows the real place and the real people in it."
+        "The audience is mixed in ways that affect every post. Followers may read English, Spanish or both, and many locals switch between the two in a single sentence. Some are residents who will come back every week, others are visitors who will come once. A content plan has to decide which of those groups each post is for."
       ]
     },
     {
@@ -47,20 +46,49 @@
   "cards": {
     "heading": "Social media use cases we see in Miami",
     "items": [
-      { "title": "Restaurants, bars and cafes", "text": "Reels of dishes and the room, stories for nightly specials, and fast replies to reservation questions in the customer's language." },
-      { "title": "Real estate agents", "text": "Walkthrough videos, neighbourhood guides for Brickell, Coconut Grove or Miami Beach, and LinkedIn content for investor audiences." },
-      { "title": "Beauty, wellness and fitness", "text": "Treatment explainers, trainer and practitioner profiles, and client stories shared with consent and within platform rules." },
-      { "title": "Fashion and swimwear brands", "text": "Product drops, creator-style video and Pinterest boards that send shoppers to the online store." },
-      { "title": "Hotels and experiences", "text": "Content timed for travellers planning ahead, plus live coverage during the events that bring them to the city." },
-      { "title": "Professional and B2B firms", "text": "LinkedIn posts from the firm and its partners for law, finance, logistics and technology companies." }
+      {
+        "title": "Restaurants, bars and cafes",
+        "text": "Reels of dishes and the room, stories for nightly specials, and fast replies to reservation questions in the customer's language."
+      },
+      {
+        "title": "Real estate agents",
+        "text": "Walkthrough videos, neighbourhood guides for Brickell, Coconut Grove or Miami Beach, and LinkedIn content for investor audiences."
+      },
+      {
+        "title": "Beauty, wellness and fitness",
+        "text": "Treatment explainers, trainer and practitioner profiles, and client stories shared with consent and within platform rules."
+      },
+      {
+        "title": "Fashion and swimwear brands",
+        "text": "Product drops, creator-style video and Pinterest boards that send shoppers to the online store."
+      },
+      {
+        "title": "Hotels and experiences",
+        "text": "Content timed for travellers planning ahead, plus live coverage during the events that bring them to the city."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami. Strategy, design, video editing and community management are delivered remotely by the wider TDM team, working from footage and photos we plan together with you.",
   "faqs": [
-    { "q": "Which social media platforms matter most in Miami?", "a": "For consumer businesses, Instagram and TikTok carry the most weight, with Facebook still useful for older and family audiences and for local groups. LinkedIn matters for professional services and B2B. We choose the mix after looking at who your customers are." },
-    { "q": "Should a Miami business post in English or Spanish?", "a": "It depends on your followers. Some accounts do well with bilingual captions, some keep separate posts for each language, and some need only one. We check your audience data and the comments you already receive before deciding." },
-    { "q": "Do you create the content or do we?", "a": "We create it. Our media team produces graphics, captions and edited video. For content that needs your venue, staff or products on camera, we agree how the raw footage and photos will be captured and then edit them." },
-    { "q": "How much does social media management cost in Miami?", "a": "It depends on the number of platforms, how many posts and videos are produced each month and whether paid campaigns and community management are included. We quote after a free consultation." },
-    { "q": "How quickly can you take over our accounts?", "a": "That depends on your requirements and how much strategy and content has to be prepared first. The start date and the first month's calendar are agreed in the plan." }
+    {
+      "q": "Which social media platforms matter most in Miami?",
+      "a": "For consumer businesses, Instagram and TikTok carry the most weight, with Facebook still useful for older and family audiences and for local groups. LinkedIn matters for professional services and B2B. We choose the mix after looking at who your customers are."
+    },
+    {
+      "q": "Should a Miami business post in English or Spanish?",
+      "a": "It depends on your followers. Some accounts do well with bilingual captions, some keep separate posts for each language, and some need only one. We check your audience data and the comments you already receive before deciding."
+    },
+    {
+      "q": "Do you create the content or do we?",
+      "a": "We create it. Our media team produces graphics, captions and edited video. For content that needs your venue, staff or products on camera, we agree how the raw footage and photos will be captured and then edit them."
+    },
+    {
+      "q": "How much does social media management cost in Miami?",
+      "a": "It depends on the number of platforms, how many posts and videos are produced each month and whether paid campaigns and community management are included. We quote after a free consultation."
+    },
+    {
+      "q": "How soon can you start managing our social media?",
+      "a": "It depends on your requirements and the brief. The start date is agreed in the plan."
+    }
   ]
 }

@@ -12,7 +12,7 @@
       "heading": "Three decisions that shape a Miami ad account",
       "paragraphs": [
         "The first is language. Ad platforms let you target by the language a person uses, and in Miami that choice splits the audience roughly down the middle of many neighbourhoods. A Spanish ad that lands on an English page loses the sale, so we decide per campaign whether to run English, Spanish or both, and make sure the landing page and the person answering the phone match the ad.",
-        "The second is who counts as local. Google can show ads to people who are physically in Miami or to people anywhere who show interest in Miami. A plumber in Westchester wants the first group only. A yacht charter, a hotel or a condo developer wants the second, because their customers are in Chicago, Toronto or Buenos Aires when they start looking. Getting this setting wrong is one of the most common ways Miami budgets leak.",
+        "The second is who counts as local. Google can show ads to people who are physically in Miami or to people anywhere who show interest in Miami. A plumber in Westchester wants the first group only. A yacht charter, a hotel or a condo developer wants the second, because their customers are in Chicago, Toronto or Buenos Aires when they start looking.",
         "The third is the calendar. Winter is high season for visitors and part-time residents. Art Basel week, the boat show, spring break and the Grand Prix each pull demand toward particular parts of the county for a short time. Summer is quieter for tourism and busier for storm-related trades. We plan budgets by month and shift them, instead of dividing the year into twelve equal parts."
       ]
     },
@@ -26,42 +26,64 @@
         "Meta ads on Facebook and Instagram, and TikTok ads where the audience is there.",
         "Conversion tracking for calls, forms, bookings and purchases, checked before spend begins.",
         "Negative keywords and location exclusions so you do not pay for the wrong Miami, the wrong county or job seekers.",
-        "Ad creative in several versions, tested against each other, including short vertical video.",
-        "Retargeting for people who visited and did not enquire.",
-        "Reports that show spend, leads or sales, and cost per result."
+        "Ad creative in several versions, tested against each other, including short vertical video."
       ]
     },
     {
       "heading": "Rules that catch Miami advertisers out",
       "paragraphs": [
-        "Several of the city's biggest industries fall under stricter advertising rules. Meta treats housing and credit ads as special categories and limits how they can be targeted, which changes how a real estate agent or mortgage broker has to build campaigns. Health and cosmetic advertisers face limits on claims and on before-and-after imagery. Accounts that ignore these rules get ads rejected or get restricted altogether.",
-        "We write ads and choose targeting with those policies in mind from the start, so a campaign for a Brickell brokerage or a Coral Gables clinic keeps running."
+        "Several of the city's biggest industries fall under stricter advertising rules. Meta treats housing and credit ads as special categories and limits how they can be targeted, which changes how a real estate agent or mortgage broker has to build campaigns. Health and cosmetic advertisers face limits on claims and on before-and-after imagery. Accounts that ignore these rules get ads rejected or get restricted altogether."
       ]
     },
     {
       "heading": "Questions to ask a paid ads agency",
       "paragraphs": [
-        "Ask whether you will own the ad accounts. Ask how conversions are tracked and whether phone calls are counted, since many Miami service businesses close by phone. Ask to see search term reports, not just a summary. And ask how the agency separates its fee from your media spend, so you always know how much reached the platforms."
+        "Ask whether you will own the ad accounts. Ask how conversions are tracked and whether phone calls are counted, since many Miami service businesses close by phone. Ask to see search term reports, not just a summary."
       ]
     }
   ],
   "cards": {
     "heading": "How Miami businesses use paid ads",
     "items": [
-      { "title": "Urgent local services", "text": "Locksmiths, AC repair, towing and emergency dentists win on Google Search with tight location targeting and call tracking." },
-      { "title": "Hotels, charters and tours", "text": "Ads reach travellers in their home cities weeks before the trip, then again on their phones once they arrive." },
-      { "title": "Real estate and developers", "text": "Campaigns built within housing ad rules, with video and lead forms aimed at out-of-state and international buyers." },
-      { "title": "E-commerce brands", "text": "Shopping and Meta campaigns for swimwear, beauty and fashion brands, managed against product margin, not just revenue." },
-      { "title": "Clinics and med spas", "text": "Search ads for specific treatments in English and Spanish, with wording that stays inside platform health policies." },
-      { "title": "Restaurants and venues", "text": "Short Instagram and TikTok campaigns around openings, events and the winter season, targeted by district." }
+      {
+        "title": "Urgent local services",
+        "text": "Locksmiths, AC repair, towing and emergency dentists win on Google Search with tight location targeting and call tracking."
+      },
+      {
+        "title": "Hotels, charters and tours",
+        "text": "Ads reach travellers in their home cities weeks before the trip, then again on their phones once they arrive."
+      },
+      {
+        "title": "Real estate and developers",
+        "text": "Campaigns built within housing ad rules, with video and lead forms aimed at out-of-state and international buyers."
+      },
+      {
+        "title": "E-commerce brands",
+        "text": "Shopping and Meta campaigns for swimwear, beauty and fashion brands, managed against product margin, not just revenue."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami and knows how the county's districts and seasons behave. Account builds, creative and daily campaign management are handled remotely by the wider TDM team.",
   "faqs": [
-    { "q": "How much should a Miami business spend on Google Ads?", "a": "There is no single figure. It depends on what a customer is worth to you and what clicks cost in your field, which varies widely here. We work out a starting budget with you in the free consultation and adjust it against results." },
-    { "q": "Should I run ads in Spanish in Miami?", "a": "Run them if your customers search and read in Spanish and you can serve them in Spanish after the click. We look at search terms and your existing customers before recommending English, Spanish or both." },
-    { "q": "Is Google Ads or Meta better for a Miami business?", "a": "Google suits services people look for when they need them. Meta and TikTok suit businesses people discover by seeing them, such as restaurants, fashion, fitness and property. Many accounts use one as the main channel and the other for retargeting." },
-    { "q": "What does PPC management cost in Miami?", "a": "Our fee depends on the number of platforms, campaigns and creative versions involved. It is quoted after a free consultation and is always shown separately from your ad spend." },
-    { "q": "How soon can campaigns go live?", "a": "That depends on your requirements, the tracking already in place and the creative needed. We agree the launch date in the plan once we have seen the accounts and the brief." }
+    {
+      "q": "How much should a Miami business spend on Google Ads?",
+      "a": "There is no single figure. It depends on what a customer is worth to you and what clicks cost in your field, which varies widely here. We work out a starting budget with you in the free consultation and adjust it against results."
+    },
+    {
+      "q": "Should I run ads in Spanish in Miami?",
+      "a": "Run them if your customers search and read in Spanish and you can serve them in Spanish after the click. We look at search terms and your existing customers before recommending English, Spanish or both."
+    },
+    {
+      "q": "Is Google Ads or Meta better for a Miami business?",
+      "a": "Google suits services people look for when they need them. Meta and TikTok suit businesses people discover by seeing them, such as restaurants, fashion, fitness and property. Many accounts use one as the main channel and the other for retargeting."
+    },
+    {
+      "q": "What does PPC management cost in Miami?",
+      "a": "Our fee depends on the number of platforms, campaigns and creative versions involved. It is quoted after a free consultation and is always shown separately from your ad spend."
+    },
+    {
+      "q": "How soon can campaigns go live?",
+      "a": "That depends on your requirements, the tracking already in place and the creative needed. We agree the launch date in the plan once we have seen the accounts and the brief."
+    }
   ]
 }

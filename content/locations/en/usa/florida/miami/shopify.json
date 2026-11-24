@@ -25,37 +25,64 @@
         "Theme design and build, custom or based on a premium theme, matched to your brand.",
         "Product pages, cart and checkout flows designed to reduce drop-off on mobile.",
         "Spanish and English storefronts, local currencies and market-specific pricing through Shopify's international tools.",
-        "App selection and integration, and custom functionality where apps fall short.",
         "Migration from WooCommerce, Magento or other platforms, with redirects so search rankings carry over.",
-        "Speed and SEO work: lean code, compressed images, structured product data.",
-        "Shopify Plus builds for higher-volume merchants, including checkout customisation and automation."
+        "Speed and SEO work: lean code, compressed images, structured product data."
       ]
     },
     {
       "heading": "Details Florida merchants should get right",
       "paragraphs": [
         "Sales tax settings matter. Florida charges sales tax and counties add their own surtax, and selling into other states can create obligations there as well. Shopify calculates tax, but it has to be configured correctly, and your accountant should confirm where you are required to collect. We set the store up to match the advice you are given.",
-        "Shipping deserves the same care. Clear rates and delivery estimates for Puerto Rico, the Caribbean and Latin America remove one of the most common reasons carts are abandoned. Hurricane season can also interrupt dispatch, so it helps to have a banner and an email template ready for delays."
+        "Shipping deserves the same care. Clear rates and delivery estimates for Puerto Rico, the Caribbean and Latin America remove one of the most common reasons carts are abandoned."
       ]
     }
   ],
   "cards": {
     "heading": "What Miami brands ask us for",
     "items": [
-      { "title": "A first store", "text": "A clean launch on a premium theme with products, payments, shipping and tax configured properly from the start." },
-      { "title": "A redesign that converts", "text": "Same products and brand, with faster pages, clearer navigation and product pages built around how shoppers decide." },
-      { "title": "A move to Shopify", "text": "Products, customers and orders migrated, every old address redirected, and Search Console re-verified after the switch." },
-      { "title": "International selling", "text": "Spanish storefronts, local currencies and duties shown at checkout for buyers in Latin America and the Caribbean." },
-      { "title": "Wholesale alongside retail", "text": "Trade pricing and ordering for boutiques and hotel shops, kept separate from the public store." },
-      { "title": "Marketing after launch", "text": "The same agency can run the store's SEO, Google and Meta ads, and product photography or video." }
+      {
+        "title": "A first store",
+        "text": "A clean launch on a premium theme with products, payments, shipping and tax configured properly from the start."
+      },
+      {
+        "title": "A redesign that converts",
+        "text": "Same products and brand, with faster pages, clearer navigation and product pages built around how shoppers decide."
+      },
+      {
+        "title": "A move to Shopify",
+        "text": "Products, customers and orders migrated, every old address redirected, and Search Console re-verified after the switch."
+      },
+      {
+        "title": "International selling",
+        "text": "Spanish storefronts, local currencies and duties shown at checkout for buyers in Latin America and the Caribbean."
+      },
+      {
+        "title": "Marketing after launch",
+        "text": "The same agency can run the store's SEO, Google and Meta ads, and product photography or video."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami. Store design, theme development and testing are carried out remotely by the wider TDM team, with a preview store you can review before anything goes live.",
   "faqs": [
-    { "q": "Can a Shopify store sell to Latin America from Miami?", "a": "Yes. Shopify supports multiple languages, currencies and market-specific pricing, and can show duties at checkout for many destinations. We set up the markets you actually ship to and test the checkout for each one." },
-    { "q": "How much does a Shopify store cost to build in Miami?", "a": "It depends on scope: a theme-based setup costs less than a custom theme or a Shopify Plus build, and integrations and migration add work. We quote after a free consultation." },
-    { "q": "Should I use a Shopify theme or a custom design?", "a": "A premium theme suits a new brand that needs to launch and learn. A custom theme suits a store with steady traffic where speed and conversion gains are worth the investment. We recommend one or the other after looking at your numbers." },
-    { "q": "Will I lose Google rankings if I migrate to Shopify?", "a": "Not if the migration is handled carefully. We map each existing URL to its new address with redirects, carry over titles, descriptions and structured data, and monitor Search Console after launch." },
-    { "q": "How long does a Shopify build take?", "a": "It depends on your requirements, the size of the catalogue and how ready the product content is. The timeline is agreed in the plan after discovery." }
+    {
+      "q": "Can a Shopify store sell to Latin America from Miami?",
+      "a": "Yes. Shopify supports multiple languages, currencies and market-specific pricing, and can show duties at checkout for many destinations. We set up the markets you actually ship to and test the checkout for each one."
+    },
+    {
+      "q": "How much does a Shopify store cost to build in Miami?",
+      "a": "It depends on scope: a theme-based setup costs less than a custom theme or a Shopify Plus build, and integrations and migration add work. We quote after a free consultation."
+    },
+    {
+      "q": "Should I use a Shopify theme or a custom design?",
+      "a": "A premium theme suits a new brand that needs to launch and learn. A custom theme suits a store with steady traffic where speed and conversion gains are worth the investment. We recommend one or the other after looking at your numbers."
+    },
+    {
+      "q": "Will I lose Google rankings if I migrate to Shopify?",
+      "a": "Not if the migration is handled carefully. We map each existing URL to its new address with redirects, carry over titles, descriptions and structured data, and monitor Search Console after launch."
+    },
+    {
+      "q": "How long does a Shopify build take?",
+      "a": "It depends on your requirements, the size of the catalogue and how ready the product content is. The timeline is agreed in the plan after discovery."
+    }
   ]
 }

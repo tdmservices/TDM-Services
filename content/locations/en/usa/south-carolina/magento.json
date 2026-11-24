@@ -1,0 +1,66 @@
+{
+  "slug": "usa/south-carolina/magento",
+  "locale": "en",
+  "kind": "service",
+  "title": "Magento Development in South Carolina",
+  "metaTitle": "Magento Development in South Carolina | TDM",
+  "metaDescription": "Magento and Adobe Commerce development for South Carolina distributors, manufacturers and large retailers: B2B, ERP integration, upgrades and speed.",
+  "lead": "TDM (The Digital Marketing Services) builds, extends and maintains Magento Open Source and Adobe Commerce stores for South Carolina companies whose needs go beyond a simple online shop. That usually means distributors, manufacturers and larger retailers with big catalogues, trade pricing and stock held in an ERP. The state has a lot of them, from industrial suppliers along the I-85 corridor in the Upstate to wholesalers that bring goods in through the Port of Charleston.",
+  "sections": [
+    {
+      "heading": "Where Magento fits in South Carolina's economy",
+      "paragraphs": [
+        "South Carolina makes and moves physical goods. Greenville and Spartanburg are home to major automotive and tire plants and to the many firms that supply them with parts, tooling, materials and maintenance products. Around Charleston, aerospace and vehicle assembly sit beside one of the busiest container ports on the East Coast, with an inland port at Greer linking it by rail to the Upstate. Companies in these supply chains sell to other businesses, often to the same accounts every week.",
+        "Their online stores have different requirements from a consumer shop. Buyers expect to log in and see their own negotiated prices, order by part number, reorder a previous purchase in a few clicks, request a quote for volume, and pay on account. Several people at one customer may need separate logins with spending limits. Magento handles this natively or through well-built modules, which is why it remains the usual choice for this kind of seller."
+      ]
+    },
+    {
+      "heading": "What is specific about these builds",
+      "paragraphs": [
+        "The store is rarely the system of record. Products, stock levels, prices and customer accounts live in an ERP, and the website has to reflect them accurately. If the site shows a part as available when the warehouse is empty, a production line somewhere may stop waiting for it. We build two-way integrations so orders flow into your ERP and stock, pricing and shipment status flow back.",
+        "Catalogues are large and technical. A buyer searching by a manufacturer's part number, a cross-reference or a specification needs to land on the right item quickly. Search, filtering and product data structure get as much attention as visual design.",
+        "Freight is another difference. Heavy or bulky orders ship by pallet or truck, not by parcel, and rates depend on weight, class and destination. Tax also needs care, since South Carolina's sales tax varies by county and many trade customers hold exemption certificates. We configure these rules with your finance team."
+      ]
+    },
+    {
+      "heading": "Magento work we take on",
+      "paragraphs": [
+        "We work with Magento the way the platform intends: proper modules instead of changes to core code, a short list of trusted extensions, and hosting and caching tuned for it."
+      ],
+      "bullets": [
+        "New Magento Open Source and Adobe Commerce builds.",
+        "B2B features: company accounts, customer-specific and tiered pricing, quotes and quick order.",
+        "Integration with ERP, CRM, point-of-sale and warehouse systems.",
+        "Custom modules for pricing logic, checkout steps and admin tools.",
+        "Performance work: full-page caching, database and indexer tuning, frontend optimisation.",
+        "Upgrades from unsupported versions, security patching and hardening.",
+        "Multi-store setups with separate storefronts, languages and currencies on one installation."
+      ]
+    },
+    {
+      "heading": "What to ask a Magento developer before you sign",
+      "paragraphs": [
+        "Ask which Magento version you will be on and how upgrades and security patches are handled after launch. Ask whether custom work is written as modules that survive upgrades. Ask to see how the ERP integration will deal with errors, such as an order that fails to sync. And ask honestly whether Magento is needed at all. It costs more to run than simpler platforms, and a smaller catalogue selling to consumers is often better served by Shopify."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "South Carolina use cases for Magento",
+    "items": [
+      { "title": "Industrial and MRO distributors", "text": "Large part catalogues with account pricing, quick reorder and stock pulled live from the ERP." },
+      { "title": "Automotive and equipment parts", "text": "Fitment data, cross-references and search by part number for trade and retail buyers." },
+      { "title": "Manufacturers selling direct", "text": "A dealer portal and a public store on one installation, each with its own prices and catalogue." },
+      { "title": "Importers and wholesalers", "text": "Stores for companies receiving goods through Charleston, with case quantities, minimum orders and freight shipping." },
+      { "title": "Marine, outdoor and building supplies", "text": "Mixed consumer and trade selling, with bulky items, local pickup and delivery zones." },
+      { "title": "Stores on old Magento versions", "text": "Audits, upgrades and rescues for sites that have become slow, unpatched or hard to change." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina. Magento development, integration and support are carried out by our wider engineering team remotely, with regular calls with your operations and IT staff.",
+  "faqs": [
+    { "q": "How much does Magento development cost for a South Carolina business?", "a": "It depends on the catalogue, the B2B features required and the systems to be integrated. We quote after a free consultation and a look at your current setup. Hosting and any Adobe Commerce licence are separate costs." },
+    { "q": "How long does a Magento build or upgrade take?", "a": "It depends on your requirements, the integrations and the state of your product data. The timeline is agreed in the project plan before development starts." },
+    { "q": "Can you connect Magento to our ERP?", "a": "Yes. We build two-way integrations for products, stock, prices, customers and orders with ERP, CRM and warehouse systems. The first step is reviewing what your ERP can expose through its API or file exports." },
+    { "q": "Should a B2B distributor use Magento or Shopify?", "a": "Magento suits complex account pricing, very large catalogues and deep ERP integration. Shopify suits simpler catalogues and faster launches. We build on both and recommend based on how your customers order." },
+    { "q": "Our Magento store is slow and out of date. Can you take it over?", "a": "Yes. We start with a performance and security audit, apply patches, then plan an upgrade or, if the platform is the wrong fit, a move to something else." }
+  ]
+}

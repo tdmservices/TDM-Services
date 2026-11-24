@@ -25,7 +25,6 @@
         "Custom themes that carry only the code your site needs, not a pre-made theme loaded with unused features.",
         "English and Spanish versions with correct language tags and separate, editable content for each.",
         "SEO built in: clean URLs, structured data, optimised images and strong mobile speed.",
-        "WooCommerce stores where WordPress is the right fit for selling online.",
         "Migration of existing content with redirects, so current rankings are protected during a rebuild.",
         "Security hardening, updates, backups and ongoing maintenance.",
         "A handover session so your team can edit pages and publish posts."
@@ -34,28 +33,56 @@
     {
       "heading": "Fix, rebuild or start again",
       "paragraphs": [
-        "A lot of the WordPress work we are asked about in Miami is not a new site. It is a site built years ago on a bought theme, weighed down by plugins, that has become slow or has been hacked. We audit it first. Sometimes cleaning up, updating and hardening the existing build is enough. Sometimes a rebuild on a custom theme costs less over the next few years than keeping the old one alive. We tell you which, with reasons.",
-        "Hosting is part of that conversation. If most of your visitors are in South Florida and Latin America, where the server sits and how pages are cached affects how fast the site feels to them."
+        "A lot of the WordPress work we are asked about in Miami is not a new site. It is a site built years ago on a bought theme, weighed down by plugins, that has become slow or has been hacked. We audit it first. Sometimes cleaning up, updating and hardening the existing build is enough. Sometimes a rebuild on a custom theme costs less over the next few years than keeping the old one alive. We tell you which, with reasons."
       ]
     }
   ],
   "cards": {
     "heading": "Sites we build on WordPress for Miami businesses",
     "items": [
-      { "title": "Law and professional firms", "text": "Practice area pages in two languages, attorney profiles, and intake forms that route enquiries to the right person." },
-      { "title": "Real estate brokerages", "text": "Listing feeds, building and neighbourhood pages, and lead capture for buyers researching from other states and countries." },
-      { "title": "Restaurants and hospitality", "text": "Menus that are real text and not PDFs, hours that are easy to update, and links to booking and ordering that work on a phone." },
-      { "title": "Clinics and med spas", "text": "Treatment pages, practitioner bios, appointment requests and forms handled with attention to patient privacy." },
-      { "title": "Content and media sites", "text": "Large article libraries with structured categories, fast search and an editing workflow for several authors." },
-      { "title": "Nonprofits and associations", "text": "Event listings, donation and membership pages, and multilingual content for the communities they serve." }
+      {
+        "title": "Law and professional firms",
+        "text": "Practice area pages in two languages, attorney profiles, and intake forms that route enquiries to the right person."
+      },
+      {
+        "title": "Real estate brokerages",
+        "text": "Listing feeds, building and neighbourhood pages, and lead capture for buyers researching from other states and countries."
+      },
+      {
+        "title": "Restaurants and hospitality",
+        "text": "Menus that are real text and not PDFs, hours that are easy to update, and links to booking and ordering that work on a phone."
+      },
+      {
+        "title": "Clinics and med spas",
+        "text": "Treatment pages, practitioner bios, appointment requests and forms handled with attention to patient privacy."
+      },
+      {
+        "title": "Content and media sites",
+        "text": "Large article libraries with structured categories, fast search and an editing workflow for several authors."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami. Design and development are done remotely by the wider TDM team, with review calls at each stage and a staging site you can test yourself.",
   "faqs": [
-    { "q": "Can you build a WordPress site in English and Spanish?", "a": "Yes. We build each language as its own set of pages with correct language tags, so Google shows the right version and your team can edit both. The Spanish text should be written or reviewed by a fluent speaker, and we agree with you who supplies it." },
-    { "q": "How much does a WordPress website cost in Miami?", "a": "It depends on the number of page types, languages, integrations and whether the site sells online. We give a quote after a free consultation, once the scope is clear." },
-    { "q": "How long does it take to build a WordPress site?", "a": "That depends on your requirements, the content to be prepared and the integrations involved. The timeline is agreed in the project plan after discovery." },
-    { "q": "My Miami business site was hacked. Can you fix it?", "a": "Usually, yes. We clean the site, find how the attacker got in, update and harden it, and set up backups and monitoring. If the build is too old or damaged to trust, we recommend a rebuild and explain why." },
-    { "q": "Will you maintain the site after launch?", "a": "Yes. We offer ongoing maintenance covering updates, security, backups and small changes. You own the site and can move it elsewhere at any time." }
+    {
+      "q": "Can you build a WordPress site in English and Spanish?",
+      "a": "Yes. We build each language as its own set of pages with correct language tags, so Google shows the right version and your team can edit both. The Spanish text should be written or reviewed by a fluent speaker, and we agree with you who supplies it."
+    },
+    {
+      "q": "How much does a WordPress website cost in Miami?",
+      "a": "It depends on the number of page types, languages, integrations and whether the site sells online. We give a quote after a free consultation, once the scope is clear."
+    },
+    {
+      "q": "How long does it take to build a WordPress site?",
+      "a": "That depends on your requirements, the content to be prepared and the integrations involved. The timeline is agreed in the project plan after discovery."
+    },
+    {
+      "q": "My Miami business site was hacked. Can you fix it?",
+      "a": "Usually, yes. We clean the site, find how the attacker got in, update and harden it, and set up backups and monitoring. If the build is too old or damaged to trust, we recommend a rebuild and explain why."
+    },
+    {
+      "q": "Will you maintain the site after launch?",
+      "a": "Yes. We offer ongoing maintenance covering updates, security, backups and small changes. You own the site and can move it elsewhere at any time."
+    }
   ]
 }

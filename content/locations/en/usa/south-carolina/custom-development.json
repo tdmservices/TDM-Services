@@ -1,0 +1,65 @@
+{
+  "slug": "usa/south-carolina/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "title": "Custom Web Development in South Carolina",
+  "metaTitle": "Custom Web Development in South Carolina | TDM",
+  "metaDescription": "Custom web platforms for South Carolina businesses: booking systems, portals, marketplaces and internal tools. A member of our team is based in South Carolina.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom web applications for South Carolina businesses whose work does not fit an off-the-shelf product: booking systems, customer and supplier portals, marketplaces and internal tools. We build with Next.js and React on the front end and Laravel or Node.js on the back end. The need shows up across the state, from a charter company in Charleston juggling boats and tides to a Spartanburg supplier still running orders through spreadsheets and email.",
+  "sections": [
+    {
+      "heading": "Where custom software earns its cost in South Carolina",
+      "paragraphs": [
+        "Tourism businesses on the coast sell time and capacity: rental nights, tee times, tour seats, charter slots, event dates. Generic booking tools work until the rules become specific, such as minimum stays that change by season, owner blackout dates, group packages across several golf courses, or trips that depend on weather. A system built around your own rules removes manual work and double bookings.",
+        "In the Upstate and around Charleston, manufacturers and logistics firms deal with a different kind of complexity. Suppliers to the large automotive, tire and aerospace plants exchange orders, documents and delivery schedules with customers and subcontractors all day. Freight, drayage and warehouse companies near the port need to show customers where a container or shipment is without a phone call. A portal that connects to existing systems replaces the inbox as the place where work is tracked.",
+        "Columbia adds a third group. Firms that serve state agencies, the University of South Carolina and the large hospital systems are often asked for specific security, accessibility and reporting features that packaged software does not offer in the form required."
+      ]
+    },
+    {
+      "heading": "Local requirements we plan for",
+      "paragraphs": [
+        "Seasonal load is real here. A booking platform for the Grand Strand may see most of its yearly traffic in a few months, so the architecture has to scale up for summer and cost little in winter. We design hosting and caching with that curve in mind.",
+        "Integration matters more than features. Most South Carolina companies already run accounting, an ERP, a property management system or a CRM. Custom work should connect to those, not replace them without reason. And where personal, payment or health information is involved, we agree early how it is stored and who can see it. If you work with public bodies or healthcare, tell us about any compliance rules at the start so they are designed in, not added later."
+      ]
+    },
+    {
+      "heading": "What we build and how",
+      "paragraphs": [
+        "Projects run in five stages: discovery and planning, design and prototyping, development, testing, then deployment and support. Scope, budget and timeline are kept visible throughout, and you own the code."
+      ],
+      "bullets": [
+        "Web applications in Next.js and React, fast and readable by search engines.",
+        "Back ends and APIs in Laravel and Node.js: logins, roles, payments and business logic.",
+        "Booking and scheduling systems, client portals, marketplaces and dashboards.",
+        "Integrations with payment gateways, CRMs, mapping, messaging and logistics services.",
+        "Custom modules on top of WordPress or Shopify when that is quicker than starting from nothing.",
+        "Cloud hosting, automated deployment, monitoring, backups and security hardening."
+      ]
+    },
+    {
+      "heading": "Before you commission custom development",
+      "paragraphs": [
+        "Check first that an existing product will not do the job, and ask the developer to say so if it will. Ask who owns the source code and where it is hosted. Ask for a written scope with a first release small enough to test with real users. Ask how the system will be maintained after launch and what happens if you later hire your own developers, which is easier with widely used technologies."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Examples of what South Carolina businesses ask for",
+    "items": [
+      { "title": "Rental and booking platforms", "text": "Availability, seasonal pricing, owner statements and guest messaging for vacation rental managers in Myrtle Beach, Hilton Head and the Charleston islands." },
+      { "title": "Golf and tour packages", "text": "Systems that combine tee times, lodging and transport into one quote and one payment for visiting groups." },
+      { "title": "Supplier and customer portals", "text": "Order status, documents, schedules and approvals for manufacturers and their partners in the Upstate." },
+      { "title": "Shipment tracking", "text": "Customer-facing views of containers, loads and warehouse stock for logistics firms working with the port." },
+      { "title": "Internal tools", "text": "Job scheduling, quoting and field reporting for contractors and service companies that have outgrown spreadsheets." },
+      { "title": "Member and student services", "text": "Portals for associations, training providers and businesses serving university communities in Columbia and Clemson." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina. Design and engineering are delivered by our wider team remotely, with regular demos so you see working software as it is built.",
+  "faqs": [
+    { "q": "How much does custom web development cost in South Carolina?", "a": "It depends on what the system has to do, how many integrations it needs and how many user types it serves. We quote after a free consultation and a discovery conversation about scope." },
+    { "q": "How long does it take to build a custom web application?", "a": "It depends on your requirements and brief. We agree the timeline in the project plan, usually with a smaller first release followed by further stages." },
+    { "q": "Can you build a booking system for a vacation rental or tour company?", "a": "Yes. Booking, scheduling and payment systems are a regular part of our custom work. We start from your real rules for pricing, availability and cancellations, and connect to the channels and tools you already use where they allow it." },
+    { "q": "Can a custom system connect to our existing ERP or accounting software?", "a": "In most cases, yes, provided the software offers an API or data export. We review what it supports during discovery and design the integration around it." },
+    { "q": "Do we need custom development or will WordPress or Shopify do?", "a": "Often a standard platform is enough, sometimes with a custom module added. We build on those platforms too, so we will recommend custom work only where it clearly saves time or money over the life of the system." }
+  ]
+}

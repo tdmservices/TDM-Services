@@ -1,0 +1,66 @@
+{
+  "slug": "usa/south-carolina/seo",
+  "locale": "en",
+  "kind": "service",
+  "title": "SEO Agency in South Carolina",
+  "metaTitle": "SEO Agency in South Carolina | TDM",
+  "metaDescription": "SEO for South Carolina businesses: local map results, visitor search on the coast, B2B search in the Upstate and AI answers. Team member based in South Carolina.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that does SEO for South Carolina businesses: technical fixes, on-page work, content, links, local map visibility and visibility in AI answers. Search in this state splits into a few very different jobs. A Charleston restaurant is found by visitors planning a trip, a Greenville supplier is found by a buyer in another state, and a Columbia contractor is found by someone two miles away. We plan the work around which of those you are.",
+  "sections": [
+    {
+      "heading": "How people search in South Carolina",
+      "paragraphs": [
+        "On the coast, a large part of search demand comes from people who do not live here yet. Visitors to Charleston, Myrtle Beach and the Grand Strand, and Hilton Head research weeks ahead from home, then search again on a phone once they arrive. Those are two different sets of queries, and a tour operator, rental manager or restaurant needs pages for both: planning content for the first, and accurate map listings, hours and menus for the second.",
+        "Inland, the pattern changes. The Upstate around Greenville and Spartanburg is built on manufacturing, with large automotive and tire plants and the suppliers that serve them. Their buyers search by part, process, certification or capability, often from outside the state. Columbia runs on state government, the University of South Carolina and Fort Jackson, so a steady flow of students, military families and public employees arrive needing housing, healthcare and services, and they search for them from scratch.",
+        "The state is also growing. People moving in from other parts of the country have no local habits and no word-of-mouth network. They ask Google, and increasingly an AI assistant, who to call for a roof, a dentist or a lawyer. Businesses with clear pages and real reviews pick up that demand."
+      ]
+    },
+    {
+      "heading": "The place-name problem",
+      "paragraphs": [
+        "Several South Carolina cities share their names with better-known or equally known places elsewhere. There is a Charleston in West Virginia, a Columbia in Missouri and in Maryland, a Greenville in North Carolina, and a Beaufort in North Carolina that is spelled the same and pronounced differently. Search engines and AI systems have to work out which one a page is about.",
+        "We remove the doubt. That means a full address and state in structured data, consistent name, address and phone details across directories, a complete Google Business Profile, and copy that names nearby places a local would name: Mount Pleasant and Summerville, Lexington and Irmo, Greer and Simpsonville, Bluffton and Beaufort. Service-area businesses get pages for the towns they actually cover, written about those towns, not copied with the name swapped."
+      ]
+    },
+    {
+      "heading": "What our SEO work includes",
+      "paragraphs": [
+        "We start with an audit of the site and of how you appear in search today, then agree priorities with you. Because our developers work alongside the SEO team, technical fixes get implemented and do not sit in a report."
+      ],
+      "bullets": [
+        "Keyword research by region and by intent: visitor, resident, newcomer or business buyer.",
+        "Technical SEO: speed, mobile usability, crawl and indexing fixes, schema markup.",
+        "On-page work and content written to answer the questions your customers ask.",
+        "Google Business Profile management and review guidance for map results.",
+        "Link building through relevant local and industry sites.",
+        "Content structured so AI assistants can read, trust and cite it.",
+        "Reporting on rankings, traffic and enquiries that you can check in your own Search Console."
+      ]
+    },
+    {
+      "heading": "What to check before hiring an SEO agency here",
+      "paragraphs": [
+        "Ask who will do the technical work and whether changes are made on your site or only recommended. Ask to keep ownership of your website, analytics and business profile. Be wary of anyone promising a position on Google, since nobody controls that. And ask how they plan around the calendar: on the coast, pages for the summer season need to be live and indexed well before spring, not written in June."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where SEO pays back in South Carolina",
+    "items": [
+      { "title": "Coastal hospitality", "text": "Hotels, rentals, charters, tours and restaurants in Charleston, the Grand Strand and Hilton Head, found by visitors before and during a trip." },
+      { "title": "Upstate manufacturers and suppliers", "text": "Capability and product pages that match how engineers and procurement teams search, in the United States and abroad." },
+      { "title": "Home services", "text": "Roofers, HVAC, builders and landscapers in fast-growing suburbs, where map results and reviews decide the call." },
+      { "title": "Healthcare and professional firms", "text": "Clinics, dentists, lawyers and accountants found by newcomers who are choosing a provider for the first time." },
+      { "title": "Online stores", "text": "Product and category pages for South Carolina brands selling nationally, so sales do not depend only on paid ads." },
+      { "title": "Port and logistics companies", "text": "Freight, warehousing and trucking firms around the Port of Charleston and the inland port at Greer, visible for the routes and services they offer." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, so you can speak with someone who knows the state. The SEO work itself is delivered by our wider team remotely, with calls and reports on a schedule agreed with you.",
+  "faqs": [
+    { "q": "Do you have an SEO team in South Carolina?", "a": "A member of our team is based in South Carolina. Audits, technical work, content and reporting are delivered by our wider team remotely, and we meet by call as often as you need." },
+    { "q": "How much does SEO cost in South Carolina?", "a": "It depends on the size of your site, how competitive your field is and how much content is needed. We quote after a free consultation, once we have looked at where you stand today." },
+    { "q": "How long does SEO take to work for a South Carolina business?", "a": "It depends on your requirements, your starting point and the competition. We agree realistic milestones in the plan. Seasonal businesses on the coast should start well ahead of their busy months." },
+    { "q": "Can you do local SEO for more than one South Carolina city?", "a": "Yes. A business that serves Charleston, Columbia and Greenville, or several towns around one of them, needs a separate, useful page and usually a separate business profile for each real location. We set that up without duplicate content." },
+    { "q": "Does SEO help my business show up in ChatGPT and Google AI answers?", "a": "It can. AI assistants draw on clear pages, structured data, reviews and mentions on other sites. We write and structure content so it can be cited, and that work also supports ordinary rankings." }
+  ]
+}
