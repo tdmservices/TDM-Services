@@ -61,5 +61,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
+  // The legal pages are English only.
+  for (const path of ["/terms-and-conditions/", "/privacy-policy/", "/legal-notice/"]) {
+    urls.push({ url: `${site.url}${path}`, changeFrequency: "yearly", priority: 0.3 });
+  }
+
   return urls;
 }

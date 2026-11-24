@@ -28,7 +28,7 @@ export function isRtl(locale: Locale): boolean {
 }
 
 /** Sections that exist in English only — see src/app/fr and src/app/ar. */
-const enOnly = [/^\/terms-and-conditions(\/|$)/];
+const enOnly = [/^\/(terms-and-conditions|privacy-policy|legal-notice)(\/|$)/];
 
 /** Drop a leading /fr or /ar, returning the canonical English path. */
 export function stripLocale(pathname: string): string {

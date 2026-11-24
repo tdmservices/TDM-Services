@@ -52,8 +52,18 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
     { label: t.ourClients, path: "/clients/" },
     { label: t.blog, path: "/blog/" },
     { label: t.contact, path: "/contact/" },
-    ...(locale === "en" ? [{ label: "Terms & Conditions", path: "/terms-and-conditions/" }] : []),
   ];
+
+  // The legal pages exist in English only, so every language links to the same three.
+  const legalLabels = {
+    en: ["Terms & Conditions", "Privacy Policy", "Legal Notice"],
+    fr: ["Conditions générales", "Politique de confidentialité", "Mentions légales"],
+    ar: ["الشروط والأحكام", "سياسة الخصوصية", "إشعار قانوني"],
+  }[locale];
+  const legalLinks = ["/terms-and-conditions/", "/privacy-policy/", "/legal-notice/"].map((path, i) => ({
+    label: legalLabels[i],
+    path,
+  }));
 
   return (
     <footer className="relative overflow-hidden bg-forest text-white">
@@ -165,7 +175,7 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
               {companyLinks.map((l) => (
                 <li key={l.path}>
                   <FooterLink
-                    to={l.path === "/terms-and-conditions/" ? l.path : href(locale, l.path)}
+                    to={href(locale, l.path)}
                   >
                     {l.label}
                   </FooterLink>
@@ -218,6 +228,15 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
             of them stacked up at the bottom of the page looked like a mistake. */}
         <div className="mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/55 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
+          <ul className="flex flex-wrap gap-x-4 gap-y-1">
+            {legalLinks.map((l) => (
+              <li key={l.path}>
+                <Link href={l.path} className="transition-colors hover:text-white">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
           <p>
             {site.domain} · {site.email}
           </p>
