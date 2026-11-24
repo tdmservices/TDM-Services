@@ -1,6 +1,6 @@
-import { ToolView, isToolSlug } from "@/views/ToolViews";
+import { ToolView } from "@/views/ToolViews";
 import { localizedMetadata } from "@/lib/meta";
-import { TOOL_SLUGS, getTools } from "@/content/tools";
+import { ALL_TOOL_SLUGS, getToolSummary } from "@/content/all-tools";
 
 const locale = "ar" as const;
 
@@ -9,13 +9,13 @@ export const revalidate = 60;
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return TOOL_SLUGS.map((tool) => ({ tool }));
+  return ALL_TOOL_SLUGS.map((tool) => ({ tool }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ tool: string }> }) {
   const { tool } = await params;
-  if (!isToolSlug(tool)) return {};
-  const copy = getTools(locale).tools[tool];
+  const copy = getToolSummary(locale, tool);
+  if (!copy) return {};
   return localizedMetadata(locale, `/tools/${tool}/`, copy.metaTitle, copy.metaDescription);
 }
 

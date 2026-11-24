@@ -3,7 +3,7 @@ import { sectors } from "@/content/en/sectors";
 import { allServices } from "@/content/en/services";
 import { offices } from "@/content/en/locations";
 import { getBlogPosts, getCaseStudies } from "@/content/db";
-import { TOOL_SLUGS, getTools } from "@/content/tools";
+import { ALL_TOOL_SLUGS, getToolSummary } from "@/content/all-tools";
 
 /**
  * /llms.txt — a plain-text map of the site for AI assistants and answer engines.
@@ -37,10 +37,10 @@ export async function GET() {
     }
   }
 
-  const tools = getTools("en");
   lines.push("", "## Free tools", "");
-  for (const slug of TOOL_SLUGS) {
-    lines.push(`- [${tools.tools[slug].name}](${abs(`/tools/${slug}/`)}): ${tools.tools[slug].tagline}`);
+  for (const slug of ALL_TOOL_SLUGS) {
+    const tool = getToolSummary("en", slug)!;
+    lines.push(`- [${tool.name}](${abs(`/tools/${slug}/`)}): ${tool.tagline}`);
   }
 
   lines.push("", "## Locations", "");

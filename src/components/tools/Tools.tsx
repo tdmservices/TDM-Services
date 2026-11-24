@@ -101,7 +101,7 @@ function Figure({ label, value, hint, strong = false }: { label: string; value: 
 }
 
 /** "Have TDM follow up": a lead with the tool's result attached. */
-function ToolLead({
+export function ToolLead({
   locale,
   source,
   title,

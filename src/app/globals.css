@@ -58,6 +58,12 @@ html[dir="rtl"] {
   --font-display: var(--font-noto-ar), ui-sans-serif, system-ui, sans-serif;
 }
 
+/* Clip sideways overflow on the page itself too: on right-to-left pages a
+   click could otherwise shift the whole page towards the overflowing side. */
+html {
+  overflow-x: clip;
+}
+
 body {
   background: var(--color-cream);
   color: var(--color-ink);

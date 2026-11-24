@@ -108,7 +108,7 @@ export function normalizeUrl(input: string): URL {
 }
 
 /** GET with every redirect followed by hand, so each hop is checked before it is requested. */
-async function safeFetch(start: URL, accept: string): Promise<{ res: Response; url: URL }> {
+export async function safeFetch(start: URL, accept: string): Promise<{ res: Response; url: URL }> {
   let url = start;
   for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
     await assertPublic(url);

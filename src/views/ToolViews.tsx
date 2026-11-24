@@ -3,17 +3,30 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { href, isRtl } from "@/lib/i18n";
 import { absoluteUrl, site } from "@/lib/site";
-import { TOOL_SLUGS, getTools, type ToolSlug } from "@/content/tools";
+import { getTools } from "@/content/tools";
+import { ALL_TOOL_SLUGS, getToolSummary, isTool } from "@/content/all-tools";
+import { getToolDef } from "@/lib/tool-defs";
 import { ui } from "@/content/ui";
+import { getContent } from "@/content";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs, CtaBand, FaqSection, PageHero, Prose } from "@/components/Sections";
 import { RoasCalculator, SeoAuditTool, StaffCalculator } from "@/components/tools/Tools";
+import { GenericTool } from "@/components/tools/GenericTools";
+import { WpCheckTool } from "@/components/tools/WpCheck";
 
 /** Free tools: the hub that lists them, and the page each one lives on. */
 
-export const isToolSlug = (slug: string): slug is ToolSlug => (TOOL_SLUGS as string[]).includes(slug);
+export const isToolSlug = isTool;
 
-const toolPath = (slug: ToolSlug) => `/tools/${slug}/`;
+const toolPath = (slug: string) => `/tools/${slug}/`;
+
+/** The name of the service or sector at a path, for the link back from its tool. */
+function serviceName(locale: Locale, path: string): string {
+  const c = getContent(locale);
+  const [, sector, service] = path.split("/");
+  if (!service) return c.sectors.find((x) => x.slug === sector)?.name ?? "";
+  return c.services.find((x) => x.sector === sector && x.slug === service)?.name ?? "";
+}
 
 export function ToolsIndexView({ locale }: { locale: Locale }) {
   const copy = getTools(locale);
@@ -27,10 +40,10 @@ export function ToolsIndexView({ locale }: { locale: Locale }) {
           "@context": "https://schema.org",
           "@type": "ItemList",
           name: copy.hub.headline,
-          itemListElement: TOOL_SLUGS.map((slug, i) => ({
+          itemListElement: ALL_TOOL_SLUGS.map((slug, i) => ({
             "@type": "ListItem",
             position: i + 1,
-            name: copy.tools[slug].name,
+            name: getToolSummary(locale, slug)!.name,
             url: absoluteUrl(href(locale, toolPath(slug))),
           })),
         }}
@@ -44,8 +57,8 @@ export function ToolsIndexView({ locale }: { locale: Locale }) {
       />
       <section className="ribbon-bg mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <ul className="grid gap-6 lg:grid-cols-3">
-          {TOOL_SLUGS.map((slug) => {
-            const tool = copy.tools[slug];
+          {ALL_TOOL_SLUGS.map((slug) => {
+            const tool = getToolSummary(locale, slug)!;
             return (
               <li key={slug}>
                 <Link
@@ -72,9 +85,11 @@ export function ToolsIndexView({ locale }: { locale: Locale }) {
 }
 
 export function ToolView({ locale, slug }: { locale: Locale; slug: string }) {
-  if (!isToolSlug(slug)) notFound();
+  const tool = getToolSummary(locale, slug);
+  if (!tool) notFound();
   const copy = getTools(locale);
-  const tool = copy.tools[slug];
+  // The service this tool belongs with, so the tool leads on to the work.
+  const servicePath = getToolDef(slug)?.service;
   const t = ui[locale];
   const url = absoluteUrl(href(locale, toolPath(slug)));
 
@@ -108,19 +123,31 @@ export function ToolView({ locale, slug }: { locale: Locale; slug: string }) {
         {slug === "seo-audit" && <SeoAuditTool locale={locale} />}
         {slug === "roas-calculator" && <RoasCalculator locale={locale} />}
         {slug === "staff-augmentation-calculator" && <StaffCalculator locale={locale} />}
+        {slug === "wordpress-security-checker" && <WpCheckTool locale={locale} />}
+        {getToolDef(slug) && <GenericTool locale={locale} slug={slug} />}
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6">
         <Prose paragraphs={tool.intro} />
         {/* The other tools, so one tool is a way into the rest. */}
         <ul className="mt-8 flex flex-wrap gap-2">
-          {TOOL_SLUGS.filter((s) => s !== slug).map((s) => (
+          {servicePath && (
+            <li>
+              <Link
+                href={href(locale, servicePath)}
+                className="inline-block rounded-full bg-forest px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-fern"
+              >
+                {serviceName(locale, servicePath)} {isRtl(locale) ? "←" : "→"}
+              </Link>
+            </li>
+          )}
+          {ALL_TOOL_SLUGS.filter((s) => s !== slug).map((s) => (
             <li key={s}>
               <Link
                 href={href(locale, toolPath(s))}
                 className="inline-block rounded-full border border-mint bg-white px-4 py-2 text-sm font-semibold text-forest transition-colors hover:border-fern hover:bg-fern hover:text-white"
               >
-                {copy.tools[s].name}
+                {getToolSummary(locale, s)!.name}
               </Link>
             </li>
           ))}
