@@ -11,6 +11,9 @@ import { saveLead } from "@/lib/leads";
 // via NEXT_PUBLIC_WEB3FORMS_KEY at build time.
 const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? "";
 
+/** Name of the hidden spam-trap field. */
+const TRAP = "hp_7f3a";
+
 type Status = "idle" | "sending" | "sent" | "error";
 
 export function ContactForm({ locale = "en" }: { locale?: Locale }) {
@@ -21,13 +24,12 @@ export function ContactForm({ locale = "en" }: { locale?: Locale }) {
     e.preventDefault();
     const data = Object.fromEntries(new FormData(e.currentTarget).entries()) as Record<string, string>;
 
-    // A field no person can see. Anything that fills it in is a bot: show it
-    // the thank-you and keep nothing.
-    if (data.company_website) {
-      setStatus("sent");
-      return;
-    }
-    delete data.company_website;
+    // A field no person can see. A bot that fills in everything fills this in
+    // too. Nothing is thrown away on that signal alone, because a browser's
+    // autofill can also write into a hidden field: the enquiry is still saved,
+    // marked as flagged, and only the email notification is skipped.
+    const flagged = Boolean(data[TRAP]);
+    delete data[TRAP];
 
     setStatus("sending");
 
@@ -40,9 +42,9 @@ export function ContactForm({ locale = "en" }: { locale?: Locale }) {
       service: data.service,
       message: data.message,
       locale,
-      source: "contact-form",
+      source: flagged ? "contact-form-flagged" : "contact-form",
     });
-    const emailed = ACCESS_KEY
+    const emailed = ACCESS_KEY && !flagged
       ? fetch("https://api.web3forms.com/submit", {
           method: "POST",
           headers: { "Content-Type": "application/json", Accept: "application/json" },
@@ -71,15 +73,12 @@ export function ContactForm({ locale = "en" }: { locale?: Locale }) {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      {/* Honeypot: hidden from people and from assistive technology. */}
-      <input
-        type="text"
-        name="company_website"
-        tabIndex={-1}
-        autoComplete="off"
-        aria-hidden="true"
-        className="absolute -left-[9999px] h-0 w-0 opacity-0"
-      />
+      {/* Spam trap: hidden from people and from assistive technology. The name
+          is deliberately meaningless — one that reads like "company" or
+          "website" gets filled in by browser autofill and password managers. */}
+      <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+        <input type="text" name={TRAP} tabIndex={-1} autoComplete="off" data-lpignore="true" data-1p-ignore="true" />
+      </div>
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block">
           <span className="text-sm font-medium">{t.name}</span>
