@@ -194,8 +194,20 @@ h1, h2 {
 .marquee:hover .marquee-track {
   animation-play-state: paused;
 }
+/* In a right-to-left page the track is anchored to the right edge and its
+   overflow runs off to the left, so it has to travel right to bring the rest
+   into view. Running the left-to-right animation in reverse instead started
+   the track half its own width off-screen, which left the rail empty. */
+@keyframes marquee-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
 [dir="rtl"] .marquee-track {
-  animation-direction: reverse;
+  animation-name: marquee-rtl;
 }
 
 /* Credential badges as a drifting ribbon rather than a wrapped row.
@@ -210,7 +222,7 @@ h1, h2 {
   animation-play-state: paused;
 }
 [dir="rtl"] .badge-marquee {
-  animation-direction: reverse;
+  animation-name: marquee-rtl;
 }
 
 /* Hero eyebrow: a light band sweeps across every few seconds, so the pill
