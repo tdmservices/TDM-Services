@@ -1,0 +1,65 @@
+{
+  "slug": "usa/florida/miami/ugc-ads",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ugc-ads",
+  "title": "UGC Ads for Miami Brands",
+  "metaTitle": "UGC Ads Production for Miami Brands | TDM",
+  "metaDescription": "Creator-style UGC ads for Miami e-commerce and consumer brands: scripted, cast and edited by TDM in English and Spanish, then tested against real ad data.",
+  "lead": "TDM (The Digital Marketing Services) scripts, produces and edits UGC ads for Miami brands: the handheld, talking-to-camera videos that look like a customer's recommendation and run as paid ads on Meta and TikTok. We write the hooks, source and direct the on-camera talent, and edit each concept into several variations. Production is managed from our hub in Lahore, with talent and scripts matched to the audience you sell to, in English, Spanish or both.",
+  "sections": [
+    {
+      "heading": "Why this format suits brands based in Miami",
+      "paragraphs": [
+        "Miami is full of consumer brands that sell online to the whole country: swimwear and resort wear, skincare and beauty, supplements and fitness products, fragrance, hospitality concepts with merchandise. These are categories where people buy on recommendation and on how something looks on a real person. An ad that feels like a friend's video does that job better than a polished brand film.",
+        "The city is also crowded with influencers, which misleads some brands. Paying a well-known Miami personality for a post buys reach to their followers once. A UGC ad is different: it is creative you own and run through your own ad account, where it can be tested, scaled and replaced. The face does not need to be famous. It needs to look and sound like your customer."
+      ]
+    },
+    {
+      "heading": "Getting the language and the voice right",
+      "paragraphs": [
+        "A Miami brand often has two or three audiences at once: English-speaking buyers across the United States, Spanish-speaking buyers in South Florida and other US cities, and sometimes buyers in Latin America. One script translated word for word will not work for all of them. Spanish as spoken by a Cuban American in Hialeah is not the same as Spanish in Mexico City, and the mixed English and Spanish many people use here is its own register.",
+        "So we decide audience first, then script and cast for it. Each batch can include English concepts, Spanish concepts and bilingual ones, with talent whose accent and manner fit the people the ad will be shown to."
+      ]
+    },
+    {
+      "heading": "What the service includes",
+      "paragraphs": [
+        "We start by reading your reviews, customer questions and ad account history to find the objections and desires worth turning into hooks. Scripts are written with several openings per concept, because the first three seconds decide whether the rest is watched. You approve scripts and talent. Talent is then briefed and directed to deliver natural footage, and you ship product samples to wherever the talent is filming."
+      ],
+      "bullets": [
+        "Hook-first scripts: problem call-outs, unboxings, before and after, sceptic turned buyer.",
+        "On-camera talent sourced and directed by us, so you do not recruit or chase creators.",
+        "Batches of variations, giving the ad account enough distinct videos for a real test.",
+        "Editing native to the feed: jump cuts, captions, zooms, different lengths and endings.",
+        "Scripts checked against platform ad policies for your category, which matters for beauty, supplements and wellness.",
+        "Iteration: winning ads are extended into new versions and weak angles are dropped from the next batch."
+      ]
+    },
+    {
+      "heading": "What to ask before paying for UGC",
+      "paragraphs": [
+        "Ask who owns the footage and whether you can run it as paid ads for as long as you like. Ask how many usable variations you receive, not how many videos are filmed. Ask who reads the results. Where we also manage the ad account, we read hook rate, hold rate and cost per acquisition directly and script the next batch from them. If another team buys your media, we work from shared reports."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Miami categories where UGC ads earn their place",
+    "items": [
+      { "title": "Swimwear and resort wear", "text": "Try-ons and fit checks that show how a piece looks on a real body, timed to the months when the rest of the country shops for warm weather." },
+      { "title": "Skincare and beauty", "text": "Routine videos and honest first impressions, with claims kept inside what the ad platforms allow." },
+      { "title": "Supplements and fitness", "text": "Day-in-the-life and results-over-time angles for a category that depends on trust." },
+      { "title": "Fragrance and lifestyle goods", "text": "Unboxings and reaction videos that convey something a photo cannot." },
+      { "title": "Food and beverage brands", "text": "Taste tests and recipe clips for packaged products sold online or in stores." },
+      { "title": "Apps and services", "text": "Screen-and-face walkthroughs explaining what an app or service does in the words a customer would use." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami and can discuss your brand and audience with local knowledge. Scripting, talent direction and editing are managed by our wider media team remotely, alongside the people who run our clients' ad accounts.",
+  "faqs": [
+    { "q": "Are your UGC creators based in Miami?", "a": "Not necessarily. Production is managed from our hub in Lahore, and we source talent to match the customer profile and market you are targeting. What matters for the ad is that the person looks and sounds like your buyer. A member of our team is based in Miami for briefing and planning." },
+    { "q": "Can you make UGC ads in Spanish for Hispanic audiences?", "a": "Yes. We script and cast Spanish and bilingual ads for the specific audience, instead of translating an English script. Tell us whether you are targeting South Florida, the wider US Hispanic market or Latin America, as the voice differs." },
+    { "q": "How much do UGC ads cost?", "a": "It depends on the number of concepts, variations, languages and talent in each batch. We quote after a free consultation, once we know what your ad account needs to test." },
+    { "q": "What is the difference between UGC ads and influencer marketing?", "a": "An influencer post reaches that person's followers on their account. A UGC ad is creator-style video that you run as paid advertising from your own account, to whichever audience you choose, and can test and improve over time." },
+    { "q": "How long does a batch of UGC ads take to produce?", "a": "It depends on the brief, the number of variations and how quickly scripts and talent are approved. The schedule is agreed in the plan, including time for product samples to reach the talent." }
+  ]
+}

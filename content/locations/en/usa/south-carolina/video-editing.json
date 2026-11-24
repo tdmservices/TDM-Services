@@ -1,0 +1,66 @@
+{
+  "slug": "usa/south-carolina/video-editing",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-editing",
+  "title": "Video Editing Services in South Carolina",
+  "metaTitle": "Video Editing Services in South Carolina | TDM",
+  "metaDescription": "Video editing for South Carolina businesses: ad cuts, reels, product and brand videos edited from your footage and delivered in every platform format.",
+  "lead": "TDM (The Digital Marketing Services) edits video for South Carolina businesses: ad cuts, reels, product videos, brand films and social content, made from footage you or your creators have already shot. Editing is done remotely by our post-production team at TDM's hub in Lahore, so it does not matter whether your footage was filmed on a beach in the Grand Strand or a plant floor in Spartanburg. You send the files and receive finished video in the formats each platform needs.",
+  "sections": [
+    {
+      "heading": "Plenty of footage, not enough finished video",
+      "paragraphs": [
+        "South Carolina is easy to film. Charleston's streets, the marshes of the Lowcountry, the beaches, Falls Park in Greenville and the Blue Ridge foothills all look good on a phone. Hotels, restaurants, charter captains and tour operators collect hours of clips every season and post very little of it, because turning raw footage into something worth watching takes time nobody on staff has.",
+        "Manufacturers have the opposite problem. They have walkthroughs, machine footage and trade show recordings that are long, unlabelled and silent. A buyer or a job applicant will not sit through twelve minutes of it. The same material, cut into a short capability video and a few recruiting clips, becomes useful.",
+        "In both cases the shooting is done. What is missing is the edit."
+      ]
+    },
+    {
+      "heading": "What we do with your footage",
+      "paragraphs": [
+        "We review what you send and tell you honestly what it can support. If there is a gap that a short pickup shot would fix, we say so before editing begins. Then we cut, pace, colour grade, add sound and captions, and export."
+      ],
+      "bullets": [
+        "Ad cuts for Meta, TikTok and YouTube, with several opening variations per concept so the hooks can be tested.",
+        "Short vertical video for reels, stories and TikTok, delivered in batches against a content calendar.",
+        "Longer product and brand videos for websites, product pages and YouTube.",
+        "Burned-in captions, since most feed video is watched with the sound off.",
+        "Animated text, logo stings, price tags and end cards.",
+        "Every approved edit versioned into 9:16, 1:1, 4:5 and 16:9 as its placements require."
+      ]
+    },
+    {
+      "heading": "Editing around the South Carolina calendar",
+      "paragraphs": [
+        "Demand here moves with the year. Coastal businesses need their spring and summer content ready before visitors start planning, not in the middle of the season. Charleston has its festival and wedding seasons. In the Upstate and the Midlands, football weekends at Clemson and in Columbia shift what restaurants, bars and shops want to post. We plan editing batches against those dates so content is finished ahead of the weeks it is meant for.",
+        "Where TDM also runs your advertising, editors see how each cut performs. If viewers drop off in the first three seconds, the opening is re-cut. Editing becomes a loop that follows the numbers, not a one-off delivery judged on taste."
+      ]
+    },
+    {
+      "heading": "Before you choose an editor",
+      "paragraphs": [
+        "Ask how feedback works: we take timestamped notes and revise against them. Ask whether you will receive captioned and clean versions, and whether files are named to your own convention. Ask who owns the project files. And check that the editor understands the platform each video is for, because a clip that works on a website rarely works unchanged in a feed."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Common editing work for South Carolina clients",
+    "items": [
+      { "title": "Hospitality and attractions", "text": "Guest clips, drone shots and staff footage cut into seasonal reels and booking ads for coastal and city businesses." },
+      { "title": "Manufacturing and suppliers", "text": "Plant walkthroughs and machine footage turned into short capability videos for buyers and trade shows." },
+      { "title": "Recruiting video", "text": "Short clips of real staff and workplaces for employers competing for skilled workers in the Upstate and Lowcountry." },
+      { "title": "Real estate and rentals", "text": "Walkthrough footage edited into listing videos and vertical clips for buyers and guests who are still out of state." },
+      { "title": "Restaurants and breweries", "text": "Kitchen and dining room footage paced for social feeds, with captions and menu call-outs." },
+      { "title": "E-commerce brands", "text": "Creator and product footage cut into ad variations in every ratio the campaign uses." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, so you have someone in the state to talk to. The editing itself is done remotely by our post-production team, and files move digitally in both directions.",
+  "faqs": [
+    { "q": "Can you edit footage we filmed ourselves on a phone?", "a": "Yes. Many clients send phone footage, creator clips or archive material and we handle the full edit. We review it first, tell you what it can support, and point out any gaps a short pickup shot would fix." },
+    { "q": "Do you have video editors in South Carolina?", "a": "A member of our team is based in South Carolina, but editing is done remotely by our post-production team at TDM's Lahore hub. You upload footage, review cuts online and receive finished files digitally." },
+    { "q": "How much does video editing cost?", "a": "It depends on the amount of footage, the number of finished videos and the formats required. We quote after a free consultation, once we have seen the brief and a sample of the material." },
+    { "q": "How long does an edit take?", "a": "It depends on the brief, the amount of footage and the number of versions. Delivery dates are agreed in the plan before editing starts, and seasonal content is scheduled ahead of the dates it is needed for." },
+    { "q": "What formats will we receive?", "a": "Each approved edit is delivered in the ratios and lengths its placements require: vertical for reels, stories and TikTok, square and 4:5 for feeds, and widescreen for YouTube and websites, with captioned and clean versions as needed." }
+  ]
+}

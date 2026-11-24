@@ -1,0 +1,64 @@
+{
+  "slug": "usa/florida/miami/mobile-apps",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/mobile-apps",
+  "title": "Mobile App Development in Miami",
+  "metaTitle": "Mobile App Development in Miami, FL | TDM",
+  "metaDescription": "iOS and Android app development for Miami startups and businesses: native Swift and Kotlin or Flutter and React Native, bilingual by design, through store release.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Miami startups and established businesses. We build native apps in Swift and Kotlin, or cross-platform apps in Flutter and React Native, and take them from UX research through App Store and Google Play release. For a Miami audience that usually means an app that works in English and Spanish from the first screen, for residents, visitors and users in Latin America alike.",
+  "sections": [
+    {
+      "heading": "Who builds apps in Miami, and for whom",
+      "paragraphs": [
+        "Miami has become a real startup city, with founders and investors concentrated around Brickell, Wynwood and downtown and a strong lean towards fintech, health technology, logistics and property technology. Many of those companies are built to serve Latin America as much as the United States, so the first version of the product already has to cope with two or three languages and users on very different phones.",
+        "Then there are the established local businesses. Restaurant groups want ordering and loyalty. Fitness studios and salons want booking. Hotels and tour operators want something a visitor can use on the day they land. Property managers in the condo towers along Biscayne Bay and in Sunny Isles want residents to pay fees, book amenities and log maintenance requests from a phone."
+      ]
+    },
+    {
+      "heading": "Design decisions that matter here",
+      "paragraphs": [
+        "Every project starts with UX research: personas, journey mapping, wireframes and a design system, so that the build is based on something users have already reacted to. In Miami a few questions belong in that research from day one."
+      ],
+      "bullets": [
+        "Language: English and Spanish as equals, with text that is written for each language instead of machine-translated, and Portuguese if Brazilian users matter to you.",
+        "iOS, Android or both: iPhone is strong among US users, while Android dominates much of Latin America. If you serve both, cross-platform or two native apps is a decision to make early.",
+        "Visitors versus residents: a tourist will not create an account and verify an email to book a table. Guest checkout and Apple or Google sign-in remove that barrier.",
+        "Payments: cards and wallets for US users, and the option to add other methods if you take payments from abroad.",
+        "Connectivity: users on roaming data or on a boat need screens that load quickly and keep working when the signal drops."
+      ]
+    },
+    {
+      "heading": "Native or cross-platform",
+      "paragraphs": [
+        "Native development in Swift for iOS and Kotlin with Jetpack Compose for Android suits apps where performance and platform feel matter most: live maps, real-time tracking, heavy use of the camera or sensors. Cross-platform development in Flutter or React Native suits products where reaching both stores quickly on one budget is the priority, which is the position most early-stage Miami startups are in.",
+        "Our own work includes ride-hailing apps built in Swift for operators in the MENA region, with live GPS tracking and booking flows, and a native Kotlin food-delivery marketplace for a UK startup connecting diners, restaurants and drivers. The same building blocks, real-time location, ordering, multi-sided accounts, are what delivery, mobility and booking apps in South Florida need."
+      ]
+    },
+    {
+      "heading": "From build to release and after",
+      "paragraphs": [
+        "We build the backend, APIs and real-time features alongside the app, test on real devices, and handle App Store and Google Play submission, including store listings in each language you support. After launch we stay on for support and iteration, because the first weeks of real use always show what to change. If you also need people to find the app, our marketing team can run the launch campaign and app store listing work as part of the same engagement."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Apps Miami businesses ask for",
+    "items": [
+      { "title": "Fintech and payments", "text": "Account onboarding, transfers and dashboards for startups serving US and Latin American users, built with security and compliance needs in mind." },
+      { "title": "Restaurant ordering and loyalty", "text": "Order ahead, delivery tracking and rewards for restaurant groups that want a direct channel alongside the delivery platforms." },
+      { "title": "Booking for fitness, beauty and wellness", "text": "Class and appointment booking, memberships and reminders for studios, salons and med spas." },
+      { "title": "Condo and property management", "text": "Resident apps for fees, amenity booking, packages, visitor access and maintenance requests." },
+      { "title": "Travel, tours and charters", "text": "Booking and day-of information for visitors: tours, boat charters, events and hotel services." },
+      { "title": "Delivery and logistics", "text": "Driver and customer apps with live location, proof of delivery and dispatch tools." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami and can talk through your idea with knowledge of the local market. Research, design and engineering are done by our wider product team, who work with you remotely through calls, prototypes and test builds.",
+  "faqs": [
+    { "q": "How much does it cost to build an app in Miami?", "a": "It depends on scope: the number of features, whether you need iOS, Android or both, and how much backend work sits behind the app. We give a quote after a free consultation, once the first version is defined." },
+    { "q": "Should my app launch in English and Spanish?", "a": "For most consumer apps aimed at Miami or Latin America, yes. Adding a language later is possible, but it is cheaper and cleaner when the app is designed for more than one language from the start. We decide this in the research phase based on who your users are." },
+    { "q": "Is Flutter or native better for a startup?", "a": "Cross-platform frameworks such as Flutter and React Native usually suit a first version that must reach both stores on one budget. Native Swift and Kotlin suit apps with demanding real-time or device features. We recommend one after looking at your feature list." },
+    { "q": "How long does app development take?", "a": "It depends on the requirements and how settled the brief is. A focused first version is much quicker than a full platform. Milestones and the release date are agreed in the project plan." },
+    { "q": "Do you handle App Store and Google Play submission?", "a": "Yes. We prepare the builds, listings and screenshots, submit to both stores and deal with review feedback. After release we provide support and ship updates as usage data comes in." }
+  ]
+}

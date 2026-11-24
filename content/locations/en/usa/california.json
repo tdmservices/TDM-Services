@@ -1,0 +1,64 @@
+{
+  "slug": "usa/california",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in California",
+  "metaTitle": "Digital Marketing Agency in California | TDM",
+  "metaDescription": "Digital marketing for California businesses: SEO, paid ads, social media, websites and video, built for a costly, privacy-conscious and multilingual market.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works with California businesses on SEO, paid advertising, social media, websites and video. California is the most crowded advertising market in the country: clicks cost more, customers have seen every tactic, and privacy law is stricter than elsewhere. We work with California companies remotely and focus on the two things that still pay there, precise targeting and creative that earns attention.",
+  "sections": [
+    {
+      "heading": "North, south and the valley between",
+      "paragraphs": [
+        "The San Francisco Bay Area and Silicon Valley are driven by technology. Customers there are comfortable buying software and services online, research heavily, and expect a product to explain itself clearly. Sacramento, the state capital, is shaped by government and the organisations that work with it.",
+        "Southern California is a different economy. Los Angeles is the centre of film, television, music and the creator industry, and of a large fashion and beauty trade. Its twin ports and the warehouses of the Inland Empire handle a great deal of the country's imported goods. Orange County is affluent and suburban. San Diego mixes biotech, the Navy, tourism and daily cross-border trade with Tijuana.",
+        "Between them lies the Central Valley, around Fresno, Bakersfield and Stockton, one of the most productive farming regions in the world. Businesses there serve growers, processors and working families, at ad costs well below those on the coast."
+      ]
+    },
+    {
+      "heading": "A market where attention is expensive",
+      "paragraphs": [
+        "Because so many brands and startups are based in California, popular keywords and audiences are bid up. A small company cannot win by matching a funded competitor's spend. It wins by being narrower: specific search terms, specific neighbourhoods, specific offers.",
+        "Creative matters more here than in most places. Los Angeles is where much of the internet's video is made, and audiences recognise a stock advert at once. Short video filmed by real customers or creators, tested in several versions, tends to outperform polished material that looks like an ad."
+      ],
+      "bullets": [
+        "Long, specific search terms instead of the costliest head terms.",
+        "Neighbourhood and city targeting: Silver Lake, Pasadena, Oakland, Irvine, La Jolla.",
+        "Several ad creatives tested against each other, with budget moved to the winners.",
+        "Landing pages built to convert, since each visit costs more to buy."
+      ]
+    },
+    {
+      "heading": "Privacy rules shape the tracking",
+      "paragraphs": [
+        "California's consumer privacy law gives residents the right to know what data a business collects and to opt out of its sale or sharing. For a business that falls under it, that affects cookie banners, privacy notices, advertising pixels and email lists. Whether the law applies to you depends on your size and on how you handle data, and that is a question for your legal adviser. Our part is to set up analytics and ad tracking so that they respect the choices visitors make and still give you usable numbers."
+      ]
+    },
+    {
+      "heading": "Many languages, many communities",
+      "paragraphs": [
+        "Spanish is spoken across the state, and for many businesses in Los Angeles, the Inland Empire, San Diego and the Central Valley it is the language of a large part of the customer base. California also has long-established Chinese, Vietnamese, Korean, Filipino, Armenian and Persian communities, often concentrated in particular cities and served by their own media and review habits. Arabic-speaking communities are present too, and we can produce campaigns in Arabic and French as well as English.",
+        "We do not assume a language strategy. We look at who buys from you today and where the unserved demand is, then decide which languages justify their own pages and ads."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "California businesses we plan for",
+    "items": [
+      { "title": "Software and startups", "text": "Bay Area and Los Angeles tech firms need search content, paid acquisition and sites that explain the product quickly." },
+      { "title": "Direct-to-consumer brands", "text": "Beauty, fashion, food and wellness brands need Shopify stores that convert and UGC-style ads tested continuously." },
+      { "title": "Entertainment and creators", "text": "Studios, production companies and creator-led businesses need video editing, social content and audience growth." },
+      { "title": "Wine, food and agriculture", "text": "Wineries in Napa and Sonoma and Central Valley producers sell through direct online orders, clubs and trade buyers." },
+      { "title": "Health and biotech", "text": "San Diego and Bay Area firms need careful, accurate content written for specialists and investors." },
+      { "title": "Local services", "text": "Contractors, clinics and law firms compete suburb by suburb, where map results and reviews decide the choice." }
+    ]
+  },
+  "presence": "We work with California businesses remotely. Calls are scheduled in Pacific time, reporting is shared online, and one team handles strategy, design, development and video.",
+  "faqs": [
+    { "q": "Does TDM have a California office?", "a": "No. We serve California businesses remotely, with video calls arranged for Pacific time and shared reporting." },
+    { "q": "Why are ads more expensive in California?", "a": "More advertisers compete for the same audiences, particularly in Los Angeles and the Bay Area. We respond by narrowing targeting, improving creative and raising the conversion rate of the pages people land on." },
+    { "q": "How much does digital marketing cost in California?", "a": "It depends on scope, channels and competition in your field. We give a quote after a free consultation, once we understand your goals." },
+    { "q": "Can you set up tracking that respects California privacy law?", "a": "We configure consent, analytics and ad pixels to honour visitor choices. Whether and how the law applies to your business should be confirmed with your legal adviser." },
+    { "q": "Do you work with small businesses outside Los Angeles and San Francisco?", "a": "Yes. We work with businesses across the state, including San Diego, Sacramento, Orange County, the Inland Empire and the Central Valley." }
+  ]
+}

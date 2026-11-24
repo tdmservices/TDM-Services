@@ -1,0 +1,64 @@
+{
+  "slug": "usa/south-carolina",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in South Carolina",
+  "metaTitle": "Digital Marketing Agency in South Carolina | TDM",
+  "metaDescription": "Digital marketing for South Carolina businesses: SEO, ads, social media, websites and video for the Lowcountry, Midlands and Upstate. Team member based in SC.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works with South Carolina businesses on SEO, paid advertising, social media, websites and video. The state is small on the map but split into regions with different customers: visitors and newcomers on the coast, government and university life in Columbia, manufacturers and their suppliers in the Upstate. We build campaigns around the region you serve, not around the state line.",
+  "sections": [
+    {
+      "heading": "Three regions, three kinds of customer",
+      "paragraphs": [
+        "The Lowcountry runs from Charleston down to Beaufort and Hilton Head. Charleston draws visitors for its historic district, its restaurants and its weddings, and it has an industrial side as well, with a busy container port and aerospace and vehicle plants nearby. Further up the coast, Myrtle Beach and the Grand Strand live on family holidays and golf.",
+        "The Midlands centre on Columbia, the state capital. State government, the University of South Carolina and Fort Jackson shape demand there, so students, public employees and military families make up much of the audience.",
+        "The Upstate, around Greenville and Spartanburg, is the manufacturing corner. Carmakers, tyre makers and their suppliers have large operations along the Interstate 85 corridor, and much of the selling is business to business. In the north, Rock Hill and Fort Mill belong to the Charlotte commuter area, and businesses there compete with firms across the North Carolina line."
+      ]
+    },
+    {
+      "heading": "Newcomers, visitors and how they search",
+      "paragraphs": [
+        "A large number of people have moved to South Carolina from other states, many of them retirees or remote workers settling near the coast or around Greenville. They arrive without a dentist, a roofer, a lawyer or a favourite restaurant, and they find all of them through Google, map results and reviews. That makes local search unusually valuable here: the customer has no habit to break.",
+        "Visitors behave differently. They plan trips weeks ahead, compare on a phone and book close to the date. Summer is the peak on the beaches, while Charleston is busiest in spring and autumn, when the weather is milder. Hurricane season can interrupt coastal trade with little warning, so ad accounts need someone who can pause and restart campaigns quickly."
+      ]
+    },
+    {
+      "heading": "What we do for a South Carolina business",
+      "paragraphs": [
+        "We start by asking where your customers come from: your own town, the next county, another state, or a purchasing department. The answer decides the channel and the wording."
+      ],
+      "bullets": [
+        "Local SEO by town and area: Mount Pleasant, Summerville, Lexington, Greer, Bluffton, not only the big city names.",
+        "Google Business Profile management and a steady, honest review process.",
+        "Google and Meta ads timed to the season, with budgets moved between coast and inland as demand shifts.",
+        "Websites on WordPress or Shopify that load fast on a phone and make booking or calling easy.",
+        "Video and photography briefs for hospitality, property and trades, plus clear technical content for industrial suppliers."
+      ]
+    },
+    {
+      "heading": "Selling to industry in the Upstate",
+      "paragraphs": [
+        "A supplier in Greenville, Spartanburg or Anderson is rarely chasing clicks from the public. Its buyers are engineers and procurement teams who search for precise capabilities, certifications and part types. For these firms we focus on detailed capability pages, search terms that match how buyers describe the job, LinkedIn and search ads aimed at specific roles, and a site that makes it simple to request a quote."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "South Carolina sectors we plan for",
+    "items": [
+      { "title": "Hospitality and weddings", "text": "Charleston venues, restaurants and inns compete on photography, reviews and being found months before the date." },
+      { "title": "Beach rentals and golf", "text": "Along the Grand Strand and on Hilton Head, bookings follow the school calendar and the golf season, and ads should too." },
+      { "title": "Home services", "text": "Builders, roofers, HVAC and landscaping firms serve a growing number of new homeowners who choose from the map results." },
+      { "title": "Manufacturing and suppliers", "text": "Upstate firms need capability pages and targeted campaigns that reach engineers and buyers, not general traffic." },
+      { "title": "Healthcare and senior services", "text": "Clinics, dentists and care providers serve many recent arrivals who are picking a provider for the first time." },
+      { "title": "Real estate", "text": "Agents and developers market to buyers who are still living in another state when they start looking." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, so you can speak to someone who knows the state. The wider team works with you remotely and delivers the strategy, design, development and video.",
+  "faqs": [
+    { "q": "Is TDM based in South Carolina?", "a": "A member of our team is based in South Carolina. The rest of the team works remotely, with calls and reporting arranged around your schedule." },
+    { "q": "What does digital marketing cost for a South Carolina small business?", "a": "It depends on the scope: the channels you need, how much content is involved and how competitive your trade is in your area. We give a quote after a free consultation." },
+    { "q": "Do you work with businesses outside Charleston and Greenville?", "a": "Yes. We work with businesses across the state, including Columbia, Myrtle Beach, Spartanburg, Rock Hill, Hilton Head and smaller towns. Local search is planned around the specific areas you serve." },
+    { "q": "When should a coastal business start advertising for the season?", "a": "Before the bookings start, not when they peak. People plan beach trips and weddings well ahead. The exact timing depends on your business and is set out in the plan we agree with you." },
+    { "q": "Can you market a South Carolina manufacturer to buyers in other states?", "a": "Yes. Industrial marketing is rarely local. We build search visibility and targeted ads around your capabilities so buyers find you wherever they are based." }
+  ]
+}

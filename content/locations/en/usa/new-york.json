@@ -1,0 +1,64 @@
+{
+  "slug": "usa/new-york",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in New York",
+  "metaTitle": "Digital Marketing Agency in New York | TDM",
+  "metaDescription": "Digital marketing for New York businesses: SEO, paid ads, social media, websites and video for New York City, Long Island, the Hudson Valley and upstate.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works with New York businesses on SEO, paid advertising, social media, websites and video. \"New York\" means two different things: a city where competitors share your block, and a wide state of smaller cities, farms, lakes and mountains. We work with New York companies remotely and plan separately for each, because what sells in Brooklyn does not sell in Buffalo.",
+  "sections": [
+    {
+      "heading": "New York City is won block by block",
+      "paragraphs": [
+        "In the five boroughs, people walk and take the subway, so \"near me\" means a few streets, not a few miles. Customers search by neighbourhood, such as Astoria, Williamsburg, the Upper West Side or Flushing, and they choose from map results while standing on the pavement. A restaurant, salon, dentist or gym competes with others within a short walk, and reviews, photos, opening hours and delivery options on its business profile often matter more than its website.",
+        "The city is also the national centre for finance, law, media, advertising and fashion. Firms in those fields sell to other companies and to clients around the world, and their marketing depends on reputation: expert content, search visibility for specific problems, and a presence on LinkedIn."
+      ]
+    },
+    {
+      "heading": "Beyond the city line",
+      "paragraphs": [
+        "Outside the five boroughs, people drive and the service areas widen."
+      ],
+      "bullets": [
+        "Long Island: suburban Nassau and Suffolk, strong in home services, healthcare and retail, with the Hamptons and the North Fork busy in summer.",
+        "Westchester and the Hudson Valley: commuter towns, weekend visitors from the city, farms, restaurants and wedding venues.",
+        "Capital Region: Albany and its neighbours, shaped by state government, universities and healthcare.",
+        "Central and Western New York: Syracuse, Rochester and Buffalo, with universities, hospitals and manufacturing, and Canadian visitors crossing near Buffalo and Niagara Falls.",
+        "Finger Lakes, Catskills and Adirondacks: wineries, lakes, hiking and skiing, each with a clear high season."
+      ]
+    },
+    {
+      "heading": "Languages and communities",
+      "paragraphs": [
+        "New York City is one of the most multilingual places on earth. Spanish is widely spoken in every borough, and Chinese, Russian, Bengali, Korean, Haitian Creole, Arabic and French are everyday languages in particular neighbourhoods. A business in Jackson Heights, Sunset Park or Bay Ridge may find that a second language reaches customers its competitors ignore.",
+        "We work in English, French and Arabic, which is useful for firms serving Francophone and Arabic-speaking communities or clients abroad. For other languages we plan the keywords and structure and advise on where native-language content is worth producing."
+      ]
+    },
+    {
+      "heading": "Making a budget work in a costly market",
+      "paragraphs": [
+        "Advertising in New York City is expensive, and broad targeting burns money quickly. We keep campaigns tight: a small radius or a list of postcodes, the hours when you can actually take customers, and search terms that show intent to buy. Commuters from New Jersey and Connecticut are part of the audience for many city businesses, so targeting by where people work, and not only where they live, is often worth testing.",
+        "Upstate, the same budget goes further, but the audience is smaller and seasonal. Tourism businesses should advertise during the weeks when trips are being planned, and service firms should cover the full ring of towns they travel to."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "New York sectors we plan for",
+    "items": [
+      { "title": "Restaurants and nightlife", "text": "Venues live on map visibility, reviews, delivery listings and short video that shows the room and the food." },
+      { "title": "Professional services", "text": "Law, accounting and financial firms win clients through expert content and search visibility for specific needs." },
+      { "title": "Fashion and retail", "text": "Brands and boutiques need online stores, product photography and ads that reach buyers well beyond the city." },
+      { "title": "Real estate", "text": "Brokers and developers in a rental-heavy market need listings that are found and video that saves a viewing." },
+      { "title": "Healthcare and wellness", "text": "Practices compete within a neighbourhood, where insurance details, reviews and easy booking decide the choice." },
+      { "title": "Upstate tourism", "text": "Wineries, inns, ski areas and outfitters need seasonal campaigns aimed at city residents planning a weekend away." }
+    ]
+  },
+  "presence": "We work with New York businesses remotely, in the city and across the state. Meetings are by video call in Eastern time, with shared reporting and one team for strategy, design, development and video.",
+  "faqs": [
+    { "q": "Is TDM located in New York?", "a": "No. We work with New York businesses remotely, by video call and shared reporting, on a schedule that suits Eastern time." },
+    { "q": "How much does a digital marketing agency charge in New York?", "a": "It depends on the scope of work, the channels and how competitive your field and neighbourhood are. We quote after a free consultation." },
+    { "q": "How do I rank in Google Maps in my NYC neighbourhood?", "a": "Keep your business profile complete and accurate, collect genuine reviews steadily, keep your name and address consistent across the web, and have pages on your site that name the neighbourhoods you serve." },
+    { "q": "Do you work with businesses in upstate New York?", "a": "Yes. We work with businesses in Buffalo, Rochester, Syracuse, Albany, the Hudson Valley and smaller towns, with plans built for local search and seasonal demand." },
+    { "q": "Can a small business compete with big brands in New York City?", "a": "Yes, by being narrower. A tight service area, specific search terms and strong reviews let a small business win its own neighbourhood without matching a large advertiser's budget." }
+  ]
+}
