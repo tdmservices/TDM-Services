@@ -1,5 +1,4 @@
-import type { NextConfig } from "next";
-import vercelConfig from "./vercel.json";
+import { readFileSync } from "node:fs";
 
 /**
  * The site used to be a static export. It stopped being one when blog posts and
@@ -13,8 +12,18 @@ import vercelConfig from "./vercel.json";
  * The redirects from the old WordPress URLs and the response headers live in
  * vercel.json. They are applied here as well, so they hold on any Node.js host
  * (`next start`) and not only on Vercel.
+ *
+ * This file is plain JavaScript on purpose. Some hosts cannot load the native
+ * Next.js compiler (it needs glibc 2.29 or newer) and fall back to the
+ * WebAssembly one, which fails to load a TypeScript config. For the same reason
+ * the build script uses webpack: Turbopack has no WebAssembly fallback.
  */
-const nextConfig: NextConfig = {
+const vercelConfig = JSON.parse(
+  readFileSync(new URL("./vercel.json", import.meta.url), "utf8"),
+);
+
+/** @type {import("next").NextConfig} */
+const nextConfig = {
   trailingSlash: true,
   redirects: async () => vercelConfig.redirects,
   headers: async () => vercelConfig.headers,

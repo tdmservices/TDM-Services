@@ -50,7 +50,7 @@ above, and deploy.
 ## Redirects and headers
 
 The redirects from the old WordPress URLs and the response headers are listed in
-`vercel.json`. `next.config.ts` applies the same list, so they work on any Node.js
+`vercel.json`. `next.config.mjs` applies the same list, so they work on any Node.js
 host, not only on Vercel. Edit them in `vercel.json`.
 
 ## After go-live (either option)
