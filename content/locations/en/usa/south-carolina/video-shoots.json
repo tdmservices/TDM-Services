@@ -1,0 +1,90 @@
+{
+  "slug": "usa/south-carolina/video-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-shoots",
+  "title": "Video Shoots and Production in South Carolina",
+  "metaTitle": "Video Shoots and Production in South Carolina | TDM",
+  "metaDescription": "Planned, scripted video shoots for South Carolina businesses. TDM handles concept, scripts and post-production, with filming arranged locally where needed.",
+  "lead": "TDM (The Digital Marketing Services) plans and produces video shoots for South Carolina businesses: concept, scripting, casting, direction, filming and post-production. To be clear about how it works, TDM does not keep a studio or a standing film crew in South Carolina. Planning, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business or product is. For product-led video, many clients ship products to us and approve the treatment remotely.",
+  "sections": [
+    {
+      "heading": "What is worth filming in South Carolina",
+      "paragraphs": [
+        "A lot of what businesses sell here has to be seen. A resort on Hilton Head, a restaurant on King Street in Charleston, an attraction in Myrtle Beach or an outfitter in the Upstate is selling a place and a feeling, and still photos only go so far. Those shoots have to happen on location, which is why filming is arranged in the state.",
+        "Industry is the other half. Upstate manufacturers and their suppliers use video to show buyers a plant they may never visit, and to show job applicants what the work looks like. Ports and logistics companies use it to explain capacity. Hospitals, clinics and universities use it to introduce people: a surgeon, a programme director, a campus."
+      ]
+    },
+    {
+      "heading": "How a shoot is planned",
+      "paragraphs": [
+        "The shot list is where the value is. Because TDM also runs ads, social media and SEO, every shoot is planned backwards from where the footage will be used: the ad openings that need testing, the demonstrations missing from your product pages, the b-roll your social calendar will use up. One production day is planned to supply weeks of content."
+      ],
+      "bullets": [
+        "Brief: what the footage has to achieve and on which channels.",
+        "Treatments, scripts and storyboards written for approval before any filming.",
+        "Pre-production: casting, locations, props, wardrobe and a shot-by-shot schedule.",
+        "The shoot, directed against the approved shot list, with alternate hooks and b-roll captured alongside.",
+        "Editing, grading and versioning by the same team, so there is no handoff between a shoot vendor and an edit vendor.",
+        "Delivery of finished video in platform-ready formats, not raw footage."
+      ]
+    },
+    {
+      "heading": "Things specific to filming here",
+      "paragraphs": [
+        "Weather and season decide a great deal. Summer on the coast brings heat, afternoon storms and crowded beaches, and late summer and autumn carry hurricane risk, so outdoor shoots need a fallback date. Spring and autumn give the gentlest light and the fewest people in frame. Historic districts, beaches, state parks and airport or port property can each have their own rules on commercial filming and drones, and permissions should be confirmed during pre-production, not on the day.",
+        "Plant shoots need a different kind of preparation: safety briefings, restricted areas, and customer parts or processes that must stay out of shot. We build those limits into the shot list so the filming time is spent on what can be shown."
+      ]
+    },
+    {
+      "heading": "What to ask a production partner",
+      "paragraphs": [
+        "Ask who will actually be on set and how they are briefed. Ask what you will receive at the end and in which formats. Ask who is responsible for permits, releases from people on camera and music licensing. And ask how the footage connects to your marketing, because a good-looking video with no plan for where it runs is an expense, not an asset."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Shoots South Carolina businesses ask for",
+    "items": [
+      {
+        "title": "Hospitality and destinations",
+        "text": "Property, dining and experience footage for hotels, resorts, restaurants and attractions, planned around the season."
+      },
+      {
+        "title": "Plant and capability films",
+        "text": "Process, equipment and people on camera for manufacturers and suppliers who sell to buyers elsewhere."
+      },
+      {
+        "title": "Recruitment video",
+        "text": "Real employees and real workplaces, for employers hiring technicians, drivers, nurses and operators."
+      },
+      {
+        "title": "Product video",
+        "text": "Detail shots and in-use demonstrations, often filmed from products shipped to our team."
+      },
+      {
+        "title": "Healthcare and education",
+        "text": "Introductions to practitioners, programmes and facilities, scripted with care about what can be claimed."
+      }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, so you can talk to someone who knows the state. We do not have a studio or a resident film crew here: planning and post-production are handled remotely by our production team, and filming is arranged locally for each project.",
+  "faqs": [
+    {
+      "q": "Does TDM have a film crew or studio in South Carolina?",
+      "a": "No. A member of our team is based in South Carolina, but we do not keep a studio or a standing crew in the state. Planning, scripting and post-production run from our Lahore hub, and filming is arranged locally where your business or product is."
+    },
+    {
+      "q": "Can you produce a video without filming on site?",
+      "a": "For product-led video, often yes. Clients ship products to us, approve the treatment remotely and receive finished video. Anything that depends on a place or on your people, such as a resort, a plant or a clinic, needs filming on location."
+    },
+    {
+      "q": "How much does a video shoot cost in South Carolina?",
+      "a": "It depends on the concept, the number of locations, talent and the amount of finished video. We quote after a free consultation, once the brief is clear."
+    },
+    {
+      "q": "How long does a video production take?",
+      "a": "It depends on the brief, the locations and the approvals needed. Pre-production, the shoot and editing are scheduled in a plan agreed with you before anything is booked."
+    }
+  ]
+}

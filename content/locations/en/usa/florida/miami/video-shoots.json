@@ -1,0 +1,64 @@
+{
+  "slug": "usa/florida/miami/video-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-shoots",
+  "title": "Video Shoots and Production for Miami Brands",
+  "metaTitle": "Video Shoots and Production in Miami | TDM",
+  "metaDescription": "Video shoots for Miami brands, planned and scripted by TDM, with filming arranged locally and post-production handled centrally. One shoot day, weeks of content.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for Miami brands and delivers the finished videos: brand films, product videos and footage for ads and social. We do not run a studio in Miami. Planning, scripting and all post-production are handled by our production hub, and filming is arranged locally where your business or product is. For product-led videos, many clients ship the product to us and approve the treatment remotely.",
+  "sections": [
+    {
+      "heading": "Filming in a city that is already a set",
+      "paragraphs": [
+        "Miami gives a shoot a lot to work with: Art Deco facades on Ocean Drive, the murals of Wynwood, the Brickell skyline, the bay, palms and year-round light. It also sets conditions. Summer afternoons bring heat and sudden storms, so outdoor work is safer in the morning. The winter months have the kindest weather and the heaviest demand for locations and talent. Filming on public property, beaches and streets generally needs a permit from the city or county concerned, and Miami Beach has its own rules.",
+        "None of that is a problem if it is planned for. It is the reason pre-production matters more here than the camera does."
+      ]
+    },
+    {
+      "heading": "How a shoot with TDM is organised",
+      "paragraphs": [
+        "We begin with what the footage has to achieve: which ads, pages and channels it will feed. From that we write treatments and scripts for your approval, then lock casting, locations, props, wardrobe and a shot-by-shot schedule. Filming is arranged where you are, against the approved shot list. The footage then goes straight into our own edit pipeline and comes back as ad cuts, reels, product videos and masters in every format required.",
+        "The shot list is where we differ from hiring a videographer. Because we also run ads, social media and SEO, we plan backwards from where the video will live: the opening hooks your ad account needs to test, the demonstrations your product pages are missing, the b-roll your social calendar will use up. One production day is planned to supply weeks of content."
+      ],
+      "bullets": [
+        "Scripts and on-screen text approved before the day, with talent cast to fit the customers the video is meant for.",
+        "Vertical and horizontal framing planned for each setup, so nothing has to be cropped badly later.",
+        "Permit and location requirements identified in pre-production, before a date is fixed.",
+        "A weather plan for outdoor scenes, with interior setups ready as an alternative.",
+        "Edit and versioning by the same team that planned the shoot, with no handoff between vendors."
+      ]
+    },
+    {
+      "heading": "When shipping a product is the simpler route",
+      "paragraphs": [
+        "Not every video needs Miami in the frame. For a skincare line, a supplement, a fragrance or a gadget, the product is the subject. In those cases brands often send products to our production hub in Lahore, approve the treatment and shot list remotely, and receive finished videos without anyone attending a set. Location shoots make sense when the place is the product: a restaurant, a hotel, a property, a clinic, a boat."
+      ]
+    },
+    {
+      "heading": "Questions to settle before booking any shoot",
+      "paragraphs": [
+        "Decide what the finished videos are for before choosing a date. Ask who is responsible for permits and location releases. Ask whether editing is included or whether you will be handed raw footage. And confirm how many finished videos, in which formats and lengths, you will receive. We put all of this in the plan before production starts."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Shoots Miami businesses commonly need",
+    "items": [
+      { "title": "Hospitality and restaurant films", "text": "The room, the kitchen and the service, captured for the website, booking platforms and a bank of social clips." },
+      { "title": "Real estate and development", "text": "Walkthroughs and neighbourhood footage for buyers deciding from another state or another country." },
+      { "title": "Product videos for e-commerce", "text": "Detail shots, in-use demonstrations and lifestyle context for product pages and ads, often filmed from shipped products." },
+      { "title": "Clinic and wellness videos", "text": "Introductions to the practitioner and the space, with careful wording where advertising rules restrict health claims." },
+      { "title": "Founder and brand stories", "text": "Short interviews and brand films for startups and professional firms that sell on trust." },
+      { "title": "Ad footage for testing", "text": "Multiple hooks and alternate takes shot on purpose, so the ad account has real variations to compare." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami and is your local point of contact when a shoot is being planned. Concept, scripting and post-production are handled by our wider production team remotely, and filming is arranged locally for each project.",
+  "faqs": [
+    { "q": "Does TDM have a film studio or crew in Miami?", "a": "No. A member of our team is based in Miami, but we do not operate a studio here. Planning, scripting and post-production are run from our production hub, and filming is arranged locally for each project, or products are shipped to us for product-led videos." },
+    { "q": "How much does a video shoot cost in Miami?", "a": "It depends on scope: the number of locations, talent, shoot days and finished videos. We quote after a free consultation, once the purpose of the footage and the shot list are clear." },
+    { "q": "Do I need a permit to film in Miami or Miami Beach?", "a": "Filming on public property such as streets, parks and beaches generally requires a permit from the relevant city or county film office, and rules differ between municipalities. Private premises need the owner's permission. We identify what applies during pre-production." },
+    { "q": "What is the best time of year to film in Miami?", "a": "The winter months have the mildest, driest weather, but locations and talent are busiest then. Summer is quieter, with heat and afternoon storms, so outdoor scenes are filmed in the morning with an interior setup in reserve." },
+    { "q": "How far ahead should I plan a shoot?", "a": "It depends on the brief, locations and talent involved, and the schedule is agreed in the plan. For the winter season and major event weeks, start early, as locations and talent are in high demand." }
+  ]
+}

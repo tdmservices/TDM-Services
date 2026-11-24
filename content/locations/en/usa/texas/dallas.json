@@ -1,0 +1,59 @@
+{
+  "slug": "usa/texas/dallas",
+  "locale": "en",
+  "kind": "city",
+  "title": "Digital Marketing Agency in Dallas, TX",
+  "metaTitle": "Digital Marketing Agency in Dallas, TX | TDM",
+  "metaDescription": "Digital marketing for Dallas businesses: SEO, paid ads, social media, websites and video for corporate, B2B and local service companies across DFW.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Dallas businesses on SEO, paid advertising, social media, websites and video. Dallas is a corporate and commercial city at the centre of a metro area that stretches from Fort Worth to McKinney, and competition for attention is strong in almost every category. We help companies define which part of that market they can win and concentrate their marketing there.",
+  "sections": [
+    {
+      "heading": "A headquarters city",
+      "paragraphs": [
+        "Dallas makes its money from business. Banking and financial services, telecommunications, semiconductors, airlines, commercial real estate, logistics and healthcare all have a heavy presence, and many national companies have moved head offices or large operations to the area, particularly to Plano, Frisco, Irving and Las Colinas. The airport between Dallas and Fort Worth is among the busiest in the world, which is one reason the region works so well for distribution and for firms that travel to clients.",
+        "This creates a deep market for business-to-business services: consultants, IT providers, staffing agencies, commercial contractors, law and accounting firms. Their buyers are professionals who compare several vendors and expect a polished, informative website. In our experience the gap is rarely design. It is content that speaks to a specific industry and problem, and search visibility for the terms a buyer types when the need arises.",
+        "Dallas is also a wholesale and trade-show city. The Dallas Market Center draws retail buyers for gifts, home goods and apparel, and many product brands here sell both wholesale and direct to consumers. They need online stores, product photography and advertising managed against margin."
+      ]
+    },
+    {
+      "heading": "The Metroplex is not one place",
+      "paragraphs": [
+        "People talk about DFW as a single region, but customers do not shop that way. Dallas and Fort Worth have distinct identities. Inside Dallas, Uptown, Deep Ellum, Bishop Arts, Oak Lawn, Lakewood and the Park Cities attract different crowds. To the north, Plano, Frisco, Richardson, Allen and McKinney are large communities in their own right, full of families who rarely drive into the city for everyday services.",
+        "A local business needs to choose its ground. Trying to rank and advertise across the entire Metroplex spreads a budget too thin to matter in any one part of it."
+      ],
+      "bullets": [
+        "Search terms and pages organised by city and suburb, reflecting where you can deliver the service.",
+        "A Google Business Profile for each real location, kept current and reviewed.",
+        "Ad spend focused on a few areas first, then widened when the numbers justify it.",
+        "Separate campaigns for consumer services and for business buyers, since the two search in different ways.",
+        "Landing pages built for one offer each, tested and improved."
+      ]
+    },
+    {
+      "heading": "Local demand: growth, weather and events",
+      "paragraphs": [
+        "North Texas keeps adding residents, and new housing in Collin and Denton counties feeds steady demand for builders, landscapers, pool companies, orthodontists and private schools. Spring storms are part of life here, and hail brings sudden surges of searches for roofers and car body repair. Reputable local firms compete in those weeks with out-of-town crews, and reviews and an established online presence are how homeowners tell them apart.",
+        "The calendar matters too. The State Fair of Texas takes over Fair Park each autumn, football dominates the season, and summer heat changes when and how people go out. We plan content and ad budgets with those patterns in mind."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Dallas businesses and what they usually need",
+    "items": [
+      { "title": "B2B and professional services", "text": "Industry-specific pages, useful articles and LinkedIn campaigns that reach decision makers in corporate offices." },
+      { "title": "Commercial real estate and construction", "text": "Project pages, video walkthroughs and search visibility for developers, brokers and contractors." },
+      { "title": "Product and fashion brands", "text": "Online stores on Shopify or similar, product shoots, and Meta and TikTok ads run against margin." },
+      { "title": "Roofing and home services", "text": "Map rankings, reviews and call-focused ads, with plans ready for storm season." },
+      { "title": "Medical and cosmetic practices", "text": "A crowded field in Dallas. Clear treatment pages, before-and-after content handled within platform rules, and reviews." },
+      { "title": "Restaurants and hospitality", "text": "Neighbourhood-specific social content and accurate listings for diners choosing between many options." }
+    ]
+  },
+  "presence": "TDM serves Dallas businesses remotely and has no office in the city. You work with our strategists, designers, developers and video editors online, with calls on a schedule that suits you.",
+  "faqs": [
+    { "q": "Is TDM a Dallas-based agency?", "a": "No. We are not based in Dallas. We work with businesses there remotely and report in writing so you can verify what has been done." },
+    { "q": "How do I compete online in a market as crowded as Dallas?", "a": "Narrow the target. Pick the services, the areas and the customer type where you are strongest, and build pages, reviews and ads around those. A focused business outranks a larger one that tries to cover everything." },
+    { "q": "Should I target Dallas and Fort Worth together?", "a": "For business-to-business services, often yes, because buyers think regionally. For consumer services, usually not at first. Residents prefer nearby providers, and each city has its own search results." },
+    { "q": "What does digital marketing cost for a Dallas company?", "a": "It depends on scope: the channels, the amount of content and the competition in your category. We provide a quote following a free consultation." },
+    { "q": "How long does it take to launch?", "a": "The timeline depends on your requirements and the brief. A campaign that needs new landing pages, tracking and creative takes longer than one that builds on what exists. We set dates in the plan." }
+  ]
+}

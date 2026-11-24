@@ -1,0 +1,64 @@
+{
+  "slug": "usa/florida/miami/video-editing",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-editing",
+  "title": "Video Editing Services in Miami",
+  "metaTitle": "Video Editing Services in Miami, FL | TDM",
+  "metaDescription": "Video editing for Miami brands: reels, ad cuts, property and product videos edited from your footage, captioned, graded and sized for each platform.",
+  "lead": "TDM (The Digital Marketing Services) edits video for Miami businesses: ad cuts, reels, product videos, property walkthroughs and brand films, made from footage you or your creators have already shot. Our editors work from TDM's production hub in Lahore and deliver remotely, so nothing has to be filmed again for us to start. You send the raw files and we return finished videos, captioned and graded, in the formats each platform needs.",
+  "sections": [
+    {
+      "heading": "Miami produces more footage than it finishes",
+      "paragraphs": [
+        "This is a city that films itself constantly. Restaurants in Wynwood and Coconut Grove record every new dish. Agents shoot walkthroughs of condos in Edgewater and houses in Pinecrest. Boat charter operators have hours of drone and deck footage. Gyms, salons and med spas capture client moments daily. Most of it stays on a phone, because cutting it into something watchable takes time that the owner does not have.",
+        "Editing is the part that is easiest to hand off. It does not depend on where the editor sits, only on a clear brief and usable footage. That is why we can do it for Miami clients from a central edit team, while the conversations about what you need happen with someone who knows the city."
+      ]
+    },
+    {
+      "heading": "What a Miami edit has to get right",
+      "paragraphs": [
+        "Local audiences are quick to spot content that was made for somewhere else. A few details decide whether an edit feels like it belongs here."
+      ],
+      "bullets": [
+        "Captions written by people: burned-in text that is accurate and readable, not auto-generated, since most feed video is watched with the sound off.",
+        "Versions for different audiences from the same footage: one cut for residents that leads with the offer, another for visitors or out-of-state buyers that shows the setting first.",
+        "Color that handles Miami light: bright midday sun, water, white interiors and neon at night all need grading to look as good on a phone as they did in person.",
+        "Pacing for the platform: fast, hook-first cuts for Reels and TikTok, slower and steadier for a luxury listing or a hotel film.",
+        "Seasonal turnaround planning: content for Art Basel week, the boat show or the winter season is only useful if it is ready before the event, so we agree delivery dates against your calendar."
+      ]
+    },
+    {
+      "heading": "How the editing works",
+      "paragraphs": [
+        "We ingest your footage, review what is usable and agree which platforms, lengths and messages each edit must serve. Editors assemble first cuts with pacing, music and captions and deliver them as a batch. You give timestamped feedback and we revise. Approved edits are then exported in every ratio required: 9:16 for Reels, Stories and TikTok, 1:1 and 4:5 for feed, 16:9 for YouTube and your website.",
+        "Our editors sit beside our performance marketing team. If we also run your ads, the editors see how each cut performs and re-cut the openings that lose viewers in the first seconds. Editing becomes a loop that follows the numbers, not a single delivery."
+      ]
+    },
+    {
+      "heading": "Before you choose an editor",
+      "paragraphs": [
+        "Check that you will get every format you need, not one master file. Ask how revisions are handled and how many rounds are included. Ask who writes the captions and checks names and addresses in them. And send a sample of your raw footage before agreeing anything: a good editor will tell you honestly what it can support and where a short pickup shoot would fill a gap."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "What Miami clients send us to edit",
+    "items": [
+      { "title": "Restaurant and nightlife reels", "text": "Phone footage of dishes, bar service and events cut into short vertical videos on a regular content calendar." },
+      { "title": "Property walkthroughs", "text": "Gimbal and drone footage edited into listing videos and short teasers for buyers who are out of state or abroad." },
+      { "title": "Ad cuts for e-commerce brands", "text": "Several openings per concept for Meta, TikTok and YouTube, so the ad account can test which hook holds attention." },
+      { "title": "Charter, hotel and tour videos", "text": "Longer brand pieces and short social cuts from footage shot on the water or on property." },
+      { "title": "Creator and UGC footage", "text": "Raw creator submissions tightened, captioned and versioned into ads that are ready to run." },
+      { "title": "Event recaps", "text": "Footage from launches, pop-ups and fair-week activations turned into recap videos while the event is still being talked about." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami and can take your brief with local context. The editing itself is done by our post-production team in Lahore, who work with you remotely through shared folders and review links.",
+  "faqs": [
+    { "q": "Can you edit footage I shot on my phone?", "a": "Yes. Many clients send phone footage, creator clips or archive material. We review what you have, tell you what it can support and flag any gaps before we start cutting." },
+    { "q": "Can you edit property walkthrough videos for Miami listings?", "a": "Yes. We cut gimbal and drone footage into full listing videos and short vertical teasers, graded for bright exteriors and white interiors. Many buyers are out of state or abroad, so the video often has to do the work of a first viewing." },
+    { "q": "How much does video editing cost in Miami?", "a": "It depends on the volume of footage, the number of finished videos and how many format versions you need. We quote after a free consultation and a look at sample footage." },
+    { "q": "How quickly can I get edited videos back?", "a": "Turnaround depends on the brief and the amount of footage, and is agreed in the plan before work starts. If you have a fixed date such as an event or a launch, tell us at the start so the schedule is built around it." },
+    { "q": "Is your video editor located in Miami?", "a": "A member of our team is based in Miami, but our editors work from TDM's production hub in Lahore. Editing is delivered remotely: you upload footage, review cuts online and receive final files ready to post." }
+  ]
+}

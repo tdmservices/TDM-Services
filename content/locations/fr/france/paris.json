@@ -1,0 +1,59 @@
+{
+  "slug": "france/paris",
+  "locale": "fr",
+  "kind": "city",
+  "title": "Agence de marketing digital à Paris",
+  "metaTitle": "Agence de marketing digital à Paris | TDM",
+  "metaDescription": "TDM travaille à distance avec les entreprises parisiennes : SEO local par arrondissement, publicité en ligne, réseaux sociaux, sites web et vidéo.",
+  "lead": "TDM (The Digital Marketing Services) est une agence de marketing digital qui accompagne les entreprises parisiennes en référencement, en publicité en ligne, sur les réseaux sociaux, pour leur site web et leurs vidéos. À Paris, vous êtes rarement seul sur votre créneau : chaque rue compte plusieurs concurrents, et vos clients sont à la fois des habitants, des salariés venus de toute l'Île-de-France et des visiteurs du monde entier. Nous aidons à choisir à qui parler, dans quel quartier et sur quel canal, plutôt que de viser « Paris » en bloc.",
+  "sections": [
+    {
+      "heading": "Paris se cherche par arrondissement",
+      "paragraphs": [
+        "Un Parisien ne tape presque jamais « coiffeur Paris ». Il précise « Paris 11 », un code postal, un quartier comme Bastille ou Batignolles, ou une station de métro. Pour un commerce, un cabinet ou un restaurant, la bataille se joue donc sur quelques rues, dans les résultats de la carte Google bien plus que dans les liens classiques.",
+        "Cela demande une fiche d'établissement Google complète et tenue à jour, des horaires fiables, des photos récentes et un flux régulier d'avis authentiques, auxquels vous répondez. Votre site doit aussi dire clairement où vous êtes et quels quartiers vous desservez. Une entreprise installée à Boulogne-Billancourt, Montreuil, Levallois-Perret ou Saint-Denis a intérêt à assumer sa commune plutôt que de se présenter vaguement comme « parisienne » : c'est ce nom que tapent ses voisins.",
+        "Les assistants d'IA s'appuient sur les mêmes signaux quand on leur demande une recommandation."
+      ]
+    },
+    {
+      "heading": "Une concurrence dense, des budgets à cibler",
+      "paragraphs": [
+        "Les mots-clés génériques sont très disputés à Paris, et les enchères publicitaires s'en ressentent. Nous préférons resserrer : un rayon autour de votre adresse, des requêtes précises qui indiquent une intention d'achat, des horaires de diffusion calés sur vos heures d'ouverture.",
+        "La ville vit aussi au rythme de ses temps forts. Les semaines de la mode, les grands salons de la Porte de Versailles et de Villepinte, la saison touristique et les fêtes de fin d'année déplacent la demande dans l'hôtellerie, la restauration, le commerce et l'événementiel. En août, beaucoup d'habitants partent alors que les visiteurs restent : selon votre clientèle, c'est un mois creux ou un mois plein."
+      ],
+      "bullets": [
+        "Recherche de mots-clés par arrondissement, quartier et commune limitrophe.",
+        "Campagnes Google et Meta géolocalisées, avec des annonces différentes pour les habitants et pour les visiteurs.",
+        "Pages en anglais quand une part réelle de votre clientèle est internationale.",
+        "Calendrier éditorial et budgets ajustés aux salons, aux saisons et aux vacances scolaires.",
+        "Suivi des appels, des réservations et des demandes de devis, dans le respect du consentement des visiteurs."
+      ]
+    },
+    {
+      "heading": "Vendre aux entreprises depuis Paris",
+      "paragraphs": [
+        "Une grande partie des sièges sociaux français se trouvent à Paris et dans l'Ouest parisien, autour de La Défense. Pour un éditeur de logiciels, un cabinet de conseil ou un prestataire de services, le client est un comité d'achat qui se renseigne pendant des semaines avant de prendre contact.",
+        "Dans ce cas, le référencement vise des questions métier précises, LinkedIn sert à toucher les bons interlocuteurs et le site doit rassurer vite : cas d'usage, références vérifiables, conditions claires. Les jeunes entreprises du Sentier ou de Station F ont un besoin voisin, avec des moyens plus serrés : nous les aidons à concentrer leur effort sur un seul canal avant d'en ouvrir un second."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Les secteurs parisiens que nous accompagnons",
+    "items": [
+      { "title": "Restauration et hôtellerie", "text": "Le choix se fait sur un téléphone, à quelques rues près. Fiche Google, avis, photos et vidéos courtes pèsent plus qu'un long site." },
+      { "title": "Mode, beauté et luxe", "text": "Des marques qui vendent à Paris et à l'export ont besoin de visuels soignés, de shootings produit et d'une boutique en ligne à la hauteur." },
+      { "title": "Professions libérales et conseil", "text": "Avocats, experts-comptables, cabinets de conseil : des pages claires par domaine d'intervention, dans le respect des règles de leur profession." },
+      { "title": "Start-up et éditeurs de logiciels", "text": "Contenus de fond, SEO sur les requêtes métier et campagnes ciblées pour alimenter l'équipe commerciale en demandes qualifiées." },
+      { "title": "Santé et bien-être", "text": "Praticiens, cliniques et instituts sont choisis sur la confiance. La visibilité locale et les avis comptent, avec une communication prudente sur les soins." },
+      { "title": "Commerces de quartier et artisans", "text": "Plombiers, serruriers, cavistes, fleuristes : être trouvé dans son arrondissement, au moment où le client en a besoin." }
+    ]
+  },
+  "presence": "TDM travaille avec les entreprises de Paris et d'Île-de-France à distance. Nous n'avons pas de bureau sur place : les points d'avancement se font en visioconférence, en français, et les livrables vous parviennent selon le calendrier fixé ensemble.",
+  "faqs": [
+    { "q": "Êtes-vous une agence installée à Paris ?", "a": "Non. Nous travaillons à distance avec nos clients parisiens, en français. Vous échangez avec la même équipe du premier appel jusqu'aux rapports mensuels." },
+    { "q": "Comment apparaître sur Google Maps dans mon arrondissement ?", "a": "Il faut une fiche d'établissement complète, des coordonnées identiques partout sur le web, des avis réguliers et des pages de site qui nomment votre quartier. Nous reprenons ces points un par un, puis nous suivons votre position sur les recherches locales qui comptent pour vous." },
+    { "q": "Quel est le prix d'une agence de marketing digital à Paris ?", "a": "Le tarif dépend des canaux, de la quantité de contenus et du niveau de concurrence sur vos mots-clés. Nous vous remettons un devis après une première consultation gratuite." },
+    { "q": "Faut-il un site en anglais pour une entreprise parisienne ?", "a": "Seulement si des clients étrangers achètent réellement chez vous : hôtels, restaurants, boutiques des quartiers touristiques, entreprises qui exportent. Nous regardons d'abord d'où viennent vos visites et vos ventes avant de traduire quoi que ce soit." },
+    { "q": "Combien de temps avant de voir des résultats ?", "a": "Cela dépend de vos besoins, du brief et du point de départ. Les étapes et les délais sont précisés dans le plan que nous validons avec vous avant de commencer." }
+  ]
+}

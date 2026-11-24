@@ -1,0 +1,65 @@
+{
+  "slug": "usa/florida/miami/ad-creatives",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ad-creatives",
+  "title": "Ad Creative Design for Miami Businesses",
+  "metaTitle": "Ad Creative Design in Miami, FL | TDM",
+  "metaDescription": "Static, carousel and motion ad creatives for Miami businesses on Meta, TikTok and Google: designed in testing batches, in every placement size, refreshed by season.",
+  "lead": "TDM (The Digital Marketing Services) designs the ad creatives Miami businesses run in paid campaigns: static images, carousels, display banners and short motion graphics for Meta, TikTok and Google. Each batch is built to test different angles, produced in every placement size, and versioned for residents, visitors or out-of-market buyers, depending on who the campaign is aimed at. Design is done remotely by our media team, who work beside the people buying the ads.",
+  "sections": [
+    {
+      "heading": "Advertising in a market that changes by the month",
+      "paragraphs": [
+        "Demand in Miami moves with the calendar more than in most American cities. Winter fills hotels, restaurants and charter boats with visitors and seasonal residents. Art Basel week in December and the boat show in February pull in very specific, high-spending crowds. Spring brings the Miami Open and the Formula 1 weekend at Miami Gardens. Summer is slower for tourism and is when many local businesses push offers to residents. Then there is hurricane season, when roofers, impact-window installers and insurance agencies do much of their advertising.",
+        "Creative that ran well in January looks tired by April and wrong by July. A Miami ad account needs new visuals on a rhythm that follows these shifts, not one set of images made at launch and left running."
+      ]
+    },
+    {
+      "heading": "One city, several audiences",
+      "paragraphs": [
+        "The same business may need to speak to a resident in Kendall, a visitor staying in South Beach and a property buyer in Buenos Aires. Each of them should see a different ad. We design separate versions by intent: an offer and a neighbourhood name for the resident, something to do this week for the visitor, and views and location for the buyer who has not arrived yet.",
+        "Look matters too. Miami has a strong visual identity of its own: pastel Art Deco, tropical colour, neon, and the quieter luxury of Brickell and Coral Gables. Used well, it tells a local viewer that the business is from here. Used lazily, with flamingos and palm trees on everything, it looks like a tourist brochure. We build an ad system inside your brand's own palette and type."
+      ],
+      "bullets": [
+        "Several headline and offer versions of each concept, with copy written for each.",
+        "Separate creative for residents, visitors and out-of-market buyers.",
+        "Seasonal and event batches prepared ahead of the dates they relate to.",
+        "Every size required: feed, story, reel cover, display banner and catalog frame.",
+        "Wording checked against platform rules for restricted categories such as housing, credit and health."
+      ]
+    },
+    {
+      "heading": "How the creative work is run",
+      "paragraphs": [
+        "We review what has already run in your account, your offers and your competitors, and decide which angles the next batch should test: offer-led, problem-led, social proof or product-focused. Designers develop distinct directions for each and present them together. Approved concepts are produced in all placement sizes, with copy and offer variants where the test plan calls for them.",
+        "Once live, concepts are judged on thumb-stop rate, click-through rate and cost per acquisition. Directions that work are extended and the others are retired. For accounts we manage, we watch for fatigue and ship a refresh before rising frequency pushes costs up. Headlines, offer text and calls to action on the creative are written as part of the design."
+      ]
+    },
+    {
+      "heading": "What to look for in a creative partner",
+      "paragraphs": [
+        "Ask whether a batch tests different ideas or only different colours of one idea. Ask who decides what gets made next and on what evidence. Check that source files and all sizes are handed over. And if you advertise property, lending or medical services, make sure the designer understands the platform restrictions on those categories, because a disapproved ad costs you the week it was meant to run."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Ad creative Miami advertisers ask for most",
+    "items": [
+      { "title": "Seasonal offer statics", "text": "Clear single-message images for winter-season, summer-resident and holiday promotions, made ahead of each period." },
+      { "title": "Real estate carousels", "text": "Multi-card ads that walk through a listing or a development, with location and amenities up front and within housing ad rules." },
+      { "title": "Event-week campaigns", "text": "Creative tied to fair, race and boat show weeks for restaurants, venues, charters and retailers." },
+      { "title": "E-commerce catalog frames", "text": "Branded templates for dynamic product ads, plus launch and sale creative for brands selling nationally." },
+      { "title": "Home services before storm season", "text": "Direct, trustworthy ads for roofing, windows, generators and insurance, without fear-based claims." },
+      { "title": "Animated ads", "text": "Kinetic text and animated stills that earn more attention than a static image without needing a shoot." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami and can brief the designers with a local eye for what will read as authentic here. Concept, design and versioning are carried out remotely by our media team.",
+  "faqs": [
+    { "q": "Do visitors and residents need different ads in Miami?", "a": "Usually, yes. A resident responds to a neighbourhood, an offer and a reason to come back. A visitor wants to know what is nearby and available this week. We look at your customers and your account data, then decide which audiences are worth separate creative." },
+    { "q": "How often should ad creative be refreshed in Miami?", "a": "When performance says so, and whenever the season changes. Fatigue shows up as rising frequency and cost. In a seasonal market such as Miami we also plan refreshes around the winter season, major event weeks and summer." },
+    { "q": "How much does ad creative design cost?", "a": "It depends on the number of concepts, formats, versions and how often batches are refreshed. We quote after a free consultation and a review of what your campaigns need." },
+    { "q": "Can you design ads without a photo or video shoot?", "a": "Often, yes. Statics, carousels and motion graphics can be built from your existing photos, product images and brand assets. If the available material is too thin, we will say so and suggest what to capture." },
+    { "q": "Do you also run the ads, or only design them?", "a": "Either. We can deliver creative to your in-house team or another agency, working from shared performance reports. Where we manage the campaigns too, the same team designs, launches and iterates based on the results." }
+  ]
+}

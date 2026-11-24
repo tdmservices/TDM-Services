@@ -951,6 +951,13 @@ details[open] .faq-answer {
 .tdm-html .center .actions, .tdm-html .center .badges { justify-content: center; }
 .tdm-html .narrow { max-width: 46rem; margin-inline: auto; }
 
+/* Text grouped inside a wrapper (an animated block, one side of a split) keeps
+   the same rhythm as text placed directly in the page. */
+.tdm-html :where(div, section) > :where(p, ul, ol) + :where(p, ul, ol) { margin-top: 0.9rem; }
+.tdm-html :where(div, section) > :where(h2, h3) + :where(p, ul, ol) { margin-top: 0.75rem; }
+.tdm-html a.card { display: block; text-decoration: none; }
+.tdm-html a.card h3 { margin: 0; }
+
 /* Tabs: buttons with data-tab, panels with data-panel, inside [data-tabs]. */
 .tdm-html [data-tabs] > .tab-list, .tdm-html .tab-list { display: flex; flex-wrap: wrap; gap: 0.4rem; background: #fff; border: 1px solid var(--color-mint); border-radius: 999px; padding: 0.3rem; width: fit-content; max-width: 100%; }
 .tdm-html [data-tab] { border: 0; background: none; border-radius: 999px; padding: 0.5rem 1.1rem; font-weight: 700; font-size: 0.9rem; color: color-mix(in srgb, var(--color-ink) 60%, transparent); cursor: pointer; transition: background 0.2s, color 0.2s; }

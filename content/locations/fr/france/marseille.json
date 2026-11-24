@@ -1,0 +1,60 @@
+{
+  "slug": "france/marseille",
+  "locale": "fr",
+  "kind": "city",
+  "title": "Agence de marketing digital à Marseille",
+  "metaTitle": "Agence de marketing digital à Marseille | TDM",
+  "metaDescription": "TDM travaille à distance avec les entreprises marseillaises : SEO local, publicité en ligne, réseaux sociaux, sites web et vidéo, du port au tourisme.",
+  "lead": "TDM (The Digital Marketing Services) est une agence de marketing digital au service des entreprises de Marseille et de ses environs. Nous prenons en charge le référencement, la publicité en ligne, les réseaux sociaux, les sites web et la vidéo. Marseille est une ville portuaire, tournée vers la Méditerranée, où cohabitent la logistique, le tourisme, le commerce de quartier et un tissu dense de petites entreprises. Les saisons, les quartiers et la proximité d'Aix-en-Provence pèsent sur chaque décision marketing, et c'est par là que nous commençons.",
+  "sections": [
+    {
+      "heading": "Le port, le tourisme et la saison",
+      "paragraphs": [
+        "Le port de Marseille-Fos est l'un des tout premiers de France. Autour de lui travaillent des transitaires, des transporteurs, des entreprises de réparation navale et de services industriels, de la Joliette jusqu'à Fos-sur-Mer. Leurs clients sont des professionnels qui cherchent un prestataire fiable sur une ligne, un type de marchandise ou une prestation précise. Pour eux, un site clair et bien référencé sur ces termes vaut mieux qu'une présence bruyante sur les réseaux.",
+        "Le tourisme suit une autre logique. Les croisiéristes, les visiteurs du Vieux-Port, du Panier, du Mucem ou des Calanques décident vite, sur leur téléphone, souvent dans une autre langue que le français. La saison est longue, du printemps à l'automne, avec un pic en été.",
+        "Pour un restaurant, un loueur de bateaux, un hébergement ou un organisateur d'excursions, le travail se fait avant la saison : fiche Google à jour, avis, photos, pages en anglais si la clientèle le justifie, et un budget publicitaire concentré sur les mois où les réservations se prennent."
+      ]
+    },
+    {
+      "heading": "Une ville de quartiers, une métropole à deux visages",
+      "paragraphs": [
+        "Marseille compte seize arrondissements et des quartiers à l'identité très marquée. On cherche un commerce à Castellane, au Prado, à Endoume, à l'Estaque ou « dans le 8e », rarement à « Marseille » tout court. Une entreprise de services gagne à nommer les quartiers et les arrondissements où elle intervient vraiment.",
+        "Aix-en-Provence, à une demi-heure, est un marché à part : une clientèle, des prix et des concurrents différents. Aubagne, Vitrolles, Marignane, Cassis ou La Ciotat ont aussi leurs propres recherches. Une page unique qui prétend couvrir toute la métropole ne ressort nulle part."
+      ],
+      "bullets": [
+        "Mots-clés étudiés par arrondissement et par commune de la métropole.",
+        "Campagnes locales séparées pour Marseille et pour Aix-en-Provence quand vous visez les deux.",
+        "Avis clients sollicités régulièrement, avec une réponse à chacun.",
+        "Vidéos tournées dans des lieux que vos clients reconnaissent.",
+        "Mesure des appels, itinéraires et réservations, en tenant compte des visiteurs qui refusent les cookies."
+      ]
+    },
+    {
+      "heading": "Au-delà de la carte postale",
+      "paragraphs": [
+        "Le quartier d'affaires d'Euroméditerranée a attiré des sièges, des sociétés de services et des entreprises du numérique. Marseille est aussi un point d'arrivée de câbles sous-marins, ce qui a fait venir des centres de données. L'aéronautique est présente près de l'aéroport, à Marignane, et la recherche comme la santé occupent une place importante entre les hôpitaux et le campus de Luminy.",
+        "Ces entreprises recrutent et vendent bien au-delà de la ville. Leur marketing porte sur des contenus de fond, un référencement national et une image d'employeur visible, des sujets éloignés de ceux d'un commerce du centre-ville.",
+        "Les marques locales, enfin, tirent parti d'un nom qui parle à tout le pays. Savonneries, épiceries fines, créateurs de mode : la vente en ligne leur ouvre un marché national, à condition que la boutique, les photos produit et la logistique suivent."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Qui nous aidons à Marseille",
+    "items": [
+      { "title": "Tourisme et loisirs nautiques", "text": "Hébergements, excursions, location de bateaux : être réservable en ligne avant l'arrivée des visiteurs, en français et en anglais." },
+      { "title": "Restaurants et bars", "text": "Du Vieux-Port au cours Julien, la carte Google, les avis et les vidéos courtes décident de la table choisie le soir même." },
+      { "title": "Logistique et activités portuaires", "text": "Des pages par service et par destination, un SEO sur les termes du métier et des demandes de cotation simples à envoyer." },
+      { "title": "Artisans et services à domicile", "text": "Plombiers, électriciens, climaticiens : des annonces locales ciblées par arrondissement et un suivi précis des appels reçus." },
+      { "title": "Marques locales et e-commerce", "text": "Boutique Shopify ou WooCommerce, shootings produit et campagnes Meta pour vendre un savoir-faire marseillais dans toute la France." },
+      { "title": "Santé et professions libérales", "text": "Praticiens, avocats, notaires : une présence locale soignée et des pages claires, dans le respect des règles de chaque profession." }
+    ]
+  },
+  "presence": "TDM travaille avec les entreprises de Marseille et de la métropole Aix-Marseille à distance, sans bureau ni équipe sur place. Tout se déroule en français : appels en visioconférence, livrables partagés en ligne et comptes rendus écrits à chaque étape.",
+  "faqs": [
+    { "q": "Avez-vous une agence à Marseille ?", "a": "Non. Nous accompagnons nos clients marseillais à distance et en français. Les réunions se font en visioconférence, à la fréquence qui vous convient." },
+    { "q": "Quand lancer ses campagnes avant la saison touristique à Marseille ?", "a": "Avant que les réservations ne commencent. Le référencement et la fiche Google se préparent plusieurs mois à l'avance, la publicité se concentre ensuite sur la période où vos clients réservent. Le calendrier exact dépend de votre activité et se fixe dans le plan de travail." },
+    { "q": "Combien coûte le marketing digital pour une entreprise marseillaise ?", "a": "Le coût dépend des canaux choisis, des contenus à produire et de la concurrence dans votre métier. Nous établissons un devis après une consultation gratuite." },
+    { "q": "Faut-il cibler Marseille et Aix-en-Provence dans la même campagne ?", "a": "En général non. Les recherches, la clientèle et les concurrents diffèrent. Nous séparons les campagnes et les pages pour que chaque ville reçoive un message et un budget adaptés." },
+    { "q": "Pouvez-vous aider une marque marseillaise à vendre dans toute la France ?", "a": "Oui. Nous concevons la boutique en ligne, les visuels produit, le référencement et les campagnes publicitaires pour un marché national, avec les modes de livraison et de paiement auxquels les acheteurs français sont habitués." }
+  ]
+}

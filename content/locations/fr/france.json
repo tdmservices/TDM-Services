@@ -1,0 +1,60 @@
+{
+  "slug": "france",
+  "locale": "fr",
+  "kind": "country",
+  "title": "Agence de marketing digital en France",
+  "metaTitle": "Agence de marketing digital en France | TDM",
+  "metaDescription": "TDM accompagne les entreprises françaises à distance et en français : SEO, publicité en ligne, réseaux sociaux, sites web et vidéo. Consultation gratuite.",
+  "lead": "TDM (The Digital Marketing Services) est une agence de marketing digital qui travaille avec des entreprises françaises sur leur référencement, leurs campagnes publicitaires, leurs réseaux sociaux, leur site web et leurs contenus vidéo. Le marché français a ses propres règles : un acheteur qui compare longtemps avant de se décider, un cadre strict sur les données personnelles et des économies régionales très différentes les unes des autres. Nous construisons les campagnes à partir de ces réalités, en français, avec une équipe qui travaille à distance.",
+  "sections": [
+    {
+      "heading": "Comment les Français cherchent et achètent en ligne",
+      "paragraphs": [
+        "En France, la recherche passe très majoritairement par Google, et de plus en plus par les assistants d'IA pour les questions de comparaison. Les requêtes sont concrètes : on tape « devis », « avis », « prix », « près de chez moi » ou le nom de sa ville. Un site qui parle de « solutions » sans jamais nommer le service ni la zone desservie passe à côté de ces recherches.",
+        "L'acheteur français vérifie avant de payer. Il lit les avis clients, cherche les mentions légales et les conditions générales de vente, regarde les frais et les délais de livraison, et s'attend à trouver ses habitudes : livraison en point relais, paiement en plusieurs fois pour les paniers élevés, retour simple.",
+        "Le calendrier compte aussi. Les soldes d'hiver et d'été, la rentrée de septembre, le Black Friday et les fêtes de fin d'année concentrent une grande partie de la demande dans le commerce, tandis que le mois d'août ralentit nettement l'activité entre professionnels."
+      ]
+    },
+    {
+      "heading": "RGPD et consentement : ce que cela change pour vos campagnes",
+      "paragraphs": [
+        "Le RGPD s'applique dans toute l'Union européenne, et la CNIL veille en France à son application, en particulier sur les cookies et les traceurs. En pratique, vos visiteurs doivent pouvoir refuser le suivi publicitaire aussi simplement qu'ils peuvent l'accepter, et une partie d'entre eux le refuse. Vos outils de mesure ne voient donc pas tout.",
+        "Nous en tenons compte dès le départ. Ce travail ne remplace pas l'avis d'un juriste ou de votre délégué à la protection des données, mais il évite les erreurs les plus courantes."
+      ],
+      "bullets": [
+        "Un bandeau de consentement correctement relié à vos outils d'analyse et à vos plateformes publicitaires.",
+        "Un suivi des conversions qui reste lisible même quand une partie des visiteurs refuse les traceurs.",
+        "Des formulaires qui disent clairement à quoi servent les données demandées.",
+        "Une collecte d'adresses e-mail fondée sur un accord réel, surtout auprès des particuliers.",
+        "Des rapports qui distinguent ce qui est mesuré de ce qui est estimé."
+      ]
+    },
+    {
+      "heading": "Un pays, plusieurs marchés",
+      "paragraphs": [
+        "Paris et l'Île-de-France concentrent les sièges sociaux, la finance, le luxe, les médias et une large part des start-up.",
+        "Lyon et la région Auvergne-Rhône-Alpes reposent sur l'industrie, la chimie, la santé et les biotechnologies, avec beaucoup de ventes entre entreprises. Marseille vit de son port, de la logistique et du tourisme, comme une bonne partie du littoral méditerranéen jusqu'à Nice. Toulouse est tournée vers l'aéronautique et le spatial, Bordeaux vers le vin et le tourisme, Lille vers le commerce et la distribution, Nantes et Rennes vers le numérique et l'agroalimentaire.",
+        "Une campagne nationale unique convient à une boutique en ligne qui livre partout. Pour une entreprise de services, un réseau d'agences ou un industriel, il vaut mieux raisonner région par région, avec des pages, des mots-clés et des budgets adaptés à chaque bassin."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Ce que nous faisons pour les entreprises françaises",
+    "items": [
+      { "title": "SEO et visibilité dans les réponses d'IA", "text": "Référencement technique, contenus et netlinking en français, pensés pour Google comme pour les assistants qui citent leurs sources." },
+      { "title": "Marketing de performance", "text": "Campagnes Google, Meta et TikTok pilotées sur le retour réel, avec des budgets transparents et un suivi compatible avec le consentement." },
+      { "title": "Réseaux sociaux", "text": "Stratégie, contenus et gestion quotidienne de vos comptes, avec une ligne éditoriale qui sonne juste pour un public français." },
+      { "title": "Sites et boutiques en ligne", "text": "Développement WordPress, Shopify, Magento ou sur mesure, avec les parcours d'achat et les pages légales que vos clients attendent." },
+      { "title": "Vidéo et créations publicitaires", "text": "Montage vidéo, publicités UGC, shootings produit et visuels publicitaires déclinés pour chaque plateforme." },
+      { "title": "Renfort d'équipes", "text": "Des développeurs, designers et marketeurs dédiés qui viennent compléter votre équipe interne quand la charge augmente." }
+    ]
+  },
+  "presence": "TDM travaille avec les entreprises en France à distance. Les échanges, les livrables et les rapports se font en français, par visioconférence et par écrit, avec la même équipe qui s'occupe de la stratégie, du développement et de la production.",
+  "faqs": [
+    { "q": "TDM a-t-elle un bureau en France ?", "a": "Non. Nous accompagnons les entreprises françaises à distance, en français. Les réunions se tiennent en visioconférence et le suivi se fait par écrit, selon un rythme convenu avec vous." },
+    { "q": "Combien coûte une agence de marketing digital en France ?", "a": "Cela dépend des canaux retenus, du volume de contenus à produire et de la concurrence dans votre secteur. Nous établissons un devis après une consultation gratuite, une fois vos objectifs et l'existant compris." },
+    { "q": "Vos campagnes sont-elles conformes au RGPD ?", "a": "Nous configurons le suivi et les campagnes en tenant compte du consentement des visiteurs et des recommandations générales de la CNIL. Les choix juridiques propres à votre entreprise restent à valider avec votre conseil ou votre délégué à la protection des données." },
+    { "q": "Faut-il viser toute la France ou commencer par une région ?", "a": "Une boutique en ligne qui livre partout peut viser le pays entier. Une entreprise de services ou un commerce physique a presque toujours intérêt à commencer par sa zone de chalandise, puis à s'étendre quand les premiers résultats sont là." },
+    { "q": "En combien de temps une campagne est-elle mise en place ?", "a": "Le délai dépend de vos besoins et du brief. Il est fixé dans le plan de travail que nous validons ensemble avant de démarrer." }
+  ]
+}

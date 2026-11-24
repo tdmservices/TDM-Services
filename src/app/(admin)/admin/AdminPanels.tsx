@@ -149,8 +149,26 @@ export function SitePagesPanel({ db, setStatus }: PanelProps) {
     const done = LOCALES.filter((l) => written(draft[l]));
     if (done.length === 0) return setStatus({ tone: "bad", text: "Still needed: a title and the HTML, in at least one language" });
 
+    // Changing the address of a page moves it. Anything published at the old
+    // address gets a permanent redirect, so links and rankings follow it.
+    const moved = Boolean(selected && selected !== slug);
+    if (moved && rows.some((r) => r.slug === slug)) {
+      return setStatus({ tone: "bad", text: `There is already a page at /${slug}/. Pick another address.` });
+    }
+    const under = moved ? rows.filter((r) => str(r.slug).startsWith(`${selected}/`)) : [];
+    const moveUnder =
+      under.length > 0 &&
+      window.confirm(
+        `${new Set(under.map((r) => str(r.slug))).size} page(s) sit under /${selected}/. Move them under /${slug}/ as well? Redirects are added for the published ones.`,
+      );
+    const prefixOf = (l: unknown) => (l === "en" ? "" : `/${str(l)}`);
+    const redirects: { source: string; destination: string; permanent: boolean; enabled: boolean; note: string }[] = [];
+    const redirect = (l: unknown, from: string, to: string) =>
+      redirects.push({ source: `${prefixOf(l)}/${from}/`, destination: `${prefixOf(l)}/${to}/`, permanent: true, enabled: true, note: "Added automatically when the page address changed" });
+    if (moved) for (const r of rows.filter((x) => x.slug === selected && x.published)) redirect(r.locale, str(selected), slug);
+
     setStatus({ tone: "busy", text: "Saving…" });
-    if (selected && selected !== slug) await db.from("site_pages").delete().eq("slug", selected);
+    if (moved) await db.from("site_pages").delete().eq("slug", selected);
     const dropped = LOCALES.filter((l) => !done.includes(l));
     if (dropped.length) await db.from("site_pages").delete().eq("slug", slug).in("locale", dropped);
 
@@ -165,11 +183,31 @@ export function SitePagesPanel({ db, setStatus }: PanelProps) {
     }));
     const { error } = await db.from("site_pages").upsert(payload, { onConflict: "slug,locale" });
     if (error) return setStatus({ tone: "bad", text: error.message });
+
+    if (moveUnder) {
+      for (const r of under) {
+        const next = `${slug}${str(r.slug).slice(str(selected).length)}`;
+        const res = await db.from("site_pages").update({ slug: next }).eq("slug", str(r.slug)).eq("locale", str(r.locale));
+        if (res.error) return setStatus({ tone: "bad", text: `Saved, but /${str(r.slug)}/ could not be moved: ${res.error.message}` });
+        if (r.published) redirect(r.locale, str(r.slug), next);
+      }
+    }
+    if (redirects.length) {
+      const olds = redirects.map((r) => r.source);
+      // A new address must not itself be redirected away, and older redirects
+      // that pointed at the old address should go straight to the new one.
+      await db.from("redirects").delete().in("source", redirects.map((r) => r.destination));
+      for (const r of redirects) await db.from("redirects").update({ destination: r.destination }).eq("destination", r.source);
+      const res = await db.from("redirects").upsert(redirects, { onConflict: "source" });
+      if (res.error) return setStatus({ tone: "bad", text: `Saved, but the redirect from ${olds[0]} could not be added: ${res.error.message}. Add it in the Redirects tab.` });
+    }
+
     await load();
     setSelected(slug);
     setPath(slug);
     const live = payload.filter((p) => p.published).length;
-    setStatus({ tone: "ok", text: live ? `Saved. ${live} language${live > 1 ? "s" : ""} live within a minute.` : "Saved as a draft." });
+    const note = redirects.length ? ` ${redirects.length} redirect${redirects.length > 1 ? "s" : ""} added from the old address.` : "";
+    setStatus({ tone: "ok", text: (live ? `Saved. ${live} language${live > 1 ? "s" : ""} live within a minute.` : "Saved as a draft.") + note });
   };
 
   const remove = async () => {
@@ -250,7 +288,8 @@ export function SitePagesPanel({ db, setStatus }: PanelProps) {
               </div>
               <p className="mt-1 text-xs text-ink/55">
                 Lowercase words separated by hyphens. Use slashes for levels, e.g. <code>usa/florida/miami</code>. The same address is used in
-                every language (French at /fr/…, Arabic at /ar/…).
+                every language (French at /fr/…, Arabic at /ar/…). Changing the address of a published page adds a redirect from the old
+                one automatically.
               </p>
             </div>
 

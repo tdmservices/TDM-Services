@@ -1,0 +1,58 @@
+{
+  "slug": "usa/florida/miami",
+  "locale": "en",
+  "kind": "city",
+  "title": "Digital Marketing Agency in Miami",
+  "metaTitle": "Digital Marketing Agency in Miami, FL | TDM",
+  "metaDescription": "A digital marketing agency for Miami businesses: SEO, paid ads, social media, web and video, planned around the city's seasons. Team member based in Miami.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works with Miami businesses on SEO, paid advertising, social media, websites and video. Miami is not one market but several: year-round residents and winter visitors, neighbourhood customers and buyers in other states and across the Americas. We plan campaigns around that mix instead of treating the city like anywhere else in the United States.",
+  "sections": [
+    {
+      "heading": "What makes marketing in Miami different",
+      "paragraphs": [
+        "Miami-Dade is a patchwork of cities and districts, and each has its own customers. Brickell and downtown mean finance, law and condo towers. Wynwood and the Design District draw galleries, restaurants and fashion. Doral and the area around the airport are full of trade and logistics firms, while Miami Beach lives largely on visitors.",
+        "Miami is also a gateway city. Trade, finance, real estate and travel connect it to Latin America and the Caribbean, so many local companies sell to people who are not in Florida at all. Their marketing has to work for a buyer in Bogotá or São Paulo as well as one in Brickell.",
+        "And the city runs on seasons. Winter brings visitors and part-time residents, and events such as Art Basel and the boat show move demand for weeks at a time. Budgets and content calendars that ignore the calendar waste money in the quiet months and miss the busy ones."
+      ]
+    },
+    {
+      "heading": "How we approach a Miami campaign",
+      "paragraphs": [
+        "We start with who actually buys from you: residents, visitors, businesses or buyers abroad, and where they are when they decide. That decides the channels. Search captures people already looking, which suits services, clinics, law firms and anything booked in a hurry. Social and video build demand for restaurants, hospitality, fashion, fitness and real estate, where people choose with their eyes."
+      ],
+      "bullets": [
+        "Keyword research by service and by neighbourhood where it matters: Brickell, Wynwood, Coral Gables, Doral, Miami Beach.",
+        "A Google Business Profile kept accurate and active, because map results decide most local choices.",
+        "Ad budgets shifted with the season rather than spread evenly across the year.",
+        "Creative made for the place: real locations, real people, vertical video.",
+        "Reporting in money terms: what was spent and what it returned."
+      ]
+    },
+    {
+      "heading": "Local search in Miami",
+      "paragraphs": [
+        "For a business that serves customers in person, the map pack is the front page. Ranking there depends on a complete business profile, consistent name and address details across the web, a steady flow of real reviews, and pages on your own site that speak about the areas you serve. People search by neighbourhood far more than by city, so one page that says \"Miami\" rarely covers Kendall, Hialeah and Aventura at once.",
+        "AI answers are now part of this. When someone asks an assistant for a recommendation, it draws on the same signals: clear pages, reviews, structured data and mentions on other sites. The work that helps you rank also helps you get cited."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Industries we see most in Miami",
+    "items": [
+      { "title": "Hospitality and restaurants", "text": "Visitors decide fast and on a phone. Map visibility, reviews, short video and seasonal campaigns do most of the work." },
+      { "title": "Real estate", "text": "Buyers are often out of state or abroad. Listings need search visibility, video walkthroughs and ads that reach people before they arrive." },
+      { "title": "Health, beauty and wellness", "text": "Clinics and med spas compete on trust. Clear service pages, reviews and careful ad wording matter, since platforms restrict health claims." },
+      { "title": "E-commerce and fashion", "text": "Brands selling nationally from Miami need stores that convert, product photography and ads managed against margin." },
+      { "title": "Professional services", "text": "Law, finance and consulting firms win on search for specific problems, with a clear page for each practice area." },
+      { "title": "Trade and logistics", "text": "Companies serving Latin America need sites and content that work for buyers in other countries, with clear product, shipping and contact details." }
+    ]
+  },
+  "presence": "A member of our team is based in Miami, so you can talk to someone who knows the city. The wider team works remotely with you: strategy, design, development and video are delivered by the same people who serve our clients in other markets.",
+  "faqs": [
+    { "q": "Do you have someone in Miami?", "a": "Yes. A member of our team is based in Miami. Day-to-day work is delivered by our wider team remotely, with calls and reporting on a schedule that suits you." },
+    { "q": "When is the busy season for marketing in Miami?", "a": "For businesses that depend on visitors, the busy months run from late autumn into spring, with peaks around events such as Art Basel in December and the boat show in February. Summer is quieter. We plan budgets and content around the pattern your own sales show." },
+    { "q": "Which marketing channel works best in Miami?", "a": "It depends on how people choose a business like yours. Search and maps suit services people need now. Social media and video suit restaurants, hospitality, fashion and real estate. Most businesses do best with one main channel done well and a second added later." },
+    { "q": "How much does digital marketing cost in Miami?", "a": "It depends on the channels, the amount of content and the competition in your field. We quote after a free consultation, once we understand your goals and what is already in place." },
+    { "q": "Can you help a Miami business sell outside Florida?", "a": "Yes. Many Miami companies sell nationally or to Latin America. We build the site, search visibility and ads for the markets you actually sell to." }
+  ]
+}
