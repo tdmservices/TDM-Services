@@ -10,7 +10,7 @@ export const offices: Office[] = [
     roleLabel: "Headquarters",
     metaTitle: "Digital Marketing Agency in Dubai, UAE | TDM Services",
     metaDescription:
-      "TDM is a Dubai-headquartered digital agency delivering SEO, performance marketing, media production and web development for UAE and GCC brands. 100% client satisfaction.",
+      "TDM is a Dubai-headquartered digital agency delivering SEO, performance marketing, media production and web development for UAE and GCC brands.",
     hero: {
       headline: "Your digital growth partner in Dubai.",
       sub: "From our UAE headquarters, TDM runs SEO, paid advertising, media production and e-commerce development for brands across Dubai and the GCC.",
@@ -39,7 +39,7 @@ export const offices: Office[] = [
     roleLabel: "Global Delivery Hub",
     metaTitle: "TDM Lahore: Delivery Hub & Staff Augmentation in Pakistan",
     metaDescription:
-      "TDM's Lahore hub houses 50+ marketing and tech specialists delivering SEO, development, media production and dedicated staff augmentation for clients worldwide.",
+      "TDM's Lahore hub houses 50+ marketing and tech specialists delivering SEO, development, media production and staff augmentation for clients worldwide.",
     hero: {
       headline: "The engine room: TDM Lahore.",
       sub: "Our Pakistan delivery hub is where 50+ specialists produce the work, and where we recruit, manage and mentor dedicated teams for clients abroad.",
@@ -66,7 +66,7 @@ export const offices: Office[] = [
     address: "Lowercroft Rd, Bury BL8 3PA, United Kingdom",
     role: "partner",
     roleLabel: "UK Office",
-    metaTitle: "Digital Marketing & Development Agency for UK Businesses | TDM",
+    metaTitle: "Digital Marketing Agency for UK Businesses | TDM",
     metaDescription:
       "TDM serves UK businesses from Bury, Greater Manchester: SEO, paid ads, web development and dedicated offshore teams with UK-facing account management.",
     hero: {
@@ -95,7 +95,7 @@ export const offices: Office[] = [
     address: undefined,
     role: "partner",
     roleLabel: "US Offices",
-    metaTitle: "Digital Marketing Agency for US Brands: Florida & South Carolina | TDM",
+    metaTitle: "Digital Marketing Agency for US Brands | TDM",
     metaDescription:
       "TDM partners with US businesses from South Florida and Greenville, SC: performance marketing, SEO, e-commerce builds and dedicated offshore teams.",
     hero: {
@@ -153,7 +153,7 @@ export const offices: Office[] = [
     address: "Gifu Prefecture, Japan",
     role: "partner",
     roleLabel: "Japan Office",
-    metaTitle: "Digital Marketing & Development Partner in Japan: Gifu | TDM",
+    metaTitle: "Digital Marketing Partner in Japan: Gifu | TDM",
     metaDescription:
       "TDM's Japan presence in Gifu Prefecture connects Japanese businesses with global-standard digital marketing, e-commerce development and offshore teams.",
     hero: {
@@ -178,7 +178,7 @@ export const offices: Office[] = [
     address: undefined, // TODO(user): France office address
     role: "partner",
     roleLabel: "France Office",
-    metaTitle: "Agence Digitale pour Entreprises Françaises | TDM Services",
+    metaTitle: "Digital Agency for French Businesses | TDM Services",
     metaDescription:
       "TDM serves French businesses with native French marketing, SEO and platform development: including a 2,400-article legal platform for a Paris law practice.",
     hero: {

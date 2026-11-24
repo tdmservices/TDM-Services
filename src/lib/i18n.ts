@@ -11,14 +11,16 @@ export function href(locale: Locale, path: string): string {
   return `${localePrefix(locale)}${path}`;
 }
 
-/** hreflang alternates for a canonical (EN) path. Blog is EN-only — pass includeAlternates=false there. */
-export function languageAlternates(path: string) {
-  return {
-    "en": path,
-    "fr": `/fr${path}`,
-    "ar": `/ar${path}`,
-    "x-default": path,
-  };
+/**
+ * hreflang alternates for a canonical (EN) path, limited to the languages the
+ * page exists in. x-default points at English when there is an English version.
+ */
+export function languageAlternates(path: string, available: Locale[] = locales) {
+  const languages: Record<string, string> = {};
+  for (const l of available) languages[l] = href(l, path);
+  const fallback = available.includes("en") ? "en" : available[0];
+  if (fallback) languages["x-default"] = href(fallback, path);
+  return languages;
 }
 
 export function isRtl(locale: Locale): boolean {
@@ -26,7 +28,7 @@ export function isRtl(locale: Locale): boolean {
 }
 
 /** Sections that exist in English only — see src/app/fr and src/app/ar. */
-const enOnly = [/^\/blog(\/|$)/, /^\/terms-and-conditions(\/|$)/];
+const enOnly = [/^\/terms-and-conditions(\/|$)/];
 
 /** Drop a leading /fr or /ar, returning the canonical English path. */
 export function stripLocale(pathname: string): string {

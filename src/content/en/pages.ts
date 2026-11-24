@@ -112,9 +112,9 @@ export interface PagesCopy {
 
 export const pages: PagesCopy = {
   home: {
-    metaTitle: "TDM: The Digital Marketing Services | Your In-House Marketing Agency",
+    metaTitle: "TDM: Your In-House Digital Marketing Agency",
     metaDescription:
-      "TDM is a full-service digital agency: media production, performance marketing, SEO, web & app development, CRM/ERP systems and staff augmentation, from 8 countries, in English, French and Arabic. 100% client satisfaction.",
+      "TDM is a full-service digital agency: SEO, performance marketing, media production, web development and staff augmentation, in English, French and Arabic.",
     heroKicker: "Your in-house growth team",
     heroHeadline: "Campaigns, content and code that turn spend into revenue.",
     heroSub:
@@ -235,7 +235,7 @@ export const pages: PagesCopy = {
   portfolioPage: {
     metaTitle: "Portfolio: Work Across Media, Marketing & Development | TDM",
     metaDescription:
-      "Explore TDM's portfolio: e-commerce stores, platforms and apps we've built, SEO and ad campaigns we've run, and creative we've produced, with documented results.",
+      "Explore TDM's portfolio: stores, platforms and apps we've built, SEO and ad campaigns we've run, and creative we've produced, with documented results.",
     hero: {
       kicker: "Portfolio",
       headline: "The work speaks. The numbers testify.",

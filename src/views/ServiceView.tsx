@@ -4,7 +4,8 @@ import type { Locale } from "@/lib/types";
 import { href, isRtl, localePrefix } from "@/lib/i18n";
 import { site } from "@/lib/site";
 import { getContent } from "@/content";
-import { getCaseStudies } from "@/content/db";
+import { getBlogPosts, getCaseStudies } from "@/content/db";
+import { sectorForCategory } from "@/lib/service-links";
 import { ui } from "@/content/ui";
 import { JsonLd } from "@/components/JsonLd";
 import {
@@ -45,6 +46,10 @@ export async function ServiceView({
     .map((slug) => allCases.find((cs) => cs.slug === slug))
     .filter((cs): cs is NonNullable<typeof cs> => Boolean(cs));
 
+  // Articles filed under this service's sector, and the neighbouring services.
+  const posts = (await getBlogPosts(locale)).filter((p) => sectorForCategory(p.category) === sv.sector).slice(0, 3);
+  const siblings = c.services.filter((x) => x.sector === sv.sector && x.slug !== sv.slug);
+
   return (
     <>
       <JsonLd
@@ -52,8 +57,10 @@ export async function ServiceView({
           "@context": "https://schema.org",
           "@type": "Service",
           name: sv.name,
+          serviceType: sv.name,
+          category: sec.name,
           description: sv.metaDescription,
-          provider: { "@type": "Organization", name: site.name, url: site.url },
+          provider: { "@type": "Organization", "@id": `${site.url}/#organization`, name: site.name, url: site.url },
           areaServed: ["AE", "PK", "GB", "US", "CM", "JP", "FR", "BG"],
           url: `${site.url}${localePrefix(locale)}/${sv.sector}/${sv.slug}/`,
           inLanguage: locale,
@@ -198,6 +205,56 @@ export async function ServiceView({
               ))}
             </div>
           </div>
+        </section>
+      )}
+
+      {posts.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
+          <Reveal>
+            <Kicker glow>{t.blogPage.moreKicker}</Kicker>
+            <h2 className="mt-3 text-3xl font-bold text-forest">{t.blogPage.moreTitle}</h2>
+          </Reveal>
+          <div className="mt-8 grid gap-6 lg:grid-cols-3">
+            {posts.map((p, i) => (
+              <Reveal key={p.slug} delay={(i % 3) * 0.08} className="h-full">
+                <Link
+                  href={href(locale, `/blog/${p.slug}/`)}
+                  className="group card-lift flex h-full flex-col rounded-3xl border border-mint bg-white p-6 transition-colors duration-300 hover:border-fern hover:shadow-xl"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-wide text-amber">{p.category}</p>
+                  <h3 className="mt-2 font-display text-lg font-semibold leading-snug text-forest transition-colors group-hover:text-fern">
+                    {p.title}
+                  </h3>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-ink/75">{p.excerpt}</p>
+                  <p className="mt-4 text-xs font-semibold text-fern">
+                    {t.blogPage.readArticle} <span className="arrow-nudge">{isRtl(locale) ? "←" : "→"}</span>
+                  </p>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {siblings.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
+          <p className="kicker text-fern">
+            <Link href={href(locale, `/${sec.slug}/`)} className="hover:text-forest">
+              {sec.name}
+            </Link>
+          </p>
+          <ul className="mt-4 flex flex-wrap gap-2">
+            {siblings.map((x) => (
+              <li key={x.slug}>
+                <Link
+                  href={href(locale, `/${x.sector}/${x.slug}/`)}
+                  className="inline-block rounded-full border border-mint bg-white px-4 py-2 text-sm font-semibold text-forest transition-colors hover:border-fern hover:bg-fern hover:text-white"
+                >
+                  {x.navLabel ?? x.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 

@@ -5,7 +5,7 @@ export const site = {
   url: "https://thedigitalmarketing.services",
   tagline: "Your in-house marketing agency.",
   description:
-    "TDM is a full-service digital agency delivering media production, performance marketing, software development, and staff augmentation from six offices across four continents.",
+    "TDM is a full-service digital agency delivering media production, performance marketing, software development, and staff augmentation, with offices and partners in eight countries.",
   email: "info@thedigitalmarketing.services",
   phone: "+971 58 909 4045",
   phoneHref: "+971589094045",

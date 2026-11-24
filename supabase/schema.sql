@@ -209,7 +209,7 @@ create index if not exists blog_posts_locale_idx
 -- every read and write fails with "permission denied for table …".
 -- ---------------------------------------------------------------------------
 
-grant usage on schema public to anon, authenticated;
+grant usage on schema public to anon, authenticated, service_role;
 
 grant select on
   public.blog_posts, public.case_studies, public.page_faqs, public.page_cases
@@ -218,3 +218,9 @@ grant select on
 grant insert, update, delete on
   public.blog_posts, public.case_studies, public.page_faqs, public.page_cases
   to authenticated;
+
+-- The service role is what scripts and server-side tooling write with. It
+-- bypasses row level security but still needs the table privileges.
+grant all on
+  public.blog_posts, public.case_studies, public.page_faqs, public.page_cases
+  to service_role;

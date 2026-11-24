@@ -99,7 +99,7 @@ export function AboutView({ locale }: { locale: Locale }) {
                   <div className="relative mx-auto h-24 w-24 overflow-hidden rounded-full ring-2 ring-mint transition-all duration-300 group-hover:scale-110 group-hover:ring-amber">
                     <Image
                       src={m.photo}
-                      alt={m.name}
+                      alt={`${m.name}, ${m.title}`}
                       width={560}
                       height={560}
                       className="h-full w-full object-cover"

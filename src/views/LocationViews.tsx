@@ -9,6 +9,7 @@ import { getContent } from "@/content";
 import { ui } from "@/content/ui";
 import { JsonLd } from "@/components/JsonLd";
 import {
+  Kicker,
   Breadcrumbs,
   CtaBand,
   FaqSection,
@@ -88,7 +89,10 @@ export function LocationView({ locale, slug }: { locale: Locale; slug: string })
 
   return (
     <>
-      {o.address && (
+      {/* Only for offices TDM runs itself. Partner locations share the group's
+          contact details, and marking them up as a local business with someone
+          else's phone number would misdescribe them. */}
+      {o.address && o.role !== "partner" && (
         <JsonLd
           data={{
             "@context": "https://schema.org",
@@ -96,7 +100,7 @@ export function LocationView({ locale, slug }: { locale: Locale; slug: string })
             name: `TDM: The Digital Marketing Services (${o.city ?? o.country})`,
             url: `${site.url}${localePrefix(locale)}/locations/${o.slug}/`,
             email: site.email,
-            telephone: o.slug === "uk" ? site.phoneUk : site.phone,
+            telephone: site.phone,
             address: { "@type": "PostalAddress", streetAddress: o.address, addressCountry: o.country },
             parentOrganization: { "@type": "Organization", name: site.name, url: site.url },
           }}
@@ -123,12 +127,47 @@ export function LocationView({ locale, slug }: { locale: Locale; slug: string })
             <p className="mt-2 text-sm text-ink/70">
               <a className="hover:text-forest" href={`mailto:${site.email}`}>{site.email}</a>
               <br />
-              <a className="hover:text-forest" href={`tel:${site.phoneHref}`} dir="ltr">
+              <a
+                className="hover:text-forest"
+                href={`tel:${o.slug === "uk" ? site.phoneUk.replace(/\s/g, "") : site.phoneHref}`}
+                dir="ltr"
+              >
                 {o.slug === "uk" ? site.phoneUk : site.phone}
               </a>
             </p>
           </div>
         )}
+      </section>
+
+      {/* What the office can be hired for: every sector and its services. */}
+      <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
+        <Kicker>{t.servicesKicker}</Kicker>
+        <h2 className="mt-3 text-3xl font-bold text-forest">{t.servicesTitle}</h2>
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {c.sectors.map((s) => (
+            <div key={s.slug} className="rounded-3xl border border-mint bg-white p-6">
+              <h3 className="font-display text-lg font-semibold text-forest">
+                <Link href={href(locale, `/${s.slug}/`)} className="hover:text-fern">
+                  {s.name}
+                </Link>
+              </h3>
+              <ul className="mt-3 space-y-1.5 text-sm">
+                {c.services
+                  .filter((sv) => sv.sector === s.slug)
+                  .map((sv) => (
+                    <li key={sv.slug}>
+                      <Link
+                        href={href(locale, `/${sv.sector}/${sv.slug}/`)}
+                        className="text-ink/75 transition-colors hover:text-fern"
+                      >
+                        {sv.navLabel ?? sv.name}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </section>
 
       <FaqSection faqs={o.faqs} locale={locale} />

@@ -21,21 +21,24 @@ export function Kicker({
   children,
   glow = false,
   dark = false,
+  as: Tag = "p",
 }: {
   children: React.ReactNode;
   glow?: boolean;
   dark?: boolean;
+  /** Use "h2" where the label is the only heading its section has. */
+  as?: "p" | "h2";
 }) {
-  if (!glow) return <p className={`kicker ${dark ? "text-sage" : "text-fern"}`}>{children}</p>;
+  if (!glow) return <Tag className={`kicker ${dark ? "text-sage" : "text-fern"}`}>{children}</Tag>;
 
   return (
-    <p className="kicker-pill pill-shimmer inline-flex items-center gap-2.5 rounded-full border border-amber/45 bg-amber/12 px-4 py-2 backdrop-blur-sm">
+    <Tag className="kicker-pill pill-shimmer inline-flex items-center gap-2.5 rounded-full border border-amber/45 bg-amber/12 px-4 py-2 backdrop-blur-sm">
       <span className="relative flex h-2 w-2 shrink-0">
         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber opacity-80" />
         <span className="relative inline-flex h-2 w-2 rounded-full bg-amber shadow-[0_0_8px_2px_rgba(232,134,45,0.7)]" />
       </span>
       <span className={`kicker ${dark ? "text-amber" : "text-fern"}`}>{children}</span>
-    </p>
+    </Tag>
   );
 }
 

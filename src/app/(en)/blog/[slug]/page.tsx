@@ -1,6 +1,6 @@
 import { BlogPostView } from "@/views/BlogViews";
 import { localizedMetadata } from "@/lib/meta";
-import { getBlogPost, getBlogPosts } from "@/content/db";
+import { getBlogLocales, getBlogPost, getBlogPosts } from "@/content/db";
 
 const locale = "en" as const;
 
@@ -18,7 +18,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = await getBlogPost(locale, slug);
   if (!p) return {};
-  return localizedMetadata(locale, `/blog/${p.slug}/`, p.metaTitle, p.metaDescription);
+  return localizedMetadata(locale, `/blog/${p.slug}/`, p.metaTitle, p.metaDescription, {
+    available: await getBlogLocales(p.slug),
+    article: { publishedTime: p.date },
+  });
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

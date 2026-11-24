@@ -1,57 +1,65 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
+import { href, locales } from "@/lib/i18n";
 import { sectors } from "@/content/en/sectors";
 import { allServices } from "@/content/en/services";
 import { getBlogPosts, getCaseStudies } from "@/content/db";
 import { offices } from "@/content/en/locations";
 
-export const dynamic = "force-static";
+// Posts and case studies are published from the admin without a deploy, so the
+// sitemap has to be rebuilt on a timer rather than frozen at build time.
+export const revalidate = 3600;
+
+type Entry = MetadataRoute.Sitemap[number];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const staticPaths = [
-    "/",
-    "/about/",
-    "/contact/",
-    "/clients/",
-    "/portfolio/",
-    "/case-studies/",
-    "/locations/",
-    "/blog/",
+  // Pages that exist in every language at the same path.
+  const shared: { path: string; priority: number; changeFrequency: Entry["changeFrequency"] }[] = [
+    { path: "/", priority: 1, changeFrequency: "monthly" },
+    ...["/about/", "/contact/", "/clients/", "/portfolio/", "/case-studies/", "/locations/", "/blog/"].map(
+      (path) => ({ path, priority: 0.8, changeFrequency: "monthly" as const }),
+    ),
+    ...sectors.map((s) => ({ path: `/${s.slug}/`, priority: 0.9, changeFrequency: "monthly" as const })),
+    ...allServices.map((sv) => ({
+      path: `/${sv.sector}/${sv.slug}/`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    })),
+    ...offices.map((o) => ({ path: `/locations/${o.slug}/`, priority: 0.7, changeFrequency: "yearly" as const })),
   ];
 
-  const urls: MetadataRoute.Sitemap = staticPaths.map((p) => ({
-    url: `${site.url}${p}`,
-    changeFrequency: "monthly",
-    priority: p === "/" ? 1 : 0.8,
-  }));
+  const urls: MetadataRoute.Sitemap = [];
 
-  for (const s of sectors) {
-    urls.push({ url: `${site.url}/${s.slug}/`, changeFrequency: "monthly", priority: 0.9 });
-  }
-  for (const sv of allServices) {
-    urls.push({ url: `${site.url}/${sv.sector}/${sv.slug}/`, changeFrequency: "monthly", priority: 0.8 });
-  }
-  for (const cs of await getCaseStudies("en")) {
-    urls.push({ url: `${site.url}/case-studies/${cs.slug}/`, changeFrequency: "yearly", priority: 0.7 });
-  }
-  for (const o of offices) {
-    urls.push({ url: `${site.url}/locations/${o.slug}/`, changeFrequency: "yearly", priority: 0.7 });
-  }
-  for (const p of await getBlogPosts()) {
-    urls.push({ url: `${site.url}/blog/${p.slug}/`, lastModified: p.date, changeFrequency: "yearly", priority: 0.6 });
+  for (const locale of locales) {
+    // English is the primary site; translations rank a notch below it.
+    const weight = locale === "en" ? 1 : 0.9;
+
+    for (const p of shared) {
+      urls.push({
+        url: `${site.url}${href(locale, p.path)}`,
+        changeFrequency: p.changeFrequency,
+        priority: p.priority * weight,
+      });
+    }
+
+    // Written per language: list only what exists in this one, so the sitemap
+    // never advertises a translation that would 404.
+    for (const cs of await getCaseStudies(locale)) {
+      urls.push({
+        url: `${site.url}${href(locale, `/case-studies/${cs.slug}/`)}`,
+        changeFrequency: "yearly",
+        priority: 0.7 * weight,
+      });
+    }
+    for (const post of await getBlogPosts(locale)) {
+      urls.push({
+        url: `${site.url}${href(locale, `/blog/${post.slug}/`)}`,
+        lastModified: post.date,
+        changeFrequency: "yearly",
+        priority: 0.6 * weight,
+      });
+    }
   }
 
-  // FR/AR mirrors of every localized page (blog and terms are EN-only)
-  const localized = urls
-    .filter((u) => !u.url.includes("/blog") && !u.url.includes("terms"))
-    .flatMap((u) => {
-      const path = u.url.slice(site.url.length);
-      return (["fr", "ar"] as const).map((l) => ({
-        ...u,
-        url: `${site.url}/${l}${path}`,
-        priority: (u.priority ?? 0.5) * 0.9,
-      }));
-    });
-
-  return [...urls, ...localized];
+  return urls;
 }

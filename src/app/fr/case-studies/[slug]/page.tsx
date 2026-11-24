@@ -1,6 +1,6 @@
 import { CaseStudyView } from "@/views/CaseStudyViews";
 import { localizedMetadata } from "@/lib/meta";
-import { getCaseStudies, getCaseStudy } from "@/content/db";
+import { getCaseStudies, getCaseStudy, getCaseStudyLocales } from "@/content/db";
 
 const locale = "fr" as const;
 
@@ -19,7 +19,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const cs = await getCaseStudy(locale, slug);
   if (!cs) return {};
-  return localizedMetadata(locale, `/case-studies/${cs.slug}/`, cs.metaTitle, cs.metaDescription);
+  return localizedMetadata(locale, `/case-studies/${cs.slug}/`, cs.metaTitle, cs.metaDescription, {
+    available: await getCaseStudyLocales(cs.slug),
+  });
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {

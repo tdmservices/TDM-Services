@@ -155,6 +155,22 @@ export async function getBlogPost(locale: Locale, slug: string): Promise<BlogPos
   return posts.find((p) => p.slug === slug);
 }
 
+/** Which languages a post exists in — for hreflang and the sitemap. */
+export async function getBlogLocales(slug: string): Promise<Locale[]> {
+  const rows = await safely(`blog_posts locales(${slug})`, () =>
+    publicDb().from("blog_posts").select("locale").eq("slug", slug),
+  );
+  return (rows as { locale: string }[]).map((r) => r.locale as Locale);
+}
+
+/** Which languages a case study exists in — for hreflang and the sitemap. */
+export async function getCaseStudyLocales(slug: string): Promise<Locale[]> {
+  const rows = await safely(`case_studies locales(${slug})`, () =>
+    publicDb().from("case_studies").select("locale").eq("slug", slug),
+  );
+  return (rows as { locale: string }[]).map((r) => r.locale as Locale);
+}
+
 export async function getCaseStudies(locale: Locale): Promise<CaseStudy[]> {
   const rows = await safely<CaseRow>(`case_studies(${locale})`, () =>
     publicDb().from("case_studies").select("*").eq("locale", locale).order("sort_order", { ascending: true }),

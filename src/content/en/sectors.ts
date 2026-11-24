@@ -5,9 +5,9 @@ export const sectors: Sector[] = [
     slug: "marketing",
     name: "Marketing",
     tagline: "Growth you can measure.",
-    metaTitle: "Digital Marketing Services: SEO, Performance & Social Media | TDM",
+    metaTitle: "Digital Marketing Services: SEO, Ads & Social Media | TDM",
     metaDescription:
-      "TDM's marketing division delivers performance marketing, e-commerce SEO and social media management with transparent reporting and a 100% client satisfaction rate.",
+      "TDM's marketing division delivers performance marketing, e-commerce SEO and social media management, with transparent reporting on every account.",
     hero: {
       headline: "Marketing that answers to revenue.",
       sub: "Performance marketing, SEO and social media management: run by one accountable team, reported with numbers you can check.",
@@ -35,7 +35,7 @@ export const sectors: Sector[] = [
     slug: "development",
     name: "Development",
     tagline: "Engineering the storefronts and systems behind growth.",
-    metaTitle: "Web & Software Development Services: Shopify, WordPress, CRM/ERP | TDM",
+    metaTitle: "Web Development Services: Shopify, WordPress & CRM/ERP | TDM",
     metaDescription:
       "TDM builds Shopify, WordPress and Magento stores, custom Next.js and Laravel platforms, and CRM/ERP systems: engineered for speed, SEO and scale.",
     hero: {
@@ -65,7 +65,7 @@ export const sectors: Sector[] = [
     slug: "media",
     name: "Media",
     tagline: "Content that stops the scroll and sells.",
-    metaTitle: "Media Production Services: Video, UGC Ads & Product Shoots | TDM",
+    metaTitle: "Media Production: Video, UGC Ads & Product Shoots | TDM",
     metaDescription:
       "TDM's media division produces video shoots, video editing, UGC ads, product photography and ad creatives for e-commerce and consumer brands worldwide.",
     hero: {
@@ -95,7 +95,7 @@ export const sectors: Sector[] = [
     slug: "staff-augmentation",
     name: "Staff Augmentation",
     tagline: "Smart teams. Lower costs. Better results.",
-    metaTitle: "Staff Augmentation Services: Dedicated Remote Teams from Pakistan | TDM",
+    metaTitle: "Staff Augmentation: Dedicated Remote Teams | TDM",
     metaDescription:
       "TDM recruits, manages and mentors dedicated developers, designers and marketers from its Lahore hub: in-house output at a fraction of local cost.",
     hero: {
