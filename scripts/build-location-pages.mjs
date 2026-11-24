@@ -32,6 +32,22 @@ const previewDir = flag("--preview") ? args[args.indexOf("--preview") + 1] : nul
 
 const UI = {
   en: {
+    areas: "Sectors and topics",
+    process: "How we work with you",
+    steps: [
+      ["Listen", "A free consultation about your business, your customers and what is already in place."],
+      ["Plan", "A written plan: the channels, the work, the targets and what it costs."],
+      ["Launch", "We build and run it, and you see the work as it goes live."],
+      ["Report", "Regular reports in plain numbers, with what we change next and why."],
+    ],
+    groups: [
+      ["Marketing", [["/marketing/seo/", "SEO"], ["/marketing/performance-marketing/", "Performance marketing"], ["/marketing/social-media/", "Social media"]]],
+      ["Development", [["/development/wordpress/", "WordPress"], ["/development/shopify/", "Shopify"], ["/development/magento/", "Magento"], ["/development/custom-development/", "Custom development"], ["/development/crm-erp/", "CRM / ERP"], ["/development/mobile-apps/", "Mobile apps"]]],
+      ["Media", [["/media/video-editing/", "Video editing"], ["/media/video-shoots/", "Video shoots"], ["/media/ugc-ads/", "UGC ads"], ["/media/product-shoots/", "Product shoots"], ["/media/ad-creatives/", "Ad creatives"]]],
+      ["Teams", [["/staff-augmentation/", "Staff augmentation"]]],
+    ],
+    tools: "Free tools",
+    talk: "Talk to us",
     prefix: "",
     services: "What we do for businesses here",
     faq: "Questions we are asked",
@@ -49,6 +65,22 @@ const UI = {
     ],
   },
   fr: {
+    areas: "Secteurs et sujets",
+    process: "Comment nous travaillons avec vous",
+    steps: [
+      ["Écouter", "Une consultation gratuite sur votre activité, vos clients et ce qui est déjà en place."],
+      ["Planifier", "Un plan écrit : les canaux, le travail, les objectifs et le coût."],
+      ["Lancer", "Nous réalisons et pilotons, et vous voyez le travail à mesure qu'il est mis en ligne."],
+      ["Rendre compte", "Des rapports réguliers en chiffres clairs, avec ce que nous changeons ensuite et pourquoi."],
+    ],
+    groups: [
+      ["Marketing", [["/marketing/seo/", "SEO"], ["/marketing/performance-marketing/", "Marketing de performance"], ["/marketing/social-media/", "Réseaux sociaux"]]],
+      ["Développement", [["/development/wordpress/", "WordPress"], ["/development/shopify/", "Shopify"], ["/development/magento/", "Magento"], ["/development/custom-development/", "Développement sur mesure"], ["/development/crm-erp/", "CRM / ERP"], ["/development/mobile-apps/", "Applications mobiles"]]],
+      ["Média", [["/media/video-editing/", "Montage vidéo"], ["/media/video-shoots/", "Tournages vidéo"], ["/media/ugc-ads/", "Publicités UGC"], ["/media/product-shoots/", "Shootings produit"], ["/media/ad-creatives/", "Créations publicitaires"]]],
+      ["Équipes", [["/staff-augmentation/", "Renfort d'équipes"]]],
+    ],
+    tools: "Outils gratuits",
+    talk: "Parlons-en",
     prefix: "/fr",
     services: "Ce que nous faisons pour les entreprises d'ici",
     faq: "Les questions que l'on nous pose",
@@ -66,6 +98,22 @@ const UI = {
     ],
   },
   ar: {
+    areas: "القطاعات والموضوعات",
+    process: "كيف نعمل معك",
+    steps: [
+      ["نستمع", "استشارة مجانية عن نشاطك وعملائك وما هو قائم لديك."],
+      ["نخطط", "خطة مكتوبة: القنوات والعمل والأهداف والتكلفة."],
+      ["ننفذ", "نبني وندير، وترى العمل فور نشره."],
+      ["نقدّم التقارير", "تقارير منتظمة بأرقام واضحة، مع ما سنغيّره بعد ذلك ولماذا."],
+    ],
+    groups: [
+      ["التسويق", [["/marketing/seo/", "تحسين محركات البحث"], ["/marketing/performance-marketing/", "التسويق الأدائي"], ["/marketing/social-media/", "وسائل التواصل الاجتماعي"]]],
+      ["التطوير", [["/development/wordpress/", "WordPress"], ["/development/shopify/", "Shopify"], ["/development/magento/", "Magento"], ["/development/custom-development/", "التطوير المخصص"], ["/development/crm-erp/", "CRM / ERP"], ["/development/mobile-apps/", "تطبيقات الجوال"]]],
+      ["الإعلام", [["/media/video-editing/", "مونتاج الفيديو"], ["/media/video-shoots/", "التصوير المرئي"], ["/media/ugc-ads/", "إعلانات UGC"], ["/media/product-shoots/", "تصوير المنتجات"], ["/media/ad-creatives/", "التصاميم الإعلانية"]]],
+      ["الفرق", [["/staff-augmentation/", "تعزيز فرق العمل"]]],
+    ],
+    tools: "أدوات مجانية",
+    talk: "تحدث إلينا",
     prefix: "/ar",
     services: "ما نقدمه للشركات هنا",
     faq: "أسئلة تُطرح علينا",
@@ -149,27 +197,48 @@ function problems(p, file) {
 function render(p) {
   const t = UI[p.locale];
   const link = (href) => `${t.prefix}${href}`;
-  const h = [`<p class="lead">${esc(p.lead)}</p>`];
-  for (const s of p.sections) {
-    h.push(`<h2>${esc(s.heading)}</h2>`);
-    for (const para of s.paragraphs) h.push(`<p>${esc(para)}</p>`);
-    if (s.bullets?.length) h.push(`<ul class="checklist">${s.bullets.map((b) => `<li>${esc(b)}</li>`).join("")}</ul>`);
-  }
+  const h = [];
+  const reveal = (i = 0) => `data-reveal="up"${i ? ` data-reveal-delay="${Math.min(i, 5) * 80}"` : ""}`;
+
+  // Opening: the answer first, then the sectors or topics the page covers as chips.
+  h.push(`<p class="lead" data-reveal="up">${esc(p.lead)}</p>`);
+  if (p.cards?.items?.length) h.push(`<div class="badges" data-reveal="fade">${p.cards.items.map((c) => `<span class="badge">${esc(c.title)}</span>`).join("")}</div>`);
+
+  // Sections: a section with a checklist sits beside it on wide screens; all animate in.
+  p.sections.forEach((s, i) => {
+    const text = `<h2>${esc(s.heading)}</h2>${s.paragraphs.map((x) => `<p>${esc(x)}</p>`).join("")}`;
+    if (s.bullets?.length) {
+      const list = `<div class="card"><ul class="checklist">${s.bullets.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+      h.push(`<div class="split" data-reveal="${i % 2 ? "left" : "right"}"><div>${text}</div>${list}</div>`);
+    } else {
+      h.push(`<div data-reveal="up">${text}</div>`);
+    }
+  });
+
   if (p.cards?.items?.length) {
-    h.push(`<h2>${esc(p.cards.heading)}</h2>`);
-    h.push(`<div class="grid-3">${p.cards.items.map((c) => `<div class="card" data-reveal="up"><h3>${esc(c.title)}</h3><p>${esc(c.text)}</p></div>`).join("")}</div>`);
+    h.push(`<h2 data-reveal="up">${esc(p.cards.heading)}</h2>`);
+    h.push(`<div class="grid-3">${p.cards.items.map((c, i) => `<div class="card" ${reveal(i)}><h3>${esc(c.title)}</h3><p>${esc(c.text)}</p></div>`).join("")}</div>`);
   }
-  h.push(`<div class="callout">${esc(p.presence)}</div>`);
-  if (p.kind === "service") {
-    h.push(
-      `<div class="actions"><a class="btn" href="${link("/contact/")}">${t.cta}</a><a class="btn-outline" href="${link(`/${p.service}/`)}">${t.more}</a><a class="btn-outline" href="${link(`/tools/${TOOL[p.service]}/`)}">${t.tool}</a></div>`,
-    );
-  } else {
-    h.push(`<h2>${t.services}</h2>`);
-    h.push(`<div class="grid-3">${t.list.map(([href, name, text]) => `<div class="card"><h3><a href="${link(href)}">${name}</a></h3><p>${text}</p></div>`).join("")}</div>`);
-    h.push(`<div class="actions"><a class="btn" href="${link("/contact/")}">${t.cta}</a><a class="btn-outline" href="${link("/tools/seo-audit/")}">${t.audit}</a></div>`);
-  }
-  h.push(`<h2>${t.faq}</h2>`);
+
+  h.push(`<h2 data-reveal="up">${t.process}</h2>`);
+  h.push(`<ol class="steps">${t.steps.map(([name, text], i) => `<li ${reveal(i)}><h3>${name}</h3><p>${text}</p></li>`).join("")}</ol>`);
+
+  // Presence and the next step, in a band.
+  const actions =
+    p.kind === "service"
+      ? `<a class="btn" href="${link("/contact/")}">${t.cta}</a><a class="btn-outline" href="${link(`/${p.service}/`)}">${t.more}</a><a class="btn-outline" href="${link(`/tools/${TOOL[p.service]}/`)}">${t.tool}</a>`
+      : `<a class="btn" href="${link("/contact/")}">${t.cta}</a><a class="btn-outline" href="${link("/tools/seo-audit/")}">${t.audit}</a>`;
+  h.push(`<section class="band light" data-reveal="zoom"><p class="kicker">${t.talk}</p><p class="lead">${esc(p.presence)}</p><div class="actions">${actions}</div></section>`);
+
+  // Every service, in tabs by group.
+  h.push(`<h2 data-reveal="up">${t.services}</h2>`);
+  const tabs = t.groups.map(([name], i) => `<button data-tab="g${i}">${name}</button>`).join("");
+  const panels = t.groups
+    .map(([, items], i) => `<div data-panel="g${i}"><div class="grid-3">${items.map(([href, name]) => `<a class="card" href="${link(href)}"><h3>${name}</h3></a>`).join("")}</div></div>`)
+    .join("");
+  h.push(`<div data-tabs data-reveal="up"><div class="tab-list">${tabs}<a class="btn-outline" href="${link("/tools/")}">${t.tools}</a></div>${panels}</div>`);
+
+  h.push(`<h2 data-reveal="up">${t.faq}</h2>`);
   for (const f of p.faqs) h.push(`<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`);
   return h.join("\n");
 }

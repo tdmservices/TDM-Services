@@ -4,14 +4,14 @@
   "kind": "service",
   "service": "marketing/seo",
   "title": "SEO Agency in Miami",
-  "metaTitle": "SEO Agency in Miami, FL: Local and Bilingual SEO | TDM",
-  "metaDescription": "SEO for Miami businesses: map pack and neighbourhood search, English and Spanish keywords, technical fixes, content and AI-answer visibility. Free consultation.",
-  "lead": "TDM (The Digital Marketing Services) is an SEO agency that works with Miami businesses to get found in Google, in Google Maps and in AI answers. In Miami that means ranking for searches typed in English and in Spanish, by neighbourhood as much as by city, and by people who may be planning a trip or a purchase from another country. We do the technical work, the content and the local listings that make that happen.",
+  "metaTitle": "SEO Agency in Miami, FL: Local and Maps SEO | TDM",
+  "metaDescription": "SEO for Miami businesses: map pack and neighbourhood search, seasonal keywords, technical fixes, content and AI-answer visibility. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) is an SEO agency that works with Miami businesses to get found in Google, in Google Maps and in AI answers. In Miami that means ranking for searches made by neighbourhood as much as by city, at the right time of year, and by people who may be planning a trip or a purchase from another state or country. We do the technical work, the content and the local listings that make that happen.",
   "sections": [
     {
       "heading": "Why search works differently in Miami",
       "paragraphs": [
-        "Two people looking for the same thing in Miami often type different words. One searches \"immigration lawyer near me\", the other \"abogado de inmigración en Hialeah\". Google treats those as separate searches with separate results, and a site written only in English usually appears for the first and not the second. Because most of Miami-Dade's residents are Hispanic, the Spanish half of demand is too large to leave to chance.",
+        "Two people looking for the same thing in Miami often type different words. One searches \"injury lawyer near me\", the other \"injury lawyer Hialeah free consultation\". Google treats those as separate searches with separate results, and a site with one general page often appears for neither. Demand also moves with the calendar: searches for restaurants, charters and hotels climb in the winter season.",
         "Geography matters just as much. Miami-Dade is a patchwork of cities and districts, and traffic makes people reluctant to cross it. Someone in Kendall wants a dentist in Kendall, not in Aventura. Search results follow that habit: the map pack changes block by block, and a business ranks well close to its address and fades with distance unless its site and profile give Google reasons to show it further out.",
         "Then there are the searchers who are not here yet. Visitors plan dinners, boat days and hotel stays before they land. Property buyers in New York, Bogotá or Caracas research Brickell condos for months. The keyword plan has to treat them separately from the person two streets away."
       ]
@@ -19,25 +19,25 @@
     {
       "heading": "What our SEO work in Miami includes",
       "paragraphs": [
-        "We begin with an audit of the site and of how you appear today across Miami-Dade, then agree a keyword plan in the languages your customers use. From there the work runs in parallel on the site, on content and on your local presence."
+        "We begin with an audit of the site and of how you appear today across Miami-Dade, then agree a keyword plan built around the services and areas that matter most to you. From there the work runs in parallel on the site, on content and on your local presence."
       ],
       "bullets": [
-        "Keyword research in English and Spanish, including the mixed phrasing many Miami searchers actually use.",
-        "Technical fixes: page speed on mobile, crawl and indexing problems, structured data, and correct hreflang tags when the site has two language versions.",
-        "Google Business Profile management: categories, services, photos, posts and review replies in the language the review was written in.",
+        "Keyword research by service, district and season, including the \"near me\" phrasing many Miami searchers actually use.",
+        "Technical fixes: page speed on mobile, crawl and indexing problems, structured data, and clean redirects after a redesign.",
+        "Google Business Profile management: categories, services, photos, posts and prompt replies to reviews.",
         "Pages for the areas you really serve, written with local detail and not copied with the place name changed."
       ]
     },
     {
       "heading": "Getting cited in AI answers",
       "paragraphs": [
-        "A growing share of recommendations now come from AI assistants and from the AI summaries at the top of Google. Ask one for a waterfront restaurant in Coconut Grove or a bilingual accountant in Doral and it names a handful of businesses. It chooses them from what it can read clearly: plain service pages, consistent business details, reviews, structured data and mentions on sites it trusts."
+        "A growing share of recommendations now come from AI assistants and from the AI summaries at the top of Google. Ask one for a waterfront restaurant in Coconut Grove or an accountant in Doral and it names a handful of businesses. It chooses them from what it can read clearly: plain service pages, consistent business details, reviews, structured data and mentions on sites it trusts."
       ]
     },
     {
       "heading": "What to check before hiring an SEO agency in Miami",
       "paragraphs": [
-        "Ask who will write the Spanish content and whether keyword research is done in Spanish or translated from English, because the two give different results. Ask who owns the Search Console, Analytics and Business Profile accounts. They should be yours. Be wary of any promise of a fixed position by a fixed date."
+        "Ask who will write the content and whether they know Kendall from Coral Gables, because pages with only the place name swapped do not rank. Ask who owns the Search Console, Analytics and Business Profile accounts. They should be yours. Be wary of any promise of a fixed position by a fixed date."
       ]
     }
   ],
@@ -46,7 +46,7 @@
     "items": [
       {
         "title": "Law firms",
-        "text": "Immigration, injury and real estate law are searched in both languages. Separate, well-written pages per practice area and per language win cases that a single English page misses."
+        "text": "Immigration, injury and real estate law are searched by specific problem and by area. Separate, well-written pages per practice area win cases that a single general page misses."
       },
       {
         "title": "Clinics and med spas",
@@ -65,8 +65,8 @@
   "presence": "A member of our team is based in Miami, so local questions about neighbourhoods and competitors get a local answer. SEO research, content and technical work are carried out remotely by the wider TDM team.",
   "faqs": [
     {
-      "q": "Do I need SEO in Spanish to rank in Miami?",
-      "a": "If part of your customer base searches in Spanish, yes. English pages rarely rank for Spanish searches. We check how much Spanish demand exists for your services first, then build Spanish pages only where the volume justifies them."
+      "q": "Do I need a separate page for each Miami neighbourhood?",
+      "a": "Only for areas you really serve and can say something specific about. A page for Kendall or Aventura helps when it carries real detail: the services offered there, directions and reviews from customers nearby. Thin pages with only the place name changed tend not to rank."
     },
     {
       "q": "How do I get my business into the Google map results in Miami?",
@@ -78,7 +78,7 @@
     },
     {
       "q": "How much does SEO cost in Miami?",
-      "a": "It depends on scope: the number of services, areas and languages, and how much content and technical work is needed. We quote after a free consultation."
+      "a": "It depends on scope: the number of services and areas, and how much content and technical work is needed. We quote after a free consultation."
     }
   ]
 }

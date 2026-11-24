@@ -25,7 +25,7 @@
         "Back ends and APIs in Laravel or Node.js, on PostgreSQL or MySQL.",
         "Portals, marketplaces and booking systems with user roles, payments and notifications.",
         "Integrations with payment providers, accounting software, CRMs, shipping carriers and messaging tools.",
-        "Interfaces in English, Spanish and Portuguese, with multiple currencies where customers are abroad.",
+        "Multiple currencies, time zones and address formats where customers are abroad.",
         "Full source code, repository access and documentation at handover."
       ]
     },
@@ -81,8 +81,8 @@
       "a": "You do. When the project is complete and paid for, you receive the source code, repository access, infrastructure credentials and documentation, so any developer can continue the work."
     },
     {
-      "q": "Can you build a platform that works in Spanish and Portuguese as well as English?",
-      "a": "Yes. We build the interface so every label, message and email can be supplied in each language, with currency and date formats per market. We agree with you who writes and reviews the text in each language."
+      "q": "Can you build a booking system for a Miami charter or tour business?",
+      "a": "Yes. We build booking systems with live availability, hourly or daily pricing, options such as crew and catering, deposits and confirmations. We start from how your operations team works today, so the calendar in the system is one they can trust."
     }
   ]
 }

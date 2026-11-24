@@ -5,13 +5,13 @@
   "service": "development/wordpress",
   "title": "WordPress Development Agency in Miami",
   "metaTitle": "WordPress Development Agency in Miami, FL | TDM",
-  "metaDescription": "Custom WordPress sites for Miami businesses: bilingual builds, fast mobile pages, SEO-ready structure, security and maintenance. Quote after a free consultation.",
-  "lead": "TDM (The Digital Marketing Services) designs, builds and maintains WordPress websites for Miami businesses. We write custom themes, rebuild slow or hacked sites, and set up the editing screens so your own staff can update pages without a developer. For a Miami company the site usually has to do two extra jobs: work properly in English and Spanish, and load fast on the phone of someone deciding where to go in the next ten minutes.",
+  "metaDescription": "Custom WordPress sites for Miami businesses: fast mobile pages, booking and listing integrations, SEO-ready structure, security and maintenance. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and maintains WordPress websites for Miami businesses. We write custom themes, rebuild slow or hacked sites, and set up the editing screens so your own staff can update pages without a developer. For a Miami company the site usually has to do two extra jobs: connect cleanly to the booking, listing or ordering systems the business runs on, and load fast on the phone of someone deciding where to go in the next ten minutes.",
   "sections": [
     {
       "heading": "What a Miami website has to handle",
       "paragraphs": [
-        "A bilingual site is more than a translate button. Each language needs its own pages with their own addresses, its own titles and descriptions, and tags that tell Google which version to show to whom. Menus, forms, confirmation emails and error messages all need a Spanish version too. Automatic translation widgets give none of this and produce text that Spanish-speaking customers notice immediately. We build the two languages into the structure of the site from the first day.",
+        "Many visits to a Miami business site come from a phone, often from someone on the move: a visitor in South Beach choosing a restaurant, a homeowner in Kendall looking for an AC repair company, a buyer in another state browsing condos late at night. Heavy themes, oversized images and stacked plugins make those visitors wait, and they leave. We build for speed on mobile connections from the first day.",
         "Many Miami sites also depend on connections to other systems. A broker's site pulls listings from the MLS. A restaurant in Little Havana links to its reservation and ordering providers. A clinic in Coral Gables takes appointment requests and must treat patient details with care. A charter company in Coconut Grove needs live availability. WordPress can do all of this, but the quality of those integrations decides whether the site is quick and stable or slow and fragile.",
         "Florida businesses have also faced a large number of claims that their websites are not usable by people with disabilities. We build with accessibility in mind: readable contrast, keyboard navigation, text alternatives for images and properly labelled forms. That is good practice for every visitor and lowers a real risk."
       ]
@@ -23,7 +23,7 @@
       ],
       "bullets": [
         "Custom themes that carry only the code your site needs, not a pre-made theme loaded with unused features.",
-        "English and Spanish versions with correct language tags and separate, editable content for each.",
+        "Service and location pages for the districts you serve, each with its own editable content.",
         "SEO built in: clean URLs, structured data, optimised images and strong mobile speed.",
         "Migration of existing content with redirects, so current rankings are protected during a rebuild.",
         "Security hardening, updates, backups and ongoing maintenance.",
@@ -42,7 +42,7 @@
     "items": [
       {
         "title": "Law and professional firms",
-        "text": "Practice area pages in two languages, attorney profiles, and intake forms that route enquiries to the right person."
+        "text": "Practice area pages, attorney profiles, and intake forms that route enquiries to the right person."
       },
       {
         "title": "Real estate brokerages",
@@ -65,12 +65,12 @@
   "presence": "A member of our team is based in Miami. Design and development are done remotely by the wider TDM team, with review calls at each stage and a staging site you can test yourself.",
   "faqs": [
     {
-      "q": "Can you build a WordPress site in English and Spanish?",
-      "a": "Yes. We build each language as its own set of pages with correct language tags, so Google shows the right version and your team can edit both. The Spanish text should be written or reviewed by a fluent speaker, and we agree with you who supplies it."
+      "q": "Can you connect a WordPress site to the MLS or a booking system?",
+      "a": "Yes. We connect WordPress to listing feeds, reservation and ordering providers, appointment tools and CRMs. What is possible depends on what each provider allows, so we check that before design starts and build the integration so it does not slow the site down."
     },
     {
       "q": "How much does a WordPress website cost in Miami?",
-      "a": "It depends on the number of page types, languages, integrations and whether the site sells online. We give a quote after a free consultation, once the scope is clear."
+      "a": "It depends on the number of page types, integrations and whether the site sells online. We give a quote after a free consultation, once the scope is clear."
     },
     {
       "q": "How long does it take to build a WordPress site?",

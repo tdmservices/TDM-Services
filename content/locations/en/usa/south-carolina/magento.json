@@ -34,7 +34,7 @@
         "Custom modules for pricing logic, checkout steps and admin tools.",
         "Performance work: full-page caching, database and indexer tuning, frontend optimisation.",
         "Upgrades from unsupported versions, security patching and hardening.",
-        "Multi-store setups with separate storefronts, languages and currencies on one installation."
+        "Multi-store setups with separate storefronts, catalogues and currencies on one installation."
       ]
     },
     {
