@@ -25,10 +25,10 @@ export const en: ServiceGuides = {
         ],
       },
       {
-        heading: "What to expect in the first three months",
+        heading: "What to expect once campaigns start",
         body: [
-          "The first weeks go to foundations: checking tracking, restructuring campaigns and agreeing targets. Skipping this is the most common reason accounts underperform, because every later decision rests on the data it produces.",
-          "After launch, ad platforms need a learning period, usually a few weeks of steady spend, before results settle. Expect the first month to be about finding what works, the second about cutting what does not, and the third about scaling what holds. Judging a campaign on its first ten days nearly always leads to the wrong call.",
+          "The first stage goes to foundations: checking tracking, restructuring campaigns and agreeing targets. Skipping this is the most common reason accounts underperform, because every later decision rests on the data it produces.",
+          "After launch, ad platforms need a learning period of steady spend before results settle. The work then moves through three stages: finding what works, cutting what does not, and scaling what holds. How long each stage takes depends on your budget, your market and how much data the account already has, so the timeline is agreed with you in the plan. Judging a campaign on its first few days nearly always leads to the wrong call.",
         ],
       },
       {
@@ -69,7 +69,7 @@ export const en: ServiceGuides = {
       {
         heading: "What to expect, and when",
         body: [
-          "Month one is an audit and a plan: technical fixes, keyword research and a list of pages to create or improve. Months two and three are where most fixes and the first new content go live. Rankings usually begin to move between the third and sixth month, and meaningful growth in enquiries or sales tends to follow from the sixth month on. New websites and very competitive markets take longer.",
+          "The work starts with an audit and a plan: technical fixes, keyword research and a list of pages to create or improve. The fixes and the first new content go live next, rankings begin to move after that, and growth in enquiries or sales follows. SEO builds gradually, and how long it takes depends on where the site starts, how strong the competition is and how much content is needed. New websites and very competitive markets take longer.",
           "Run our free SEO audit on your main pages before a first call. It shows in a few seconds what is missing on the page itself, and gives both sides a starting point.",
         ],
       },
@@ -111,8 +111,8 @@ export const en: ServiceGuides = {
       {
         heading: "What to expect, and when",
         body: [
-          "The first month sets the base: an audit of your profiles, a content plan, a visual style and a calendar you approve before anything is posted. From the second month the rhythm is steady: content planned and approved ahead, published on schedule, and reviewed monthly against the numbers.",
-          "Followers and engagement grow gradually. Three months is a fair point at which to judge direction, and six to judge results.",
+          "The work starts with the base: an audit of your profiles, a content plan, a visual style and a calendar you approve before anything is posted. After that the rhythm is steady: content planned and approved ahead, published on schedule, and reviewed regularly against the numbers.",
+          "Followers and engagement grow gradually. How fast depends on your starting point, your market and how much content and paid promotion goes behind it, so judge the direction over a longer period rather than a handful of posts.",
         ],
       },
       {
@@ -126,7 +126,7 @@ export const en: ServiceGuides = {
     faqs: [
       { q: "How often should a business post on social media?", a: "Consistency matters more than volume. Three to five good posts a week on your main platform, with stories in between, beats daily posts nobody reacts to. Choose a pace you can hold for a year." },
       { q: "Which social media platform is best for my business?", a: "The one where your customers already spend time. Instagram and TikTok suit visual consumer products, LinkedIn suits services sold to other businesses, and Facebook still reaches older and local audiences. It is better to do one or two platforms well than five poorly." },
-      { q: "How long before social media brings customers?", a: "Organic content usually takes three to six months to build an audience that buys. Paid promotion of your best posts shortens that, because it puts them in front of people who do not follow you yet." },
+      { q: "How long before social media brings customers?", a: "It depends on your market, how often you post and whether you promote your best posts. Organic content builds an audience gradually. Paid promotion shortens that, because it puts posts in front of people who do not follow you yet." },
     ],
   },
   "development/wordpress": {
@@ -176,7 +176,7 @@ export const en: ServiceGuides = {
       {
         heading: "Is Shopify right for you?",
         body: [
-          "Shopify suits most businesses selling products directly to customers. Hosting, security, payments and updates are handled for you, so your time goes to products and marketing rather than maintenance. A store can be live in weeks.",
+          "Shopify suits most businesses selling products directly to customers. Hosting, security, payments and updates are handled for you, so your time goes to products and marketing rather than maintenance.",
           "It fits less well when your catalogue or pricing is unusually complex, when you sell mainly to other businesses with customer-specific prices, or when you need full control over the checkout and code. Our e-commerce platform quiz compares Shopify, WooCommerce, Magento and custom builds against your answers.",
         ],
       },
@@ -207,7 +207,7 @@ export const en: ServiceGuides = {
       },
     ],
     faqs: [
-      { q: "How long does it take to build a Shopify store?", a: "A store on a customised theme with a modest catalogue usually takes four to eight weeks. A fully custom design, a large catalogue or a migration from another platform takes longer, mostly because of content, product data and testing rather than code." },
+      { q: "How long does it take to build a Shopify store?", a: "It depends on the design, the size of the catalogue, the features you need and whether you are moving from another platform. A store on a customised theme is the quickest. A fully custom design, a large catalogue or a migration takes longer, mostly because of content, product data and testing rather than code. We give a timeline with the quote, once we have seen your brief." },
       { q: "Do I need Shopify Plus?", a: "Most stores do not. Plus is for high-volume businesses that need checkout customisation, wholesale channels, several storefronts or higher API limits. It makes sense once those limits, not the price, are what holds you back." },
       { q: "Can I move my existing store to Shopify?", a: "Yes. Products, customers and order history can be moved from WooCommerce, Magento and most other platforms. The part that needs care is redirecting every old address to its new one so that search rankings and links are kept." },
     ],
@@ -238,7 +238,7 @@ export const en: ServiceGuides = {
         heading: "What to expect",
         body: [
           "A Magento build runs in stages: discovery and specification, design, development, integration, data migration, testing and launch. Discovery matters more here than on any other platform, because integrations and pricing rules decided late are expensive to change.",
-          "Projects are usually measured in months, not weeks. After launch, plan for security patches, version upgrades and performance work as a permanent line in the budget.",
+          "The timeline depends on the scope: the number of integrations, storefronts and custom modules, and the state of the data to be moved. It is set during discovery. After launch, plan for security patches, version upgrades and performance work as a permanent line in the budget.",
         ],
       },
       {
@@ -298,7 +298,7 @@ export const en: ServiceGuides = {
     faqs: [
       { q: "How much does custom software cost?", a: "It depends on the number of features, integrations and user types, so a real figure needs a specification. A short discovery phase gives one. Any agency can tell you a rough range after a first call, and that range should narrow as the requirements get clearer." },
       { q: "Fixed price or time and materials?", a: "Fixed price suits work with clear, stable requirements. Time and materials suits work where you expect to learn and change direction, since you pay for what is done. Many projects combine them: a fixed price for a defined first version, then a monthly budget for improvements." },
-      { q: "How long does a custom web application take?", a: "A focused first version commonly takes three to six months from specification to launch. Larger platforms take longer and are best delivered in stages, each one usable on its own." },
+      { q: "How long does a custom web application take?", a: "It depends on the number of features, integrations and user types, and on how clear the requirements are. The discovery phase produces a timeline along with the specification. Larger platforms are best delivered in stages, each one usable on its own." },
     ],
   },
   "development/crm-erp": {
@@ -467,7 +467,7 @@ export const en: ServiceGuides = {
     ],
     faqs: [
       { q: "How much does a professional video shoot cost?", a: "It depends on the number of days, crew, talent, locations and the editing that follows. A single-location interview shoot costs a fraction of a multi-day commercial. A clear brief, with the number of finished videos you need, lets a production team quote accurately." },
-      { q: "How long does video production take from start to finish?", a: "A straightforward project commonly takes three to six weeks: one to two for planning and scripting, a day or more of shooting, and one to three weeks of editing and revisions. Complex shoots with casting, sets or animation take longer." },
+      { q: "How long does video production take from start to finish?", a: "It depends on the brief: the planning and scripting needed, the number of shoot days, and the editing and revisions that follow. Shoots with casting, sets or animation take longer. A production team can give a schedule once the brief is agreed." },
       { q: "Who owns the footage after the shoot?", a: "That is set by the contract, so agree it before the day. Businesses usually want full rights to the finished videos and the raw footage. Music and on-screen talent may have their own limits on where and for how long they can be used." },
     ],
   },
