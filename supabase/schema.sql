@@ -199,3 +199,22 @@ end $$;
 
 create index if not exists blog_posts_locale_idx
   on public.blog_posts (locale, published_on desc);
+
+-- ---------------------------------------------------------------------------
+-- Table privileges
+--
+-- Row level security decides which rows a role may touch, but the role still
+-- needs the table privilege itself. Newer Supabase projects no longer grant
+-- these automatically for tables created in the SQL editor, and without them
+-- every read and write fails with "permission denied for table …".
+-- ---------------------------------------------------------------------------
+
+grant usage on schema public to anon, authenticated;
+
+grant select on
+  public.blog_posts, public.case_studies, public.page_faqs, public.page_cases
+  to anon, authenticated;
+
+grant insert, update, delete on
+  public.blog_posts, public.case_studies, public.page_faqs, public.page_cases
+  to authenticated;
