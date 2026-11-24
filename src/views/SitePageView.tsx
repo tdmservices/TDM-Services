@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
-import { href } from "@/lib/i18n";
+import { href, isRtl } from "@/lib/i18n";
 import { cleanHtml } from "@/lib/html";
 import { localizedMetadata } from "@/lib/meta";
-import { getSitePage, getSitePageLocales } from "@/content/db";
+import Link from "next/link";
+import { getSitePage, getSitePageChildren, getSitePageLocales } from "@/content/db";
+import { JsonLd } from "@/components/JsonLd";
 import { ui } from "@/content/ui";
 import { Breadcrumbs, CtaBand, PageHero } from "@/components/Sections";
 import { HtmlContent } from "@/components/HtmlContent";
@@ -57,8 +59,45 @@ export async function SitePageView({ locale, slug: rawSlug }: { locale: Locale; 
   }
   crumbs.push({ label: page.title, href: href(locale, `/${page.slug}/`) });
 
+  // Pages published one level below this one are linked automatically, so a
+  // page never has to link to a child that is still a draft.
+  const children = await getSitePageChildren(locale, page.slug);
+  const below = children.length > 0 && (
+    <section className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
+      <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {children.map((c) => (
+          <li key={c.slug}>
+            <Link
+              href={href(locale, `/${c.slug}/`)}
+              className="flex items-center justify-between gap-3 rounded-2xl border border-mint bg-white px-5 py-4 font-semibold text-forest transition-colors hover:border-fern hover:text-fern"
+            >
+              <span>{c.title}</span>
+              <span aria-hidden>{isRtl(locale) ? "←" : "→"}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+
+  // Questions written as <details><summary> blocks also go out as FAQ structured data.
+  const text = (x: string) => x.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
+  const faqs = [...page.html.matchAll(/<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/gi)]
+    .map((m) => ({ q: text(m[1]), a: text(m[2]) }))
+    .filter((f) => f.q && f.a);
+  const faqLd = faqs.length > 0 && (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+      }}
+    />
+  );
+
   return content.hasH1 ? (
     <>
+      {faqLd}
       {/* The header is transparent with white text, made to sit on a dark hero.
           This strip gives it that ground when the page opens on light content. */}
       <div aria-hidden className="h-20 bg-forest md:h-24" />
@@ -66,15 +105,18 @@ export async function SitePageView({ locale, slug: rawSlug }: { locale: Locale; 
       <section className="mx-auto max-w-7xl px-4 pb-14 pt-6 sm:px-6">
         <HtmlContent content={content} />
       </section>
+      {below}
       <CtaBand locale={locale} />
     </>
   ) : (
     <>
+      {faqLd}
       <PageHero kicker={t.services} headline={page.title} dark />
       <Breadcrumbs items={crumbs} />
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <HtmlContent content={content} />
       </section>
+      {below}
       <CtaBand locale={locale} />
     </>
   );

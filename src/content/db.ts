@@ -255,6 +255,15 @@ export async function getSitePages(locale: Locale): Promise<Pick<SitePage, "slug
   return (rows as { slug: string; updated_at: string }[]).map((r) => ({ slug: r.slug, updatedAt: r.updated_at }));
 }
 
+/** Published pages one level below a page ("usa/texas" under "usa") — for automatic links to them. */
+export const getSitePageChildren = cache(async (locale: Locale, slug: string): Promise<{ slug: string; title: string }[]> => {
+  const rows = await safely(`site_pages children(${locale}/${slug})`, () =>
+    publicDb().from("site_pages").select("slug, title").eq("locale", locale).eq("published", true).like("slug", `${slug.replace(/[%_]/g, "")}/%`).order("title"),
+  );
+  const depth = slug.split("/").length + 1;
+  return (rows as { slug: string; title: string }[]).filter((r) => r.slug.split("/").length === depth);
+});
+
 /** Which languages a published HTML page exists in — for hreflang. */
 export async function getSitePageLocales(slug: string): Promise<Locale[]> {
   const rows = await safely(`site_pages locales(${slug})`, () =>
