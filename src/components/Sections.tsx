@@ -233,12 +233,15 @@ export function ShatterSurface({ index = 0 }: { index?: number }) {
  * pass is hidden from screen readers, which would otherwise hear every badge
  * announced twice.
  */
-export function PartnerRail({ size = "sm" }: { size?: "sm" | "lg" }) {
-  const chip =
-    size === "lg"
+export function PartnerRail({ size = "sm", bare = false }: { size?: "sm" | "lg"; bare?: boolean }) {
+  // `bare` drops the white chip and shows each badge as a white mark, for dark
+  // backgrounds such as the footer.
+  const chip = bare
+    ? "h-14 w-32 opacity-80 hover:opacity-100"
+    : size === "lg"
       ? "h-14 w-28 rounded-xl bg-white shadow-lg shadow-black/20"
       : "h-11 w-24 rounded-xl bg-white/95 shadow-sm";
-  const logo = size === "lg" ? "max-h-9" : "max-h-7";
+  const logo = bare ? "max-h-11" : size === "lg" ? "max-h-9" : "max-h-7";
 
   return (
     <div
@@ -248,7 +251,7 @@ export function PartnerRail({ size = "sm" }: { size?: "sm" | "lg" }) {
         WebkitMaskImage: "linear-gradient(to right, transparent, #000 6%, #000 94%, transparent)",
       }}
     >
-      <div className="badge-marquee flex w-max items-center gap-3 py-1">
+      <div className={`badge-marquee flex w-max items-center py-1 ${bare ? "gap-8" : "gap-3"}`}>
         {[0, 1].map((pass) =>
           partners.map((partner) => (
             <span
@@ -258,7 +261,7 @@ export function PartnerRail({ size = "sm" }: { size?: "sm" | "lg" }) {
               className={`flex shrink-0 items-center justify-center px-3 transition-transform duration-300 hover:scale-105 ${chip}`}
             >
               <Image
-                src={partner.src}
+                src={bare ? partner.mono : partner.src}
                 alt={pass === 1 ? "" : partner.name}
                 width={partner.width}
                 height={partner.height}

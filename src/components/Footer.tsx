@@ -209,7 +209,7 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
             full width; squeezed into a flex row beside the pill it had nowhere
             to drift. */}
         <div className="mt-12 space-y-6 border-t border-white/10 pt-8">
-          <PartnerRail size="lg" />
+          <PartnerRail size="lg" bare />
           <div className="flex justify-center md:justify-end">
 
           <span className="kicker-pill pill-shimmer inline-flex w-fit items-center gap-3 rounded-full border border-amber/50 bg-gradient-to-r from-amber/25 via-amber/12 to-amber/25 px-5 py-2.5 backdrop-blur-sm">
