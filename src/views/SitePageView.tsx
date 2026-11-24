@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
-import { href, isRtl } from "@/lib/i18n";
+import { href, isRtl, localePrefix } from "@/lib/i18n";
+import { site } from "@/lib/site";
 import { cleanHtml } from "@/lib/html";
 import { localizedMetadata } from "@/lib/meta";
 import Link from "next/link";
@@ -85,6 +86,21 @@ export async function SitePageView({ locale, slug: rawSlug }: { locale: Locale; 
   const faqs = [...page.html.matchAll(/<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/gi)]
     .map((m) => ({ q: text(m[1]), a: text(m[2]) }))
     .filter((f) => f.q && f.a);
+  const pageLd = (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: page.title,
+        description: page.metaDescription || undefined,
+        url: `${site.url}${localePrefix(locale)}/${page.slug}/`,
+        inLanguage: locale,
+        dateModified: page.updatedAt,
+        isPartOf: { "@type": "WebSite", "@id": `${site.url}/#website`, url: site.url, name: site.name },
+        publisher: { "@type": "Organization", "@id": `${site.url}/#organization`, name: site.name, url: site.url },
+      }}
+    />
+  );
   const faqLd = faqs.length > 0 && (
     <JsonLd
       data={{
@@ -97,6 +113,7 @@ export async function SitePageView({ locale, slug: rawSlug }: { locale: Locale; 
 
   return content.hasH1 ? (
     <>
+      {pageLd}
       {faqLd}
       {/* The header is transparent with white text, made to sit on a dark hero.
           This strip gives it that ground when the page opens on light content. */}
@@ -110,6 +127,7 @@ export async function SitePageView({ locale, slug: rawSlug }: { locale: Locale; 
     </>
   ) : (
     <>
+      {pageLd}
       {faqLd}
       <PageHero kicker={t.services} headline={page.title} dark />
       <Breadcrumbs items={crumbs} />
