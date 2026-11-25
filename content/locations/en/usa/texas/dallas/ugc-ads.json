@@ -46,19 +46,41 @@
   "cards": {
     "heading": "Where Dallas brands use UGC ads",
     "items": [
-      { "title": "Wholesale brands going direct", "text": "Gift, home and apparel labels adding an online store beside their showroom business." },
-      { "title": "Beauty and personal care", "text": "Routine, texture and first-impression videos, with claims kept within advertising rules." },
-      { "title": "Food and drink", "text": "Taste tests, recipes and unboxings for sauces, snacks and beverages sold online." },
-      { "title": "Fitness and wellness products", "text": "Demonstrations in real homes and gyms that show the product in use." },
-      { "title": "Home and outdoor goods", "text": "Patio, kitchen and decor products shown in the kind of house the buyer lives in." }
+      {
+        "title": "Wholesale brands going direct",
+        "text": "Gift, home and apparel labels adding an online store beside their showroom business."
+      },
+      {
+        "title": "Beauty and personal care",
+        "text": "Routine, texture and first-impression videos, with claims kept within advertising rules."
+      },
+      {
+        "title": "Food and drink",
+        "text": "Taste tests, recipes and unboxings for sauces, snacks and beverages sold online."
+      },
+      {
+        "title": "Home and outdoor goods",
+        "text": "Patio, kitchen and decor products shown in the kind of house the buyer lives in."
+      }
     ]
   },
   "presence": "TDM serves Dallas brands remotely and has no office or creators based in the city. Scripting, talent sourcing, filming direction and editing are managed from our Lahore production hub, with briefs and approvals handled online.",
   "faqs": [
-    { "q": "Are your UGC creators in Dallas?", "a": "Not necessarily. Production is managed from our hub in Lahore and we source talent to match the customers you are targeting. We have no creators based in Dallas, and we brief each video closely so the setting and wording suit your audience." },
-    { "q": "What do UGC ads cost for a Dallas brand?", "a": "The price depends on scope: the number of concepts, hooks and versions in a batch. We provide a quote after a free consultation." },
-    { "q": "Do UGC ads work for a brand that mostly sells wholesale?", "a": "They can, for the consumer side of the business. If you have or plan an online store, creator-style ads are a practical way to reach shoppers who will never visit a showroom. They are less useful for reaching retail buyers." },
-    { "q": "How do we get products to you for filming?", "a": "You ship samples for the shoot, and we confirm the address, quantities and timing during planning. Scripts and concepts are approved by you before filming begins." },
-    { "q": "How long does a batch of UGC ads take?", "a": "It depends on the brief, the number of concepts and how quickly samples and approvals arrive. The timeline is agreed in the plan." }
+    {
+      "q": "Are your UGC creators in Dallas?",
+      "a": "Not necessarily. Production is managed from our hub in Lahore and we source talent to match the customers you are targeting. We have no creators based in Dallas, and we brief each video closely so the setting and wording suit your audience."
+    },
+    {
+      "q": "What do UGC ads cost for a Dallas brand?",
+      "a": "The price depends on scope: the number of concepts, hooks and versions in a batch. We provide a quote after a free consultation."
+    },
+    {
+      "q": "Do UGC ads work for a brand that mostly sells wholesale?",
+      "a": "They can, for the consumer side of the business. If you have or plan an online store, creator-style ads are a practical way to reach shoppers who will never visit a showroom. They are less useful for reaching retail buyers."
+    },
+    {
+      "q": "How long does a batch of UGC ads take?",
+      "a": "It depends on the brief, the number of concepts and how quickly samples and approvals arrive. The timeline is agreed in the plan."
+    }
   ]
 }

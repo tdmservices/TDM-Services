@@ -11,28 +11,27 @@
     {
       "heading": "Where standard software stops fitting Dallas companies",
       "paragraphs": [
-        "A consultancy or IT provider selling to corporate offices in Plano, Irving or downtown Dallas does not close a deal in one call. There are several contacts at the buyer, a procurement step, a proposal that is revised twice and a renewal a year later. An off-the-shelf CRM can record this, but usually only after the team has bent its stages and fields into shapes nobody likes, and the per-seat bill grows with every hire.",
+        "A consultancy or IT provider selling to corporate offices in Plano, Irving or downtown Dallas does not close a deal in one call. There are several contacts at the buyer, a procurement step, a proposal that is revised twice and a renewal a year later. An off-the-shelf CRM can record this only after the team bends its stages and fields into shapes nobody likes.",
         "Distribution has a different problem. North Texas moves a great deal of freight through the airport, the rail yards and the warehouse districts in the south of the county, and a distributor's stock may sit in more than one building, with part of it at a third-party warehouse. Wholesale brands that show at the Dallas Market Center take a rush of orders during market weeks, each with its own price list, terms and ship date, then go quiet until the next one. Home service firms see the reverse after a hailstorm: hundreds of enquiries in days, each needing an inspection, an estimate, a crew and often paperwork for an insurer."
       ]
     },
     {
       "heading": "What we build",
       "paragraphs": [
-        "We start with the module that removes the most manual work and build it on an architecture that lets the next one be added later. You do not pay for a full ERP on day one."
+        "We start with the module that removes the most manual work and build it on an architecture that lets the next one be added later."
       ],
       "bullets": [
         "A CRM with your own pipeline stages, approval chains and account structure, including multiple contacts and sites per client.",
         "Inventory across several stock locations, with purchase orders, reorder points and wholesale price lists.",
         "Job and crew scheduling for service firms, with territories drawn by city or suburb.",
         "Finance, HR and operations modules, with role-based access so each person sees what their job requires.",
-        "Integrations with your website forms, online store, accounting package and email, so data is entered once.",
-        "Dashboards that show pipeline, stock and workload on one screen."
+        "Integrations with your website forms, online store, accounting package and email, so data is entered once."
       ]
     },
     {
       "heading": "Moving your data and your people across",
       "paragraphs": [
-        "Most projects replace something: a spreadsheet that one person understands, an old database, or a subscription CRM that is half used. We export the historical records, remove duplicates, correct the formats and verify the totals against the old system before anyone relies on the new one. Staff are given access by role, and the first module goes live while the old tool is still available, so nobody is forced to switch in the middle of a busy week.",
+        "Most projects replace something: a spreadsheet that one person understands, an old database, or a subscription CRM that is half used. We export the historical records, remove duplicates, correct the formats and verify the totals against the old system before anyone relies on the new one.",
         "Tax and invoicing rules need the same care. Texas sales tax combines a state rate with local rates that depend on the address, and the state taxes some services that others do not. We configure the system to follow the advice of your accountant, who should confirm what you must collect and where."
       ]
     },
@@ -46,19 +45,41 @@
   "cards": {
     "heading": "Systems Dallas companies ask for",
     "items": [
-      { "title": "B2B sales CRM", "text": "Long sales cycles, several decision makers per account, proposals and renewals tracked in one place." },
-      { "title": "Wholesale order management", "text": "Market-week orders, retailer price lists, ship windows and reorders for brands that sell through showrooms." },
-      { "title": "Distribution and stock control", "text": "Stock across more than one warehouse, purchase orders and picking, connected to the online store." },
-      { "title": "Storm-season job tracking", "text": "Leads, inspections, estimates, crews and insurer paperwork for roofers and repair firms when volume spikes." },
-      { "title": "Staffing and HR records", "text": "Candidates, placements, timesheets and leave for agencies and growing employers." }
+      {
+        "title": "B2B sales CRM",
+        "text": "Long sales cycles, several decision makers per account, proposals and renewals tracked in one place."
+      },
+      {
+        "title": "Wholesale order management",
+        "text": "Market-week orders, retailer price lists, ship windows and reorders for brands that sell through showrooms."
+      },
+      {
+        "title": "Distribution and stock control",
+        "text": "Stock across more than one warehouse, purchase orders and picking, connected to the online store."
+      },
+      {
+        "title": "Storm-season job tracking",
+        "text": "Leads, inspections, estimates, crews and insurer paperwork for roofers and repair firms when volume spikes."
+      }
     ]
   },
   "presence": "TDM has no office in Dallas and works with companies there remotely. Discovery workshops, demos of each milestone and training sessions are held by video call, and you can test the system on a staging site throughout the build.",
   "faqs": [
-    { "q": "Is a custom CRM worth it for a mid-sized Dallas company?", "a": "It is when your process is unusual enough that staff work around the software instead of in it, or when per-seat licence fees keep rising as you hire. If a standard tool fits how you sell and operate, we will tell you to keep it." },
-    { "q": "What does custom CRM or ERP development cost in Dallas?", "a": "The cost follows the scope: the number of modules, the integrations and the amount of data to migrate. We give a quote after a free consultation and a discovery session." },
-    { "q": "Can the system connect to our accounting software and website?", "a": "Yes. Integration is usually the main reason to build a custom system. Website enquiries can flow into the CRM, store orders can update inventory and invoices can sync with your accounting package." },
-    { "q": "How long does a CRM or ERP build take?", "a": "It depends on your requirements and the brief. Larger systems are released module by module, so the team gains something useful early. The milestones are agreed in the plan before the build begins." },
-    { "q": "Can you build a system for a company with offices across DFW?", "a": "Yes. We set up locations, territories and permissions so a branch in Fort Worth, a warehouse in the south of the county and a sales office in Plano each see their own work, while management sees all of it." }
+    {
+      "q": "Is a custom CRM worth it for a mid-sized Dallas company?",
+      "a": "It is when your process is unusual enough that staff work around the software instead of in it, or when per-seat licence fees keep rising as you hire. If a standard tool fits how you sell and operate, we will tell you to keep it."
+    },
+    {
+      "q": "What does custom CRM or ERP development cost in Dallas?",
+      "a": "The cost follows the scope: the number of modules, the integrations and the amount of data to migrate. We give a quote after a free consultation and a discovery session."
+    },
+    {
+      "q": "Can the system connect to our accounting software and website?",
+      "a": "Yes. Integration is usually the main reason to build a custom system. Website enquiries can flow into the CRM, store orders can update inventory and invoices can sync with your accounting package."
+    },
+    {
+      "q": "How long does a CRM or ERP build take?",
+      "a": "It depends on your requirements and the brief. Larger systems are released module by module, so the team gains something useful early. The milestones are agreed in the plan before the build begins."
+    }
   ]
 }

@@ -32,8 +32,7 @@
     {
       "heading": "Tax and local delivery settings",
       "paragraphs": [
-        "Texas charges a state sales tax and cities and other local bodies add their own, so the rate changes with the delivery address. Wholesale customers who buy for resale are normally exempt when they provide a resale certificate. Shopify can handle both cases, but only when tax settings and customer exemptions are configured with care. Your accountant should confirm where you must collect, including in other states, and we set the store up to match.",
-        "Brands with a shop or showroom in Dallas can also offer local pickup and delivery zones, which suits customers in the Park Cities or Uptown who would rather collect an order the same day."
+        "Texas charges a state sales tax and cities and other local bodies add their own, so the rate changes with the delivery address. Wholesale customers who buy for resale are normally exempt when they provide a resale certificate. Shopify can handle both cases, but only when tax settings and customer exemptions are configured with care. Your accountant should confirm where you must collect, including in other states, and we set the store up to match."
       ]
     }
   ],
@@ -57,10 +56,6 @@
         "text": "Salsas, sauces, pecans and sweets sold with subscriptions, gift boxes and shipping rules that respect the heat."
       },
       {
-        "title": "Beauty and wellness",
-        "text": "Routine builders, reviews and repeat-purchase flows for skincare and supplement labels."
-      },
-      {
         "title": "Replatforming",
         "text": "A move from an ageing cart to Shopify with every old address redirected and search performance monitored afterwards."
       }
@@ -75,10 +70,6 @@
     {
       "q": "Does Shopify collect Texas sales tax correctly?",
       "a": "It calculates state and local rates by address once your registration and settings are entered properly. Exempt wholesale customers need to be marked as such. We configure the store according to the guidance your accountant gives you."
-    },
-    {
-      "q": "Is Shopify or WooCommerce better for a Dallas product brand?",
-      "a": "Shopify suits most brands that want a dependable store without managing hosting and security. WooCommerce can fit when the store is one part of a larger content site. We build on both and recommend one after looking at your catalogue and team."
     },
     {
       "q": "What does it cost to build a Shopify store?",

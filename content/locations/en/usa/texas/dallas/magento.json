@@ -12,8 +12,7 @@
       "heading": "Why Magento has a place in North Texas",
       "paragraphs": [
         "The region's road, rail and air links have filled it with distribution businesses. Industrial suppliers, building material merchants, auto parts wholesalers, foodservice distributors and medical supply companies operate from warehouses along the interstates and around the airport. Their customers are other businesses that expect to log in, see their negotiated prices, reorder from a past invoice and pay on account. That is ordinary work for Magento and hard work for lighter platforms.",
-        "Catalogue size is the other reason. A distributor may carry tens of thousands of SKUs with attributes such as dimensions, fitment or material grade that buyers filter by. Magento's product and attribute model was designed for that scale, provided the indexing, search and hosting are set up by people who know the platform.",
-        "We are candid about fit. Magento costs more to run than Shopify or WooCommerce and needs regular patching. For a straightforward consumer store we will usually recommend something simpler, and we build on those platforms as well."
+        "Catalogue size is the other reason. A distributor may carry tens of thousands of SKUs with attributes such as dimensions, fitment or material grade that buyers filter by. Magento's product and attribute model was designed for that scale, provided the indexing, search and hosting are set up by people who know the platform."
       ]
     },
     {
@@ -62,10 +61,6 @@
       {
         "title": "Showroom wholesalers",
         "text": "Trade portals that let retail buyers reorder between market visits, with minimums and case packs enforced."
-      },
-      {
-        "title": "Multi-brand retailers",
-        "text": "Several storefronts sharing one stock pool and one admin, each with its own design and domain."
       }
     ]
   },

@@ -12,8 +12,7 @@
       "heading": "Where Dallas companies outgrow packaged software",
       "paragraphs": [
         "A freight broker near the airport tracks loads in one system, emails rate confirmations from another and answers \"where is my shipment\" by phone. A commercial property manager in Uptown sends tenants to three different logins for rent, maintenance and documents. A staffing agency in Irving matches candidates to shifts with a shared spreadsheet. In each case the business runs, but staff spend their days copying data between tools and customers wait for answers a portal could give them instantly.",
-        "Packaged products solve the general version of these problems. They rarely match how one company prices, approves or schedules. When the workarounds start to cost more than the licence saves, a purpose-built application begins to pay for itself. The point of custom software is to fit the way the company already wins business, not to force a new process on it.",
-        "North Texas companies also grow by buying competitors, and each acquisition arrives with its own software. A custom layer that pulls data from several inherited systems into one view is often the fastest way to run the combined business."
+        "Packaged products solve the general version of these problems. They rarely match how one company prices, approves or schedules. When the workarounds start to cost more than the licence saves, a purpose-built application begins to pay for itself. The point of custom software is to fit the way the company already wins business, not to force a new process on it."
       ]
     },
     {
@@ -60,10 +59,6 @@
       {
         "title": "Field service companies",
         "text": "Job booking, routing across the Metroplex and customer notifications for crews working from Mesquite to Flower Mound."
-      },
-      {
-        "title": "Event and venue operators",
-        "text": "Booking systems with availability, deposits and add-ons for venues, tours and experiences."
       }
     ]
   },

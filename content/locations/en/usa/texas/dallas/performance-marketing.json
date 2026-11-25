@@ -25,7 +25,6 @@
         "Google Search, Shopping, Performance Max and YouTube campaigns with clean structure and bid strategies set to your margin.",
         "Meta campaigns on Facebook and Instagram, from prospecting to conversion, with creative tested in short sprints.",
         "TikTok campaigns built on short-form creative from our media team.",
-        "Retargeting that brings back visitors who left a cart or a quote form unfinished.",
         "Landing pages for individual offers, built and A/B tested by our developers.",
         "Conversion tracking checked end to end, including calls where your phone system allows it."
       ]
@@ -40,7 +39,7 @@
     {
       "heading": "Checks worth making before you sign",
       "paragraphs": [
-        "Confirm that the ad accounts are created in your company's name and that you hold admin access. Ask how leads will be counted and whether calls are included. Ask what happens to the budget in a slow week. An agency that cannot answer those three plainly will struggle to account for your money."
+        "Confirm that the ad accounts are created in your company's name and that you hold admin access. Ask how leads will be counted and whether calls are included. Ask what happens to the budget in a slow week."
       ]
     }
   ],
@@ -64,10 +63,6 @@
         "text": "Meta and Google campaigns for individual treatments, written within each platform's rules on health claims."
       },
       {
-        "title": "Product brands",
-        "text": "Shopping and Meta campaigns measured against margin for labels that sell direct as well as through wholesale buyers."
-      },
-      {
         "title": "B2B vendors",
         "text": "Search campaigns on precise industry terms, with paid social on LinkedIn where the buyer is a job title and not a keyword."
       }
@@ -78,10 +73,6 @@
     {
       "q": "How much should a Dallas business spend on Google Ads?",
       "a": "There is no single figure. The right budget depends on click costs in your category, the areas you target and what a customer is worth to you. We work this out from your margins during the audit and suggest a starting level you can adjust."
-    },
-    {
-      "q": "Should I advertise across all of DFW or only near my location?",
-      "a": "Start near your location or within the area you can serve profitably. Once cost per lead is stable there, we widen the targeting one area at a time and compare results."
     },
     {
       "q": "Can ads be turned on quickly after a hailstorm in Dallas?",

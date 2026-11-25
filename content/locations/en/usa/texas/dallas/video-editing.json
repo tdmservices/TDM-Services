@@ -46,20 +46,53 @@
   "cards": {
     "heading": "Editing work Dallas clients send us",
     "items": [
-      { "title": "Conference and event recaps", "text": "Highlights films and speaker clips cut from long recordings of talks, panels and trade show days." },
-      { "title": "LinkedIn clips for B2B firms", "text": "Short, captioned excerpts from interviews and webinars, aimed at professional buyers." },
-      { "title": "Home service proof videos", "text": "Drone and before-and-after footage from roofing, remodelling and landscaping jobs, edited into ads and website clips." },
-      { "title": "Restaurant and venue reels", "text": "Weekly short-form content cut from footage the venue films itself." },
-      { "title": "Creator footage for ads", "text": "Raw clips from creators trimmed, captioned and versioned into testable ad variations." },
-      { "title": "Property walkthroughs", "text": "Listing and development footage edited with titles, maps and music for brokers and builders." }
+      {
+        "title": "Conference and event recaps",
+        "text": "Highlights films and speaker clips cut from long recordings of talks, panels and trade show days."
+      },
+      {
+        "title": "LinkedIn clips for B2B firms",
+        "text": "Short, captioned excerpts from interviews and webinars, aimed at professional buyers."
+      },
+      {
+        "title": "Home service proof videos",
+        "text": "Drone and before-and-after footage from roofing, remodelling and landscaping jobs, edited into ads and website clips."
+      },
+      {
+        "title": "Restaurant and venue reels",
+        "text": "Weekly short-form content cut from footage the venue films itself."
+      },
+      {
+        "title": "Creator footage for ads",
+        "text": "Raw clips from creators trimmed, captioned and versioned into testable ad variations."
+      },
+      {
+        "title": "Property walkthroughs",
+        "text": "Listing and development footage edited with titles, maps and music for brokers and builders."
+      }
     ]
   },
   "presence": "TDM does not have an office or an edit suite in Dallas. We serve Dallas businesses remotely, and all editing is carried out at our production hub in Lahore. Footage is transferred online and you review cuts through a shared link.",
   "faqs": [
-    { "q": "Do you have video editors in Dallas?", "a": "No. Our editors work from TDM's production hub in Lahore and serve Dallas clients remotely. You upload footage, review cuts online and give timestamped feedback." },
-    { "q": "How much does video editing cost for a Dallas business?", "a": "Pricing reflects the scope: the amount of footage, the number of finished videos and the level of graphics and versioning. We quote after a free consultation." },
-    { "q": "Can you edit footage we filmed on phones?", "a": "Yes. Phone footage is often the right look for social content and ads. We stabilise it where needed, correct colour and sound, add captions and cut it to the right length." },
-    { "q": "How quickly will we get our videos back?", "a": "Turnaround depends on the requirements and the brief, including how much footage there is and how many versions are needed. Delivery dates are agreed in the plan before work starts." },
-    { "q": "Can one long recording become several videos?", "a": "Yes. A recorded talk, webinar or interview can usually yield a highlights edit and a set of short clips for different channels. We plan the list of outputs with you before cutting." }
+    {
+      "q": "Do you have video editors in Dallas?",
+      "a": "No. Our editors work from TDM's production hub in Lahore and serve Dallas clients remotely. You upload footage, review cuts online and give timestamped feedback."
+    },
+    {
+      "q": "How much does video editing cost for a Dallas business?",
+      "a": "Pricing reflects the scope: the amount of footage, the number of finished videos and the level of graphics and versioning. A free consultation comes first, then a quote."
+    },
+    {
+      "q": "Can you edit footage we filmed on phones?",
+      "a": "Yes. Phone footage is often the right look for social content and ads. We stabilise it where needed, correct colour and sound, add captions and cut it to the right length."
+    },
+    {
+      "q": "How quickly will we get our videos back?",
+      "a": "Turnaround depends on the requirements and the brief, including how much footage there is and how many versions are needed. Delivery dates are agreed in the plan before work starts."
+    },
+    {
+      "q": "Can one long recording become several videos?",
+      "a": "Yes. A recorded talk, webinar or interview can usually yield a highlights edit and a set of short clips for different channels. We plan the list of outputs with you before cutting."
+    }
   ]
 }

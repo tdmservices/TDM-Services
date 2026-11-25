@@ -46,21 +46,45 @@
   "cards": {
     "heading": "Creative Dallas advertisers commonly need",
     "items": [
-      { "title": "Storm-ready sets for home services", "text": "Roofing and repair adverts prepared ahead of hail season, with area versions and clear, lawful offers." },
-      { "title": "B2B campaign assets", "text": "LinkedIn images, carousels and display banners for firms selling to corporate offices." },
-      { "title": "Suburb-specific versions", "text": "The same offer adapted for Plano, Frisco, Arlington or Fort Worth, so each audience sees its own area." },
-      { "title": "E-commerce testing batches", "text": "Offer, benefit and product-led statics for brands running Meta and TikTok campaigns against margin." },
-      { "title": "Practice and clinic creative", "text": "Treatment and consultation adverts for medical and cosmetic practices, designed within platform policy." },
-      { "title": "Seasonal refreshes", "text": "New batches timed to summer heat, the autumn season and the holidays, before the old ones fade." }
+      {
+        "title": "Storm-ready sets for home services",
+        "text": "Roofing and repair adverts prepared ahead of hail season, with area versions and clear, lawful offers."
+      },
+      {
+        "title": "B2B campaign assets",
+        "text": "LinkedIn images, carousels and display banners for firms selling to corporate offices."
+      },
+      {
+        "title": "Suburb-specific versions",
+        "text": "The same offer adapted for Plano, Frisco, Arlington or Fort Worth, so each audience sees its own area."
+      },
+      {
+        "title": "E-commerce testing batches",
+        "text": "Offer, benefit and product-led statics for brands running Meta and TikTok campaigns against margin."
+      },
+      {
+        "title": "Practice and clinic creative",
+        "text": "Treatment and consultation adverts for medical and cosmetic practices, designed within platform policy."
+      }
     ]
   },
   "presence": "TDM is not located in Dallas and works with Dallas advertisers remotely. Concepts, design and versioning are produced by our media team online, in step with whoever manages your ad accounts, whether that is TDM or your own staff.",
   "faqs": [
-    { "q": "Should my ads mention Dallas or my specific suburb?", "a": "Use the place your customer identifies with. For consumer services that is usually the city or suburb they live in, so we make area versions. For business-to-business offers, a regional reference such as DFW or North Texas often fits better." },
-    { "q": "How much do ad creatives cost in Dallas?", "a": "Cost depends on scope: the number of concepts, formats and sizes in each batch and how often they are refreshed. We quote after a free consultation." },
-    { "q": "How often should ad creative be replaced?", "a": "When the data says so. On accounts with higher spend, performance tends to decline as the same people see an advert repeatedly, so we watch frequency and results and prepare new versions before costs rise." },
-    { "q": "Can you prepare storm-season ads in advance?", "a": "Yes. We design and get approval for the creative ahead of time, with versions for the areas you serve, so the campaign can start as soon as it is needed." },
-    { "q": "How long does a batch of creatives take to produce?", "a": "It depends on the brief, the number of concepts and how many sizes are required. The schedule for each batch is agreed in the plan." },
-    { "q": "Can you design ads if another agency runs our campaigns?", "a": "Yes. We can supply creative to your in-house team or another agency. Results are strongest when we are given access to performance data, because it shapes the next batch." }
+    {
+      "q": "Should my ads mention Dallas or my specific suburb?",
+      "a": "Use the place your customer identifies with. For consumer services that is usually the city or suburb they live in, so we make area versions. For business-to-business offers, a regional reference such as DFW or North Texas often fits better."
+    },
+    {
+      "q": "How much do ad creatives cost in Dallas?",
+      "a": "Cost depends on scope: the number of concepts, formats and sizes in each batch and how often they are refreshed. We quote after a free consultation."
+    },
+    {
+      "q": "How often should ad creative be replaced?",
+      "a": "When the data says so. On accounts with higher spend, performance tends to decline as the same people see an advert repeatedly, so we watch frequency and results and prepare new versions before costs rise."
+    },
+    {
+      "q": "How long does a batch of creatives take to produce?",
+      "a": "It depends on the brief, the number of concepts and how many sizes are required. The schedule for each batch is agreed in the plan."
+    }
   ]
 }

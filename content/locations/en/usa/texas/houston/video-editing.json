@@ -11,7 +11,7 @@
     {
       "heading": "The footage Houston companies already have",
       "paragraphs": [
-        "Most businesses here are sitting on more video than they use. An equipment maker has phone clips from the shop floor and a factory acceptance test. A contractor has drone passes over a job site. A surgeon has a recorded talk and a few patient-education explanations. A restaurant group has months of kitchen clips from staff phones. A company that exhibited at one of the big energy conferences came home with booth interviews nobody has opened since.",
+        "Most businesses here are sitting on more video than they use. An equipment maker has phone clips from the shop floor and a factory acceptance test. A contractor has drone passes over a job site. A surgeon has a recorded talk and a few patient-education explanations. A restaurant group has months of kitchen clips from staff phones.",
         "Editing turns that material into something a buyer will watch. A long capability video becomes a short overview for the home page, several clips for LinkedIn and a muted, captioned version for a trade show screen. We start by reviewing what you have and telling you plainly what it can support. If a gap needs a short pickup shot, we say so before editing begins."
       ]
     },
@@ -19,7 +19,7 @@
       "heading": "Editing technical and regulated material",
       "paragraphs": [
         "Industrial video has to be right. A caption that names the wrong component, or a cut that shows a step out of order, costs credibility with an engineer in seconds. We ask for a short glossary and a named reviewer on your side, and on-screen text is approved before final export.",
-        "Clearance matters as much as accuracy. Footage filmed at a customer's plant may show their logos, equipment tags or staff badges. Clinic footage may show patients or screens. Tell us what is cleared for publication and we blur, crop or cut the rest. If you are unsure, check with the site owner or your compliance contact before we publish anything on your behalf."
+        "Clearance matters as much as accuracy. Footage filmed at a customer's plant may show their logos, equipment tags or staff badges. Clinic footage may show patients or screens. Tell us what is cleared for publication and we blur, crop or cut the rest."
       ],
       "bullets": [
         "Hook-first ad cuts for Meta, TikTok and YouTube, with several openings per concept for testing.",
@@ -33,7 +33,7 @@
       "heading": "How remote editing works from Houston",
       "paragraphs": [
         "You upload raw files to a shared folder. We agree the platforms, lengths and messages each edit must serve, then deliver a first batch for review instead of one video at a time. You leave timestamped comments and we revise. Because our editors are many hours ahead of Central Time, work often moves forward overnight relative to your working day.",
-        "For clients whose advertising we also manage, editors see how each cut performs in the ad account and re-cut weak openings, lengths and calls to action based on those numbers. For a home service company, that might mean finding out whether a technician at the door or a failed AC unit holds attention longer in the first seconds of a summer ad."
+        "For clients whose advertising we also manage, editors see how each cut performs in the ad account and re-cut weak openings, lengths and calls to action based on those numbers."
       ]
     },
     {
@@ -46,20 +46,49 @@
   "cards": {
     "heading": "Editing work Houston businesses ask for",
     "items": [
-      { "title": "Capability and plant videos", "text": "Shop, yard and job-site footage cut into a clear overview for technical buyers, with accurate labels and captions." },
-      { "title": "Conference and booth footage", "text": "Interviews and demonstrations from energy and industry events turned into clips for sales follow-up and social." },
-      { "title": "Physician and clinic content", "text": "Recorded explanations edited into short patient-education videos, with careful wording and privacy checks." },
-      { "title": "Home service ads", "text": "Seasonal ad cuts for AC, roofing and restoration firms, versioned so they are ready when the weather changes." },
-      { "title": "Restaurant and food reels", "text": "Kitchen and dining-room clips paced for feeds, delivered on a content calendar." },
-      { "title": "Training and safety videos", "text": "Internal recordings tidied up with titles, chapters and captions for onboarding crews." }
+      {
+        "title": "Capability and plant videos",
+        "text": "Shop, yard and job-site footage cut into a clear overview for technical buyers, with accurate labels and captions."
+      },
+      {
+        "title": "Conference and booth footage",
+        "text": "Interviews and demonstrations from energy and industry events turned into clips for sales follow-up and social."
+      },
+      {
+        "title": "Physician and clinic content",
+        "text": "Recorded explanations edited into short patient-education videos, with careful wording and privacy checks."
+      },
+      {
+        "title": "Home service ads",
+        "text": "Seasonal ad cuts for AC, roofing and restoration firms, versioned so they are ready when the weather changes."
+      },
+      {
+        "title": "Restaurant and food reels",
+        "text": "Kitchen and dining-room clips paced for feeds, delivered on a content calendar."
+      }
     ]
   },
   "presence": "TDM works with Houston businesses remotely. We have no office, studio or editor in the city. Editing is carried out at our production hub in Lahore, and footage, review links and final files are shared online.",
   "faqs": [
-    { "q": "Is there a TDM editing studio in Houston?", "a": "No. Our editors work from TDM's production hub in Lahore. Houston clients upload footage, review cuts through shared links and receive finished files online." },
-    { "q": "Can you edit footage we filmed ourselves on a phone or drone?", "a": "Yes. Many clients send phone footage, drone clips, archive material or recordings from events. We review it, tell you what it can support, and point out any gaps that a short extra shot would fix." },
-    { "q": "How much does video editing cost for a Houston business?", "a": "It depends on the scope: the amount of footage, the number of finished videos and the formats required. We quote after a free consultation." },
-    { "q": "How do you handle confidential footage from a plant or client site?", "a": "Tell us what has been cleared for publication. We blur or remove logos, tags, badges, screens and anything else you flag, and on-screen text is approved by your reviewer before final export. Permission from the site owner remains your responsibility to obtain." },
-    { "q": "How fast can edits be turned around?", "a": "It depends on the brief and the volume of footage, and the schedule is agreed in the plan. The time difference with our editing hub means revisions often progress while your Houston office is closed." }
+    {
+      "q": "Is there a TDM editing studio in Houston?",
+      "a": "No. Our editors work from TDM's production hub in Lahore. Houston clients upload footage, review cuts through shared links and receive finished files online."
+    },
+    {
+      "q": "Can you edit footage we filmed ourselves on a phone or drone?",
+      "a": "Yes. Many clients send phone footage, drone clips, archive material or recordings from events. We review it, tell you what it can support, and point out any gaps that a short extra shot would fix."
+    },
+    {
+      "q": "How much does video editing cost for a Houston business?",
+      "a": "It depends on the scope: the amount of footage, the number of finished videos and the formats required. We quote after a free consultation."
+    },
+    {
+      "q": "How do you handle confidential footage from a plant or client site?",
+      "a": "Tell us what has been cleared for publication. We blur or remove logos, tags, badges, screens and anything else you flag, and on-screen text is approved by your reviewer before final export. Permission from the site owner remains your responsibility to obtain."
+    },
+    {
+      "q": "How fast can edits be turned around?",
+      "a": "It depends on the brief and the volume of footage, and the schedule is agreed in the plan."
+    }
   ]
 }
