@@ -1,0 +1,60 @@
+{
+  "slug": "usa/california/los-angeles/shopify",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/shopify",
+  "title": "Shopify Development Agency in Los Angeles",
+  "metaTitle": "Shopify Development Agency in Los Angeles | TDM",
+  "metaDescription": "Shopify stores for Los Angeles brands: custom themes, product drops, wholesale and retail in one store, migrations, tax setup and speed. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and improves Shopify stores for Los Angeles brands, working remotely. We build custom themes, set up new stores, migrate from other platforms and fix stores that are slow or lose shoppers at checkout. Los Angeles has one of the country's largest groups of direct-to-consumer companies, in apparel, beauty, wellness, food and accessories, and for most of them the Shopify store is the business.",
+  "sections": [
+    {
+      "heading": "How LA brands sell, and what the store must handle",
+      "paragraphs": [
+        "A typical Los Angeles label does not get steady, even traffic. It gets surges: a creator posts about a product, a restock is announced, a limited drop opens at a set hour. Thousands of people arrive on phones within minutes, most from Instagram or TikTok in-app browsers. The theme has to stay fast under that load, the product page has to answer questions without scrolling far, and the checkout has to be short.",
+        "Many of these brands also sell wholesale. Apparel companies with roots in the downtown Fashion District supply boutiques as well as shoppers, and maintaining a separate system for trade buyers doubles the work. Shopify can run retail and wholesale pricing from one catalogue, with trade accounts, price lists and minimum quantities, and we set this up where it fits.",
+        "Then there is the local side. Brands with a shop on Abbot Kinney or in the Arts District, or a regular pop-up, want online stock to match what is on the shelf and want customers to choose pickup."
+      ]
+    },
+    {
+      "heading": "Shopify services we provide",
+      "paragraphs": [
+        "We tell new brands honestly when a premium theme, configured well, is enough to launch. A custom theme becomes worthwhile once traffic is steady and small gains in speed and conversion add up."
+      ],
+      "bullets": [
+        "Custom theme design and build, or a tailored premium theme, matched to your brand.",
+        "Product, cart and checkout flows designed for mobile shoppers arriving from social apps.",
+        "App integration and custom functionality for subscriptions, pre-orders, bundles and reviews.",
+        "Shopify Plus work for higher-volume merchants, including checkout customisation and automation.",
+        "Migration from WooCommerce, Magento or other platforms with redirects for every old URL.",
+        "Speed and SEO: lean code, compressed media and structured product data."
+      ]
+    },
+    {
+      "heading": "California details to set up correctly",
+      "paragraphs": [
+        "Sales tax in California is not one rate. Cities and districts add their own tax on top of the state rate, so the amount depends on the delivery address. Shopify calculates this, but the settings must be right, and selling into other states can create obligations there. Your accountant should confirm where you collect, and we configure the store to match.",
+        "Some product categories carry California-specific duties, such as Proposition 65 warnings for certain goods. If that applies to you, we can display the warning on product pages and at checkout using wording your lawyer approves. Privacy notices and cookie consent deserve the same check."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "What Los Angeles merchants come to us for",
+    "items": [
+      { "title": "Launching a new label", "text": "Products, payments, shipping and tax set up properly on a premium theme, ready for the first campaign." },
+      { "title": "Stores built for drops", "text": "Launch countdowns, waitlists, purchase limits and a theme that stays quick when a release brings a rush." },
+      { "title": "Wholesale alongside retail", "text": "Trade logins, price lists and order minimums for boutique buyers, managed from the same catalogue." },
+      { "title": "Conversion redesigns", "text": "Clearer navigation, faster pages and product pages rebuilt around size, fit, ingredients and reviews." },
+      { "title": "Replatforming", "text": "Moving products, customers and order history to Shopify and keeping search rankings through the change." },
+      { "title": "Ads and content after launch", "text": "TDM can also run the store's SEO, paid social and UGC-style ad content, so the build and marketing are planned together." }
+    ]
+  },
+  "presence": "TDM works with Los Angeles businesses remotely and has no office or team member in the city. Design, theme development and testing are done online, and you review a preview store before launch.",
+  "faqs": [
+    { "q": "Can Shopify handle a product drop with a traffic spike?", "a": "Shopify's hosting copes with sudden traffic well. The weak points are usually the theme and third-party apps. We keep the theme lean, limit scripts that slow the page and test the purchase path on mobile before a release." },
+    { "q": "Can I run wholesale and retail from one Shopify store?", "a": "Yes. Shopify supports trade accounts with their own price lists and quantity rules, and the full B2B feature set is part of Shopify Plus. We look at your order volume and recommend the simplest setup that works." },
+    { "q": "Does Shopify calculate California sales tax correctly?", "a": "It calculates tax by delivery address, including local district taxes, once it is configured properly. Where you are required to collect is a question for your accountant, and we set the store up accordingly." },
+    { "q": "How much does a Shopify store cost for a Los Angeles brand?", "a": "It depends on scope: a theme-based setup is less work than a custom theme or a Plus build, and migrations and integrations add to it. We quote after a free consultation." },
+    { "q": "How long does it take to build or redesign a Shopify store?", "a": "It depends on your requirements, the size of the catalogue and how ready your product content is. The timeline is agreed in the plan after discovery." }
+  ]
+}

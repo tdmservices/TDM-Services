@@ -1,0 +1,60 @@
+{
+  "slug": "usa/california/los-angeles/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/custom-development",
+  "title": "Custom Web Development Company in Los Angeles",
+  "metaTitle": "Custom Web Development Company in Los Angeles | TDM",
+  "metaDescription": "Custom web platforms for Los Angeles companies: booking systems, marketplaces, client portals and internal tools built with Next.js and Laravel.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom web platforms and applications for Los Angeles companies, working remotely. We build booking systems, marketplaces, client portals and internal tools in Next.js, React, Laravel and Node.js. Los Angeles has industries with unusual workflows, from production and equipment rental to freight and talent, and off-the-shelf software often fits them poorly.",
+  "sections": [
+    {
+      "heading": "Where templates stop working for LA companies",
+      "paragraphs": [
+        "Consider how work is actually arranged here. A sound stage in Burbank rents by the day with holds, add-ons and insurance certificates. A camera rental house tracks hundreds of serialised items going out on overlapping jobs. A location agency matches private homes to productions and handles permits and schedules. None of this maps neatly onto a standard booking plugin, and the usual result is a mix of spreadsheets, emails and phone calls.",
+        "The trade side of the city has the same pattern. Freight forwarders and customs brokers serving the ports want customers to track shipments and download documents without calling. Staffing and talent businesses need profiles, availability and approvals in one place. Startups on the Westside need a first version of a product that can be shown to users and investors and then extended without starting again.",
+        "Custom development is the right choice when the workflow is the business and a platform would force you to change it. When a platform does fit, we say so, since TDM also builds on Shopify, WordPress and Magento."
+      ]
+    },
+    {
+      "heading": "What we build and how",
+      "paragraphs": [
+        "Work begins with a written specification agreed before development starts. Delivery is by milestone, with working software on a staging server from early in the project. Changes in scope are priced and agreed before they are built."
+      ],
+      "bullets": [
+        "Next.js and React front ends with server-side rendering for speed and search visibility.",
+        "Laravel and Node.js back ends and APIs, with PostgreSQL or MySQL databases.",
+        "Portals, marketplaces and booking systems with roles, permissions and payments.",
+        "Integrations with payment providers, calendars, accounting, CRM and shipping systems.",
+        "Hybrid builds that pair an existing platform with custom features where that is quicker.",
+        "Architecture planned for security and growth, with documentation of every major choice."
+      ]
+    },
+    {
+      "heading": "Ownership, privacy and taking over existing code",
+      "paragraphs": [
+        "On final payment you receive the full source code, repository access, infrastructure credentials and documentation, so any developer could continue the project. That matters in a city where products are often sold, funded or handed to an in-house team later.",
+        "Applications that hold personal data about California residents fall under the state's privacy law. We design data collection, access controls and deletion requests into the system from the start, following the requirements your lawyer sets out. We also take over half-finished or ageing projects: an audit of the code and hosting comes first, followed by an honest view on whether to stabilise it or rebuild in phases."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Custom projects suited to Los Angeles",
+    "items": [
+      { "title": "Studio and space booking", "text": "Calendars with holds, day rates, extras, deposits and document uploads for stages, studios and event spaces." },
+      { "title": "Rental inventory systems", "text": "Availability by item and date for camera, lighting, wardrobe or prop houses, with quotes and returns tracking." },
+      { "title": "Talent and crew marketplaces", "text": "Profiles, search, availability, messaging and payments connecting two sides of a hiring market." },
+      { "title": "Logistics client portals", "text": "Shipment status, documents and invoices for customers of forwarders, brokers and warehouses near the ports." },
+      { "title": "Startup first versions", "text": "A focused first release of a web product, built on a stack that a future in-house team can hire for." },
+      { "title": "Internal operations tools", "text": "Dashboards and workflows that replace spreadsheets for scheduling, approvals and reporting." }
+    ]
+  },
+  "presence": "TDM works with Los Angeles businesses remotely and has no office or team member in the city. Discovery, design reviews and demos take place on calls, and progress is visible on a staging server throughout.",
+  "faqs": [
+    { "q": "When should a Los Angeles business choose custom development over a platform?", "a": "When your workflow cannot be modelled by plugins, when you are building a two-sided marketplace, or when scale and performance needs exceed what a template stack can do. If a platform fits, it is usually cheaper, and we will tell you." },
+    { "q": "Can you build a booking system for a studio or rental house?", "a": "Yes. Booking and portal systems are a core part of our custom work. We map your holds, rates, extras and paperwork during discovery and build the system around how you already operate." },
+    { "q": "Who owns the code once the project is finished?", "a": "You do. On final payment you receive the source code, repository access, infrastructure credentials and documentation." },
+    { "q": "How much does custom web development cost in Los Angeles?", "a": "It depends on scope: the features, the integrations and the number of user roles. After a consultation and a written specification we provide a quote. The first consultation is free." },
+    { "q": "How long does a custom build take?", "a": "It depends on your requirements and the brief. The timeline and milestones are agreed in the plan once the specification is written." }
+  ]
+}

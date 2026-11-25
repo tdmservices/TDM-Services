@@ -1,0 +1,90 @@
+{
+  "slug": "usa/texas/houston/shopify",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/shopify",
+  "title": "Shopify Development Agency in Houston",
+  "metaTitle": "Shopify Development Agency in Houston, TX | TDM",
+  "metaDescription": "Shopify stores for Houston brands and retailers: theme design and build, migrations, local pickup and delivery, Texas sales tax setup and speed work.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and improves Shopify stores for Houston brands and retailers, working remotely. We launch new stores, build custom themes, migrate stores from other platforms and fix ones that are slow or lose buyers at checkout. Houston's online sellers range from food makers and western wear shops to boutiques with a loyal local following and suppliers selling everyday consumables to other businesses.",
+  "sections": [
+    {
+      "heading": "Who sells online from Houston",
+      "paragraphs": [
+        "Texas food travels well as a brand. Barbecue rubs and sauces, salsas, pecans, coffee and baked goods made in Houston are ordered by customers across the country, often as gifts. These stores need product pages that make the food look as good as it tastes, bundles and gift options, subscriptions for repeat buyers and shipping rules that make sense for heavy or fragile items.",
+        "Boots, hats and western clothing have a season of their own. In the weeks before the rodeo, demand rises sharply and stores that are slow, out of stock or hard to browse by size lose sales they cannot get back later. Boutiques in areas such as the Heights and Rice Village use Shopify to join the shop floor and the online store, so stock and customers sit in one system.",
+        "A quieter group are small business-to-business sellers: safety gear, workwear, tools and supplies bought by contractors and plant crews. Shopify suits them when the catalogue is manageable and pricing is simple. When each customer has its own price list and orders flow into an ERP, we will usually point to Magento instead."
+      ]
+    },
+    {
+      "heading": "What we do on Shopify",
+      "paragraphs": [
+        "Shopify takes care of hosting and checkout security. The difference between stores comes from the theme, the product pages and the apps added on top, and that is where our work goes."
+      ],
+      "bullets": [
+        "Theme design and build, either fully custom or based on a premium theme adjusted to your brand.",
+        "Product, cart and checkout flows designed for buyers on a phone.",
+        "App selection and custom functions: subscriptions, bundles, reviews, wholesale pricing, and removal of apps that slow the store.",
+        "Migration from WooCommerce, Magento or other platforms, with products, customers and orders moved and old addresses redirected.",
+        "Shopify POS and local pickup or delivery set up for retailers with a physical shop.",
+        "Speed and SEO work: lean code, compressed images and structured product data."
+      ]
+    },
+    {
+      "heading": "Local details that affect the build",
+      "paragraphs": [
+        "Heat is a shipping problem for much of the year. Chocolate, candles, cosmetics and some foods can be ruined in a hot truck. Stores can handle this with shipping rules: insulated packaging as a paid option, faster services only for sensitive items, or dispatch limited to the start of the week. We build those rules into checkout so the customer sees them before paying.",
+        "The size of the metro shapes local fulfilment. Delivery across all of greater Houston at one flat rate rarely works, so we set delivery zones by postal code and offer pickup where it suits.",
+        "On tax, Texas applies a state sales tax and local jurisdictions add their own. Shopify calculates it, but the settings must match your registration and where you ship. Your accountant should confirm your obligations in Texas and in other states, and we configure the store to follow that advice."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "What Houston merchants ask us for",
+    "items": [
+      {
+        "title": "A first online store",
+        "text": "Products, payments, shipping zones and tax set up correctly on a premium theme, ready to take orders."
+      },
+      {
+        "title": "Shop and site in one system",
+        "text": "Shopify POS linked to the online store, so stock, gift cards and customer records match."
+      },
+      {
+        "title": "Gift and subscription selling",
+        "text": "Bundles, gift notes, scheduled delivery and repeat orders for food and specialty brands."
+      },
+      {
+        "title": "A move from another platform",
+        "text": "Catalogue, customers and order history migrated, with redirects to protect search traffic."
+      },
+      {
+        "title": "A faster, clearer store",
+        "text": "Theme cleanup, app audit and redesigned product pages for stores with traffic but weak conversion."
+      }
+    ]
+  },
+  "presence": "TDM works with Houston merchants remotely and has no office there. Design, theme development and testing are done by our team online, and you approve everything on a preview store before launch.",
+  "faqs": [
+    {
+      "q": "Can Shopify handle local delivery and pickup across Houston?",
+      "a": "Yes. Shopify supports local pickup from one or more locations and local delivery by postal code or radius, with different fees per zone. We set zones that reflect real driving distances so delivery stays profitable."
+    },
+    {
+      "q": "How does Texas sales tax work on a Shopify store?",
+      "a": "Shopify can calculate state and local tax automatically once your registration and locations are entered correctly. What you must collect depends on your business, so confirm it with your accountant. We set the store up to match."
+    },
+    {
+      "q": "Is Shopify suitable for selling to other businesses?",
+      "a": "For simple wholesale, yes: trade logins, price lists and minimum quantities are possible. For complex customer-specific pricing and ERP integration, Magento or a custom build is often the better fit, and we will say so."
+    },
+    {
+      "q": "What does a Shopify store cost to build in Houston?",
+      "a": "It depends on scope: a theme-based setup costs less than a custom theme, and migration, POS and integrations add work. We quote after a free consultation."
+    },
+    {
+      "q": "How long will my Shopify store take to launch?",
+      "a": "It depends on your requirements, the size of the catalogue and how ready your product content is. We agree the timeline in the plan."
+    }
+  ]
+}

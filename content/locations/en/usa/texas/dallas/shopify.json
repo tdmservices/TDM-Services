@@ -1,0 +1,83 @@
+{
+  "slug": "usa/texas/dallas/shopify",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/shopify",
+  "title": "Shopify Development Agency in Dallas",
+  "metaTitle": "Shopify Development Agency in Dallas, TX | TDM",
+  "metaDescription": "Shopify stores for Dallas brands: custom themes, wholesale and retail in one store, migrations, Texas sales tax setup and speed. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and relaunches Shopify stores for Dallas brands, working remotely. We set up new stores, build custom themes, migrate catalogues from other platforms and repair stores that load slowly or lose shoppers at checkout. Dallas has a long retail tradition and a large wholesale trade, so many of the merchants we speak to sell in two directions at once: to shoppers online and to retail buyers who order in bulk.",
+  "sections": [
+    {
+      "heading": "What is particular about selling from Dallas",
+      "paragraphs": [
+        "Product companies here often grew up around the wholesale markets. A gift, home decor or apparel label may take most of its orders from store buyers during market weeks and treat its website as a side channel. When direct sales start to matter, the store has to serve both groups without one undercutting the other: retail prices for the public, trade prices and minimum quantities for approved accounts. Shopify can do this with customer-specific catalogues on its higher plan or with a well-chosen app on a standard one, and the right choice depends on order volume.",
+        "Location is an advantage. Shipping from the middle of the country means ground parcels reach both coasts in reasonable time, and the region is full of warehouses and fulfilment providers. A store should make use of that with accurate delivery estimates and, where you use a fulfilment partner, a clean link between Shopify and their system so stock levels are true.",
+        "Heat is the local complication. Chocolate, candles, cosmetics and some foods do not travel well in a Texas summer. Shipping rules can add insulated packaging, restrict slow services in hot months or hold orders over a weekend, and it is better to build those rules than to refund melted goods."
+      ]
+    },
+    {
+      "heading": "Our Shopify work",
+      "paragraphs": [
+        "We study your catalogue, your customers and your current store data, then design the key templates for approval before any theme code is written. The build happens on a private preview store, and we test the full purchase path on real devices before launch."
+      ],
+      "bullets": [
+        "Custom themes on Online Store 2.0, or a configured premium theme when that is the sensible start.",
+        "Product, collection, cart and checkout flows designed to raise completed orders on mobile.",
+        "Apps for reviews, subscriptions, bundles and loyalty, with the stack audited so it does not slow pages.",
+        "Migrations from WooCommerce, Magento or PrestaShop with products, customers, orders and redirects carried over.",
+        "Structured product data, image optimisation and Core Web Vitals tuning."
+      ]
+    },
+    {
+      "heading": "Tax and local delivery settings",
+      "paragraphs": [
+        "Texas charges a state sales tax and cities and other local bodies add their own, so the rate changes with the delivery address. Wholesale customers who buy for resale are normally exempt when they provide a resale certificate. Shopify can handle both cases, but only when tax settings and customer exemptions are configured with care. Your accountant should confirm where you must collect, including in other states, and we set the store up to match."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Common Shopify projects for Dallas merchants",
+    "items": [
+      {
+        "title": "Wholesale and retail together",
+        "text": "Trade logins, price lists and minimums alongside the public store, so market-week buyers can reorder online."
+      },
+      {
+        "title": "Western wear and boots",
+        "text": "Size and fit guidance, variant-heavy product pages and clear exchange rules for a category with many returns."
+      },
+      {
+        "title": "Home goods and gifts",
+        "text": "Collections organised by room and occasion, with bundles and gift options for the holiday peak."
+      },
+      {
+        "title": "Texas food brands",
+        "text": "Salsas, sauces, pecans and sweets sold with subscriptions, gift boxes and shipping rules that respect the heat."
+      },
+      {
+        "title": "Replatforming",
+        "text": "A move from an ageing cart to Shopify with every old address redirected and search performance monitored afterwards."
+      }
+    ]
+  },
+  "presence": "TDM works with Dallas merchants remotely and has no office or team member in the city. Design, theme development and testing are done online, and you approve the store on a preview link before it goes live.",
+  "faqs": [
+    {
+      "q": "Can I run wholesale and retail from one Shopify store?",
+      "a": "Yes. Approved trade customers can log in to see their own prices, minimum quantities and payment terms while the public sees retail pricing. Whether this is done with Shopify's built-in B2B features or with an app depends on your plan and order volume, and we advise after reviewing both."
+    },
+    {
+      "q": "Does Shopify collect Texas sales tax correctly?",
+      "a": "It calculates state and local rates by address once your registration and settings are entered properly. Exempt wholesale customers need to be marked as such. We configure the store according to the guidance your accountant gives you."
+    },
+    {
+      "q": "What does it cost to build a Shopify store?",
+      "a": "The cost depends on scope. A premium theme setup is less work than a custom theme, and wholesale features, integrations and migration add to it. We quote once we have talked through your needs in a free consultation."
+    },
+    {
+      "q": "How quickly can a store launch?",
+      "a": "That depends on your requirements, the size of the catalogue and how ready your product content and photos are. The schedule is agreed in the plan after discovery."
+    }
+  ]
+}

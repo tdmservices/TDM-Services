@@ -1,0 +1,98 @@
+{
+  "slug": "usa/california/los-angeles/magento",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/magento",
+  "title": "Magento Development Agency in Los Angeles",
+  "metaTitle": "Magento Development Agency in Los Angeles | TDM",
+  "metaDescription": "Magento and Adobe Commerce for Los Angeles wholesalers, importers and distributors: B2B catalogues, ERP integration, speed fixes, upgrades and support.",
+  "lead": "TDM (The Digital Marketing Services) builds, extends and maintains Magento Open Source and Adobe Commerce stores for Los Angeles companies, working remotely. Magento suits merchants with large or complicated catalogues, trade pricing and back-office systems to connect. Los Angeles has many of them: importers and distributors tied to the ports, wholesalers in the downtown trade districts, and parts and equipment suppliers across the county.",
+  "sections": [
+    {
+      "heading": "The kind of LA business that needs Magento",
+      "paragraphs": [
+        "Behind the consumer brands Los Angeles is known for sits a very large trading economy. Goods arrive through the ports of Los Angeles and Long Beach, pass through warehouses in the South Bay, Vernon, Commerce and the City of Industry, and are sold on to retailers and trade buyers around the country. These companies often carry thousands of items, with prices that vary by customer, by quantity and by contract.",
+        "Selling that online is not the same as running a boutique store. A buyer for a retail chain expects to log in, see their own prices, reorder from a past invoice, pay on terms and check stock by warehouse. A parts supplier needs shoppers to filter by vehicle year, make and model. A wholesaler in the Fashion District wants pack sizes and minimums enforced without manual checks.",
+        "Magento handles these cases well. It also costs more to run than simpler platforms, so we recommend it only when the requirements justify it. TDM builds on Shopify and WooCommerce too, and will say when one of those would serve you better."
+      ]
+    },
+    {
+      "heading": "Magento work we take on",
+      "paragraphs": [
+        "We write modules to platform standards and avoid changes to core code, so the store can be upgraded later without breaking."
+      ],
+      "bullets": [
+        "Custom modules: pricing logic, checkout steps, product types and admin tools.",
+        "B2B builds with customer-specific price lists, quote requests, company accounts and quick reorder.",
+        "Integration with ERP, CRM and warehouse systems so stock, prices and orders sync both ways.",
+        "Performance work on caching, extensions and hosting, with before-and-after speed figures.",
+        "Upgrades from end-of-life versions, security patches and extension compatibility.",
+        "Multi-store setups running separate storefronts or brands from one installation."
+      ]
+    },
+    {
+      "heading": "Old stores, slow stores and the decision to move",
+      "paragraphs": [
+        "A number of established Los Angeles distributors run Magento stores that were built years ago and seldom updated. An unsupported version receives no security patches, which is a real risk for a site taking payments. We audit the store, list the extensions and custom code in use, and set out the options: upgrade to a current release, or move to another platform if the business has changed. Either route includes redirect mapping so search visibility is kept."
+      ]
+    },
+    {
+      "heading": "Points to settle before choosing a Magento partner",
+      "paragraphs": [
+        "Ask whether the agency has connected Magento to a system like yours, and how it handles failed syncs. Ask who applies security patches and how quickly. Confirm that you will hold the code, the hosting account and the admin credentials. A partner unwilling to discuss alternatives to Magento is probably selling the only thing it knows."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where Magento fits in the Los Angeles market",
+    "items": [
+      {
+        "title": "Importers and distributors",
+        "text": "Large catalogues with tiered pricing and stock held across several warehouses near the ports."
+      },
+      {
+        "title": "Apparel wholesalers",
+        "text": "Trade-only storefronts with pack sizes, colour and size grids, and minimum order values."
+      },
+      {
+        "title": "Auto parts and accessories",
+        "text": "Fitment search by year, make and model for a region with a strong car culture and many parts sellers."
+      },
+      {
+        "title": "Industrial and aerospace suppliers",
+        "text": "Part-number search, specification sheets, quote requests and account-based ordering for trade buyers."
+      },
+      {
+        "title": "Multi-brand retailers",
+        "text": "Several storefronts sharing one catalogue, one admin and one stock feed."
+      },
+      {
+        "title": "Stores needing rescue",
+        "text": "Audits, speed fixes, patching and ongoing support for a store whose original developer is gone."
+      }
+    ]
+  },
+  "presence": "TDM works with Los Angeles businesses remotely. We have no office or team member in the city. Development is carried out on staging environments you can access, with calls and written updates through the project.",
+  "faqs": [
+    {
+      "q": "Is Magento or Shopify better for a Los Angeles wholesaler?",
+      "a": "It depends on complexity. Magento earns its cost with large or configurable catalogues, detailed customer pricing and deep ERP links. A wholesaler with simpler needs may be better served by Shopify. We compare both against your requirements before recommending one."
+    },
+    {
+      "q": "Can Magento connect to our ERP and warehouse software?",
+      "a": "Yes. We build integrations that keep stock, prices, orders and customer records in step in both directions, using the system's own API, middleware or a custom connector."
+    },
+    {
+      "q": "Our Magento store is on an old version. What should we do?",
+      "a": "Have it audited soon. An end-of-life version gets no security patches. We can upgrade it to a current release, or plan a move to another platform if that makes more commercial sense."
+    },
+    {
+      "q": "How much does Magento development cost in Los Angeles?",
+      "a": "It depends on scope: catalogue size, custom modules, integrations and whether the work is a new build, an upgrade or ongoing support. We quote after a free consultation."
+    },
+    {
+      "q": "How long does a Magento project take?",
+      "a": "It depends on your requirements, the integrations involved and the state of the existing store. The timeline is agreed in the plan after discovery."
+    }
+  ]
+}

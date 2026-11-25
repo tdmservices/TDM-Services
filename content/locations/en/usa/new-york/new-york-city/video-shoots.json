@@ -1,0 +1,92 @@
+{
+  "slug": "usa/new-york/new-york-city/video-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-shoots",
+  "title": "Video Shoots and Production for New York City Brands",
+  "metaTitle": "Video Shoots and Production in New York City | TDM",
+  "metaDescription": "Video shoots for New York City brands: concept, scripts and shot lists by TDM, filming arranged locally, post-production at our Lahore hub. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for New York City brands and delivers the finished videos: brand films, product videos and footage for ads and social. We have no studio or crew in New York. Concept, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business is. For videos where the product is the subject, many clients ship it to us and approve the treatment and the cuts remotely.",
+  "sections": [
+    {
+      "heading": "What filming in New York demands",
+      "paragraphs": [
+        "New York is one of the most filmed cities anywhere, and viewers know its skyline, bridges and brownstone blocks on sight. That helps a brand that belongs here, but footage that only shows the city says nothing about the business.",
+        "Practical limits shape every shoot. Interiors are small, so a restaurant kitchen or a boutique leaves little room for lights and people. Streets are loud, with sirens, traffic and construction, which makes clean sound outdoors hard to get. Scaffolding can cover a storefront for months. Winter days are short and cold, and summers are hot and humid. Filming with only a handheld camera on a public pavement is treated differently from a setup with equipment, vehicles or a closed-off area, which generally requires a permit from the city's film office. Parks and private buildings have their own rules, and many buildings ask for proof of insurance before a camera comes through the door."
+      ]
+    },
+    {
+      "heading": "How we organise a shoot from a distance",
+      "paragraphs": [
+        "We begin with what the footage must do: which ads, pages and channels it will feed. From that we write treatments, scripts and storyboards for your approval. Pre-production then fixes casting, locations, props, wardrobe and a shot-by-shot schedule. Filming is arranged where you are, against the approved shot list, and the footage goes directly into our own edit pipeline.",
+        "Because TDM also runs advertising and social media, the shot list is written backwards from distribution. It names the opening hooks an ad account needs to test, the demonstrations a product page lacks and the b-roll a content calendar will use."
+      ],
+      "bullets": [
+        "Scripts and on-screen text approved before the day, so time on location is not spent deciding what to say.",
+        "Permit, insurance and building-access questions raised in pre-production, before a date is fixed.",
+        "Quiet hours identified for each location, such as before service in a restaurant or before opening in a shop.",
+        "Editing, grading and versioning by the same team that wrote the plan."
+      ]
+    },
+    {
+      "heading": "When the city does not need to be in the frame",
+      "paragraphs": [
+        "A candle, a serum, a handbag or a kitchen gadget can be filmed anywhere. For product-led videos, New York brands can send items to our production hub and receive finished videos without booking a location or attending a set. Filming in the city makes sense when the place or the people are the point: a dining room, a showroom, an apartment for sale, a clinic, a founder at work."
+      ]
+    },
+    {
+      "heading": "Points to agree before any shoot is booked",
+      "paragraphs": [
+        "Decide where the videos will be used before choosing a date. Ask who is responsible for permits, location releases and insurance certificates. Ask whether editing is included or whether you will be handed raw files. Confirm how many finished videos you will receive, in which lengths and formats."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Video projects New York businesses bring to us",
+    "items": [
+      {
+        "title": "Restaurant and bar films",
+        "text": "The room, the kitchen and the plates, filmed before service, for the website, reservation listings and a bank of social clips."
+      },
+      {
+        "title": "Real estate tours",
+        "text": "Apartment and building walkthroughs with neighbourhood context for buyers and renters comparing many listings."
+      },
+      {
+        "title": "Fashion and showroom videos",
+        "text": "Collection films and fit videos for labels selling to consumers and to retail buyers."
+      },
+      {
+        "title": "Founder and firm profiles",
+        "text": "Short interviews for startups and professional practices whose clients choose on trust."
+      },
+      {
+        "title": "Product videos from shipped items",
+        "text": "Detail shots and in-use demonstrations for product pages and ads, filmed at our hub."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City businesses remotely and has no office, studio or crew in the city. Concept, scripting and post-production are handled by our production team in Lahore, and filming is arranged locally for each project or carried out at our hub from shipped products.",
+  "faqs": [
+    {
+      "q": "Does TDM have a studio or film crew in New York City?",
+      "a": "No. We work with New York clients remotely. Filming is arranged locally for each project, or products are shipped to us for product-led videos."
+    },
+    {
+      "q": "Do I need a permit to film in New York City?",
+      "a": "It depends on the setup. Handheld filming on public pavements is generally treated differently from shoots that use equipment, vehicles or exclusive use of public space, which generally need a permit from the city's film office. Parks and private property have separate rules. We check what applies during pre-production."
+    },
+    {
+      "q": "How much does a video shoot cost in New York City?",
+      "a": "It depends on scope: locations, talent, shoot days and the number of finished videos. We quote after a free consultation, once the purpose of the footage and the shot list are clear."
+    },
+    {
+      "q": "How far ahead should a shoot be planned?",
+      "a": "It depends on the brief, the locations and the people involved, and the schedule is agreed in the plan."
+    },
+    {
+      "q": "Can you make product videos without filming in New York?",
+      "a": "Yes. For product-led videos you can ship items to our production hub, approve the treatment and shot list remotely, and receive finished videos in every format you need."
+    }
+  ]
+}

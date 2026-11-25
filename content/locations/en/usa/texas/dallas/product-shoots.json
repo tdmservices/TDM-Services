@@ -1,0 +1,94 @@
+{
+  "slug": "usa/texas/dallas/product-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/product-shoots",
+  "title": "Product Photography for Dallas Brands",
+  "metaTitle": "Product Photography for Dallas Brands | TDM",
+  "metaDescription": "Product shoots for Dallas brands: catalog, lifestyle and detail images for stores, marketplaces, line sheets and ads. Ship products to TDM's Lahore studio.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Dallas brands: clean studio images for catalogs and marketplaces, styled lifestyle scenes and close detail shots. The work is not done in Dallas. You ship your products to our production hub in Lahore, approve the shot list and art direction remotely, and receive retouched images digitally in the formats each channel needs. It suits Dallas brands that sell to retailers, on their own online store, on Amazon, or through all three.",
+  "sections": [
+    {
+      "heading": "A wholesale city needs more than one set of pictures",
+      "paragraphs": [
+        "Dallas has an unusual number of brands that sell to other businesses first. Around the Dallas Market Center there are companies in gifts, home decor, lighting, apparel and accessories whose year is organised around market dates. They need images for line sheets and wholesale catalogs, for the retailers who will list the product on their own websites, and for the brand's direct store and advertising. Each use has different requirements, and one hurried set of photographs rarely serves all of them.",
+        "A retailer wants a consistent white-background image that drops into its site. A marketplace has strict rules on background, framing and size. A consumer advert needs the product in a setting, at a scale people can judge, with a detail that shows quality. Planning the shoot around these outputs once is cheaper than photographing the range three times."
+      ]
+    },
+    {
+      "heading": "What the shoot includes",
+      "paragraphs": [
+        "We plan the set list with you before anything is shipped, so every product has a defined list of angles and uses."
+      ],
+      "bullets": [
+        "Art direction and a shot list agreed in advance, with reference images.",
+        "Studio catalog photography on white or brand-coloured backgrounds, consistent across the range.",
+        "Styled lifestyle scenes with props and surfaces chosen to suit your customer.",
+        "Macro and detail shots of texture, stitching, finishes and packaging.",
+        "Retouching, colour correction and colour matching between variants.",
+        "Export for your store, Amazon and other marketplaces, wholesale catalogs and each ad placement."
+      ]
+    },
+    {
+      "heading": "Shipping from Dallas: how to plan it",
+      "paragraphs": [
+        "Sending products abroad takes preparation, and it is better to know that at the outset. Work back from the date you need the images, such as a market week, a seasonal launch or a retailer's deadline, and allow for transit and customs on top of the shoot and retouching. Send samples in final packaging, since prototypes photograph differently from finished stock. A clear commercial description on the shipping paperwork helps the parcel clear without delay, and some categories, such as liquids, aerosols and batteries, are subject to carrier restrictions that should be checked first.",
+        "We confirm the condition of the items when they arrive and tell you if anything was damaged in transit before the shoot begins. Agree with us beforehand what should happen to the samples afterwards."
+      ]
+    },
+    {
+      "heading": "What to ask a product photographer",
+      "paragraphs": [
+        "Ask whether retouching is included and how many images per product you will receive. Ask who holds the usage rights and whether they cover advertising. Ask whether the files will be delivered in marketplace-ready sizes or whether you will have to resize them yourself."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Product categories we photograph for Dallas brands",
+    "items": [
+      {
+        "title": "Gifts and home decor",
+        "text": "Candles, ceramics, textiles and seasonal lines, shot for catalogs and styled for consumer ads."
+      },
+      {
+        "title": "Apparel and accessories",
+        "text": "Flat lays, detail shots and styled images for boutiques' websites and the brand's own store."
+      },
+      {
+        "title": "Beauty and fragrance",
+        "text": "Bottles, jars and packaging lit to control reflections, with texture and swatch shots."
+      },
+      {
+        "title": "Packaged food and drink",
+        "text": "Pack shots and serving scenes for sauces, snacks and beverages."
+      },
+      {
+        "title": "Marketplace image sets",
+        "text": "Main images, infographics and lifestyle frames prepared to each marketplace's specification."
+      }
+    ]
+  },
+  "presence": "TDM has no studio, office or photographer in Dallas. We work with Dallas brands remotely: products are shipped to our Lahore production hub, direction and approvals are handled online, and finished images are delivered digitally.",
+  "faqs": [
+    {
+      "q": "Do you have a product photography studio in Dallas?",
+      "a": "No. Our studio is at TDM's production hub in Lahore. Dallas brands ship products to us, approve the shot list and art direction remotely and receive retouched images online. No on-site session is involved."
+    },
+    {
+      "q": "How much does product photography cost for a Dallas brand?",
+      "a": "It varies with scope: the number of products, the images per product and the mix of studio and lifestyle shots. You receive a quote after a free consultation."
+    },
+    {
+      "q": "Can you prepare images for line sheets and for Amazon from the same shoot?",
+      "a": "Yes. We plan the shot list around every place the images will be used, so a single session can supply wholesale catalogs, retailer websites, marketplace listings and adverts."
+    },
+    {
+      "q": "Is it practical to ship products overseas for a shoot?",
+      "a": "For most packaged consumer goods, yes. It needs planning for transit, customs paperwork and any carrier restrictions on your category. Very large, fragile or perishable items may be better photographed locally, and we will tell you if that is the case."
+    },
+    {
+      "q": "How long before a market date should we start?",
+      "a": "It depends on the size of the range and the brief, plus shipping time. The schedule is agreed in the plan, and starting early leaves room for transit and for a round of changes."
+    }
+  ]
+}

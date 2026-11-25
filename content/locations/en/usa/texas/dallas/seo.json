@@ -1,0 +1,86 @@
+{
+  "slug": "usa/texas/dallas/seo",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/seo",
+  "title": "SEO Agency in Dallas",
+  "metaTitle": "SEO Agency in Dallas, TX: Local and B2B SEO | TDM",
+  "metaDescription": "SEO for Dallas businesses: suburb-level map rankings, B2B search, storm-season pages, technical fixes and AI-answer visibility. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) is an SEO agency that works remotely with Dallas businesses to earn visibility in Google search, in the map results and in AI answers. Dallas search has two halves: residents across a very wide metro area looking for a nearby provider, and corporate buyers researching vendors from an office in Uptown, Las Colinas or Legacy. We handle the technical fixes, the content and the local listings for whichever half pays your bills.",
+  "sections": [
+    {
+      "heading": "How Dallas customers search",
+      "paragraphs": [
+        "A homeowner in Lake Highlands does not want a plumber from Grand Prairie, and Google knows it. Map results shift as you move along Central Expressway or the Tollway, so a company can be first in Richardson and invisible in Oak Cliff.",
+        "The business buyer behaves differently. A procurement manager at a telecom firm or a facilities director for a hospital group types a precise problem: managed IT for a multi-site office, commercial roofing for a warehouse, a staffing partner for a distribution centre. Those searches are few, valuable and rarely answered well. A page written for one industry and one problem usually beats a general services page from a much larger competitor.",
+        "Weather adds a third pattern. After a spring hailstorm, searches for roof inspections and dent repair jump within hours, and firms from outside the region arrive to chase them. The local companies that hold their positions are the ones whose pages and reviews were in place long before the sky turned green."
+      ]
+    },
+    {
+      "heading": "The work, step by step",
+      "paragraphs": [
+        "We start with an audit of your site, your backlinks and your current positions in the parts of the Metroplex you care about. The keyword plan that follows is tied to services and margins, so effort goes to the searches that bring revenue. Our own developers ship the technical fixes, which means they are done and not left in a report."
+      ],
+      "bullets": [
+        "Keyword mapping by service and by city or suburb: Dallas, Plano, Frisco, Irving, Garland and the rest, limited to where you truly operate.",
+        "Technical SEO: mobile speed and Core Web Vitals, crawl errors, indexing control and schema markup.",
+        "On-page work on titles, headings and internal links, plus new service and industry pages.",
+        "Google Business Profile upkeep for each real location, with service areas set correctly.",
+        "Link building through quality mentions, citations and guest publishing.",
+        "Monthly reporting on rankings, traffic and leads against the starting baseline."
+      ]
+    },
+    {
+      "heading": "Being named by AI assistants",
+      "paragraphs": [
+        "Ask an AI assistant for a commercial electrician in Addison or an estate lawyer near Preston Hollow and it returns a short list of firms. It builds that list from pages it can parse easily, matching business details across directories, review volume and references on sites it considers reliable. We structure your pages and data so that a clear answer about what you do, and where, is easy to lift."
+      ]
+    },
+    {
+      "heading": "Questions to put to any Dallas SEO firm",
+      "paragraphs": [
+        "Ask which suburbs they would target first and why, since an honest answer is never \"all of DFW\". Ask to see the kind of page they would write for your trade. Confirm that Search Console, Analytics and your Business Profile stay under your ownership. Walk away from guaranteed rankings."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Dallas sectors where organic search earns its keep",
+    "items": [
+      {
+        "title": "B2B service firms",
+        "text": "IT providers, staffing agencies and consultants win shortlists with pages written for a named industry and a specific problem."
+      },
+      {
+        "title": "Roofing and restoration",
+        "text": "Hail and wind pages, inspection offers and steady reviews built in the quiet months, ready for the week a storm hits."
+      },
+      {
+        "title": "Law firms",
+        "text": "Practice-area pages for business litigation, family law or injury, each matched to the county courts and communities the firm serves."
+      },
+      {
+        "title": "Cosmetic and dental practices",
+        "text": "Procedure pages, doctor profiles and reviews in a category where patients compare many providers before booking."
+      }
+    ]
+  },
+  "presence": "TDM works with Dallas businesses remotely. We have no office and no staff in the city. Audits, content, technical fixes and reporting are delivered online, with calls arranged around your working day.",
+  "faqs": [
+    {
+      "q": "Can one website rank in Dallas, Plano and Frisco at the same time?",
+      "a": "Yes, if each city has a page with real substance: the services offered there, projects completed nearby and reviews from customers in that community. Rankings in the map results also depend on where your address or service area sits, so expect stronger results close to home first."
+    },
+    {
+      "q": "How do roofers stay visible when storm chasers flood Dallas search results?",
+      "a": "By being established before the storm. A profile with years of local reviews, pages on hail and insurance claims, and a site that loads quickly on a phone keep a local firm ahead of new arrivals with thin sites."
+    },
+    {
+      "q": "What does SEO cost for a Dallas business?",
+      "a": "That depends on scope: how many services and cities are targeted and how much technical and content work the site needs. You receive a quote after a free consultation."
+    },
+    {
+      "q": "When will I see results from SEO in Dallas?",
+      "a": "It varies with your starting point, your category and the brief. The plan we agree after the audit sets out the expected stages."
+    }
+  ]
+}

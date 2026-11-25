@@ -1,0 +1,88 @@
+{
+  "slug": "usa/south-carolina/charleston/seo",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/seo",
+  "title": "SEO Agency in Charleston, SC",
+  "metaTitle": "SEO Agency in Charleston, SC | TDM",
+  "metaDescription": "SEO for Charleston businesses: map results by area, trip-planning searches, wedding, healthcare and trade queries, and AI answers. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that does SEO for Charleston businesses: site audits, technical fixes, content, links, Google Business Profile work and visibility in AI answers. In Charleston the same search phrase can come from two very different people. A query for seafood downtown is typed by a couple planning a long weekend from another state and by someone who lives ten minutes away. We work out which of them pays your bills and build for that person.",
+  "sections": [
+    {
+      "heading": "Search around the harbour, area by area",
+      "paragraphs": [
+        "The peninsula is where visitors look. Searches for inns, carriage and harbour tours and restaurants near King Street or the City Market are made mostly from elsewhere, ahead of the trip, then again on foot with a phone. Booking platforms crowd those results, so a local business wins with detail they cannot write: parking, walking distances, what is open on a Monday.",
+        "Cross the Ravenel Bridge and the searcher changes. Mount Pleasant, Daniel Island, West Ashley and James Island are residential, and people there want a children's dentist, a roofer or a vet close to home. Summerville, Goose Creek and the new neighbourhoods along I-26 are filling with households that arrived recently and have no regular providers yet.",
+        "North Charleston is a separate city, and Google treats it as one, just as it does Mount Pleasant and Summerville. A business with a North Charleston address does not automatically appear for searches that say Charleston. We plan for that with service-area settings, real location pages and consistent listings."
+      ]
+    },
+    {
+      "heading": "Three Charleston trades with their own search rules",
+      "paragraphs": [
+        "Weddings. Couples who marry here often live far away and choose a venue, planner, florist and photographer from a screen, many months ahead, searching by venue name and by style. A wedding business needs real-wedding pages named for the venue and season, images that load quickly and an obvious way to enquire.",
+        "Healthcare. With the medical district downtown and hospital-run clinics across the suburbs, a private practice competes with very large websites. It gains ground on specific treatments, clinician profiles, location details and patient reviews.",
+        "Port and plant suppliers. Firms serving the container terminals and the aircraft and vehicle plants in North Charleston, Ladson and Ridgeville are found through exact service searches: drayage, transloading, bonded warehousing, machining, calibration. Those buyers expect capability, certifications and coverage stated plainly."
+      ]
+    },
+    {
+      "heading": "What the work covers",
+      "paragraphs": [
+        "We begin by auditing the site, your listings and the searches you already appear for, then agree an order of work. Our developers make the fixes on the site itself."
+      ],
+      "bullets": [
+        "Keyword research split by visitor, resident and trade buyer, and by part of the metro.",
+        "Technical work: mobile speed, indexing, redirects and schema markup.",
+        "Google Business Profile set-up and upkeep, with the correct city, categories, hours and photos.",
+        "Trip, wedding and newcomer content, plus links from Lowcountry publications, venues and trade directories.",
+        "Pages structured so AI assistants can quote them accurately.",
+        "Monthly reporting on rankings, calls, forms and bookings."
+      ]
+    },
+    {
+      "heading": "Before you hire SEO help in Charleston",
+      "paragraphs": [
+        "Ask how the agency handles the calendar. Pages aimed at spring visitors, festival weeks or next year's wedding dates must be published long before people start looking. Ask to see the list of pages it plans to create, because a row of near-identical pages for every suburb is a warning sign. And keep your domain, Search Console and Google profile in your own name."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Charleston businesses this work suits",
+    "items": [
+      {
+        "title": "Inns, tours and attractions",
+        "text": "Direct-booking pages that answer what a visitor asks before choosing, so fewer reservations pass through a third party."
+      },
+      {
+        "title": "Venues, planners and photographers",
+        "text": "Galleries and real-wedding pages organised by venue, season and style for couples planning from a distance."
+      },
+      {
+        "title": "Clinics and practices",
+        "text": "Treatment and location pages for patients in West Ashley, Summerville, Daniel Island and around the medical district."
+      },
+      {
+        "title": "Port and plant suppliers",
+        "text": "Capability pages written for dispatchers, engineers and purchasing teams who search by exact service."
+      }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, though not in Charleston, and SEO for Charleston clients is carried out remotely by the wider TDM team, with calls and reports at intervals we agree with you.",
+  "faqs": [
+    {
+      "q": "Is TDM an SEO company based in Charleston?",
+      "a": "No, a member of our team is based in South Carolina but not in Charleston. The audit, technical work, content and reporting are done remotely, and we speak by call whenever you need."
+    },
+    {
+      "q": "My business is in North Charleston or Mount Pleasant. Can I rank for Charleston searches?",
+      "a": "For some searches. Map results lean on where the business is and where the searcher is standing, so an address outside the city is a handicap downtown. Ordinary web results are more open to a useful page."
+    },
+    {
+      "q": "What does SEO cost for a Charleston business?",
+      "a": "That depends on the state of your site, how many areas and services you want to cover and how crowded your field is. We look at where you stand in a free consultation and quote afterwards."
+    },
+    {
+      "q": "How long does SEO take in Charleston?",
+      "a": "It depends on your requirements, your starting point and the brief, and we set milestones in the plan. If your trade follows a season or a wedding year, tell us early."
+    }
+  ]
+}

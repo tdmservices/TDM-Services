@@ -1,0 +1,93 @@
+{
+  "slug": "usa/new-york/new-york-city/shopify",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/shopify",
+  "title": "Shopify Development Agency in New York City",
+  "metaTitle": "Shopify Development Agency in New York City | TDM",
+  "metaDescription": "Shopify stores for New York City brands: custom themes, migrations, store and online stock in sync, tax and local delivery setup. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and relaunches Shopify stores for New York City brands, working remotely. We set up new stores, build custom themes, migrate from other platforms and repair stores that are slow or lose shoppers at checkout. New York is home to a great many direct-to-consumer labels in fashion, beauty, jewellery, homeware and food, and most of them sell to the whole country from a small base in the city.",
+  "sections": [
+    {
+      "heading": "How New York brands sell",
+      "paragraphs": [
+        "Many labels here begin online and add a physical presence later: a pop-up in SoHo or Nolita, a stall at a Brooklyn market, a sample sale, then a permanent shop. Others are long-standing retailers on a single block who now need national reach. In both cases the store and the website have to share one stock count, one customer record and one set of prices. Shopify does this through its point-of-sale system, provided products, locations and inventory are set up with care at the start.",
+        "The local customer expects speed. Pickup in store, same-day courier delivery within Manhattan or Brooklyn, and clear cut-off times are features New York shoppers look for. The national customer, who may have found the brand through an Instagram post or a press mention, cares about shipping cost and returns. One store can serve both when delivery zones and rates are configured deliberately.",
+        "Traffic arrives in bursts. A feature in a city publication, a collaboration drop or the run-up to the holidays can multiply visits in an hour. Themes should be light enough to stay fast under that load, and the homepage simple for your own team to change on launch day."
+      ]
+    },
+    {
+      "heading": "Our Shopify work",
+      "paragraphs": [
+        "We study your catalogue, customers and current data, then design and build on a preview store that you review before anything goes live. For a brand still proving demand we will often suggest a well-configured premium theme; a custom theme makes sense once traffic is steady."
+      ],
+      "bullets": [
+        "Custom theme design and build on Online Store 2.0, structured around how your customers shop.",
+        "Product, collection, cart and checkout work aimed at raising add-to-cart and completed orders.",
+        "App integration, plus removal of apps that slow the store without earning their place.",
+        "Migration from WooCommerce, Magento or PrestaShop with products, customers, orders and redirects carried over.",
+        "Shopify Plus builds: checkout extensibility, Shopify Functions and Flow automation for higher-volume merchants.",
+        "Speed and SEO: structured product data, image optimisation and Core Web Vitals tuning."
+      ]
+    },
+    {
+      "heading": "Tax and fulfilment details for New York merchants",
+      "paragraphs": [
+        "Sales tax is where apparel sellers most often go wrong. New York treats clothing and footwear below a per-item price threshold differently from other goods, and the rules vary between localities in the state. Selling into other states can create obligations there too. Shopify can apply the right treatment when products are categorised correctly, and your accountant should confirm where you must collect. We configure the store to match that advice.",
+        "Fulfilment shapes the build as well. Some brands pack orders in a studio in Bushwick or Long Island City; others use a warehouse partner across the river in New Jersey. Each arrangement needs different location, inventory and shipping settings, and it is far easier to set them correctly before launch than to untangle them during the holiday rush."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "What New York brands ask us to build",
+    "items": [
+      {
+        "title": "A launch store",
+        "text": "Products, payments, shipping and tax set up properly on a premium theme, ready to take first orders."
+      },
+      {
+        "title": "Store and online in one system",
+        "text": "Shopify POS connected to the website so stock, gift cards and customer history match across both."
+      },
+      {
+        "title": "A custom theme",
+        "text": "A faster, more distinctive storefront for a brand that has outgrown its template."
+      },
+      {
+        "title": "A platform migration",
+        "text": "A move to Shopify with every old address redirected and search performance watched after the switch."
+      },
+      {
+        "title": "Local pickup and delivery",
+        "text": "Zones, rates and cut-off times for city customers, alongside national shipping rules."
+      },
+      {
+        "title": "Ads and content after launch",
+        "text": "SEO, Google and Meta campaigns and product photography from the agency that built the store."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City brands remotely. We have no office or team member in the city. Design, theme development and testing happen online, and you review a preview store before launch.",
+  "faqs": [
+    {
+      "q": "Can Shopify run both my New York shop and my online store?",
+      "a": "Yes. Shopify POS shares products, inventory and customers with the online store, so a sale at the counter updates stock on the site. We set up locations and inventory rules so the two stay in step."
+    },
+    {
+      "q": "Does Shopify handle New York sales tax on clothing?",
+      "a": "It can, when products are assigned the correct tax categories and your registrations are entered. The exemption rules for clothing and footwear are specific, so have your accountant confirm the setup. We configure the store accordingly."
+    },
+    {
+      "q": "Can I offer same-day delivery in NYC through my Shopify store?",
+      "a": "Yes. Local delivery and pickup can be offered by zip code with their own rates and cut-off times, using Shopify's built-in tools or a courier app. We set this up and test it alongside standard shipping."
+    },
+    {
+      "q": "How long does it take to build or redesign a Shopify store?",
+      "a": "That depends on catalogue size, design scope, integrations and how ready your product content is. We agree the timeline in the plan after discovery."
+    },
+    {
+      "q": "How much does Shopify development cost in New York City?",
+      "a": "It depends on scope. A theme-based setup involves less work than a custom theme or a Plus build, and migrations add to it. We quote after a free consultation."
+    }
+  ]
+}

@@ -6,6 +6,9 @@
  *   node scripts/build-location-pages.mjs --preview <dir>  write the HTML to a folder
  *   node scripts/build-location-pages.mjs                  add pages that do not exist yet, as drafts
  *   node scripts/build-location-pages.mjs --update         also rewrite the text of pages that exist
+ *   node scripts/build-location-pages.mjs --update --only <file>
+ *                                                          rewrite only the pages listed in <file>,
+ *                                                          one "locale/slug" per line (e.g. en/usa/texas)
  *
  * A page that already exists is left alone unless --update is given, so edits
  * made in the admin are not overwritten by accident. Whether a page is
@@ -261,7 +264,13 @@ if (bad.length) {
 console.log(`${pages.length} pages valid.`);
 if (flag("--check")) process.exit(0);
 
-const rows = pages.map((p) => ({ slug: p.slug, locale: p.locale, title: p.title, html: render(p), meta_title: p.metaTitle, meta_description: p.metaDescription }));
+// --only <file>: limit everything below to the pages listed in the file.
+const onlyFile = flag("--only") ? args[args.indexOf("--only") + 1] : null;
+const only = onlyFile ? new Set((await readFile(onlyFile, "utf8")).split(/\r?\n/).map((x) => x.trim()).filter(Boolean)) : null;
+
+const rows = pages
+  .filter((p) => !only || only.has(`${p.locale}/${p.slug}`))
+  .map((p) => ({ slug: p.slug, locale: p.locale, title: p.title, html: render(p), meta_title: p.metaTitle, meta_description: p.metaDescription }));
 
 if (previewDir) {
   await mkdir(previewDir, { recursive: true });

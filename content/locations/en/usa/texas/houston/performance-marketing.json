@@ -1,0 +1,94 @@
+{
+  "slug": "usa/texas/houston/performance-marketing",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/performance-marketing",
+  "title": "Performance Marketing Agency in Houston",
+  "metaTitle": "Performance Marketing Agency in Houston, TX | TDM",
+  "metaDescription": "Google, Meta and TikTok ads for Houston businesses: targeting by drive time, call campaigns, storm-ready budgets and tracking tied to revenue.",
+  "lead": "TDM (The Digital Marketing Services) plans and manages paid advertising on Google, Meta and TikTok for Houston businesses, working remotely. Campaigns are run in your own ad accounts against targets agreed before launch, such as cost per lead or return on ad spend. In Houston the biggest source of wasted budget is geography: an ad shown across the whole metro reaches many people who will never make the drive.",
+  "sections": [
+    {
+      "heading": "Paying only for customers who can reach you",
+      "paragraphs": [
+        "A clinic near the Galleria and a clinic in Kingwood are not competing for the same patients, even though both are in Houston. People here judge a business by the freeway they would have to take and the time of day they would take it. We target by radius or postal code around each location and exclude areas that never convert.",
+        "For businesses that travel to the customer, such as AC, plumbing, pest control or pool service, the logic runs the other way. The service area is set by where your crews can reach profitably, and ads should stop at that line. We also schedule ads for the hours when someone answers the phone."
+      ]
+    },
+    {
+      "heading": "What we manage",
+      "paragraphs": [
+        "Every account starts with tracking. Before spend increases, we make sure calls, forms, bookings and online sales are recorded and can be traced to the campaign and keyword that produced them."
+      ],
+      "bullets": [
+        "Google Search and call campaigns for urgent needs, with negative keywords to filter out job seekers and DIY searches.",
+        "Performance Max, Shopping and YouTube where the business sells products or needs reach.",
+        "Meta campaigns on Facebook and Instagram for clinics, restaurants, retailers and home builders, with creative tested in rotation.",
+        "TikTok ads for consumer brands that can supply short video regularly.",
+        "Retargeting for visitors who looked and left, and landing pages built for one action.",
+        "Reports that show spend, leads or revenue, and cost per result side by side."
+      ]
+    },
+    {
+      "heading": "Storms, heat and expensive keywords",
+      "paragraphs": [
+        "Paid ads are the one channel that can react to Houston weather in real time. When a heat wave arrives, AC repair searches jump and so do click prices. When a storm passes through, demand for roofing, fencing, tree removal and water extraction appears overnight. We prepare campaigns, ad copy and budgets for these moments in advance, and pause ads when you are at capacity or cannot safely work.",
+        "Some Houston markets are costly to enter. Personal injury law, including truck and industrial accident cases, has some of the highest click prices in search advertising, and cosmetic and elective medical procedures are heavily contested. In these fields the account structure, the landing page and the speed of the follow-up call matter more than the size of the budget. We will tell you plainly if the budget you have in mind is too small for the keywords you want."
+      ]
+    },
+    {
+      "heading": "Checks worth making before you hire",
+      "paragraphs": [
+        "Ask whether the campaigns will run in an account you own, and whether you will see actual spend separately from the management fee. Ask how leads will be tracked past the form fill, since a low cost per lead means little if the leads never become jobs."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "How Houston businesses use paid ads",
+    "items": [
+      {
+        "title": "Emergency home services",
+        "text": "Call-focused search ads for AC, plumbing and restoration, limited to the service area and to hours when someone answers."
+      },
+      {
+        "title": "Clinics and elective care",
+        "text": "Search for people ready to book, Meta for awareness and retargeting, with ad wording kept inside platform policy."
+      },
+      {
+        "title": "Law firms",
+        "text": "Tightly themed campaigns per case type, with intake tracked so spend follows signed cases, not just calls."
+      },
+      {
+        "title": "Home builders and real estate",
+        "text": "Lead campaigns for new communities in the suburbs, aimed at people relocating as well as locals moving outward."
+      },
+      {
+        "title": "Restaurants and events",
+        "text": "Short local campaigns around rodeo season, game days and openings, capped by radius and date."
+      }
+    ]
+  },
+  "presence": "TDM manages advertising for Houston businesses remotely. We have no office in Houston. Account builds, creative and optimisation are done by our team online, and you keep full access to your ad accounts and their history.",
+  "faqs": [
+    {
+      "q": "How much should a Houston business spend on Google Ads?",
+      "a": "It depends on click prices in your field, the size of the area you cover and how many leads you can handle. We estimate a workable budget from keyword data during the free consultation. Our management fee depends on scope and is quoted after that conversation."
+    },
+    {
+      "q": "Can ads be limited to certain Houston suburbs or zip codes?",
+      "a": "Yes. Google and Meta both allow targeting by radius, city or postal code, and excluding areas. We usually give areas that behave differently their own budgets."
+    },
+    {
+      "q": "Should a roofing or restoration company advertise right after a storm?",
+      "a": "If you have crews available and it is safe to work, yes. Demand is immediate. Campaigns should be drafted before the season so they can be switched on quickly, and paused once your schedule is full."
+    },
+    {
+      "q": "Which is better for a local business in Houston, Google or Meta ads?",
+      "a": "Google Search suits needs people already have, such as a broken AC unit. Meta suits services and products people do not search for until they see them. Many businesses use both."
+    },
+    {
+      "q": "How soon will campaigns be live?",
+      "a": "It depends on your requirements, the state of your tracking and whether landing pages and creative are needed. The timeline is agreed in the plan."
+    }
+  ]
+}

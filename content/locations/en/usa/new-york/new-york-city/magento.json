@@ -1,0 +1,95 @@
+{
+  "slug": "usa/new-york/new-york-city/magento",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/magento",
+  "title": "Magento Development Agency in New York City",
+  "metaTitle": "Magento Development Agency in New York City | TDM",
+  "metaDescription": "Magento and Adobe Commerce for New York City wholesalers and retailers: B2B pricing, ERP integration, speed fixes, upgrades and migrations.",
+  "lead": "TDM (The Digital Marketing Services) builds, extends and maintains Magento Open Source and Adobe Commerce stores for New York City merchants, working remotely. Magento fits businesses with large or complicated catalogues, trade pricing, several storefronts or deep links to back-office systems. New York has many of these: wholesalers, importers, distributors and established retailers whose online operation is too involved for a simpler platform.",
+  "sections": [
+    {
+      "heading": "The New York businesses Magento suits",
+      "paragraphs": [
+        "Behind the shopfronts, the city runs on trade. Garment District showrooms sell lines to retailers around the country. Jewellers and stone dealers around 47th Street sell pieces with many combinations of metal, size and setting. Restaurant supply houses on and around the Bowery carry thousands of items for kitchens across the region. Food distributors work out of Hunts Point in the Bronx. Specialist retailers in electronics, photography, music and art supplies ship nationwide from catalogues with tens of thousands of products.",
+        "These businesses share requirements that basic store software handles poorly. A wholesale buyer needs to log in and see the prices agreed for that account, order by the case, request a quote and pay on terms. The same company may also sell to the public at different prices on a second storefront. Stock sits in a warehouse in Brooklyn, Queens or New Jersey and is tracked in an ERP that the website must agree with at all times.",
+        "Magento is designed for that complexity. It is also unforgiving when built badly, which is why many merchants who come to us already have a store that is slow, hard to change and several versions behind."
+      ]
+    },
+    {
+      "heading": "What we do on Magento",
+      "paragraphs": [
+        "Every project begins with an audit of catalogue structure, integrations, traffic and business rules. If the audit shows that Shopify or WooCommerce would serve you at lower running cost, we say so, since we build on those as well."
+      ],
+      "bullets": [
+        "Custom modules written to platform standards for pricing logic, checkout steps and admin tools, without core hacks.",
+        "B2B features: company accounts, tiered and customer-specific price lists, quote requests, configurable and bundled products.",
+        "Two-way sync of products, stock, orders and customers with ERP, CRM, point-of-sale and fulfilment systems.",
+        "Performance work on caching, hosting architecture, indexing and badly coded third-party extensions.",
+        "Security patching and upgrades from end-of-life versions.",
+        "Multi-store setups with separate storefronts, currencies and tax rules on one installation."
+      ]
+    },
+    {
+      "heading": "Rescuing a store that is slow or out of date",
+      "paragraphs": [
+        "A sluggish Magento site rarely needs to be thrown away. The usual causes are misconfigured caching, an extension that runs heavy queries on every page, or hosting too small for the catalogue. We find the highest-impact problems first, fix them and report page speed before and after. Stores on unsupported versions are a separate risk because they no longer receive security patches; we plan the upgrade in stages so trading continues while it happens.",
+        "Timing matters for New York sellers. Trade buyers place orders around market weeks, and consumer demand peaks before the winter holidays. Major changes belong in the quiet stretch well before those dates, with a code freeze during them."
+      ]
+    },
+    {
+      "heading": "What to ask a Magento developer",
+      "paragraphs": [
+        "Ask how they handle customisation: modules that survive upgrades, or edits to core files that break on the next patch. Ask who will hold the hosting, repository and admin credentials; they should be yours. And ask whether they would ever advise you to leave Magento."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Magento projects we take on",
+    "items": [
+      {
+        "title": "Wholesale ordering portals",
+        "text": "Account logins, agreed price lists, case quantities, reorders and quotes for trade customers."
+      },
+      {
+        "title": "Large catalogue retail",
+        "text": "Layered navigation, search and product data kept fast and tidy across tens of thousands of SKUs."
+      },
+      {
+        "title": "ERP and warehouse integration",
+        "text": "Stock, orders and customer records kept identical between the storefront and back-office systems."
+      },
+      {
+        "title": "Speed and stability audits",
+        "text": "A ranked list of what is slowing the store, with fixes applied in order of impact."
+      },
+      {
+        "title": "Version upgrades and re-platforming",
+        "text": "A staged move to a supported release, or to another platform when that is the better fit."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City merchants remotely and has no office or team member there. Development, testing on staging environments and support are carried out online.",
+  "faqs": [
+    {
+      "q": "Is Magento a good platform for a New York wholesaler?",
+      "a": "Often, yes. Customer-specific pricing, company accounts, quotes and ERP integration are areas where Magento is strong. If you sell a modest range to consumers only, a simpler platform will cost less to run, and we will tell you that after the audit."
+    },
+    {
+      "q": "Can one Magento installation serve trade and retail customers?",
+      "a": "Yes. Separate storefronts or customer groups can show different catalogues, prices and payment terms while sharing one inventory and one admin."
+    },
+    {
+      "q": "Our Magento store is on an old version. What should we do?",
+      "a": "Unsupported versions no longer receive security fixes, so an upgrade or a move should be planned. We assess your extensions and custom code, then recommend upgrading in stages or re-platforming."
+    },
+    {
+      "q": "Should we move from Magento to Shopify?",
+      "a": "It depends on how much of Magento's capability you use. Merchants with simple catalogues often benefit from moving. Those with complex B2B rules or integrations usually do better staying and fixing the build. We work on both platforms and advise case by case."
+    },
+    {
+      "q": "What does Magento development cost, and how long does it take?",
+      "a": "Both depend on scope: modules, integrations, catalogue size and the state of the existing code. We quote after a free consultation and agree the timeline in the project plan."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "usa/california/los-angeles/ugc-ads",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ugc-ads",
+  "title": "UGC Ads for Los Angeles Brands",
+  "metaTitle": "UGC Ads for Los Angeles Brands | TDM",
+  "metaDescription": "UGC ads for Los Angeles consumer brands: hooks and scripts, on-camera talent, filming and editing managed by TDM, with batches built for ad testing.",
+  "lead": "TDM (The Digital Marketing Services) produces UGC ads for Los Angeles consumer brands as a managed service. We write the hooks and scripts, source and direct the on-camera talent, film the videos and edit them into ad variations ready to run on Meta and TikTok. Production runs from our hub in Lahore, so you ship the product, approve scripts and talent online, and receive finished ads.",
+  "sections": [
+    {
+      "heading": "Why this format matters so much in Los Angeles",
+      "paragraphs": [
+        "A great many direct-to-consumer brands began in Los Angeles, particularly in beauty, skincare, wellness, activewear, and food and drink. They sell nationally from the first day, mostly through paid social, and their ad accounts consume creative quickly. An ad that works this month tires next month, and the only remedy is a steady supply of new openings and angles.",
+        "The city is also full of creators, which sounds like a solution and often is not. Finding people, negotiating usage rights, sending product, waiting for footage and asking for reshoots is a job in itself. A managed service replaces that with one brief, one approval process and a batch delivered together."
+      ]
+    },
+    {
+      "heading": "How a batch is produced",
+      "paragraphs": [
+        "We begin with angle research: your reviews, customer questions and past ad results show which objections and desires are worth scripting. Several hooks are written for each concept. Talent is matched to your customer profile, briefed, and directed to film handheld and natural, not polished.",
+        "Each session is edited into multiple ads with different openings, lengths and calls to action. When TDM also manages your ad account, we read hook rate, hold rate and cost per acquisition directly and script the next batch from those numbers."
+      ],
+      "bullets": [
+        "Hook-first scripts: problem call-outs, unboxings, before-and-after, sceptic-to-convert.",
+        "On-camera talent sourced and directed by TDM, approved by you.",
+        "Batches of variations sized for genuine creative testing.",
+        "Editing in the style feeds reward: jump cuts, captions, quick pacing.",
+        "Scripts checked against platform ad policies for your category."
+      ]
+    },
+    {
+      "heading": "Being straight about what this is",
+      "paragraphs": [
+        "UGC ads are not influencer marketing. The videos run from your brand's own ad account and are judged on performance, not on the following of the person on camera. If your plan depends on a well-known Los Angeles personality posting to their own audience, that is a separate arrangement and not what this service provides. We do not keep a roster of creators in Los Angeles, and filming does not take place there.",
+        "Paid endorsements carry rules. In the United States, advertising must be truthful and a material connection between a brand and the person recommending it should be clear to the viewer. Categories common in Los Angeles, such as supplements, skincare and wellness products, are also restricted in what they may claim about health and results. Your legal adviser should confirm what your product can say."
+      ]
+    },
+    {
+      "heading": "What to ask a UGC provider",
+      "paragraphs": [
+        "Ask who owns the footage and whether you may run it as paid advertising without further fees. Ask how many distinct hooks you receive, not only how many videos. Ask whether scripts are written for you or left to the creator. And ask what happens after the first batch: whether anyone looks at the results before the next one is written."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where Los Angeles brands use UGC ads",
+    "items": [
+      {
+        "title": "Beauty and skincare",
+        "text": "Application demos, routine videos and honest first impressions, scripted with care over claims."
+      },
+      {
+        "title": "Wellness and supplements",
+        "text": "Problem-led hooks and daily-use stories that stay inside platform rules for the category."
+      },
+      {
+        "title": "Activewear and fashion",
+        "text": "Try-on and fit videos that answer sizing and fabric questions before the customer asks."
+      },
+      {
+        "title": "Food and drink brands",
+        "text": "Taste reactions, unboxings and recipe uses for packaged products sold online."
+      },
+      {
+        "title": "Refreshing a tired account",
+        "text": "A new batch of hooks built from your past winners when existing ads have stopped performing."
+      }
+    ]
+  },
+  "presence": "TDM works with Los Angeles brands remotely, with no office or team member in the city. UGC ads are scripted, filmed and edited through our Lahore production hub from products you ship to us, and approvals take place online.",
+  "faqs": [
+    {
+      "q": "Do I need to find my own creators in Los Angeles?",
+      "a": "No. TDM sources and directs the on-camera talent, matched to your customer profile. You approve scripts and talent, send the product, and receive finished ad variations."
+    },
+    {
+      "q": "Are the UGC ads filmed in Los Angeles?",
+      "a": "No. Production runs from our hub in Lahore using products you ship to us. If a video has to show a Los Angeles location, a video shoot arranged locally is the more suitable service."
+    },
+    {
+      "q": "How much do UGC ads cost for an LA brand?",
+      "a": "The price reflects the number of concepts, hooks and finished variations in a batch. We quote after a free consultation, once we understand the product and the ad account."
+    },
+    {
+      "q": "How many videos come in a batch?",
+      "a": "Several concepts, each with more than one hook, plus different lengths and endings. The exact number is set in the plan according to how much your account can test."
+    },
+    {
+      "q": "How long does it take to receive UGC ads?",
+      "a": "It depends on the brief, script approvals and product shipping. The schedule is agreed in the plan before production starts."
+    }
+  ]
+}

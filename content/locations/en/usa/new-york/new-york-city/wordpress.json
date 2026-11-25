@@ -1,0 +1,94 @@
+{
+  "slug": "usa/new-york/new-york-city/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/wordpress",
+  "title": "WordPress Development Agency in New York City",
+  "metaTitle": "WordPress Development Agency in New York City | TDM",
+  "metaDescription": "Custom WordPress and WooCommerce sites for New York City firms, publishers, nonprofits and shops: fast, secure, easy to edit. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom WordPress and WooCommerce websites for New York City businesses, working remotely. We build new sites on lean custom themes, rebuild slow or neglected ones, and migrate content without losing search rankings. The result is a site that loads quickly, is secure, and can be edited by your own staff without calling a developer.",
+  "sections": [
+    {
+      "heading": "Who uses WordPress in New York, and what they need from it",
+      "paragraphs": [
+        "A large part of the city's economy is made of organisations that publish: law firms with attorney profiles and client alerts, architecture and design studios with project portfolios, galleries, theatres, nonprofits and foundations with programmes and events, independent media outlets, schools and medical practices. WordPress suits all of them because it is, at heart, a tool for managing a lot of structured content.",
+        "What these organisations share is a demanding audience. A prospective client comparing three Midtown firms will judge each one on its site in under a minute. A donor reading about a Bronx youth programme wants to find the annual report and the donation form without hunting. A site built on a heavy bought template, with dozens of plugins added over the years, tends to be slow on a phone and awkward to update, and it shows.",
+        "Neighbourhood businesses have simpler needs but the same standard applies. A Queens dental office or a Brooklyn contractor needs clear service pages, a location page for each address, a booking or enquiry form that works, and hours that are easy to change."
+      ]
+    },
+    {
+      "heading": "What a TDM WordPress build includes",
+      "paragraphs": [
+        "We begin with discovery: your content, your audience and what the site must do. Design and build follow, with testing on real devices before launch and a handover session for your team."
+      ],
+      "bullets": [
+        "A custom theme carrying only the code your site uses, in place of a multipurpose template.",
+        "Custom post types and taxonomies for people, practice areas, projects, events or listings, so large libraries stay organised.",
+        "WooCommerce stores with catalogues, payment gateways, shipping rules and a checkout designed to convert.",
+        "SEO built in: clean URLs, semantic markup, schema, compressed images and strong Core Web Vitals.",
+        "Security hardening, a minimal plugin set and an editing screen arranged for non-technical staff.",
+        "Rebuilds and migrations with a full redirect map so existing rankings survive."
+      ]
+    },
+    {
+      "heading": "Points that matter more for a New York site",
+      "paragraphs": [
+        "Accessibility deserves attention from the first design. Federal courts in New York see a large number of lawsuits claiming that business websites cannot be used by people with disabilities. We build to recognised accessibility guidelines, with proper headings, contrast, labels, alt text and keyboard navigation. This lowers risk and makes the site better for everyone, though no developer can promise legal immunity, and your lawyer should advise on your obligations.",
+        "Regulated professions have their own content rules. New York law firms must follow attorney advertising requirements, and medical practices need care with patient information on forms. We build what your counsel or compliance lead specifies and keep those elements easy to maintain.",
+        "Integrations are the other common request: booking tools, donation platforms, ticketing, newsletter software and CRM systems. We connect the ones you already use and avoid adding plugins that duplicate them."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Typical WordPress projects for New York clients",
+    "items": [
+      {
+        "title": "Professional firm websites",
+        "text": "Profiles, practice or service pages and an articles section, structured so each one can rank for its own subject."
+      },
+      {
+        "title": "Nonprofit and cultural sites",
+        "text": "Programme pages, event calendars and donation or ticket links that staff can update the same day."
+      },
+      {
+        "title": "Content and media platforms",
+        "text": "Editorial workflows, categories and archives for publishers with hundreds or thousands of articles."
+      },
+      {
+        "title": "Multi-location service businesses",
+        "text": "A page for every branch with address, hours, transit directions and its own enquiry form."
+      },
+      {
+        "title": "WooCommerce shops",
+        "text": "Online ordering for specialty retailers and makers who want to keep everything inside WordPress."
+      },
+      {
+        "title": "Rescue and rebuild",
+        "text": "Taking over a slow, outdated or hacked site, cleaning it up or rebuilding it, and moving the content safely."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City businesses remotely. We have no office or team member in New York. Design reviews, staging links and training sessions are handled online.",
+  "faqs": [
+    {
+      "q": "Is WordPress still a good choice for a New York business website?",
+      "a": "For content-led sites, yes. It handles pages, articles, profiles, events and small to mid-sized stores well, and your team can edit it without code. For complex applications or very large catalogues we may recommend a different platform, and we build on those too."
+    },
+    {
+      "q": "Can you make our WordPress site ADA accessible?",
+      "a": "We design and build to recognised web accessibility guidelines and can audit and repair an existing site. That reduces barriers for users and lowers legal exposure. It is not a legal guarantee, so ask your lawyer what standard applies to you."
+    },
+    {
+      "q": "Our current site is slow. Do we need a full rebuild?",
+      "a": "Not always. After an audit we either clean up and harden the existing build or recommend a rebuild on a custom theme. Whichever route is taken, content is migrated with redirects so rankings are kept."
+    },
+    {
+      "q": "How long does a WordPress project take?",
+      "a": "It depends on the number of templates, the amount of content to migrate and the integrations required. The schedule is agreed in the plan after discovery."
+    },
+    {
+      "q": "What does a custom WordPress site cost in New York City?",
+      "a": "Cost depends on scope: design, page types, e-commerce and integrations. We provide a quote after a free consultation."
+    }
+  ]
+}

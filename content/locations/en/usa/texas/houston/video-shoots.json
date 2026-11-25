@@ -1,0 +1,93 @@
+{
+  "slug": "usa/texas/houston/video-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-shoots",
+  "title": "Video Shoots and Production in Houston",
+  "metaTitle": "Video Shoots and Production in Houston, TX | TDM",
+  "metaDescription": "Video shoots for Houston companies, planned and scripted by TDM, with filming arranged locally and post-production handled at our hub. No local studio.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for Houston businesses and delivers the finished videos: brand films, capability videos, product videos and footage for ads and social. We do not have a studio or crew in Houston. Planning, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business is. For product-led videos, clients often ship the product to us and approve the treatment remotely.",
+  "sections": [
+    {
+      "heading": "What filming in Houston involves",
+      "paragraphs": [
+        "A large part of what Houston companies need to film is on working sites: fabrication shops, laydown yards, terminals, labs and clinics. Anyone on site may need a safety orientation and protective equipment. Customer property, control screens and proprietary equipment may have to stay out of frame. Drone work needs a licensed operator and has limits near airports and certain facilities.",
+        "Then there is the climate. From late spring into early autumn, midday heat and humidity are hard on people and equipment, and afternoon storms are common. Outdoor scenes are best scheduled early in the day, with interior setups held in reserve. The Gulf storm season can force a postponement, so the plan should name a backup date.",
+        "For outdoor settings there is the downtown skyline from Buffalo Bayou Park, the Museum District and the older streets of the Heights. Filming on public property generally requires permission from the city or the body that manages the site, and private locations need the owner's consent."
+      ]
+    },
+    {
+      "heading": "How we organise a shoot",
+      "paragraphs": [
+        "We begin with the purpose of the footage: which pages, ads and channels it will supply. From that we write treatments and scripts for your approval, then fix casting, locations, props, wardrobe and a shot-by-shot schedule. Filming is arranged where you are and follows the approved shot list. The footage then returns from our edit pipeline as finished videos in each format required."
+      ],
+      "bullets": [
+        "Scripts written for a specific viewer, such as a procurement engineer, a patient or a homeowner.",
+        "A shot list planned backwards from the ads, product pages and social content the footage must fill.",
+        "Site access, safety and clearance requirements listed during pre-production.",
+        "A heat and weather plan for every outdoor scene.",
+        "Editing, grading and versioning by the same team that planned the shoot."
+      ]
+    },
+    {
+      "heading": "Location shoot or shipped product",
+      "paragraphs": [
+        "A location shoot makes sense when the place or the people are the subject: a fabrication facility, a surgical practice, a dining room, a crew at work. When the product is the subject and it is small enough to send, shipping it to our hub is usually simpler. A tool, a sensor, a bottle of barbecue sauce or a skincare range can be filmed in detail there and approved remotely."
+      ]
+    },
+    {
+      "heading": "Before you book anyone",
+      "paragraphs": [
+        "Settle what the videos are for first. Ask who is responsible for site permissions and releases from people who appear on camera. Ask whether editing is included or whether raw footage is all you receive. Confirm how many finished videos you will get."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Shoots Houston companies commonly plan",
+    "items": [
+      {
+        "title": "Facility and capability films",
+        "text": "The shop, the equipment and the people, filmed for buyers who want proof of capacity before they request a quote."
+      },
+      {
+        "title": "Medical practice videos",
+        "text": "Introductions to physicians and the clinic, scripted with care around health claims and patient privacy."
+      },
+      {
+        "title": "Restaurant and food films",
+        "text": "Kitchen, dishes and dining room captured for the website, listings and a bank of social clips."
+      },
+      {
+        "title": "Home service ads",
+        "text": "Technicians, trucks and real jobs filmed for seasonal AC, roofing and restoration campaigns."
+      },
+      {
+        "title": "Product videos from shipped items",
+        "text": "Detail and demonstration videos filmed at our hub for products that can be sent."
+      }
+    ]
+  },
+  "presence": "TDM works with Houston businesses remotely. We do not have an office, studio, crew or team member in the city. Concept, scripting and post-production are handled at our production hub in Lahore, and filming is arranged locally for each project.",
+  "faqs": [
+    {
+      "q": "Does TDM have a video crew or studio in Houston?",
+      "a": "No. We work with Houston businesses remotely. Planning, scripting and post-production run from our production hub in Lahore. Filming is arranged locally for each project, or products are shipped to us for product-led videos."
+    },
+    {
+      "q": "Can you film inside an industrial plant or fabrication shop?",
+      "a": "It can be planned, subject to the site's rules. Access, safety orientation, protective equipment and what may appear on camera are set by the site owner. We build the shot list around them."
+    },
+    {
+      "q": "How much does a video shoot cost in Houston?",
+      "a": "It depends on the scope: locations, talent, shoot days and the number of finished videos. We quote after a free consultation, once the purpose and shot list are clear."
+    },
+    {
+      "q": "When is the best time of year to film outdoors in Houston?",
+      "a": "The cooler months are more comfortable for outdoor work. In summer, scenes are scheduled for the morning to avoid the worst heat and afternoon storms, and during the Gulf storm season it is wise to agree a backup date."
+    },
+    {
+      "q": "How long does it take to plan and deliver a shoot?",
+      "a": "It depends on the brief, the locations and the permissions involved. The schedule is agreed in the plan."
+    }
+  ]
+}

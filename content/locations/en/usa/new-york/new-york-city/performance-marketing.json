@@ -1,0 +1,93 @@
+{
+  "slug": "usa/new-york/new-york-city/performance-marketing",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/performance-marketing",
+  "title": "Performance Marketing Agency in New York City",
+  "metaTitle": "Performance Marketing Agency in New York City | TDM",
+  "metaDescription": "Google, Meta and TikTok ads for New York City businesses, managed to return on ad spend with tight geographic targeting. Quote after a free consultation.",
+  "lead": "TDM (The Digital Marketing Services) plans and manages paid advertising on Google, Meta and TikTok for New York City businesses, working remotely. Campaigns are run against agreed revenue targets such as return on ad spend and cost per acquisition, inside ad accounts that you own. In New York, where many advertisers bid for the same people, the work is mostly about spending on fewer, better-chosen clicks.",
+  "sections": [
+    {
+      "heading": "Why ad budgets disappear quickly in New York",
+      "paragraphs": [
+        "Click prices in the city are pushed up by sheer density of competition. A search for a personal injury lawyer, a cosmetic dentist or a moving company triggers an auction with national firms, lead resellers and well-funded local names. An account left on default settings will happily spend across all five boroughs and into the suburbs, on searches only loosely related to what you sell.",
+        "The fix is discipline about where and when. A dental office in Astoria gains nothing from a click in Staten Island. A lunch spot in the Financial District wants weekday office workers before noon, not residents on a Sunday night. Google and Meta both allow targeting by zip code and radius, and by people who are regularly in an area versus those merely interested in it. Getting those settings right often matters more than the ad itself.",
+        "Commuter flows add a second decision. Many people who work in Midtown or Downtown Brooklyn live in New Jersey, Long Island or Westchester. For a service booked near the office, they are good customers. For one booked near home, they are wasted spend."
+      ]
+    },
+    {
+      "heading": "How we run campaigns",
+      "paragraphs": [
+        "Before launch we agree a target, set up conversion tracking that records calls, forms, bookings and sales, and build the account around your margins. Then we test, cut what does not pay and move budget to what does."
+      ],
+      "bullets": [
+        "Google Search, Shopping, Performance Max and YouTube campaigns with a clean structure and strict negative keyword lists.",
+        "Meta and TikTok campaigns across the funnel, with creative produced to be tested in batches.",
+        "Retargeting for visitors who looked and left, including abandoned carts for online stores.",
+        "Schedules and location rules set by neighbourhood, hour and day of the week.",
+        "Reports showing spend, revenue and return together, which you can check against the ad platforms yourself."
+      ]
+    },
+    {
+      "heading": "Timing spend to the New York calendar",
+      "paragraphs": [
+        "Demand here is not even through the year. Retail and restaurants peak around the winter holidays, when visitors crowd Midtown and residents shop for gifts. Apartment moves cluster in the warmer months, lifting searches for movers, brokers, cleaners and furniture. Accountants are busiest before tax deadlines. Summer weekends empty parts of Manhattan and Brooklyn as people head for the beach or upstate, which changes what a local service should spend on a Saturday in July. We set budgets month by month around the pattern in your own trade."
+      ]
+    },
+    {
+      "heading": "The landing page decides the return",
+      "paragraphs": [
+        "A costly click sent to a slow, general homepage is usually lost. Our developers build landing pages for specific campaigns: one offer, one action, proof close to the button, and a page that loads quickly on a phone in a subway station with weak signal. When ads and pages are managed together, improvements on one side show up in the numbers on the other."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Campaign types New York businesses use",
+    "items": [
+      {
+        "title": "Local lead generation",
+        "text": "Search ads for clinics, law offices and trades, limited to the zip codes that produce paying clients and tracked through to the phone call."
+      },
+      {
+        "title": "E-commerce growth",
+        "text": "Shopping and paid social for New York brands selling nationwide, managed to a return target that reflects real margins."
+      },
+      {
+        "title": "Restaurant and venue promotion",
+        "text": "Short campaigns around openings, private dining, holiday bookings and events, aimed at people within easy reach."
+      },
+      {
+        "title": "B2B and professional services",
+        "text": "Search campaigns on precise problem terms, with LinkedIn used where the buyer can be defined by role and industry."
+      },
+      {
+        "title": "Account audit and rebuild",
+        "text": "A review of an existing account to find wasted spend, broken tracking and missing negatives, followed by a restructure."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City businesses remotely. We do not have an office or staff in New York. Campaign management, creative and reporting run online, and you speak directly with the people managing your account.",
+  "faqs": [
+    {
+      "q": "Why are Google Ads so expensive in New York City?",
+      "a": "Because many advertisers compete for a limited number of searches, and some categories such as legal, medical and home services attract very high bids. Costs come down when campaigns are restricted to the right areas, hours and search terms, and when the landing page converts more of the visitors you pay for."
+    },
+    {
+      "q": "Can I advertise only to people in my neighbourhood?",
+      "a": "Yes. Campaigns can be limited to chosen zip codes or a radius around your address, and set to reach people who are regularly there. For most storefronts this is the right starting point."
+    },
+    {
+      "q": "Should a New York business use Google, Meta or TikTok?",
+      "a": "Google suits services people actively look for. Meta and TikTok suit products and places people discover, such as fashion, food and fitness. Many accounts use Google and Meta first and add TikTok once there is enough video to feed it."
+    },
+    {
+      "q": "Who owns the ad accounts and the data?",
+      "a": "You do. Campaigns run in accounts in your name with TDM added as a manager, so spend, history and audiences remain yours."
+    },
+    {
+      "q": "How much should I budget, and what are your fees?",
+      "a": "Both depend on your category, your goals and the scope of work. We look at your numbers in a free consultation and quote afterwards."
+    }
+  ]
+}

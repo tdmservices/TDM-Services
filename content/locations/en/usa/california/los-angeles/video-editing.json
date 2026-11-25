@@ -1,0 +1,95 @@
+{
+  "slug": "usa/california/los-angeles/video-editing",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-editing",
+  "title": "Video Editing Services in Los Angeles",
+  "metaTitle": "Video Editing Services in Los Angeles | TDM",
+  "metaDescription": "Video editing for Los Angeles brands and businesses: ad cuts, reels, product videos and brand films edited remotely from your footage in every format.",
+  "lead": "TDM (The Digital Marketing Services) edits video for Los Angeles brands and businesses: ad cuts, reels, product videos and brand films, made from footage you send us. Our editors work from TDM's production hub in Lahore, so the service is fully remote and nobody needs to visit an edit suite. Los Angeles businesses rarely lack footage. What they usually lack is someone to turn it into finished, platform-ready videos week after week.",
+  "sections": [
+    {
+      "heading": "Plenty of cameras, not enough finished cuts",
+      "paragraphs": [
+        "This is a city where almost every brand films something. A skincare company has creator clips arriving every week. A restaurant in Silver Lake has phone footage of every new dish. A real estate agent has walkthroughs of listings from Sherman Oaks to Manhattan Beach, and a trainer in West Hollywood records every session. Most of that material sits on a drive.",
+        "The city's post-production houses are built around film, television and commercials, with processes and budgets to match. A small brand that needs twelve vertical ads from one afternoon of filming is asking for a different kind of work: quick, repeatable and shaped by what performs in an ad account. That is the editing we do."
+      ]
+    },
+    {
+      "heading": "What the editing covers",
+      "paragraphs": [
+        "You upload footage and a short brief. We return a first cut, you leave timestamped notes, and we revise. Because we also manage paid campaigns, editors cut with the placement in mind: several openings for the same ad so they can be tested against each other, and lengths suited to each platform."
+      ],
+      "bullets": [
+        "Ad cuts for Meta, TikTok and YouTube, with alternative hooks and endings.",
+        "Reels and short clips for social calendars, with captions burned in.",
+        "Product videos for store pages and marketplace listings.",
+        "Brand films, founder interviews and testimonial edits.",
+        "Every deliverable exported in the ratios each placement needs: 9:16, 1:1, 4:5 and 16:9.",
+        "Colour correction, sound clean-up, titles and simple motion graphics."
+      ]
+    },
+    {
+      "heading": "Working across the time difference",
+      "paragraphs": [
+        "Our hub is many hours ahead of Pacific time. In practice that helps: notes sent at the end of your day are often being worked on while Los Angeles sleeps. Calls are arranged for hours that suit you, and day-to-day feedback is handled in writing on the cut itself.",
+        "Large files are sent through shared cloud folders. For regular clients we agree a simple routine: where footage goes, how it is named, and when each batch of edits is due back."
+      ]
+    },
+    {
+      "heading": "Music, rights and other things to settle first",
+      "paragraphs": [
+        "Los Angeles is a music town, and most business owners here know that a song cannot simply be dropped into an advert. Popular tracks that are available to personal accounts are generally not cleared for commercial use, so ads and business posts should use licensed or royalty-free music. Tell your editor where each video will run before the work starts.",
+        "Ask any editing service who keeps the project files, whether raw footage is stored or deleted afterwards, how many revision rounds are included and which formats are delivered. Make sure you hold releases from anyone who appears on camera. We confirm these points in the plan."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Editing work LA clients send us",
+    "items": [
+      {
+        "title": "Creator footage into ads",
+        "text": "Raw clips from creators recut into multiple ad variations for beauty, wellness and fashion brands."
+      },
+      {
+        "title": "Restaurant and cafe reels",
+        "text": "Kitchen and dining-room footage turned into short clips for Instagram, TikTok and map listings."
+      },
+      {
+        "title": "Property walkthroughs",
+        "text": "Listing videos tightened, colour-corrected and captioned for agents and developers."
+      },
+      {
+        "title": "Podcast and interview clips",
+        "text": "Long recordings cut into short, captioned highlights for social channels."
+      },
+      {
+        "title": "Clinic and med spa videos",
+        "text": "Practitioner introductions and treatment explainers, edited with care over what is claimed on screen."
+      }
+    ]
+  },
+  "presence": "TDM serves Los Angeles clients remotely and has no office, edit suite or team member in the city. Editing is done at our Lahore production hub, with footage and finished files exchanged online.",
+  "faqs": [
+    {
+      "q": "Can I hire a video editor for my LA business without meeting in person?",
+      "a": "Yes. You upload footage and a brief, review cuts online and leave timestamped notes. Everything is delivered digitally, so there is no need to be in the same room."
+    },
+    {
+      "q": "How much does video editing cost in Los Angeles?",
+      "a": "Pricing depends on the amount of footage, the number and length of finished videos and how much graphics work is involved. A quote follows a free consultation."
+    },
+    {
+      "q": "How fast can edits be turned around?",
+      "a": "Turnaround depends on the brief and the volume of footage, and it is agreed in the plan. The time difference with our hub often means revisions move forward overnight for Pacific-time clients."
+    },
+    {
+      "q": "Can you edit footage shot on a phone?",
+      "a": "Yes. Much of the best-performing social and ad video is filmed on a phone. We stabilise, colour-correct and clean the sound where needed, and will tell you honestly if a clip cannot be rescued."
+    },
+    {
+      "q": "Do you edit video for ads as well as for social media?",
+      "a": "Yes. Ad edits are built with several openings and lengths so they can be tested, and if we manage your campaigns we use the results to decide what to cut next."
+    }
+  ]
+}

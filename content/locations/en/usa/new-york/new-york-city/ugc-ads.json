@@ -1,0 +1,98 @@
+{
+  "slug": "usa/new-york/new-york-city/ugc-ads",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ugc-ads",
+  "title": "UGC Ads for New York City Brands",
+  "metaTitle": "UGC Ads for New York City Brands | TDM",
+  "metaDescription": "UGC ads for New York City brands: hook-first scripts, sourced and directed talent, batches of variations and iteration on ad data, produced at TDM's Lahore hub.",
+  "lead": "TDM (The Digital Marketing Services) scripts, produces and edits UGC ads for New York City brands. These are creator-style videos, filmed handheld and spoken to camera, made to run as paid ads on Meta and TikTok. Production runs from our hub in Lahore, and we work with New York clients remotely: you send the product, approve scripts and talent, and receive batches of ad variations ready to test.",
+  "sections": [
+    {
+      "heading": "Why creator-style ads suit New York brands",
+      "paragraphs": [
+        "A large share of American direct-to-consumer brands began in offices and apartments here, in beauty, skincare, fashion, food and drink, home goods and wellness. They compete for the same feeds, and their customers have become skilled at spotting an advertisement and scrolling on. A polished brand film signals that an ad has started. A person holding the product and explaining what surprised them about it does not, at least for the first few seconds, and those seconds decide whether the rest is watched.",
+        "New York shoppers are also sceptical by habit. They have many alternatives and have seen most claims before. The scripts that work with a sceptical audience name the doubt directly: a problem called out plainly, an unboxing that shows what really arrives, a before and after, or a doubter who was won over."
+      ]
+    },
+    {
+      "heading": "What the service includes",
+      "paragraphs": [
+        "Each batch starts with research. We read your reviews, customer questions and past ad results to find the objections and desires worth turning into hooks. Scripts and talent are approved by you before anything is filmed."
+      ],
+      "bullets": [
+        "Hook-first scripts, with several openings written for every concept.",
+        "On-camera talent sourced, briefed and directed by TDM to match your customer profile.",
+        "Handheld, native-looking footage, not studio polish.",
+        "Editing with jump cuts, captions and pacing suited to Meta and TikTok feeds.",
+        "Delivery in batches of variations with different hooks, lengths and calls to action.",
+        "Scripts checked against platform advertising policies for your category before filming."
+      ]
+    },
+    {
+      "heading": "How production works without a New York set",
+      "paragraphs": [
+        "UGC ads do not depend on a location. The setting is a bathroom shelf, a kitchen counter, a desk or a sofa, and the subject is the product in someone's hands. You ship samples to our production hub, and filming takes place there with talent chosen to look and sound like the people you sell to. We do not claim to have creators or a studio in New York. If an ad truly needs a recognisable city backdrop, we will say that this format is the wrong tool and suggest a location shoot.",
+        "The loop after delivery matters as much as the filming. Where TDM manages the ad account, we read hook rate, hold rate and cost per acquisition for each video and write the next batch from what those numbers showed. Where another team buys your media, we work from shared reports."
+      ]
+    },
+    {
+      "heading": "What to confirm before commissioning UGC",
+      "paragraphs": [
+        "Check who owns the finished ads and for how long you may run them as paid media. Ask how many distinct hooks you will get, since an account with one or two videos cannot test anything. Make sure paid endorsements are disclosed as advertising rules require, and that claims about health, skin or money can be supported. Ask who decides what the following batch contains, and on what evidence."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where New York brands use UGC ads",
+    "items": [
+      {
+        "title": "Beauty and skincare",
+        "text": "Routine, texture and first-impression videos, with claims worded to stay inside platform policy."
+      },
+      {
+        "title": "Food and drink",
+        "text": "Taste reactions, pantry restocks and quick recipe uses for packaged products sold online and through retailers."
+      },
+      {
+        "title": "Fashion and accessories",
+        "text": "Try-ons, fit notes and styling ideas that answer the questions a product photo leaves open."
+      },
+      {
+        "title": "Wellness and supplements",
+        "text": "Day-in-the-life formats with careful, compliant wording about what a product does."
+      },
+      {
+        "title": "Apps and subscriptions",
+        "text": "Screen-and-face walkthroughs showing the first minute of use for startups acquiring users through paid social."
+      },
+      {
+        "title": "Home and lifestyle goods",
+        "text": "Small-space demonstrations and unboxings for products made for apartment living."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City brands remotely and has no office, studio or creators in the city. UGC ads are scripted, filmed and edited at our Lahore hub from products you ship to us, with scripts, talent and cuts approved online.",
+  "faqs": [
+    {
+      "q": "Are the creators in your UGC ads based in New York?",
+      "a": "No. Talent is sourced and directed by TDM at our production hub and matched to your customer profile. You approve the talent and scripts before filming."
+    },
+    {
+      "q": "How much do UGC ads cost for a New York brand?",
+      "a": "It depends on scope: the number of concepts, the variations per concept and the talent involved. We quote after a free consultation."
+    },
+    {
+      "q": "How many videos come in a batch?",
+      "a": "Batches are sized for testing, with several concepts and more than one hook for each, plus different lengths and endings. The exact count is set in the plan."
+    },
+    {
+      "q": "How long does a batch of UGC ads take to produce?",
+      "a": "It depends on the brief, how quickly scripts are approved and when products arrive at our hub. The schedule is agreed in the plan."
+    },
+    {
+      "q": "Do I need TDM to run my ads as well?",
+      "a": "No. If another team manages your campaigns, we iterate from the performance reports you share. When we run the account ourselves, we read the results directly and plan the following batch from them."
+    }
+  ]
+}
