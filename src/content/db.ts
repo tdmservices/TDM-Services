@@ -28,6 +28,7 @@ type BlogRow = {
   faqs: { q: string; a: string }[] | null;
   locale: string;
   html: string | null;
+  author?: string | null;
 };
 
 type CaseRow = {
@@ -68,6 +69,7 @@ const toPost = (r: BlogRow): BlogPost => ({
   metaDescription: r.meta_description,
   date: r.published_on,
   category: r.category,
+  author: r.author?.trim() || "tdm-editorial-team",
   excerpt: r.excerpt,
   body: toBlocks(r.body),
   ...(r.html?.trim() ? { html: r.html } : {}),

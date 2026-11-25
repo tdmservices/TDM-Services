@@ -1,3 +1,4 @@
+import { AUTHOR_SLUGS } from "@/content/authors";
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { href, locales } from "@/lib/i18n";
@@ -60,6 +61,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "yearly",
         priority: 0.6 * weight,
       });
+    }
+    // Authors with at least one post in this language; an empty author page is not worth indexing.
+    const credited = new Set((await getBlogPosts(locale)).map((post) => post.author));
+    for (const slug of AUTHOR_SLUGS.filter((x) => credited.has(x))) {
+      urls.push({ url: `${site.url}${href(locale, `/blog/author/${slug}/`)}`, changeFrequency: "monthly", priority: 0.4 * weight });
     }
     // Pages published from the admin as HTML.
     for (const page of await getSitePages(locale)) {

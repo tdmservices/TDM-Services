@@ -1,0 +1,56 @@
+{
+  "slug": "usa/indiana",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Indiana",
+  "metaTitle": "Digital Marketing Agency in Indiana | TDM",
+  "metaDescription": "Digital marketing for Indiana businesses: SEO, paid ads, social media, websites and video for manufacturers, logistics firms and local companies statewide.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Indiana businesses on SEO, paid advertising, social media, websites and video. Indiana makes things and moves things: it is one of the most manufacturing-focused states in the country, crossed by interstates in every direction. We help Indiana companies get found by the buyers who matter to them, whether that is a purchasing manager in another state or a homeowner in the next county.",
+  "sections": [
+    {
+      "heading": "One capital in the middle, distinct regions around it",
+      "paragraphs": [
+        "Indianapolis sits at the centre of the state and is its largest market by a wide margin, with life sciences, logistics, sport and conventions alongside state government. Its northern suburbs, including Carmel and Fishers, hold much of the area's household spending.",
+        "The rest of Indiana divides into regions that look in different directions. Northwest Indiana, known locally as the Region, is steel country on Lake Michigan and part of the Chicago media market. Fort Wayne anchors the northeast with manufacturing and healthcare. South Bend is tied to Notre Dame, and nearby Elkhart builds a large share of the country's recreational vehicles. Evansville serves the southwest corner on the Ohio River, and the southern counties around Jeffersonville and New Albany are effectively suburbs of Louisville. Bloomington and West Lafayette are university towns shaped by Indiana University and Purdue."
+      ]
+    },
+    {
+      "heading": "Marketing for a state that manufactures",
+      "paragraphs": [
+        "Indiana towns are often known for one product. Warsaw makes orthopaedic implants, Columbus makes engines, Elkhart makes RVs, and car and truck plants with their supplier networks are spread across the state. Around these sit machine shops, tool makers, plastics moulders, packaging firms and freight carriers.",
+        "These companies sell to engineers and buyers who search for an exact process, material or tolerance. A website that lists capabilities in general terms loses to one that shows equipment, certifications, industries served and examples of parts. We build those pages, make them findable in search and in AI answers, and support them with LinkedIn and search ads aimed at specific roles."
+      ],
+      "bullets": [
+        "A page per capability or process, written in the terms buyers use.",
+        "Clear quote request forms that ask for drawings and quantities.",
+        "Recruitment pages and campaigns, since many plants also need to hire."
+      ]
+    },
+    {
+      "heading": "Local customers and the Indiana calendar",
+      "paragraphs": [
+        "For businesses that serve households, Indiana is a place of county seats and regional centres. People in small towns drive to the nearest city for specialists, dealers and larger shops, and they check reviews first. Being visible in map results across the surrounding counties matters more than ranking statewide.",
+        "The year has a clear rhythm. May belongs to the Indianapolis 500 and the weeks of events around it. Planting and harvest set the pace in farm counties. Autumn weekends in South Bend, Bloomington and West Lafayette fill hotels and restaurants on football home dates, and high school and college basketball hold attention through winter. Cold months bring furnace and plumbing calls; spring storms bring roofing and tree work."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Indiana sectors we plan campaigns for",
+    "items": [
+      { "title": "Contract manufacturers", "text": "Machining, moulding and fabrication shops need capability pages and search visibility for the processes they offer." },
+      { "title": "Medical devices and life sciences", "text": "Suppliers around Warsaw and Indianapolis sell to regulated buyers who expect precise, documented information." },
+      { "title": "RV, automotive and transport suppliers", "text": "Component makers and dealers benefit from product pages, video and campaigns timed to the selling season." },
+      { "title": "Trucking and warehousing", "text": "Carriers and distribution firms use their sites both to win freight and to recruit drivers and warehouse staff." },
+      { "title": "Home services", "text": "Heating, plumbing, roofing and lawn care firms compete in map results county by county." },
+      { "title": "Agriculture and farm supply", "text": "Equipment dealers, seed sellers and co-ops reach growers with timely content and simple, mobile-friendly sites." }
+    ]
+  },
+  "presence": "TDM works with Indiana businesses remotely. We do not have an office or staff in the state. Calls are held by video, reporting is shared online, and one team covers strategy, design, development and video.",
+  "faqs": [
+    { "q": "Do you have an office in Indiana?", "a": "No. We serve Indiana businesses remotely, with scheduled video calls and written reports so you can follow the work." },
+    { "q": "Can digital marketing bring orders to an Indiana manufacturer?", "a": "Yes. Industrial buyers research suppliers online before they make contact. Detailed capability pages, visibility for technical search terms and targeted ads bring quote requests from the right kind of buyer. Sales cycles are long, so progress is measured over months." },
+    { "q": "How much does it cost to hire a marketing agency in Indiana?", "a": "It depends on scope: the channels, the amount of content and the number of locations or product lines. We provide a quote after a free consultation." },
+    { "q": "My business is in Northwest Indiana. Should I market to Chicago?", "a": "Only if you can serve customers there. The Region shares media and commuters with Chicago, but advertising costs across the state line are higher. We normally start with Lake and Porter counties and test Illinois areas separately." },
+    { "q": "How quickly will marketing show results in Indiana?", "a": "That depends on your requirements, your brief and where you are starting from. We agree the timeline with you in the plan." }
+  ]
+}

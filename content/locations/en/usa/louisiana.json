@@ -1,0 +1,60 @@
+{
+  "slug": "usa/louisiana",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Louisiana",
+  "metaTitle": "Digital Marketing Agency in Louisiana | TDM",
+  "metaDescription": "Digital marketing for Louisiana businesses: SEO, paid ads, social media, websites and video for New Orleans, Baton Rouge, Lafayette, Shreveport and Lake Charles.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Louisiana businesses on SEO, paid advertising, social media, websites and video. Louisiana sells two very different things: hospitality, food and festivals to visitors, and energy, chemicals and shipping to industry. We plan each campaign around which of those economies your customers belong to and which part of the state they live in.",
+  "sections": [
+    {
+      "heading": "A state of distinct regions",
+      "paragraphs": [
+        "New Orleans is the visitor capital, with conventions, cruises, restaurants and music, and a major port on the Mississippi. Baton Rouge is the seat of state government and home to LSU, and the river between the two cities is lined with refineries and chemical plants that buy from a long chain of contractors and suppliers.",
+        "Lafayette is the centre of Acadiana, where Cajun food and music meet an oil and gas service industry that looks to the Gulf. Houma and Thibodaux serve the offshore fleet. Lake Charles in the southwest lives on petrochemicals, gas export and casino resorts that draw weekend guests from Texas. Shreveport and Bossier City in the north have more in common with East Texas and Arkansas than with the coast, with an Air Force base, healthcare and riverfront casinos."
+      ]
+    },
+    {
+      "heading": "Parishes, not counties, and why it matters online",
+      "paragraphs": [
+        "Louisiana is divided into parishes, and residents use parish names every day: Jefferson, St. Tammany, East Baton Rouge, Calcasieu, Caddo. They also search that way, especially for contractors, lawyers, permits and anything tied to local government. A site that only names a city misses those searches."
+      ],
+      "bullets": [
+        "Service area pages written by parish as well as by city.",
+        "Google Business Profiles with accurate service areas for firms that travel to the customer.",
+        "Separate ad budgets for each metro, since costs and competition differ."
+      ]
+    },
+    {
+      "heading": "A calendar set by festivals, football and storms",
+      "paragraphs": [
+        "Few states have a marketing calendar this full. Carnival season runs from early January to Mardi Gras day and fills hotels, restaurants and costume shops well beyond New Orleans. Spring brings crawfish season and the big music festivals. Autumn weekends belong to football, from high school on Friday to LSU on Saturday and the Saints on Sunday, and restaurants, bars and retailers plan around kick-off times.",
+        "The Gulf hurricane season runs through summer and autumn. Roofers, tree services, restoration firms, generator dealers and insurance professionals see demand jump when a storm threatens, and every business needs a plan for updating hours and pausing ads. Summer heat keeps air-conditioning firms busy and thins out leisure visitors, so hospitality budgets usually follow the cooler months."
+      ]
+    },
+    {
+      "heading": "Selling to industry along the river and the Gulf",
+      "paragraphs": [
+        "A large part of Louisiana's economy is business to business. Plants, ports, shipyards and offshore operators buy from fabricators, inspection companies, staffing firms, marine suppliers and safety trainers. These buyers check a supplier's website for capabilities, certifications and safety record before they ever call. We build clear capability pages, target search terms that describe specific services, and run LinkedIn and search campaigns aimed at the job roles that approve vendors."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Louisiana sectors we plan campaigns for",
+    "items": [
+      { "title": "Restaurants and hospitality", "text": "Visitors pick on a phone, often the same day. Map listings, reviews, menus that load fast and short video do the selling." },
+      { "title": "Industrial and marine services", "text": "Contractors serving plants and offshore work need technical pages and proof of qualifications that procurement teams can check." },
+      { "title": "Home and storm services", "text": "Roofing, restoration, HVAC and tree firms need parish-level pages and campaigns that can scale quickly after severe weather." },
+      { "title": "Law firms", "text": "Injury, maritime and insurance claim practices face heavy competition and need a focused page for each type of case." },
+      { "title": "Food brands and makers", "text": "Hot sauce, seafood, coffee and seasoning producers sell nationally and need an online shop, product photography and ads managed against margin." }
+    ]
+  },
+  "presence": "TDM works with Louisiana businesses remotely. We have no office or team member in the state. Meetings are held by video call, reports are shared online, and strategy, design, development and video come from one team.",
+  "faqs": [
+    { "q": "Does TDM have an office in Louisiana?", "a": "No. We work with Louisiana businesses remotely, through video calls, shared documents and regular written reports." },
+    { "q": "How much does digital marketing cost for a Louisiana business?", "a": "It depends on the scope: which channels, how many locations and how competitive your field is in your metro. We give a quote after a free consultation." },
+    { "q": "Should my website mention parishes or cities?", "a": "Both. Residents search by parish for many services, particularly trades and legal work, and by city or neighbourhood for others. We check the terms used in your area and build pages to match." },
+    { "q": "How should a Louisiana business prepare its marketing for hurricane season?", "a": "Prepare before the season starts. Have storm service pages and ad copy drafted, keep your business profile hours current, pause ads when you cannot answer the phone, and have a budget ready for when it is safe to work again." },
+    { "q": "How long does SEO take to work in Louisiana?", "a": "It depends on your requirements, the state of your current site and the competition in your market. The timeline is agreed in the plan before work starts." }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "usa/michigan",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Michigan",
+  "metaTitle": "Digital Marketing Agency in Michigan | TDM",
+  "metaDescription": "Digital marketing for Michigan businesses: SEO, paid ads, social media, websites and video for Detroit, Grand Rapids, Ann Arbor, Lansing and Up North tourism.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Michigan businesses on SEO, paid advertising, social media, websites and video. Michigan makes things, above all vehicles and the parts that go into them, and it spends its summers on the Great Lakes. We plan campaigns for manufacturers and suppliers who sell to engineers and buyers, and for the local and seasonal businesses that serve households from Metro Detroit to the Upper Peninsula.",
+  "sections": [
+    {
+      "heading": "East side, west side and Up North",
+      "paragraphs": [
+        "Metro Detroit, in the south-east, is the largest market by far and the home of the American car industry, spread across Wayne, Oakland and Macomb counties. Ann Arbor, nearby, revolves around the University of Michigan and has a strong technology and research community.",
+        "West Michigan is a different economy. Grand Rapids is known for office furniture, a large medical and research district and a busy brewery scene, with Holland and Muskegon on the lakeshore. Kalamazoo has medical device and pharmaceutical manufacturing. Lansing, in the middle, is the state capital and sits beside Michigan State University.",
+        "Then there is Up North, which is how residents describe everything from about the middle of the Lower Peninsula upward. Traverse City, Petoskey, Charlevoix and Mackinac Island live on summer visitors, cherries and wine, and the Upper Peninsula, across the Mackinac Bridge, on forests, mining history, Lake Superior and winter sports around Marquette and Houghton."
+      ]
+    },
+    {
+      "heading": "Marketing for manufacturers and suppliers",
+      "paragraphs": [
+        "Thousands of Michigan firms machine, mould, stamp, engineer or automate something for a larger customer. Their buyers are engineers and purchasing staff who search for a specific process, material or tolerance and judge a supplier by what its website proves."
+      ],
+      "bullets": [
+        "Capability pages for each process, with equipment lists and certifications.",
+        "Search visibility for the precise terms buyers type, not general ones.",
+        "Request-for-quote forms that are short and tracked.",
+        "Recruitment pages and campaigns for skilled trades, which are hard to hire."
+      ]
+    },
+    {
+      "heading": "Four real seasons",
+      "paragraphs": [
+        "Michigan's calendar swings hard. Summer sends a large part of the south of the state north to cottages, lakes and campgrounds, and resort towns earn most of their income in a few months. Boat dealers, marinas, golf courses and landscapers are at full stretch. Autumn brings colour tours, apple orchards and cider mills, and the opening of deer season in November is close to a holiday in much of the state.",
+        "Winter means furnace repair, snow removal, ski hills and snowmobile trails, and it slows construction. Spring starts the rush for roofing, concrete, lawn care and home sales. For local businesses we set budgets by month and get campaigns live ahead of each turn in the weather."
+      ]
+    },
+    {
+      "heading": "How Michiganders look for a business",
+      "paragraphs": [
+        "In Metro Detroit, people search by suburb: Troy, Livonia, Sterling Heights, Novi, Royal Oak. Across the state they also search by lake, by county and by phrases such as Up North, so the words on your pages should match how your customers describe where they are. Cottage owners often look for contractors and services from their winter home hours away, which makes reviews, photos and a clear website more persuasive than any local signage."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Michigan sectors we plan campaigns for",
+    "items": [
+      { "title": "Automotive and mobility suppliers", "text": "Tier suppliers and engineering firms need technical pages and targeted outreach to engineers and purchasing teams." },
+      { "title": "Machining, tooling and automation", "text": "Job shops win quotes with clear capability pages, equipment lists and search visibility for specific processes." },
+      { "title": "Home services", "text": "HVAC, roofing, plumbing and snow removal firms compete suburb by suburb in the map results." },
+      { "title": "Lakeshore and northern tourism", "text": "Resorts, rentals, wineries and charters need early booking campaigns and listings with correct seasonal hours." },
+      { "title": "Food and drink producers", "text": "Cherry products, craft beer and specialty foods sell beyond the state with a good online shop and product photography." }
+    ]
+  },
+  "presence": "TDM works with Michigan businesses remotely. We have no office or team member in the state. Meetings are held by video call, reporting is shared online, and one team delivers strategy, design, development and video.",
+  "faqs": [
+    { "q": "Does TDM have an office in Michigan?", "a": "No. We work with Michigan businesses remotely, with video calls and shared reporting on a schedule agreed with you." },
+    { "q": "Can SEO bring quote requests to a Michigan manufacturer?", "a": "Yes, when the site describes each process and capability in the terms buyers search for and makes it easy to send a drawing or a request. How long it takes depends on your starting point and competition, and the timeline is agreed in the plan." },
+    { "q": "What does digital marketing cost for a Michigan business?", "a": "It depends on scope: the channels, the number of locations and how competitive your trade is in your area. We quote after a free consultation." },
+    { "q": "When should an Up North business advertise for summer?", "a": "Before the season, while families are choosing dates and comparing places to stay. We set the start and the budget curve from your own booking history." },
+    { "q": "Should I run separate campaigns for Detroit and Grand Rapids?", "a": "Yes. The two sides of the state have different industries, competitors and media habits. Each gets its own keywords, pages and budget so results can be compared fairly." }
+  ]
+}

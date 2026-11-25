@@ -1,0 +1,61 @@
+{
+  "slug": "usa/utah",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Utah",
+  "metaTitle": "Digital Marketing Agency in Utah | TDM",
+  "metaDescription": "Digital marketing for Utah businesses: SEO, paid ads, social media, websites and video for the Wasatch Front, Silicon Slopes, Park City and St. George.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Utah businesses on SEO, paid advertising, social media, websites and video. Most of Utah's people and companies sit in one narrow strip along the Wasatch Mountains, while the rest of the state is desert, canyon and ski country that earns its living from visitors. We plan campaigns for whichever Utah you trade in, and for both when you need them.",
+  "sections": [
+    {
+      "heading": "The Wasatch Front and everywhere else",
+      "paragraphs": [
+        "The Wasatch Front runs from Ogden in the north through Salt Lake City to Provo and Orem in the south, and the large majority of Utahns live along it. Salt Lake City is the capital and the centre of finance, healthcare and government. Ogden has a strong outdoor products industry and a large air force base nearby. Utah County, around Provo and Orem, is home to Brigham Young University and to a dense cluster of software companies centred on Lehi, an area known as Silicon Slopes.",
+        "Away from the Front the markets are smaller and more specialised. Park City is a ski and resort town with a wealthy second-home population. St. George, in the warm southwest corner, has grown fast and attracts retirees and visitors heading to Zion. Moab serves Arches and Canyonlands."
+      ]
+    },
+    {
+      "heading": "Two visitor seasons",
+      "paragraphs": [
+        "Utah has a winter season and a warm season, and they belong to different parts of the state. From the first snow to spring, skiers fill Park City and the canyon resorts above Salt Lake City. From spring to autumn, the five national parks in the south draw hikers and road trippers, with the heaviest crowds in the milder months on either side of the hot midsummer.",
+        "Lodging, guiding, rental and restaurant businesses in these places have to be found by people who are planning from another state or country. That work happens before the season: search content that answers planning questions, strong photography and video, and a booking process that works on a phone."
+      ],
+      "bullets": [
+        "Ad budgets weighted to the months when your visitors plan, not just when they arrive.",
+        "Campaigns aimed at the cities your guests travel from.",
+        "Listings kept accurate through seasonal changes in hours and services."
+      ]
+    },
+    {
+      "heading": "A young, family-centred and online-minded market",
+      "paragraphs": [
+        "Utah is known for having one of the youngest populations in the country and for large households. That shapes what sells along the Wasatch Front: family dentistry and orthodontics, children's activities, larger vehicles, home building, bulk grocery and anything that saves a busy parent time.",
+        "It is common for locally owned businesses to close on Sundays, and campaign schedules, business profile hours and response times should reflect how you actually operate."
+      ]
+    },
+    {
+      "heading": "Software, outdoor brands and online sellers",
+      "paragraphs": [
+        "Silicon Slopes companies sell software to businesses across the country, and they compete hard for attention. Search content, paid acquisition and a site that turns visits into demos or trials are the core of their marketing. Utah is also home to many outdoor, fitness, nutrition and lifestyle brands. For them we work on online stores, product photography, creator-style video ads and paid campaigns managed against margin."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Utah sectors we plan campaigns for",
+    "items": [
+      { "title": "Software and SaaS", "text": "Search content, paid campaigns and conversion-focused sites for technology firms in Lehi, Provo and Salt Lake City." },
+      { "title": "Ski and outdoor recreation", "text": "Resort-area lodging, rentals, guides and gear shops need seasonal campaigns aimed at out-of-state visitors." },
+      { "title": "National park tourism", "text": "Hotels, outfitters and tours near Zion, Moab and Bryce need planning-stage search visibility and simple booking." },
+      { "title": "Consumer and e-commerce brands", "text": "Outdoor, wellness and lifestyle brands need stores that convert, product shoots and ad creative built for testing." },
+      { "title": "Family services and home building", "text": "Dentists, orthodontists, builders and home service firms compete in map results across fast-growing suburbs." }
+    ]
+  },
+  "presence": "TDM works with Utah businesses remotely. Our team is not located in Utah. Meetings are held by video call, reporting is shared online, and strategy, design, development and video are delivered by one team.",
+  "faqs": [
+    { "q": "Do you have an office in Utah?", "a": "No. We work with Utah businesses remotely, by video call and shared reporting, on a schedule agreed with you." },
+    { "q": "How should a Utah tourism business plan its marketing year?", "a": "Start from your season. Ski businesses should build visibility in autumn and run hardest through winter. Park-area businesses should prepare over winter for spring and autumn peaks. In both cases, the site, photos and booking tools need to be finished before the planning period begins." },
+    { "q": "Can you help a Silicon Slopes software company with marketing?", "a": "Yes. We work on search visibility for the problems your product solves, paid campaigns aimed at the right job roles and site pages that turn visitors into demo or trial requests." },
+    { "q": "How much does it cost to hire a marketing agency in Utah?", "a": "It depends on scope: the channels, the content and how competitive your field is. We provide a quote after a free consultation." },
+    { "q": "How long does SEO take in Utah?", "a": "It depends on your requirements, the current state of your site and your competitors. The timeline is agreed in the plan before work begins." }
+  ]
+}

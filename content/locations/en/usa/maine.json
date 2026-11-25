@@ -1,0 +1,61 @@
+{
+  "slug": "usa/maine",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Maine",
+  "metaTitle": "Digital Marketing Agency in Maine | TDM",
+  "metaDescription": "Digital marketing for Maine businesses: SEO, paid ads, social media, websites and video for Portland, Bangor, the Midcoast and seasonal tourism companies.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Maine businesses on SEO, paid advertising, social media, websites and video. Maine is a state of small companies, long distances and a short, intense summer. We help inns, makers, trades and professional firms reach both the people who live here year-round and the visitors who arrive when the weather turns warm.",
+  "sections": [
+    {
+      "heading": "Where Maine's customers are",
+      "paragraphs": [
+        "Most of the population lives in the south. Greater Portland is the commercial centre, with healthcare, finance, restaurants and a busy waterfront. Lewiston and Auburn form the second urban area, with a manufacturing past and a growing healthcare and service economy. Augusta is the capital, and Bangor is the hub for the eastern and northern parts of the state, serving a very wide territory.",
+        "The coast is its own economy. The southern beaches around Ogunquit, Kennebunkport and Old Orchard Beach fill in summer. The Midcoast towns of Rockland, Camden and Boothbay Harbor live on boats, galleries and inns, and Bar Harbor is the gateway to Acadia National Park."
+      ]
+    },
+    {
+      "heading": "A year with a very clear shape",
+      "paragraphs": [
+        "Many Maine businesses earn most of their income between late spring and the end of foliage season. That makes timing the central marketing question. Visitors plan summer trips months ahead, so search content and ads for lodging, tours, weddings and camps need to be working in winter and early spring, not in July when rooms are already booked.",
+        "Autumn brings leaf season and, on the coast, cruise ship days. Winter belongs to skiing, snowmobiling and the trades that keep houses running: heating oil and propane, plumbing, ploughing. Spring is quiet, and it is when seasonal owners open their camps and cottages and call for repairs."
+      ],
+      "bullets": [
+        "Booking campaigns started early, with budgets weighted to the months when trips are planned.",
+        "Off-season email and social content that keeps past guests in touch.",
+        "Winter service campaigns for heating, ploughing and property care."
+      ]
+    },
+    {
+      "heading": "Reaching visitors before they arrive",
+      "paragraphs": [
+        "A large share of Maine's visitors drive up from Massachusetts, Connecticut and New York, and many own or rent second homes. An inn in Camden or a builder on a lake is often advertising to someone sitting in a suburb of Boston. Paid campaigns can be targeted to those home markets, and search content can answer the questions people ask while planning: when to come, where to stay, what is open.",
+        "Seasonal homeowners are a valuable group of their own. They need caretakers, contractors, landscapers and boat yards, and they look for them online from a distance, relying heavily on reviews and on websites that show real projects."
+      ]
+    },
+    {
+      "heading": "Selling Maine-made products beyond the state",
+      "paragraphs": [
+        "The Maine name carries weight with buyers elsewhere. Lobster shippers, wild blueberry growers, boat builders, craft brewers, woodworkers and outdoor gear makers all sell well beyond the state line. For these companies we work on the online shop itself, product photography and video, search visibility for the product type and paid campaigns measured against margin and shipping cost."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Maine sectors we plan campaigns for",
+    "items": [
+      { "title": "Inns, camps and rentals", "text": "Direct booking pages, early-season campaigns and guest email that brings people back next year." },
+      { "title": "Seafood and food producers", "text": "Online ordering, shipping information that is easy to find and ads timed to holidays and gift seasons." },
+      { "title": "Trades and property care", "text": "Builders, heating firms and caretakers reach year-round and seasonal owners through town-level pages and reviews." },
+      { "title": "Outdoor recreation", "text": "Guides, outfitters, marinas and ski businesses rely on video, clear pricing pages and bookings that work on a phone." },
+      { "title": "Makers and retailers", "text": "Craft, apparel and home goods brands need product photography and stores built to convert visitors from out of state." }
+    ]
+  },
+  "presence": "TDM works with Maine businesses remotely. We have no office or team member in the state. Meetings take place by video call, reporting is shared online, and one team handles strategy, design, development and video.",
+  "faqs": [
+    { "q": "Does TDM have an office in Maine?", "a": "No. We work with Maine businesses remotely, using video calls and shared reports, on a schedule agreed with you." },
+    { "q": "When should a seasonal Maine business start marketing for summer?", "a": "Well before the season. Visitors research and book in winter and spring, so pages, listings and ads should be ready by then. The exact timing is set from your own booking history." },
+    { "q": "What does a digital marketing agency cost in Maine?", "a": "It depends on scope: the channels involved, the amount of content and whether you sell locally, to visitors or nationwide. We quote after a free consultation." },
+    { "q": "Can a small-town Maine business get results from SEO?", "a": "Yes. Competition in smaller towns is usually lighter, so a complete business profile, consistent listings, real reviews and clear service pages can make a visible difference. How long it takes depends on your starting point and is agreed in the plan." },
+    { "q": "How do I market my Maine products to customers in other states?", "a": "Start with a shop that loads quickly and explains shipping clearly, add strong product photography, then use search and paid social campaigns aimed at the regions where your buyers live. We track sales against ad spend so you can see what pays." }
+  ]
+}

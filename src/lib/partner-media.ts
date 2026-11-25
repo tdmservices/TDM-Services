@@ -19,21 +19,23 @@ import { asset } from "./asset-manifest";
 export type Partner = {
   name: string;
   src: string;
+  /** White-on-transparent version for dark backgrounds (public/partners-mono). */
+  mono: string;
   width: number;
   height: number;
 };
 
 export const partners: Partner[] = [
-  { name: "Meta Business Partner", src: asset("partners/meta.webp"), width: 353, height: 120 },
-  { name: "Shopify Partner", src: asset("partners/shopify.webp"), width: 716, height: 120 },
-  { name: "Google Partner", src: asset("partners/google.webp"), width: 282, height: 120 },
+  { name: "Meta Business Partner", src: asset("partners/meta.webp"), mono: "/partners-mono/meta.webp", width: 353, height: 120 },
+  { name: "Shopify Partner", src: asset("partners/shopify.webp"), mono: "/partners-mono/shopify.webp", width: 716, height: 120 },
+  { name: "Google Partner", src: asset("partners/google.webp"), mono: "/partners-mono/google.webp", width: 282, height: 120 },
   // Cropped to the mark: the full badge stacks two lines of type under the
   // logo, which at chip height rendered 19px wide and unreadable.
-  { name: "LinkedIn Ads Certified", src: asset("partners/linkedin.webp"), width: 420, height: 420 },
-  { name: "HighLevel Certified Partner", src: asset("partners/highlevel.webp"), width: 420, height: 111 },
-  { name: "Verified WooExpert", src: asset("partners/woocommerce.webp"), width: 420, height: 420 },
-  { name: "Odoo Gold Partner", src: asset("partners/odoo.webp"), width: 420, height: 205 },
-  { name: "Magento Professional Solution Partner", src: asset("partners/magento.webp"), width: 420, height: 105 },
-  { name: "ISO 9001 Certified", src: asset("partners/iso.webp"), width: 420, height: 370 },
-  { name: "PSEB Registered", src: asset("partners/pseb.webp"), width: 236, height: 227 },
+  { name: "LinkedIn Ads Certified", src: asset("partners/linkedin.webp"), mono: "/partners-mono/linkedin.webp", width: 420, height: 420 },
+  { name: "HighLevel Certified Partner", src: asset("partners/highlevel.webp"), mono: "/partners-mono/highlevel.webp", width: 420, height: 111 },
+  { name: "Verified WooExpert", src: asset("partners/woocommerce.webp"), mono: "/partners-mono/woocommerce.webp", width: 420, height: 420 },
+  { name: "Odoo Gold Partner", src: asset("partners/odoo.webp"), mono: "/partners-mono/odoo.webp", width: 420, height: 205 },
+  { name: "Magento Professional Solution Partner", src: asset("partners/magento.webp"), mono: "/partners-mono/magento.webp", width: 420, height: 105 },
+  { name: "ISO 9001 Certified", src: asset("partners/iso.webp"), mono: "/partners-mono/iso.webp", width: 420, height: 370 },
+  { name: "PSEB Registered", src: asset("partners/pseb.webp"), mono: "/partners-mono/pseb.webp", width: 236, height: 227 },
 ];
