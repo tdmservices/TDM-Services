@@ -5,8 +5,8 @@
   "service": "media/video-editing",
   "title": "Video Editing Services for New York City Businesses",
   "metaTitle": "Video Editing Services in New York City | TDM",
-  "metaDescription": "Video editing for New York City brands: ad cuts, reels, product and brand videos, captions and every platform format, edited remotely from TDM's Lahore hub.",
-  "lead": "TDM (The Digital Marketing Services) edits video for New York City businesses: ad cuts, reels and short-form clips, product videos, brand films and creator footage. Editing runs from our hub in Lahore, and we work with New York clients entirely remotely. You send the footage, whether it came from a phone, a creator or a professional shoot, and receive finished videos in the formats each platform needs.",
+  "metaDescription": "Video editing for New York City brands: ad cuts, reels, product and brand videos, captions and every platform format, edited at TDM's Lahore operations office.",
+  "lead": "TDM (The Digital Marketing Services) edits video for New York City businesses: ad cuts, reels and short-form clips, product videos, brand films and creator footage. Editing is done at our operations office in Lahore, and review happens online. You send the footage, whether it came from a phone, a creator or a professional shoot, or our team in the United States films it for you, and you receive finished videos in the formats each platform needs.",
   "sections": [
     {
       "heading": "New York has plenty of footage and too few finished videos",
@@ -67,7 +67,7 @@
       }
     ]
   },
-  "presence": "TDM works with New York City businesses remotely and has no office, studio or editor in the city. All editing is carried out at our Lahore hub, with footage and review cuts exchanged online.",
+  "presence": "TDM has no office or edit suite in New York City. All editing is carried out at our operations office in Lahore, with footage and review cuts exchanged online. When new footage is needed, our team in the United States films it.",
   "faqs": [
     {
       "q": "Can you edit footage I filmed on my phone in my New York shop or restaurant?",
@@ -87,7 +87,7 @@
     },
     {
       "q": "Do you film in New York as well as edit?",
-      "a": "Editing is a separate service handled entirely from our hub. If you also need new footage, our video shoot service covers planning and scripting, with filming arranged locally for each project."
+      "a": "Yes. Editing is done at our operations office in Lahore, and new footage is filmed by our team in the United States through our video shoot service, which also covers planning and scripting. You can use either service alone or both together."
     }
   ]
 }

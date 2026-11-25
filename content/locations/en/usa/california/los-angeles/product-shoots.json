@@ -5,8 +5,8 @@
   "service": "media/product-shoots",
   "title": "Product Photography for Los Angeles Brands",
   "metaTitle": "Product Photography for Los Angeles Brands | TDM",
-  "metaDescription": "Product shoots for Los Angeles e-commerce brands: catalog, lifestyle and detail photography from shipped products, retouched and sized for every channel.",
-  "lead": "TDM (The Digital Marketing Services) photographs products for Los Angeles e-commerce brands: studio catalog images, styled lifestyle scenes and close-up detail shots, retouched and delivered in the sizes your store, marketplace listings and ads need. There is no TDM studio in Los Angeles. You ship your products to our production hub in Lahore, approve the shot list and art direction remotely, and receive the finished images digitally.",
+  "metaDescription": "Product shoots for Los Angeles e-commerce brands: catalog, lifestyle and detail photography by our US-based team, retouched and sized for every channel.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Los Angeles e-commerce brands: studio catalog images, styled lifestyle scenes and close-up detail shots, retouched and delivered in the sizes your store, marketplace listings and ads need. The photography is done in the United States by our own team, and the images are retouched at our operations office in Lahore. You approve the shot list and art direction first and review proofs online.",
   "sections": [
     {
       "heading": "A city that sells by the picture",
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "heading": "How a shoot works when you are in LA and the studio is not",
+      "heading": "How a product shoot is run",
       "paragraphs": [
-        "We first map your catalogue, channels and gaps, and write a set list: the angles, scenes and details needed for each product. You ship the items to our Lahore studio, where we confirm their condition on arrival. Products are photographed against the approved list with lighting and styling kept consistent, then selects are retouched and sent for your review before final export."
+        "We first map your catalogue, channels and gaps, and write a set list: the angles, scenes and details needed for each product. Our US-based team photographs the products against the approved list with lighting and styling kept consistent. The files then go to our operations office in Lahore, where selects are retouched and sent for your review before final export."
       ],
       "bullets": [
         "Studio catalog photography on white or coloured backgrounds.",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "heading": "When shipping makes sense, and when it does not",
+      "heading": "Matching the setup to the product",
       "paragraphs": [
-        "Shipping suits products that travel easily: cosmetics, apparel, accessories, small homeware and consumer goods. International parcels need a customs declaration, and some items, such as liquids, aerosols, perishables and anything fragile or very large, need extra care or may not be practical to send. Tell us what you sell during the consultation and we will say plainly whether this route fits.",
-        "Decide in advance whether samples should be returned or kept for later shoots. For new launches, send products early enough that images are ready before the campaign, particularly ahead of the holiday season when both shipping and ad schedules tighten."
+        "Different goods ask for different setups. Cosmetics and glass need controlled reflections, apparel needs steaming and a decision between flat lay, hanger and model, jewellery needs macro lenses and patience, and large homeware may be better photographed in a real room than on a table. Liquids, perishables and fragile pieces need careful handling on the day. Tell us what you sell during the consultation and we will say plainly which approach fits each category.",
+        "Decide in advance whether samples should come back to you or be kept for later shoots. For new launches, book the shoot early enough that images are ready before the campaign, particularly ahead of the holiday season when ad schedules tighten."
       ]
     },
     {
@@ -44,7 +44,7 @@
     }
   ],
   "cards": {
-    "heading": "What Los Angeles brands send us to photograph",
+    "heading": "What Los Angeles brands ask us to photograph",
     "items": [
       {
         "title": "Beauty and fragrance",
@@ -72,15 +72,15 @@
       }
     ]
   },
-  "presence": "TDM works with Los Angeles brands remotely and has no office, studio or team member in the city. Products are shipped to our Lahore production hub, and shot lists, proofs and final images are reviewed and delivered online.",
+  "presence": "TDM has no office or studio in Los Angeles. Products for Los Angeles brands are photographed by our team in the United States and retouched at our operations office in Lahore, and shot lists, proofs and final images are reviewed and delivered online.",
   "faqs": [
     {
-      "q": "Does TDM have a product photography studio in Los Angeles?",
-      "a": "No. Our studio is at our production hub in Lahore. You ship your products there, approve the art direction remotely and receive retouched images digitally, with no on-site session."
+      "q": "Where does TDM photograph products for Los Angeles brands?",
+      "a": "In the United States. Our US-based team does the photography in a setup or location suited to the brief, and retouching is done at our operations office in Lahore. There is no TDM studio in Los Angeles itself."
     },
     {
-      "q": "How does a remote product shoot work for an LA brand?",
-      "a": "We agree a shot list with you, you send the products, we photograph and retouch them, and you review proofs online before final files are exported. Samples can be returned or held for future shoots, as agreed."
+      "q": "How does a product shoot work for an LA brand?",
+      "a": "We agree a shot list with you, our team in the United States photographs the products, the images are retouched, and you review proofs online before final files are exported. Samples can be returned or held for future shoots, as agreed."
     },
     {
       "q": "How much does product photography cost?",
@@ -92,7 +92,7 @@
     },
     {
       "q": "How long until I receive the photos?",
-      "a": "Timing depends on the brief, the size of the catalogue and shipping. The schedule is agreed in the plan once we know what is being sent."
+      "a": "Timing depends on the brief, the size of the catalogue and the amount of retouching. The schedule is agreed in the plan once the set list is approved."
     }
   ]
 }

@@ -5,8 +5,8 @@
   "service": "media/ugc-ads",
   "title": "UGC Ads for New York City Brands",
   "metaTitle": "UGC Ads for New York City Brands | TDM",
-  "metaDescription": "UGC ads for New York City brands: hook-first scripts, sourced and directed talent, batches of variations and iteration on ad data, produced at TDM's Lahore hub.",
-  "lead": "TDM (The Digital Marketing Services) scripts, produces and edits UGC ads for New York City brands. These are creator-style videos, filmed handheld and spoken to camera, made to run as paid ads on Meta and TikTok. Production runs from our hub in Lahore, and we work with New York clients remotely: you send the product, approve scripts and talent, and receive batches of ad variations ready to test.",
+  "metaDescription": "UGC ads for New York City brands: hook-first scripts, filmed by TDM's own US-based creators, edited into batches of variations and iterated on ad data.",
+  "lead": "TDM (The Digital Marketing Services) scripts, produces and edits UGC ads for New York City brands. These are creator-style videos, filmed handheld and spoken to camera, made to run as paid ads on Meta and TikTok. The videos are filmed in the United States by TDM's own US-based creators, and the footage is edited at our operations office in Lahore. You approve scripts and creators, and receive batches of ad variations ready to test.",
   "sections": [
     {
       "heading": "Why creator-style ads suit New York brands",
@@ -18,11 +18,11 @@
     {
       "heading": "What the service includes",
       "paragraphs": [
-        "Each batch starts with research. We read your reviews, customer questions and past ad results to find the objections and desires worth turning into hooks. Scripts and talent are approved by you before anything is filmed."
+        "Each batch starts with research. We read your reviews, customer questions and past ad results to find the objections and desires worth turning into hooks. Scripts and creators are approved by you before anything is filmed."
       ],
       "bullets": [
         "Hook-first scripts, with several openings written for every concept.",
-        "On-camera talent sourced, briefed and directed by TDM to match your customer profile.",
+        "On-camera creators from TDM's own US-based team, briefed and directed to match your customer profile.",
         "Handheld, native-looking footage, not studio polish.",
         "Editing with jump cuts, captions and pacing suited to Meta and TikTok feeds.",
         "Delivery in batches of variations with different hooks, lengths and calls to action.",
@@ -30,9 +30,9 @@
       ]
     },
     {
-      "heading": "How production works without a New York set",
+      "heading": "How filming and editing are divided",
       "paragraphs": [
-        "UGC ads do not depend on a location. The setting is a bathroom shelf, a kitchen counter, a desk or a sofa, and the subject is the product in someone's hands. You ship samples to our production hub, and filming takes place there with talent chosen to look and sound like the people you sell to. We do not claim to have creators or a studio in New York. If an ad truly needs a recognisable city backdrop, we will say that this format is the wrong tool and suggest a location shoot.",
+        "UGC ads rarely depend on a landmark. The setting is a bathroom shelf, a kitchen counter, a desk or a sofa, and the subject is the product in someone's hands. Our creators are TDM's own people in the United States, so the homes, voices and habits on screen are ones your customers recognise. They film to the approved scripts, and the raw takes go to our editors in Lahore, who cut each session into variations. If an ad truly needs a recognisable city backdrop, we will say so and plan it as a location shoot with the same team.",
         "The loop after delivery matters as much as the filming. Where TDM manages the ad account, we read hook rate, hold rate and cost per acquisition for each video and write the next batch from what those numbers showed. Where another team buys your media, we work from shared reports."
       ]
     },
@@ -72,15 +72,15 @@
       }
     ]
   },
-  "presence": "TDM works with New York City brands remotely and has no office, studio or creators in the city. UGC ads are scripted, filmed and edited at our Lahore hub from products you ship to us, with scripts, talent and cuts approved online.",
+  "presence": "TDM has no office or studio in New York City. UGC ads for New York brands are filmed in the United States by our own US-based creators and edited at our operations office in Lahore, with scripts, creators and cuts approved online.",
   "faqs": [
     {
-      "q": "Are the creators in your UGC ads based in New York?",
-      "a": "No. Talent is sourced and directed by TDM at our production hub and matched to your customer profile. You approve the talent and scripts before filming."
+      "q": "Who appears in the UGC ads you make for New York brands?",
+      "a": "TDM's own US-based creators, matched to your customer profile. They film in the United States, and you approve the creators and scripts before any filming begins."
     },
     {
       "q": "How much do UGC ads cost for a New York brand?",
-      "a": "It depends on scope: the number of concepts, the variations per concept and the talent involved. We quote after a free consultation."
+      "a": "It depends on scope: the number of concepts, the variations per concept and the creators involved. We quote after a free consultation."
     },
     {
       "q": "How many videos come in a batch?",
@@ -88,7 +88,7 @@
     },
     {
       "q": "How long does a batch of UGC ads take to produce?",
-      "a": "It depends on the brief, how quickly scripts are approved and when products arrive at our hub. The schedule is agreed in the plan."
+      "a": "It depends on the brief, how quickly scripts are approved and how many concepts are being filmed. The schedule is agreed in the plan."
     },
     {
       "q": "Do I need TDM to run my ads as well?",

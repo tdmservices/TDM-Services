@@ -5,8 +5,8 @@
   "service": "media/product-shoots",
   "title": "Product Photography for Houston Brands",
   "metaTitle": "Product Photography for Houston Brands | TDM",
-  "metaDescription": "Product photography for Houston brands and distributors: catalogue, lifestyle and detail shots. Ship products to TDM's studio and receive retouched images.",
-  "lead": "TDM (The Digital Marketing Services) photographs products for Houston brands, online stores and distributors. We produce clean catalogue sets, styled lifestyle scenes and close detail shots, retouched and delivered in every crop your store, marketplace listings and ads need. We do not have a studio in Houston. You ship your products to TDM's production hub in Lahore, approve the shot list and art direction remotely, and receive the finished images online.",
+  "metaDescription": "Product photography for Houston brands and distributors: catalogue, lifestyle and detail shots taken in the US by TDM's team, retouched and ready to publish.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Houston brands, online stores and distributors. We produce clean catalogue sets, styled lifestyle scenes and close detail shots, retouched and delivered in every crop your store, marketplace listings and ads need. Our team in the United States takes the photographs, on location or in a setting that suits the range, and retouching is done at our operations office in Lahore. We do not have a studio in Houston. You approve the shot list and art direction first and receive the finished images online.",
   "sections": [
     {
       "heading": "Two kinds of Houston catalogue",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "heading": "Shipping from Houston: what to plan for",
+      "heading": "Preparing a Houston range for the camera",
       "paragraphs": [
-        "Because the studio is overseas, the shoot starts with a parcel. Send clean, undamaged samples, and for packaged goods send the current label version. Allow for international transit and customs paperwork in your launch schedule, and tell us whether items should be returned or can be kept. We confirm the condition of everything on arrival.",
-        "This model suits items that are compact and stable: bottles, jars, boxed goods, apparel, accessories, tools and small parts. It does not suit everything. Fresh food from a restaurant kitchen cannot travel, and neither can a large valve assembly or a skid-mounted unit. Liquids, aerosols and anything classed as hazardous may face carrier restrictions, so check with your shipper first."
+        "A shoot goes faster when the products are ready for it. Provide clean, undamaged samples, and for packaged goods the current label version. Group items by category and tell us which part numbers or flavours need their own image. Our US-based team checks the condition of everything before the session, and we agree beforehand whether samples are returned or kept.",
+        "Compact, stable items such as bottles, jars, boxed goods, apparel, accessories, tools and small parts are the simplest to photograph in volume on one set. Other subjects have to be photographed where they are. Fresh dishes belong in the restaurant kitchen that plates them, and a large valve assembly or a skid-mounted unit is best photographed in the yard or shop where it stands, with the background cleaned up afterwards by our retouchers in Lahore."
       ]
     },
     {
@@ -44,7 +44,7 @@
     }
   ],
   "cards": {
-    "heading": "Product ranges Houston sellers send us",
+    "heading": "Product ranges Houston sellers ask us to photograph",
     "items": [
       {
         "title": "Sauces, rubs and packaged food",
@@ -72,11 +72,11 @@
       }
     ]
   },
-  "presence": "TDM works with Houston businesses remotely. We have no office, studio or photographer in the city. Products are shipped to our production hub in Lahore, and shot lists, proofs and final images are reviewed and delivered online.",
+  "presence": "TDM has no office or studio in Houston. Product photography for Houston sellers is carried out by our team in the United States, the retouching is done at our operations office in Lahore, and shot lists, proofs and final images are reviewed and delivered online.",
   "faqs": [
     {
       "q": "Is there a TDM photo studio in Houston?",
-      "a": "No. Product photography is carried out at TDM's studio in Lahore. Houston clients ship their products, approve the shot list and art direction remotely, and receive retouched images digitally."
+      "a": "No, we have no studio in Houston. The photographs are taken in the United States by TDM's own team, on location or in a setting suited to the products. Houston clients approve the shot list and art direction in advance, and the images are retouched at our operations office in Lahore and delivered digitally."
     },
     {
       "q": "How much does product photography cost for a Houston business?",
@@ -84,15 +84,15 @@
     },
     {
       "q": "Can you photograph a large industrial parts catalogue?",
-      "a": "Yes, for parts that are practical to ship. We set up one lighting and framing system for each category so every item is consistent, then shoot and retouch in batches."
+      "a": "Yes. We set up one lighting and framing system for each category so every item is consistent, then shoot and retouch in batches. Heavy or oversized equipment is photographed where it sits."
     },
     {
       "q": "Can you photograph restaurant food or fresh products?",
-      "a": "Not through this service. Fresh and perishable items cannot be shipped to our studio. Packaged, shelf-stable food such as sauces, seasonings and coffee works well."
+      "a": "Yes. Fresh dishes are photographed on location, in the kitchen or dining room, because plated food does not wait. Packaged, shelf-stable food such as sauces, seasonings and coffee can be photographed on a set alongside the rest of a range."
     },
     {
       "q": "How long will it take to get my images?",
-      "a": "It depends on the brief and the size of the range, and shipping time has to be included. The schedule is agreed in the plan before you send anything."
+      "a": "It depends on the brief and the size of the range, and on how many items need styling. The schedule is agreed in the plan before the session is booked."
     }
   ]
 }

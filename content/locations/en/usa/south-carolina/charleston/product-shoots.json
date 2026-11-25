@@ -5,8 +5,8 @@
   "service": "media/product-shoots",
   "title": "Product Photography for Charleston, SC Businesses",
   "metaTitle": "Product Photography for Charleston, SC Brands | TDM",
-  "metaDescription": "Product photography for Charleston makers and retailers: catalog, lifestyle and detail images for online stores, Amazon and ads. Ship products, get images.",
-  "lead": "TDM (The Digital Marketing Services) photographs products for Charleston businesses that sell online: clean catalog images, styled lifestyle scenes and close detail shots, retouched and delivered in the sizes each channel requires. The method is simple and worth stating at the start. You ship your products to TDM's studio in Lahore, approve the shot list and art direction online, and receive the finished images digitally. There is no TDM studio in Charleston and no photographer visits your shop.",
+  "metaDescription": "Product photography for Charleston makers and retailers: catalog, lifestyle and detail images for online stores, Amazon and ads, shot by TDM's US-based team.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Charleston businesses that sell online: clean catalog images, styled lifestyle scenes and close detail shots, retouched and delivered in the sizes each channel requires. The method is simple and worth stating at the start. TDM's US-based team photographs your products, under controlled light for catalog work or in a real setting when the image calls for one. Retouching and export are then handled at our operations office in Lahore, and you sign off the shot list and art direction before any picture is taken.",
   "sections": [
     {
       "heading": "Why Charleston retailers need a second shop window",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "heading": "Shipping from Charleston: what to plan for",
+      "heading": "Preparing for the shoot",
       "paragraphs": [
-        "Because the products travel, a little planning saves a lot of trouble. Send one clean, undamaged sample of each item and each color, with any packaging you want shown. Fragile pieces such as glass, ceramics and framed work need proper packing and insurance. Perishable food is usually better represented by its sealed packaging plus styled scenes we prepare, and you should tell us about anything sensitive to heat. One-of-a-kind items, antiques and large furniture may not be sensible to ship at all, and we will say so before you spend on freight.",
-        "The Charleston look itself needs a decision. If your brand leans on the Lowcountry, we can build sets that suggest it with honest materials: weathered wood, linen, oyster shell, greenery. We will not pass off a studio set as a real location. If you want the actual marsh or a real piazza behind the product, supply your own location photographs and we will match the studio images to them in color and light so the two sit together on a page."
+        "A little planning saves a lot of trouble. Set aside one clean, undamaged sample of each item and each color, with any packaging you want shown. Fragile pieces such as glass, ceramics and framed work should be handled as little as possible and photographed early in the session. Perishable food needs its timing agreed, with sealed packaging on hand for the catalog images, and you should tell us about anything sensitive to heat. One-of-a-kind items, antiques and large furniture are often best photographed where they stand, and the session can be planned around that.",
+        "The Charleston look itself needs a decision. If your brand leans on the Lowcountry, the images can be made in a real setting, such as your shop, a porch or a kitchen you have permission to use, or on a set built with honest materials: weathered wood, linen, oyster shell, greenery. We will not pass off a set as a real location. Whichever you choose, the catalog images and the lifestyle images are matched in color and light during retouching so the two sit together on a page."
       ]
     }
   ],
@@ -66,19 +66,19 @@
       }
     ]
   },
-  "presence": "A member of our team is based in South Carolina, though not in Charleston, and can answer questions about preparing a shoot. Photography takes place at TDM's studio in Lahore: products are shipped there, direction is approved remotely and images are delivered online.",
+  "presence": "A member of our team is based in South Carolina, though not in Charleston, and can answer questions about preparing a shoot. The photography is carried out by TDM's team in the United States, and the images are retouched at our operations office in Lahore and delivered online.",
   "faqs": [
     {
-      "q": "Do you have a product photography studio in Charleston?",
-      "a": "No. The studio is in Lahore, and Charleston clients ship products to it, approve the shot list remotely and receive retouched images digitally."
+      "q": "Who takes the photographs for a Charleston shop?",
+      "a": "TDM's US-based team does. They work from the shot list you approved, and the retouching follows at our operations office in Lahore."
     },
     {
       "q": "Can you photograph my products for Amazon and my own store at once?",
       "a": "Yes. We plan one session to produce white-background images that meet marketplace rules, plus lifestyle and detail images for your own site and ads, so the product looks the same wherever a customer finds it."
     },
     {
-      "q": "Is it worth shipping products abroad for photos?",
-      "a": "For small, durable, repeatable products, usually yes. For unique, very fragile, perishable or bulky items it may not be, and a local photographer is the better choice. We will tell you which applies before you ship."
+      "q": "Can products be photographed in a real Charleston setting?",
+      "a": "Yes, when the image needs it and you have permission to use the place. Catalog and marketplace images are still better made under controlled light, so most projects combine the two."
     },
     {
       "q": "What does product photography cost for a Charleston shop?",
@@ -86,7 +86,7 @@
     },
     {
       "q": "How long until I receive the images?",
-      "a": "That depends on the brief and on shipping. Dates for arrival, shooting, retouching and delivery are agreed in the plan before your products leave Charleston."
+      "a": "That depends on the brief, the number of products and the retouching involved. Dates for shooting, retouching and delivery are agreed in the plan before the session is booked."
     }
   ]
 }

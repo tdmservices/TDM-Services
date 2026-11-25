@@ -5,8 +5,8 @@
   "service": "media/video-shoots",
   "title": "Video Shoots and Production in Houston",
   "metaTitle": "Video Shoots and Production in Houston, TX | TDM",
-  "metaDescription": "Video shoots for Houston companies, planned and scripted by TDM, with filming arranged locally and post-production handled at our hub. No local studio.",
-  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for Houston businesses and delivers the finished videos: brand films, capability videos, product videos and footage for ads and social. We do not have a studio or crew in Houston. Planning, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business is. For product-led videos, clients often ship the product to us and approve the treatment remotely.",
+  "metaDescription": "Video shoots for Houston companies, planned and scripted by TDM, filmed on location by our US-based team and edited into finished videos for every channel.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for Houston businesses and delivers the finished videos: brand films, capability videos, product videos and footage for ads and social. The filming is done by TDM's team in the United States, at your site or at whatever setting the project calls for, although we have no office or studio in Houston. Editing and the rest of post-production then take place at our operations office in Lahore. Planning, scripting and creative direction are included, and you approve the treatment before a camera is switched on.",
   "sections": [
     {
       "heading": "What filming in Houston involves",
@@ -19,20 +19,20 @@
     {
       "heading": "How we organise a shoot",
       "paragraphs": [
-        "We begin with the purpose of the footage: which pages, ads and channels it will supply. From that we write treatments and scripts for your approval, then fix casting, locations, props, wardrobe and a shot-by-shot schedule. Filming is arranged where you are and follows the approved shot list. The footage then returns from our edit pipeline as finished videos in each format required."
+        "We begin with the purpose of the footage: which pages, ads and channels it will supply. From that we write treatments and scripts for your approval, then fix casting, locations, props, wardrobe and a shot-by-shot schedule. Our team in the United States films where you are and follows the approved shot list. The footage is then edited at our operations office in Lahore and comes back as finished videos in each format required."
       ],
       "bullets": [
         "Scripts written for a specific viewer, such as a procurement engineer, a patient or a homeowner.",
         "A shot list planned backwards from the ads, product pages and social content the footage must fill.",
         "Site access, safety and clearance requirements listed during pre-production.",
         "A heat and weather plan for every outdoor scene.",
-        "Editing, grading and versioning by the same team that planned the shoot."
+        "Editing, grading and versioning in Lahore, briefed by the people who planned the shoot."
       ]
     },
     {
-      "heading": "Location shoot or shipped product",
+      "heading": "Location shoot or product shoot",
       "paragraphs": [
-        "A location shoot makes sense when the place or the people are the subject: a fabrication facility, a surgical practice, a dining room, a crew at work. When the product is the subject and it is small enough to send, shipping it to our hub is usually simpler. A tool, a sensor, a bottle of barbecue sauce or a skincare range can be filmed in detail there and approved remotely."
+        "A location shoot makes sense when the place or the people are the subject: a fabrication facility, a surgical practice, a dining room, a crew at work. When the product is the subject, the setting matters less than the light and the detail. A tool, a sensor, a bottle of barbecue sauce or a skincare range can be filmed by our US-based team on a plain set or a styled surface, away from your premises, and you approve the cuts online."
       ]
     },
     {
@@ -63,15 +63,15 @@
       },
       {
         "title": "Product videos from shipped items",
-        "text": "Detail and demonstration videos filmed at our hub for products that can be sent."
+        "text": "Detail and demonstration videos of tools, instruments and packaged goods, filmed by our team in the United States."
       }
     ]
   },
-  "presence": "TDM works with Houston businesses remotely. We do not have an office, studio, crew or team member in the city. Concept, scripting and post-production are handled at our production hub in Lahore, and filming is arranged locally for each project.",
+  "presence": "TDM does not have an office or studio in Houston. Video shoots for Houston businesses are filmed by our team in the United States, at your site or another suitable setting, and post-production is handled at our operations office in Lahore. Concept, scripts and approvals are dealt with online.",
   "faqs": [
     {
-      "q": "Does TDM have a video crew or studio in Houston?",
-      "a": "No. We work with Houston businesses remotely. Planning, scripting and post-production run from our production hub in Lahore. Filming is arranged locally for each project, or products are shipped to us for product-led videos."
+      "q": "Who does the filming, and is there a TDM studio in Houston?",
+      "a": "Our own US-based team does the filming, on your premises or at a setting picked for the project. We do not keep an office or studio in Houston. Planning and scripting are handled online, and the edit is completed at our operations office in Lahore."
     },
     {
       "q": "Can you film inside an industrial plant or fabrication shop?",

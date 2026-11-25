@@ -6,7 +6,7 @@
   "title": "UGC Ads for South Carolina Brands",
   "metaTitle": "UGC Ads for South Carolina Brands | TDM",
   "metaDescription": "Creator-style UGC video ads for South Carolina brands: scripted, cast, produced and edited by TDM in batches, then tested against real ad account data.",
-  "lead": "TDM (The Digital Marketing Services) produces UGC ads for South Carolina brands: creator-style videos in the handheld, talking-to-camera format that fills Meta and TikTok feeds. We write the hooks and scripts, source and direct the on-camera talent, and edit each session into several ad variations. Production is managed from TDM's hub in Lahore, not from a South Carolina studio, with talent and scripts matched to the American customers you are selling to.",
+  "lead": "TDM (The Digital Marketing Services) produces UGC ads for South Carolina brands: creator-style videos in the handheld, talking-to-camera format that fills Meta and TikTok feeds. We write the hooks and scripts, direct the on-camera delivery, and edit each session into several ad variations. The videos are filmed in the United States by TDM's own US-based creators, people who sound like the American customers you are selling to, and the footage is then edited at our operations office in Lahore.",
   "sections": [
     {
       "heading": "Which South Carolina businesses UGC ads suit",
@@ -29,7 +29,7 @@
       "bullets": [
         "Angle research from reviews, customer questions and ad account history.",
         "Several scripts per concept, each with more than one opening hook, approved by you.",
-        "Talent sourced, briefed and directed by TDM so delivery feels natural and unread.",
+        "Filming by TDM's own US-based creators, briefed and directed so delivery feels natural and unread.",
         "Editing in the native style of the feed: jump cuts, captions, zooms and tight pacing.",
         "Variations in hook, length and call to action, in platform-ready formats.",
         "Scripts checked against platform ad policies for your category before filming."
@@ -38,7 +38,7 @@
     {
       "heading": "Getting the product on camera",
       "paragraphs": [
-        "Because production is arranged remotely, the practical question is how the product reaches the person filming. That is settled in the brief: what needs to be sent, how many units, and whether anything about the product makes shipping difficult. Perishable food, fragile goods and anything large are worth raising in the first call.",
+        "Because our creators film in the United States, the practical questions are simple ones: which products they need in hand, how many units, and what the setting should be. A kitchen, a porch, a boat deck or a garage can each be right, depending on where the product is really used. That is settled in the brief, along with anything a creator must know to handle the product properly, such as how a sauce is served or how a piece of tackle is rigged. After filming, the footage goes to our operations office in Lahore, where editors cut the variations.",
         "Once ads are live, the numbers decide what happens next. Where TDM manages the ad account we read hook rate, hold rate and cost per acquisition directly. If another team runs your media, we work from shared reports. Winning ads are extended into new versions and the weak ones shape what we do not script again."
       ]
     }
@@ -68,15 +68,15 @@
       }
     ]
   },
-  "presence": "A member of our team is based in South Carolina, so you can speak with someone in the state about your brand. UGC production itself is managed remotely by our media team: scripts, talent, direction and editing.",
+  "presence": "A member of our team is based in South Carolina, so you can speak with someone in the state about your brand. UGC ads are filmed by TDM's own creators in the United States and edited at our operations office in Lahore.",
   "faqs": [
     {
-      "q": "Do you use South Carolina creators for UGC ads?",
-      "a": "Not as a rule. TDM sources and directs talent to match your customer profile and target market, and manages production from its Lahore hub. If a specific local setting is essential to the ad, tell us at the start so we can advise on whether and how it can be arranged."
+      "q": "Who appears in the UGC ads, and where are they filmed?",
+      "a": "TDM's own US-based creators film the ads in the United States, chosen to fit your customer profile and target market. If a specific South Carolina setting is essential to the ad, tell us at the start so it can be written into the brief. The edit itself is handled at our operations office in Lahore."
     },
     {
       "q": "Do we have to find and manage the creators ourselves?",
-      "a": "No. TDM sources, briefs and directs the on-camera talent. You approve the scripts and the talent, and finished ad variations come back ready to run."
+      "a": "No. The creators are TDM's own people, briefed and directed by us. You approve the scripts, and finished ad variations come back ready to run."
     },
     {
       "q": "How much do UGC ads cost?",
@@ -84,7 +84,7 @@
     },
     {
       "q": "How long does it take to get a batch of UGC ads?",
-      "a": "It depends on the brief, script approvals and how quickly the product can reach the talent. The schedule is agreed in the plan before production starts."
+      "a": "It depends on the brief, script approvals and the number of variations. The schedule is agreed in the plan before production starts."
     }
   ]
 }
