@@ -127,6 +127,77 @@ def plate(name, outline, y, depth, mat):
     return o
 
 
+def chaikin(pts, rounds=3):
+    """Round the corners of a closed outline by repeated corner cutting."""
+    for _ in range(rounds):
+        out = []
+        for i, a in enumerate(pts):
+            b = pts[(i + 1) % len(pts)]
+            out.append((a[0] * 0.75 + b[0] * 0.25, a[1] * 0.75 + b[1] * 0.25))
+            out.append((a[0] * 0.25 + b[0] * 0.75, a[1] * 0.25 + b[1] * 0.75))
+        pts = out
+    return pts
+
+
+def cut_corners(pts, cut):
+    """Replace each corner with two points set back along its edges, so corners round to a known size."""
+    out = []
+    n = len(pts)
+    for i, p in enumerate(pts):
+        for q in (pts[i - 1], pts[(i + 1) % n]):
+            d = math.hypot(q[0] - p[0], q[1] - p[1])
+            t = min(cut / d, 0.42)
+            out.append((p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t))
+    return out
+
+
+def pillow(name, outline, centre, depth, rim, mat, steps=8):
+    """
+    A soft slab with the given outline (x, z points, counter-clockwise), facing the camera.
+    Built ring by ring: the rim curves from the side wall onto the flat faces, and each
+    face is closed with a fan from `centre`, so a notched outline cannot fold over itself.
+    """
+    n = len(outline)
+    normals = []
+    for i in range(n):
+        ax, az = outline[i - 1]
+        bx, bz = outline[(i + 1) % n]
+        tx, tz = bx - ax, bz - az
+        ln = math.hypot(tx, tz) or 1
+        normals.append((-tz / ln, tx / ln))  # points inward for a counter-clockwise outline
+    verts, faces, rings = [], [], []
+    # front face inward-most ring first, round the rim to the back
+    profile = [(rim * (1 - math.cos(a)), -depth / 2 + rim - rim * math.sin(a)) for a in [math.radians(90 - 90 * k / steps) for k in range(steps + 1)]]
+    profile += [(inset, -y) for inset, y in reversed(profile)]
+    for inset, y in profile:
+        rings.append(len(verts))
+        for (x, z), (nx, nz) in zip(outline, normals):
+            # Move toward the centre rather than along the edge normal: neighbours keep their
+            # order, so tight corners cannot fold over themselves.
+            ux, uz = centre[0] - x, centre[1] - z
+            dist = math.hypot(ux, uz) or 1
+            ux, uz = ux / dist, uz / dist
+            move = min(inset / max(ux * nx + uz * nz, 0.4), dist * 0.6)
+            verts.append((x + ux * move, y, z + uz * move))
+    for r0, r1 in zip(rings, rings[1:]):
+        for i in range(n):
+            j = (i + 1) % n
+            faces.append((r0 + i, r0 + j, r1 + j, r1 + i))
+    front_c, back_c = len(verts), len(verts) + 1
+    verts += [(centre[0], -depth / 2, centre[1]), (centre[0], depth / 2, centre[1])]
+    for i in range(n):
+        j = (i + 1) % n
+        faces.append((front_c, rings[0] + j, rings[0] + i))
+        faces.append((back_c, rings[-1] + i, rings[-1] + j))
+    me = bpy.data.meshes.new(name)
+    me.from_pydata(verts, [], faces)
+    me.update()
+    o = bpy.data.objects.new(name, me)
+    bpy.context.collection.objects.link(o)
+    o.data.materials.append(mat)
+    return o
+
+
 def parent(child, par):
     child.parent = par
     child.matrix_parent_inverse = par.matrix_world.inverted()
@@ -137,36 +208,63 @@ def parent(child, par):
 # Limbs: hand and foot targets relative to the body; elbows/knees are placed automatically.
 # Face: eyes (open|happy|wide|wink), mouth (smile|open|oh|grin), brows (deg), look (x, z).
 REST = dict(
-    lean=0, tilt=0, squash=1.0, lift=0.0, turn=0,
-    hand_l=(-0.62, -0.1, 0.78), hand_r=(0.62, -0.1, 0.78),
-    foot_l=(-0.26, 0.0, 0.0), foot_r=(0.26, 0.0, 0.0),
+    lean=0, tilt=0, squash=1.0, lift=0.0, turn=0, tip=0.16, stretch=0.0,
+    hand_l=(-0.82, -0.12, 0.62), hand_r=(0.74, -0.12, 0.62),
+    foot_l=(-0.34, 0.0, 0.0), foot_r=(0.2, 0.0, 0.0),
     foot_l_rot=0, foot_r_rot=0,
     eyes="open", mouth="smile", brows=0, look=(0, 0),
 )
 POSES = {
-    "hero": dict(lean=-4, hand_r=(0.95, -0.15, 1.75), hand_l=(-0.62, -0.25, 0.72), mouth="open", brows=6, look=(0.02, 0.01), wave=True),
+    "hero": dict(lean=-3, hand_r=(1.25, -0.2, 1.35), hand_l=(-0.8, -0.25, 0.68), mouth="open", brows=6, look=(0.02, 0.01), wave=True),
     "idle1": dict(),
-    "idle2": dict(squash=0.97, hand_l=(-0.8, -0.1, 0.52), hand_r=(0.8, -0.1, 0.52), eyes="happy"),
-    "wave1": dict(lean=-5, hand_r=(1.05, -0.15, 1.7), mouth="open", brows=6, wave=True),
-    "wave2": dict(lean=-3, hand_r=(0.78, -0.15, 1.82), mouth="open", brows=6, wave=True),
-    "run1": dict(tilt=14, lift=0.1, hand_l=(-0.5, -0.75, 1.0), hand_r=(0.55, 0.6, 0.6), foot_l=(-0.2, 0.75, 0.42), foot_r=(0.2, -0.7, 0.12), foot_l_rot=55, foot_r_rot=-20, mouth="grin", brows=4),
-    "run2": dict(tilt=14, lift=0.02, hand_l=(-0.6, -0.2, 0.7), hand_r=(0.6, 0.1, 0.7), foot_l=(-0.2, 0.15, 0.3), foot_r=(0.2, -0.05, 0.0), foot_l_rot=30, mouth="grin", brows=4),
-    "run3": dict(tilt=14, lift=0.1, hand_l=(-0.55, 0.6, 0.6), hand_r=(0.5, -0.75, 1.0), foot_l=(-0.2, -0.7, 0.12), foot_r=(0.2, 0.75, 0.42), foot_l_rot=-20, foot_r_rot=55, mouth="grin", brows=4),
-    "run4": dict(tilt=14, lift=0.02, hand_l=(-0.6, 0.1, 0.7), hand_r=(0.6, -0.2, 0.7), foot_l=(-0.2, -0.05, 0.0), foot_r=(0.2, 0.15, 0.3), foot_r_rot=30, mouth="grin", brows=4),
-    "jump": dict(tilt=6, lift=0.35, hand_l=(-0.95, -0.1, 1.7), hand_r=(0.95, -0.1, 1.7), foot_l=(-0.34, 0.2, 0.32), foot_r=(0.34, -0.25, 0.22), foot_l_rot=35, foot_r_rot=-15, eyes="wide", mouth="open", brows=10),
-    "hit": dict(lean=10, tilt=-12, squash=0.94, hand_l=(-1.0, -0.2, 1.3), hand_r=(1.0, -0.2, 1.2), foot_l=(-0.4, -0.2, 0.0), foot_r=(0.3, 0.1, 0.0), eyes="wide", mouth="oh", brows=-10),
-    "cheer": dict(lift=0.2, hand_l=(-0.85, -0.1, 1.85), hand_r=(0.85, -0.1, 1.85), foot_l=(-0.36, 0, 0.2), foot_r=(0.36, 0, 0.2), eyes="happy", mouth="open", brows=8),
-    "point": dict(lean=3, hand_l=(-1.25, -0.25, 1.05), hand_r=(0.6, -0.25, 0.72), mouth="grin", look=(-0.03, 0), point=True),
-    "peek": dict(lean=-14, hand_r=(0.9, -0.2, 1.55), mouth="smile", eyes="wink", brows=5, wave=True),
+    "idle2": dict(squash=0.96, tip=0.26, eyes="happy"),
+    "wave1": dict(lean=-4, hand_r=(1.32, -0.2, 1.3), mouth="open", brows=6, wave=True),
+    "wave2": dict(lean=-2, hand_r=(1.12, -0.2, 1.48), mouth="open", brows=6, wave=True, tip=0.3),
+    "run1": dict(tilt=10, lift=0.1, tip=-0.25, hand_l=(-0.6, -0.7, 0.95), hand_r=(0.6, 0.55, 0.55), foot_l=(-0.3, 0.6, 0.36), foot_r=(0.16, -0.6, 0.1), foot_l_rot=55, foot_r_rot=-20, mouth="grin", brows=4),
+    "run2": dict(tilt=10, lift=0.02, tip=-0.15, hand_l=(-0.75, -0.2, 0.65), hand_r=(0.7, 0.1, 0.65), foot_l=(-0.3, 0.12, 0.26), foot_r=(0.16, -0.05, 0.0), foot_l_rot=30, mouth="grin", brows=4),
+    "run3": dict(tilt=10, lift=0.1, tip=-0.25, hand_l=(-0.65, 0.55, 0.55), hand_r=(0.55, -0.7, 0.95), foot_l=(-0.3, -0.6, 0.1), foot_r=(0.16, 0.6, 0.36), foot_l_rot=-20, foot_r_rot=55, mouth="grin", brows=4),
+    "run4": dict(tilt=10, lift=0.02, tip=-0.15, hand_l=(-0.75, 0.1, 0.65), hand_r=(0.7, -0.2, 0.65), foot_l=(-0.3, -0.05, 0.0), foot_r=(0.16, 0.12, 0.26), foot_r_rot=30, mouth="grin", brows=4),
+    "jump": dict(tilt=4, lift=0.4, tip=0.0, stretch=0.08, hand_l=(-1.2, -0.15, 1.5), hand_r=(1.3, -0.15, 1.5), foot_l=(-0.42, 0.15, 0.3), foot_r=(0.3, -0.2, 0.22), foot_l_rot=35, foot_r_rot=-15, eyes="wide", mouth="open", brows=10),
+    "hit": dict(lean=-22, tilt=-8, squash=0.92, tip=-0.6, hand_l=(-1.15, -0.2, 1.0), hand_r=(1.1, -0.2, 0.95), foot_l=(-0.5, -0.15, 0.0), foot_r=(0.25, 0.1, 0.0), eyes="wide", mouth="oh", brows=-12),
+    "cheer": dict(lift=0.22, tip=0.0, stretch=0.1, hand_l=(-1.2, -0.15, 1.55), hand_r=(1.3, -0.15, 1.55), foot_l=(-0.44, 0, 0.2), foot_r=(0.3, 0, 0.2), eyes="happy", mouth="open", brows=8),
+    "point": dict(lean=2, hand_l=(-1.45, -0.3, 0.95), hand_r=(0.72, -0.25, 0.66), mouth="grin", look=(-0.03, 0), point=True),
+    "peek": dict(lean=6, hand_r=(1.25, -0.2, 1.3), mouth="smile", eyes="wink", brows=5, wave=True, tip=0.3),
 }
 
 # --- character ---------------------------------------------------------------------
-HIP = 0.78        # height of the hips above the ground (leg length)
-SHAFT = 0.92      # length of the arrow's shaft (the torso)
-HEAD_W = 0.66     # half-width of the arrowhead
-HEAD_H = 1.08     # height of the arrowhead
-HEAD_D = 0.34     # thickness of the arrowhead
-BASE_LEAN = 9     # the arrow leans to its right, as it does in the logo
+HIP = 0.56        # height of the hips above the ground (short legs: the head is the character)
+SHAFT = 0.6       # length of the arrow's shaft (the torso)
+HEAD_W = 0.9      # half-width of the arrowhead
+HEAD_H = 1.3      # height of the arrowhead
+HEAD_D = 0.52     # thickness of the arrowhead
+BASE_LEAN = 7    # the arrow leans to its right, as it does in the logo
+GRAD = ("5fae8f", "0f3527")  # the logo's light-to-dark green, left to right
+
+
+def gradient_material(name, anchor):
+    """The logo's gradient across the character, measured from one anchor so shaft and head match."""
+    m = bpy.data.materials.new(name)
+    m.use_nodes = True
+    nt = m.node_tree
+    b = nt.nodes["Principled BSDF"]
+    b.inputs["Roughness"].default_value = 0.3
+    if "Coat Weight" in b.inputs:
+        b.inputs["Coat Weight"].default_value = 0.7
+        b.inputs["Coat Roughness"].default_value = 0.08
+    tc = nt.nodes.new("ShaderNodeTexCoord")
+    tc.object = anchor
+    sep = nt.nodes.new("ShaderNodeSeparateXYZ")
+    rng = nt.nodes.new("ShaderNodeMapRange")
+    rng.inputs["From Min"].default_value = -0.75
+    rng.inputs["From Max"].default_value = 0.8
+    ramp = nt.nodes.new("ShaderNodeValToRGB")
+    for el, h in zip(ramp.color_ramp.elements, GRAD):
+        el.color = (lin(int(h[0:2], 16)), lin(int(h[2:4], 16)), lin(int(h[4:6], 16)), 1)
+    nt.links.new(tc.outputs["Object"], sep.inputs[0])
+    nt.links.new(sep.outputs["X"], rng.inputs["Value"])
+    nt.links.new(rng.outputs["Result"], ramp.inputs["Fac"])
+    nt.links.new(ramp.outputs["Color"], b.inputs["Base Color"])
+    return m
 
 
 def build(pose_name):
@@ -198,28 +296,39 @@ def build(pose_name):
     bpy.context.collection.objects.link(body)
     parent(body, root)
 
+    M["body"] = gradient_material("body", body)
     z0 = HIP
     neck = z0 + SHAFT
-    # The shaft of the arrow is the torso: a slim stroke with the slight curve of the logo's rising line.
-    shaft = tube("shaft", [(0, 0, z0 - 0.02), (-0.07, 0, z0 + SHAFT * 0.35), (-0.05, 0, z0 + SHAFT * 0.7), (0, 0, neck + 0.12)], 0.115, M["body"])
+    # The shaft is the torso: it sweeps up into the head the way the logo's line rises into its arrow.
+    shaft = tube("shaft", [(-0.1, 0, z0 - 0.04), (-0.17, 0, z0 + SHAFT * 0.3), (-0.1, 0, z0 + SHAFT * 0.75), (0, 0, neck + 0.2)], 0.17, M["body"])
     parent(shaft, body)
-    # The arrowhead is the head: a bold triangle with a notched base, as in the logo.
-    outline = [(0, neck + HEAD_H), (HEAD_W, neck - 0.02), (0.2, neck + 0.1), (-0.2, neck + 0.1), (-HEAD_W, neck - 0.02)]
-    head = plate("head", outline, HEAD_D / 2, HEAD_D, M["body"])
-    bevel(head, 0.11, 8).angle_limit = math.radians(20)
-    smooth(head, 50)
+    # The arrowhead is the head. Its tip is a quiff: it flicks, droops or springs up with the mood.
+    tip = pose["tip"]
+    top = neck + HEAD_H * (1 + pose["stretch"]) - abs(tip) * 0.32
+    outline = [
+        (tip * 1.5, top + 0.05),
+        (0.44 + tip * 0.4, neck + HEAD_H * 0.52),
+        (HEAD_W + 0.08, neck - 0.08),
+        (0.34, neck + 0.1),
+        (-0.34, neck + 0.1),
+        (-HEAD_W - 0.08, neck - 0.08),
+        (-0.44 + tip * 0.4, neck + HEAD_H * 0.52),
+    ]
+    # plate() and chaikin() keep the order given; this outline runs clockwise, so reverse it.
+    head = pillow("head", chaikin(cut_corners(outline, 0.2), 3)[::-1], (tip * 0.3, neck + HEAD_H * 0.4), HEAD_D, 0.1, M["body"])
+    smooth(head, 80)
     parent(head, body)
     front = -HEAD_D / 2
 
     # --- face ---
     look = pose["look"]
-    eye_z = neck + 0.47
+    eye_z = neck + 0.5
     face = bpy.data.objects.new("face", None)
     bpy.context.collection.objects.link(face)
     face.location = (0, front, eye_z)
     bpy.context.view_layer.update()
     for side in (-1, 1):
-        ex = side * 0.2
+        ex = side * 0.19
         kind = pose["eyes"]
         if kind == "wink" and side == 1:
             kind = "happy"
@@ -272,7 +381,7 @@ def build(pose_name):
         parent(m, face)
 
     # The face was laid out at full size; bring it down to fit the arrowhead.
-    face.scale = (0.74, 0.74, 0.74)
+    face.scale = (1.06, 1.06, 1.06)
     parent(face, body)
 
     # --- body transform ---
@@ -293,18 +402,18 @@ def build(pose_name):
 
     # --- arms: from the sides of the barrel to the hand targets ---
     for side, key in ((-1, "hand_l"), (1, "hand_r")):
-        shoulder = on_body((side * 0.06, 0.0, z0 + SHAFT * 0.78))
+        shoulder = on_body((-0.1 + side * 0.1, 0.0, z0 + SHAFT * 0.62))
         hand = Vector(pose[key]) + Vector((0, 0, pose["lift"] * 0.6))
         mid = (shoulder + hand) / 2
         raised = hand.z > shoulder.z + 0.3
         bend = Vector((side * (0.22 if raised else 0.12), 0.04, -0.06 if raised else -0.2))
-        arm = tube(f"arm_{side}", [tuple(shoulder), tuple(shoulder + Vector((side * 0.14, 0, -0.03))), tuple(mid + bend), tuple(hand)], 0.055, M["limb"])
+        arm = tube(f"arm_{side}", [tuple(shoulder), tuple(shoulder + Vector((side * 0.14, 0, -0.03))), tuple(mid + bend), tuple(hand)], 0.085, M["limb"])
         parent(arm, root)
-        glove = add(bpy.ops.mesh.primitive_uv_sphere_add, M["glove"], f"hand_{side}", segments=32, ring_count=16, radius=0.15, location=tuple(hand))
+        glove = add(bpy.ops.mesh.primitive_uv_sphere_add, M["glove"], f"hand_{side}", segments=32, ring_count=16, radius=0.2, location=tuple(hand))
         glove.scale = (1, 0.8, 1.05)
         smooth(glove, 180)
         parent(glove, root)
-        cuff = add(bpy.ops.mesh.primitive_torus_add, M["glove"], f"cuff_{side}", major_radius=0.085, minor_radius=0.04, location=tuple(hand - (hand - (mid + bend)).normalized() * 0.13))
+        cuff = add(bpy.ops.mesh.primitive_torus_add, M["glove"], f"cuff_{side}", major_radius=0.115, minor_radius=0.052, location=tuple(hand - (hand - (mid + bend)).normalized() * 0.175))
         d = (hand - (mid + bend)).normalized()
         cuff.rotation_euler = d.to_track_quat("Z", "Y").to_euler()
         smooth(cuff, 180)
@@ -317,31 +426,31 @@ def build(pose_name):
         if open_hand:
             for i, a in enumerate((-32, -11, 11, 32)):
                 dirv = (up * math.cos(math.radians(a)) + up.cross(Vector((0, 1, 0))).normalized() * math.sin(math.radians(a))).normalized()
-                f = tube(f"finger_{side}_{i}", [tuple(hand + dirv * 0.08), tuple(hand + dirv * (0.25 if i in (1, 2) else 0.22))], 0.046, M["glove"])
+                f = tube(f"finger_{side}_{i}", [tuple(hand + dirv * 0.1), tuple(hand + dirv * (0.33 if i in (1, 2) else 0.29))], 0.06, M["glove"])
                 parent(f, root)
             th = (up.cross(Vector((0, 1, 0))).normalized() * -side * 1.0 + up * 0.25).normalized()
-            f = tube(f"thumb_{side}", [tuple(hand + th * 0.06), tuple(hand + th * 0.19)], 0.048, M["glove"])
+            f = tube(f"thumb_{side}", [tuple(hand + th * 0.08), tuple(hand + th * 0.25)], 0.062, M["glove"])
             parent(f, root)
         elif pointing:
-            f = tube(f"finger_{side}", [tuple(hand + d * 0.08), tuple(hand + d * 0.3)], 0.048, M["glove"])
+            f = tube(f"finger_{side}", [tuple(hand + d * 0.1), tuple(hand + d * 0.4)], 0.062, M["glove"])
             parent(f, root)
-            f = tube(f"thumb_{side}", [tuple(hand + Vector((0, 0, 0.06))), tuple(hand + Vector((0, 0, 0.18)) + d * 0.04)], 0.046, M["glove"])
+            f = tube(f"thumb_{side}", [tuple(hand + Vector((0, 0, 0.08))), tuple(hand + Vector((0, 0, 0.24)) + d * 0.05)], 0.06, M["glove"])
             parent(f, root)
         else:
             th = (Vector((0, -0.6, 0.5)) + out * -0.3).normalized()
-            f = add(bpy.ops.mesh.primitive_uv_sphere_add, M["glove"], f"thumb_{side}", segments=16, ring_count=8, radius=0.06, location=tuple(hand + th * 0.12))
+            f = add(bpy.ops.mesh.primitive_uv_sphere_add, M["glove"], f"thumb_{side}", segments=16, ring_count=8, radius=0.08, location=tuple(hand + th * 0.16))
             smooth(f, 180)
             parent(f, root)
 
     # --- legs and shoes ---
     for side, key in ((-1, "foot_l"), (1, "foot_r")):
-        hip = on_body((side * 0.04, 0.0, z0 + 0.02))
+        hip = on_body((-0.1 + side * 0.07, 0.0, z0 + 0.02))
         foot = Vector(pose[key])
-        ankle = foot + Vector((0, 0, 0.13))
+        ankle = foot + Vector((0, 0, 0.17))
         mid = (hip + ankle) / 2
-        slack = max(0.0, 0.55 - (hip - ankle).length)
+        slack = max(0.0, 0.42 - (hip - ankle).length)
         knee = mid + Vector((side * 0.03, -0.25 * slack / 0.3 - 0.02, 0))
-        leg = tube(f"leg_{side}", [tuple(hip), tuple(hip + Vector((side * 0.08, 0, -0.08))), tuple(knee), tuple(ankle)], 0.058, M["limb"])
+        leg = tube(f"leg_{side}", [tuple(hip), tuple(hip + Vector((side * 0.08, 0, -0.08))), tuple(knee), tuple(ankle)], 0.09, M["limb"])
         parent(leg, root)
         pitch = math.radians(pose[f"foot_{'l' if side < 0 else 'r'}_rot"])
         shoe = add(bpy.ops.mesh.primitive_uv_sphere_add, M["shoe"], f"shoe_{side}", segments=32, ring_count=16, radius=0.17, location=(0, 0, 0))
@@ -358,7 +467,8 @@ def build(pose_name):
         bpy.context.collection.objects.link(holder)
         for o in (shoe, sole, toe):
             parent(o, holder)
-        holder.location = tuple(foot + Vector((0, -0.07, 0.12)))
+        holder.location = tuple(foot + Vector((0, -0.09, 0.155)))
+        holder.scale = (1.3, 1.3, 1.3)
         holder.rotation_euler = (pitch, 0, math.radians(-side * 8))
         parent(holder, root)
 
@@ -406,12 +516,12 @@ def stage(scene, size, samples, side_view=False):
     cam_d.lens = 85
     cam = bpy.data.objects.new("cam", cam_d)
     bpy.context.collection.objects.link(cam)
-    target = Vector((0.1, 0, 1.5))
+    target = Vector((0.15, 0, 1.28))
     if side_view:
         # Game sprites: seen from the side, running toward screen right.
-        cam.location = (10.6, -3.0, 2.1)
+        cam.location = (6.4, -7.0, 2.0)
     else:
-        cam.location = (2.3, -10.6, 2.4)
+        cam.location = (1.8, -9.4, 2.0)
     cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
     scene.camera = cam
 
