@@ -12,8 +12,8 @@ const registry: Partial<Record<Locale, PlayCopy>> = { en, fr, ar };
 
 export const getPlay = (locale: Locale): PlayCopy => registry[locale] ?? en;
 
-/** Slugs are the same in every language: the game, then the quizzes. */
-export const PLAY_SLUGS: string[] = [en.game.slug, ...en.quizzes.map((q) => q.slug)];
+/** Slugs are the same in every language: the games, then the quizzes. */
+export const PLAY_SLUGS: string[] = [en.game.slug, en.shooter.slug, ...en.quizzes.map((q) => q.slug)];
 
 /**
  * The copy the side widget needs, without the self-assessment quizzes: they

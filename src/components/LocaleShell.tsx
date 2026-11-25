@@ -6,6 +6,7 @@ import { site } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { GrowthMascot } from "@/components/mascot/GrowthMascot";
+import { toolsForService } from "@/content/all-tools";
 import { JsonLd } from "@/components/JsonLd";
 import { BackToTop } from "@/components/motion/BackToTop";
 import { ui } from "@/content/ui";
@@ -79,6 +80,14 @@ export function LocaleShell({ locale, children }: { locale: Locale; children: Re
     publisher: { "@id": `${site.url}/#organization` },
   };
 
+  // The free tool that goes with each service, for the mascot to point to.
+  const serviceTools: Record<string, string> = {};
+  for (const sv of content.services) {
+    const path = `/${sv.sector}/${sv.slug}/`;
+    const tool = toolsForService(locale, path)[0];
+    if (tool) serviceTools[path] = tool.slug;
+  }
+
   return (
     <html lang={locale} dir={isRtl(locale) ? "rtl" : "ltr"} className={`${montserrat.variable} ${notoArabic.variable}`}>
       <body>
@@ -90,7 +99,7 @@ export function LocaleShell({ locale, children }: { locale: Locale; children: Re
         <Header locale={locale} megaSectors={megaSectors} />
         <main>{children}</main>
         <Footer locale={locale} />
-        <GrowthMascot locale={locale} />
+        <GrowthMascot locale={locale} groups={content.sectors.map((s) => s.slug)} serviceTools={serviceTools} />
         <BackToTop label={ui[locale].backToTop} />
       </body>
     </html>

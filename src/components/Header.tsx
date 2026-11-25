@@ -364,8 +364,8 @@ export function Header({
                           }`}
                         >
                           <span>{group.name}</span>
-                          <span className={`text-xs font-semibold ${on ? "text-fern" : "text-white/40"}`} aria-hidden>
-                            {group.services.length > 0 ? group.services.length : isRtl(locale) ? "←" : "→"}
+                          <span className={`text-sm ${on ? "text-fern" : "text-white/30"}`} aria-hidden>
+                            {isRtl(locale) ? "←" : "→"}
                           </span>
                         </Link>
                       </li>

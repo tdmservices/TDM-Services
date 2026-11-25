@@ -11,6 +11,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs, CtaBand, PageHero, Prose } from "@/components/Sections";
 import { Reveal } from "@/components/motion/Reveal";
 import { LeadRunner } from "@/components/play/LeadRunner";
+import { ArrowStrike } from "@/components/play/ArrowStrike";
 import { KnowledgeQuiz } from "@/components/play/KnowledgeQuiz";
 
 const card =
@@ -59,9 +60,20 @@ export function PlayIndexView({ locale }: { locale: Locale }) {
           </Link>
         </div>
         <div className="mt-6 grid items-start gap-6 lg:grid-cols-[1fr_20rem]">
-          <LeadRunner locale={locale} copy={copy.game} />
+          <LeadRunner locale={locale} copy={copy.game} host={copy.host} />
           <PlayWidget locale={locale} copy={getWidgetPlay(locale)} />
         </div>
+        <Link href={href(locale, `/play/${copy.shooter.slug}/`)} className={`${card} mt-6 sm:flex-row sm:items-center sm:gap-6`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/mascot/point.webp" alt="" className="h-28 w-auto shrink-0 -scale-x-100 self-start sm:self-center" />
+          <span className="flex-1">
+            <span className="block font-display text-xl font-semibold text-forest">{copy.shooter.name}</span>
+            <span className="mt-2 block text-sm leading-relaxed text-ink/75">{copy.shooter.tagline}</span>
+          </span>
+          <span className="mt-4 font-semibold text-fern sm:mt-0">
+            {copy.hub.play} <span className="arrow-nudge">{arrow}</span>
+          </span>
+        </Link>
       </section>
       <CtaBand locale={locale} audit />
     </>
@@ -71,6 +83,7 @@ export function PlayIndexView({ locale }: { locale: Locale }) {
 export function playMeta(locale: Locale, slug: string) {
   const copy = getPlay(locale);
   if (slug === copy.game.slug) return { title: copy.game.metaTitle, description: copy.game.metaDescription };
+  if (slug === copy.shooter.slug) return { title: copy.shooter.metaTitle, description: copy.shooter.metaDescription };
   const quiz = copy.quizzes.find((q) => q.slug === slug);
   return quiz ? { title: quiz.metaTitle, description: quiz.metaDescription } : null;
 }
@@ -80,11 +93,15 @@ export function PlayItemView({ locale, slug }: { locale: Locale; slug: string })
   const copy = getPlay(locale);
   const t = ui[locale];
   const quiz = copy.quizzes.find((q) => q.slug === slug);
-  const isGame = slug === copy.game.slug;
+  const isShooter = slug === copy.shooter.slug;
+  const isGame = slug === copy.game.slug || isShooter;
   if (!quiz && !isGame) notFound();
-  const name = quiz ? quiz.name : copy.game.name;
+  // The game on this page, and the other one to offer underneath.
+  const game = isShooter ? copy.shooter : copy.game;
+  const otherGame = isShooter ? copy.game : copy.shooter;
+  const name = quiz ? quiz.name : game.name;
   const url = `${site.url}${localePrefix(locale)}/play/${slug}/`;
-  const others = copy.quizzes.filter((q) => q.slug !== slug).slice(0, isGame ? 3 : 2);
+  const others = copy.quizzes.filter((q) => q.slug !== slug).slice(0, 2);
 
   return (
     <>
@@ -110,18 +127,18 @@ export function PlayItemView({ locale, slug }: { locale: Locale; slug: string })
             : {
                 "@context": "https://schema.org",
                 "@type": "VideoGame",
-                name: copy.game.name,
-                description: copy.game.metaDescription,
+                name: game.name,
+                description: game.metaDescription,
                 url,
                 inLanguage: locale,
                 gamePlatform: "Web browser",
-                genre: "Endless runner",
+                genre: isShooter ? "Shooter" : "Endless runner",
                 isAccessibleForFree: true,
                 publisher: { "@type": "Organization", "@id": `${site.url}/#organization`, name: site.name, url: site.url },
               }
         }
       />
-      <PageHero kicker={copy.hub.kicker} headline={name} sub={quiz ? quiz.tagline : copy.game.tagline} dark />
+      <PageHero kicker={copy.hub.kicker} headline={name} sub={quiz ? quiz.tagline : game.tagline} dark />
       <Breadcrumbs
         items={[
           { label: t.home, href: href(locale, "/") },
@@ -131,12 +148,12 @@ export function PlayItemView({ locale, slug }: { locale: Locale; slug: string })
       />
       <section className="ribbon-bg mx-auto max-w-4xl px-4 py-12 sm:px-6">
         {quiz ? (
-          <KnowledgeQuiz locale={locale} quiz={quiz} copy={copy.quiz} toolName={getToolSummary(locale, quiz.tool)?.name ?? ""} />
+          <KnowledgeQuiz locale={locale} quiz={quiz} copy={copy.quiz} host={copy.host} toolName={getToolSummary(locale, quiz.tool)?.name ?? ""} />
         ) : (
           <>
-            <LeadRunner locale={locale} copy={copy.game} />
+            {isShooter ? <ArrowStrike locale={locale} copy={copy.shooter} host={copy.host} /> : <LeadRunner locale={locale} copy={copy.game} host={copy.host} />}
             <div className="mt-10">
-              <Prose paragraphs={copy.game.intro} />
+              <Prose paragraphs={game.intro} />
             </div>
           </>
         )}
@@ -153,14 +170,12 @@ export function PlayItemView({ locale, slug }: { locale: Locale; slug: string })
               </Link>
             </li>
           ))}
-          {!isGame && (
-            <li>
-              <Link href={href(locale, `/play/${copy.game.slug}/`)} className={card}>
-                <h3 className="font-display text-lg font-semibold text-forest">{copy.game.name}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink/75">{copy.game.tagline}</p>
-              </Link>
-            </li>
-          )}
+          <li>
+            <Link href={href(locale, `/play/${otherGame.slug}/`)} className={card}>
+              <h3 className="font-display text-lg font-semibold text-forest">{otherGame.name}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink/75">{otherGame.tagline}</p>
+            </Link>
+          </li>
         </ul>
       </section>
       <CtaBand locale={locale} audit />

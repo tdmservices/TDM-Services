@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { Locale } from "@/lib/types";
 import { href } from "@/lib/i18n";
 import type { PlayCopy } from "@/content/play/types";
+import { GrowthSays } from "@/components/mascot/GrowthSays";
 
 /**
  * Lead Runner: a small endless runner drawn on a canvas.
@@ -25,7 +26,7 @@ type Phase = "idle" | "running" | "over";
 interface Blocker { x: number; w: number; h: number }
 interface Lead { x: number; y: number; taken: boolean }
 
-export function LeadRunner({ locale, copy }: { locale: Locale; copy: PlayCopy["game"] }) {
+export function LeadRunner({ locale, copy, host }: { locale: Locale; copy: PlayCopy["game"]; host: PlayCopy["host"] }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [phase, setPhase] = useState<Phase>("idle");
   const [score, setScore] = useState(0);
@@ -200,7 +201,7 @@ export function LeadRunner({ locale, copy }: { locale: Locale; copy: PlayCopy["g
       // Growth, the mascot: runs on the ground, jumps in the air, falls back when hit.
       const py = g.y;
       const air = py < GROUND - SIZE - 0.5;
-      const name = g.phase === "over" ? "hit" : g.phase === "idle" ? "idle1" : air ? "jump" : RUN[Math.floor(g.dist / 16) % RUN.length];
+      const name = g.phase === "over" ? "hit" : g.phase === "idle" ? "run2" : air ? "jump" : RUN[Math.floor(g.dist / 16) % RUN.length];
       const img = sprites[name];
       if (img?.complete && img.naturalWidth) {
         // The front-facing frames have more room around the character, so they are drawn a little larger to match.
@@ -283,10 +284,13 @@ export function LeadRunner({ locale, copy }: { locale: Locale; copy: PlayCopy["g
         {phase !== "running" && (
           <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-3 bg-cream/70 text-center backdrop-blur-[1px]">
             {phase === "over" && <p className="font-display text-2xl font-extrabold text-forest">{copy.over}</p>}
-            <p className="text-sm font-medium text-ink/70">{copy.tap}</p>
+            <GrowthSays frame={phase === "over" ? "peek" : "wave1"} compact>
+              {phase === "over" ? host.runnerOver : host.runnerTip}
+            </GrowthSays>
             <button onClick={jump} className="pointer-events-auto rounded-full bg-amber px-7 py-3 font-semibold text-white shadow-lg shadow-amber/25 transition hover:brightness-110">
               {phase === "over" ? copy.again : copy.start}
             </button>
+            <p className="hidden text-xs font-medium text-ink/60 sm:block">{copy.tap}</p>
           </div>
         )}
       </div>
