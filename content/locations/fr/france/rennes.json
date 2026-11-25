@@ -1,0 +1,60 @@
+{
+  "slug": "france/rennes",
+  "locale": "fr",
+  "kind": "city",
+  "title": "Agence de marketing digital à Rennes",
+  "metaTitle": "Agence de marketing digital à Rennes | TDM",
+  "metaDescription": "TDM accompagne à distance les entreprises rennaises : SEO, publicité en ligne, réseaux sociaux, sites web et vidéo, du numérique à l'agroalimentaire breton.",
+  "lead": "TDM (The Digital Marketing Services) est une agence de marketing digital qui accompagne les entreprises de Rennes et d'Ille-et-Vilaine : référencement naturel, publicité en ligne, réseaux sociaux, développement de sites et vidéo. Capitale de la Bretagne, Rennes associe un pôle reconnu dans les télécommunications et la cybersécurité à une filière agroalimentaire qui irrigue toute la région. La ville est aussi très étudiante. Selon que vous vendez un logiciel, un équipement d'élevage ou une galette-saucisse, vos clients ne se trouvent ni au même endroit ni de la même façon.",
+  "sections": [
+    {
+      "heading": "Télécoms et cybersécurité d'un côté, agroalimentaire de l'autre",
+      "paragraphs": [
+        "Rennes a une longue histoire dans les télécommunications. La technopole qui s'étend entre le campus de Beaulieu et Cesson-Sévigné regroupe centres de recherche, grands opérateurs, éditeurs de logiciels et jeunes sociétés. La cybersécurité y a pris une place importante, portée par la présence d'acteurs de la défense au sud de l'agglomération, à Bruz.",
+        "Ces entreprises vendent des produits complexes à des clients prudents. Leur marketing repose sur la preuve : documentation claire, articles techniques, cas d'usage, présence dans les réponses que les moteurs et les assistants d'IA donnent aux questions de leurs acheteurs. La publicité vient en appui, ciblée par fonction et par secteur.",
+        "L'agroalimentaire est l'autre grande affaire. La Bretagne est une terre d'élevage et de transformation, et le bassin rennais compte des coopératives, des industriels, des fabricants de matériel et des sociétés de conseil agricole. Leurs clients sont des agriculteurs, des distributeurs ou d'autres industriels, que l'on touche avec des contenus concrets, des fiches produit complètes et un suivi sérieux des demandes. L'automobile reste présente avec l'usine de La Janais, à Chartres-de-Bretagne, et ses fournisseurs."
+      ]
+    },
+    {
+      "heading": "Se faire connaître dans la métropole rennaise",
+      "paragraphs": [
+        "Rennes est une ville compacte, entourée d'une ceinture verte puis de communes bien distinctes : Cesson-Sévigné, Saint-Grégoire, Chantepie, Pacé, Betton, Saint-Jacques-de-la-Lande, Bruz. Les habitants y cherchent un prestataire par le nom de leur commune. En ville, les recherches mentionnent le centre historique, Sainte-Anne, le Thabor, Villejean, Cleunay ou le quartier de la gare, où un pôle d'affaires s'est développé depuis l'arrivée de la ligne à grande vitesse vers Paris.",
+        "La population étudiante se renouvelle sans cesse et fait vivre bars, restaurants, salles de sport, auto-écoles et bailleurs. Elle se décide vite, sur téléphone, à partir de quelques photos et de la note affichée."
+      ],
+      "bullets": [
+        "Une fiche Google exacte et vivante, avec des avis auxquels vous répondez.",
+        "Des pages distinctes pour Rennes et pour les communes de la métropole que vous servez.",
+        "Des campagnes locales dont le rayon suit la rocade et vos temps de déplacement.",
+        "Des contenus courts et réguliers sur les réseaux où se trouvent les étudiants.",
+        "Un suivi des contacts qui reste fiable malgré le refus des cookies par une partie du public."
+      ]
+    },
+    {
+      "heading": "Les grands rendez-vous et les creux de l'année",
+      "paragraphs": [
+        "En septembre, le salon international de l'élevage se tient au parc des expositions de Rennes, à Bruz, et rassemble la filière pendant plusieurs jours. Pour un fabricant ou un prestataire du monde agricole, c'est le rendez-vous de l'année : il se prépare par des invitations, une page consacrée à votre stand et des annonces adressées aux visiteurs, puis par la relance des contacts.",
+        "Début décembre, les Trans Musicales attirent un public venu de toute la France, et le samedi matin le marché des Lices rappelle le poids des producteurs locaux dans les habitudes des Rennais. La rentrée universitaire reste le grand moment pour tout ce qui s'adresse aux étudiants.",
+        "L'été est plus calme en ville. Beaucoup de Rennais partent vers Saint-Malo, la Côte d'Émeraude ou le golfe du Morbihan, et les étudiants sont absents. Les commerces du centre peuvent réduire la voilure, tandis qu'une entreprise présente sur la côte y reporte son effort. Pour les sociétés qui vendent à d'autres entreprises, c'est le moment de préparer les contenus de la rentrée."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Ce que nous faisons pour les entreprises rennaises",
+    "items": [
+      { "title": "Cybersécurité et télécoms", "text": "Sites et contenus techniques compréhensibles par un décideur, référencement sur les questions des acheteurs et prospection ciblée." },
+      { "title": "Agroalimentaire et monde agricole", "text": "Catalogue en ligne, fiches produit détaillées, vidéos de démonstration et préparation des salons de la filière." },
+      { "title": "Sous-traitance industrielle", "text": "Pages par savoir-faire, demandes de devis simplifiées et visibilité auprès d'acheteurs au-delà de la Bretagne." },
+      { "title": "Crêperies, bars et restaurants", "text": "Carte Google, avis, photos et formats courts pour une clientèle étudiante et de passage qui choisit sur son téléphone." },
+      { "title": "Services aux étudiants", "text": "Logement, écoles, auto-écoles, loisirs : des campagnes construites autour de la rentrée et des périodes d'inscription." },
+      { "title": "Marques bretonnes en ligne", "text": "Boutiques Shopify ou WooCommerce, shootings produit et publicité pour vendre partout en France des produits fabriqués ici." }
+    ]
+  },
+  "presence": "TDM travaille avec les entreprises de Rennes et de Bretagne à distance. Nous n'avons pas de bureau à Rennes ni de collaborateur en France. Les échanges se déroulent en français, en visioconférence et par écrit, selon un calendrier de suivi fixé ensemble.",
+  "faqs": [
+    { "q": "Faut-il une agence rennaise pour travailler son marketing à Rennes ?", "a": "Non. Ce qui compte, c'est de comprendre votre marché et vos clients. Nous travaillons à distance, en français, en commençant par un échange approfondi sur votre activité, votre zone et vos concurrents." },
+    { "q": "Comment une société de cybersécurité peut-elle générer des contacts en ligne ?", "a": "Par des contenus qui répondent aux questions réelles des responsables informatiques, un site qui explique l'offre sans jargon inutile et des campagnes ciblées sur les bonnes fonctions. Les acheteurs de ce secteur se méfient des promesses : la précision et les cas concrets font mieux que les slogans." },
+    { "q": "Combien coûte une prestation de marketing digital à Rennes ?", "a": "Le coût est fonction du travail demandé : audit, contenus, campagnes, développement. Nous le chiffrons dans un devis après une première consultation, qui est gratuite." },
+    { "q": "Comment préparer le salon de l'élevage avec le digital ?", "a": "En annonçant votre présence plusieurs semaines avant, avec une page dédiée, des e-mails à vos contacts et des annonces ciblées sur la filière. Sur place, des vidéos courtes de vos produits prolongent le stand. Après le salon, une relance organisée transforme les visites en rendez-vous." },
+    { "q": "Dans quels délais pouvez-vous intervenir ?", "a": "Cela dépend de l'étendue de vos besoins et du brief. Nous inscrivons les échéances dans le plan de travail, que vous validez avant le démarrage." }
+  ]
+}

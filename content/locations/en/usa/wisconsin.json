@@ -1,0 +1,64 @@
+{
+  "slug": "usa/wisconsin",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Wisconsin",
+  "metaTitle": "Digital Marketing Agency in Wisconsin | TDM",
+  "metaDescription": "Digital marketing for Wisconsin businesses: SEO, paid ads, social media, websites and video for manufacturers, tourism, food producers and local services.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Wisconsin businesses on SEO, paid advertising, social media, websites and video. Wisconsin makes things: machinery, paper, cheese, beer, boats and engines. It also hosts a great many visitors at its lakes each summer. We help manufacturers get found by buyers, and we help tourism and local service firms make the most of seasons that are short and sharply defined.",
+  "sections": [
+    {
+      "heading": "How the state's regions differ",
+      "paragraphs": [
+        "Milwaukee and its suburbs form the largest market, industrial at heart, with corporate offices, hospitals and universities. South of it, Racine and Kenosha sit between Milwaukee and Chicago and feel the pull of both. Madison is the capital and a university city, with state agencies, research, and a strong health software and biotechnology presence, and its residents are young and comfortable online.",
+        "Green Bay and the Fox Valley cities of Appleton, Oshkosh and Neenah are known for paper, packaging and food processing, and for a football team that organises autumn weekends across the state. To the west, La Crosse and Eau Claire are regional centres for healthcare and education. Then there is the north: Door County, the Wisconsin Dells and the Northwoods lake country, where the economy follows the holiday calendar."
+      ]
+    },
+    {
+      "heading": "Getting a manufacturer found online",
+      "paragraphs": [
+        "Much of Wisconsin industry is made up of family-owned and mid-sized firms that grew through distributors, trade shows and long relationships. Their buyers have changed. An engineer or purchasing agent now searches for a process, a material or a tolerance, shortlists suppliers from their websites, and only then makes contact. A site that is little more than a brochure loses that shortlist.",
+        "We build pages around what the plant can actually do, with the detail a technical buyer needs, and make sure they rank for the terms those buyers use."
+      ],
+      "bullets": [
+        "A page for each capability, material and industry served, with specifications and certifications.",
+        "Request-for-quote forms that are short and work on a phone on the shop floor.",
+        "Search campaigns on precise technical terms, with spend kept away from job seekers and students.",
+        "Video of the plant and processes, which buyers use to judge scale and quality.",
+        "Recruiting pages for skilled trades, since hiring is often the tighter constraint."
+      ]
+    },
+    {
+      "heading": "Up north and the visitor season",
+      "paragraphs": [
+        "Resorts, cabin rentals, supper clubs, marinas, outfitters and waterparks depend on families from Milwaukee, Madison, Chicago and the Twin Cities. Those guests plan months ahead for summer weeks and decide late for autumn colour weekends, snowmobile trips and ice fishing. Marketing has to reach them at home in those cities, at the moment they start planning.",
+        "That means search visibility built before the season, ads targeted to the metro areas guests come from, online booking that is easy to use, and conditions, dates and hours kept current. A listing that still shows last year's season dates loses bookings."
+      ]
+    },
+    {
+      "heading": "Winter, and the habits that go with it",
+      "paragraphs": [
+        "Long winters set the rhythm for local services. Furnace repair, snow removal, ice dam and roof work are urgent purchases, searched on a phone. Spring brings basements, landscaping and remodelling. Wisconsin customers also tend to be loyal and practical: they favour firms that have been around, answer the phone and are recommended by someone they know. Reviews and a visible local history do more here than a flashy campaign. Friday fish fries, game days and county fairs are part of the calendar, and restaurants and retailers plan promotions around them."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Wisconsin sectors we plan campaigns for",
+    "items": [
+      { "title": "Manufacturing and fabrication", "text": "Machine shops, foundries, packaging and equipment makers who need technical pages and qualified quote requests." },
+      { "title": "Dairy, food and beverage", "text": "Cheesemakers, breweries and food brands selling direct need online stores, product photography and ads managed to margin." },
+      { "title": "Resorts and tourism", "text": "Lodging, attractions and outfitters with bookings concentrated in a few months and guests who come from neighbouring metros." },
+      { "title": "Home services", "text": "Heating, roofing, plumbing and snow contractors who win work through map results, reviews and fast call handling." },
+      { "title": "Healthcare and health technology", "text": "Clinics that need patients and software firms around Madison that need demand from hospital buyers." },
+      { "title": "Agriculture and equipment", "text": "Dealers, co-ops and suppliers whose customers want current stock, parts information and a number to call." }
+    ]
+  },
+  "presence": "TDM works with Wisconsin businesses remotely. We have no office in the state. Video calls, shared online reporting and one team for strategy, design, development and video keep the work straightforward.",
+  "faqs": [
+    { "q": "Do you have an office in Wisconsin?", "a": "No. We work with Wisconsin businesses remotely, by video call and shared reports, to a plan and schedule agreed with you." },
+    { "q": "Does SEO work for a Wisconsin manufacturer?", "a": "Yes, when it targets how buyers search. Engineers and purchasing staff look for specific processes, materials and certifications. Detailed capability pages that rank for those terms bring quote requests from companies that never met you at a trade show." },
+    { "q": "When should a Northwoods or Door County business advertise?", "a": "Ahead of when guests book, not when they arrive. We look at your past reservations to find when planning starts for each season, then schedule search, ads and content to match." },
+    { "q": "How much does digital marketing cost in Wisconsin?", "a": "It depends on scope: the channels, the content required and the competition in your market. We quote after a free consultation." },
+    { "q": "How long does it take to see results?", "a": "It depends on your requirements and the brief. The timeline is set out in the plan we agree before starting." }
+  ]
+}
