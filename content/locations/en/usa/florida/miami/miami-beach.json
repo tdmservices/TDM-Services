@@ -23,41 +23,65 @@
       "bullets": [
         "Direct booking pages for hotels, charters and experiences, so less of each sale goes to third-party platforms.",
         "Ads targeted at feeder markets before peak periods, and at people on the island during them.",
-        "Short video that shows the real room, table or boat, since visitors compare options visually.",
-        "A reply to every review. Travellers read the most recent ones first."
+        "Short video that shows the real room, table or boat, since visitors compare options visually."
       ]
     },
     {
       "heading": "Residents are a different market",
       "paragraphs": [
-        "People who live on the Beach need dentists, vets, fitness studios, med spas, estate agents, contractors and childcare like anyone else, and they are tired of tourist pricing. They respond to businesses that speak to them directly: memberships, locals' offers, off-season events and service that does not vanish in summer. Property is a large trade in its own right, with condo buyers and seasonal tenants who often start their search from another state or country. Short-term rentals are restricted in much of the city, so anyone marketing a rental should be sure of the rules for that address first."
+        "People who live on the Beach need dentists, vets, fitness studios, med spas, estate agents, contractors and childcare like anyone else. They respond to businesses that speak to them directly: memberships, locals' offers, off-season events and service that does not vanish in summer. Property is a large trade in its own right, with condo buyers and seasonal tenants who often start their search from another state or country. Short-term rentals are restricted in much of the city, so anyone marketing a rental should be sure of the rules for that address first."
       ]
     },
     {
       "heading": "A calendar that moves prices",
       "paragraphs": [
         "Few places have a year as marked as this one. Art Basel fills the Miami Beach Convention Center and the hotels in early December. January brings Art Deco Weekend, February the boat show and the South Beach Wine and Food Festival, and March the spring break crowds, which the city has managed in recent years with special restrictions. Pride follows in April. From late spring the pace eases, summer is hot and quieter, and the peak of hurricane season is the slowest stretch. The Miami Spice restaurant promotion in late summer exists to fill that gap.",
-        "We plan content and spending against these dates: early campaigns for the weeks when demand and ad costs are highest, and offers aimed at locals and regional visitors when the island is calm."
+        "We plan content and spending against these dates, with offers for locals and regional visitors when the island is calm."
       ]
     }
   ],
   "cards": {
     "heading": "Miami Beach businesses we can support",
     "items": [
-      { "title": "Hotels and boutique stays", "text": "Direct-booking sites, search visibility for your stretch of the island and campaigns timed to events." },
-      { "title": "Restaurants, bars and beach clubs", "text": "Reservation pages, map listings, short video and ads that reach visitors staying nearby." },
-      { "title": "Charters, tours and water sports", "text": "Bookable pages for each experience, review collection and search ads for people planning a trip." },
-      { "title": "Med spas and wellness", "text": "Treatment pages and memberships for residents, plus packages for visitors, with compliant ad wording." },
-      { "title": "Real estate", "text": "Building and neighbourhood pages, video walkthroughs and campaigns aimed at out-of-area buyers." },
-      { "title": "Retail on Lincoln Road and beyond", "text": "Local listings for walk-in trade and an online shop so visitors can keep buying after they leave." }
+      {
+        "title": "Hotels and boutique stays",
+        "text": "Direct-booking sites, search visibility for your stretch of the island and campaigns timed to events."
+      },
+      {
+        "title": "Restaurants, bars and beach clubs",
+        "text": "Reservation pages, map listings, short video and ads that reach visitors staying nearby."
+      },
+      {
+        "title": "Charters, tours and water sports",
+        "text": "Bookable pages for each experience, review collection and search ads for people planning a trip."
+      },
+      {
+        "title": "Med spas and wellness",
+        "text": "Treatment pages and memberships for residents, plus packages for visitors, with compliant ad wording."
+      },
+      {
+        "title": "Real estate",
+        "text": "Building and neighbourhood pages, video walkthroughs and campaigns aimed at out-of-area buyers."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami, across the bay from Miami Beach. Campaign planning, design, development and video editing are carried out remotely by our wider team, with regular calls and reporting.",
   "faqs": [
-    { "q": "Is Miami Beach the same as Miami for marketing purposes?", "a": "No. Miami Beach is its own city in Miami-Dade County, and searches treat it separately. Listings and pages should use Miami Beach and, where helpful, the area within it, such as South Beach, Mid-Beach or North Beach." },
-    { "q": "When should a Miami Beach hotel or restaurant advertise most?", "a": "Ahead of the winter season and the major events, since visitors book before they travel. Then keep map listings and on-island ads active during those weeks. In summer, shift towards residents and visitors from elsewhere in Florida." },
-    { "q": "How can we reduce our dependence on booking platforms?", "a": "Make booking direct as easy as booking through a third party: a fast site, clear prices, real photos and a reason to book with you. Search visibility for your own name and location, plus remarketing to past guests, brings more of those bookings to your site." },
-    { "q": "Do you have a team member near Miami Beach?", "a": "A member of our team is based in Miami. The rest of the team works with Miami Beach clients remotely." },
-    { "q": "How much does digital marketing cost for a Miami Beach business?", "a": "It varies with the channels and the season you are planning for. We provide a quote after a free consultation." }
+    {
+      "q": "Is Miami Beach the same as Miami for marketing purposes?",
+      "a": "No. Miami Beach is its own city in Miami-Dade County, and searches treat it separately. Listings and pages should use Miami Beach and, where helpful, the area within it, such as South Beach, Mid-Beach or North Beach."
+    },
+    {
+      "q": "When should a Miami Beach hotel or restaurant advertise most?",
+      "a": "Ahead of the winter season and the major events, since visitors book before they travel. In summer, shift towards residents and visitors from elsewhere in Florida."
+    },
+    {
+      "q": "Do you have a team member near Miami Beach?",
+      "a": "A member of our team is based in Miami. The rest of the team works with Miami Beach clients remotely."
+    },
+    {
+      "q": "How much does digital marketing cost for a Miami Beach business?",
+      "a": "It varies with the channels and the season you are planning for. We provide a quote after a free consultation."
+    }
   ]
 }

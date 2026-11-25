@@ -17,47 +17,69 @@
     {
       "heading": "Getting found by people on foot",
       "paragraphs": [
-        "Most people Downtown are walking or riding the Metromover, and they search for what is close right now: lunch, coffee, a pharmacy, luggage storage, a notary, a phone repair. They also search by landmark. Flagler Street, Biscayne Boulevard, Bayside, Bayfront Park, the Kaseya Center and the courthouse are the names that appear in queries, more than the word Downtown itself."
+        "Most people Downtown are walking or riding the Metromover, and they search for what is close right now: lunch, coffee, a pharmacy, luggage storage, a notary, a phone repair. They also search by landmark. Flagler Street, Biscayne Boulevard, Bayside, Bayfront Park, the Kaseya Center and the courthouse are the names that appear in queries."
       ],
       "bullets": [
         "A Google Business Profile with exact hours, including early mornings, evenings and weekends, since trading patterns here are uneven.",
-        "Photos of the storefront and directions from the nearest station or landmark.",
         "Pages that answer visitor questions: how far from the port, whether bags can be left, whether walk-ins are accepted.",
-        "Ads scheduled by time of day and limited to a small radius, so budget is spent when your likely customers are nearby.",
-        "Attributes such as delivery, takeaway and accessibility filled in, because people filter on them."
+        "Ads scheduled by time of day and limited to a small radius, so budget is spent when your likely customers are nearby."
       ]
     },
     {
       "heading": "The jewellery district and other destination trades",
       "paragraphs": [
-        "Some Downtown businesses are worth a special trip. The blocks around Flagler Street have long been Miami's jewellery district, with the Seybold Building at its centre, and buyers come from across South Florida and from abroad for engagement rings, watches, custom pieces and repairs. With so many dealers side by side, the choice is often made online beforehand. A jeweller with clear product photography, prices or price ranges, verified reviews and an appointment form brings customers to its own counter instead of leaving them to wander the floor.",
-        "The same logic applies to specialist lawyers, immigration and court-related services, and wholesalers. People arrive with a specific need and have already compared options on a phone."
+        "Some Downtown businesses are worth a special trip. The blocks around Flagler Street have long been Miami's jewellery district, with the Seybold Building at its centre, and buyers come from across South Florida and from abroad for engagement rings, watches, custom pieces and repairs. With so many dealers side by side, the choice is often made online beforehand. A jeweller with clear product photography, prices or price ranges, verified reviews and an appointment form brings customers to its own counter instead of leaving them to wander the floor."
       ]
     },
     {
       "heading": "Event nights and cruise days",
       "paragraphs": [
-        "Miami Heat home games and concerts at the Kaseya Center fill restaurants and bars before and after, from autumn to spring. Ultra Music Festival takes over Bayfront Park in March, the Miami Book Fair fills the college campus in November, and fireworks at the bay bring crowds on the Fourth of July and New Year's Eve. Cruise departures create predictable busy mornings and afternoons, heaviest in the winter season. A venue that checks the arena and port schedules can set staffing, offers and ads for those days in advance, and we build that calendar into the plan."
+        "Miami Heat home games and concerts at the Kaseya Center fill restaurants and bars before and after, from autumn to spring. Ultra Music Festival takes over Bayfront Park in March, the Miami Book Fair fills the college campus in November, and fireworks at the bay bring crowds on the Fourth of July and New Year's Eve. Cruise departures create predictable busy mornings and afternoons, heaviest in the winter season. A venue that checks the arena and port schedules can set staffing, offers and ads for those days in advance."
       ]
     }
   ],
   "cards": {
     "heading": "Downtown Miami businesses we can help",
     "items": [
-      { "title": "Law firms and court services", "text": "Pages for each matter type, map visibility near the courthouses and search ads for urgent needs." },
-      { "title": "Jewellers and watch dealers", "text": "Product photography, an online catalogue, appointment booking and reviews that set you apart from the counter next door." },
-      { "title": "Hotels and short stays", "text": "Content for cruise passengers and event-goers, direct booking and search visibility for port and arena queries." },
-      { "title": "Restaurants and cafes", "text": "Listings tuned for lunch trade, pre-event offers and delivery to nearby towers and offices." },
-      { "title": "Shops and services for residents", "text": "Local search, reviews and simple online booking for gyms, salons, vets and clinics serving the towers." },
-      { "title": "Attractions and tours", "text": "Bookable pages, trip-planning content and ads that reach visitors before they arrive." }
+      {
+        "title": "Law firms and court services",
+        "text": "Pages for each matter type, map visibility near the courthouses and search ads for urgent needs."
+      },
+      {
+        "title": "Jewellers and watch dealers",
+        "text": "Product photography, an online catalogue, appointment booking and reviews that set you apart from the counter next door."
+      },
+      {
+        "title": "Hotels and short stays",
+        "text": "Content for cruise passengers and event-goers, direct booking and search visibility for port and arena queries."
+      },
+      {
+        "title": "Restaurants and cafes",
+        "text": "Listings tuned for lunch trade, pre-event offers and delivery to nearby towers and offices."
+      },
+      {
+        "title": "Shops and services for residents",
+        "text": "Local search, reviews and simple online booking for gyms, salons, vets and clinics serving the towers."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami and knows how Downtown changes between a court day, a game night and a cruise weekend. Day-to-day delivery is remote, handled by our wider team with scheduled calls and reports.",
   "faqs": [
-    { "q": "How do I attract cruise passengers to my Downtown Miami business?", "a": "Answer what they search for: distance to PortMiami, luggage storage, early opening and quick service. Put that on your site and business profile, collect reviews that mention it, and run ads on sailing days within a short radius of the hotels." },
-    { "q": "What is the best way to market a jeweller in the Miami jewellery district?", "a": "Help buyers choose you before they arrive. Show real pieces with clear photos and price guidance, explain custom work and repairs, offer appointments online and build verified reviews. Search ads on specific items bring in people who are ready to buy." },
-    { "q": "Should our ads change on Heat game nights?", "a": "If you are near the arena, yes. Raise bids and promote pre-game or post-game offers on event days, and reduce spending on quiet evenings. The schedule is published well ahead, so this can be planned." },
-    { "q": "Is someone from TDM based in Miami?", "a": "Yes, a member of our team is based in Miami. Our wider team carries out the work remotely and keeps in touch through calls and reports." },
-    { "q": "How long does it take to see results from local SEO in Downtown Miami?", "a": "It depends on your starting point, your category and the brief. We agree a timeline in the plan after reviewing your current listings and site." }
+    {
+      "q": "How do I attract cruise passengers to my Downtown Miami business?",
+      "a": "Answer what they search for: distance to PortMiami, luggage storage, early opening and quick service. Put that on your site and business profile, collect reviews that mention it, and run ads on sailing days within a short radius of the hotels."
+    },
+    {
+      "q": "What is the best way to market a jeweller in the Miami jewellery district?",
+      "a": "Help buyers choose you before they arrive. Show real pieces with clear photos and price guidance, explain custom work and repairs, offer appointments online and build verified reviews. Search ads on specific items bring in people who are ready to buy."
+    },
+    {
+      "q": "Is someone from TDM based in Miami?",
+      "a": "Yes, a member of our team is based in Miami. Our wider team carries out the work remotely and keeps in touch through calls and reports."
+    },
+    {
+      "q": "How long does it take to see results from local SEO in Downtown Miami?",
+      "a": "It depends on your starting point, your category and the brief. We agree a timeline in the plan after reviewing your current listings and site."
+    }
   ]
 }

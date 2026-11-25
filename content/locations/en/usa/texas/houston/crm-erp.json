@@ -32,7 +32,7 @@
     {
       "heading": "Points to raise with any developer",
       "paragraphs": [
-        "Ask who owns the source code and the data once the project is finished. Ask how the old records will be checked after migration, and by whom. If you handle patient information, as many practices and suppliers around the Texas Medical Center do, ask how access is restricted and logged, and involve your compliance adviser early. Ask where the system is hosted and whether staff can reach it from home during a storm closure. And ask for a milestone plan, so that one useful module is in your team's hands before the whole build is complete."
+        "Ask who owns the source code and the data once the project is finished. Ask how migrated records will be checked. If you handle patient information, as many practices and suppliers around the Texas Medical Center do, ask how access is restricted and logged, and involve your compliance adviser early. And ask for a milestone plan, so that one useful module is in your team's hands before the whole build is complete."
       ]
     }
   ],

@@ -25,7 +25,6 @@
         "Inventory across several locations, with purchase orders, receiving, transfers and stock by variant.",
         "HR, finance and operations modules, including roles and approval chains.",
         "Two-way links to your website, e-commerce store, accounting software, email, payment gateways and logistics providers, so nothing is typed twice.",
-        "Dashboards that show sales, stock and cash in one view for owners and managers.",
         "Migration from spreadsheets and old software, with records mapped, cleaned, deduplicated and checked against the source."
       ]
     },
@@ -55,10 +54,6 @@
         "text": "Styles by size and colour, contractor work orders, and stock shared correctly between wholesale and online sales."
       },
       {
-        "title": "Consumer brands",
-        "text": "Store and marketplace orders, warehouse stock and returns brought together, with one stock figure everyone can rely on."
-      },
-      {
         "title": "Rental and production services",
         "text": "Bookings, availability, quotes and equipment condition for rental houses and post-production firms."
       },
@@ -68,7 +63,7 @@
       }
     ]
   },
-  "presence": "TDM works with Los Angeles companies remotely and has no office or staff in the city. Discovery workshops, demos of each module and training sessions are held by video call, and you test the system on a staging version before it replaces anything.",
+  "presence": "TDM works with Los Angeles companies remotely and has no office or staff in the city. Discovery workshops, demos of each module and training sessions are held by video call.",
   "faqs": [
     {
       "q": "Can a custom ERP be built for a Los Angeles importer or wholesaler?",

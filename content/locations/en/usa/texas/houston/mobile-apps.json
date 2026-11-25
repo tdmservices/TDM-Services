@@ -19,7 +19,7 @@
     {
       "heading": "How we build an app",
       "paragraphs": [
-        "Every project starts with research: who will use the app, what single job it must do well, and how success will be measured. We produce personas, journey maps, wireframes and a design system, and you approve the design before development begins."
+        "Every project starts with research: who will use the app, what single job it must do well, and how success will be measured. We produce personas, journey maps, wireframes and a design system,, which you approve before development begins."
       ],
       "bullets": [
         "Native iOS in Swift and native Android in Kotlin with Jetpack Compose, where performance and device features matter most.",
@@ -33,13 +33,13 @@
       "heading": "Local conditions worth designing for",
       "paragraphs": [
         "Offline use comes first for industrial apps. Forms should save on the device and sync when a connection returns, without the technician thinking about it. Screens need large targets and high contrast, so they can be read outdoors and used with gloves.",
-        "Storm season is the second consideration. When a Gulf storm approaches, home service, pharmacy and grocery apps see sudden surges, and mobile networks can be patchy afterwards. An app that queues requests, shows clear status and lets a business post updated hours quickly earns its keep that week. We cover load and failure cases during scoping."
+        "Storm season is the second consideration. When a Gulf storm approaches, home service, pharmacy and grocery apps see sudden surges, and mobile networks can be patchy afterwards. An app that queues requests, shows clear status and lets a business post updated hours quickly earns its keep that week."
       ]
     },
     {
       "heading": "What to confirm before you hire",
       "paragraphs": [
-        "Ask whether the same team builds the server side, or whether you will be managing two vendors. Ask who holds the developer accounts and the source code. Ask to test working builds on your own phone during the project instead of waiting for a final reveal."
+        "Ask whether the same team builds the server side, or whether you will be managing two vendors. Ask who holds the developer accounts and the source code. Ask to test working builds on your own phone during the project."
       ]
     }
   ],
@@ -84,7 +84,7 @@
     },
     {
       "q": "How long does app development take?",
-      "a": "It depends on the requirements and the brief. The timeline is set in the plan after discovery, and you see working builds along the way."
+      "a": "It depends on the requirements and the brief. The timeline is set in the plan after discovery."
     }
   ]
 }

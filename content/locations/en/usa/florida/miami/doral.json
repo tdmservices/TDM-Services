@@ -23,8 +23,7 @@
         "Product and category pages with specifications, brands carried, minimum orders and how to request a quote.",
         "Pages for each service and trade lane a forwarder handles, with the documents and steps involved.",
         "Trust details in plain view: licences, a street address, warehouse photos, named contacts and business hours.",
-        "Search and LinkedIn campaigns targeted at the countries and job roles you sell to, not at Miami in general.",
-        "Enquiry forms and messaging that route to sales quickly, since buyers contact several suppliers at once."
+        "Search and LinkedIn campaigns targeted at the countries and job roles you sell to, not at Miami in general."
       ]
     },
     {
@@ -37,27 +36,52 @@
     {
       "heading": "Timing in Doral",
       "paragraphs": [
-        "Business-to-business demand is steady through the year, with a clear rise ahead of the holidays, when exporters and package-forwarding companies handle their heaviest volumes. Campaigns for that period need to start early enough for goods to arrive on time. Hurricane season can interrupt shipping schedules, so it helps to have service updates ready to publish. On the consumer side, the school calendar drives enrolment, health check-ups and activities, and the professional golf held at the Blue Monster course at Trump National Doral brings visitors to local hotels and restaurants."
+        "Business-to-business demand is steady through the year, with a clear rise ahead of the holidays, when exporters and package-forwarding companies handle their heaviest volumes. Campaigns for that period need to start early enough for goods to arrive on time. On the consumer side, the school calendar drives enrolment, health check-ups and activities, and the professional golf held at the Blue Monster course at Trump National Doral brings visitors to local hotels and restaurants."
       ]
     }
   ],
   "cards": {
     "heading": "Doral businesses we can help",
     "items": [
-      { "title": "Freight forwarders and customs brokers", "text": "Service and route pages, quote request forms and search visibility for the lanes and cargo types you handle." },
-      { "title": "Exporters and wholesalers", "text": "Product catalogues, B2B e-commerce and campaigns aimed at buyers in the countries you ship to." },
-      { "title": "Package forwarding services", "text": "Clear pricing explanations, sign-up flows and seasonal campaigns ahead of peak shipping periods." },
-      { "title": "Tile, kitchen and furniture showrooms", "text": "Product galleries, project photography and local search for contractors, designers and homeowners." },
-      { "title": "Clinics, dentists and family services", "text": "Map visibility, reviews and booking pages for households that choose close to home." },
-      { "title": "Restaurants and bakeries", "text": "Social content, delivery and reservation links, and listings that show up for searches in Downtown Doral and CityPlace." }
+      {
+        "title": "Freight forwarders and customs brokers",
+        "text": "Service and route pages, quote request forms and search visibility for the lanes and cargo types you handle."
+      },
+      {
+        "title": "Exporters and wholesalers",
+        "text": "Product catalogues, B2B e-commerce and campaigns aimed at buyers in the countries you ship to."
+      },
+      {
+        "title": "Tile, kitchen and furniture showrooms",
+        "text": "Product galleries, project photography and local search for contractors, designers and homeowners."
+      },
+      {
+        "title": "Clinics, dentists and family services",
+        "text": "Map visibility, reviews and booking pages for households that choose close to home."
+      },
+      {
+        "title": "Restaurants and bakeries",
+        "text": "Social content, delivery and reservation links, and listings that show up for searches in Downtown Doral and CityPlace."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami and is familiar with Doral's trade and residential sides. Our wider team delivers the work remotely, with calls arranged around your schedule and reports you can act on.",
   "faqs": [
-    { "q": "Is Doral a separate city from Miami?", "a": "Yes. Doral is an incorporated city in Miami-Dade County with its own local government. Businesses there should use Doral in their address and listings, and can mention Miami and the airport area as the wider region they serve." },
-    { "q": "Can you market a Doral export company to buyers in Latin America?", "a": "Yes. We build the site around your products and routes, then run search and social campaigns in the countries where your buyers are. The aim is qualified quote requests, not general traffic." },
-    { "q": "What should a freight forwarder's website include?", "a": "A page for each service and trade lane, the cargo types you accept, licences and affiliations, warehouse address and hours, and a quote form that asks for origin, destination, weight and dimensions so sales can answer quickly." },
-    { "q": "Does TDM have someone near Doral?", "a": "A member of our team is based in Miami. We work with Doral businesses remotely through calls, shared documents and regular reporting." },
-    { "q": "How is pricing set for a Doral marketing project?", "a": "By scope. A local clinic and an exporter selling to several countries need very different work. We talk it through in a free consultation and then quote." }
+    {
+      "q": "Is Doral a separate city from Miami?",
+      "a": "Yes. Doral is an incorporated city in Miami-Dade County with its own local government. Businesses there should use Doral in their address and listings, and can mention Miami and the airport area as the wider region they serve."
+    },
+    {
+      "q": "Can you market a Doral export company to buyers in Latin America?",
+      "a": "Yes. We build the site around your products and routes, then run search and social campaigns in the countries where your buyers are. The aim is qualified quote requests, not general traffic."
+    },
+    {
+      "q": "Does TDM have someone near Doral?",
+      "a": "A member of our team is based in Miami. We work with Doral businesses remotely through calls, shared documents and regular reporting."
+    },
+    {
+      "q": "How is pricing set for a Doral marketing project?",
+      "a": "By scope. A local clinic and an exporter selling to several countries need very different work. We talk it through in a free consultation and then quote."
+    }
   ]
 }

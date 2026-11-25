@@ -10,8 +10,8 @@
     {
       "heading": "Who comes to Wynwood, and when",
       "paragraphs": [
-        "Daytime belongs to visitors. They come for Wynwood Walls and the painted streets around NW 2nd Avenue, take a tour, stop for coffee or lunch and browse the shops. Many planned the visit before their trip and searched for things to do in Wynwood from a hotel room or from home.",
-        "Evenings and weekends bring a second crowd: people from across Miami who come to eat, drink and go out. A third group is newer. Creative agencies, technology companies and co-working spaces have moved into converted warehouses and new office buildings, and apartment blocks have brought residents who want a gym, a grocery shop and a regular coffee place. One business may serve all three at different hours."
+        "Daytime belongs to visitors. They come for Wynwood Walls and the painted streets around NW 2nd Avenue, take a tour, stop for coffee or lunch and browse the shops.",
+        "Evenings and weekends bring a second crowd: people from across Miami who come to eat, drink and go out. A third group is newer. Creative agencies, technology companies and co-working spaces have moved into converted warehouses and new office buildings, and apartment blocks have brought residents who want a gym, a grocery shop and a regular coffee place."
       ]
     },
     {
@@ -23,7 +23,6 @@
       "bullets": [
         "Short vertical video filmed in the venue, posted on a steady schedule.",
         "Creator and user-generated content, with clear usage rights so the best clips can run as ads.",
-        "Event and launch promotion planned weeks ahead, since the calendar here is crowded.",
         "Paid social aimed at people in Miami for nights out, and at people planning a trip for daytime visits."
       ]
     },
@@ -37,27 +36,52 @@
     {
       "heading": "Art Week and the rest of the year",
       "paragraphs": [
-        "Early December is the peak. During Art Week the area fills with satellite fairs, brand pop-ups, new murals and private events, and competition for attention is at its highest. Bookings, collaborations and ad plans for that week need to be settled well in advance. The winter months that follow stay busy with visitors, while the hot, wet summer relies more on locals. We move budgets with that pattern and use the quieter months to build content and reviews."
+        "Early December is the peak. During Art Week the area fills with satellite fairs, brand pop-ups, new murals and private events, and competition for attention is at its highest. Bookings, collaborations and ad plans for that week need to be settled well in advance. The winter months that follow stay busy with visitors, while the hot, wet summer relies more on locals."
       ]
     }
   ],
   "cards": {
     "heading": "Wynwood businesses we can support",
     "items": [
-      { "title": "Restaurants, bars and breweries", "text": "Video-led social content, reservation and event promotion, and map listings that answer practical questions before people set off." },
-      { "title": "Galleries and artists", "text": "Exhibition pages, opening-night promotion and an online catalogue for collectors who saw the work on a visit and want to buy later." },
-      { "title": "Retail and concept stores", "text": "Product photography, an online shop for visitors who go home and reorder, and ads that follow up with people who came in." },
-      { "title": "Event venues", "text": "Pages for each type of hire, enquiry forms that capture date and headcount, and search ads for corporate and private bookings." },
-      { "title": "Creative and tech companies", "text": "Websites, case-study content and LinkedIn campaigns for firms that sell to clients well beyond the neighbourhood." },
-      { "title": "Tours and experiences", "text": "Bookable pages for each tour, review collection and visibility in searches people make while planning a trip." }
+      {
+        "title": "Restaurants, bars and breweries",
+        "text": "Video-led social content, reservation and event promotion, and map listings that answer practical questions before people set off."
+      },
+      {
+        "title": "Galleries and artists",
+        "text": "Exhibition pages, opening-night promotion and an online catalogue for collectors who saw the work on a visit and want to buy later."
+      },
+      {
+        "title": "Retail and concept stores",
+        "text": "Product photography, an online shop for visitors who go home and reorder, and ads that follow up with people who came in."
+      },
+      {
+        "title": "Event venues",
+        "text": "Pages for each type of hire, enquiry forms that capture date and headcount, and search ads for corporate and private bookings."
+      },
+      {
+        "title": "Creative and tech companies",
+        "text": "Websites, case-study content and LinkedIn campaigns for firms that sell to clients well beyond the neighbourhood."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami and knows Wynwood as a place to work and go out. Our wider team delivers strategy, design, development and video editing remotely, and keeps you updated through calls and reports.",
   "faqs": [
-    { "q": "Is social media or SEO more important for a Wynwood business?", "a": "For venues, shops and galleries, social media and video usually create the demand, and local search captures it when people look up where to go. Offices and agencies that sell to other businesses are the exception: for them search and LinkedIn matter more." },
-    { "q": "How early should we plan marketing for Art Week?", "a": "Start in early autumn at the latest. Events, partnerships, creative and ad budgets all need to be in place before December, because prices and competition rise as the week approaches." },
-    { "q": "How do we stand out when every business posts murals?", "a": "Show what only you have. People, process, product and atmosphere are harder to copy than a wall. Consistent filming inside your own space builds a recognisable look over time." },
-    { "q": "Do you have someone in Miami who knows Wynwood?", "a": "Yes. A member of our team is based in Miami. Production planning, editing, campaigns and reporting are handled by our wider team working remotely." },
-    { "q": "What does marketing for a Wynwood restaurant or bar cost?", "a": "Cost follows scope: how much content is produced each month, which platforms are managed and how much you put into ads. We quote after a free consultation." }
+    {
+      "q": "Is social media or SEO more important for a Wynwood business?",
+      "a": "For venues, shops and galleries, social media and video usually create the demand, and local search captures it when people look up where to go."
+    },
+    {
+      "q": "How early should we plan marketing for Art Week?",
+      "a": "Start in early autumn at the latest. Events, partnerships, creative and ad budgets all need to be in place before December, because prices and competition rise as the week approaches."
+    },
+    {
+      "q": "Do you have someone in Miami who knows Wynwood?",
+      "a": "Yes. A member of our team is based in Miami. Production planning, editing, campaigns and reporting are handled by our wider team working remotely."
+    },
+    {
+      "q": "What does marketing for a Wynwood restaurant or bar cost?",
+      "a": "Cost follows scope: how much content is produced each month, which platforms are managed and how much you put into ads. We quote after a free consultation."
+    }
   ]
 }

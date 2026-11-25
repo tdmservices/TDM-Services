@@ -10,7 +10,7 @@
     {
       "heading": "Two kinds of business on the same avenue",
       "paragraphs": [
-        "The office towers along Brickell Avenue house banks, private wealth managers, law firms, accountants, family offices and consulates. In recent years financial and technology firms from other parts of the country have opened offices here too. Much of this work is done for clients elsewhere: a company in another state, an investor in South America, a family buying property from abroad. For these firms the neighbourhood is an address that signals credibility, and the marketing job is to be found for a specific problem by someone far away.",
+        "The office towers along Brickell Avenue house banks, private wealth managers, law firms, accountants, family offices and consulates. Much of this work is done for clients elsewhere: a company in another state, an investor in South America, a family buying property from abroad. For these firms the neighbourhood is an address that signals credibility, and the marketing job is to be found for a specific problem by someone far away.",
         "At street level the picture is different. Restaurants, bars, coffee shops, gyms, med spas, dentists, salons, vets and dry cleaners live on the people in the towers above and around them. Their customers are within a few minutes' walk, and they choose quickly, on a phone, often between meetings."
       ]
     },
@@ -22,7 +22,6 @@
       ],
       "bullets": [
         "A Google Business Profile with the right category, opening hours that match reality and photos of the actual entrance, since many businesses sit inside a tower or on an upper floor.",
-        "Location pages that mention the landmarks and cross streets people navigate by.",
         "Online booking, reservations and delivery links that work in two taps.",
         "Ads limited to a tight radius for walk-in businesses, and to chosen cities or countries for professional firms."
       ]
@@ -30,34 +29,59 @@
     {
       "heading": "The working week and the winter season",
       "paragraphs": [
-        "Demand here follows the office clock. Lunch on weekdays, drinks after work and brunch at the weekend are the peaks for food and drink. A lunch spot that depends on office workers can be quiet on a Saturday, while residents keep gyms, salons and delivery kitchens busy in the evenings.",
+        "Demand here follows the office clock. Lunch on weekdays, drinks after work and brunch at the weekend are the peaks for food and drink.",
         "The year has a shape as well. Winter fills the condos with part-time residents and the hotels with visitors, and Art Week in December brings dinners, launches and private events to the neighbourhood. Summer is slower, and afternoon storms push more orders to delivery. We set ad schedules by hour and by month instead of running the same budget every day."
       ]
     },
     {
       "heading": "Websites and ads for Brickell firms",
       "paragraphs": [
-        "A law or advisory firm needs a page for each practice area, written around the questions clients ask, with profiles of the people who do the work. Search ads on specific needs and a consistent LinkedIn presence usually do more than broad awareness campaigns. Consumer businesses need the opposite: short video, strong photography, Instagram and TikTok content filmed in the venue, and a site that loads fast and takes a booking without a phone call."
+        "A law or advisory firm needs a page for each practice area and profiles of the people who do the work, backed by search ads on specific needs and a steady LinkedIn presence. Consumer businesses need the opposite: short video filmed in the venue, strong photography and a site that takes a booking without a phone call."
       ]
     }
   ],
   "cards": {
     "heading": "Businesses we can help in Brickell",
     "items": [
-      { "title": "Law and financial firms", "text": "Practice-area pages, search campaigns on precise terms and content that answers what a client in another city or country needs to know before calling." },
-      { "title": "Restaurants and bars", "text": "Map visibility, reservation links, short video and ad schedules built around lunch, after-work hours and weekend brunch." },
-      { "title": "Med spas and dental practices", "text": "Treatment pages, review collection and ad copy written within the platforms' rules on health claims." },
-      { "title": "Gyms and studios", "text": "Trial offers aimed at people who have just moved into nearby towers, with class booking on the site." },
-      { "title": "Condo sales and leasing", "text": "Building-level pages, video walkthroughs and ads that reach buyers and tenants before they arrive in Miami." },
-      { "title": "Everyday resident services", "text": "Vets, salons, cleaners and pet services found through near-me searches and kept busy by reviews." }
+      {
+        "title": "Law and financial firms",
+        "text": "Practice-area pages, search campaigns on precise terms and content that answers what a client in another city or country needs to know before calling."
+      },
+      {
+        "title": "Restaurants and bars",
+        "text": "Map visibility, reservation links, short video and ad schedules built around lunch, after-work hours and weekend brunch."
+      },
+      {
+        "title": "Med spas and dental practices",
+        "text": "Treatment pages, review collection and ad copy written within the platforms' rules on health claims."
+      },
+      {
+        "title": "Gyms and studios",
+        "text": "Trial offers aimed at people who have just moved into nearby towers, with class booking on the site."
+      },
+      {
+        "title": "Condo sales and leasing",
+        "text": "Building-level pages, video walkthroughs and ads that reach buyers and tenants before they arrive in Miami."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami and knows how Brickell works from day to day. Strategy, design, development and video are delivered remotely by our wider team, with calls and written reports on a schedule you choose.",
   "faqs": [
-    { "q": "Do you work with businesses in Brickell?", "a": "Yes. A member of our team is based in Miami, and our wider team works with Brickell businesses remotely. We do not ask you to come to us: meetings happen by call, and the work is shared in documents and reports." },
-    { "q": "How do I get my Brickell business to show up on Google Maps?", "a": "Complete your Google Business Profile, choose the most accurate category, add photos that help people find your door, and ask customers for reviews as a routine. Then make sure your site has a page that names Brickell and the landmarks near you, with the same name, address and phone number used everywhere." },
-    { "q": "Should a Brickell law firm use SEO or Google Ads?", "a": "Usually both, in stages. Ads on specific legal needs bring enquiries while pages for each practice area build search visibility over time. Which comes first depends on how competitive your field is and how quickly you need new matters." },
-    { "q": "How much does marketing for a Brickell business cost?", "a": "It depends on the scope: which channels, how much content and how competitive your category is. We give a quote after a free consultation." },
-    { "q": "Can you target only people who live or work in Brickell?", "a": "Yes. Ad platforms allow a small radius around your address, and schedules can follow office hours or evenings. For firms with clients elsewhere, we target the cities and countries those clients are in instead." }
+    {
+      "q": "Do you work with businesses in Brickell?",
+      "a": "Yes. A member of our team is based in Miami, and our wider team works with Brickell businesses remotely."
+    },
+    {
+      "q": "How do I get my Brickell business to show up on Google Maps?",
+      "a": "Complete your Google Business Profile, choose the most accurate category, add photos that help people find your door, and ask customers for reviews as a routine. Then make sure your site has a page that names Brickell and the landmarks near you, with the same name, address and phone number used everywhere."
+    },
+    {
+      "q": "Should a Brickell law firm use SEO or Google Ads?",
+      "a": "Usually both, in stages. Ads on specific legal needs bring enquiries while pages for each practice area build search visibility over time. Which comes first depends on how competitive your field is and how quickly you need new matters."
+    },
+    {
+      "q": "How much does marketing for a Brickell business cost?",
+      "a": "It depends on the scope: which channels, how much content and how competitive your category is. We give a quote after a free consultation."
+    }
   ]
 }

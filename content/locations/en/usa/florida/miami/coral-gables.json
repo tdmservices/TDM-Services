@@ -18,7 +18,7 @@
       "heading": "Who buys in the Gables",
       "paragraphs": [
         "Residents are largely homeowners, many in older houses that need specialist care. That supports a deep market for architects, interior designers, contractors, landscapers, pool companies and roofers who understand the city's approval process and can say so on their websites. These customers research thoroughly, read reviews, ask neighbours and expect a professional site before they call.",
-        "Professional firms sell to businesses and private clients across South Florida and abroad. Their buyers look for evidence of expertise: who the partners are, what they handle and how to reach them. Restaurants and shops draw on residents, office workers at lunch and people from neighbouring South Miami, Coconut Grove and the rest of the county who drive in for dinner or a fitting."
+        "Professional firms sell to businesses and private clients across South Florida and abroad. Restaurants and shops draw on residents, office workers at lunch and people from neighbouring South Miami, Coconut Grove and the rest of the county who drive in for dinner or a fitting."
       ]
     },
     {
@@ -30,34 +30,58 @@
         "Service pages built around specific needs: estate planning, cosmetic dentistry, historic home renovation, bridal alterations.",
         "References to the places people navigate by: Miracle Mile, Ponce de Leon Boulevard, Giralda Plaza, Merrick Park, the University of Miami.",
         "Search ads for high-intent queries, with wording that matches the measured tone customers expect.",
-        "Review requests built into your process, since recommendations carry particular weight in a close-knit city.",
-        "Photography and design that match the standard of the premises. A dated site undercuts a well-kept office."
+        "Review requests built into your process, since recommendations carry particular weight in a close-knit city."
       ]
     },
     {
       "heading": "The Gables calendar",
       "paragraphs": [
-        "The university sets part of the rhythm. Move-in in August, family weekends and graduation in May fill hotels and restaurants and create demand for storage, furniture, catering and short stays. Wedding planning keeps the bridal trade on Miracle Mile busy well ahead of the cooler months when most South Florida weddings take place. Carnaval on the Mile brings crowds downtown in early spring, and the winter season lifts restaurant and retail trade generally. Home services see their own peaks before and during hurricane season."
+        "The university sets part of the rhythm. Move-in in August, family weekends and graduation in May fill hotels and restaurants. Wedding planning keeps the bridal trade on Miracle Mile busy well ahead of the cooler months when most South Florida weddings take place. Carnaval on the Mile brings crowds downtown in early spring, and the winter season lifts restaurant and retail trade generally. Home services see their own peaks before and during hurricane season."
       ]
     }
   ],
   "cards": {
     "heading": "Coral Gables sectors we can work with",
     "items": [
-      { "title": "Law, wealth and accounting firms", "text": "Practice pages, partner profiles and search visibility for the specific matters clients look up before choosing an adviser." },
-      { "title": "Medical and dental practices", "text": "Treatment pages, physician profiles, online booking and review collection, with ad copy kept within platform rules." },
-      { "title": "Bridal and special-occasion retail", "text": "Appointment booking, galleries of real fittings and campaigns timed to when couples start planning." },
-      { "title": "Home design and renovation", "text": "Project portfolios, pages on historic and Mediterranean-style homes, and local search for each trade." },
-      { "title": "Restaurants and cafes", "text": "Reservation links, menu pages and social content for Giralda Plaza, Miracle Mile and Merrick Park venues." },
-      { "title": "Regional headquarters", "text": "Corporate sites and content for companies that manage operations in other countries from a Coral Gables office." }
+      {
+        "title": "Law, wealth and accounting firms",
+        "text": "Practice pages, partner profiles and search visibility for the specific matters clients look up before choosing an adviser."
+      },
+      {
+        "title": "Medical and dental practices",
+        "text": "Treatment pages, physician profiles, online booking and review collection, with ad copy kept within platform rules."
+      },
+      {
+        "title": "Bridal and special-occasion retail",
+        "text": "Appointment booking, galleries of real fittings and campaigns timed to when couples start planning."
+      },
+      {
+        "title": "Home design and renovation",
+        "text": "Project portfolios, pages on historic and Mediterranean-style homes, and local search for each trade."
+      },
+      {
+        "title": "Restaurants and cafes",
+        "text": "Reservation links, menu pages and social content for Giralda Plaza, Miracle Mile and Merrick Park venues."
+      }
     ]
   },
   "presence": "A member of our team is based in Miami, a short drive from Coral Gables. The work itself is delivered remotely by our wider team, with regular calls and clear written reporting.",
   "faqs": [
-    { "q": "Is Coral Gables part of Miami for SEO purposes?", "a": "No. Coral Gables is a separate city in Miami-Dade County, and people search for it by name. A business located there should present itself as a Coral Gables business first and mention Miami as the wider area it serves." },
-    { "q": "Do you have a team in Coral Gables?", "a": "A member of our team is based in Miami. We work with Coral Gables businesses remotely, with scheduled calls and shared reports." },
-    { "q": "What marketing works for a professional firm in Coral Gables?", "a": "A clear website with a page for each service, profiles of the people involved, search visibility for specific client problems and steady LinkedIn activity. Paid search can bring enquiries sooner while organic rankings build." },
-    { "q": "How do home service companies get customers in Coral Gables?", "a": "Show finished projects in the city, explain your experience with local approvals, collect reviews from homeowners and make sure you appear in map results for your trade. Many jobs here start with a neighbour's recommendation followed by a search to check you out." },
-    { "q": "What will a marketing plan for a Coral Gables business cost?", "a": "That depends on what is included. After a free consultation about your goals and current setup, we send a quote for the agreed scope." }
+    {
+      "q": "Is Coral Gables part of Miami for SEO purposes?",
+      "a": "No. Coral Gables is a separate city in Miami-Dade County, and people search for it by name. A business located there should present itself as a Coral Gables business first and mention Miami as the wider area it serves."
+    },
+    {
+      "q": "Do you have a team in Coral Gables?",
+      "a": "A member of our team is based in Miami. We work with Coral Gables businesses remotely, with scheduled calls and shared reports."
+    },
+    {
+      "q": "What marketing works for a professional firm in Coral Gables?",
+      "a": "A clear website with a page for each service, profiles of the people involved, search visibility for specific client problems and steady LinkedIn activity. Paid search can bring enquiries sooner while organic rankings build."
+    },
+    {
+      "q": "What will a marketing plan for a Coral Gables business cost?",
+      "a": "That depends on what is included. After a free consultation about your goals and current setup, we send a quote for the agreed scope."
+    }
   ]
 }
