@@ -1,0 +1,68 @@
+{
+  "slug": "usa/south-carolina/charleston/seo",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/seo",
+  "title": "SEO Agency in Charleston, SC",
+  "metaTitle": "SEO Agency in Charleston, SC | TDM",
+  "metaDescription": "SEO for Charleston businesses: map results by area, trip-planning searches, wedding, healthcare and trade queries, and AI answers. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that does SEO for Charleston businesses: site audits, technical fixes, content, links, Google Business Profile work and visibility in AI answers. In Charleston the same search phrase can come from two very different people. A query for seafood downtown is typed by a couple planning a long weekend from another state and by someone who lives ten minutes up the peninsula. We work out which of them pays your bills, then build the pages and listings that person needs.",
+  "sections": [
+    {
+      "heading": "Search around the harbour, area by area",
+      "paragraphs": [
+        "The peninsula is where visitors look. Searches for inns, carriage and harbour tours, restaurants near King Street or the City Market and things to do on a wet afternoon are made mostly from elsewhere, ahead of the trip, and then again on foot with a phone. Those results are crowded with travel sites and booking platforms, so a local business wins with detail the platforms cannot write: parking, walking distances, private dining, step-free access, what is open on a Monday.",
+        "Cross the Ravenel Bridge and the searcher changes. Mount Pleasant, Daniel Island, West Ashley and James Island are residential, and people there want a children's dentist, a roofer, a vet or a pilates studio close to home. Summerville, Goose Creek and the new neighbourhoods along I-26 are filling with households that arrived recently and have no regular providers yet.",
+        "North Charleston is a separate city, and Google treats it as one, just as it does Mount Pleasant and Summerville. A business with a North Charleston address does not automatically appear for searches that say Charleston, and the reverse holds too. We plan for that with service-area settings, location pages that say something real, and listings that agree with each other."
+      ]
+    },
+    {
+      "heading": "Three Charleston trades with their own search rules",
+      "paragraphs": [
+        "Weddings. Couples who marry here often live far away and choose a venue, planner, florist, photographer and band from a screen. They search many months ahead, by venue name and by style, and they study galleries more than text. A wedding business needs real-wedding pages named for the venue and the season, images that load quickly and an obvious way to enquire.",
+        "Healthcare. With the medical district downtown and the hospital systems running clinics across the suburbs, a private practice competes with very large websites. It gains ground on specific treatments and conditions, clinician profiles, insurance and location details, and patient reviews.",
+        "Port and plant suppliers. Firms that serve the container terminals and the aircraft and vehicle plants in North Charleston, Ladson and Ridgeville are found through a different kind of search: drayage, transloading, bonded warehousing, machining, calibration, industrial staffing. Those buyers type exact services and expect capability, certifications and coverage stated plainly."
+      ]
+    },
+    {
+      "heading": "What the work covers",
+      "paragraphs": [
+        "We begin by auditing the site, your listings and the searches you already appear for, then agree an order of work with you. Our developers are part of the same team, so fixes are made on the site itself."
+      ],
+      "bullets": [
+        "Keyword research split by visitor, resident and trade buyer, and by part of the metro.",
+        "Technical work: mobile page speed, indexing, redirects, and schema for local businesses, events, menus and FAQs.",
+        "Google Business Profile set-up and upkeep, with the correct city, categories, hours and photos.",
+        "Content for the planning stage of a trip or a wedding, and for the questions new residents ask.",
+        "Links and mentions from Lowcountry publications, venues, associations and trade directories.",
+        "Pages structured so AI assistants can quote them accurately.",
+        "Monthly reporting on rankings, calls, forms and bookings."
+      ]
+    },
+    {
+      "heading": "Before you hire SEO help in Charleston",
+      "paragraphs": [
+        "Ask how the agency handles the calendar. Pages aimed at spring visitors, festival weeks or next year's wedding dates must be published long before people start looking. Ask what it will do about the booking platforms that outrank small operators, and whether the answer is anything more than buying ads. Ask to see the list of pages it plans to create, because a row of near-identical pages for every suburb is a warning sign. And keep your domain, Search Console and Google profile in your own name."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Charleston businesses this work suits",
+    "items": [
+      { "title": "Inns, tours and attractions", "text": "Direct-booking pages that answer what a visitor asks before choosing, so fewer reservations pass through a third party." },
+      { "title": "Restaurants and bars", "text": "Menus as text, hours, reservation links and private-dining pages that match what diners search downtown and in Mount Pleasant." },
+      { "title": "Wedding venues and vendors", "text": "Galleries and real-wedding pages organised by venue, season and style for couples planning from a distance." },
+      { "title": "Clinics and practices", "text": "Treatment and location pages for patients in West Ashley, Summerville, Daniel Island and around the medical district." },
+      { "title": "Trades and home services", "text": "Pages for the jobs Lowcountry houses bring, such as historic repairs, drainage and storm preparation, by the area you cover." },
+      { "title": "Port and plant suppliers", "text": "Capability pages written for dispatchers, engineers and purchasing teams who search by exact service." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, though not in Charleston itself. SEO for Charleston clients is carried out remotely by the wider TDM team, with calls and reports at intervals we agree with you.",
+  "faqs": [
+    { "q": "Is TDM an SEO company based in Charleston?", "a": "No. A member of our team is based in South Carolina, outside Charleston. The audit, technical work, content and reporting are done remotely, and we speak by call whenever you need." },
+    { "q": "My business is in North Charleston or Mount Pleasant. Can I rank for Charleston searches?", "a": "For some searches. Map results lean heavily on where the business is and where the searcher is standing, so an address outside the city is a handicap for map results downtown. Ordinary web results are more open, and useful pages about the work you do for downtown customers can rank there. We tell you which searches are realistic before you pay for them." },
+    { "q": "How can a small Charleston inn or tour compete with the big booking sites on Google?", "a": "Rarely head-on for the broadest phrases. A small operator does better on specific searches, on map results, on its own name and on questions the platforms answer badly. Complete listings, strong reviews and detailed pages bring a share of visitors to book direct." },
+    { "q": "What does SEO cost for a Charleston business?", "a": "That depends on the state of your site, how many areas and services you want to cover and how crowded your field is. We look at where you stand in a free consultation and quote afterwards." },
+    { "q": "How long does SEO take in Charleston?", "a": "It depends on your requirements, your starting point and the brief, and we set milestones in the plan. If your trade depends on a season, a festival or a wedding year, tell us early so the content is live in time." }
+  ]
+}

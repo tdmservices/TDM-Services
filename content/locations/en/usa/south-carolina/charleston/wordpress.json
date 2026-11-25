@@ -1,0 +1,68 @@
+{
+  "slug": "usa/south-carolina/charleston/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/wordpress",
+  "title": "WordPress Development Agency in Charleston, SC",
+  "metaTitle": "WordPress Development Agency in Charleston, SC | TDM",
+  "metaDescription": "WordPress sites for Charleston inns, tours, restaurants, wedding vendors, practices and builders: custom themes, booking links, fast galleries, secure upkeep.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds WordPress websites for Charleston businesses: inns and tour companies, restaurants, wedding venues and vendors, medical and dental practices, law firms, builders and nonprofits. Each site gets a custom theme, a short plugin list and editing screens your staff can manage. A Charleston website has a particular job. It is usually read on a phone, by someone standing on a pavement downtown or planning a trip from far away, and it has to answer quickly.",
+  "sections": [
+    {
+      "heading": "What Charleston sites are asked to do",
+      "paragraphs": [
+        "Hospitality. An inn, restaurant or tour operator does not need WordPress to be the booking engine. It needs the site to hand over cleanly to the reservation, ticketing or table-booking system already in use, and to carry everything that system leaves out: the rooms, the route, the menu as text and not a PDF, parking, accessibility, private events.",
+        "Weddings. Venues, planners, florists and photographers sell through pictures, and galleries holding hundreds of large photos are the commonest reason their sites crawl. We build galleries that serve images at the right size, load them as the visitor scrolls and let you add a new wedding in minutes, tagged by venue and season. The enquiry form asks for date, guest count and venue so your first reply can be a useful one.",
+        "Healthcare. Practices near the medical district and in Mount Pleasant, West Ashley and Summerville need provider profiles, service pages, each location with its own hours, and clear links to the patient portal and scheduling tool. Contact forms on a medical site should not gather clinical details unless the system behind them is built for it, and we set them up accordingly.",
+        "Industry. Suppliers to the plants and logistics firms at the port use a site differently: capability pages, an equipment list, certifications, the area served, a quote request and a careers section that is easy to keep current."
+      ]
+    },
+    {
+      "heading": "Built for a metro that keeps spreading",
+      "paragraphs": [
+        "Many Charleston firms now work across several areas. A practice opens a second office in Summerville, or a builder takes jobs from Johns Island to Daniel Island. We set up locations and services as their own content types, so adding Nexton or Moncks Corner later means filling in a page, and each location carries its own staff, map, hours and reviews.",
+        "Traffic climbs in spring, in autumn and during festival weeks, so caching and hosting are sized for those peaks and not for a slow Tuesday in January. A site-wide notice that a manager can switch on in a minute covers tidal flooding on the street, a storm closure or a night when the venue is privately booked."
+      ]
+    },
+    {
+      "heading": "What is in a build",
+      "paragraphs": [
+        "Work moves through discovery, design mock-ups you approve, development, testing and launch, with support afterwards."
+      ],
+      "bullets": [
+        "A theme written for your brand and content, without page-builder weight.",
+        "Connections to booking, ticketing, reservation and scheduling tools.",
+        "WooCommerce where you sell gift cards, merchandise or products.",
+        "SEO in the theme itself: clean URLs, schema markup, image optimisation and Core Web Vitals.",
+        "Security hardening, managed updates, backups and monitoring.",
+        "Takeover or rebuild of slow, outdated or hacked sites, with redirects so rankings carry across.",
+        "Analytics and conversion tracking in place on launch day."
+      ]
+    },
+    {
+      "heading": "Checks before you sign",
+      "paragraphs": [
+        "Make sure the domain and hosting account will be in your name. Ask to see a comparable site on a phone using mobile data, not office wifi, because that is how a visitor on Meeting Street will see yours. Ask how large images are handled, who applies plugin updates after launch and what a small change will cost a year from now. And try the editor yourself before final sign-off."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Typical Charleston WordPress projects",
+    "items": [
+      { "title": "Inn or tour company site", "text": "Rooms or routes presented properly, with a direct handover to your booking system and answers to pre-trip questions." },
+      { "title": "Restaurant group", "text": "One site for several venues, each with its own menu, hours, reservation link and private-dining page." },
+      { "title": "Wedding portfolio", "text": "Fast galleries organised by venue and season, with an enquiry form that collects what you need to quote." },
+      { "title": "Practice website", "text": "Providers, treatments and locations laid out for patients, linked to the portal and scheduling you already use." },
+      { "title": "Builder or trades site", "text": "Project pages by neighbourhood and type of work, from historic renovation downtown to new homes in the suburbs." },
+      { "title": "Nonprofit or arts organisation", "text": "Event listings, donation and membership pages, and an editor volunteers can learn in an afternoon." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, though not in Charleston. Design, development and testing are done remotely by the wider TDM team, and you review the site on a staging address before it goes live.",
+  "faqs": [
+    { "q": "Do you have WordPress developers in Charleston?", "a": "Not in Charleston itself. A member of our team is based in South Carolina, and the build is carried out remotely. We meet by call at each stage and you can see progress on a staging site." },
+    { "q": "Can WordPress connect to my booking or reservation system?", "a": "In most cases, yes. Booking, ticketing and table-reservation tools usually provide a link, an embed or an API. We check what yours offers during discovery and design the pages around the handover." },
+    { "q": "What does a WordPress website cost for a Charleston business?", "a": "It depends on the number of page types, the integrations and how much content needs to be written or moved. You receive a quote after a free consultation." },
+    { "q": "My site is slow because of photos. Can you fix it without a rebuild?", "a": "Often. Oversized images, a heavy gallery plugin and weak hosting cause most of the delay and can be corrected on the existing site. If the theme itself is the obstacle, we will show you why before recommending a rebuild." },
+    { "q": "How long does a WordPress build take?", "a": "It depends on your requirements and the brief, and on how quickly content and approvals arrive. The schedule is agreed in the plan after discovery." }
+  ]
+}

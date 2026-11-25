@@ -1,0 +1,68 @@
+{
+  "slug": "usa/south-carolina/charleston/shopify",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/shopify",
+  "title": "Shopify Development Agency in Charleston, SC",
+  "metaTitle": "Shopify Development Agency in Charleston, SC | TDM",
+  "metaDescription": "Shopify stores for Charleston shops, makers and brands: POS linked to online, local pickup and delivery, gift and wedding orders, food shipping, migrations.",
+  "lead": "TDM (The Digital Marketing Services) builds, redesigns and migrates Shopify stores for Charleston retailers, makers and brands. That covers theme design, product and collection set-up, apps, Shopify POS and speed. Charleston retail has an unusual advantage: a shop on King Street or a stall in the City Market meets customers from across the country every day. The online store is how they keep buying once the trip is over, and how a Lowcountry brand reaches people who have never been.",
+  "sections": [
+    {
+      "heading": "From the shop floor to the customer's front door",
+      "paragraphs": [
+        "With Shopify POS at the counter, the shop and the website share one stock list and one customer list. A visitor's email address is captured at the till with their agreement, and a ship-it-home option suits anyone who would sooner not carry a painting or a case of sauce through an airport.",
+        "Local customers want something else: pickup in store, or delivery this week. Around Charleston, delivery zones are better set by postcode than by distance, because a short line on the map from downtown to Mount Pleasant, Daniel Island or James Island can be a long drive over a bridge.",
+        "Then there is the event trade. Wedding welcome bags, gifts for the wedding party, favours and gifts for conference delegates are ordered in bulk, tied to a date and often delivered to a hotel or venue. A store that takes these orders needs quantity pricing, a delivery date field and room for notes, so they do not all arrive as emails."
+      ]
+    },
+    {
+      "heading": "Products that need particular handling",
+      "paragraphs": [
+        "Food gifts are a Charleston staple: pralines, benne wafers, sauces, tea, grits. Some travel badly in summer heat, so shipping rules should limit which items go by which service in the warm months and add the true cost of insulated packing.",
+        "Galleries, antique dealers and craftspeople sell single pieces. Each product exists once, so the gallery wall and the website must update together or the same item is sold twice. We set up stock and product templates for one-off pieces, with room for dimensions, provenance and several photographs.",
+        "Clothing and accessories bring sizes, colour variants and returns, and restaurants and hotels increasingly sell gift cards, cookbooks and their own merchandise. Each needs different product pages. Sales tax is the last detail: South Carolina's local taxes can differ between Charleston, Berkeley and Dorchester counties, which matters for local delivery. Shopify calculates it once configured, and your accountant should confirm the settings."
+      ]
+    },
+    {
+      "heading": "What we build",
+      "paragraphs": [
+        "A new brand can launch sensibly on a well-configured premium theme. A store with steady traffic usually gains from a custom one. We say which applies after looking at your figures."
+      ],
+      "bullets": [
+        "Theme design and build on Online Store 2.0, custom or adapted from a premium theme.",
+        "Product, collection, cart and checkout pages designed for buyers on phones.",
+        "Shopify POS set-up with shared stock between shop and site.",
+        "Local pickup, delivery zones and shipping rules by product type and season.",
+        "Apps for reviews, subscriptions, bundles and gift options, with unused ones removed.",
+        "Migration from WooCommerce, Magento or another platform, with products, customers, orders and redirects.",
+        "Structured product data, image compression and speed tuning."
+      ]
+    },
+    {
+      "heading": "Timing and what to ask",
+      "paragraphs": [
+        "Plan the launch for a quiet stretch. For most Charleston shops that means finishing before the spring visitor season and again well ahead of the gift-buying weeks at the end of the year. Before hiring anyone, confirm the store will be opened in your name, ask what the apps will cost each month, ask how old addresses will be redirected, and place a test order yourself from a phone."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "What Charleston merchants ask us for",
+    "items": [
+      { "title": "Shop plus online store", "text": "One stock list across the counter and the website, so staff and customers see the same availability." },
+      { "title": "Food gifts shipped nationally", "text": "Gift boxes, subscriptions and seasonal shipping rules for Lowcountry food and drink producers." },
+      { "title": "Galleries and one-off pieces", "text": "Product pages for single items that mark themselves sold the moment they go, in the gallery or online." },
+      { "title": "Wedding and event orders", "text": "Bulk gifts and welcome bags with quantity pricing, a required-by date and delivery to a venue or hotel." },
+      { "title": "Restaurant and hotel shops", "text": "Gift cards, cookbooks and branded goods sold from a small store that matches the main website." },
+      { "title": "A move to Shopify", "text": "Catalogue, customers and order history carried over from an older platform without losing search traffic." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, not in Charleston itself. Store design, theme development and testing are carried out remotely by the wider TDM team on a preview store you can check before launch.",
+  "faqs": [
+    { "q": "Can you link the till in my King Street shop to a Shopify store?", "a": "Yes. Shopify POS runs the counter and the online store from the same products, stock and customer records. We set up the catalogue, staff accounts and stock locations, and test sales in both directions." },
+    { "q": "Can Shopify handle pickup and local delivery around Charleston?", "a": "Yes. You can offer pickup at one or more locations and define delivery zones by postcode with their own fees and minimums. We set the zones to match the areas you can actually reach in a day." },
+    { "q": "How much does a Shopify store cost in Charleston?", "a": "It depends on whether the design is theme-based or custom, the size of the catalogue, POS and any migration. We quote after a free consultation." },
+    { "q": "Does TDM have Shopify developers in Charleston?", "a": "A member of our team is based in South Carolina, outside the city. The build is done remotely, with calls at each stage and a preview link for you to review." },
+    { "q": "How long does it take to launch a Shopify store?", "a": "That depends on your requirements, the brief and how ready your product photos and descriptions are. The timeline is set in the plan once discovery is complete." }
+  ]
+}

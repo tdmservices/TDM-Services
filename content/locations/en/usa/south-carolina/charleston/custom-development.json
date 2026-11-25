@@ -1,0 +1,68 @@
+{
+  "slug": "usa/south-carolina/charleston/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/custom-development",
+  "title": "Custom Web Development Agency in Charleston, SC",
+  "metaTitle": "Custom Web Development in Charleston, SC | TDM",
+  "metaDescription": "Custom web applications for Charleston businesses: tour and event booking, wedding portals, container tracking and supplier portals in Next.js and Laravel.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom web applications for Charleston businesses whose operations no packaged product fits: booking and scheduling systems, client and supplier portals, marketplaces and internal tools. We build with Next.js and React on the front end and Laravel or Node.js behind. In Charleston the need tends to come from two directions: businesses that sell dates, seats or capacity, and firms tied to the port and the plants, where information has to pass between companies.",
+  "sections": [
+    {
+      "heading": "Where packaged software runs out in Charleston",
+      "paragraphs": [
+        "Tours and attractions. Walking, carriage, harbour and ghost tours sell seats by departure, and standard ticketing covers that. It strains when you add combined tickets across operators, allocations for hotel concierges and resellers with commission, private group bookings, and weather cancellations that mean rebooking a whole afternoon at once.",
+        "Weddings and events. A venue or planner manages one date for a year or more: the hold, the contract, staged payments, the vendor list, floor plans, the rain plan, shuttle times. Many run this across spreadsheets, email threads and a general-purpose CRM. A portal where the couple, the planner and the vendors see the same timeline and documents removes most of the chasing.",
+        "Port logistics. Drayage, transloading and warehouse firms that work the terminals answer the same questions all day. Has the container been released? When was it collected? What is owed? A customer portal that reads from your dispatch and warehouse systems answers them without a phone call.",
+        "Plant suppliers and healthcare. Companies supplying the aircraft and vehicle plants exchange delivery schedules and quality documents with customers and subcontractors. Practices, home-care providers and medical staffing firms need intake, rota and credential tracking. Where health information is involved, storage and access rules are agreed before any screen is designed."
+      ]
+    },
+    {
+      "heading": "Local conditions we design for",
+      "paragraphs": [
+        "Sudden load. When tickets for a festival week or a spring weekend go on sale, a booking system takes a month of traffic in an hour. We test for that surge before it happens.",
+        "Use on the move. A guide on the dock, a driver at the terminal gate and a coordinator in a garden venue all work from a phone, sometimes with a weak signal. Screens are built for one hand and for a connection that drops.",
+        "Existing systems. Most firms already have accounting, a property management system, dispatch software or a payment provider, and the new application should exchange data with them and not replace them. Charleston also has a cluster of software companies, and we take on defined pieces of work for product teams that need extra build capacity, to their specification and with the code handed over."
+      ]
+    },
+    {
+      "heading": "How a project runs",
+      "paragraphs": [
+        "We write a specification with you first, then design and prototype the key screens, develop in short cycles you can follow on a staging site, test, and deploy."
+      ],
+      "bullets": [
+        "Front ends in Next.js and React that load fast and can be indexed by search engines.",
+        "Back ends in Laravel or Node.js: accounts, roles and permissions, payments and business rules.",
+        "Booking engines, portals, marketplaces, dashboards and internal tools.",
+        "Integrations with payment, CRM, mapping, messaging and logistics services.",
+        "Custom modules for WordPress or Shopify when extending a platform is the quicker route.",
+        "Cloud hosting with automated deployment, monitoring and backups."
+      ]
+    },
+    {
+      "heading": "Before you commission a build",
+      "paragraphs": [
+        "First check that an existing product cannot do the job, and expect an honest developer to tell you when one can. Ask for a written scope and a first release small enough to try with real staff and customers. Time that release outside your busiest season, not in the middle of it. Confirm that the source code, repository and hosting pass to you, with documentation another developer could follow."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Systems Charleston clients ask about",
+    "items": [
+      { "title": "Tour and charter booking", "text": "Departures, private groups, reseller allocations and bulk rebooking when weather cancels a trip." },
+      { "title": "Wedding and event portals", "text": "One shared timeline, document store and payment schedule for the client, planner and vendors." },
+      { "title": "Container and shipment tracking", "text": "A customer login showing status, documents and charges drawn from your dispatch and warehouse data." },
+      { "title": "Supplier portals", "text": "Schedules, quality documents and order confirmations exchanged with plants and subcontractors in one place." },
+      { "title": "Scheduling and intake tools", "text": "Rotas, visit schedules and intake forms for practices and care providers, with access limited by role." },
+      { "title": "Platform extensions", "text": "A custom feature added to an existing WordPress or Shopify site when a full application is not needed." }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, though not in Charleston itself. Specification, design, development and testing are carried out remotely by the wider TDM team, with working software on a staging address from early in the project.",
+  "faqs": [
+    { "q": "Does TDM have software developers in Charleston?", "a": "Not in the city. A member of our team is based in South Carolina, and our engineers work remotely. You follow progress on a staging site and through scheduled calls." },
+    { "q": "Can you build a booking system for a Charleston tour company?", "a": "Yes. We start from your actual rules: departures and capacity, private bookings, reseller rates, deposits and what happens when weather cancels a trip. If a standard ticketing product already covers them, we will say so." },
+    { "q": "Can a customer portal connect to our dispatch or warehouse software?", "a": "Usually, if that software offers an API, scheduled exports or database access. We confirm the method during discovery, since it decides how current the information in the portal can be." },
+    { "q": "What does custom web development cost in Charleston?", "a": "It depends on the features, the integrations and the number of user roles. After a free consultation we write a scope and give a quote against it." },
+    { "q": "How long does a custom application take to build?", "a": "It depends on your requirements and the brief. The plan sets out a first release and later stages, and the dates are agreed with you before work starts." }
+  ]
+}
