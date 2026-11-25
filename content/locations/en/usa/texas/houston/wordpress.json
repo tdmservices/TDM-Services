@@ -1,0 +1,94 @@
+{
+  "slug": "usa/texas/houston/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/wordpress",
+  "title": "WordPress Development Agency in Houston",
+  "metaTitle": "WordPress Development Agency in Houston, TX | TDM",
+  "metaDescription": "WordPress sites for Houston companies: custom themes, capability and location pages, WooCommerce, rebuilds, security and upkeep. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds WordPress websites for Houston businesses, working remotely. We build custom themes, rebuild slow or outdated sites, set up WooCommerce stores and look after security and updates. Much of the demand in Houston comes from two groups: industrial and professional firms whose site has to prove capability to a careful buyer, and local service companies that need a clear page for every part of the metro they cover.",
+  "sections": [
+    {
+      "heading": "What a Houston company site has to do",
+      "paragraphs": [
+        "For a fabricator, an engineering consultancy, an inspection firm or an equipment rental company, the website is read by procurement and technical staff before anyone picks up the phone. They look for specific things: what you do, what you are certified for, what industries you have served, your safety record and how to send a request for quote. Too many sites in this sector bury that under stock photos of refineries. We structure the site around those questions, with each service or product line on its own page and documents such as data sheets easy to find.",
+        "For a roofer, an AC company, a dental group or a law firm, the job is different. Visitors arrive on a phone, often from a map result, and want to know three things quickly: do you serve my area, can I trust you, how do I reach you. That calls for fast pages, visible phone and booking buttons, reviews, and separate pages for locations such as Katy, Cypress or Pearland that your own staff can edit and add to."
+      ]
+    },
+    {
+      "heading": "What we build on WordPress",
+      "paragraphs": [
+        "We build on lean custom themes with only the plugins a site needs. That keeps pages quick and reduces the security problems that come with heavy templates and abandoned add-ons."
+      ],
+      "bullets": [
+        "Custom theme design and development, matched to your brand and built for mobile first.",
+        "Editing screens set up so your team can add a project, a location or a team member without a developer.",
+        "Request-for-quote, booking and contact forms that route to the right person or into your CRM.",
+        "WooCommerce stores for parts, supplies or retail products, including catalogue-only setups with quote requests.",
+        "SEO foundations: clean URLs, structured data, fast loading and analytics in place before launch.",
+        "Rebuilds and migrations from old themes or other platforms, with redirects so existing rankings are kept.",
+        "Security hardening, backups, updates and ongoing maintenance."
+      ]
+    },
+    {
+      "heading": "Practical points for Houston businesses",
+      "paragraphs": [
+        "Plan for the day a storm hits. A site should let a non-technical person post a notice about closures or emergency service in a minute, from a phone, and hosting should not depend on a server in your own office. We set up a simple alert banner and make sure the site and its backups are hosted away from your premises.",
+        "Careers pages deserve more attention than they usually get. Skilled trades, technicians and engineers are in demand across the region, and a clear page with open roles and an easy application form helps hiring as much as marketing.",
+        "Medical practices should treat forms with care. Appointment requests and patient messages can involve protected health information, so we discuss with you and your compliance adviser which form and scheduling tools are appropriate before anything is built."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Typical WordPress projects for Houston clients",
+    "items": [
+      {
+        "title": "Industrial capability site",
+        "text": "Service and product pages, certifications, project summaries and a request-for-quote form that reaches the right desk."
+      },
+      {
+        "title": "Multi-location service site",
+        "text": "One site with editable pages per suburb or branch, click-to-call buttons and review highlights."
+      },
+      {
+        "title": "Medical or dental practice",
+        "text": "Treatment pages, provider profiles and appointment requests through tools suited to patient data."
+      },
+      {
+        "title": "Law firm site",
+        "text": "Practice area pages, attorney profiles and intake forms, built to load fast and rank."
+      },
+      {
+        "title": "Rebuild of a slow site",
+        "text": "Same content, new lean theme, plugins trimmed, every old address redirected."
+      },
+      {
+        "title": "Care plan",
+        "text": "Updates, backups, security monitoring and small changes handled on an ongoing basis."
+      }
+    ]
+  },
+  "presence": "TDM builds WordPress sites for Houston businesses remotely and has no office in the city. Discovery, design reviews and training take place on video calls, and you review the site on a staging address before it goes live.",
+  "faqs": [
+    {
+      "q": "Is WordPress a good choice for an industrial or oilfield services company?",
+      "a": "For most, yes. It handles service and product pages, documents, careers and quote forms well, and your team can update it without a developer. If you need customer logins, live inventory or complex pricing, we may suggest Magento or a custom build instead and will explain why."
+    },
+    {
+      "q": "Can you rebuild our WordPress site without losing Google rankings?",
+      "a": "Yes, with care. We map every existing address to its new one with redirects, keep titles and content that already perform, and monitor Search Console after launch."
+    },
+    {
+      "q": "Can we update the website ourselves afterwards?",
+      "a": "Yes. We set up clear editing screens for the content you change often, such as locations, projects, staff and notices, and we train your team on a call before handover."
+    },
+    {
+      "q": "How much does a WordPress website cost in Houston?",
+      "a": "It depends on scope: the number of page types, custom features, integrations and whether a store is included. We quote after a free consultation."
+    },
+    {
+      "q": "How long does a WordPress build take?",
+      "a": "It depends on your requirements and how ready your content is. The timeline is agreed in the plan after discovery."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "usa/california/los-angeles/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/wordpress",
+  "title": "WordPress Development Agency in Los Angeles",
+  "metaTitle": "WordPress Development Agency in Los Angeles | TDM",
+  "metaDescription": "WordPress sites for Los Angeles businesses: custom themes, WooCommerce, portfolio and multi-location sites, speed, security and careful migrations.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds WordPress websites for Los Angeles businesses, working remotely. We write custom themes, set up WooCommerce stores, rebuild slow or hacked sites and migrate content without losing search rankings. Much of the work in Los Angeles is for firms that are judged by how their site looks and loads: production companies, design studios, clinics, law firms and restaurants.",
+  "sections": [
+    {
+      "heading": "What Los Angeles businesses need from a website",
+      "paragraphs": [
+        "A large part of the LA economy sells on visual proof. A post-production house in Burbank, an architect in Silver Lake or a photographer in the Arts District wins work from a portfolio, and that portfolio is full of large images and video. Built carelessly, such a site takes many seconds to open on a phone, and the producer checking it between meetings moves on. We build portfolio sites that keep the quality of the work and still load quickly, with video hosted and embedded properly.",
+        "Local service firms have a different problem. A dental group with offices in Glendale, Torrance and Woodland Hills, or a law firm covering several courts, needs a site where each location and each service has its own page, with correct details and an easy way to book or call. WordPress handles this well through custom post types, so staff can add an office or a practitioner without a developer.",
+        "Many sites we are asked to look at were built on heavy page builders with dozens of plugins. They are slow, hard to edit and often behind on updates."
+      ]
+    },
+    {
+      "heading": "What a TDM WordPress build includes",
+      "paragraphs": [
+        "Projects follow five steps: discovery and planning, design and prototyping, development, testing, then deployment and support. You approve mockups before development begins."
+      ],
+      "bullets": [
+        "A custom theme designed around your brand, with only the plugins the site needs.",
+        "WooCommerce stores with payment gateways, shipping rules and a checkout built to convert.",
+        "Structure for large sites: custom post types, taxonomies and editorial workflows.",
+        "SEO built into the theme: clean URLs, schema, image optimisation and Core Web Vitals.",
+        "Security hardening, managed updates, malware monitoring and automated backups.",
+        "Rebuilds and migrations with full redirect maps so existing rankings survive."
+      ]
+    },
+    {
+      "heading": "California points worth raising early",
+      "paragraphs": [
+        "Two subjects come up on most California projects. The first is accessibility. Businesses in the state regularly receive claims that their websites cannot be used by people with disabilities. We build with accessibility in mind, including readable contrast, keyboard navigation, alt text and labelled forms, and we recommend a review against the WCAG guidelines. This reduces risk but is not legal advice or a guarantee.",
+        "The second is privacy. California's consumer privacy law affects how a site collects data, what the privacy notice says and how tracking consent is handled. We set up forms, analytics and consent tools to match the guidance your lawyer gives you."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "WordPress projects common in Los Angeles",
+    "items": [
+      { "title": "Portfolio and showreel sites", "text": "For production companies, studios, agencies and freelancers: fast galleries, embedded video and case pages by specialism." },
+      { "title": "Multi-location practices", "text": "Clinics, dental groups and law firms with a page per office, per service and per practitioner, all editable by staff." },
+      { "title": "Restaurant and venue sites", "text": "Menus that are easy to update, reservations, private event enquiries and pages for each location." },
+      { "title": "WooCommerce stores", "text": "Online shops for makers and boutiques that want to sell on a site they fully control." },
+      { "title": "Content and publication sites", "text": "Magazines, blogs and resource libraries with a structure that stays manageable as articles accumulate." },
+      { "title": "Rescue and rebuild", "text": "Taking over a slow, outdated or hacked site, cleaning it up or rebuilding it, and keeping its rankings." }
+    ]
+  },
+  "presence": "TDM works with Los Angeles businesses remotely. We have no office or team member in the city. Design reviews happen on calls, and you test the site on a staging link before it goes live.",
+  "faqs": [
+    { "q": "Is WordPress good enough for a video-heavy portfolio site?", "a": "Yes, when it is built properly. Video should be hosted on a dedicated service and loaded only when needed, and images served in modern formats at the right size. A custom theme lets us control this, which most templates do not." },
+    { "q": "Can you fix a slow WordPress site without rebuilding it?", "a": "Sometimes. After an audit we either clean up and harden the existing build or recommend a rebuild on a custom theme. The choice depends on how the site was made and how many plugins it relies on." },
+    { "q": "Does my Los Angeles business website need to be accessible?", "a": "It is strongly advisable. California businesses regularly face accessibility claims over their websites. Building to the WCAG guidelines helps more customers use the site and lowers that risk. For your legal obligations, speak to a lawyer." },
+    { "q": "How much does a WordPress website cost in Los Angeles?", "a": "It depends on scope: the number of page types, whether a store is included, integrations and how much content needs migrating. We quote after a free consultation." },
+    { "q": "How long does a WordPress build take?", "a": "It depends on your requirements, the design brief and how ready your content is. The timeline is agreed in the plan after discovery." }
+  ]
+}

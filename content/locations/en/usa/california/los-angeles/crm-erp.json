@@ -1,0 +1,66 @@
+{
+  "slug": "usa/california/los-angeles/crm-erp",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/crm-erp",
+  "title": "CRM and ERP Development in Los Angeles",
+  "metaTitle": "CRM and ERP Development in Los Angeles | TDM",
+  "metaDescription": "Custom CRM and ERP systems for Los Angeles importers, apparel firms, consumer brands and service companies: inventory, sales, HR, finance and integrations.",
+  "lead": "TDM (The Digital Marketing Services) builds custom CRM and ERP systems for Los Angeles companies, working remotely. We design a CRM around the way your sales team really sells, and ERP modules for inventory, HR, finance and operations, connected to the website, store and accounting software you already use. The work suits businesses that have outgrown spreadsheets and are tired of bending their process to fit generic software, which describes a lot of the trade, apparel and production companies in this region.",
+  "sections": [
+    {
+      "heading": "Where Los Angeles companies run out of spreadsheet",
+      "paragraphs": [
+        "A large part of the local economy moves physical goods. Importers and wholesalers bring containers through the ports of Los Angeles and Long Beach, hold stock in warehouses from Vernon and Commerce out to the Inland Empire, and sell to retailers across the country. Their questions are practical ones. What is on the water, what has cleared, what did each unit cost once freight and duty were added, and which customer is waiting on it? A shared spreadsheet answers those questions until the second warehouse or the tenth salesperson arrives.",
+        "The garment trade downtown has its own version of the problem. One style exists in many sizes and colours, cutting and sewing may be done by outside contractors, and the same stock is promised to wholesale accounts and to the brand's own online store. Consumer brands on the Westside face it from the other direction: orders arrive from a store and from marketplaces, a third-party warehouse ships them, and nobody trusts the stock figure.",
+        "Service companies hit the wall too. A production equipment rental house in Burbank needs to know what is booked, what is out and what came back damaged. A contractor covering the San Fernando Valley needs estimates, crews and job costs in one place."
+      ]
+    },
+    {
+      "heading": "What a TDM system covers",
+      "paragraphs": [
+        "We build only the modules you need now, on a structure that lets the next one be added later. Discovery comes first: we map your pipeline stages, approval steps, stock locations and reporting lines before any code is written, and the plan sets out milestones so your team starts using the first module while the others are still in progress."
+      ],
+      "bullets": [
+        "A CRM shaped to your sales process: leads, accounts, quotes, follow-ups and pipeline stages named the way your team names them.",
+        "Inventory across several locations, with purchase orders, receiving, transfers and stock by variant.",
+        "HR, finance and operations modules, including roles and approval chains.",
+        "Two-way links to your website, e-commerce store, accounting software, email, payment gateways and logistics providers, so nothing is typed twice.",
+        "Dashboards that show sales, stock and cash in one view for owners and managers.",
+        "Migration from spreadsheets and old software, with records mapped, cleaned, deduplicated and checked against the source."
+      ]
+    },
+    {
+      "heading": "California details that belong in the design",
+      "paragraphs": [
+        "Software for a California business has to respect a few local rules. The state's consumer privacy law gives people rights over their personal data, so a CRM should make it possible to find everything held about one person and to delete it when required. California's wage and hour rules, including daily overtime and meal and rest breaks, are stricter than in many states, so any time-tracking or HR module must follow the rules your payroll adviser confirms. Sales tax rates also differ between cities within Los Angeles County because of district taxes, which matters for invoicing.",
+        "We build the system to match the advice you are given. We are not lawyers or accountants, and the rules themselves should be confirmed by yours."
+      ]
+    },
+    {
+      "heading": "Buy or build: an honest test",
+      "paragraphs": [
+        "Buy a standard product when it covers nearly everything you do. Build when your workflow is specific to your trade, or when per-seat fees across a growing team will cost more over a few years than a system you own. Before hiring anyone, ask who owns the code and the data, how the old records will be verified after migration, and what support looks like after launch. We go through that comparison with you before any commitment."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Systems Los Angeles businesses ask about",
+    "items": [
+      { "title": "Import and wholesale", "text": "Purchase orders, container tracking, landed cost and customer price lists in one system for firms tied to the ports." },
+      { "title": "Apparel and fashion", "text": "Styles by size and colour, contractor work orders, and stock shared correctly between wholesale and online sales." },
+      { "title": "Consumer brands", "text": "Store and marketplace orders, warehouse stock and returns brought together, with one stock figure everyone can rely on." },
+      { "title": "Rental and production services", "text": "Bookings, availability, quotes and equipment condition for rental houses and post-production firms." },
+      { "title": "Home and field services", "text": "Leads, estimates, crew scheduling and job costing for contractors working across the basin." },
+      { "title": "Professional firms", "text": "A client pipeline with documents, tasks and reminders for agencies, brokers and consultancies." }
+    ]
+  },
+  "presence": "TDM works with Los Angeles companies remotely and has no office or staff in the city. Discovery workshops, demos of each module and training sessions are held by video call, and you test the system on a staging version before it replaces anything.",
+  "faqs": [
+    { "q": "Can a custom ERP be built for a Los Angeles importer or wholesaler?", "a": "Yes. Purchase orders, inbound shipments, receiving, multi-warehouse stock, landed cost and customer pricing are common modules. We scope them around how your goods actually move from port to warehouse to customer." },
+    { "q": "How much does custom CRM or ERP development cost in Los Angeles?", "a": "The cost follows the scope: how many modules, how many integrations and how much old data has to be migrated. We give a quote after a free consultation and a discovery session." },
+    { "q": "Will the system connect to our accounting software and online store?", "a": "Usually, yes. Integration is often the main reason to go custom. Website leads can flow into the CRM, store orders can update stock, and invoices can sync with accounting, provided the other system offers an interface we can connect to." },
+    { "q": "How long does a CRM or ERP project take?", "a": "It depends on your requirements and how many modules are involved. The timeline is agreed in the plan after discovery, and larger systems are released module by module." },
+    { "q": "Can TDM build our system without visiting our warehouse or office?", "a": "Yes. We learn your process through calls, screen shares, sample documents and your existing spreadsheets, then confirm it with you in writing before building. Staff test each module remotely and send feedback as they use it." }
+  ]
+}

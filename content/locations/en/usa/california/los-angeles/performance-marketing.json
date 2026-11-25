@@ -1,0 +1,86 @@
+{
+  "slug": "usa/california/los-angeles/performance-marketing",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/performance-marketing",
+  "title": "Performance Marketing Agency in Los Angeles",
+  "metaTitle": "Performance Marketing Agency in Los Angeles | TDM",
+  "metaDescription": "Google, Meta and TikTok ads for Los Angeles businesses: tight geo targeting, creative testing, verified tracking and budgets managed in your own accounts.",
+  "lead": "TDM (The Digital Marketing Services) is a performance marketing agency that plans and runs Google, Meta and TikTok advertising for Los Angeles businesses, working remotely. We manage campaigns against return on ad spend and cost per lead, not clicks. In Los Angeles, where clicks cost a lot in many fields and the audience has seen a great deal of advertising, that discipline decides whether paid media makes money.",
+  "sections": [
+    {
+      "heading": "Why ad budgets disappear quickly in LA",
+      "paragraphs": [
+        "Los Angeles is an expensive place to advertise. Law firms, cosmetic practices, real estate agents and home service companies bid against each other for the same searches, and the price of a click reflects it. A campaign with loose targeting or weak tracking can spend a month's budget and leave you unable to say which enquiries it produced.",
+        "Geography is the first control. A med spa in West Hollywood does not want clicks from Long Beach, and a plumber based in Van Nuys loses money on a job in San Pedro once the drive is counted. We set targeting by zip code or radius around where your customers actually come from, and adjust bids by area once the data shows where leads turn into revenue.",
+        "For the many consumer brands based here, the constraint is different: creative. Paid social rewards accounts that test new videos and hooks constantly, and audiences in this city scroll past anything that looks like a commercial."
+      ]
+    },
+    {
+      "heading": "How we run paid campaigns for Los Angeles businesses",
+      "paragraphs": [
+        "We start by auditing your ad accounts, analytics and margins, and agree targets for return on ad spend or cost per acquisition before anything launches. Campaigns run in ad accounts you own, with TDM added as a partner, so spend and change history are always visible to you."
+      ],
+      "bullets": [
+        "Google Search, Shopping, Performance Max and YouTube with a clean structure and strict negative keyword lists.",
+        "Meta campaigns from prospecting to conversion, with creative tested in short sprints.",
+        "TikTok advertising built on UGC-style and short-form video from our media team.",
+        "Retargeting that recovers abandoned carts and brings back past buyers.",
+        "Landing pages built and A/B tested by our developers for each offer.",
+        "Conversion tracking checked end to end, including calls and form leads for service businesses."
+      ]
+    },
+    {
+      "heading": "Timing spend around the LA calendar",
+      "paragraphs": [
+        "Demand here follows its own rhythm. Aesthetic clinics and stylists see interest rise ahead of awards season early in the year. Fitness, swim and outdoor brands lean on a long warm season. Roofers and restoration companies get calls when winter rain arrives, and visitors plan trips to Hollywood, Santa Monica and the beaches around school holidays. Brands selling nationwide have the usual end-of-year peak on top. We plan budgets ahead of these periods and pull back when the return drops."
+      ]
+    },
+    {
+      "heading": "What to confirm before you sign with an ads agency",
+      "paragraphs": [
+        "Check that the accounts and audiences will belong to you. Ask how conversions are verified and whether phone calls are tracked back to the keyword. Ask who makes the creative and how often new versions are produced. California's privacy rules also affect consent and tracking setup, so ask how the agency handles that, and have your lawyer review the notices on your site."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Typical Los Angeles campaigns",
+    "items": [
+      {
+        "title": "Direct-to-consumer brands",
+        "text": "Beauty, apparel and wellness labels testing many short videos on Meta and TikTok, with budget moved to the ads that return revenue."
+      },
+      {
+        "title": "Legal lead generation",
+        "text": "Search campaigns for narrow case types and nearby areas, with call tracking, so expensive clicks are judged on signed cases."
+      },
+      {
+        "title": "Clinics and med spas",
+        "text": "Treatment-specific campaigns with compliant copy, a tight radius and landing pages that make booking simple."
+      },
+      {
+        "title": "Home services",
+        "text": "Call-focused ads for plumbers, roofers and remodelers, limited to the zip codes worth driving to."
+      }
+    ]
+  },
+  "presence": "TDM works with Los Angeles businesses remotely. We have no office or team member in the city. Account management, creative and reporting are handled online, and you have direct access to the people running your campaigns.",
+  "faqs": [
+    {
+      "q": "Are Google Ads worth it in Los Angeles when clicks are so expensive?",
+      "a": "They can be, if the campaign is narrow. High click prices are manageable when you bid only on searches with clear intent, limit the area to places you serve and send people to a page that converts. Broad campaigns are the ones that lose money."
+    },
+    {
+      "q": "Should I advertise on Meta or TikTok for an LA consumer brand?",
+      "a": "Most brands test both. Meta usually carries the bulk of sales and retargeting, while TikTok is strong for discovery when the creative feels native. We let the numbers from the first tests decide the split."
+    },
+    {
+      "q": "How much does performance marketing cost in Los Angeles?",
+      "a": "It depends on scope: the platforms, the amount of creative and the size of the budget being managed. We quote after a free consultation. Ad spend is paid directly to the platforms from your own accounts."
+    },
+    {
+      "q": "How soon will campaigns be live?",
+      "a": "It depends on your requirements, the state of your tracking and how much creative is needed. The launch date is agreed in the plan after the audit."
+    }
+  ]
+}

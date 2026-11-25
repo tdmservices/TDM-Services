@@ -1,0 +1,99 @@
+{
+  "slug": "usa/texas/dallas/performance-marketing",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/performance-marketing",
+  "title": "PPC and Paid Ads Agency in Dallas",
+  "metaTitle": "PPC and Paid Ads Agency in Dallas, TX | TDM",
+  "metaDescription": "Google, Meta and TikTok ads for Dallas businesses: suburb-level targeting, storm and heat season budgets, verified tracking and clear ROAS reporting.",
+  "lead": "TDM (The Digital Marketing Services) plans and manages Google, Meta and TikTok advertising for Dallas businesses, working remotely and inside your own ad accounts. Paid clicks in Dallas are costly in the categories most local firms compete in, such as legal, roofing, air conditioning and cosmetic treatment. Our job is to spend your budget on the areas, hours and searches that turn into customers, and to show you the numbers that prove it.",
+  "sections": [
+    {
+      "heading": "Why ad budgets leak in Dallas",
+      "paragraphs": [
+        "The default setting on most ad platforms is to target \"Dallas-Fort Worth\", a region that takes well over an hour to cross by car. A dentist in Lakewood who advertises to all of it pays for clicks from Fort Worth, Denton and Mansfield that will never become patients. Tight location targeting, by city, postcode or radius around the addresses you serve, is the first correction we make on most accounts we review.",
+        "The second leak is search terms. Broad keywords in a metro this size pull in job seekers, students, suppliers and people looking for a competitor by name. Without a maintained list of negative keywords, a meaningful slice of spend goes to searches with no buying intent.",
+        "The third is measurement. Many Dallas service firms take most of their leads by phone, yet their accounts count only form submissions. If calls and booked jobs are not tracked back to the campaign, the platform optimises towards the wrong thing and nobody can say what a customer costs."
+      ]
+    },
+    {
+      "heading": "What campaign management covers",
+      "paragraphs": [
+        "Before anything launches we audit the existing accounts, analytics and margins, and agree targets for return on ad spend or cost per lead. Budgets remain in accounts you own, so the history and data stay with you."
+      ],
+      "bullets": [
+        "Google Search, Shopping, Performance Max and YouTube campaigns with clean structure and bid strategies set to your margin.",
+        "Meta campaigns on Facebook and Instagram, from prospecting to conversion, with creative tested in short sprints.",
+        "TikTok campaigns built on short-form creative from our media team.",
+        "Retargeting that brings back visitors who left a cart or a quote form unfinished.",
+        "Landing pages for individual offers, built and A/B tested by our developers.",
+        "Conversion tracking checked end to end, including calls where your phone system allows it."
+      ]
+    },
+    {
+      "heading": "Planning around North Texas seasons",
+      "paragraphs": [
+        "Demand here moves quickly. The first run of very hot days brings a wave of air conditioning breakdowns, and a hailstorm over Plano or Rockwall can change the roofing market overnight. We prepare campaigns, ad copy and landing pages in advance and keep them paused, with a budget ceiling you have approved, so they can go live the same day.",
+        "Retail and consumer brands have their own calendar: the weeks around the State Fair, football season, the holiday rush at NorthPark and the Galleria, and the quieter stretch in high summer when people stay indoors. Spend is shifted between months to follow those peaks."
+      ]
+    },
+    {
+      "heading": "Checks worth making before you sign",
+      "paragraphs": [
+        "Confirm that the ad accounts are created in your company's name and that you hold admin access. Ask how leads will be counted and whether calls are included. Ask what happens to the budget in a slow week. An agency that cannot answer those three plainly will struggle to account for your money."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "How Dallas companies use paid advertising",
+    "items": [
+      {
+        "title": "HVAC and plumbing",
+        "text": "Call-focused search ads limited to the suburbs your vans can reach, with budgets that rise on the hottest and coldest days."
+      },
+      {
+        "title": "Roofing after hail",
+        "text": "Pre-built inspection campaigns switched on by postcode once a storm path is known."
+      },
+      {
+        "title": "Law firms",
+        "text": "Tightly themed ad groups per practice area, with intake calls tracked so cost per signed case is visible."
+      },
+      {
+        "title": "Med spas and cosmetic clinics",
+        "text": "Meta and Google campaigns for individual treatments, written within each platform's rules on health claims."
+      },
+      {
+        "title": "Product brands",
+        "text": "Shopping and Meta campaigns measured against margin for labels that sell direct as well as through wholesale buyers."
+      },
+      {
+        "title": "B2B vendors",
+        "text": "Search campaigns on precise industry terms, with paid social on LinkedIn where the buyer is a job title and not a keyword."
+      }
+    ]
+  },
+  "presence": "TDM manages advertising for Dallas businesses remotely. We do not have an office or staff in Dallas. Account work happens in your own ad accounts, and you receive written reports and regular calls.",
+  "faqs": [
+    {
+      "q": "How much should a Dallas business spend on Google Ads?",
+      "a": "There is no single figure. The right budget depends on click costs in your category, the areas you target and what a customer is worth to you. We work this out from your margins during the audit and suggest a starting level you can adjust."
+    },
+    {
+      "q": "Should I advertise across all of DFW or only near my location?",
+      "a": "Start near your location or within the area you can serve profitably. Once cost per lead is stable there, we widen the targeting one area at a time and compare results."
+    },
+    {
+      "q": "Can ads be turned on quickly after a hailstorm in Dallas?",
+      "a": "Yes, if they are prepared beforehand. We build the campaigns, pages and tracking ahead of storm season so that activation is a matter of choosing postcodes and releasing the approved budget."
+    },
+    {
+      "q": "What are your fees for managing ads in Dallas?",
+      "a": "Fees depend on the scope: the number of platforms, campaigns and landing pages involved. We give a quote following a free consultation. Ad spend itself is paid directly to the platforms from your accounts."
+    },
+    {
+      "q": "How soon can campaigns go live?",
+      "a": "That depends on your requirements and on what already exists, such as tracking, creative and landing pages. Dates are set in the plan we agree with you."
+    }
+  ]
+}

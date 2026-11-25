@@ -1,0 +1,66 @@
+{
+  "slug": "usa/texas/houston/mobile-apps",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/mobile-apps",
+  "title": "Mobile App Development in Houston",
+  "metaTitle": "Mobile App Development in Houston, TX | TDM",
+  "metaDescription": "iOS and Android apps for Houston companies: field service, patient, delivery and customer apps. Native or cross-platform, built remotely by TDM.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Houston startups and established companies. We work remotely and cover the whole job: UX research, design, development, testing and release through the App Store and Google Play. We build native apps in Swift and Kotlin, and cross-platform apps in Flutter or React Native. Houston's mix of field crews, hospitals, logistics operators and a customer base spread across a very wide metro area produces app projects with practical, specific demands.",
+  "sections": [
+    {
+      "heading": "The apps this city actually needs",
+      "paragraphs": [
+        "Many Houston apps are tools for work, not consumer products. An inspection company wants technicians to complete checklists and attach photos on site. A rental fleet wants equipment checked out and returned with a scan. A delivery operator serving the port and the warehouses around it wants drivers to capture proof of delivery. These apps live or die on reliability in poor conditions: inside a plant with weak signal, in a yard in full sun, on a device the site has approved for the area.",
+        "On the consumer side, distance shapes everything. A household in Cypress will not drive to the Heights on impulse, so restaurant ordering, service booking and loyalty apps here need accurate location logic: which branch serves this address, how long the drive really is, which technician is closest. Real-time, location-driven products are an area where our team has delivered before, including ride-hailing and food delivery apps for clients in other markets.",
+        "Health is the third strand. With the Texas Medical Center and clinics in every suburb, there is steady demand for appointment, intake and patient communication apps. These carry obligations around patient data that must be planned from the first design, with your compliance adviser involved."
+      ]
+    },
+    {
+      "heading": "How we build an app",
+      "paragraphs": [
+        "Every project starts with research: who will use the app, what single job it must do well, and how success will be measured. We produce personas, journey maps, wireframes and a design system, and you approve the design before development begins."
+      ],
+      "bullets": [
+        "Native iOS in Swift and native Android in Kotlin with Jetpack Compose, where performance and device features matter most.",
+        "Flutter or React Native where one codebase for both stores suits the budget and the type of app.",
+        "The backend the app depends on: APIs, authentication, payments, push notifications and live features such as GPS tracking, chat and order status.",
+        "Testing on real devices and OS versions, including slow networks and the edge cases that break apps in the field.",
+        "App Store and Google Play submission handled for you, followed by crash monitoring and updates based on real usage."
+      ]
+    },
+    {
+      "heading": "Local conditions worth designing for",
+      "paragraphs": [
+        "Offline use comes first for industrial apps. Forms should save on the device and sync when a connection returns, without the technician thinking about it. Screens should be readable outdoors and usable with gloves, which means large targets and high contrast.",
+        "Storm season is the second consideration. When a Gulf storm approaches, home service, pharmacy and grocery apps see sudden surges, and mobile networks can be patchy afterwards. An app that queues requests, shows clear status and lets a business post updated hours quickly is worth more in that week than in the rest of the year. We discuss load and failure cases during scoping so they are not discovered in production.",
+        "Finally, check site rules. Some facilities restrict which devices may be carried into process areas. Knowing the approved hardware early avoids building for the wrong screen size or operating system."
+      ]
+    },
+    {
+      "heading": "What to confirm before you hire",
+      "paragraphs": [
+        "Ask whether the same team builds the server side, or whether you will be managing two vendors. Ask who holds the developer accounts and the source code. Ask to test working builds on your own phone during the project instead of waiting for a final reveal. And ask for a first version small enough to ship, with later features listed separately."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "App projects suited to Houston businesses",
+    "items": [
+      { "title": "Field inspection and service", "text": "Checklists, photos, signatures and job status for crews at plants, terminals and customer sites, with offline capture." },
+      { "title": "Patient and clinic apps", "text": "Booking, intake forms and reminders for practices, designed with access controls and patient privacy in mind." },
+      { "title": "Delivery and driver apps", "text": "Route lists, live tracking and proof of delivery for couriers, distributors and port-related logistics." },
+      { "title": "Home service booking", "text": "Customers request AC, plumbing or roofing visits, see the technician's arrival and pay in the app." },
+      { "title": "Restaurant ordering and loyalty", "text": "Branch-aware ordering, pickup times and rewards for groups with locations across the metro." },
+      { "title": "Startup MVPs", "text": "A focused first release for founders, built to test an idea with real users before the full feature list." }
+    ]
+  },
+  "presence": "TDM works with Houston businesses remotely. There is no TDM office or team member in the city. Research sessions, design reviews and sprint demos take place by video call, and test builds are sent to your phone throughout the project.",
+  "faqs": [
+    { "q": "How much does it cost to build a mobile app in Houston?", "a": "It depends on scope. A focused first version costs less than an app with real-time tracking, payments and several user types, and a cross-platform build can reduce cost when both stores are needed. We quote after a free consultation and discovery." },
+    { "q": "Can you build an app that works offline at plants and remote job sites?", "a": "Yes. For field apps we design data capture to work without a connection and sync automatically later. We also test on slow and interrupted networks, since that is the normal condition on many industrial sites." },
+    { "q": "Should my Houston business build a native or cross-platform app?", "a": "Native suits apps that need top performance or heavy use of device features such as live GPS. Flutter or React Native suits content, commerce and workflow apps where budget and speed to market lead. We build both and recommend one after looking at your requirements." },
+    { "q": "Can you build a patient app for a Houston medical practice?", "a": "Yes. We build booking, intake and communication apps. Because patient information is involved, hosting, access and data handling are decided with your compliance adviser at the design stage, before any code is written." },
+    { "q": "How long does app development take?", "a": "It depends on the requirements and the brief. The timeline is set in the plan after discovery, and you see working builds along the way." }
+  ]
+}

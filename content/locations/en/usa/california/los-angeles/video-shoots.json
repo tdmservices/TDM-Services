@@ -1,0 +1,65 @@
+{
+  "slug": "usa/california/los-angeles/video-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-shoots",
+  "title": "Video Shoots and Production in Los Angeles",
+  "metaTitle": "Video Shoots and Production in Los Angeles | TDM",
+  "metaDescription": "Video shoots for Los Angeles brands: concept, scripts and shot lists by TDM, filming arranged locally, post-production handled by our production hub.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for Los Angeles brands and delivers finished brand films, product videos and ad footage. We have no studio or crew of our own in Los Angeles. Planning, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business or product is. For videos where the product is the subject, clients often ship it to us and approve everything remotely.",
+  "sections": [
+    {
+      "heading": "Filming in the film capital",
+      "paragraphs": [
+        "Los Angeles has more production experience per block than anywhere else, and the systems around filming reflect that. Permits for the City of Los Angeles and for unincorporated parts of the county are coordinated through FilmLA. Separate cities inside the region, including Santa Monica, Beverly Hills, West Hollywood, Burbank and Pasadena, run their own permit processes with their own rules. A shoot that crosses a city line can need two sets of paperwork.",
+        "The light is famous and mostly reliable, with some local habits. Along the coast, late spring and early summer mornings are often grey under the marine layer, and the sun may not break through until midday. Autumn can bring hot, dry Santa Ana winds. Inland valleys run much hotter than the beach on the same day.",
+        "Then there is traffic. Moving a shoot from Venice to the Arts District downtown can consume the best hours of light, so a sensible schedule keeps each day within one part of the city."
+      ]
+    },
+    {
+      "heading": "How TDM runs a production",
+      "paragraphs": [
+        "We start from where the video will be used. Because TDM also runs ads, social media and SEO, the shot list is written backwards from the placements: the openings an ad account needs to test, the demonstrations a product page is missing, the short clips a social calendar will use. You approve the treatment and script first. Casting, locations, props, wardrobe and the schedule are then fixed, filming is arranged against that plan, and the footage goes into our own edit."
+      ],
+      "bullets": [
+        "Concept, treatment and scripts written for your approval before anything is booked.",
+        "A shot-by-shot schedule built around one area of the city per day.",
+        "Permit and location needs identified early, by jurisdiction.",
+        "Horizontal and vertical framing planned for every setup.",
+        "Post-production by the team that planned the shoot: ad cuts, reels, product videos and masters."
+      ]
+    },
+    {
+      "heading": "Does your video need Los Angeles in it?",
+      "paragraphs": [
+        "For a restaurant in Koreatown, a boutique hotel, a showroom on Melrose or a gym in the Valley, the place is the product and it has to be filmed there. For a serum, a supplement, a candle or a piece of consumer tech, the location matters far less than lighting, detail and a clear demonstration. In those cases shipping products to our hub is usually the simpler route: you approve the treatment and shot list remotely and receive finished videos without attending a set.",
+        "We will tell you during the consultation which route fits the brief, and what a locally filmed shoot would involve."
+      ]
+    },
+    {
+      "heading": "What to agree before a date is set",
+      "paragraphs": [
+        "Be clear on what the finished videos are for and how many you will receive, in which lengths and formats. Confirm who obtains permits, location agreements and releases from people on camera. Check whether editing is included or whether you will be handed raw files. Have a plan for a grey morning or a windy afternoon. All of this is written into our plan before production begins."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Productions Los Angeles brands plan with us",
+    "items": [
+      { "title": "Restaurant and hospitality films", "text": "The space, the food and the people, filmed for websites, booking pages and a stock of short social clips." },
+      { "title": "Product videos from shipped items", "text": "Detail shots and in-use demonstrations for beauty, wellness and consumer goods, filmed at our hub." },
+      { "title": "Founder and brand stories", "text": "Interview-led films for consumer brands and professional firms that sell on the person behind them." },
+      { "title": "Showroom and retail videos", "text": "Store walkthroughs for fashion, furniture and design businesses, cut for ads and listings." },
+      { "title": "Studio and gym promos", "text": "Class and facility footage for fitness and wellness businesses opening or adding locations." },
+      { "title": "Footage planned for ad testing", "text": "Several hooks and alternate takes captured on purpose, so campaigns have real variations to compare." }
+    ]
+  },
+  "presence": "TDM works with Los Angeles brands remotely. We have no office, studio, crew or team member based in the city. Concept, scripting and post-production are handled by our production hub, and filming is arranged locally project by project or carried out at the hub from shipped products.",
+  "faqs": [
+    { "q": "Does TDM have a studio or film crew in Los Angeles?", "a": "No. We do not operate a studio or keep a crew in Los Angeles. Planning, scripting and post-production run from our hub in Lahore. Filming is arranged locally for each project where the location is needed, or products are shipped to us." },
+    { "q": "Do I need a permit to film a commercial video in Los Angeles?", "a": "Commercial filming on public property generally needs a permit. FilmLA coordinates permits for the City of Los Angeles and unincorporated county areas, while cities such as Santa Monica, Beverly Hills, West Hollywood, Burbank and Pasadena have their own processes. Private premises need the owner's permission. We check what applies in pre-production." },
+    { "q": "How much does a video shoot cost in Los Angeles?", "a": "Cost depends on the number of locations, shoot days, people on camera and finished videos. We quote after a free consultation, once the purpose and the shot list are clear." },
+    { "q": "When is the light best for filming in LA?", "a": "Conditions are good for most of the year. Coastal mornings in late spring and early summer are often overcast, so beach scenes are better scheduled later in the day, and inland heat in summer favours early starts." },
+    { "q": "How far in advance should a shoot be planned?", "a": "It depends on the brief, the locations and the permits involved. The schedule is agreed in the plan, and shoots that need permits or busy locations should be started earlier." }
+  ]
+}

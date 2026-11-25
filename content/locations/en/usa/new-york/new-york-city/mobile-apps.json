@@ -1,0 +1,65 @@
+{
+  "slug": "usa/new-york/new-york-city/mobile-apps",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/mobile-apps",
+  "title": "Mobile App Development in New York City",
+  "metaTitle": "Mobile App Development in New York City | TDM",
+  "metaDescription": "iOS, Android and cross-platform apps for New York City businesses and startups: UX research, design, build, backend and store release. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds mobile apps for New York City startups and established businesses, working remotely. We develop native iOS apps in Swift, native Android apps in Kotlin and cross-platform apps in Flutter or React Native, along with the backend each one runs on. New Yorkers do a great deal from a phone while standing on a platform or walking between meetings, which makes the city a demanding place to launch an app and a rewarding one when it is done well.",
+  "sections": [
+    {
+      "heading": "A city that lives on its phone",
+      "paragraphs": [
+        "Daily life here already runs through apps. People order dinner, book a fitness class, pay a fare with a tap, split a bill and let a delivery into the building without opening a laptop. That habit raises expectations. An app from a neighbourhood studio or a three-site restaurant group is judged against the most polished products on the same home screen, and anything slow or confusing is deleted on the walk to the subway.",
+        "The setting shapes the design. Sessions are short and often one-handed. Signal drops between stations, so an app should keep working offline where it can and recover gracefully when the connection returns. Addresses come with apartment numbers, buzzer codes and doorman notes, and delivery screens need room for them. Tipping, pickup windows and live order status are expected, not optional extras."
+      ]
+    },
+    {
+      "heading": "From idea to the App Store and Google Play",
+      "paragraphs": [
+        "We start by defining the one job the app must do well, who it is for and how success will be measured, then scope a first version worth releasing. Design follows as a clickable prototype you can hand to real users before any code is written. Development runs in sprints, with test builds on your own phone throughout."
+      ],
+      "bullets": [
+        "User research, journey maps, wireframes and a design system before development starts.",
+        "Native builds in Swift or in Kotlin with Jetpack Compose, or one cross-platform codebase in Flutter or React Native.",
+        "Backend work: APIs, authentication, payments, push notifications and live features such as GPS tracking, chat and order status.",
+        "Functional, performance and security testing on real devices, including slow-network conditions.",
+        "Store submission handled for you: developer accounts, listings, screenshots and the review process.",
+        "Crash and analytics monitoring after release, with updates as operating systems change."
+      ]
+    },
+    {
+      "heading": "Native or cross-platform for a New York launch",
+      "paragraphs": [
+        "Founders here are often building toward a funding conversation or a pilot with a first group of customers, and the choice of technology affects both budget and time to market. Cross-platform suits content, commerce and workflow apps that need to reach iPhone and Android users from the first day. Native is the better choice when the app depends on heavy device integration, live location or the smoothest possible feel. We recommend one or the other after discovery and explain the reasoning in plain terms.",
+        "An established business has a different question: whether it needs an app at all. A mobile website is enough for many shops and practices. An app earns its place when customers return often, as with class bookings, repeat ordering, loyalty schemes or resident services in a building."
+      ]
+    },
+    {
+      "heading": "Checks worth making before you hire",
+      "paragraphs": [
+        "Confirm that the developer builds the server side as well as the screens, so one team is accountable for the whole product. Ask who will hold the developer accounts and the source code. Ask how the app will be tested on older phones and poor connections, and what happens after launch when a new operating system version arrives. If your app touches health, payments or financial data, raise the applicable rules at the start so they shape the design."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Apps New York businesses commonly need",
+    "items": [
+      { "title": "Ordering and loyalty", "text": "Direct ordering, pickup times and rewards for restaurant groups, cafes and bakeries that want repeat customers on their own channel." },
+      { "title": "Class and appointment booking", "text": "Schedules, waitlists, memberships and reminders for fitness studios, salons and clinics." },
+      { "title": "Startup first versions", "text": "A focused first release for founders in fintech, health, media or marketplaces who need something real to put in front of users." },
+      { "title": "Resident and tenant apps", "text": "Maintenance requests, package notices, amenity bookings and building announcements for property managers." },
+      { "title": "Delivery and field service", "text": "Driver or technician apps with live location, job status and proof of completion, tied to a dispatch dashboard." },
+      { "title": "Retail companions", "text": "Catalogue browsing, saved sizes, order tracking and early access for fashion and consumer brands." }
+    ]
+  },
+  "presence": "TDM works with New York City clients remotely and has no office or team member in the city. App projects run through video calls, shared design files and test builds installed on your own devices, so you see progress at every sprint.",
+  "faqs": [
+    { "q": "How much does it cost to build an app in New York City?", "a": "It depends on scope. A focused first version costs less than an app with real-time features, payments and several types of user. We quote after a free consultation and discovery, against defined milestones." },
+    { "q": "Should my app be iOS first, Android first or both?", "a": "It depends on who your users are and what devices they carry. When both stores matter from the start, a cross-platform build can cover them with one codebase. We look at your audience during discovery and recommend an approach." },
+    { "q": "How long does it take to launch an app?", "a": "It depends on your requirements, the number of features in the first release and how quickly designs are approved. The schedule is agreed in the plan, and you test working builds along the way." },
+    { "q": "Can you work with a New York startup without being in the city?", "a": "Yes. We work remotely with every New York client. Research, design reviews and sprint demos happen on video calls, and builds are sent to your phone for testing." },
+    { "q": "Do you handle App Store and Google Play submission?", "a": "Yes. We set up or work within your developer accounts, prepare listings, screenshots and metadata, submit for review and handle any questions from Apple or Google." }
+  ]
+}

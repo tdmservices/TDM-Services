@@ -1,0 +1,95 @@
+{
+  "slug": "usa/texas/houston/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/custom-development",
+  "title": "Custom Web Development Agency in Houston",
+  "metaTitle": "Custom Web Development Agency in Houston, TX | TDM",
+  "metaDescription": "Custom web applications for Houston companies: client portals, scheduling and dispatch tools, tracking and booking systems in Next.js and Laravel.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom web platforms and applications for Houston companies, working remotely. We build client portals, booking and scheduling systems, marketplaces and internal tools in Next.js, React, Laravel and Node.js. Houston is full of operational businesses, in energy services, logistics, healthcare and the trades, whose daily work runs on spreadsheets, email and phone calls because no packaged software fits how they operate.",
+  "sections": [
+    {
+      "heading": "Problems Houston companies bring to custom software",
+      "paragraphs": [
+        "Many service companies here produce documents as much as they produce work. An inspection or testing firm issues reports and certificates for every job. A calibration lab or an equipment rental company tracks each asset, its history and its paperwork. Their customers, often large operators and plants, ask for the same documents again and again. A client portal where customers log in, see their jobs and download the reports removes a steady stream of emails and gives the supplier an advantage at contract renewal.",
+        "Logistics companies around the port have a similar need. Customers want to know where a shipment is and which documents are outstanding without calling a coordinator. A tracking page tied to the company's own records answers that at any hour.",
+        "Field service is the third pattern. An AC or plumbing business with crews spread from Conroe to League City needs to assign jobs by location, show technicians their day on a phone, and collect photos and signatures on site. Off-the-shelf tools cover the basics. A custom system makes sense when your pricing, routing or reporting is unusual enough that you are fighting the software."
+      ]
+    },
+    {
+      "heading": "What we build and how",
+      "paragraphs": [
+        "Every project starts with discovery: who uses the system, what they do today and what must connect to it. We then design and prototype the main screens so you can react to something real before development begins."
+      ],
+      "bullets": [
+        "Web applications in Next.js and React, with Laravel or Node.js back ends and APIs.",
+        "Client portals with secure logins, roles, documents and job or order status.",
+        "Booking, scheduling and dispatch systems, including mobile-friendly screens for staff in the field.",
+        "Marketplaces and directories connecting buyers and suppliers.",
+        "Integrations with accounting, ERP, CRM, payment and mapping services.",
+        "Custom features added to an existing platform where a full custom build is not needed.",
+        "Testing, deployment to cloud hosting and support after release."
+      ]
+    },
+    {
+      "heading": "Points to raise early",
+      "paragraphs": [
+        "Large customers in the energy and petrochemical sectors often send suppliers security questionnaires and set rules about data handling. Tell us at the start if your clients impose these, so that hosting, access control and audit logs are designed to meet them. The same applies to healthcare: any system touching patient information must be planned with your compliance adviser, and we build to the requirements they set.",
+        "Think about use in poor conditions. Technicians work in plants, on rooftops and in areas with weak signal, and storms can take offices offline. We discuss which screens should keep working with a bad connection, and we host on cloud infrastructure so the system does not depend on your building.",
+        "Finally, start small. A first release that handles one workflow well, such as report delivery or job scheduling, proves the value and shows what the next module should be."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Examples of what can be built",
+    "items": [
+      {
+        "title": "Inspection report portal",
+        "text": "Customers log in to view jobs and download certificates, with access limited by site or contract."
+      },
+      {
+        "title": "Equipment and asset tracker",
+        "text": "Rental or calibrated items with status, location, service history and due dates in one place."
+      },
+      {
+        "title": "Dispatch and field app",
+        "text": "Jobs assigned by area, daily schedules on a phone, photos and sign-off captured on site."
+      },
+      {
+        "title": "Shipment tracking page",
+        "text": "Customers check status and documents themselves, fed from your operations data."
+      },
+      {
+        "title": "Clinic booking system",
+        "text": "Appointment requests and scheduling across several locations, designed around compliance advice."
+      },
+      {
+        "title": "Quote and order tool",
+        "text": "Configurable products or services priced by rules, producing a quote the sales team can send."
+      }
+    ]
+  },
+  "presence": "TDM builds custom software for Houston companies remotely and has no office in the city. Workshops, prototype reviews and progress demos are held on video calls, and you have access to a test version throughout the build.",
+  "faqs": [
+    {
+      "q": "When does a Houston business need custom software and not an off-the-shelf tool?",
+      "a": "When the packaged tools you have tried force your staff into workarounds, or when a process is central to how you win and keep customers. If a standard product does the job well, we will tell you to use it."
+    },
+    {
+      "q": "Can you build a client portal for an oilfield or industrial service company?",
+      "a": "Yes. Portals for job status, reports, certificates and invoices are a common custom project. We design the access rules around how your customers are organised, by company, site or contract."
+    },
+    {
+      "q": "Can a custom system connect to the software we already use?",
+      "a": "In most cases, yes, provided the existing software offers an API or a reliable export. We check each integration during discovery before committing to it."
+    },
+    {
+      "q": "How much does custom web development cost in Houston?",
+      "a": "It depends on scope: the number of user types, features and integrations. We quote after a free consultation and a discovery of your requirements."
+    },
+    {
+      "q": "How long does it take to build a custom web application?",
+      "a": "It depends on your requirements and brief. The plan sets out the phases and the timeline, usually with a smaller first release followed by further modules."
+    }
+  ]
+}

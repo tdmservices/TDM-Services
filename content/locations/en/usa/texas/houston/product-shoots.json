@@ -1,0 +1,65 @@
+{
+  "slug": "usa/texas/houston/product-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/product-shoots",
+  "title": "Product Photography for Houston Brands",
+  "metaTitle": "Product Photography for Houston Brands | TDM",
+  "metaDescription": "Product photography for Houston brands and distributors: catalogue, lifestyle and detail shots. Ship products to TDM's studio and receive retouched images.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Houston brands, online stores and distributors. We produce clean catalogue sets, styled lifestyle scenes and close detail shots, retouched and delivered in every crop your store, marketplace listings and ads need. We do not have a studio in Houston. You ship your products to TDM's production hub in Lahore, approve the shot list and art direction remotely, and receive the finished images online.",
+  "sections": [
+    {
+      "heading": "Two kinds of Houston catalogue",
+      "paragraphs": [
+        "Product photography here serves two quite different sellers. The first is the consumer brand: a hot sauce or barbecue rub maker, a coffee roaster, a candle or skincare label, a boot and western wear shop whose busiest weeks come around the rodeo. These sellers compete on appetite and style, and their images have to work on a phone screen in a feed as well as on a product page.",
+        "The second is the industrial supplier, and Houston has a great many of them. Distributors of fittings, gauges, hand tools, safety gear and instrumentation increasingly sell through online catalogues, and buyers compare parts by eye before they check a specification. Many of these catalogues still rely on manufacturer images of mixed quality, or on no image at all. A consistent set, with the same angle, lighting and background for every item and a clear close-up of markings and threads, makes a distributor look organised and reduces ordering mistakes."
+      ]
+    },
+    {
+      "heading": "What the service covers",
+      "paragraphs": [
+        "We map your catalogue and sales channels first, then write a set list: which angles, scenes and details each product needs. For larger ranges we set up a repeatable lighting and framing system for each category, so hundreds of items read as one catalogue."
+      ],
+      "bullets": [
+        "Catalogue photography on white or coloured backgrounds, lit consistently across the range.",
+        "Lifestyle scenes with props and surfaces chosen to suit your brand, for ads, social and hero banners.",
+        "Macro shots of materials, finishes, labels and mechanisms.",
+        "Image sets specified to Amazon and other marketplace requirements for background, framing and resolution.",
+        "Retouching that is colour-accurate and honest, because misleading images come back as returns.",
+        "Files exported in each crop and resolution required, named to your convention."
+      ]
+    },
+    {
+      "heading": "Shipping from Houston: what to plan for",
+      "paragraphs": [
+        "Because the studio is overseas, the shoot starts with a parcel. Send clean, undamaged samples, and for packaged goods send the current label version. Allow for international transit and customs paperwork in your launch schedule, and tell us whether items should be returned or can be kept. We confirm the condition of everything on arrival before the shoot is staged.",
+        "This model suits items that are compact and stable: bottles, jars, boxed goods, apparel, accessories, tools and small parts. It does not suit everything. Fresh food from a restaurant kitchen cannot travel, and neither can a large valve assembly or a skid-mounted unit. Liquids, aerosols and anything classed as hazardous may face carrier restrictions, so check with your shipper first. For subjects that must be captured on site, a locally arranged video shoot is the route we would discuss instead."
+      ]
+    },
+    {
+      "heading": "Checks worth making with any photographer",
+      "paragraphs": [
+        "Ask how many images per product are included and which angles. Ask whether retouching is part of the fee. Ask to see a test set of a few items before the full range is shot, so lighting and background are agreed early. Confirm who holds the usage rights to the finished images. And ask how new products will be matched to the existing set later, since a catalogue keeps growing."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Product ranges Houston sellers send us",
+    "items": [
+      { "title": "Sauces, rubs and packaged food", "text": "Shelf-stable products shot on clean backgrounds and in styled table scenes for stores and ads." },
+      { "title": "Boots, hats and apparel", "text": "Catalogue angles and texture close-ups for western wear and fashion labels." },
+      { "title": "Beauty and skincare", "text": "Colour-accurate bottle and jar sets with lifestyle scenes for clinics and independent brands." },
+      { "title": "Tools and safety gear", "text": "Uniform catalogue images for distributors, with detail shots of markings and fittings." },
+      { "title": "Small industrial parts", "text": "Gauges, connectors and instruments photographed consistently so buyers can identify the right item." },
+      { "title": "Marketplace listings", "text": "Complete image sets prepared to Amazon specifications for Houston sellers trading nationwide." }
+    ]
+  },
+  "presence": "TDM works with Houston businesses remotely. We have no office, studio or photographer in the city. Products are shipped to our production hub in Lahore, and shot lists, proofs and final images are reviewed and delivered online.",
+  "faqs": [
+    { "q": "Is there a TDM photo studio in Houston?", "a": "No. Product photography is carried out at TDM's studio in Lahore. Houston clients ship their products, approve the shot list and art direction remotely, and receive retouched images digitally." },
+    { "q": "How much does product photography cost for a Houston business?", "a": "It depends on the scope: the number of products, the images per product and how much styling is involved. We quote after a free consultation." },
+    { "q": "Can you photograph a large industrial parts catalogue?", "a": "Yes, for parts that are practical to ship. We set up one lighting and framing system for each category so every item is consistent, then shoot and retouch in batches. Heavy or oversized equipment is not suited to shipping and needs a different approach." },
+    { "q": "Can you photograph restaurant food or fresh products?", "a": "Not through this service. Fresh and perishable items cannot be shipped to our studio. Packaged, shelf-stable food such as sauces, seasonings and coffee works well." },
+    { "q": "How long will it take to get my images?", "a": "It depends on the brief and the size of the range, and shipping time has to be included. The schedule is agreed in the plan before you send anything." }
+  ]
+}

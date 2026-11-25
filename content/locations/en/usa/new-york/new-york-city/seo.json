@@ -1,0 +1,88 @@
+{
+  "slug": "usa/new-york/new-york-city/seo",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/seo",
+  "title": "SEO Agency in New York City",
+  "metaTitle": "SEO Agency in New York City: Local and Maps SEO | TDM",
+  "metaDescription": "SEO for New York City businesses: neighbourhood and map results, specialist content, technical fixes and AI-answer visibility. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) is an SEO agency that works remotely with New York City businesses to get them found in Google, in Google Maps and in AI answers. In a city where almost every search returns more good options than anyone can read, we help a business rank for the neighbourhood, the speciality and the exact question where it can realistically win, and we handle the technical work, content and listings behind that.",
+  "sections": [
+    {
+      "heading": "Ranking in a city with five boroughs and hundreds of neighbourhoods",
+      "paragraphs": [
+        "\"New York\" is rarely the useful keyword. A physiotherapist in Forest Hills, a tax preparer in Bay Ridge and an immigration lawyer near Jackson Heights each compete in a small local market, and the head term \"physiotherapist NYC\" is contested by directories, hospital systems and national chains with far larger sites. The searches that bring customers name a neighbourhood, a cross street, a train line or a precise need.",
+        "The map results reflect how compact daily life is here. Someone standing on Broadway in the Upper West Side sees a different set of three businesses from someone ten blocks north. A storefront ranks strongly in the blocks around it and loses ground quickly, so the question is always how far out a profile and a site can be made to reach, and whether that distance covers the people who would really make the trip.",
+        "Business-to-business firms face a different contest. A Midtown accounting practice or a Flatiron software company is searched for by problem, not by place: \"co-op board dispute lawyer\", \"sales tax audit help\". Those rankings go to pages that answer the question in real depth."
+      ]
+    },
+    {
+      "heading": "What the SEO work covers",
+      "paragraphs": [
+        "We start with an audit of your site and of where you appear today, borough by borough, then agree which services and areas to pursue first. Because our developers build sites as well, the technical fixes we recommend are fixes we can ship."
+      ],
+      "bullets": [
+        "Keyword research by neighbourhood, speciality and season, from holiday demand to tax time and the summer rental rush.",
+        "On-page work: titles, headings, internal links and service pages written for one search intent each.",
+        "Technical SEO: mobile speed, crawl and indexing issues, structured data and redirect maps after a redesign.",
+        "Google Business Profile upkeep for every location: categories, hours, storefront photos and review replies."
+      ]
+    },
+    {
+      "heading": "Being named when people ask an AI assistant",
+      "paragraphs": [
+        "New Yorkers now ask assistants the questions they used to ask a neighbour: who does good tailoring in Chelsea, which paediatric dentist in Park Slope takes new patients. The assistant names a few businesses drawn from sources it can read without ambiguity. We tidy up what it reads: service pages in plain terms, matching business details everywhere, structured data, steady reviews and mentions on sites with standing in your trade."
+      ]
+    },
+    {
+      "heading": "Questions to put to any SEO agency before you sign",
+      "paragraphs": [
+        "Ask which searches they think you can win in twelve months and which they would leave alone; an honest answer in New York includes a list of terms not worth chasing. Ask to keep ownership of Search Console, Analytics and your Business Profile. Regulated professions should also ask how content is reviewed, since law firms in New York have attorney advertising rules to respect. Treat any guaranteed ranking as a warning sign."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where search pays back in New York",
+    "items": [
+      {
+        "title": "Law and accounting practices",
+        "text": "Clients search by the specific matter. A page per practice area, written by someone who understands it, outperforms one long list of services."
+      },
+      {
+        "title": "Medical, dental and therapy offices",
+        "text": "Patients filter by distance, insurance accepted and reviews. Accurate profiles and clear treatment pages decide who gets the booking."
+      },
+      {
+        "title": "Restaurants and food shops",
+        "text": "Menu pages that load fast, correct hours and a lively map listing matter more than any blog post."
+      },
+      {
+        "title": "Real estate brokers and managers",
+        "text": "Building and neighbourhood guides reach renters and buyers who research on their own before they contact anyone."
+      },
+      {
+        "title": "Trades and home services",
+        "text": "Plumbers, locksmiths and movers are found in urgent searches. Borough pages and prompt review replies win the call."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City businesses remotely. We have no office or team member in the city. Audits, content, technical fixes and reporting are handled online, with regular calls to review progress.",
+  "faqs": [
+    {
+      "q": "Can a small business rank on Google in NYC against big brands?",
+      "a": "Yes, on the right searches. Large brands hold the broad terms, but neighbourhood and speciality searches are won by businesses with a strong local profile and pages that answer a narrow question well. We choose those targets with you after the audit."
+    },
+    {
+      "q": "I have locations in Manhattan and Brooklyn. Do I need separate pages?",
+      "a": "Yes. Each location needs its own Business Profile and its own page with address, hours, nearby transit, staff and reviews from that branch. Shared, copied text across locations weakens all of them."
+    },
+    {
+      "q": "How long does SEO take in a market as competitive as New York?",
+      "a": "It depends on the condition of your site, your field and the brief. Narrow local terms tend to move sooner than broad ones. We set expectations in the plan that follows the audit."
+    },
+    {
+      "q": "What does SEO cost for a New York City business?",
+      "a": "The price depends on scope: how many locations and services are covered and how much content and technical work is involved. We send a quote after a free consultation."
+    }
+  ]
+}

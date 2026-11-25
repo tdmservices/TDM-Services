@@ -1,0 +1,66 @@
+{
+  "slug": "usa/texas/houston/ad-creatives",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ad-creatives",
+  "title": "Ad Creative Design in Houston",
+  "metaTitle": "Ad Creative Design in Houston, TX | TDM",
+  "metaDescription": "Static, carousel and motion ad creatives for Houston businesses, designed in testing batches for Meta, TikTok and Google and sized for every placement.",
+  "lead": "TDM (The Digital Marketing Services) designs ad creatives for Houston businesses: static images, carousels, display banners and short motion graphics for Meta, TikTok, Google and other networks. Each concept is produced in every size its campaign needs. Our designers work beside the people who buy the media, so batches are built for testing and judged on results. We work with Houston clients remotely, and we design for a metro where the same offer has to be worded differently for different suburbs and seasons.",
+  "sections": [
+    {
+      "heading": "Why one ad rarely covers Houston",
+      "paragraphs": [
+        "A single image with a single headline, shown to the whole metro, wastes most of its impressions. A resident of Sugar Land does not think of themselves as living near a business in Spring, and an ad that says only \"Houston\" gives them no reason to believe you serve their street. Creative that names the area, shows a recognisable kind of home or storefront and states a realistic arrival time earns more attention than a generic one.",
+        "So a Houston batch is usually a matrix. The same core concept is produced with different area names, offers and images, matched to the ad sets that target each zone. A dental group with offices in Katy and Pearland gets two families of creative, not one. This is routine design work, but it has to be planned at the brief so the templates allow for it."
+      ]
+    },
+    {
+      "heading": "What a batch contains",
+      "paragraphs": [
+        "We start by reviewing past creative performance, your offers and what competitors are running. That tells us which angles the next batch should test. Designers then develop distinct directions within your brand system and present them together for approval."
+      ],
+      "bullets": [
+        "Static ads built around one clear message and a legible offer, designed for the safe zones of each placement.",
+        "Carousels that tell a story, compare options or show a range, plus branded frames for catalogue ads.",
+        "Animated statics and kinetic text that draw more attention than a still without needing a video shoot.",
+        "Distinct angles in every batch: offer-led, problem-led, social proof and product-focused.",
+        "Headlines, offer text and calls to action written as part of the design.",
+        "Feed, story, banner and display sizes for each approved concept, delivered ready to upload."
+      ]
+    },
+    {
+      "heading": "Creative for Houston's two audiences",
+      "paragraphs": [
+        "Consumer advertising here is driven by weather and the calendar. Cooling ads should be approved and waiting before the first hot week. Storm-season sets for roofers, tree services and restoration firms are best designed ahead of time in two versions, a preparedness message and a response message, with the second held until crews can actually take the work. Retail and restaurant creative follows the rodeo weeks, the school year and the holidays.",
+        "Business-to-business advertising needs a different hand. An engineer or buyer at an energy company responds to a specification, a certification or a clear photograph of the equipment, not to a lifestyle image. Around the large industry conferences, suppliers often run short campaigns aimed at attendees, and those need booth details and a single precise claim. We design both kinds, and we keep them apart: what stops a homeowner scrolling is not what persuades a procurement team."
+      ]
+    },
+    {
+      "heading": "Rules and checks before launch",
+      "paragraphs": [
+        "Some Houston sectors face platform restrictions that shape the design. Ads for housing, employment and financial products are subject to special category rules on the major platforms, which limit targeting and affect how copy may be written. Health and medical advertising cannot make certain claims or imply knowledge of a viewer's condition. Contractors should make sure any licence or financing statement on an ad is accurate. We design within platform policy, and regulated firms should have final wording checked by their own adviser.",
+        "When choosing a designer, ask how many concepts and sizes are included, whether source files are handed over, and how the next batch will be informed by the results of the last."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Creative sets Houston advertisers use",
+    "items": [
+      { "title": "Suburb-specific variants", "text": "One concept produced with area names and images for Katy, Cypress, Pearland, The Woodlands and other zones." },
+      { "title": "Seasonal home service sets", "text": "Cooling, heating and storm-response creative prepared in advance and released when conditions call for it." },
+      { "title": "Clinic and practice ads", "text": "Clear, compliant statics and carousels for dental, medical and wellness providers." },
+      { "title": "Industrial and B2B ads", "text": "Specification-led images and banners for equipment makers, distributors and service contractors." },
+      { "title": "Conference campaigns", "text": "Short-run creative for exhibitors, with booth details and one focused message for attendees." },
+      { "title": "Restaurant and retail promotions", "text": "Offer-led carousels and motion pieces for openings, menus and seasonal events." }
+    ]
+  },
+  "presence": "TDM works with Houston businesses remotely. We do not have an office or designer in the city. Briefs, concept reviews and approvals are handled through calls and shared files, and finished creatives are delivered online in upload-ready formats.",
+  "faqs": [
+    { "q": "How much do ad creatives cost for a Houston business?", "a": "It depends on the scope: the number of concepts, formats, area variants and sizes in each batch. We provide a quote after a free consultation." },
+    { "q": "Should my ads be different for each Houston suburb?", "a": "Usually, yes, if you serve several areas. Naming the area and showing a relevant image makes an ad feel local to the person seeing it. We plan templates so variants for each zone can be produced without redesigning from scratch." },
+    { "q": "Can you design ads for an oil and gas supplier?", "a": "Yes. Creative for technical buyers is built around specifications, certifications and clear product or site imagery. It is designed separately from consumer-style advertising and sized for the networks where those buyers are reached." },
+    { "q": "How often should ad creatives be refreshed?", "a": "When performance shows the current set is tiring. For accounts we manage, we watch for creative fatigue and deliver new batches before costs climb. In Houston it also makes sense to refresh ahead of summer and the storm season." },
+    { "q": "Can you design the ads if another agency runs our campaigns?", "a": "Yes. We design from your brief and brand guidelines and work from shared performance reports, so each new batch still reflects what the numbers showed." }
+  ]
+}

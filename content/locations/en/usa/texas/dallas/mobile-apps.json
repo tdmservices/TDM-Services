@@ -1,0 +1,65 @@
+{
+  "slug": "usa/texas/dallas/mobile-apps",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/mobile-apps",
+  "title": "Mobile App Development in Dallas",
+  "metaTitle": "Mobile App Development in Dallas, TX | TDM",
+  "metaDescription": "iOS and Android apps for Dallas startups and established companies: UX research, native or cross-platform builds, and App Store and Google Play release.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Dallas startups and established companies. We build native apps in Swift and Kotlin when performance and platform feel matter most, and cross-platform apps in Flutter or React Native when budget and speed to market come first. We take each app from research and design through to release on the App Store and Google Play. In Dallas the request comes as often from an operations manager with staff in the field as from a founder with a consumer idea.",
+  "sections": [
+    {
+      "heading": "The apps Dallas businesses actually commission",
+      "paragraphs": [
+        "Dallas is a corporate city, and much of its app demand is practical. A roofing company wants inspectors to photograph damage, measure a roof and send an estimate from the driveway. A logistics firm near the airport wants drivers to confirm deliveries with a signature and a photo. A commercial contractor wants site reports filed from a phone at the end of each day. These apps never appear in a store chart, but they remove hours of paperwork.",
+        "Consumer apps here tend to come from restaurants and hospitality groups that want ordering and loyalty in their own hands, from fitness studios and medical or cosmetic practices that want booking and reminders, and from property firms. There is also an active startup scene, partly fed by people leaving large employers in telecoms, finance and semiconductors with a product in mind. For them the first task is a small version worth releasing, not a long feature list."
+      ]
+    },
+    {
+      "heading": "Building for a metro this wide",
+      "paragraphs": [
+        "The Metroplex covers a great deal of ground, and that affects design more than people expect. Field staff spend the day driving between jobs from Fort Worth to McKinney, so their app must be quick to use with one hand in a parked truck and readable in hard summer sunlight. New subdivisions on the northern edge can have weak signal, so forms and photos should save on the device and sync later. Anything involving service areas, delivery zones or the nearest branch depends on accurate location handling.",
+        "Data rules also need attention early. Apps that hold patient information fall under federal health privacy law, and Texas has its own consumer data privacy law. We design sign-in, storage and permissions with that in mind, and your legal adviser should confirm which obligations apply to you."
+      ]
+    },
+    {
+      "heading": "How we take an app from idea to store",
+      "paragraphs": [
+        "We begin by defining the one job the app must do well, who will use it and how success will be measured. Then come user flows and screen designs you can click through before any code is written."
+      ],
+      "bullets": [
+        "UX research, personas and a scoped first version.",
+        "Interface design that follows Apple and Google guidelines, which makes store review smoother.",
+        "Native or cross-platform development, chosen for the app and not for our convenience.",
+        "A secure back end, an admin panel and connections to your CRM, booking or payment systems.",
+        "Testing on real devices, then developer account setup, store listings and review submission.",
+        "Updates after launch as operating systems and your requirements change."
+      ]
+    },
+    {
+      "heading": "Before you sign with an app developer",
+      "paragraphs": [
+        "Confirm that the developer accounts with Apple and Google will be registered in your company's name, so the app is yours. Ask whether a mobile-friendly website would do the job for less, which is sometimes true. Ask how the app will be maintained after release and who pays for hosting. Request test builds on your own phone during development, and do not accept screenshots in their place."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Common app projects in Dallas",
+    "items": [
+      { "title": "Field service apps", "text": "Inspections, photos, estimates and job status for roofing, HVAC, pool and landscaping crews, working offline when needed." },
+      { "title": "Driver and delivery apps", "text": "Routes, proof of delivery and status updates for distribution and courier firms." },
+      { "title": "Ordering and loyalty", "text": "Restaurant and retail apps for repeat customers, with payments, rewards and push notifications." },
+      { "title": "Booking for practices and studios", "text": "Appointments, reminders and forms for clinics, medical spas and fitness businesses, with careful data handling." },
+      { "title": "Internal company tools", "text": "Staff directories, approvals and reporting for employers with offices in several parts of the region." },
+      { "title": "Startup first versions", "text": "A focused release built to test demand with real users before larger investment." }
+    ]
+  },
+  "presence": "TDM is not based in Dallas. We work with Dallas companies remotely: workshops and design reviews take place on video calls, and test builds are sent to your own devices so you can try each version as it is completed.",
+  "faqs": [
+    { "q": "How much does it cost to build an app in Dallas?", "a": "That depends on scope: the number of screens and features, whether it needs a back end and integrations, and whether you want native or cross-platform. We quote after a free consultation." },
+    { "q": "Should we build native or cross-platform?", "a": "Cross-platform frameworks such as Flutter and React Native suit most business apps and cover iOS and Android from one codebase. Native development is the better choice when the app leans heavily on device hardware or needs the highest performance. We recommend one after discovery." },
+    { "q": "Can an app work without signal on job sites?", "a": "Yes, if it is designed for that from the beginning. Forms, photos and job data are stored on the device and sent when a connection returns, which matters for crews working on the outskirts of the metro." },
+    { "q": "Do you handle App Store and Google Play submission?", "a": "Yes. We set up the developer accounts in your name, prepare listings, screenshots and metadata, submit for review and deal with any questions from Apple or Google." },
+    { "q": "How long does app development take?", "a": "It depends on your requirements and the brief. A scoped first version is quicker than a full product, and the schedule is set out in the plan once discovery is complete." }
+  ]
+}

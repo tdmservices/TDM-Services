@@ -1,0 +1,65 @@
+{
+  "slug": "usa/new-york/new-york-city/ad-creatives",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ad-creatives",
+  "title": "Ad Creative Design for New York City Businesses",
+  "metaTitle": "Ad Creative Design in New York City | TDM",
+  "metaDescription": "Ad creatives for New York City businesses: static, carousel and motion ads for Meta, TikTok and Google, made in testing batches and refreshed on campaign data.",
+  "lead": "TDM (The Digital Marketing Services) designs ad creatives for New York City businesses: static images, carousels, display banners and short motion graphics for Meta, TikTok and Google campaigns. We work remotely, with design carried out by our creative team at TDM's Lahore hub. Each batch is built to be tested, with distinct ideas set against each other and the results read in clicks and cost per acquisition. In a city where so many advertisers bid for the same people, the creative is often the cheapest lever left to pull.",
+  "sections": [
+    {
+      "heading": "Advertising to people who see ads all day",
+      "paragraphs": [
+        "A New Yorker passes subway car cards, platform posters, taxi-top screens, bus shelters and wrapped scaffolding before reaching the office, then opens a phone full of sponsored posts. People here have learned to filter. An ad earns a glance only if it says one clear thing to the right person at the right moment.",
+        "Local relevance is one way through the filter. An image that names the neighbourhood, the nearest train or the cross street tells a viewer in Astoria or Park Slope that the business is theirs. Timing is another. Lunch offers belong in front of office workers in Midtown and the Financial District on weekday mornings. Weekend brunch, a new class timetable or an open house belongs in residential neighbourhoods in the evening. The winter holidays, summer weekends when many residents leave town, back-to-school and lease-signing season each call for creative of their own."
+      ]
+    },
+    {
+      "heading": "What we design",
+      "paragraphs": [
+        "A batch starts with a review of your past ads, your offers and your competitors, which tells us the angles worth testing next. Designers then develop separate directions inside your brand's look and present them together for approval."
+      ],
+      "bullets": [
+        "Single-image ads built around one message and a legible offer, sized for each placement's safe zones.",
+        "Carousels that tell a story, compare options or show a collection, and branded frames for catalogue ads.",
+        "Animated statics, kinetic text and short motion pieces that need no video shoot.",
+        "Distinct angles in each batch: offer-led, problem-led, social proof and product-focused.",
+        "Every approved concept produced for feed, story, banner and display, ready to upload.",
+        "Headlines, offer text and calls to action written as part of the design."
+      ]
+    },
+    {
+      "heading": "Testing is the point",
+      "paragraphs": [
+        "Changing a button colour is not a test. A real test compares ideas: a price-led ad against a testimonial, a problem statement against a product close-up. Once creatives are live, we read thumb-stop rate, click-through rate and cost per acquisition for each concept and stop judging by looks. Strong directions are extended into new variations and weak ones are retired.",
+        "Creative also wears out. A local campaign aimed at a few zip codes shows the same images to the same people again and again, and response falls as they tire of them. For accounts TDM manages, we watch for that decline and send a refreshed batch before it pushes costs up. If someone else runs your campaigns, we work from the reports you share."
+      ]
+    },
+    {
+      "heading": "Before you brief a designer",
+      "paragraphs": [
+        "Gather your logo files, fonts and colours, or tell us that no formal guidelines exist so we can set up a working system from what you have. Decide on the offer, because design cannot rescue an unclear one. Share past results if you have them. For regulated categories such as housing, credit, employment, health and legal services, the ad platforms apply extra rules on targeting and wording, so say early which category you fall under."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Creative New York advertisers ask for",
+    "items": [
+      { "title": "Neighbourhood campaigns", "text": "Versions of one concept adapted for each area you serve, with local references in the image and headline." },
+      { "title": "Restaurant and retail offers", "text": "Opening announcements, seasonal menus and limited-time deals designed to be read in a second." },
+      { "title": "E-commerce catalogue ads", "text": "Branded frames, price tags and collection carousels for fashion, beauty and home brands." },
+      { "title": "Professional services", "text": "Restrained, credible ads for law, finance and advisory firms, with one specific promise each." },
+      { "title": "App and startup launches", "text": "Motion pieces that show a product in use for teams testing messages before spending more." },
+      { "title": "Event and seasonal pushes", "text": "Holiday, sale and pop-up creative prepared ahead so campaigns can start on time." }
+    ]
+  },
+  "presence": "TDM works with New York City businesses remotely and has no office or designer in the city. Ad creatives are produced by our creative team at the Lahore hub and reviewed with you online, batch by batch.",
+  "faqs": [
+    { "q": "What ad creatives does TDM make for New York businesses?", "a": "Static images, carousels, display banners and short motion graphics for Meta, TikTok, Google and other networks. Each approved concept is delivered in every size its campaign requires." },
+    { "q": "How much does ad creative design cost in New York City?", "a": "It depends on scope: how many concepts are in a batch, how many formats each needs and whether motion is involved. We quote after a free consultation." },
+    { "q": "How often should my ads be refreshed?", "a": "When performance says so. Small local audiences tire of an ad sooner than broad ones. For accounts we manage, we track fatigue and prepare new batches before results decline." },
+    { "q": "Can you design within our existing brand guidelines?", "a": "Yes. We work inside your logo, palette, typography and tone, and adapt them for the feed. If you have no formal guidelines, we set up a working system from your existing materials first." },
+    { "q": "How long does a batch of ad creatives take?", "a": "It depends on the brief and the number of concepts and formats. The schedule is agreed in the plan, and timing is set around your campaign dates." }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "usa/texas/houston/crm-erp",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/crm-erp",
+  "title": "CRM and ERP Development in Houston",
+  "metaTitle": "CRM and ERP Development in Houston, TX | TDM",
+  "metaDescription": "Custom CRM and ERP systems for Houston companies: pipelines, job tracking, inventory, HR, finance and integrations. Built remotely, quoted after a consultation.",
+  "lead": "TDM (The Digital Marketing Services) builds custom CRM and ERP systems for Houston companies that have outgrown spreadsheets and generic software. We work remotely and build the modules a business needs: a sales pipeline shaped around its real process, plus inventory, HR, finance and operations. In a city where so much revenue comes from long industrial contracts, field crews and stock held in yards and warehouses, the way a company tracks its work often matters as much as how it wins it.",
+  "sections": [
+    {
+      "heading": "Why Houston firms end up needing their own system",
+      "paragraphs": [
+        "A typical energy service company or industrial supplier here does not sell the way a software firm does. A deal may start with a supplier approval process, move through a master service agreement, and only then turn into individual work orders, each with its own quote, crew, equipment and invoice. Standard CRMs are built around a simple funnel from lead to closed sale. Fitting approvals, bids, call-outs and repeat work under one account into that funnel usually ends with half the information living in spreadsheets again.",
+        "The same is true behind the sale. A pipe, valve and fitting distributor needs to know what is in which yard, what is reserved against a quote and what carries which mill certificate. An inspection or maintenance contractor needs to know which technicians hold current certifications and site credentials before assigning them to a plant along the Ship Channel. These are specific rules, and they are where a custom system pays for itself.",
+        "Houston's economy also moves with the energy cycle. Headcount grows quickly in good years and contracts in lean ones. Software priced per user rises with every hire, while a system you own does not carry a licence bill that follows the payroll."
+      ]
+    },
+    {
+      "heading": "What we build",
+      "paragraphs": [
+        "We begin with discovery: how leads arrive, who approves what, where stock sits and which reports management actually reads. From that we scope only the modules needed now, on an architecture that lets the next one be added later."
+      ],
+      "bullets": [
+        "A CRM modelled on your own stages: prequalification, bid, award, work order and renewal, with every contact and document under the account.",
+        "ERP modules for inventory across several locations, HR records, finance and day-to-day operations.",
+        "Two-way integrations with your website, online store, accounting software, email, payment gateways and logistics providers, so data is entered once.",
+        "Dashboards for owners and managers that show pipeline, stock, jobs and receivables in one place.",
+        "Migration from spreadsheets and old software, with records mapped, cleaned, deduplicated and verified before the old system is switched off."
+      ]
+    },
+    {
+      "heading": "Cases where buying is the better answer",
+      "paragraphs": [
+        "Not every Houston business should build. If a standard product already covers nearly everything you do, buying it is cheaper and faster, and we will tell you that. A small professional firm in the Galleria with a simple sales process rarely needs custom software. A contractor with unusual approval chains, several yards and a field workforce often does. We help you compare the cost of licences over a few years against the cost of a system you own before you commit to anything."
+      ]
+    },
+    {
+      "heading": "Points to raise with any developer",
+      "paragraphs": [
+        "Ask who owns the source code and the data once the project is finished. Ask how the old records will be checked after migration, and by whom. If you handle patient information, as many practices and suppliers around the Texas Medical Center do, ask how access is restricted and logged, and involve your compliance adviser early. Ask what happens during a storm closure: where the system is hosted and whether staff can reach it from home. And ask for a milestone plan, so that one useful module is in your team's hands before the whole build is complete."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Systems Houston businesses commonly need",
+    "items": [
+      { "title": "Bid and contract tracking", "text": "Supplier approvals, agreements, quotes and work orders linked to one customer record, so nothing depends on one person's inbox." },
+      { "title": "Multi-yard inventory", "text": "Stock by location, reservations against quotes and certificates attached to items for distributors and equipment suppliers." },
+      { "title": "Crew and certification records", "text": "Training, credentials and expiry dates held against each worker, visible before a job is scheduled." },
+      { "title": "Field job management", "text": "Dispatch, job status and completion notes for AC, roofing and restoration firms whose workload jumps after severe weather." },
+      { "title": "Referral and enquiry management", "text": "For clinics and medical suppliers: enquiries, referrals and follow-ups in one place with controlled access." },
+      { "title": "Shipment and customer portals", "text": "Freight forwarders and importers working through the port give customers a login to see status and documents." }
+    ]
+  },
+  "presence": "TDM works with Houston businesses remotely. We have no office or staff in the city. Discovery workshops, design reviews and training sessions for your team are held by video call, and you test each module on a staging system before it goes live.",
+  "faqs": [
+    { "q": "Should a Houston oilfield service company build a custom CRM or buy one?", "a": "Buy if a standard product covers almost all of your process. Build if your work runs on approvals, agreements and repeat work orders that a standard funnel cannot represent, or if licence costs across a changing headcount exceed the cost of owning a system. We run that comparison with you during the free consultation." },
+    { "q": "How much does a custom CRM or ERP cost in Houston?", "a": "It depends on scope: the number of modules, integrations and the amount of data to migrate. We provide a quote after a free consultation and a discovery phase that defines the milestones." },
+    { "q": "Can the system connect to the accounting software we already use?", "a": "In most cases, yes. Integration is one of the main reasons to build. Invoices, payments and customer records can sync with accounting software, and website enquiries can flow straight into the CRM. We confirm what each of your existing tools allows during discovery." },
+    { "q": "How long does it take to build an ERP?", "a": "It depends on your requirements and how many modules are in the brief. The schedule is agreed in the plan, and larger systems are released module by module so your team starts using the first part early." },
+    { "q": "Can you build our system without visiting our Houston office?", "a": "Yes. We map your processes through video workshops, shared documents and screen recordings of how your team works today. If a yard or warehouse process is hard to describe, a short phone video from your staff is usually enough for us to model it." }
+  ]
+}

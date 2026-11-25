@@ -1,0 +1,89 @@
+{
+  "slug": "usa/texas/houston/seo",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/seo",
+  "title": "SEO Agency in Houston",
+  "metaTitle": "SEO Agency in Houston, TX: Local and B2B SEO | TDM",
+  "metaDescription": "SEO for Houston businesses: suburb and map pack rankings, technical B2B search for energy and industrial firms, content and AI-answer visibility.",
+  "lead": "TDM (The Digital Marketing Services) is an SEO agency that works remotely with Houston businesses to get them found in Google, in Google Maps and in AI answers. Houston has two very different kinds of search: a homeowner in Cypress looking for a plumber who can come today, and an engineer looking for a supplier of a specific piece of equipment or a certified inspection service. We do the technical work, the content and the local listings for both.",
+  "sections": [
+    {
+      "heading": "Two kinds of search in one city",
+      "paragraphs": [
+        "Consumer search in Houston is tied to distance. The metro is so wide that \"Houston\" on its own says little about where a business is, so people add the suburb or the part of town: \"pediatric dentist Sugar Land\", \"AC repair Spring\", \"brunch in the Heights\". Google's map results shift as the searcher moves along the freeways, and a business that ranks well around its own address can be invisible two exits further on.",
+        "Industrial search looks nothing like that. A buyer at an operator or an engineering firm types a part category, a standard, a material grade or a service plus a certification. The volume of these searches is small, but one enquiry can be worth a long contract. Many supplier sites offer only a single \"Services\" page and a PDF line card, with no text that Google can match to the query. A page for each capability, with specifications written out, answers it."
+      ]
+    },
+    {
+      "heading": "What the SEO work covers",
+      "paragraphs": [
+        "We start with an audit of the site and of where you appear now, across the parts of the metro you serve or the product terms you sell under. The keyword plan that follows is agreed with you before any content is written."
+      ],
+      "bullets": [
+        "Keyword research by service, suburb and season for local firms, and by product, standard and application for industrial ones.",
+        "Technical fixes: mobile speed, indexing problems, structured data, redirects and duplicate pages left over from old redesigns.",
+        "Google Business Profile work for each real location: categories, service areas, photos and review replies.",
+        "Capability and service pages written with enough detail that a technical reader does not need to open a PDF.",
+        "Links and mentions earned from trade directories, associations and industry publications relevant to your field."
+      ]
+    },
+    {
+      "heading": "Weather, seasons and AI answers",
+      "paragraphs": [
+        "Search demand in Houston follows the weather closely. Air-conditioning searches build through the long summer, a tropical storm in the Gulf sends people looking for roofers, tree crews and water damage help within hours, and a rare hard freeze does the same for plumbers. Pages cannot be written and ranked in the week of the storm, so we plan seasonal content months ahead.",
+        "Buyers also ask AI assistants for recommendations now, from \"who repairs foundations in Pearland\" to \"companies that do non-destructive testing near the Ship Channel\". The assistants name businesses they can read about clearly: specific service pages, consistent business details, reviews and structured data."
+      ]
+    },
+    {
+      "heading": "Questions to ask an SEO agency before you sign",
+      "paragraphs": [
+        "Ask how they would handle your service area: a list of forty suburb pages with the name swapped is a warning sign. For a technical business, ask who will write the content and how they will get the facts right. Confirm that Search Console, Analytics and your Business Profile stay in your ownership. Treat any guaranteed ranking with suspicion."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where SEO pays back in Houston",
+    "items": [
+      {
+        "title": "Industrial suppliers and service firms",
+        "text": "Valve, pump and fitting distributors, fabricators and inspection companies win enquiries from pages built around exact products, standards and certifications."
+      },
+      {
+        "title": "Home services",
+        "text": "AC, roofing, plumbing and foundation repair are searched by suburb and by urgency. Area pages and a well-kept map listing bring the calls."
+      },
+      {
+        "title": "Medical and dental practices",
+        "text": "Patients search by treatment and by area, then read reviews. Treatment pages and provider profiles do most of the work."
+      },
+      {
+        "title": "Law firms",
+        "text": "Injury, maritime and business law are crowded fields here. Detailed pages for each type of case reach people a general page never will."
+      }
+    ]
+  },
+  "presence": "TDM works with Houston businesses remotely and has no office or staff in the city. Audits, keyword research, content and technical fixes are done online, and you get scheduled calls and written reports.",
+  "faqs": [
+    {
+      "q": "How do I rank in Google Maps in Katy or The Woodlands if my office is in Houston?",
+      "a": "Map results favour businesses close to the searcher, so an address inside the Loop will not usually appear in the map pack for Katy. You can still rank in the normal results below it with a useful page about your work in that area. A second map listing needs a real, staffed location."
+    },
+    {
+      "q": "Does SEO work for oil and gas suppliers?",
+      "a": "Yes, for the specific searches technical buyers make. The work is mostly detailed capability and product pages, clean site structure and mentions on trade sites."
+    },
+    {
+      "q": "Should a roofing or restoration company do SEO before hurricane season?",
+      "a": "Yes, and early. Pages about storm damage, emergency tarping or water extraction need time to be indexed and to earn rankings. Starting once a storm is forecast is too late for organic search."
+    },
+    {
+      "q": "How long does SEO take in Houston?",
+      "a": "It depends on the condition of your site, how competitive your field is and the brief. We set out what to expect in the plan after the audit."
+    },
+    {
+      "q": "What does SEO cost for a Houston business?",
+      "a": "It depends on scope: how many services, locations and pages are involved and how much technical work the site needs. We quote after a free consultation."
+    }
+  ]
+}

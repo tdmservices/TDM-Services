@@ -1,0 +1,89 @@
+{
+  "slug": "usa/texas/dallas/wordpress",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/wordpress",
+  "title": "WordPress Development Agency in Dallas",
+  "metaTitle": "WordPress Development Agency in Dallas, TX | TDM",
+  "metaDescription": "Custom WordPress and WooCommerce sites for Dallas companies: fast themes, location and industry pages, CRM-connected forms, security and upkeep.",
+  "lead": "TDM (The Digital Marketing Services) designs, builds and maintains WordPress and WooCommerce websites for Dallas businesses, working remotely. We write custom themes, rebuild sites that have become slow or insecure, and set up the admin so your staff can publish without calling a developer. Dallas companies tend to need one of two things from a site: credibility with corporate buyers who compare several vendors, or a steady flow of calls and quote requests from homeowners across the suburbs.",
+  "sections": [
+    {
+      "heading": "The jobs a Dallas company site must do",
+      "paragraphs": [
+        "A consulting firm near Klyde Warren Park, an IT provider in Richardson or a commercial contractor in Farmers Branch sells to people who read carefully. They want to see the industries you know, the projects you have delivered and the people they would work with. That calls for a structured site: industry pages, case write-ups, team profiles and articles, all easy for your marketing staff to add to. WordPress handles this well when the content types are planned from the start.",
+        "A home service company has a different need. A fence builder or pool company covering Allen, Wylie, Rowlett and Mesquite needs a page for each area and service, a quote form that works on a phone, and click-to-call on every screen. During hail season a roofer needs to publish a storm page in minutes, not wait a week for an agency.",
+        "Both kinds of site usually have to pass leads into other software. Sales teams here run on CRMs, field service firms on scheduling tools. A form that only sends an email is a lead waiting to be lost."
+      ]
+    },
+    {
+      "heading": "How we build",
+      "paragraphs": [
+        "Every project follows the same order: discovery and sitemap, design mockups you approve, development on a staging site, testing, then launch with redirects in place. We build a lean custom theme and install only the plugins the site needs, which is the main reason our sites stay fast."
+      ],
+      "bullets": [
+        "Custom theme development around your brand, with no page-builder bloat.",
+        "Custom post types for projects, locations, team members and industries, so new pages follow a consistent layout.",
+        "WooCommerce stores with payment gateways, shipping rules and a tested checkout.",
+        "Search-ready engineering: semantic markup, schema, clean URLs, compressed images and Core Web Vitals tuning.",
+        "Forms connected to your CRM or scheduling system, with spam filtering.",
+        "Security hardening, managed updates, malware monitoring and automated backups."
+      ]
+    },
+    {
+      "heading": "Rebuilding a site that has drifted",
+      "paragraphs": [
+        "Many Dallas firms come to us with a WordPress site that was fine five years ago. Since then it has collected plugins, a theme nobody dares update and pages that take too long to open on a phone. We audit what is there, keep the content and pages that earn traffic, and rebuild the rest. Each old address is mapped to its new one with a redirect so search positions carry across the move.",
+        "If the company has grown through acquisition, which is common in North Texas trades and professional services, we can bring several inherited sites together under one structure with a section for each brand or office."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "WordPress projects Dallas firms ask for",
+    "items": [
+      {
+        "title": "Corporate and B2B sites",
+        "text": "Industry pages, case write-ups and gated resources for firms selling to head offices across the Metroplex."
+      },
+      {
+        "title": "Multi-location service sites",
+        "text": "One template for each suburb and service, editable by your office staff, with call tracking and quote forms."
+      },
+      {
+        "title": "Law and accounting firms",
+        "text": "Practice-area pages, partner profiles and an article library organised so clients and search engines can find answers."
+      },
+      {
+        "title": "Medical and dental practices",
+        "text": "Treatment pages, provider profiles and appointment requests that link to the practice's booking system."
+      },
+      {
+        "title": "Wholesale and retail catalogues",
+        "text": "WooCommerce stores for product companies, including trade-only pricing behind a login where needed."
+      }
+    ]
+  },
+  "presence": "TDM builds WordPress sites for Dallas businesses remotely. We have no office or staff in the city. You review designs and a staging version online before launch, and support continues the same way afterwards.",
+  "faqs": [
+    {
+      "q": "Is WordPress a good choice for a Dallas B2B company?",
+      "a": "For most, yes. It suits sites that depend on content: industry pages, case write-ups, articles and team profiles. It connects to common CRMs and is easy for a marketing team to run. If you need complex account features or heavy custom logic, we will tell you when a custom build fits better."
+    },
+    {
+      "q": "Can my staff add new city or suburb pages themselves?",
+      "a": "Yes. We build a location template with set fields, so adding a page for Frisco or Garland is a matter of filling in the details. The layout, schema and internal links are applied automatically."
+    },
+    {
+      "q": "Can you fix a slow or hacked WordPress site?",
+      "a": "We can. We clean the site, find how it was compromised, close that gap and then address the causes of slowness, which are usually the theme, the plugin count and unoptimised images. Sometimes a rebuild is the cheaper route, and we will say so."
+    },
+    {
+      "q": "What is the price of a WordPress website for a Dallas business?",
+      "a": "It depends on the scope: the number of templates, integrations, the amount of content to migrate and whether a store is included. We send a quote after a free consultation."
+    },
+    {
+      "q": "How long does a WordPress build take?",
+      "a": "The timeline follows your requirements and how quickly content and feedback are available. We agree milestones in the project plan after discovery."
+    }
+  ]
+}

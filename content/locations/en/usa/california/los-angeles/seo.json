@@ -1,0 +1,89 @@
+{
+  "slug": "usa/california/los-angeles/seo",
+  "locale": "en",
+  "kind": "service",
+  "service": "marketing/seo",
+  "title": "SEO Agency in Los Angeles",
+  "metaTitle": "SEO Agency in Los Angeles, CA: Local SEO | TDM",
+  "metaDescription": "SEO for Los Angeles businesses: neighbourhood and map results, technical fixes, content, product SEO for LA brands and AI-answer visibility. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) is an SEO agency that works remotely with Los Angeles businesses to get found in Google, in Google Maps and in AI answers. In a region this spread out, that means ranking in the specific neighbourhoods and cities you serve, for the trade you are in, against competitors who have often been investing in search for years. We handle the technical fixes, the content, the links and the local listings.",
+  "sections": [
+    {
+      "heading": "Search in a city nobody drives across",
+      "paragraphs": [
+        "Angelenos search the way they live, which is locally. A person in Sherman Oaks looking for a physical therapist adds \"Sherman Oaks\" or \"Ventura Blvd\" or simply trusts \"near me\", and Google answers with businesses a short drive away. A practice in Santa Monica will not appear for that search, and should not try to. The useful question is which pockets of the region you can realistically win, and the keyword plan starts there.",
+        "The second fact is competition. Personal injury law, cosmetic surgery, dentistry, real estate and home remodelling are crowded fields in Los Angeles, and the firms at the top of the results have deep sites and long review histories. A newer business usually gains ground through narrower searches first: a specific procedure, a specific type of case, a specific neighbourhood, where a well-made page can outrank a bigger name."
+      ]
+    },
+    {
+      "heading": "The SEO work we do for Los Angeles clients",
+      "paragraphs": [
+        "Every engagement opens with an audit of the site, its content and its backlinks, plus keyword research mapped to the services or products that earn you the most. Our own developers then fix what the audit finds, so recommendations do not sit unread in a document."
+      ],
+      "bullets": [
+        "Keyword mapping by service and by area, using the names locals use: the Valley, the Westside, the South Bay, Mid-City, the Eastside.",
+        "Technical SEO: mobile speed and Core Web Vitals, crawl and indexing errors, schema markup and redirect maps.",
+        "Google Business Profile upkeep with accurate categories, strong photos and replies to every review.",
+        "Location pages with real detail such as cross streets, parking and the areas you travel to.",
+        "Product and category optimisation for LA brands selling online across the country.",
+        "Link building through quality publications, brand mentions and citations."
+      ]
+    },
+    {
+      "heading": "Showing up when people ask an AI assistant",
+      "paragraphs": [
+        "More people now ask an assistant for \"a good family lawyer in Pasadena\" or \"where to buy vintage denim in LA\" and act on the short list it returns. Those tools draw on what they can read and verify: clearly written service pages, consistent business details across directories, structured data, reviews and mentions on sites they trust. We write and structure pages so that both Google and AI systems can quote them accurately."
+      ]
+    },
+    {
+      "heading": "Questions to ask before you hire an SEO agency here",
+      "paragraphs": [
+        "Ask how the agency would divide the region for your business, and listen for whether they understand that Glendale, Long Beach and Culver City are separate markets. Ask to see how links are earned. Confirm that Search Console, Analytics and your Business Profile stay in your name. Treat any guaranteed ranking as a warning sign, because nobody controls Google's results."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "LA sectors where organic search earns its keep",
+    "items": [
+      {
+        "title": "Law firms",
+        "text": "Injury, employment, entertainment and family law are searched by exact problem. Detailed pages per case type reach people before they call the firm on the billboard."
+      },
+      {
+        "title": "Cosmetic and dental practices",
+        "text": "From Beverly Hills to Encino, patients read procedure pages, surgeon profiles and reviews closely. Depth and accuracy win consultations."
+      },
+      {
+        "title": "Fashion and beauty brands",
+        "text": "Category and product pages that rank nationally reduce reliance on paid social for every sale."
+      },
+      {
+        "title": "Contractors and remodelers",
+        "text": "Searches for ADU builders, seismic retrofits and kitchen remodels name the neighbourhood. Project pages by area match them."
+      },
+      {
+        "title": "Importers and wholesalers",
+        "text": "Trade buyers search product lines and minimum orders. Indexed, well-described catalogues bring enquiries from outside the district."
+      }
+    ]
+  },
+  "presence": "TDM works with Los Angeles businesses remotely and has no office or staff in the city. Audits, content, technical work and reporting are handled online, with regular calls and monthly written reports.",
+  "faqs": [
+    {
+      "q": "How do I compete with big LA firms that dominate Google?",
+      "a": "By being more specific than they are. Large firms often have broad pages. A focused page on one procedure, case type or neighbourhood, backed by reviews and sound technical work, can outrank a general page from a much larger site."
+    },
+    {
+      "q": "Does SEO work for an online brand based in LA?",
+      "a": "Yes. For e-commerce the work centres on category and product pages, site structure, schema and content that answers buying questions. Your location matters less than how well the catalogue is organised and described."
+    },
+    {
+      "q": "How much does SEO cost in Los Angeles?",
+      "a": "It depends on scope: how competitive your field is, how many areas or products are involved and how much content and technical work is needed. We quote after a free consultation."
+    },
+    {
+      "q": "How long before SEO shows results in LA?",
+      "a": "It depends on your starting point, your competitors and the brief. Crowded fields take longer than niche ones. We set expectations in the plan that follows the audit."
+    }
+  ]
+}

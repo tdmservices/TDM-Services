@@ -1,0 +1,98 @@
+{
+  "slug": "usa/new-york/new-york-city/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/custom-development",
+  "title": "Custom Web Development Agency in New York City",
+  "metaTitle": "Custom Web Development Agency in New York City | TDM",
+  "metaDescription": "Custom web platforms for New York City companies: portals, booking systems, marketplaces and internal tools in Next.js and Laravel. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom web platforms and applications for New York City companies, working remotely. We build client portals, booking systems, marketplaces, content platforms and internal tools in Next.js, React, Laravel and Node.js, for businesses whose product or workflow does not fit an off-the-shelf platform. New York firms in finance, property, healthcare, media and hospitality often reach that point early because their operations are specialised.",
+  "sections": [
+    {
+      "heading": "Why New York companies commission custom software",
+      "paragraphs": [
+        "The city's industries are full of processes that standard products only half cover. A property manager looking after co-op and condo buildings needs residents to submit work orders, book the freight elevator and view board documents in one place. A group of fitness studios wants class booking with its own membership rules across several locations. A staffing firm matches shifts to workers by licence and borough. A wealth adviser wants a secure portal where clients upload documents and read reports.",
+        "Many of these firms start with spreadsheets, email and three subscriptions that do not talk to each other. That holds until volume grows, and in New York volume grows fast. Software built around the actual workflow removes the copying between systems and gives customers a smoother experience than a competitor's generic tool.",
+        "Startups are the other large group. Founders in the Flatiron district, Downtown Brooklyn or Long Island City often need a first working version of a product to show investors and early customers, built on a stack that later hires will know."
+      ]
+    },
+    {
+      "heading": "What we build and how",
+      "paragraphs": [
+        "Work begins with discovery, where requirements, users and integrations are written down and prioritised. Architecture and design follow, then development in stages with a staging link you can test, then quality checks, launch and support. Scope, budget and schedule stay visible throughout."
+      ],
+      "bullets": [
+        "Next.js and React frontends with server-side rendering, for platforms that must be fast and visible in search.",
+        "Laravel and Node.js backends with the database and cloud setup each project calls for.",
+        "API integrations with payment providers, CRMs, accounting, scheduling and messaging services.",
+        "Role-based access, audit logs and admin dashboards for staff.",
+        "Builds on PrestaShop or other established platforms where a hybrid route reaches the market sooner."
+      ]
+    },
+    {
+      "heading": "Security, privacy and accessibility in a regulated city",
+      "paragraphs": [
+        "Software for New York users carries obligations. State law requires businesses holding private information about New York residents to maintain reasonable data security safeguards, and financial and healthcare firms answer to their own regulators on top of that. We design with encryption, least-privilege access and logging from the start, and build to the controls your compliance adviser specifies. We are developers, not lawyers, so the legal requirements should come from your counsel.",
+        "Accessibility belongs in the specification too. New York's courts handle many claims over websites and apps that people with disabilities cannot use, and public-facing platforms should follow recognised accessibility guidelines from the first release."
+      ]
+    },
+    {
+      "heading": "Checks to make before choosing a developer",
+      "paragraphs": [
+        "Confirm that you will own the source code, repository and cloud accounts. Ask how changes in scope are priced and approved. Ask for the reasoning behind the proposed stack and whether other developers could take it over later. Ask what happens after launch: who fixes bugs, applies updates and watches the servers. A clear answer to each is worth more than a long feature list."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Custom builds New York businesses commission",
+    "items": [
+      {
+        "title": "Client and resident portals",
+        "text": "Secure logins for documents, requests, payments and messages, for advisers, agencies and property managers."
+      },
+      {
+        "title": "Booking and scheduling systems",
+        "text": "Appointments, classes or rentals with rules for locations, staff, capacity and memberships."
+      },
+      {
+        "title": "Marketplaces",
+        "text": "Two-sided platforms connecting buyers with sellers or clients with providers, with payments and reviews."
+      },
+      {
+        "title": "Content and listing platforms",
+        "text": "Large structured libraries or property listings with search, filters and pages built to rank."
+      },
+      {
+        "title": "Internal tools",
+        "text": "Dashboards and workflow apps that replace spreadsheets and connect the systems your team already uses."
+      },
+      {
+        "title": "First product versions",
+        "text": "A focused initial release for a startup, built on a mainstream stack that can grow."
+      }
+    ]
+  },
+  "presence": "TDM works with New York City companies remotely. We have no office or team member in New York. Discovery sessions, demos and reviews take place by video call, with staging environments you can test at any time.",
+  "faqs": [
+    {
+      "q": "When does a business need custom development and not a ready-made platform?",
+      "a": "When the way you operate cannot be configured in existing software without awkward workarounds, or when the software itself is your product. If WordPress, Shopify or a standard booking tool covers your needs, we will recommend that, as it costs less to build and run."
+    },
+    {
+      "q": "Can a remote team build software for a New York company?",
+      "a": "Yes. Requirements are gathered in workshops by video call, progress is shown on a staging site at each stage, and code sits in a repository you own. Most of our clients work with us this way."
+    },
+    {
+      "q": "Which technologies do you use?",
+      "a": "Next.js and React for the frontend, Laravel and Node.js for the backend, with databases and hosting chosen per project. We pick widely used tools so that you can hire for them later."
+    },
+    {
+      "q": "How long does a custom web application take to build?",
+      "a": "It depends on the features, integrations and how settled the requirements are. We agree milestones and dates in the plan once discovery is complete."
+    },
+    {
+      "q": "How much does custom web development cost in New York City?",
+      "a": "Cost follows scope and complexity. After a free consultation and discovery we provide a quote for the agreed work."
+    }
+  ]
+}

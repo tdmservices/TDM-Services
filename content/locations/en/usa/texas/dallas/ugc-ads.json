@@ -1,0 +1,64 @@
+{
+  "slug": "usa/texas/dallas/ugc-ads",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/ugc-ads",
+  "title": "UGC Ads for Dallas Brands",
+  "metaTitle": "UGC Ads Production for Dallas Brands | TDM",
+  "metaDescription": "UGC ads for Dallas brands: creator-style videos scripted, produced and edited by TDM, delivered in batches of hooks and tested against real ad data.",
+  "lead": "TDM (The Digital Marketing Services) scripts, produces and edits UGC ads for Dallas brands. These are creator-style videos, handheld and spoken to camera, that run as paid ads on Meta and TikTok and read like a recommendation from a customer. We write the hooks and scripts, source and direct the people on camera, and edit each concept into several versions ready to run. Production is managed from our hub in Lahore, so you do not have to recruit or manage creators yourself.",
+  "sections": [
+    {
+      "heading": "Why Dallas product brands turn to this format",
+      "paragraphs": [
+        "Many product companies in Dallas grew up selling wholesale. They take orders from retail buyers at the Dallas Market Center in apparel, gifts and home goods, and they are good at it. Selling direct to consumers online is a different skill. A buyer at a showroom handles the product and talks to a rep. A shopper scrolling a phone gives an advert a couple of seconds. A video of an ordinary person opening the box, using the product and saying what they think does part of the job the showroom used to do.",
+        "The same applies to newer brands in beauty, fitness, food and drink that have never had a showroom. Their polished brand video may look good on the website while the ad account asks for something plainer and more frequent. UGC supplies that volume."
+      ]
+    },
+    {
+      "heading": "What a batch includes",
+      "paragraphs": [
+        "We deliver in batches, because an account with one or two videos has nothing to compare. Each concept is filmed with more than one opening, since the first seconds decide whether anyone watches the rest."
+      ],
+      "bullets": [
+        "Hooks and scripts written from angles that already convert in your account, where that data exists.",
+        "On-camera talent chosen to resemble the customers you sell to.",
+        "Directed filming: unboxing, demonstration, problem and solution, comparison and testimonial styles.",
+        "Editing with captions, in vertical formats and several lengths.",
+        "Alternative hooks and calls to action for each concept.",
+        "A review of results after each batch, with winners developed and weak angles dropped."
+      ]
+    },
+    {
+      "heading": "Making it believable to a Texas buyer",
+      "paragraphs": [
+        "Because production is managed from Lahore, the brief has to carry the local knowledge. We ask who actually buys: a family in Frisco furnishing a new house, a young professional in Uptown, a customer in a small town who orders online because the nearest stockist is hours away. That decides the casting, the setting and the words. A script that mentions a patio in July heat, tailgating before a game or a gift for the holidays lands better with a Texas audience than a generic one, provided it is true to the product. You send samples for filming, and the scripts come to you for approval before anything is recorded.",
+        "Honesty matters as well. Scripted creator content is advertising and should be presented as such under platform and advertising rules. Claims about health, skin or weight need evidence, and we do not write reviews that pretend to be from real customers."
+      ]
+    },
+    {
+      "heading": "What to check before buying UGC",
+      "paragraphs": [
+        "Ask who owns the footage and whether you may run it as paid advertising, for how long and on which platforms. Ask how many distinct hooks you will receive, not just how many videos. Ask whether anyone will look at the results and change the next batch. And ask to approve scripts in advance. With TDM, the media team works beside the people who buy the ads, so the numbers feed directly into the next round of scripts."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Where Dallas brands use UGC ads",
+    "items": [
+      { "title": "Wholesale brands going direct", "text": "Gift, home and apparel labels adding an online store beside their showroom business." },
+      { "title": "Beauty and personal care", "text": "Routine, texture and first-impression videos, with claims kept within advertising rules." },
+      { "title": "Food and drink", "text": "Taste tests, recipes and unboxings for sauces, snacks and beverages sold online." },
+      { "title": "Fitness and wellness products", "text": "Demonstrations in real homes and gyms that show the product in use." },
+      { "title": "Home and outdoor goods", "text": "Patio, kitchen and decor products shown in the kind of house the buyer lives in." }
+    ]
+  },
+  "presence": "TDM serves Dallas brands remotely and has no office or creators based in the city. Scripting, talent sourcing, filming direction and editing are managed from our Lahore production hub, with briefs and approvals handled online.",
+  "faqs": [
+    { "q": "Are your UGC creators in Dallas?", "a": "Not necessarily. Production is managed from our hub in Lahore and we source talent to match the customers you are targeting. We have no creators based in Dallas, and we brief each video closely so the setting and wording suit your audience." },
+    { "q": "What do UGC ads cost for a Dallas brand?", "a": "The price depends on scope: the number of concepts, hooks and versions in a batch. We provide a quote after a free consultation." },
+    { "q": "Do UGC ads work for a brand that mostly sells wholesale?", "a": "They can, for the consumer side of the business. If you have or plan an online store, creator-style ads are a practical way to reach shoppers who will never visit a showroom. They are less useful for reaching retail buyers." },
+    { "q": "How do we get products to you for filming?", "a": "You ship samples for the shoot, and we confirm the address, quantities and timing during planning. Scripts and concepts are approved by you before filming begins." },
+    { "q": "How long does a batch of UGC ads take?", "a": "It depends on the brief, the number of concepts and how quickly samples and approvals arrive. The timeline is agreed in the plan." }
+  ]
+}

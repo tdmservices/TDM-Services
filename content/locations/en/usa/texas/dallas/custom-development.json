@@ -1,0 +1,93 @@
+{
+  "slug": "usa/texas/dallas/custom-development",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/custom-development",
+  "title": "Custom Web Development Company in Dallas",
+  "metaTitle": "Custom Web Development Company in Dallas, TX | TDM",
+  "metaDescription": "Custom web applications for Dallas companies: client portals, booking and dispatch systems, marketplaces and integrations in Next.js and Laravel.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom web platforms and applications for Dallas companies, working remotely. We take on the projects that off-the-shelf software cannot handle: client portals, booking and dispatch systems, marketplaces and internal tools, built in Next.js, React, Laravel and Node.js. Dallas has a dense middle tier of logistics, real estate, staffing and service companies that have outgrown spreadsheets and generic software but have no engineering department of their own. That is who this service is for.",
+  "sections": [
+    {
+      "heading": "Where Dallas companies outgrow packaged software",
+      "paragraphs": [
+        "A freight broker near the airport tracks loads in one system, emails rate confirmations from another and answers \"where is my shipment\" by phone. A commercial property manager in Uptown sends tenants to three different logins for rent, maintenance and documents. A staffing agency in Irving matches candidates to shifts with a shared spreadsheet. In each case the business runs, but staff spend their days copying data between tools and customers wait for answers a portal could give them instantly.",
+        "Packaged products solve the general version of these problems. They rarely match how one company prices, approves or schedules. When the workarounds start to cost more than the licence saves, a purpose-built application begins to pay for itself. The point of custom software is to fit the way the company already wins business, not to force a new process on it.",
+        "North Texas companies also grow by buying competitors, and each acquisition arrives with its own software. A custom layer that pulls data from several inherited systems into one view is often the fastest way to run the combined business."
+      ]
+    },
+    {
+      "heading": "What we build and how",
+      "paragraphs": [
+        "Discovery comes first. We turn your goals, users and workflows into a written specification with features, a data model, milestones and a scope you sign off. Screens are designed and prototyped so your team can click through the product before development begins. Development then runs in short cycles with a staging preview, so you see working software early and can steer it."
+      ],
+      "bullets": [
+        "Next.js and React frontends that load quickly and can be indexed by search engines.",
+        "Laravel and Node.js backends with authentication, roles and permissions, payments and business logic.",
+        "REST or GraphQL APIs that a future mobile app or partner system can use.",
+        "Integrations with payment gateways, CRMs, accounting, mapping, messaging and logistics services.",
+        "Custom modules on WordPress or Shopify when extending a platform is quicker than starting from nothing.",
+        "Cloud hosting, automated deployment, monitoring and backups set up from the first release."
+      ]
+    },
+    {
+      "heading": "Questions to settle before a build starts",
+      "paragraphs": [
+        "Ownership should be clear in writing: the source code, the repositories and the hosting accounts ought to belong to your company once paid for. Ask how changes to scope are handled, because they will happen. Ask for documentation and a handover as part of the price, so another developer could pick the project up.",
+        "Consider the data involved. A portal that holds patient information, financial records or personal details of Texas residents carries legal duties under health privacy rules and state privacy law. Your legal or compliance adviser defines what applies, and we design access controls, encryption and logging to meet it."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Custom builds that suit Dallas industries",
+    "items": [
+      {
+        "title": "Logistics and freight",
+        "text": "Shipper portals with quotes, load status and documents, connected to the systems dispatchers already use."
+      },
+      {
+        "title": "Commercial real estate",
+        "text": "Listing platforms with map search, tenant portals and deal rooms for brokers, owners and property managers."
+      },
+      {
+        "title": "Staffing and recruitment",
+        "text": "Candidate and client dashboards, shift matching and timesheet approval in one place."
+      },
+      {
+        "title": "Healthcare groups",
+        "text": "Scheduling and intake tools for multi-site practices, designed around the privacy requirements your advisers set."
+      },
+      {
+        "title": "Field service companies",
+        "text": "Job booking, routing across the Metroplex and customer notifications for crews working from Mesquite to Flower Mound."
+      },
+      {
+        "title": "Event and venue operators",
+        "text": "Booking systems with availability, deposits and add-ons for venues, tours and experiences."
+      }
+    ]
+  },
+  "presence": "TDM delivers custom development for Dallas companies remotely. We do not have an office or any staff in Dallas. Workshops, design reviews and demos take place on video calls, and you have access to the staging site throughout.",
+  "faqs": [
+    {
+      "q": "When does a Dallas business need custom software instead of an off-the-shelf tool?",
+      "a": "When the way you price, schedule or serve customers is a real advantage and no product supports it without heavy workarounds, or when staff spend hours moving data between systems. If a packaged tool covers most of the need, we will suggest using it and building only the missing part."
+    },
+    {
+      "q": "Can you integrate with the software we already use?",
+      "a": "Usually. Most modern CRM, accounting, dispatch and payment systems offer an API. During discovery we check what each of your systems exposes and plan the integration around that."
+    },
+    {
+      "q": "Will we own the code?",
+      "a": "Ownership terms are set out in the agreement before work starts. Our standard approach is that the client holds the code, repositories and hosting accounts for work it has paid for, with documentation supplied at handover."
+    },
+    {
+      "q": "What does a custom web application cost?",
+      "a": "It depends on the scope: the number of user roles, screens and integrations, and the level of security required. We quote after a free consultation and a discovery phase that fixes the specification."
+    },
+    {
+      "q": "How long does custom development take?",
+      "a": "The timeline depends on your requirements and the brief. Milestones are agreed in the plan, and a first working version is shown on staging early so progress is visible."
+    }
+  ]
+}

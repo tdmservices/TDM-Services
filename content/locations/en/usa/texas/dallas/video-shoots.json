@@ -1,0 +1,65 @@
+{
+  "slug": "usa/texas/dallas/video-shoots",
+  "locale": "en",
+  "kind": "service",
+  "service": "media/video-shoots",
+  "title": "Video Shoots and Production for Dallas Businesses",
+  "metaTitle": "Video Shoots and Production in Dallas, TX | TDM",
+  "metaDescription": "Video shoots for Dallas businesses, planned, scripted and directed by TDM. Filming arranged locally, post-production at our hub, finished videos delivered.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for Dallas businesses and delivers finished videos: brand films, product videos, testimonials and footage for ads and social media. We have no studio or crew of our own in Dallas. Planning, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business or product is. For videos where the product is the subject, clients often ship it to us and approve everything remotely.",
+  "sections": [
+    {
+      "heading": "What Dallas offers a camera, and what it demands",
+      "paragraphs": [
+        "Dallas films well. The skyline with Reunion Tower, the white arch of the Margaret Hunt Hill Bridge, the murals of Deep Ellum, the storefronts of Bishop Arts, the lawn at Klyde Warren Park and the Art Deco buildings of Fair Park give very different backdrops within a short drive. Glass office campuses in Las Colinas and Plano suit corporate work.",
+        "The conditions need respect. Summer heat makes midday exterior work hard on people and equipment, so outdoor scenes belong in the early morning or the last hours of light. Spring brings thunderstorms and hail that can cancel a day with little notice. Filming on city streets, in parks and on other public property generally requires a permit from the city concerned, and the suburbs each set their own rules. Office towers and corporate campuses add another layer: building management, security desks and sometimes a communications team must approve before a camera comes through the door."
+      ]
+    },
+    {
+      "heading": "How we organise a shoot",
+      "paragraphs": [
+        "We start from where the footage will be used: which adverts, web pages and channels it must feed. From that we write a treatment and scripts for your approval, then fix casting, locations, props and a shot-by-shot schedule. Filming is arranged in Dallas against that approved list. The footage goes directly into our own edit pipeline and returns as finished videos in every format required."
+      ],
+      "bullets": [
+        "Scripts, interview questions and on-screen text signed off before the day.",
+        "Each setup framed for vertical and horizontal use.",
+        "Permits, building access and location releases identified during pre-production.",
+        "An indoor alternative for every outdoor scene, in case of heat or storms.",
+        "A shot list built to produce a main film plus a bank of shorter clips from one production day.",
+        "Editing by the same team that planned the shoot."
+      ]
+    },
+    {
+      "heading": "Corporate films, testimonials and place-based shoots",
+      "paragraphs": [
+        "Much of the video Dallas companies need is about people and premises. A professional firm wants its partners on camera explaining what they do. An employer competing for staff wants a recruitment film that shows the real workplace. A roofer or builder wants a homeowner describing the job in front of the finished house. A restaurant or hotel needs the room itself. These must be filmed on location, and they depend on preparation: briefed interviewees, a quiet room, cleared schedules and permission to film.",
+        "A product video is different. A candle, a pair of boots or a bottle of sauce can be filmed anywhere, so brands frequently send stock to our Lahore hub, agree the treatment and shot list by video call, and receive finished videos without attending a set."
+      ]
+    },
+    {
+      "heading": "Points to confirm with any production company",
+      "paragraphs": [
+        "Find out whether you will receive edited videos or only raw files. Ask who arranges permits, insurance and releases for people and property. Ask how many finished videos are included and in which lengths. Ask what happens if weather stops the day. Our plan sets these out before a date is booked."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Shoots Dallas businesses often need",
+    "items": [
+      { "title": "Executive and expert interviews", "text": "Partners, founders and specialists on camera for websites, proposals and LinkedIn." },
+      { "title": "Recruitment films", "text": "The workplace and the people in it, for employers hiring in a competitive market." },
+      { "title": "Customer testimonials", "text": "Homeowners and business clients describing the work in their own words, filmed on site." },
+      { "title": "Commercial property and construction", "text": "Walkthroughs, progress films and aerial views for developers, brokers and contractors." },
+      { "title": "Restaurant and venue films", "text": "Food, room and service captured for the website and a store of social clips." },
+      { "title": "Product videos from shipped stock", "text": "Demonstrations and detail shots filmed at our hub for product pages and ads." }
+    ]
+  },
+  "presence": "TDM works with Dallas businesses remotely and has no office, studio or resident crew in the city. Concept, scripting and post-production are handled by our production hub in Lahore, and filming is arranged locally for each project.",
+  "faqs": [
+    { "q": "Does TDM have a studio or film crew in Dallas?", "a": "No. We do not operate a studio or keep a crew in Dallas. We plan, script and direct the production, filming is arranged locally for each project, and post-production runs from our hub in Lahore. Product-led videos can be filmed from stock shipped to us." },
+    { "q": "What does a video shoot cost in Dallas?", "a": "It depends on scope: locations, people on camera, the number of shoot days and the number of finished videos. We quote after a free consultation, when the purpose and shot list are clear." },
+    { "q": "Do I need a permit to film in Dallas?", "a": "Filming on public property such as streets and parks generally needs a permit from the relevant city, and neighbouring cities have their own requirements. Private premises need the owner's or building manager's consent. We check what applies during pre-production." },
+    { "q": "When is the best time of year to film outdoors in Dallas?", "a": "Autumn and spring are the most comfortable, though spring carries a risk of storms. In summer we schedule exterior scenes early or late in the day and keep an interior setup ready." },
+    { "q": "How far in advance should a shoot be planned?", "a": "It depends on the brief, the locations and the people involved, and the schedule is agreed in the plan. Corporate shoots that need building and communications approval should allow extra time for those sign-offs." }
+  ]
+}

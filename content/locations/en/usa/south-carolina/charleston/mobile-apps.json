@@ -1,0 +1,92 @@
+{
+  "slug": "usa/south-carolina/charleston/mobile-apps",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/mobile-apps",
+  "title": "Mobile App Development in Charleston, SC",
+  "metaTitle": "Mobile App Development in Charleston, SC | TDM",
+  "metaDescription": "iOS and Android app development for Charleston businesses: visitor and booking apps, field tools for port and plant suppliers, patient and resident apps.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Charleston businesses, from the first user research to release on the App Store and Google Play. We build native apps in Swift and Kotlin, and cross-platform apps in Flutter or React Native. Charleston is a city people experience on foot and by phone, and it also has a large workforce that never sits at a desk, so apps here tend to serve either a guest in the street or an employee on a dock, a ward or a job site.",
+  "sections": [
+    {
+      "heading": "Who uses apps in Charleston",
+      "paragraphs": [
+        "Visitors are the obvious group. Someone walking south of Broad, queuing for a harbor tour or waiting for a table on King Street has a phone in hand and a short attention span. Tour operators, hotel groups, restaurant groups and attractions use apps for self-guided routes, tickets, room access, ordering and loyalty. An app only earns its place here if a guest will open it more than once, so we are frank when a fast mobile website would do the job.",
+        "The second group is larger and less visible. Truck drivers checking in at the terminals, technicians working for plant suppliers in North Charleston and Ladson, home health staff, property inspectors and construction crews across Summerville and Johns Island all need to record work where it happens. For them an app replaces paper forms and phone calls back to the office.",
+        "The third group is the region's software community. Founders in the area often called Silicon Harbor come to us for a first version of a product they need to put in front of users and investors."
+      ]
+    },
+    {
+      "heading": "How a build runs",
+      "paragraphs": [
+        "We start by defining who the user is and what single task the app must make easier. Then come wireframes and a clickable prototype, which you test before any code is written. Development runs in sprints, and you receive test builds on your own phone throughout."
+      ],
+      "bullets": [
+        "Native iOS in Swift and native Android in Kotlin with Jetpack Compose, when performance or deep device features matter.",
+        "Flutter or React Native when one codebase for both platforms suits the budget and the product.",
+        "Back-end, admin panel and integrations with booking, payment, mapping and messaging services.",
+        "Testing on real devices, including weak-signal conditions.",
+        "Store submission and support after launch."
+      ]
+    },
+    {
+      "heading": "Details that are particular to this city",
+      "paragraphs": [
+        "Coverage is uneven inside thick-walled historic buildings, on the water and inside steel warehouses, so offline mode is not optional for a tour, a boat charter or a yard-check app. Location features need care on a peninsula where a wrong pin can put a guest on the far side of a creek. Visitor apps should be built for a short, intense relationship: easy sign-up, useful within a minute, and no reason to delete after the trip if the guest may return for a wedding or a festival.",
+        "Storm season is another design input. Venues, schools, marinas and property managers use push notifications to tell people about closures and reopenings, and that channel has to be set up and tested long before it is needed. Apps that touch health information for clinics near the medical district carry privacy obligations that must be part of the specification from day one."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Apps Charleston businesses ask about",
+    "items": [
+      {
+        "title": "Tours and attractions",
+        "text": "Self-guided walks, audio stops, ticketing and maps that keep working without a signal."
+      },
+      {
+        "title": "Hotels and restaurant groups",
+        "text": "Booking, ordering, loyalty and guest messaging tied to the systems the front desk and kitchen already use."
+      },
+      {
+        "title": "Field and yard teams",
+        "text": "Checklists, photos, signatures and job status for drivers, technicians and crews around the port and the plants."
+      },
+      {
+        "title": "Clinics and wellness practices",
+        "text": "Appointments, reminders and secure messaging for patients, planned around privacy requirements."
+      },
+      {
+        "title": "Property and community apps",
+        "text": "Resident notices, maintenance requests and amenity bookings for neighbourhoods in Mount Pleasant, Daniel Island and Summerville."
+      },
+      {
+        "title": "Startup first versions",
+        "text": "A focused first release for local founders, built so that later features do not require starting again."
+      }
+    ]
+  },
+  "presence": "A member of our team is based in South Carolina, not in Charleston itself, and can be your first point of contact. Design, development and testing are carried out remotely by TDM's wider team, and you follow progress through scheduled calls and test builds installed on your own devices.",
+  "faqs": [
+    {
+      "q": "Is there a mobile app developer for Charleston businesses at TDM?",
+      "a": "Yes. TDM builds iOS and Android apps for companies in Charleston, Mount Pleasant, North Charleston and Summerville. The work is delivered remotely, and a member of our team is based in South Carolina."
+    },
+    {
+      "q": "Does my Charleston tour or restaurant need an app or just a mobile website?",
+      "a": "It depends on repeat use. Offline maps, audio, tickets, loyalty and push notifications justify an app. If guests only need a menu, opening hours and a booking button, a well-built mobile site costs less and reaches more people."
+    },
+    {
+      "q": "Should we choose native or cross-platform?",
+      "a": "Native suits apps that lean heavily on GPS, camera, sensors or demanding performance. Flutter or React Native suits content, commerce and workflow apps where reaching both platforms quickly matters more. We build both and recommend per project."
+    },
+    {
+      "q": "How much does it cost to build an app in Charleston?",
+      "a": "Cost follows scope: the number of screens and features, the platforms, the back-end and the integrations. We give a quote after a free consultation and a clear definition of the first release."
+    },
+    {
+      "q": "How long before the app is in the stores?",
+      "a": "It depends on your requirements and the brief. The release schedule, including store review, is set out in the project plan we agree with you before development starts."
+    }
+  ]
+}

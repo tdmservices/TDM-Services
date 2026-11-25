@@ -1,0 +1,95 @@
+{
+  "slug": "usa/texas/houston/magento",
+  "locale": "en",
+  "kind": "service",
+  "service": "development/magento",
+  "title": "Magento Development Agency in Houston",
+  "metaTitle": "Magento Development Agency in Houston, TX | TDM",
+  "metaDescription": "Magento and Adobe Commerce for Houston distributors and retailers: B2B catalogues, customer pricing, ERP integration, upgrades and performance work.",
+  "lead": "TDM (The Digital Marketing Services) builds, extends and maintains Magento Open Source and Adobe Commerce stores for Houston companies, working remotely. Magento suits merchants with large or complicated catalogues, pricing that differs by customer and orders that must pass into an ERP or warehouse system. That describes a great many Houston businesses, because so much of the city's trade is distribution: pipe, valves and fittings, pumps, electrical and safety supplies, and medical equipment.",
+  "sections": [
+    {
+      "heading": "Why Magento fits Houston's distributors",
+      "paragraphs": [
+        "An industrial distributor does not sell the way a consumer brand does. Its catalogue can run to tens of thousands of items that differ by size, pressure class, material and end connection. Its customers are companies with negotiated price lists, purchase order numbers, credit terms and several approved buyers on one account. They reorder the same items repeatedly and expect to check stock at a particular branch before they send a truck.",
+        "Magento handles this natively or through well-tested extensions: company accounts with roles, customer-specific catalogues and prices, quick order by part number, requisition lists, quote requests and payment on account. Simpler platforms can imitate some of it with apps, but the workarounds become fragile as the catalogue grows.",
+        "The same strengths serve suppliers around the Texas Medical Center who sell equipment and consumables to clinics and laboratories, and larger retailers with several store brands that need to run from one back end."
+      ]
+    },
+    {
+      "heading": "The work we do",
+      "paragraphs": [
+        "We develop on Magento the way the platform intends, with proper modules and no changes to core code, so upgrades stay possible. Hosting and caching are set up for the platform, since most slow Magento stores are slow for configuration reasons."
+      ],
+      "bullets": [
+        "New builds on Magento Open Source or Adobe Commerce, with theme design for desktop and mobile buyers.",
+        "B2B features: company accounts, price lists, quote workflows, quick order and reordering.",
+        "Catalogue structure and search: attributes and filters that let a buyer narrow thousands of parts to the right one.",
+        "Integration with ERP, CRM, warehouse and shipping systems so stock, prices and orders stay in step.",
+        "Custom modules for requirements no extension covers.",
+        "Performance audits, security patches and upgrades from old or unsupported versions.",
+        "Multi-store setups for companies with several brands or regions."
+      ]
+    },
+    {
+      "heading": "What to settle before a Magento project",
+      "paragraphs": [
+        "Start with the data. In most distribution projects the hard part is product information: part numbers, attributes, images and data sheets held in an ERP, in spreadsheets and in manufacturers' files. Agree early where each piece will come from and who keeps it current, because a store with thin product data will not be used by buyers however well it is built.",
+        "Decide which system is in charge of what. Usually the ERP owns prices, stock and customers, and Magento displays them and sends orders back. We map those flows in discovery and test them with real orders before launch.",
+        "Be honest about fit. Magento needs ongoing technical care, and for a small catalogue with simple pricing it is more than you need. We also build on Shopify, WordPress and custom stacks, so if one of those suits your business better we will recommend it."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Houston use cases for Magento",
+    "items": [
+      {
+        "title": "Pipe, valve and fitting distributors",
+        "text": "Deep attribute-driven catalogues, customer price lists and stock by branch, with quotes for non-stock items."
+      },
+      {
+        "title": "Safety and industrial supply",
+        "text": "Fast reordering for plant and contractor accounts, approval steps and purchase order checkout."
+      },
+      {
+        "title": "Medical and laboratory supply",
+        "text": "Account-based ordering for clinics and labs, with restricted products shown only to approved customers."
+      },
+      {
+        "title": "Multi-brand retailers",
+        "text": "Several storefronts managed from one admin, sharing inventory and customer data."
+      },
+      {
+        "title": "Rescue and upgrade",
+        "text": "Audits of slow or outdated stores, patching, version upgrades and cleanup of risky customisations."
+      },
+      {
+        "title": "Re-platforming",
+        "text": "Moves onto Magento from a legacy system, or away from it when a lighter platform is the right answer."
+      }
+    ]
+  },
+  "presence": "TDM delivers Magento work for Houston companies remotely. We have no office or staff in Houston. Discovery workshops, demos and testing sessions are held online with your sales, IT and warehouse teams.",
+  "faqs": [
+    {
+      "q": "Is Magento a good platform for an industrial distributor?",
+      "a": "Often, yes. It supports large catalogues, customer-specific pricing, company accounts, quotes and ERP integration, which are the usual needs in distribution. Whether it is right for you depends on catalogue size, pricing complexity and the systems you already run."
+    },
+    {
+      "q": "Can Magento connect to our ERP?",
+      "a": "Yes. Magento has a full API and there are connectors for many common ERP systems. Where no suitable connector exists, we build the integration. We confirm what your ERP can expose during discovery."
+    },
+    {
+      "q": "Our Magento store is slow and on an old version. Can it be fixed?",
+      "a": "Usually. We start with an audit of code, extensions, hosting and caching, then recommend either an upgrade with cleanup or, if the store is too far gone, a rebuild. Unsupported versions should be upgraded for security reasons."
+    },
+    {
+      "q": "What does Magento development cost in Houston?",
+      "a": "It depends on scope: catalogue size, B2B features, integrations and the state of any existing store. We provide a quote after a free consultation."
+    },
+    {
+      "q": "How long does a Magento build or upgrade take?",
+      "a": "It depends on your requirements, the integrations involved and the readiness of your product data. The timeline is agreed in the plan after discovery."
+    }
+  ]
+}
