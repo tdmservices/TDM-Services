@@ -26,13 +26,13 @@ export const guides: ServiceGuides = {
         heading: "What to expect once the build starts",
         body: [
           "You will be asked for more than files: your product rules (which options exist and which combinations are not allowed), access to a test version of your site or store, and one person who can approve decisions.",
-          "A small working sample normally comes before the full build. Approve it on the phone your customers actually use, not on a designer's workstation. How long each stage takes depends on the brief and the state of your assets, and is agreed in the plan.",
+          "A small working sample comes before the full build. Approve it on the phone your customers use, not on a designer's workstation. How long each stage takes depends on the brief and the state of your assets, and is agreed in the plan.",
         ],
       },
       {
         heading: "How to judge the result, and warning signs",
         body: [
-          "Judge it on your own devices and on an ordinary mobile connection. It should load without a long wait, show colours and materials that match the real product, and pass the right options through to the order or enquiry.",
+          "Judge it on your own devices and on a mobile connection. It should load without a long wait, show colours and materials that match the real product, and pass the right options through to the order or enquiry.",
           "Be wary of a supplier who demonstrates only on a powerful computer, has no answer for devices that cannot run 3D, keeps the source code or the models, or quotes without asking where the experience will be embedded.",
         ],
       },
@@ -75,7 +75,7 @@ export const guides: ServiceGuides = {
       {
         heading: "How to judge a model, and warning signs",
         body: [
-          "Warning signs appear early: a supplier who never asks where the model will be used shows no wireframes in a portfolio, or is reluctant to hand over source files.",
+          "Warning signs appear early: a supplier who never asks where the model will be used, shows no wireframes in a portfolio, or is reluctant to hand over source files.",
           "When the files arrive, open them where they will be used instead of judging from a preview image, and check that:",
         ],
         bullets: [
