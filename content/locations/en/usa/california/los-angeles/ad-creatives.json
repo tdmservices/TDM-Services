@@ -32,8 +32,7 @@
         "Carousels that tell a story, compare products or show a collection, plus frames for catalog ads.",
         "Animated statics, kinetic text and short motion pieces that need no video shoot.",
         "Headlines, offer text and calls to action written as part of the design.",
-        "Versions for feed, story, banner and display placements, delivered ready to upload.",
-        "Work designed inside your existing brand guidelines, or a working system built from your current assets."
+        "Versions for feed, story, banner and display placements, delivered ready to upload."
       ]
     },
     {
@@ -47,20 +46,45 @@
   "cards": {
     "heading": "Creative Los Angeles advertisers request",
     "items": [
-      { "title": "Launch campaigns", "text": "A full set of statics, carousels and motion pieces for a new product or collection." },
-      { "title": "Sale and seasonal sets", "text": "Offer-led creative for holiday periods and promotions, consistent with the everyday brand look." },
-      { "title": "Neighbourhood versions", "text": "Local-service ads tailored to each area, from the Westside to the San Gabriel Valley." },
-      { "title": "Catalog and shopping ads", "text": "Branded frames and overlays for dynamic product ads drawn from your store feed." },
-      { "title": "Lead-generation ads", "text": "Clear, specific creative for clinics, professional firms and home services that need enquiries." },
-      { "title": "Fatigue refreshes", "text": "New variations of proven directions when frequency rises and results begin to slip." }
+      {
+        "title": "Launch campaigns",
+        "text": "A full set of statics, carousels and motion pieces for a new product or collection."
+      },
+      {
+        "title": "Sale and seasonal sets",
+        "text": "Offer-led creative for holiday periods and promotions, consistent with the everyday brand look."
+      },
+      {
+        "title": "Neighbourhood versions",
+        "text": "Local-service ads tailored to each area, from the Westside to the San Gabriel Valley."
+      },
+      {
+        "title": "Lead-generation ads",
+        "text": "Clear, specific creative for clinics, professional firms and home services that need enquiries."
+      },
+      {
+        "title": "Fatigue refreshes",
+        "text": "New variations of proven directions when frequency rises and results begin to slip."
+      }
     ]
   },
   "presence": "TDM designs ad creatives for Los Angeles clients remotely. We have no office or team member in Los Angeles. Briefs, concept reviews and approvals are handled online, and finished files are delivered ready for your ad accounts.",
   "faqs": [
-    { "q": "What ad creatives does TDM design for Los Angeles businesses?", "a": "Static images, carousels, display banners and short motion graphics for Meta, TikTok, Google and other networks, with each approved concept produced in all the placement sizes the campaign uses." },
-    { "q": "How much does ad creative design cost in Los Angeles?", "a": "It depends on how many concepts, formats and versions are needed and how often they are refreshed. We quote after a free consultation." },
-    { "q": "Should a local LA business make different ads for different neighbourhoods?", "a": "Often, yes. People respond to ads that mention their own area and a nearby location. If you serve several parts of the city, separate versions per area let you compare results and spend where enquiries are cheapest." },
-    { "q": "How often should ads be refreshed?", "a": "When performance shows it is needed. Accounts that spend more wear creative out faster. For campaigns we manage, we watch for fatigue and prepare the next batch before costs rise." },
-    { "q": "How long does a batch of ad creatives take?", "a": "It depends on the brief, the number of concepts and how quickly feedback comes back. Delivery dates are agreed in the plan." }
+    {
+      "q": "What ad creatives does TDM design for Los Angeles businesses?",
+      "a": "Static images, carousels, display banners and short motion graphics for Meta, TikTok, Google and other networks, with each approved concept produced in all the placement sizes the campaign uses."
+    },
+    {
+      "q": "How much does ad creative design cost in Los Angeles?",
+      "a": "It depends on how many concepts, formats and versions are needed and how often they are refreshed. A free consultation comes first, then a quote."
+    },
+    {
+      "q": "Should a local LA business make different ads for different neighbourhoods?",
+      "a": "Often, yes. People respond to ads that mention their own area and a nearby location. If you serve several parts of the city, separate versions per area let you compare results and spend where enquiries are cheapest."
+    },
+    {
+      "q": "How often should ads be refreshed?",
+      "a": "When performance shows it is needed. Accounts that spend more wear creative out faster. For campaigns we manage, we watch for fatigue and prepare the next batch before costs rise."
+    }
   ]
 }

@@ -6,14 +6,13 @@
   "title": "Mobile App Development in Los Angeles",
   "metaTitle": "Mobile App Development in Los Angeles, CA | TDM",
   "metaDescription": "iOS and Android apps for Los Angeles startups and businesses: native Swift and Kotlin or Flutter and React Native, from UX research to store release.",
-  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Los Angeles startups and established businesses, working remotely. We build native apps in Swift and Kotlin, and cross-platform apps in Flutter or React Native, and we take each one from UX research through to release on the App Store and Google Play. In a city where consumer startups, fitness and food brands and entertainment companies all compete for a place on the same home screen, an app has to earn its space quickly.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Los Angeles startups and established businesses, working remotely. We build native apps in Swift and Kotlin, and cross-platform apps in Flutter or React Native, and we take each one from UX research through to release on the App Store and Google Play.",
   "sections": [
     {
       "heading": "What an app has to do in Los Angeles",
       "paragraphs": [
         "The Westside, from Santa Monica and Venice down to Playa Vista, is home to many consumer technology companies, and people here have tried a great many apps. They judge a new one in the first minute. Sign-up has to be short, the first screen has to be useful, and anything slow gets deleted.",
-        "Geography shapes the product as well. Los Angeles is spread out and most people drive, so distance is measured in minutes of traffic, not miles. An app that books a class, a table, a pickup or a technician should show realistic travel and arrival times, and a customer in Pasadena should not be offered a slot in Culver City at rush hour. Ordering ahead, curbside pickup and delivery tracking matter more here than in a compact city.",
-        "The local industries bring their own needs. Studios and production companies want apps for crews and schedules. Fitness and wellness brands want memberships and class booking. Restaurants and coffee groups want ordering and loyalty. Event and venue businesses want tickets and entry."
+        "Geography shapes the product as well. Los Angeles is spread out and most people drive, so distance is measured in minutes of traffic, not miles. An app that books a class, a table, a pickup or a technician should show realistic travel and arrival times, and a customer in Pasadena should not be offered a slot in Culver City at rush hour. Ordering ahead, curbside pickup and delivery tracking matter more here than in a compact city."
       ]
     },
     {
@@ -26,40 +25,68 @@
         "Flutter or React Native when one codebase for both stores suits the budget and the product.",
         "The backend the app depends on: APIs, sign-in, payments, push notifications and live features such as tracking and chat.",
         "Testing on real devices and operating system versions, including weak-signal conditions.",
-        "Store submission for Apple and Google, with listings, screenshots and review handled for you.",
-        "Crash and usage monitoring after launch, with updates planned from what people actually do."
+        "Store submission for Apple and Google, with listings, screenshots and review handled for you."
       ]
     },
     {
       "heading": "Privacy and store rules for a California app",
       "paragraphs": [
-        "California's consumer privacy law applies to many businesses that collect personal data from residents, and both app stores ask you to declare what an app collects. Apple also expects apps that let people create an account to let them delete it from inside the app. These points are simpler to design in from the start than to add after a rejected review. We plan the data an app collects, the consent screens and the deletion flow during design. The legal wording of a privacy policy should come from your lawyer."
+        "California's consumer privacy law applies to many businesses that collect personal data from residents, and both app stores ask you to declare what an app collects. Apple also expects apps that let people create an account to let them delete it from inside the app. We plan the data an app collects, the consent screens and the deletion flow during design. The legal wording of a privacy policy should come from your lawyer."
       ]
     },
     {
       "heading": "Checks to make before you sign with any developer",
       "paragraphs": [
-        "Ask whether the developer accounts and the source code will be in your company's name. Ask whether the backend is included or quoted separately. Ask to try working builds on your own phone during the project, not only at the end. And ask who maintains the app when the next version of iOS or Android arrives. With TDM, these answers are written into the plan before work begins."
+        "Ask whether the developer accounts and the source code will be in your company's name. Ask whether the backend is included or quoted separately. Ask to try working builds on your own phone during the project, not only at the end. And ask who maintains the app when the next version of iOS or Android arrives."
       ]
     }
   ],
   "cards": {
     "heading": "Apps Los Angeles companies commission",
     "items": [
-      { "title": "Startup first release", "text": "A tightly scoped first version for a Westside or Downtown startup that needs something real to put in front of users and investors." },
-      { "title": "Booking and membership", "text": "Class schedules, passes and payments for studios, gyms and wellness brands with several locations." },
-      { "title": "Ordering and loyalty", "text": "Order-ahead, pickup, delivery status and rewards for restaurant groups and cafes." },
-      { "title": "On-demand and delivery", "text": "Customer, driver and dispatcher apps with live maps, built on our experience with ride-hailing and food delivery." },
-      { "title": "Crew and field tools", "text": "Schedules, call sheets, job details and photo reports for production teams and home-service crews." },
-      { "title": "Commerce companion apps", "text": "A shopping app tied to an existing online store, with saved carts, push offers and faster reordering." }
+      {
+        "title": "Startup first release",
+        "text": "A tightly scoped first version for a Westside or Downtown startup that needs something real to put in front of users and investors."
+      },
+      {
+        "title": "Booking and membership",
+        "text": "Class schedules, passes and payments for studios, gyms and wellness brands with several locations."
+      },
+      {
+        "title": "Ordering and loyalty",
+        "text": "Order-ahead, pickup, delivery status and rewards for restaurant groups and cafes."
+      },
+      {
+        "title": "On-demand and delivery",
+        "text": "Customer, driver and dispatcher apps with live maps, built on our experience with ride-hailing and food delivery."
+      },
+      {
+        "title": "Crew and field tools",
+        "text": "Schedules, call sheets, job details and photo reports for production teams and home-service crews."
+      }
     ]
   },
   "presence": "TDM builds apps for Los Angeles clients remotely. We do not have an office or a team member in the city. Design reviews and progress demos happen on video calls, and test builds are sent to your phone throughout the project.",
   "faqs": [
-    { "q": "How much does it cost to build an app in Los Angeles?", "a": "That depends on what the app does. Real-time features, payments, several user types and building natively for both platforms all add work. We provide a quote after a free consultation and a scoping discussion." },
-    { "q": "Should a Los Angeles startup build native or cross-platform?", "a": "Native suits apps that rely on performance, heavy use of device features or a very polished platform feel. Flutter or React Native suits a first release that is mostly content, commerce or workflow and needs both stores at once. We build both, so we recommend whichever fits the product." },
-    { "q": "How long does app development take?", "a": "The schedule depends on your requirements and how complete the brief is. It is set out in the plan after discovery, and you receive working builds to test along the way." },
-    { "q": "Do you handle App Store and Google Play submission?", "a": "Yes. We prepare the store listings, screenshots and metadata, submit the app and deal with any questions from Apple or Google during review. The developer accounts stay in your name." },
-    { "q": "Can a remote team build an app for a business in LA?", "a": "Yes. App work is reviewed on screens and phones, not in a meeting room. You approve designs online, install each test build yourself, and give feedback in writing or on calls scheduled for Pacific time." }
+    {
+      "q": "How much does it cost to build an app in Los Angeles?",
+      "a": "That depends on what the app does. Real-time features, payments, several user types and building natively for both platforms all add work. We provide a quote after a free consultation and a scoping discussion."
+    },
+    {
+      "q": "Should a Los Angeles startup build native or cross-platform?",
+      "a": "Native suits apps that rely on performance, heavy use of device features or a very polished platform feel. Flutter or React Native suits a first release that is mostly content, commerce or workflow and needs both stores at once. We build both, so we recommend whichever fits the product."
+    },
+    {
+      "q": "How long does app development take?",
+      "a": "The schedule depends on your requirements and how complete the brief is. It is set out in the plan after discovery, and you receive working builds to test along the way."
+    },
+    {
+      "q": "Do you handle App Store and Google Play submission?",
+      "a": "Yes. We prepare the store listings, screenshots and metadata, submit the app and deal with any questions from Apple or Google during review. The developer accounts stay in your name."
+    },
+    {
+      "q": "Can a remote team build an app for a business in LA?",
+      "a": "Yes. You approve designs online, install each test build on your own phone, and give feedback in writing or on calls scheduled for Pacific time."
+    }
   ]
 }
