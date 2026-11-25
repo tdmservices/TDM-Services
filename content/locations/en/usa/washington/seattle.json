@@ -17,15 +17,13 @@
     {
       "heading": "Marketing to people who work in tech",
       "paragraphs": [
-        "Large technology employers in South Lake Union, downtown and across the lake in Bellevue and Redmond shape who lives here and how they buy. These customers compare options carefully, dislike being sold to, and often use ad blockers. Aerospace engineers, researchers at the university and the life-science institutes near Lake Union behave much the same way.",
+        "Large technology employers in South Lake Union, downtown and across the lake in Bellevue and Redmond shape who lives here and how they buy. These customers compare options carefully, dislike being sold to, and often use ad blockers.",
         "So the content has to earn its place. Clear pricing or at least clear ranges where you can give them, real photographs, specific answers and fast pages do more than slogans. For software and business-to-business firms based in the city, the same rule applies to their own buyers: documentation-quality content and honest comparisons win searches that brochure copy never will."
       ],
       "bullets": [
         "Pages that answer the practical question first: what it is, what it costs to scope, how to book.",
         "Search content written with enough depth to satisfy a technical reader.",
-        "Site speed and mobile checks before any money goes into ads.",
-        "Review responses that sound like a person wrote them.",
-        "Reporting that shows spend, leads and revenue without decoration."
+        "Site speed and mobile checks before any money goes into ads."
       ]
     },
     {
@@ -44,20 +42,45 @@
   "cards": {
     "heading": "Seattle businesses we can support",
     "items": [
-      { "title": "Software and startups", "text": "Search content, paid acquisition and landing pages tested against sign-ups and revenue, not impressions." },
-      { "title": "Cafes, restaurants and breweries", "text": "A crowded, quality-minded food scene where photography, accurate listings and neighbourhood search decide who gets the table." },
-      { "title": "Home services and remodelling", "text": "Older houses, steady rain and a short dry season keep roofers, plumbers and builders busy. Area pages and call ads capture demand." },
-      { "title": "Health and wellness", "text": "Clinics, physiotherapists and studios chosen on reviews and clear information, with ad wording kept within platform rules." },
-      { "title": "Outdoor and lifestyle brands", "text": "Gear, apparel and coffee companies selling nationally need online stores that convert, product shoots and ads managed to margin." },
-      { "title": "Visitor businesses", "text": "Tours, attractions and waterfront retailers with a clear summer peak and customers who plan from another state." }
+      {
+        "title": "Software and startups",
+        "text": "Search content, paid acquisition and landing pages tested against sign-ups and revenue, not impressions."
+      },
+      {
+        "title": "Cafes, restaurants and breweries",
+        "text": "A crowded, quality-minded food scene where photography, accurate listings and neighbourhood search decide who gets the table."
+      },
+      {
+        "title": "Home services and remodelling",
+        "text": "Older houses, steady rain and a short dry season keep roofers, plumbers and builders busy. Area pages and call ads capture demand."
+      },
+      {
+        "title": "Outdoor and lifestyle brands",
+        "text": "Gear, apparel and coffee companies selling nationally need online stores that convert, product shoots and ads managed to margin."
+      },
+      {
+        "title": "Visitor businesses",
+        "text": "Tours, attractions and waterfront retailers with a clear summer peak and customers who plan from another state."
+      }
     ]
   },
   "presence": "TDM works with Seattle businesses remotely. We have no office or team member in the city. Strategy, design, development and video are delivered online by our team, with scheduled calls and written reports.",
   "faqs": [
-    { "q": "Does TDM have a Seattle office?", "a": "No. We work with Seattle businesses remotely. Calls, shared documents and regular reports keep you informed of the work and its results." },
-    { "q": "How do I rank in my Seattle neighbourhood?", "a": "Use the neighbourhood name on your site and business profile, keep your address and hours consistent everywhere, collect reviews that mention where you are, and publish pages about the areas you serve. Links and mentions from local organisations and neighbourhood blogs help too." },
-    { "q": "Do online ads work when so many Seattle users block them?", "a": "Search ads and ads inside mobile apps are still seen by most people. Even so, we treat organic search, reviews and useful content as the foundation here, with paid ads added where the numbers support it." },
-    { "q": "Should a Seattle business advertise on the Eastside too?", "a": "Only if customers will cross the lake for you or you can travel to them. Where you do serve both, we run Seattle and the Eastside as separate campaigns so each budget can be judged on its own." },
-    { "q": "How much does it cost to hire a digital marketing agency in Seattle?", "a": "It depends on the scope: the channels, the content needed and the competition in your field. We quote after a free consultation." }
+    {
+      "q": "Does TDM have a Seattle office?",
+      "a": "No. We work with Seattle businesses remotely. Calls, shared documents and regular reports keep you informed of the work and its results."
+    },
+    {
+      "q": "How do I rank in my Seattle neighbourhood?",
+      "a": "Use the neighbourhood name on your site and business profile, keep your address and hours consistent everywhere, collect reviews that mention where you are, and publish pages about the areas you serve. Links and mentions from local organisations and neighbourhood blogs help too."
+    },
+    {
+      "q": "Should a Seattle business advertise on the Eastside too?",
+      "a": "Only if customers will cross the lake for you or you can travel to them. Where you do serve both, we run Seattle and the Eastside as separate campaigns so each budget can be judged on its own."
+    },
+    {
+      "q": "How much does it cost to hire a digital marketing agency in Seattle?",
+      "a": "It depends on the scope: the channels, the content needed and the competition in your field. We quote after a free consultation."
+    }
   ]
 }

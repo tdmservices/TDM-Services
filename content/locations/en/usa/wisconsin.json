@@ -24,8 +24,7 @@
         "A page for each capability, material and industry served, with specifications and certifications.",
         "Request-for-quote forms that are short and work on a phone on the shop floor.",
         "Search campaigns on precise technical terms, with spend kept away from job seekers and students.",
-        "Video of the plant and processes, which buyers use to judge scale and quality.",
-        "Recruiting pages for skilled trades, since hiring is often the tighter constraint."
+        "Video of the plant and processes, which buyers use to judge scale and quality."
       ]
     },
     {
@@ -38,27 +37,56 @@
     {
       "heading": "Winter, and the habits that go with it",
       "paragraphs": [
-        "Long winters set the rhythm for local services. Furnace repair, snow removal, ice dam and roof work are urgent purchases, searched on a phone. Spring brings basements, landscaping and remodelling. Wisconsin customers also tend to be loyal and practical: they favour firms that have been around, answer the phone and are recommended by someone they know. Reviews and a visible local history do more here than a flashy campaign. Friday fish fries, game days and county fairs are part of the calendar, and restaurants and retailers plan promotions around them."
+        "Long winters set the rhythm for local services. Furnace repair, snow removal, ice dam and roof work are urgent purchases, searched on a phone. Spring brings basements, landscaping and remodelling. Wisconsin customers also tend to be loyal and practical: they favour firms that have been around, answer the phone and are recommended by someone they know. Reviews and a visible local history do more here than a flashy campaign."
       ]
     }
   ],
   "cards": {
     "heading": "Wisconsin sectors we plan campaigns for",
     "items": [
-      { "title": "Manufacturing and fabrication", "text": "Machine shops, foundries, packaging and equipment makers who need technical pages and qualified quote requests." },
-      { "title": "Dairy, food and beverage", "text": "Cheesemakers, breweries and food brands selling direct need online stores, product photography and ads managed to margin." },
-      { "title": "Resorts and tourism", "text": "Lodging, attractions and outfitters with bookings concentrated in a few months and guests who come from neighbouring metros." },
-      { "title": "Home services", "text": "Heating, roofing, plumbing and snow contractors who win work through map results, reviews and fast call handling." },
-      { "title": "Healthcare and health technology", "text": "Clinics that need patients and software firms around Madison that need demand from hospital buyers." },
-      { "title": "Agriculture and equipment", "text": "Dealers, co-ops and suppliers whose customers want current stock, parts information and a number to call." }
+      {
+        "title": "Manufacturing and fabrication",
+        "text": "Machine shops, foundries, packaging and equipment makers who need technical pages and qualified quote requests."
+      },
+      {
+        "title": "Dairy, food and beverage",
+        "text": "Cheesemakers, breweries and food brands selling direct need online stores, product photography and ads managed to margin."
+      },
+      {
+        "title": "Resorts and tourism",
+        "text": "Lodging, attractions and outfitters with bookings concentrated in a few months and guests who come from neighbouring metros."
+      },
+      {
+        "title": "Home services",
+        "text": "Heating, roofing, plumbing and snow contractors who win work through map results, reviews and fast call handling."
+      },
+      {
+        "title": "Healthcare and health technology",
+        "text": "Clinics that need patients and software firms around Madison that need demand from hospital buyers."
+      }
     ]
   },
   "presence": "TDM works with Wisconsin businesses remotely. We have no office in the state. Video calls, shared online reporting and one team for strategy, design, development and video keep the work straightforward.",
   "faqs": [
-    { "q": "Do you have an office in Wisconsin?", "a": "No. We work with Wisconsin businesses remotely, by video call and shared reports, to a plan and schedule agreed with you." },
-    { "q": "Does SEO work for a Wisconsin manufacturer?", "a": "Yes, when it targets how buyers search. Engineers and purchasing staff look for specific processes, materials and certifications. Detailed capability pages that rank for those terms bring quote requests from companies that never met you at a trade show." },
-    { "q": "When should a Northwoods or Door County business advertise?", "a": "Ahead of when guests book, not when they arrive. We look at your past reservations to find when planning starts for each season, then schedule search, ads and content to match." },
-    { "q": "How much does digital marketing cost in Wisconsin?", "a": "It depends on scope: the channels, the content required and the competition in your market. We quote after a free consultation." },
-    { "q": "How long does it take to see results?", "a": "It depends on your requirements and the brief. The timeline is set out in the plan we agree before starting." }
+    {
+      "q": "Do you have an office in Wisconsin?",
+      "a": "No. We work with Wisconsin businesses remotely, by video call and shared reports, to a plan and schedule agreed with you."
+    },
+    {
+      "q": "Does SEO work for a Wisconsin manufacturer?",
+      "a": "Yes, when it targets how buyers search. Engineers and purchasing staff look for specific processes, materials and certifications. Detailed capability pages that rank for those terms bring quote requests from companies that never met you at a trade show."
+    },
+    {
+      "q": "When should a Northwoods or Door County business advertise?",
+      "a": "Ahead of when guests book, not when they arrive. We look at your past reservations to find when planning starts for each season, then schedule search, ads and content to match."
+    },
+    {
+      "q": "How much does digital marketing cost in Wisconsin?",
+      "a": "It depends on scope: the channels, the content required and the competition in your market. We quote after a free consultation."
+    },
+    {
+      "q": "How long does it take to see results?",
+      "a": "It depends on your requirements and the brief. The timeline is set out in the plan we agree before starting."
+    }
   ]
 }

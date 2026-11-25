@@ -43,20 +43,45 @@
   "cards": {
     "heading": "Charleston businesses we can support",
     "items": [
-      { "title": "Medical and dental practices", "text": "Patients travel in from surrounding counties. Clear service pages, directions, reviews and online scheduling help them choose." },
-      { "title": "Law and professional firms", "text": "Attorneys, accountants and consultants near the Capitol win enquiries with a page for each practice area and visible credentials." },
-      { "title": "Industrial contractors", "text": "Firms serving the chemical plants along the river need capability, safety and certification pages that buyers can check quickly." },
-      { "title": "Home services", "text": "Hillside houses bring drainage, foundation, roofing and heating work. Town-level pages and call ads reach homeowners across the valley." },
-      { "title": "Restaurants and shops", "text": "Downtown, the East End and Elk City depend on accurate listings, good photographs and an active social presence." },
-      { "title": "Associations and nonprofits", "text": "Statewide organisations based in the capital need clear websites, event pages and email sign-ups that work on a phone." }
+      {
+        "title": "Medical and dental practices",
+        "text": "Patients travel in from surrounding counties. Clear service pages, directions, reviews and online scheduling help them choose."
+      },
+      {
+        "title": "Law and professional firms",
+        "text": "Attorneys, accountants and consultants near the Capitol win enquiries with a page for each practice area and visible credentials."
+      },
+      {
+        "title": "Industrial contractors",
+        "text": "Firms serving the chemical plants along the river need capability, safety and certification pages that buyers can check quickly."
+      },
+      {
+        "title": "Home services",
+        "text": "Hillside houses bring drainage, foundation, roofing and heating work. Town-level pages and call ads reach homeowners across the valley."
+      },
+      {
+        "title": "Restaurants and shops",
+        "text": "Downtown, the East End and Elk City depend on accurate listings, good photographs and an active social presence."
+      }
     ]
   },
   "presence": "TDM works with Charleston, West Virginia businesses remotely. We have no office or staff in the city. Our team delivers strategy, design, development and video online, with scheduled calls and written reports.",
   "faqs": [
-    { "q": "Does TDM have an office in Charleston, WV?", "a": "No. We work with Charleston businesses remotely, with calls by phone or video and regular written reports." },
-    { "q": "How do I stop my business showing up for Charleston, South Carolina?", "a": "State West Virginia clearly in page titles, headings and your business profile, use local names such as Kanawha County and your neighbourhood, add address markup to the site, correct inconsistent directory listings and restrict ad locations to your service area. We check all of these at the start." },
-    { "q": "Can you help me reach customers in Putnam County and Huntington?", "a": "Yes. We build a page for each area, set your service area accordingly and run ads by county so you can see which places bring enquiries." },
-    { "q": "Which channels work for a Charleston business?", "a": "For services people need soon, search and the map results. For restaurants, shops and events, Facebook and Instagram, where much of the local conversation takes place. We recommend starting with one and adding the second once it pays." },
-    { "q": "How much does digital marketing cost in Charleston?", "a": "It depends on the scope. We talk through your goals in a free consultation and then give you a quote." }
+    {
+      "q": "Does TDM have an office in Charleston, WV?",
+      "a": "No. We work with Charleston businesses remotely, with calls by phone or video and regular written reports."
+    },
+    {
+      "q": "How do I stop my business showing up for Charleston, South Carolina?",
+      "a": "State West Virginia clearly in page titles, headings and your business profile, use local names such as Kanawha County and your neighbourhood, add address markup to the site, correct inconsistent directory listings and restrict ad locations to your service area. We check all of these at the start."
+    },
+    {
+      "q": "Can you help me reach customers in Putnam County and Huntington?",
+      "a": "Yes. We build a page for each area, set your service area accordingly and run ads by county so you can see which places bring enquiries."
+    },
+    {
+      "q": "How much does digital marketing cost in Charleston?",
+      "a": "It depends on the scope. We talk through your goals in a free consultation and then give you a quote."
+    }
   ]
 }

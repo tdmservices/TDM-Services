@@ -11,8 +11,7 @@
       "heading": "What drives business in Denver",
       "paragraphs": [
         "Denver serves a very wide region, with no larger city for hundreds of miles in any direction. That has made it a base for regional offices, finance, telecoms, energy companies and federal agencies. Aerospace firms are spread around the south and west of the metro, and the Denver Tech Center along Interstate 25 is a second business district full of software, financial and professional service companies.",
-        "The Anschutz Medical Campus in Aurora anchors healthcare and research. Denver International Airport, one of the busiest in the country, supports logistics, hotels and a growing commercial area on the plains to the northeast. And the city has a long-standing craft brewing, food and outdoor products culture that produces a steady supply of consumer brands.",
-        "So the range of clients is wide: software companies selling nationally, professional firms selling to other businesses, and local shops, restaurants and trades selling to the neighbourhood."
+        "The Anschutz Medical Campus in Aurora anchors healthcare and research. Denver International Airport, one of the busiest in the country, supports logistics, hotels and a growing commercial area on the plains to the northeast. And the city has a long-standing craft brewing, food and outdoor products culture that produces a steady supply of consumer brands."
       ]
     },
     {
@@ -24,16 +23,14 @@
       "bullets": [
         "Neighbourhood and suburb pages that reflect how residents describe where they live.",
         "A Google Business Profile for every location, with photos and reviews kept current.",
-        "Ad targeting by realistic service radius, with separate budgets for the city and the suburbs.",
-        "Creative that looks local: real premises, real staff, recognisable streets.",
-        "Reporting tied to bookings, calls and sales."
+        "Ad targeting by realistic service radius, with separate budgets for the city and the suburbs."
       ]
     },
     {
       "heading": "An audience that reads reviews and leaves on Friday",
       "paragraphs": [
         "Many of Denver's residents moved here as adults, for work and for the outdoors. They arrive without a regular mechanic, dentist or vet and choose from search results, maps and reviews. They are well informed, tend to favour local and independent businesses, and are quick to distrust overstatement. Clear prices where you can give them, honest photos and specific answers earn more than slogans.",
-        "Weekends matter too. In ski season and in summer, a good share of your audience is on Interstate 70 or already in the mountains from Friday afternoon. For many local businesses, midweek is when ads and emails are seen. For outdoor shops, rental firms and anyone selling to that weekend crowd, Wednesday and Thursday are when decisions are made."
+        "Weekends matter too. In ski season and in summer, a good share of your audience is on Interstate 70 or already in the mountains from Friday afternoon. Midweek is often when local ads and emails get seen."
       ]
     },
     {
@@ -47,20 +44,45 @@
   "cards": {
     "heading": "Denver businesses we can support",
     "items": [
-      { "title": "Software and technology", "text": "Search content, paid acquisition and websites built to turn visitors into trials, demos and customers." },
-      { "title": "Outdoor and consumer brands", "text": "Shopify stores, product shoots, UGC-style ads and paid social managed against margin." },
-      { "title": "Breweries, restaurants and bars", "text": "Short video, event promotion and accurate listings for RiNo, LoDo, the Highlands and South Broadway." },
-      { "title": "Home services", "text": "Roofing, HVAC, plumbing and remodelling firms need suburb pages, call ads and a plan for hail season." },
-      { "title": "Medical, dental and wellness", "text": "Service pages, reviews and compliant ads for practices reaching newly arrived residents." },
-      { "title": "Professional services", "text": "Law, accounting and consulting firms in downtown and the Tech Center, found for the specific problems they solve." }
+      {
+        "title": "Software and technology",
+        "text": "Search content, paid acquisition and websites built to turn visitors into trials, demos and customers."
+      },
+      {
+        "title": "Outdoor and consumer brands",
+        "text": "Shopify stores, product shoots, UGC-style ads and paid social managed against margin."
+      },
+      {
+        "title": "Breweries, restaurants and bars",
+        "text": "Short video, event promotion and accurate listings for RiNo, LoDo, the Highlands and South Broadway."
+      },
+      {
+        "title": "Home services",
+        "text": "Roofing, HVAC, plumbing and remodelling firms need suburb pages, call ads and a plan for hail season."
+      },
+      {
+        "title": "Medical, dental and wellness",
+        "text": "Service pages, reviews and compliant ads for practices reaching newly arrived residents."
+      }
     ]
   },
   "presence": "TDM works with Denver businesses remotely. We do not have an office or staff in the city. Strategy, design, development and video are delivered online by one team, with scheduled calls and written reports.",
   "faqs": [
-    { "q": "Does TDM have an office in Denver?", "a": "No. We work with Denver businesses remotely. Video calls, shared documents and regular reporting keep the work open to you." },
-    { "q": "How do I reach people who have just moved to Denver?", "a": "Be easy to find and easy to trust. Keep your business profile complete, collect reviews steadily, publish clear service and pricing information, and run search ads on the terms new residents use when they need a provider for the first time." },
-    { "q": "Should I run separate campaigns for Denver and suburbs like Aurora or Lakewood?", "a": "If you serve them, yes. Each suburb has its own search terms and competitors. Separate pages and ad groups show which areas return the most and let you move budget between them." },
-    { "q": "How much does digital marketing cost in Denver?", "a": "It depends on the scope of work and the competition in your category. We provide a quote after a free consultation." },
-    { "q": "How should a Denver roofing company prepare for hail season?", "a": "Before late spring, have a hail damage page, ad copy and a budget ready so campaigns can start the day a storm hits. Keep reviews and licence details visible, because homeowners use them to separate established local firms from temporary out-of-state crews." }
+    {
+      "q": "Does TDM have an office in Denver?",
+      "a": "No. We work with Denver businesses remotely. Video calls, shared documents and regular reporting keep the work open to you."
+    },
+    {
+      "q": "How do I reach people who have just moved to Denver?",
+      "a": "Be easy to find and easy to trust. Keep your business profile complete, collect reviews steadily, publish clear service and pricing information, and run search ads on the terms new residents use when they need a provider for the first time."
+    },
+    {
+      "q": "How much does digital marketing cost in Denver?",
+      "a": "It depends on the scope of work and the competition in your category. We provide a quote after a free consultation."
+    },
+    {
+      "q": "How should a Denver roofing company prepare for hail season?",
+      "a": "Before late spring, have a hail damage page, ad copy and a budget ready so campaigns can start the day a storm hits. Keep reviews and licence details visible, because homeowners use them to separate established local firms from temporary out-of-state crews."
+    }
   ]
 }

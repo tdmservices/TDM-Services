@@ -24,8 +24,7 @@
         "Local pages and profiles for residents, with towns and counties named plainly.",
         "Trip-planning content and ads aimed at the regions your guests come from.",
         "Online booking that works on a phone and shows real availability.",
-        "Opening dates, road and season information kept current, since conditions change plans here.",
-        "Sites built to load on weak connections along long empty highways."
+        "Opening dates, road and season information kept current, since conditions change plans here."
       ]
     },
     {
@@ -37,28 +36,57 @@
     {
       "heading": "Selling out of state from a Wyoming address",
       "paragraphs": [
-        "With so few customers nearby, many Wyoming businesses look outward. Ranches sell beef direct to households, makers sell western wear, leather goods and art, and guest ranches market to families across the country. The state's business-friendly reputation also means many online companies are registered here while selling everywhere.",
-        "For these sellers the work is e-commerce: a store that converts, product photography and video that show where the goods come from, search content, email and paid campaigns in the markets where buyers live. The Wyoming story is an asset, provided it is shown with real places and people."
+        "With so few customers nearby, many Wyoming businesses look outward. Ranches sell beef direct to households, makers sell western wear, leather goods and art, and guest ranches market to families across the country.",
+        "For these sellers the work is e-commerce: a store that converts, product photography and video that show where the goods come from, search content, email and paid campaigns in the markets where buyers live."
       ]
     }
   ],
   "cards": {
     "heading": "Wyoming sectors we plan campaigns for",
     "items": [
-      { "title": "Lodging, guides and outfitters", "text": "Park-gateway and resort businesses that need bookings from distant visitors before a short season begins." },
-      { "title": "Energy and mining services", "text": "Contractors and suppliers who need clear capability and safety pages for operators and procurement teams." },
-      { "title": "Ranch and western brands", "text": "Direct-to-consumer beef, apparel and craft sellers who need online stores and national reach." },
-      { "title": "Local trades and services", "text": "Heating, plumbing, auto and construction firms covering wide territories around small towns." },
-      { "title": "Healthcare", "text": "Clinics and specialists serving patients who travel long distances and need clear directions and scheduling." },
-      { "title": "Real estate and land", "text": "Agents selling ranch, recreational and resort property to buyers who search from other states." }
+      {
+        "title": "Lodging, guides and outfitters",
+        "text": "Park-gateway and resort businesses that need bookings from distant visitors before a short season begins."
+      },
+      {
+        "title": "Energy and mining services",
+        "text": "Contractors and suppliers who need clear capability and safety pages for operators and procurement teams."
+      },
+      {
+        "title": "Ranch and western brands",
+        "text": "Direct-to-consumer beef, apparel and craft sellers who need online stores and national reach."
+      },
+      {
+        "title": "Local trades and services",
+        "text": "Heating, plumbing, auto and construction firms covering wide territories around small towns."
+      },
+      {
+        "title": "Healthcare",
+        "text": "Clinics and specialists serving patients who travel long distances and need clear directions and scheduling."
+      }
     ]
   },
   "presence": "TDM works with Wyoming businesses remotely. We have no office in the state. Calls are by phone or video, reports are shared online, and one team provides strategy, design, development and video.",
   "faqs": [
-    { "q": "Do you have an office in Wyoming?", "a": "No. We work with Wyoming businesses remotely, by phone, video call and shared reporting." },
-    { "q": "Is my Wyoming town too small for digital marketing?", "a": "Not if the work is sized correctly. In a small town a complete business profile, reviews and a simple site are usually enough to lead local search. Paid ads make sense when you serve a wide area or sell to visitors or out-of-state buyers." },
-    { "q": "How do I reach tourists before they get to Yellowstone or Jackson?", "a": "Publish pages that answer planning questions, keep listings and season dates accurate, and run search and video ads in the places your guests come from during the months they book. Once they arrive, map visibility and reviews decide the rest." },
-    { "q": "How much does it cost to hire a marketing agency in Wyoming?", "a": "It depends on scope: the channels, the content and whether you are targeting locals, visitors or national buyers. We quote after a free consultation." },
-    { "q": "How long will it take to see results?", "a": "It depends on your requirements and the brief. We agree the timeline in the plan before work starts." }
+    {
+      "q": "Do you have an office in Wyoming?",
+      "a": "No. We work with Wyoming businesses remotely, by phone, video call and shared reporting."
+    },
+    {
+      "q": "Is my Wyoming town too small for digital marketing?",
+      "a": "Not if the work is sized correctly. In a small town a complete business profile, reviews and a simple site are usually enough to lead local search. Paid ads make sense when you serve a wide area or sell to visitors or out-of-state buyers."
+    },
+    {
+      "q": "How do I reach tourists before they get to Yellowstone or Jackson?",
+      "a": "Publish pages that answer planning questions, keep listings and season dates accurate, and run search and video ads in the places your guests come from during the months they book. Once they arrive, map visibility and reviews decide the rest."
+    },
+    {
+      "q": "How much does it cost to hire a marketing agency in Wyoming?",
+      "a": "It depends on scope: the channels, the content and whether you are targeting locals, visitors or national buyers. We quote after a free consultation."
+    },
+    {
+      "q": "How long will it take to see results?",
+      "a": "It depends on your requirements and the brief. We agree the timeline in the plan before work starts."
+    }
   ]
 }

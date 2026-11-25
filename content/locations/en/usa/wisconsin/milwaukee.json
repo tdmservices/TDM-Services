@@ -11,7 +11,7 @@
       "heading": "A city that builds and brews",
       "paragraphs": [
         "Milwaukee earned its living making engines, controls, tools and machinery, and it still does. Well-known names in motorcycles, industrial automation and power tools are based in the metro area, surrounded by the machine shops, foundries and component suppliers that serve them. Insurance and financial services fill the downtown towers, and a large medical campus in Wauwatosa anchors healthcare for the region.",
-        "Beer is the other inheritance. The big historic breweries shaped the city's identity, and a new generation of craft breweries, distilleries and taprooms has taken up the trade in old industrial buildings. Add a cluster of companies working on water technology and several universities, and you have a market where many firms sell to other firms, and where consumers respect things that are well made and fairly priced."
+        "Beer is the other inheritance. The big historic breweries shaped the city's identity, and a new generation of craft breweries, distilleries and taprooms has taken up the trade in old industrial buildings."
       ]
     },
     {
@@ -44,20 +44,45 @@
   "cards": {
     "heading": "Milwaukee businesses we can support",
     "items": [
-      { "title": "Manufacturers and machine shops", "text": "Technical pages, plant video and targeted search that bring quote requests from qualified buyers." },
-      { "title": "Breweries, distilleries and taprooms", "text": "Local search, event promotion, photography and online merchandise or shipping where the law allows." },
-      { "title": "Restaurants and bars", "text": "Listings, menus and short video that win the fish fry, the pre-game crowd and festival visitors." },
-      { "title": "Home services", "text": "Older housing stock and hard winters keep furnace, plumbing, roofing and basement firms busy. Suburb pages and call ads capture demand." },
-      { "title": "Healthcare and dental", "text": "Practices across the metro compete on reviews, clear service information and easy booking." },
-      { "title": "Professional and financial services", "text": "Advisers, insurers and law firms that need a page for each service and visible credentials." }
+      {
+        "title": "Manufacturers and machine shops",
+        "text": "Technical pages, plant video and targeted search that bring quote requests from qualified buyers."
+      },
+      {
+        "title": "Breweries, distilleries and taprooms",
+        "text": "Local search, event promotion, photography and online merchandise or shipping where the law allows."
+      },
+      {
+        "title": "Restaurants and bars",
+        "text": "Listings, menus and short video that win the fish fry, the pre-game crowd and festival visitors."
+      },
+      {
+        "title": "Home services",
+        "text": "Older housing stock and hard winters keep furnace, plumbing, roofing and basement firms busy. Suburb pages and call ads capture demand."
+      },
+      {
+        "title": "Healthcare and dental",
+        "text": "Practices across the metro compete on reviews, clear service information and easy booking."
+      }
     ]
   },
   "presence": "TDM works with Milwaukee businesses remotely. We have no office or team member in the city. Strategy, design, development and video are delivered online, with scheduled calls and written reports.",
   "faqs": [
-    { "q": "Does TDM have an office in Milwaukee?", "a": "No. We work with Milwaukee businesses remotely. Regular calls, shared documents and written reports keep the work visible to you." },
-    { "q": "How can a Milwaukee restaurant or bar use Summerfest and the festival season?", "a": "Plan before the dates are close. Update your profile hours, publish festival-week offers, run ads aimed at visitors from outside the city in the weeks before, and post short video during the events. Afterwards, ask for reviews while the visit is fresh." },
-    { "q": "Should I target Milwaukee and Chicago in the same campaign?", "a": "No. If you want Chicago visitors, run a separate campaign with its own message and budget. If you only serve local customers, exclude it so that spend stays in southeastern Wisconsin." },
-    { "q": "How do I show up in Wauwatosa, Brookfield or Waukesha searches?", "a": "Create a page for each suburb, list them in your service area, collect reviews from customers there and, where you have premises, keep a business profile for each address." },
-    { "q": "What does digital marketing cost for a Milwaukee company?", "a": "It depends on the scope of work. We provide a quote after a free consultation about your goals and what is already in place." }
+    {
+      "q": "Does TDM have an office in Milwaukee?",
+      "a": "No. We work with Milwaukee businesses remotely. Regular calls, shared documents and written reports keep the work visible to you."
+    },
+    {
+      "q": "How can a Milwaukee restaurant or bar use Summerfest and the festival season?",
+      "a": "Plan before the dates are close. Update your profile hours, publish festival-week offers, run ads aimed at visitors from outside the city in the weeks before, and post short video during the events. Afterwards, ask for reviews while the visit is fresh."
+    },
+    {
+      "q": "Should I target Milwaukee and Chicago in the same campaign?",
+      "a": "No. If you want Chicago visitors, run a separate campaign with its own message and budget. If you only serve local customers, exclude it so that spend stays in southeastern Wisconsin."
+    },
+    {
+      "q": "What does digital marketing cost for a Milwaukee company?",
+      "a": "It depends on the scope of work. We provide a quote after a free consultation about your goals and what is already in place."
+    }
   ]
 }

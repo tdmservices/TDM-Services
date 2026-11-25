@@ -10,8 +10,8 @@
     {
       "heading": "Visitors and residents are two audiences",
       "paragraphs": [
-        "Tourism is the largest part of Hawaii's economy. Visitors come mainly from the mainland United States, with Japan, Canada and other Pacific countries also important, and most of them plan before they fly. They research tours, rentals, restaurants and activities weeks or months ahead from thousands of miles away, then make smaller decisions on a phone once they land. Reaching them means being visible in their home city during planning and in the map results on arrival.",
-        "Residents are a different market. Local customers are loyal, value relationships and recommendations, and notice quickly when a business talks to them like tourists. Many companies offer resident rates and keep a separate tone for local customers. Marketing to the community works best when it shows real staff, real places and involvement in local life."
+        "Tourism is the largest part of Hawaii's economy. Visitors come mainly from the mainland United States, with Japan, Canada and other Pacific countries also important, and most of them plan before they fly. They research tours, rentals, restaurants and activities weeks or months ahead from thousands of miles away, then make smaller decisions on a phone once they land.",
+        "Residents are a different market. Local customers are loyal, value relationships and recommendations, and notice quickly when a business talks to them like tourists. Marketing to the community works best when it shows real staff, real places and involvement in local life."
       ]
     },
     {
@@ -23,41 +23,69 @@
       "bullets": [
         "Island-level targeting for local services, never one statewide campaign.",
         "Campaigns aimed at visitors in their home regions during the planning period.",
-        "Separate pages and messages for residents and for visitors.",
-        "Booking and enquiry tracking so each audience's value is known."
+        "Separate pages and messages for residents and for visitors."
       ]
     },
     {
       "heading": "Distance, shipping and time zones",
       "paragraphs": [
         "Hawaii sits far from every other market, and that affects ordinary commerce. Almost everything arrives by ship or air, so stock, delivery times and shipping charges are a constant concern. Residents are used to mainland online stores that will not ship to the islands or charge heavily to do so, which gives local sellers who state delivery terms clearly a real advantage.",
-        "Hawaii businesses that sell to the mainland face the opposite problem: shipping cost and time must be explained up front. The state also keeps its own time zone and does not change its clocks, so it runs several hours behind the continental United States. Ads aimed at mainland customers and customer service hours need scheduling with that gap in mind."
+        "Hawaii businesses that sell to the mainland face the opposite problem: shipping cost and time must be explained up front. The state also keeps its own time zone and does not change its clocks, so it runs several hours behind the continental United States."
       ]
     },
     {
       "heading": "Seasons without a winter",
       "paragraphs": [
-        "Demand moves through the year even though the weather stays warm. The winter holidays and summer school break are the busiest visitor periods. Winter also brings big surf to north-facing shores and whale watching season off Maui, while spring and autumn are calmer. Weddings and honeymoons run all year. Local trade follows school terms, graduations and the holiday calendar. We help set budgets and content by the pattern in your own bookings and sales."
+        "Demand moves through the year even though the weather stays warm. The winter holidays and summer school break are the busiest visitor periods. Winter also brings big surf to north-facing shores and whale watching season off Maui, while spring and autumn are calmer. We help set budgets and content by the pattern in your own bookings and sales."
       ]
     }
   ],
   "cards": {
     "heading": "Hawaii sectors we plan campaigns for",
     "items": [
-      { "title": "Tours and activities", "text": "Snorkel trips, surf schools, helicopter and boat tours are booked ahead. Search visibility and a fast booking page decide who gets the reservation." },
-      { "title": "Accommodation and rentals", "text": "Hotels and legal vacation rentals need direct-booking sites, strong photography and ads in the right mainland cities." },
-      { "title": "Restaurants and food", "text": "Local favourites and visitor spots both rely on map listings, reviews, photos and short video." },
-      { "title": "Island-made products", "text": "Coffee, macadamia, clothing and craft brands selling to the mainland need stores with clear shipping terms and good product photos." },
-      { "title": "Local services", "text": "Contractors, solar installers, clinics and repair firms serve residents and win on reviews and island-specific pages." },
-      { "title": "Weddings and events", "text": "Planners, photographers and venues sell to couples far away, so galleries, video and clear packages matter." }
+      {
+        "title": "Tours and activities",
+        "text": "Snorkel trips, surf schools, helicopter and boat tours are booked ahead. Search visibility and a fast booking page decide who gets the reservation."
+      },
+      {
+        "title": "Accommodation and rentals",
+        "text": "Hotels and legal vacation rentals need direct-booking sites, strong photography and ads in the right mainland cities."
+      },
+      {
+        "title": "Restaurants and food",
+        "text": "Local favourites and visitor spots both rely on map listings, reviews, photos and short video."
+      },
+      {
+        "title": "Island-made products",
+        "text": "Coffee, macadamia, clothing and craft brands selling to the mainland need stores with clear shipping terms and good product photos."
+      },
+      {
+        "title": "Local services",
+        "text": "Contractors, solar installers, clinics and repair firms serve residents and win on reviews and island-specific pages."
+      }
     ]
   },
   "presence": "TDM works with Hawaii businesses remotely. We have no office in the islands. Meetings are held by video call at times that suit Hawaii hours, reports are shared online, and strategy, design, development and video editing come from one team.",
   "faqs": [
-    { "q": "Does TDM have an office in Hawaii?", "a": "No. We work with Hawaii businesses remotely, with video calls arranged around Hawaii time, shared documents and regular reports." },
-    { "q": "How do I reach visitors before they arrive in Hawaii?", "a": "Advertise where they are while they plan. Search campaigns and social ads can target people in mainland cities and other countries who are researching a Hawaii trip, and useful pages about your activity or area help you appear in their searches. Make booking simple, because many decide before they travel." },
-    { "q": "Should I market differently to locals and tourists?", "a": "Yes. Visitors want clear information, photos and easy booking. Residents respond to familiarity, fair local pricing and recommendations. Separate pages, offers and ad audiences for each group usually work better than one message for everyone." },
-    { "q": "How much does digital marketing cost in Hawaii?", "a": "It depends on scope: the channels, the islands and audiences you want to reach, and the content needed. We quote after a free consultation." },
-    { "q": "How long does it take to see results?", "a": "It depends on your requirements, the channel and your starting point. The timeline is agreed in the plan before work begins." }
+    {
+      "q": "Does TDM have an office in Hawaii?",
+      "a": "No. We work with Hawaii businesses remotely, with video calls arranged around Hawaii time, shared documents and regular reports."
+    },
+    {
+      "q": "How do I reach visitors before they arrive in Hawaii?",
+      "a": "Advertise where they are while they plan. Search campaigns and social ads can target people in mainland cities and other countries who are researching a Hawaii trip, and useful pages about your activity or area help you appear in their searches. Make booking simple, because many decide before they travel."
+    },
+    {
+      "q": "Should I market differently to locals and tourists?",
+      "a": "Yes. Visitors want clear information, photos and easy booking. Residents respond to familiarity, fair local pricing and recommendations. Separate pages, offers and ad audiences for each group usually work better than one message for everyone."
+    },
+    {
+      "q": "How much does digital marketing cost in Hawaii?",
+      "a": "It depends on scope: the channels, the islands and audiences you want to reach, and the content needed. We quote after a free consultation."
+    },
+    {
+      "q": "How long does it take to see results?",
+      "a": "It depends on your requirements, the channel and your starting point. The timeline is agreed in the plan before work begins."
+    }
   ]
 }

@@ -33,33 +33,60 @@
       "heading": "Timing a campaign in central Arkansas",
       "paragraphs": [
         "Little Rock's year has a few fixed points. Legislative sessions bring people and attention to the Capitol area in the early months. Spring is storm season, and tornado warnings and hail keep roofers, tree crews and insurance agents busy. Summer is hot and humid, good for air conditioning firms and for the lakes and rivers nearby.",
-        "In autumn, Razorback football takes over weekends, including games played at War Memorial Stadium in the city, and the state fair draws crowds in October. Restaurants, retailers and event businesses do best when promotions are planned around these dates."
-      ]
-    },
-    {
-      "heading": "Competing with bigger names",
-      "paragraphs": [
-        "Local firms here often compete with national chains and with companies advertising from Memphis, Dallas or Northwest Arkansas. Being local is an advantage if you show it: named staff, real photographs, the neighbourhoods you work in and reviews from people nearby. Search engines and AI assistants use these same signals when they decide which business to recommend, so the detail helps you with both."
+        "In autumn, Razorback football takes over weekends and the state fair draws crowds in October. Restaurants, retailers and event businesses do best when promotions are planned around these dates."
       ]
     }
   ],
   "cards": {
     "heading": "Little Rock businesses we can support",
     "items": [
-      { "title": "Medical and dental practices", "text": "Service and provider pages, reviews and directions for patients travelling in from across Arkansas." },
-      { "title": "Law firms", "text": "A clear page for each practice area and search visibility for the specific problems clients look up." },
-      { "title": "Banks and financial advisers", "text": "Credible, compliant content and local campaigns for firms that win clients through trust." },
-      { "title": "Home services", "text": "HVAC, roofing and plumbing companies need map results, call ads and storm-season readiness." },
-      { "title": "Restaurants and retail", "text": "Photography, short video and active listings for the River Market, SoMa, Hillcrest and the Heights." },
-      { "title": "Associations and nonprofits", "text": "Websites, event promotion and email-ready content for organisations based around the Capitol." }
+      {
+        "title": "Medical and dental practices",
+        "text": "Service and provider pages, reviews and directions for patients travelling in from across Arkansas."
+      },
+      {
+        "title": "Law firms",
+        "text": "A clear page for each practice area and search visibility for the specific problems clients look up."
+      },
+      {
+        "title": "Banks and financial advisers",
+        "text": "Credible, compliant content and local campaigns for firms that win clients through trust."
+      },
+      {
+        "title": "Home services",
+        "text": "HVAC, roofing and plumbing companies need map results, call ads and storm-season readiness."
+      },
+      {
+        "title": "Restaurants and retail",
+        "text": "Photography, short video and active listings for the River Market, SoMa, Hillcrest and the Heights."
+      },
+      {
+        "title": "Associations and nonprofits",
+        "text": "Websites, event promotion and email-ready content for organisations based around the Capitol."
+      }
     ]
   },
   "presence": "TDM works with Little Rock businesses remotely. We do not have an office or staff in the city. All work is delivered online by one team, with scheduled video calls and written reports.",
   "faqs": [
-    { "q": "Is TDM located in Little Rock?", "a": "No. We work with Little Rock businesses remotely, using video calls, shared documents and regular reporting." },
-    { "q": "How do I get more local customers in Little Rock from Google?", "a": "Start with your Google Business Profile: correct details, the right categories, photos and a steady flow of reviews. Then make sure your site has a page for each service and each area you cover. Ads can add volume once those are in place." },
-    { "q": "Can one campaign cover Little Rock, North Little Rock, Conway and Benton?", "a": "It can, but results improve when each area has its own page and its own ad group, because people search by town and competition varies. We set them up separately and compare what each returns." },
-    { "q": "How much does digital marketing cost in Little Rock?", "a": "It depends on the scope of work and how competitive your field is. We quote after a free consultation." },
-    { "q": "How soon can we expect new enquiries?", "a": "It depends on your requirements, the brief and what is already in place. Expected timing for each channel is agreed in the plan before we start." }
+    {
+      "q": "Is TDM located in Little Rock?",
+      "a": "No. We work with Little Rock businesses remotely, using video calls, shared documents and regular reporting."
+    },
+    {
+      "q": "How do I get more local customers in Little Rock from Google?",
+      "a": "Start with your Google Business Profile: correct details, the right categories, photos and a steady flow of reviews. Then make sure your site has a page for each service and each area you cover. Ads can add volume once those are in place."
+    },
+    {
+      "q": "Can one campaign cover Little Rock, North Little Rock, Conway and Benton?",
+      "a": "It can, but results improve when each area has its own page and its own ad group, because people search by town and competition varies. We set them up separately and compare what each returns."
+    },
+    {
+      "q": "How much does digital marketing cost in Little Rock?",
+      "a": "It depends on the scope of work and how competitive your field is. We quote after a free consultation."
+    },
+    {
+      "q": "How soon can we expect new enquiries?",
+      "a": "It depends on your requirements, the brief and what is already in place. Expected timing for each channel is agreed in the plan before we start."
+    }
   ]
 }

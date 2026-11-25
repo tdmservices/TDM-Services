@@ -35,31 +35,58 @@
         "The outdoors is the other pillar. Duck season draws hunters from around the country to Stuttgart and the surrounding prairie each winter. The Ozarks and the Buffalo River bring paddlers, hikers and cabin renters from spring to autumn, and Bentonville has become a destination for mountain biking. Lake towns peak in summer. Guides, lodges, outfitters and cabin owners need to be visible months before each season opens, when trips are being planned in Dallas, Memphis, Kansas City and St. Louis.",
         "Autumn Saturdays are for the Razorbacks. Home games fill Fayetteville, and businesses statewide plan promotions around them."
       ]
-    },
-    {
-      "heading": "Small markets reward the basics",
-      "paragraphs": [
-        "Outside the two main metros, Arkansas is made of towns where a handful of firms compete in each trade. In places like Searcy, Russellville, Mountain Home or El Dorado, a complete Google Business Profile, a clear website and a habit of collecting reviews can move a business to the top of local results without heavy ad spending. For firms that cover several counties, we add pages for each town served so they are found beyond their own address."
-      ]
     }
   ],
   "cards": {
     "heading": "Arkansas sectors we plan campaigns for",
     "items": [
-      { "title": "Retail suppliers and service firms", "text": "Northwest Arkansas vendors and agencies need precise content and outreach aimed at buyers and supplier teams." },
-      { "title": "Trucking and logistics", "text": "Carriers and brokers need sites that state lanes, equipment and capacity, plus driver recruitment campaigns." },
-      { "title": "Agriculture and equipment", "text": "Dealers and farm suppliers benefit from seasonal campaigns timed to planting and harvest." },
-      { "title": "Healthcare", "text": "Clinics and practices in Little Rock and the northwest need service pages, reviews and compliant ad wording." },
-      { "title": "Outdoor tourism", "text": "Lodges, guides, cabins and outfitters need early-season search visibility, video and simple booking." },
-      { "title": "Home services", "text": "HVAC, roofing and plumbing firms in growing suburbs compete through map results and call ads." }
+      {
+        "title": "Retail suppliers and service firms",
+        "text": "Northwest Arkansas vendors and agencies need precise content and outreach aimed at buyers and supplier teams."
+      },
+      {
+        "title": "Trucking and logistics",
+        "text": "Carriers and brokers need sites that state lanes, equipment and capacity, plus driver recruitment campaigns."
+      },
+      {
+        "title": "Agriculture and equipment",
+        "text": "Dealers and farm suppliers benefit from seasonal campaigns timed to planting and harvest."
+      },
+      {
+        "title": "Healthcare",
+        "text": "Clinics and practices in Little Rock and the northwest need service pages, reviews and compliant ad wording."
+      },
+      {
+        "title": "Outdoor tourism",
+        "text": "Lodges, guides, cabins and outfitters need early-season search visibility, video and simple booking."
+      },
+      {
+        "title": "Home services",
+        "text": "HVAC, roofing and plumbing firms in growing suburbs compete through map results and call ads."
+      }
     ]
   },
   "presence": "TDM works with Arkansas businesses remotely. We have no office in the state. Meetings are by video call, reports are shared online, and a single team delivers strategy, design, development and video.",
   "faqs": [
-    { "q": "Does TDM have an office in Arkansas?", "a": "No. We work with businesses in Arkansas remotely, through video calls and shared reporting, on a schedule agreed with you." },
-    { "q": "How is marketing in Northwest Arkansas different from Little Rock?", "a": "The northwest has a large business-to-business market built around retail, food and trucking, and a fast-growing population of newcomers. Little Rock is centred on government, healthcare and established local households. The keywords, channels and messages that work are different in each." },
-    { "q": "How much does it cost to hire a digital marketing agency in Arkansas?", "a": "It depends on the scope of work: the channels, the content needed and the competition in your market. We quote after a free consultation." },
-    { "q": "When should a hunting lodge or cabin rental start advertising?", "a": "Months before the season. Hunters and holidaymakers book early, so your site, photos, availability and search visibility should be ready well ahead, with ads running while people are still comparing options." },
-    { "q": "How long will it take to see results?", "a": "That depends on your requirements and the brief. Smaller towns often move faster than competitive metro categories. The timeline is agreed in the plan." }
+    {
+      "q": "Does TDM have an office in Arkansas?",
+      "a": "No. We work with businesses in Arkansas remotely, through video calls and shared reporting, on a schedule agreed with you."
+    },
+    {
+      "q": "How is marketing in Northwest Arkansas different from Little Rock?",
+      "a": "The northwest has a large business-to-business market built around retail, food and trucking, and a fast-growing population of newcomers. Little Rock is centred on government, healthcare and established local households. The keywords, channels and messages that work are different in each."
+    },
+    {
+      "q": "How much does it cost to hire a digital marketing agency in Arkansas?",
+      "a": "It depends on the scope of work: the channels, the content needed and the competition in your market. We quote after a free consultation."
+    },
+    {
+      "q": "When should a hunting lodge or cabin rental start advertising?",
+      "a": "Months before the season. Hunters and holidaymakers book early, so your site, photos, availability and search visibility should be ready well ahead, with ads running while people are still comparing options."
+    },
+    {
+      "q": "How long will it take to see results?",
+      "a": "That depends on your requirements and the brief. Smaller towns often move faster than competitive metro categories. The timeline is agreed in the plan."
+    }
   ]
 }

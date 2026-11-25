@@ -10,7 +10,7 @@
     {
       "heading": "Three counties, three markets",
       "paragraphs": [
-        "New Castle County in the north holds Wilmington, Newark and most of the state's residents. It sits on the Interstate 95 corridor between Philadelphia and Baltimore, and its economy runs on banking, corporate law, chemicals and pharmaceuticals, plus the University of Delaware in Newark. Many households here commute across state lines and follow Philadelphia news and sport.",
+        "New Castle County in the north holds Wilmington, Newark and most of the state's residents. It sits on the Interstate 95 corridor between Philadelphia and Baltimore, and its economy runs on banking, corporate law, chemicals and pharmaceuticals, plus the University of Delaware in Newark.",
         "Kent County centres on Dover, the state capital, with its air force base, state offices and race weekends at the speedway. Sussex County is the largest by area and the most rural, with poultry farming inland and a string of beach towns on the Atlantic: Lewes, Rehoboth Beach, Dewey Beach, Bethany Beach and Fenwick Island. It has also drawn many retirees, and new housing has spread well back from the coast."
       ]
     },
@@ -23,7 +23,6 @@
       "bullets": [
         "Cross-border targeting for retailers that draw shoppers from neighbouring states.",
         "National search content for incorporation and corporate service providers.",
-        "Separate campaigns for the Wilmington area, Dover and the beaches.",
         "Seasonal budgets for coastal businesses, weighted toward spring and summer."
       ]
     },
@@ -31,33 +30,62 @@
       "heading": "The beach season and the rest of the year",
       "paragraphs": [
         "From late spring to early autumn the coastal towns fill with visitors from the Washington, Baltimore and Philadelphia areas, many of whom rent the same house every year. They book accommodation months ahead and choose restaurants, outfitters and activities on a phone once they arrive. Businesses there need rental and booking pages found early in the year and map listings in good order by the first warm weekend.",
-        "The off-season has changed. Year-round residents, particularly retirees, now support builders, medical practices, financial advisers and home services through the winter. These customers read reviews carefully, call instead of filling in forms, and value a business that answers the phone."
+        "The off-season has changed. Year-round residents, particularly retirees, now support builders, medical practices, financial advisers and home services through the winter."
       ]
     },
     {
       "heading": "A small state where reputation travels",
       "paragraphs": [
-        "Delaware is small enough that people often know the owner of the business they are dealing with, or know someone who does. Word of mouth is strong, and online reviews are its public record. We help businesses build a steady, honest review routine, keep listings consistent across the web and show real staff and real premises in their content, since stock imagery stands out badly in a place this familiar."
+        "Delaware is small enough that people often know the owner of the business they are dealing with, or know someone who does. Word of mouth is strong, and online reviews are its public record. We help businesses build a steady, honest review routine, keep listings consistent across the web and show real staff and real premises in their content."
       ]
     }
   ],
   "cards": {
     "heading": "Delaware sectors we plan campaigns for",
     "items": [
-      { "title": "Corporate and legal services", "text": "Registered agents and law firms need authoritative content and a site that turns national search traffic into orders and enquiries." },
-      { "title": "Banking and financial services", "text": "Advisers, lenders and fintech suppliers rely on clear explanations, compliant wording and targeted campaigns." },
-      { "title": "Beach hospitality and rentals", "text": "Rental agencies, hotels and restaurants need early-season visibility and fast mobile pages for visitors already in town." },
-      { "title": "Tax-free retail", "text": "Furniture, appliance and electronics stores can reach shoppers in neighbouring states with search and shopping ads." },
-      { "title": "Home building and services", "text": "Builders and trades in fast-growing Sussex and southern New Castle County compete on reviews and local pages." },
-      { "title": "Healthcare", "text": "Practices serving a growing older population need accessible sites, accurate listings and simple booking." }
+      {
+        "title": "Corporate and legal services",
+        "text": "Registered agents and law firms need authoritative content and a site that turns national search traffic into orders and enquiries."
+      },
+      {
+        "title": "Beach hospitality and rentals",
+        "text": "Rental agencies, hotels and restaurants need early-season visibility and fast mobile pages for visitors already in town."
+      },
+      {
+        "title": "Tax-free retail",
+        "text": "Furniture, appliance and electronics stores can reach shoppers in neighbouring states with search and shopping ads."
+      },
+      {
+        "title": "Home building and services",
+        "text": "Builders and trades in fast-growing Sussex and southern New Castle County compete on reviews and local pages."
+      },
+      {
+        "title": "Healthcare",
+        "text": "Practices serving a growing older population need accessible sites, accurate listings and simple booking."
+      }
     ]
   },
   "presence": "TDM works with Delaware businesses remotely. We have no office in the state. Calls are held by video, reports are shared online, and strategy, design, development and video editing are handled by one team.",
   "faqs": [
-    { "q": "Do you have an office in Delaware?", "a": "No. We work with businesses in Delaware remotely, through video calls, shared reporting and a schedule agreed with you." },
-    { "q": "Can ads for my Delaware store reach shoppers in Pennsylvania, New Jersey and Maryland?", "a": "Yes. Location targeting follows where your customers come from, not the state line. For stores that benefit from tax-free shopping, we build campaigns around the drive-time area and the products people travel for." },
-    { "q": "When should a Rehoboth or Bethany Beach business start marketing for summer?", "a": "Well before the season. Rental searches begin in winter, and listings, photos and pages should be ready by early spring. Restaurants and activity providers should have profiles, hours and menus updated before the first holiday weekend." },
-    { "q": "How much does digital marketing cost in Delaware?", "a": "It depends on the scope: the channels, the area you want to cover and how much content is involved. We quote after a free consultation." },
-    { "q": "How long before a campaign shows results?", "a": "It depends on your requirements, the channel and where you are starting from. The timeline is set out in the plan we agree with you." }
+    {
+      "q": "Do you have an office in Delaware?",
+      "a": "No. We work with businesses in Delaware remotely, through video calls, shared reporting and a schedule agreed with you."
+    },
+    {
+      "q": "Can ads for my Delaware store reach shoppers in Pennsylvania, New Jersey and Maryland?",
+      "a": "Yes. Location targeting follows where your customers come from, not the state line. For stores that benefit from tax-free shopping, we build campaigns around the drive-time area and the products people travel for."
+    },
+    {
+      "q": "When should a Rehoboth or Bethany Beach business start marketing for summer?",
+      "a": "Well before the season. Rental searches begin in winter, and listings, photos and pages should be ready by early spring. Restaurants and activity providers should have profiles, hours and menus updated before the first holiday weekend."
+    },
+    {
+      "q": "How much does digital marketing cost in Delaware?",
+      "a": "It depends on the scope: the channels, the area you want to cover and how much content is involved. We quote after a free consultation."
+    },
+    {
+      "q": "How long before a campaign shows results?",
+      "a": "It depends on your requirements, the channel and where you are starting from. The timeline is set out in the plan we agree with you."
+    }
   ]
 }

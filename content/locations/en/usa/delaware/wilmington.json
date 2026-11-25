@@ -24,15 +24,14 @@
         "State and county made explicit in titles, listings and structured data.",
         "Location targeting drawn around New Castle County and the nearby Pennsylvania suburbs you serve.",
         "Negative keywords and exclusions to filter out the North Carolina city.",
-        "Pages for the areas customers name: Trolley Square, Greenville, Hockessin, Pike Creek, Brandywine Hundred.",
-        "Reporting that shows which areas produce paying customers."
+        "Pages for the areas customers name: Trolley Square, Greenville, Hockessin, Pike Creek, Brandywine Hundred."
       ]
     },
     {
       "heading": "Districts and suburbs",
       "paragraphs": [
-        "The Riverfront along the Christina has been rebuilt with apartments, restaurants, a ballpark and event venues, and it sits beside the Amtrak station on the Northeast Corridor. Trolley Square is the neighbourhood for bars, cafes and small shops. Little Italy keeps its restaurants and its summer festival, and Market Street has theatres and newer dining.",
-        "Much household spending, though, happens outside the city limits: in Greenville and Hockessin, along Concord Pike in north Wilmington, in Pike Creek and Newark, and in fast-growing Middletown to the south. Tax-free shopping brings Pennsylvania and New Jersey residents to the stores on Concord Pike and around Christiana. A business should decide which of these it truly serves and say so."
+        "The Riverfront along the Christina has been rebuilt with apartments, restaurants, a ballpark and event venues, and it sits beside the Amtrak station on the Northeast Corridor. Trolley Square is the neighbourhood for bars, cafes and small shops.",
+        "Much household spending, though, happens outside the city limits: in Greenville and Hockessin, along Concord Pike in north Wilmington, in Pike Creek and Newark, and in fast-growing Middletown to the south. Tax-free shopping brings Pennsylvania and New Jersey residents to the stores on Concord Pike and around Christiana."
       ]
     },
     {
@@ -45,20 +44,49 @@
   "cards": {
     "heading": "Wilmington sectors we can support",
     "items": [
-      { "title": "Law firms", "text": "Corporate, bankruptcy and litigation practices need pages for each area of work and content that answers out-of-state clients' questions." },
-      { "title": "Registered agents and filing services", "text": "National search demand is high and competitive. Clear service pages and a smooth order flow win customers." },
-      { "title": "Banks and financial firms", "text": "Advisers and lenders need careful wording, clear product pages and campaigns aimed at defined audiences." },
-      { "title": "Healthcare practices", "text": "Specialists and dentists across New Castle County are chosen on reviews, location and how easy it is to book." },
-      { "title": "Restaurants and venues", "text": "Riverfront and Trolley Square businesses rely on photos, current menus, event tie-ins and active profiles." },
-      { "title": "Home services", "text": "Trades serving older houses in the city and newer developments to the south need area pages and steady reviews." }
+      {
+        "title": "Law firms",
+        "text": "Corporate, bankruptcy and litigation practices need pages for each area of work and content that answers out-of-state clients' questions."
+      },
+      {
+        "title": "Registered agents and filing services",
+        "text": "National search demand is high and competitive. Clear service pages and a smooth order flow win customers."
+      },
+      {
+        "title": "Healthcare practices",
+        "text": "Specialists and dentists across New Castle County are chosen on reviews, location and how easy it is to book."
+      },
+      {
+        "title": "Restaurants and venues",
+        "text": "Riverfront and Trolley Square businesses rely on photos, current menus, event tie-ins and active profiles."
+      },
+      {
+        "title": "Home services",
+        "text": "Trades serving older houses in the city and newer developments to the south need area pages and steady reviews."
+      }
     ]
   },
   "presence": "TDM works with Wilmington businesses remotely. We do not have an office in the city. Our team delivers strategy, design, development and video editing online, with scheduled calls and written reports.",
   "faqs": [
-    { "q": "Does TDM have an office in Wilmington, Delaware?", "a": "No. We work with Wilmington businesses remotely, using video calls, shared documents and regular reporting." },
-    { "q": "How do I stop my ads showing in Wilmington, North Carolina?", "a": "Set location targeting to people physically in your Delaware service area, exclude North Carolina, and name Delaware in your ad text and landing pages. On the organic side, consistent address details and state references on your site and listings help search engines place you correctly." },
-    { "q": "Can a Wilmington law firm or registered agent get clients nationally through search?", "a": "Yes. Many clients look online for answers about Delaware company law before choosing a provider. Detailed, accurate pages on specific questions, written or reviewed by your professionals, are the basis of that visibility." },
-    { "q": "How much does it cost to hire a digital marketing agency in Wilmington?", "a": "Pricing depends on the scope of work. We talk through your goals in a free consultation and then send a quote." },
-    { "q": "How long will it take to see more enquiries?", "a": "It depends on your requirements, the channels used and your starting point. We agree the timeline in the plan." }
+    {
+      "q": "Does TDM have an office in Wilmington, Delaware?",
+      "a": "No. We work with Wilmington businesses remotely, using video calls, shared documents and regular reporting."
+    },
+    {
+      "q": "How do I stop my ads showing in Wilmington, North Carolina?",
+      "a": "Set location targeting to people physically in your Delaware service area, exclude North Carolina, and name Delaware in your ad text and landing pages. On the organic side, consistent address details and state references on your site and listings help search engines place you correctly."
+    },
+    {
+      "q": "Can a Wilmington law firm or registered agent get clients nationally through search?",
+      "a": "Yes. Many clients look online for answers about Delaware company law before choosing a provider. Detailed, accurate pages on specific questions, written or reviewed by your professionals, are the basis of that visibility."
+    },
+    {
+      "q": "How much does it cost to hire a digital marketing agency in Wilmington?",
+      "a": "Pricing depends on the scope of work. We talk through your goals in a free consultation and then send a quote."
+    },
+    {
+      "q": "How long will it take to see more enquiries?",
+      "a": "It depends on your requirements, the channels used and your starting point. We agree the timeline in the plan."
+    }
   ]
 }

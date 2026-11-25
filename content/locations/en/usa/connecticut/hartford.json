@@ -24,15 +24,14 @@
         "Town pages for the suburbs you serve, written about real work in each one.",
         "Ad schedules matched to office hours for downtown trade and to evenings for household services.",
         "A Google Business Profile with accurate hours, parking details and current photos.",
-        "Event-aware campaigns for venues near the XL Center, Dunkin' Park and the riverfront.",
-        "Call and form tracking so each town's results can be compared."
+        "Event-aware campaigns for venues near the XL Center, Dunkin' Park and the riverfront."
       ]
     },
     {
       "heading": "Neighbourhoods with their own character",
       "paragraphs": [
-        "Inside the city, districts differ a great deal. The West End has historic houses, the Mark Twain House and independent shops along Farmington Avenue. Parkville has turned old factory buildings into a market hall, studios and breweries. The South End around Franklin Avenue is known for its bakeries and restaurants, and Frog Hollow and Park Street form a busy shopping corridor with deep Caribbean roots. Trinity College sits on the south side, and the University of Hartford and UConn's downtown campus add students to the mix.",
-        "Naming the right district on your pages and in your ads tells a resident that you know where they are. It also keeps your budget from being spent on searches you cannot serve."
+        "Inside the city, districts differ a great deal. The West End has historic houses, the Mark Twain House and independent shops along Farmington Avenue. Parkville has turned old factory buildings into a market hall, studios and breweries. The South End around Franklin Avenue is known for its bakeries and restaurants, and Frog Hollow and Park Street form a busy shopping corridor with deep Caribbean roots.",
+        "Naming the right district on your pages and in your ads tells a resident that you know where they are."
       ]
     },
     {
@@ -45,20 +44,49 @@
   "cards": {
     "heading": "Hartford sectors we can support",
     "items": [
-      { "title": "Insurance agencies and brokers", "text": "Clear pages per line of cover, named contacts and local search visibility bring quote requests from nearby households and firms." },
-      { "title": "Law and professional firms", "text": "A page for each practice area, written for the question a client actually types, earns enquiries over time." },
-      { "title": "Medical and dental practices", "text": "Patients across the valley compare reviews and distance. Accurate listings and treatment pages make the choice easier." },
-      { "title": "Manufacturers and suppliers", "text": "Shops supplying the aerospace trade need capability lists, certifications and a site an engineer can scan quickly." },
-      { "title": "Restaurants and venues", "text": "Lunch trade, game nights and weekend visitors each need their own offers, photos and timing." },
-      { "title": "Home services", "text": "Heating, roofing and remodelling firms win work town by town through map results and reviews." }
+      {
+        "title": "Insurance agencies and brokers",
+        "text": "Clear pages per line of cover, named contacts and local search visibility bring quote requests from nearby households and firms."
+      },
+      {
+        "title": "Law and professional firms",
+        "text": "A page for each practice area, written for the question a client actually types, earns enquiries over time."
+      },
+      {
+        "title": "Medical and dental practices",
+        "text": "Patients across the valley compare reviews and distance. Accurate listings and treatment pages make the choice easier."
+      },
+      {
+        "title": "Restaurants and venues",
+        "text": "Lunch trade, game nights and weekend visitors each need their own offers, photos and timing."
+      },
+      {
+        "title": "Home services",
+        "text": "Heating, roofing and remodelling firms win work town by town through map results and reviews."
+      }
     ]
   },
   "presence": "TDM works with Hartford businesses remotely. We do not have an office in the city. Strategy, design, development and video editing are delivered online by our team, with scheduled calls and written reports.",
   "faqs": [
-    { "q": "Does TDM have an office in Hartford?", "a": "No. We work with Hartford businesses remotely. Video calls, shared documents and regular reports keep you informed about the work." },
-    { "q": "Should my business target Hartford or the surrounding towns?", "a": "Usually both, separately. If customers visit you downtown, target the area around your premises during working hours. If you go to customers or they choose close to home, build pages and campaigns for the towns where they live, such as West Hartford, Glastonbury or Manchester." },
-    { "q": "How can an insurance agency in Hartford stand out online?", "a": "Be specific. Create a page for each type of cover, explain who it suits, show the people behind the agency and collect reviews. In a city full of insurers, a small agency wins on clarity and local trust." },
-    { "q": "What does digital marketing cost for a Hartford business?", "a": "It depends on the scope of work: which channels, how many towns and how much content. We provide a quote after a free consultation." },
-    { "q": "How quickly can a new website be ready?", "a": "It depends on your requirements and the brief. The schedule is agreed in the plan before we start." }
+    {
+      "q": "Does TDM have an office in Hartford?",
+      "a": "No. We work with Hartford businesses remotely. Video calls, shared documents and regular reports keep you informed about the work."
+    },
+    {
+      "q": "Should my business target Hartford or the surrounding towns?",
+      "a": "Usually both, separately. If customers visit you downtown, target the area around your premises during working hours. If you go to customers or they choose close to home, build pages and campaigns for the towns where they live, such as West Hartford, Glastonbury or Manchester."
+    },
+    {
+      "q": "How can an insurance agency in Hartford stand out online?",
+      "a": "Be specific. Create a page for each type of cover, explain who it suits, show the people behind the agency and collect reviews. In a city full of insurers, a small agency wins on clarity and local trust."
+    },
+    {
+      "q": "What does digital marketing cost for a Hartford business?",
+      "a": "It depends on the scope of work: which channels, how many towns and how much content. We provide a quote after a free consultation."
+    },
+    {
+      "q": "How quickly can a new website be ready?",
+      "a": "It depends on your requirements and the brief. The schedule is agreed in the plan before we start."
+    }
   ]
 }

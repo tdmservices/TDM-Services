@@ -17,21 +17,20 @@
     {
       "heading": "Industries that set the tone",
       "paragraphs": [
-        "Insurance and financial services employ a large share of office workers, and they support a wide circle of smaller firms: brokers, advisers, accountants, lawyers and software suppliers. These businesses sell on trust and expertise, so clear service pages, named professionals and useful articles do more than display ads.",
+        "Insurance and financial services employ a large share of office workers, and they support a wide circle of smaller firms: brokers, advisers, accountants, lawyers and software suppliers.",
         "Connecticut is also a manufacturing state in a way outsiders often miss. Jet engines are built in East Hartford, helicopters in Stratford and submarines in Groton, and many machine shops and component makers supply them. A precision manufacturer here is selling to procurement teams and engineers, who look for certifications, capabilities and equipment lists before they ever call."
       ],
       "bullets": [
         "Town-level pages and keywords for businesses that serve several towns.",
         "Capability and certification pages for aerospace and defence suppliers.",
-        "Search campaigns set by town or postcode, so Fairfield County bids are kept apart from the rest of the state.",
-        "Review collection for practices and trades that depend on local reputation."
+        "Search campaigns set by town or postcode, so Fairfield County bids are kept apart from the rest of the state."
       ]
     },
     {
       "heading": "Two media markets and a commuter belt",
       "paragraphs": [
-        "Much of Fairfield County watches New York television and reads New York news, while the rest of the state looks to Hartford and New Haven. For advertisers that means a statewide campaign is rarely the right unit. Costs per click in Greenwich or Darien, where national brands also bid for affluent households, are not the same as in Waterbury or Norwich.",
-        "Many residents commute by train or by Interstate 95 and the Merritt Parkway, and they research on a phone during the journey and decide at home in the evening. Ad schedules and mobile page speed matter more than they first appear."
+        "Much of Fairfield County watches New York television and reads New York news, while the rest of the state looks to Hartford and New Haven. For advertisers that means a statewide campaign is rarely the right unit.",
+        "Many residents commute by train or by Interstate 95 and the Merritt Parkway, and they research on a phone during the journey and decide at home in the evening."
       ]
     },
     {
@@ -44,20 +43,49 @@
   "cards": {
     "heading": "Connecticut sectors we plan campaigns for",
     "items": [
-      { "title": "Insurance and financial advice", "text": "Agencies and advisers need pages that explain what they cover, who they serve and who the customer will speak to." },
-      { "title": "Aerospace and precision manufacturing", "text": "Suppliers win enquiries with detailed capability pages, certifications and search visibility for specific processes." },
-      { "title": "Home services", "text": "Heating, roofing, landscaping and remodelling firms compete in map results one town at a time." },
-      { "title": "Healthcare and dental practices", "text": "Patients choose close to home. Accurate profiles, reviews and a clear page per treatment bring bookings." },
-      { "title": "Hospitality on the shoreline", "text": "Inns, restaurants and attractions need summer and autumn campaigns ready before visitors start planning." },
-      { "title": "Private education and tutoring", "text": "Schools and tutors in affluent towns are researched carefully. Content, reviews and timed campaigns matter." }
+      {
+        "title": "Insurance and financial advice",
+        "text": "Agencies and advisers need pages that explain what they cover, who they serve and who the customer will speak to."
+      },
+      {
+        "title": "Aerospace and precision manufacturing",
+        "text": "Suppliers win enquiries with detailed capability pages, certifications and search visibility for specific processes."
+      },
+      {
+        "title": "Home services",
+        "text": "Heating, roofing, landscaping and remodelling firms compete in map results one town at a time."
+      },
+      {
+        "title": "Healthcare and dental practices",
+        "text": "Patients choose close to home. Accurate profiles, reviews and a clear page per treatment bring bookings."
+      },
+      {
+        "title": "Hospitality on the shoreline",
+        "text": "Inns, restaurants and attractions need summer and autumn campaigns ready before visitors start planning."
+      }
     ]
   },
   "presence": "TDM works with Connecticut businesses remotely. We do not have an office in the state. Meetings are held by video call, reporting is shared online, and strategy, design, development and video editing come from one team.",
   "faqs": [
-    { "q": "Does TDM have an office in Connecticut?", "a": "No. We work with Connecticut businesses remotely, with scheduled video calls, shared documents and regular written reports." },
-    { "q": "How do I rank in several Connecticut towns at once?", "a": "Give each town you genuinely serve its own page with real detail about the work you do there, set your service area correctly in your Google Business Profile, and collect reviews from customers in those towns. One page naming a single city will not cover its neighbours." },
-    { "q": "Is advertising in Fairfield County more expensive than the rest of the state?", "a": "It often is, because national and New York advertisers compete for the same households. We run Fairfield County as its own campaign with its own budget so its costs do not distort results elsewhere." },
-    { "q": "How much does a marketing agency cost in Connecticut?", "a": "It depends on scope: the channels, the number of towns or locations and how competitive your field is. We quote after a free consultation." },
-    { "q": "How long does SEO take for a Connecticut business?", "a": "It depends on your requirements, your starting point and your competitors. The timeline is agreed in the plan before work begins." }
+    {
+      "q": "Does TDM have an office in Connecticut?",
+      "a": "No. We work with Connecticut businesses remotely, with scheduled video calls, shared documents and regular written reports."
+    },
+    {
+      "q": "How do I rank in several Connecticut towns at once?",
+      "a": "Give each town you genuinely serve its own page with real detail about the work you do there, set your service area correctly in your Google Business Profile, and collect reviews from customers in those towns. One page naming a single city will not cover its neighbours."
+    },
+    {
+      "q": "Is advertising in Fairfield County more expensive than the rest of the state?",
+      "a": "It often is, because national and New York advertisers compete for the same households. We run Fairfield County as its own campaign with its own budget so its costs do not distort results elsewhere."
+    },
+    {
+      "q": "How much does a marketing agency cost in Connecticut?",
+      "a": "It depends on scope: the channels, the number of towns or locations and how competitive your field is. We quote after a free consultation."
+    },
+    {
+      "q": "How long does SEO take for a Connecticut business?",
+      "a": "It depends on your requirements, your starting point and your competitors. The timeline is agreed in the plan before work begins."
+    }
   ]
 }

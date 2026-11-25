@@ -35,31 +35,54 @@
         "Birmingham has a restaurant scene that draws national attention, from long-established fine dining to barbecue and the breweries of Avondale. Restaurants here are chosen from photos, short video and map listings, so content has to be kept fresh.",
         "The Civil Rights District, including the Birmingham Civil Rights Institute and 16th Street Baptist Church, brings visitors and school groups through the year. Motorsport weekends at Barber Motorsports Park and football at Protective Stadium and Legion Field fill hotels, and autumn Saturdays change shopping and dining patterns across the city whenever Alabama or Auburn plays. We build these dates into content calendars and ad schedules."
       ]
-    },
-    {
-      "heading": "Weather-driven demand",
-      "paragraphs": [
-        "Central Alabama sees severe storms and tornado warnings in spring and again late in the year, and summers are hot and humid. Roofing, tree removal, restoration and air conditioning firms get sudden bursts of calls. Having service pages, ad copy and budgets prepared beforehand lets a local company respond on the same day, ahead of crews arriving from elsewhere."
-      ]
     }
   ],
   "cards": {
     "heading": "Birmingham businesses we can support",
     "items": [
-      { "title": "Medical and dental practices", "text": "A page for each treatment, provider profiles, reviews and ad wording that stays within platform rules on health claims." },
-      { "title": "Law and financial firms", "text": "Search visibility for specific client problems, with clear practice pages and an easy first contact." },
-      { "title": "Construction and engineering", "text": "Project portfolios, capability pages and LinkedIn campaigns aimed at owners, developers and facility managers." },
-      { "title": "Restaurants and breweries", "text": "Photography, short video and accurate listings for Avondale, Lakeview, Five Points South and the suburbs." },
-      { "title": "Home services", "text": "Suburb-level pages and call ads for HVAC, roofing, plumbing and tree work, with storm campaigns ready to switch on." },
-      { "title": "Start-ups and software", "text": "Sites, search content and paid acquisition for young companies selling beyond Alabama." }
+      {
+        "title": "Medical and dental practices",
+        "text": "A page for each treatment, provider profiles, reviews and ad wording that stays within platform rules on health claims."
+      },
+      {
+        "title": "Law and financial firms",
+        "text": "Search visibility for specific client problems, with clear practice pages and an easy first contact."
+      },
+      {
+        "title": "Construction and engineering",
+        "text": "Project portfolios, capability pages and LinkedIn campaigns aimed at owners, developers and facility managers."
+      },
+      {
+        "title": "Restaurants and breweries",
+        "text": "Photography, short video and accurate listings for Avondale, Lakeview, Five Points South and the suburbs."
+      },
+      {
+        "title": "Home services",
+        "text": "Suburb-level pages and call ads for HVAC, roofing, plumbing and tree work, with storm campaigns ready to switch on."
+      }
     ]
   },
   "presence": "TDM works with Birmingham businesses remotely. We do not have an office or staff in the city. Work is delivered online by one team, with scheduled video calls and written reports.",
   "faqs": [
-    { "q": "Is TDM based in Birmingham, Alabama?", "a": "No. We work with Birmingham businesses remotely. You deal with the same team throughout, by video call and shared reporting." },
-    { "q": "How do I show up in searches from Hoover, Homewood or Vestavia Hills?", "a": "Give each area its own page describing the work you do there, set your service area properly in your Google Business Profile, and collect reviews from customers in those suburbs. If you have more than one location, each needs its own profile." },
-    { "q": "What does a marketing agency cost in Birmingham?", "a": "The price depends on the scope of work: the channels involved, the amount of content and the competition in your field. We quote after a free consultation." },
-    { "q": "Can you market a medical practice near UAB?", "a": "Yes. We write clear pages for each service and provider, manage local listings and reviews, and run ads worded to meet the advertising platforms' health policies. Any clinical claims are checked with you before they are published." },
-    { "q": "How long before I see results?", "a": "That depends on your requirements and the brief. Paid campaigns and SEO move at different speeds, and the timeline for each is agreed in the plan." }
+    {
+      "q": "Is TDM based in Birmingham, Alabama?",
+      "a": "No. We work with Birmingham businesses remotely. You deal with the same team throughout, by video call and shared reporting."
+    },
+    {
+      "q": "How do I show up in searches from Hoover, Homewood or Vestavia Hills?",
+      "a": "Give each area its own page describing the work you do there, set your service area properly in your Google Business Profile, and collect reviews from customers in those suburbs. If you have more than one location, each needs its own profile."
+    },
+    {
+      "q": "What does a marketing agency cost in Birmingham?",
+      "a": "The price depends on the scope of work: the channels involved, the amount of content and the competition in your field. We quote after a free consultation."
+    },
+    {
+      "q": "Can you market a medical practice near UAB?",
+      "a": "Yes. We write clear pages for each service and provider, manage local listings and reviews, and run ads worded to meet the advertising platforms' health policies. Any clinical claims are checked with you before they are published."
+    },
+    {
+      "q": "How long before I see results?",
+      "a": "That depends on your requirements and the brief. Paid campaigns and SEO move at different speeds, and the timeline for each is agreed in the plan."
+    }
   ]
 }
