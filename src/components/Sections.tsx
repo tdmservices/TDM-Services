@@ -370,6 +370,29 @@ export function GlobeField() {
   );
 }
 
+/** Icons for services that share a shape with others in their family, matched by slug. */
+function family(slug: string): React.ReactNode | null {
+  // Marketplaces: the job decides the icon, whichever marketplace it is for.
+  if (slug.endsWith("-account-management")) return <path d="M4 9l1-5h14l1 5M4 9v11h16V9M4 9h16M9 20v-6h6v6" />;
+  if (slug.endsWith("-virtual-assistant")) return <path d="M12 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM5 21a7 7 0 0 1 14 0M4 9v3M20 9v3" />;
+  if (slug.endsWith("-account-health")) return <path d="M12 3l8 3v6c0 4.5-3.2 7.8-8 9-4.8-1.2-8-4.5-8-9V6l8-3ZM8.5 12h2l1.5-3 2 6 1-3h1.5" />;
+  if (slug.endsWith("-advertising")) return <path d="M4 10v4h3l7 4V6l-7 4H4ZM17 9a4 4 0 0 1 0 6" />;
+  // 3D work: a cube.
+  if (slug.startsWith("3d-") || slug.endsWith("-design") || slug === "architecture-planning") return <path d="M12 3l8 4.500v9L12 21l-8-4.500v-9L12 3ZM12 12l8-4.500M12 12 4 7.500M12 12v9" />;
+  const ai: Record<string, React.ReactNode> = {
+    "ai-development": <path d="M8 4h8v4h4v8h-4v4H8v-4H4V8h4V4ZM10 10h4v4h-4z" />,
+    "mcp-development": <path d="M9 3v5M15 3v5M6 8h12v4a6 6 0 0 1-12 0V8ZM12 18v3" />,
+    "ai-automation": <path d="M13 3 5 13h6l-1 8 8-10h-6l1-8Z" />,
+    "workflow-automation": <path d="M5 4h5v5H5zM14 15h5v5h-5zM7.5 9v4a2 2 0 0 0 2 2H14M14 6.500h3a2 2 0 0 1 2 2V15" />,
+    "ai-data-systems": <path d="M5 6c0-1.7 3.1-3 7-3s7 1.3 7 3-3.1 3-7 3-7-1.3-7-3ZM5 6v12c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3" />,
+    "founder-ai-systems": <path d="M10 4a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7ZM3 20a7 7 0 0 1 11-5.700M18 13l1 2.5 2.5 1-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1 1-2.500Z" />,
+    "digital-strategy-consulting": <path d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18ZM15.5 8.500l-2 5-5 2 2-5 5-2Z" />,
+    "product-studio-for-startups": <path d="M12 3c3 2 5 5.5 5 9l-2 3H9l-2-3c0-3.5 2-7 5-9ZM9 15l-2 4 3-1M15 15l2 4-3-1M12 9.500v.01" />,
+    "game-development": <path d="M7 8h10a4 4 0 0 1 4 4v2a3 3 0 0 1-5.4 1.800L15 15H9l-.600.800A3 3 0 0 1 3 14v-2a4 4 0 0 1 4-4ZM7.5 11v3M6 12.500h3M15.5 11.500h.01M17.5 13.500h.01" />,
+  };
+  return ai[slug] ?? null;
+}
+
 /** One line icon per service, keyed by slug. Falls back to a generic mark. */
 export function ServiceIcon({ slug }: { slug: string }) {
   const paths: Record<string, React.ReactNode> = {
@@ -390,7 +413,7 @@ export function ServiceIcon({ slug }: { slug: string }) {
   };
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      {paths[slug] ?? <path d="M12 3v18M3 12h18" />}
+      {paths[slug] ?? family(slug) ?? <path d="M12 3v18M3 12h18" />}
     </svg>
   );
 }

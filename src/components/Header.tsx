@@ -188,8 +188,20 @@ export function Header({
   const [scrolled, setScrolled] = useState(false);
   const nav = navByLocale[locale];
   const t = ui[locale];
-  const megaBySlug = new Map(megaSectors.map((s) => [`/${s.slug}/`, s]));
-  const activeMega = openMega ? megaBySlug.get(openMega) : undefined;
+  // The service groups come from the content; the links beside them are the fixed pages.
+  const groupPaths = new Set(megaSectors.map((g) => `/${g.slug}/`));
+  const links = nav.filter((item) => !groupPaths.has(item.path));
+  const [group, setGroup] = useState<string | null>(null);
+  const activeGroup = megaSectors.find((g) => g.slug === group) ?? megaSectors[0];
+  // In the drawer the groups come first, each opening to its services.
+  const drawer: NavItem[] = [
+    ...megaSectors.map((g) => ({
+      label: g.name,
+      path: `/${g.slug}/`,
+      children: g.services.length ? g.services.map((sv) => ({ label: sv.name, path: `/${g.slug}/${sv.slug}/` })) : undefined,
+    })),
+    ...links,
+  ];
   const closeDrawer = () => {
     setOpen(false);
     setOpenGroup(null);
@@ -253,34 +265,31 @@ export function Header({
           </Link>
 
           <nav className="hidden items-center gap-0.5 xl:flex" aria-label="Main">
-            {nav.map((item) => {
-              const hasMega = megaBySlug.has(item.path);
-              return (
-                <div
-                  key={item.path}
-                  className="group"
-                  onMouseEnter={() => setOpenMega(hasMega ? item.path : null)}
-                  onFocus={() => setOpenMega(hasMega ? item.path : null)}
+            {/* Every service group lives behind one trigger; the panel below lists them. */}
+            <div className="group" onMouseEnter={() => setOpenMega("services")} onFocus={() => setOpenMega("services")}>
+              <button
+                type="button"
+                aria-expanded={openMega === "services"}
+                aria-controls="services-menu"
+                onClick={() => setOpenMega(openMega === "services" ? null : "services")}
+                className={`flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-2 text-[14px] font-medium transition-colors duration-200 hover:bg-white/10 hover:text-white ${
+                  openMega === "services" ? "bg-white/10 text-white" : "text-white/85"
+                }`}
+              >
+                {t.services}
+                <ChevronIcon className={`text-white/45 transition-transform duration-300 group-hover:text-white/80 ${openMega === "services" ? "rotate-180 text-white/80" : ""}`} />
+              </button>
+            </div>
+            {links.map((item) => (
+              <div key={item.path} onMouseEnter={() => setOpenMega(null)} onFocus={() => setOpenMega(null)}>
+                <Link
+                  href={href(locale, item.path)}
+                  className="flex items-center whitespace-nowrap rounded-full px-3 py-2 text-[14px] font-medium text-white/85 transition-colors duration-200 hover:bg-white/10 hover:text-white"
                 >
-                  <Link
-                    href={href(locale, item.path)}
-                    aria-expanded={hasMega ? openMega === item.path : undefined}
-                    className={`flex items-center gap-1.5 whitespace-nowrap rounded-full px-2 py-2 text-[14px] font-medium transition-colors duration-200 hover:bg-white/10 hover:text-white 2xl:px-3 ${
-                      openMega === item.path ? "bg-white/10 text-white" : "text-white/85"
-                    }`}
-                  >
-                    {item.label}
-                    {item.children && (
-                      <ChevronIcon
-                        className={`text-white/45 transition-transform duration-300 group-hover:text-white/80 ${
-                          openMega === item.path ? "rotate-180 text-white/80" : ""
-                        }`}
-                      />
-                    )}
-                  </Link>
-                </div>
-              );
-            })}
+                  {item.label}
+                </Link>
+              </div>
+            ))}
           </nav>
 
           <div className="hidden items-center gap-2.5 xl:flex">
@@ -326,62 +335,94 @@ export function Header({
           </button>
         </div>
 
-        {/* Full-width mega panel, anchored to the header rather than the trigger
-            so it can span the container without overflowing near the edges. */}
+        {/* One panel for every service: the groups down the side, the chosen
+            group's services beside them. Anchored to the header, not the
+            trigger, so it can span the container. */}
         <div
+          id="services-menu"
           className={`absolute inset-x-0 top-full hidden px-4 transition-all duration-200 sm:px-6 xl:block ${
-            activeMega ? "visible translate-y-0 opacity-100" : "pointer-events-none invisible -translate-y-1 opacity-0"
+            openMega === "services" ? "visible translate-y-0 opacity-100" : "pointer-events-none invisible -translate-y-1 opacity-0"
           }`}
         >
           <div className="mx-auto max-w-[1440px]">
-            {activeMega && (
-              <div className="overflow-hidden rounded-3xl border border-mint/70 bg-white shadow-[0_28px_70px_-18px_rgba(15,53,39,0.45)]">
-                <div className="flex items-start justify-between gap-8 px-8 pt-7">
-                  <div>
-                    <p className="kicker flex items-center gap-2 text-fern">
-                      <span className="h-1.5 w-1.5 rounded-full bg-amber" aria-hidden />
-                      {activeMega.name}
-                    </p>
-                    <p className="mt-2 max-w-xl font-display text-xl font-bold text-forest">{activeMega.tagline}</p>
-                  </div>
-                  <Link
-                    href={href(locale, `/${activeMega.slug}/`)}
-                    className="group/all mt-1 flex shrink-0 items-center gap-2 whitespace-nowrap text-sm font-bold text-forest hover:text-fern"
-                  >
-                    {t.explore} {activeMega.name}
-                    <span className="arrow-nudge" aria-hidden>
-                      {isRtl(locale) ? "←" : "→"}
-                    </span>
-                  </Link>
-                </div>
+            {openMega === "services" && activeGroup && (
+              <div className="grid grid-cols-[17rem_1fr] overflow-hidden rounded-3xl border border-mint/70 bg-white shadow-[0_28px_70px_-18px_rgba(15,53,39,0.45)]">
+                <ul className="flex flex-col gap-1 bg-forest p-4" role="tablist" aria-orientation="vertical">
+                  {megaSectors.map((group) => {
+                    const on = group.slug === activeGroup.slug;
+                    return (
+                      <li key={group.slug}>
+                        <Link
+                          href={href(locale, `/${group.slug}/`)}
+                          role="tab"
+                          aria-selected={on}
+                          onMouseEnter={() => setGroup(group.slug)}
+                          onFocus={() => setGroup(group.slug)}
+                          onClick={() => setOpenMega(null)}
+                          className={`flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-bold transition-colors duration-150 ${
+                            on ? "bg-white text-forest" : "text-white/80 hover:bg-white/10 hover:text-white"
+                          }`}
+                        >
+                          <span>{group.name}</span>
+                          <span className={`text-xs font-semibold ${on ? "text-fern" : "text-white/40"}`} aria-hidden>
+                            {group.services.length > 0 ? group.services.length : isRtl(locale) ? "←" : "→"}
+                          </span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
 
-                <div className="mt-6 grid grid-cols-2 gap-1 border-t border-mint px-5 py-5 lg:grid-cols-3">
-                  {activeMega.services.map((sv) => (
+                <div className="flex min-h-[25rem] flex-col">
+                  <div className="flex items-start justify-between gap-8 px-8 pt-7">
+                    <div>
+                      <p className="kicker flex items-center gap-2 text-fern">
+                        <span className="h-1.5 w-1.5 rounded-full bg-amber" aria-hidden />
+                        {activeGroup.name}
+                      </p>
+                      <p className="mt-2 max-w-xl font-display text-xl font-bold text-forest">{activeGroup.tagline}</p>
+                    </div>
                     <Link
-                      key={sv.slug}
-                      href={href(locale, `/${activeMega.slug}/${sv.slug}/`)}
-                      className="group/item flex gap-3 rounded-2xl p-3 transition-colors duration-200 hover:bg-cream"
+                      href={href(locale, `/${activeGroup.slug}/`)}
+                      onClick={() => setOpenMega(null)}
+                      className="group/all mt-1 flex shrink-0 items-center gap-2 whitespace-nowrap text-sm font-bold text-forest hover:text-fern"
                     >
-                      <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-mint text-fern transition-colors duration-200 group-hover/item:bg-amber group-hover/item:text-white">
-                        <ServiceIcon slug={sv.slug} />
-                      </span>
-                      <span className="min-w-0">
-                        <span className="block text-sm font-bold text-forest">{sv.name}</span>
-                        <span className="mt-0.5 line-clamp-2 block text-xs leading-relaxed text-ink/60">{sv.desc}</span>
+                      {t.explore} {activeGroup.name}
+                      <span className="arrow-nudge" aria-hidden>
+                        {isRtl(locale) ? "←" : "→"}
                       </span>
                     </Link>
-                  ))}
-                </div>
+                  </div>
 
-                {/* Just the call to action now — the service count and language
-                    list said nothing a visitor needed at this point. */}
-                <div className="flex items-center justify-end gap-6 border-t border-mint bg-cream px-8 py-4">
-                  <ConsultationLink
-                    locale={locale}
-                    className="btn-fluid btn-shine whitespace-nowrap rounded-full bg-forest px-5 py-2.5 text-xs font-bold text-white"
+                  {/* Twelve services means three marketplaces of four: fill by column so each column is one marketplace. */}
+                  <div
+                    className={`mt-5 grid flex-1 content-start gap-x-1 gap-y-0.5 border-t border-mint px-5 py-4 lg:grid-cols-3 ${
+                      activeGroup.services.length === 12 ? "lg:grid-flow-col lg:grid-rows-4" : ""
+                    }`}
                   >
-                    {t.cta}
-                  </ConsultationLink>
+                    {activeGroup.services.map((sv) => (
+                      <Link
+                        key={sv.slug}
+                        href={href(locale, `/${activeGroup.slug}/${sv.slug}/`)}
+                        onClick={() => setOpenMega(null)}
+                        className="group/item flex gap-3 rounded-2xl p-2.5 transition-colors duration-200 hover:bg-cream"
+                      >
+                        <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-mint text-fern transition-colors duration-200 group-hover/item:bg-amber group-hover/item:text-white">
+                          <ServiceIcon slug={sv.slug} />
+                        </span>
+                        <span className="flex min-w-0 flex-col">
+                          <span className="text-sm font-bold text-forest">{sv.name}</span>
+                          <span className={`mt-0.5 text-xs leading-relaxed text-ink/60 ${activeGroup.services.length > 6 ? "line-clamp-1" : "line-clamp-2"}`}>{sv.desc}</span>
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+
+                  <div className="flex items-center justify-end gap-6 border-t border-mint bg-cream px-8 py-4">
+                    <ConsultationLink locale={locale} className="btn-fluid btn-shine whitespace-nowrap rounded-full bg-forest px-5 py-2.5 text-xs font-bold text-white">
+                      {t.cta}
+                    </ConsultationLink>
+                  </div>
                 </div>
               </div>
             )}
@@ -402,7 +443,7 @@ export function Header({
           style={{ backgroundImage: "radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px)", backgroundSize: "28px 28px" }}
         />
         <nav className="relative h-full overflow-y-auto px-5 pb-10 pt-[88px]" aria-label="Mobile">
-          {nav.map((item) => {
+          {drawer.map((item) => {
             const expanded = openGroup === item.path;
             return (
               <div key={item.path} className="border-b border-white/10">
