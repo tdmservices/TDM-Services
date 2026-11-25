@@ -5,12 +5,14 @@ import { useState } from "react";
 import type { Locale } from "@/lib/types";
 import { href } from "@/lib/i18n";
 import type { PlayCopy, Quiz } from "@/content/play/types";
+import { GrowthSays } from "@/components/mascot/GrowthSays";
 
 /**
  * A training quiz: one question at a time, and the reason for the right answer
- * straight after each choice, so it teaches as it scores.
+ * straight after each choice, so it teaches as it scores. Growth, the mascot,
+ * hosts it: it introduces the quiz, reacts to each answer and reads the result.
  */
-export function KnowledgeQuiz({ locale, quiz, copy, toolName }: { locale: Locale; quiz: Quiz; copy: PlayCopy["quiz"]; toolName: string }) {
+export function KnowledgeQuiz({ locale, quiz, copy, host, toolName }: { locale: Locale; quiz: Quiz; copy: PlayCopy["quiz"]; host: PlayCopy["host"]; toolName: string }) {
   const [step, setStep] = useState(0);
   const [picked, setPicked] = useState<number[]>([]);
   const total = quiz.questions.length;
@@ -38,6 +40,9 @@ export function KnowledgeQuiz({ locale, quiz, copy, toolName }: { locale: Locale
           {score}
           <span className="text-2xl text-ink/40"> / {max}</span>
         </p>
+        <GrowthSays frame={tier === 2 ? "cheer" : tier === 1 ? "wave1" : "idle1"} className="mt-4">
+          {host.results[tier]}
+        </GrowthSays>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink/80">{tiers[tier]}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link href={href(locale, quiz.service)} className="rounded-full bg-amber px-6 py-3 font-semibold text-white shadow-lg shadow-amber/25 transition hover:brightness-110">
@@ -95,6 +100,11 @@ export function KnowledgeQuiz({ locale, quiz, copy, toolName }: { locale: Locale
       <div className="mt-3 h-2 overflow-hidden rounded-full bg-mint">
         <div className="h-full rounded-full bg-amber transition-all duration-500" style={{ width: `${((step + (answered ? 1 : 0)) / total) * 100}%` }} />
       </div>
+      {step === 0 && !answered && (
+        <GrowthSays frame="wave1" className="mt-5">
+          {host.quizIntro}
+        </GrowthSays>
+      )}
       <h3 className="mt-6 font-display text-xl font-bold leading-snug text-forest sm:text-2xl">{q.q}</h3>
       <div className="mt-5 grid gap-3">
         {q.options.map((option, i) => {
@@ -124,6 +134,9 @@ export function KnowledgeQuiz({ locale, quiz, copy, toolName }: { locale: Locale
       </div>
       {answered && (
         <div className="mt-5 rounded-2xl bg-cream px-5 py-4" aria-live="polite">
+          <GrowthSays frame={assess ? "point" : choice === q.answer ? "cheer" : "hit"} compact className="mb-2">
+            {(assess ? host.noted : choice === q.answer ? host.right : host.wrong)[step % 3]}
+          </GrowthSays>
           <p className={`font-display font-bold ${assess || choice === q.answer ? "text-fern" : "text-red-600"}`}>
             {assess ? copy.noted : choice === q.answer ? copy.correct : copy.wrong}
           </p>

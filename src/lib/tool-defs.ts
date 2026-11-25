@@ -26,6 +26,8 @@ export interface CalcDef {
   slug: string;
   /** Service or sector page this tool belongs with. */
   service: string;
+  /** Other service pages that should also show this tool. */
+  alsoFor?: string[];
   inputs: InputDef[];
   compute: (v: Record<string, number | string>) => Output[];
 }
@@ -559,6 +561,281 @@ export const TOOL_DEFS: ToolDef[] = [
   },
 ];
 
+/**
+ * A brief-style document from a list of sections. Each part is a field id; a
+ * text field prints its value (or "to be decided"), a select prints the chosen
+ * option, a multi prints one list item per choice.
+ */
+type Part = { id: string; as: "text" | "select" | "multi"; inline?: boolean };
+const briefDoc =
+  (titleField: string, sections: { key: string; parts: Part[] }[], questions = 4): BuilderDef["build"] =>
+  (v, picked, t) => {
+    const lines = [`# ${t("doc.title")}: ${v(titleField)}`];
+    if (v("company")) lines.push(`${t("f.company")}: ${v("company")}`);
+    for (const section of sections) {
+      lines.push("", `# ${t(`doc.${section.key}`)}`);
+      for (const part of section.parts) {
+        if (part.as === "multi") {
+          const chosen = picked(part.id);
+          if (section.parts.length > 1) lines.push(`${t(`f.${part.id}`)}:`);
+          lines.push(...(chosen.length ? chosen.map((c) => `- ${t(`o.${part.id}.${c}`)}`) : [`- ${t("doc.tbd")}`]));
+        } else {
+          const value = part.as === "select" ? t(`o.${part.id}.${v(part.id)}`) : v(part.id) || t("doc.tbd");
+          lines.push(part.inline ? `- ${t(`f.${part.id}`)}: ${value}` : value);
+        }
+      }
+    }
+    lines.push("", `# ${t("doc.questions")}`, ...Array.from({ length: questions }, (_, i) => `- ${t(`doc.q${i + 1}`)}`));
+    return lines;
+  };
+
+const MARKETPLACE_PAGES = ["amazon", "ebay", "walmart"].flatMap((m) => ["account-management", "virtual-assistant", "account-health"].map((s) => `/marketplaces/${m}-${s}/`));
+
+/** Tools for the AI, 3D, marketplace, consulting and game services. */
+const NEW_TOOL_DEFS: ToolDef[] = [
+  {
+    kind: "calc",
+    slug: "marketplace-profit-calculator",
+    service: "/marketplaces/amazon-account-management/",
+    alsoFor: MARKETPLACE_PAGES.slice(1),
+    inputs: [
+      { id: "price", type: "money", default: 30 },
+      { id: "cost", type: "money", default: 9 },
+      { id: "inbound", type: "money", default: 1, step: 0.1 },
+      { id: "fulfil", type: "money", default: 5, step: 0.1 },
+      { id: "referralPct", type: "percent", default: 15, step: 0.5 },
+      { id: "adCost", type: "money", default: 3, step: 0.1 },
+      { id: "returnsPct", type: "percent", default: 4, step: 0.5 },
+      { id: "units", type: "number", default: 400 },
+      { id: "fixed", type: "money", default: 40 },
+    ],
+    compute(v) {
+      const price = n(v.price);
+      const referral = price * (n(v.referralPct) / 100);
+      const returns = price * (n(v.returnsPct) / 100);
+      const beforeAds = price - n(v.cost) - n(v.inbound) - n(v.fulfil) - referral - returns;
+      const perUnit = beforeAds - n(v.adCost);
+      const out: Output[] = [
+        { id: "perUnit", kind: "money", value: perUnit, strong: true, decimals: 2 },
+        { id: "margin", kind: "percent", value: price > 0 ? (perUnit / price) * 100 : 0, decimals: 1 },
+        { id: "fees", kind: "money", value: referral + n(v.fulfil), decimals: 2 },
+        { id: "breakEvenAcos", kind: "percent", value: price > 0 ? Math.max((beforeAds / price) * 100, 0) : 0, decimals: 1 },
+        { id: "monthly", kind: "money", value: perUnit * n(v.units) - n(v.fixed) },
+      ];
+      if (perUnit <= 0) out.push({ id: "verdict", kind: "message", key: "msg.loss", tone: "bad" });
+      return out;
+    },
+  },
+  {
+    kind: "calc",
+    slug: "acos-calculator",
+    service: "/marketplaces/amazon-advertising/",
+    alsoFor: ["/marketplaces/ebay-advertising/", "/marketplaces/walmart-advertising/"],
+    inputs: [
+      { id: "adSpend", type: "money", default: 1200 },
+      { id: "adSales", type: "money", default: 4800 },
+      { id: "totalSales", type: "money", default: 14000 },
+      { id: "marginPct", type: "percent", default: 30 },
+    ],
+    compute(v) {
+      const spend = n(v.adSpend);
+      const adSales = n(v.adSales);
+      if (adSales <= 0) return [];
+      const acos = (spend / adSales) * 100;
+      const out: Output[] = [
+        { id: "acos", kind: "percent", value: acos, strong: true, decimals: 1 },
+        { id: "roas", kind: "ratio", value: spend > 0 ? adSales / spend : 0, decimals: 2 },
+      ];
+      if (n(v.totalSales) > 0) out.push({ id: "tacos", kind: "percent", value: (spend / n(v.totalSales)) * 100, decimals: 1 });
+      out.push({ id: "breakEven", kind: "percent", value: n(v.marginPct), decimals: 1 });
+      out.push({ id: "profit", kind: "money", value: adSales * (n(v.marginPct) / 100) - spend });
+      const gap = n(v.marginPct) - acos;
+      out.push({ id: "verdict", kind: "message", key: gap > 3 ? "msg.profit" : gap >= 0 ? "msg.thin" : "msg.loss", tone: gap > 3 ? "good" : gap >= 0 ? "warn" : "bad" });
+      return out;
+    },
+  },
+  {
+    kind: "calc",
+    slug: "automation-roi-calculator",
+    service: "/ai/ai-automation/",
+    alsoFor: ["/ai/workflow-automation/"],
+    inputs: [
+      { id: "tasks", type: "number", default: 400 },
+      { id: "minutes", type: "number", default: 12 },
+      { id: "rate", type: "money", default: 30 },
+      { id: "automatable", type: "percent", default: 70 },
+      { id: "build", type: "money", default: 6000 },
+      { id: "running", type: "money", default: 250 },
+    ],
+    compute(v) {
+      const hours = (n(v.tasks) * n(v.minutes)) / 60;
+      const saved = hours * (Math.min(n(v.automatable), 100) / 100);
+      const net = saved * n(v.rate) - n(v.running);
+      const out: Output[] = [
+        { id: "net", kind: "money", value: net, strong: true },
+        { id: "hoursSaved", kind: "number", value: saved, decimals: 0 },
+      ];
+      if (net > 0) {
+        const payback = n(v.build) / net;
+        out.push({ id: "payback", kind: "number", value: payback, decimals: 1 });
+        out.push({ id: "firstYear", kind: "money", value: net * 12 - n(v.build) });
+        out.push({ id: "verdict", kind: "message", key: payback <= 12 ? "msg.fast" : "msg.slow", tone: payback <= 12 ? "good" : "warn" });
+      } else {
+        out.push({ id: "verdict", kind: "message", key: "msg.noPayback", tone: "bad" });
+      }
+      return out;
+    },
+  },
+  {
+    kind: "builder",
+    slug: "ai-project-brief-generator",
+    service: "/ai/ai-development/",
+    alsoFor: ["/ai/mcp-development/", "/ai/ai-data-systems/", "/ai/founder-ai-systems/"],
+    fields: [
+      { id: "name", type: "text", required: true },
+      { id: "company", type: "text" },
+      { id: "task", type: "textarea", required: true },
+      { id: "today", type: "textarea" },
+      { id: "kind", type: "select", options: ["assistant", "automation", "search", "agent", "integration", "analysis", "unsure"] },
+      { id: "users", type: "select", options: ["team", "customers", "both"] },
+      { id: "data", type: "multi", options: ["documents", "crm", "email", "database", "spreadsheets", "website", "tickets", "none"] },
+      { id: "tools", type: "textarea" },
+      { id: "review", type: "select", options: ["always", "risky", "never", "unsure"] },
+      { id: "sensitive", type: "select", options: ["none", "personal", "financial", "health", "unsure"] },
+      { id: "volume", type: "text" },
+      { id: "success", type: "textarea" },
+    ],
+    build: briefDoc("name", [
+      { key: "task", parts: [{ id: "task", as: "text" }] },
+      { key: "today", parts: [{ id: "today", as: "text" }] },
+      { key: "shape", parts: [{ id: "kind", as: "select", inline: true }, { id: "users", as: "select", inline: true }, { id: "volume", as: "text", inline: true }] },
+      { key: "data", parts: [{ id: "data", as: "multi" }] },
+      { key: "tools", parts: [{ id: "tools", as: "text" }] },
+      { key: "safeguards", parts: [{ id: "review", as: "select", inline: true }, { id: "sensitive", as: "select", inline: true }] },
+      { key: "success", parts: [{ id: "success", as: "text" }] },
+    ]),
+  },
+  {
+    kind: "builder",
+    slug: "3d-project-brief-generator",
+    service: "/3d-design/3d-rendering/",
+    alsoFor: ["3d-modeling", "interior-exterior-design", "architecture-planning", "product-modeling-design", "3d-software-development"].map((x) => `/3d-design/${x}/`),
+    fields: [
+      { id: "name", type: "text", required: true },
+      { id: "company", type: "text" },
+      { id: "type", type: "select", options: ["product", "interior", "exterior", "architecture", "model", "animation", "software"] },
+      { id: "subject", type: "textarea", required: true },
+      { id: "have", type: "multi", options: ["cad", "drawings", "sketches", "photos", "dimensions", "materials", "moodboard", "nothing"] },
+      { id: "outputs", type: "multi", options: ["stills", "animation", "turntable", "walkthrough", "model", "drawings", "ar"] },
+      { id: "count", type: "text" },
+      { id: "use", type: "select", options: ["web", "print", "ads", "presentation", "manufacturing", "planning"] },
+      { id: "style", type: "textarea" },
+      { id: "deadline", type: "text" },
+      { id: "budget", type: "text" },
+      { id: "notes", type: "textarea" },
+    ],
+    build: briefDoc("name", [
+      { key: "subject", parts: [{ id: "type", as: "select", inline: true }, { id: "subject", as: "text" }] },
+      { key: "have", parts: [{ id: "have", as: "multi" }] },
+      { key: "outputs", parts: [{ id: "outputs", as: "multi" }, { id: "count", as: "text", inline: true }, { id: "use", as: "select", inline: true }] },
+      { key: "style", parts: [{ id: "style", as: "text" }] },
+      { key: "practical", parts: [{ id: "deadline", as: "text", inline: true }, { id: "budget", as: "text", inline: true }] },
+      { key: "notes", parts: [{ id: "notes", as: "text" }] },
+    ]),
+  },
+  {
+    kind: "builder",
+    slug: "game-design-document-generator",
+    service: "/development/game-development/",
+    fields: [
+      { id: "title", type: "text", required: true },
+      { id: "company", type: "text" },
+      { id: "pitch", type: "textarea", required: true },
+      { id: "genre", type: "select", options: ["casual", "puzzle", "arcade", "platformer", "strategy", "simulation", "rpg", "educational", "branded"] },
+      { id: "platforms", type: "multi", options: ["ios", "android", "web", "pc", "console"] },
+      { id: "audience", type: "textarea" },
+      { id: "loop", type: "textarea" },
+      { id: "style", type: "select", options: ["2d", "3d", "pixel", "lowpoly", "realistic", "unsure"] },
+      { id: "mode", type: "select", options: ["single", "multi", "both"] },
+      { id: "money", type: "multi", options: ["paid", "ads", "iap", "subscription", "free", "branded"] },
+      { id: "features", type: "multi", options: ["levels", "leaderboard", "accounts", "multiplayer", "shop", "achievements", "cloud", "analytics"] },
+      { id: "references", type: "textarea" },
+      { id: "scope", type: "select", options: ["prototype", "mvp", "full"] },
+      { id: "budget", type: "text" },
+    ],
+    build: briefDoc("title", [
+      { key: "pitch", parts: [{ id: "pitch", as: "text" }] },
+      { key: "basics", parts: [{ id: "genre", as: "select", inline: true }, { id: "style", as: "select", inline: true }, { id: "mode", as: "select", inline: true }] },
+      { key: "platforms", parts: [{ id: "platforms", as: "multi" }] },
+      { key: "audience", parts: [{ id: "audience", as: "text" }] },
+      { key: "loop", parts: [{ id: "loop", as: "text" }] },
+      { key: "features", parts: [{ id: "features", as: "multi" }] },
+      { key: "money", parts: [{ id: "money", as: "multi" }] },
+      { key: "references", parts: [{ id: "references", as: "text" }] },
+      { key: "practical", parts: [{ id: "scope", as: "select", inline: true }, { id: "budget", as: "text", inline: true }] },
+    ]),
+  },
+  {
+    kind: "builder",
+    slug: "mvp-scope-generator",
+    service: "/consulting/product-studio-for-startups/",
+    fields: [
+      { id: "name", type: "text", required: true },
+      { id: "company", type: "text" },
+      { id: "problem", type: "textarea", required: true },
+      { id: "user", type: "textarea", required: true },
+      { id: "alternative", type: "textarea" },
+      { id: "must", type: "textarea", required: true },
+      { id: "later", type: "textarea" },
+      { id: "platform", type: "select", options: ["web", "mobile", "both", "unsure"] },
+      { id: "stage", type: "select", options: ["idea", "validated", "prototype", "live"] },
+      { id: "proof", type: "select", options: ["signups", "payments", "usage", "pilot", "unsure"] },
+      { id: "deadline", type: "text" },
+      { id: "budget", type: "text" },
+      { id: "risks", type: "textarea" },
+    ],
+    build: briefDoc("name", [
+      { key: "problem", parts: [{ id: "problem", as: "text" }] },
+      { key: "user", parts: [{ id: "user", as: "text" }] },
+      { key: "alternative", parts: [{ id: "alternative", as: "text" }] },
+      { key: "must", parts: [{ id: "must", as: "text" }] },
+      { key: "later", parts: [{ id: "later", as: "text" }] },
+      { key: "practical", parts: [{ id: "platform", as: "select", inline: true }, { id: "stage", as: "select", inline: true }, { id: "proof", as: "select", inline: true }, { id: "deadline", as: "text", inline: true }, { id: "budget", as: "text", inline: true }] },
+      { key: "risks", parts: [{ id: "risks", as: "text" }] },
+    ]),
+  },
+  {
+    kind: "builder",
+    slug: "digital-marketing-strategy-template",
+    service: "/consulting/digital-strategy-consulting/",
+    fields: [
+      { id: "business", type: "text", required: true },
+      { id: "company", type: "text" },
+      { id: "offer", type: "textarea", required: true },
+      { id: "goal", type: "select", options: ["leads", "sales", "awareness", "retention", "launch"] },
+      { id: "target", type: "text" },
+      { id: "horizon", type: "select", options: ["quarter", "half", "year"] },
+      { id: "customer", type: "textarea" },
+      { id: "channels", type: "multi", options: ["website", "seo", "google", "meta", "tiktok", "linkedin", "email", "marketplaces", "none"] },
+      { id: "working", type: "textarea" },
+      { id: "notWorking", type: "textarea" },
+      { id: "assets", type: "multi", options: ["crm", "analytics", "content", "list", "team", "budget"] },
+      { id: "team", type: "select", options: ["solo", "small", "inhouse", "agency"] },
+      { id: "budget", type: "text" },
+    ],
+    build: briefDoc("business", [
+      { key: "offer", parts: [{ id: "offer", as: "text" }] },
+      { key: "goal", parts: [{ id: "goal", as: "select", inline: true }, { id: "target", as: "text", inline: true }, { id: "horizon", as: "select", inline: true }] },
+      { key: "customer", parts: [{ id: "customer", as: "text" }] },
+      { key: "channels", parts: [{ id: "channels", as: "multi" }] },
+      { key: "working", parts: [{ id: "working", as: "text" }] },
+      { key: "notWorking", parts: [{ id: "notWorking", as: "text" }] },
+      { key: "resources", parts: [{ id: "assets", as: "multi" }, { id: "team", as: "select", inline: true }, { id: "budget", as: "text", inline: true }] },
+    ], 5),
+  },
+];
+TOOL_DEFS.push(...NEW_TOOL_DEFS);
+
 export const getToolDef = (slug: string) => TOOL_DEFS.find((d) => d.slug === slug);
 
 /** Which tools belong with each service or sector page, the main one first. */
@@ -578,7 +855,7 @@ export const SERVICE_TOOLS: Record<string, string[]> = (() => {
   for (const [path, slug] of Object.entries(SERVICE_MAIN)) add(path, slug);
   for (const d of TOOL_DEFS) {
     add(d.service, d.slug);
-    for (const extra of d.kind === "builder" ? (d.alsoFor ?? []) : []) add(extra, d.slug);
+    for (const extra of d.kind === "quiz" ? [] : (d.alsoFor ?? [])) add(extra, d.slug);
   }
   return map;
 })();

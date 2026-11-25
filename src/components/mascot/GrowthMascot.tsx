@@ -9,9 +9,12 @@ import { href, isRtl } from "@/lib/i18n";
 /**
  * Growth, the TDM mascot, in the corner of every page.
  *
- * On a visitor's first page it runs in from the edge, waves and says hello. It
- * greets them again when they come back to the tab, speaks up once when the
- * pointer heads for the top of the window, and opens a small menu when clicked.
+ * It runs in from the edge on every page. On a visitor's first page it waves and
+ * says hello; on later pages it acts as a guide, pointing to the next useful
+ * thing for the kind of page they are on (the free tool for a service, a quiz
+ * after an article, a game on the play page). It greets them again when they
+ * come back to the tab, speaks up once when the pointer heads for the top of
+ * the window, and opens a small menu when clicked.
  * The frames are renders of the 3D character (see scripts/mascot); the visitor
  * can hide it for the rest of the visit.
  */
@@ -19,7 +22,9 @@ import { href, isRtl } from "@/lib/i18n";
 export const MASCOT_NAME = "Growth";
 
 type Mode = "off" | "enter" | "wave" | "idle" | "point" | "cheer";
-type Line = "hi" | "back" | "leaving" | "tip" | "menu";
+/** What Growth can say. The last five are the guide lines, one per kind of page. */
+type Guide = "service" | "sector" | "blog" | "tools" | "playhub";
+type Line = "hi" | "back" | "leaving" | "tip" | "menu" | Guide;
 
 const FRAMES: Record<Exclude<Mode, "off">, { frames: string[]; every: number }> = {
   enter: { frames: ["run1", "run2", "run3", "run4"], every: 95 },
@@ -31,7 +36,7 @@ const FRAMES: Record<Exclude<Mode, "off">, { frames: string[]; every: number }> 
 };
 const ALL = ["idle1", "idle2", "wave1", "wave2", "cheer", "jump", "point", "run1", "run2", "run3", "run4"];
 
-const COPY: Record<Locale, { lines: Record<Line, string>; consult: string; tools: string; play: string; close: string; hide: string; open: string }> = {
+const COPY: Record<Locale, { lines: Record<Line, string>; consult: string; tools: string; play: string; tryTool: string; quiz: string; strike: string; close: string; hide: string; open: string }> = {
   en: {
     lines: {
       hi: `Hi, I'm ${MASCOT_NAME}, the arrow from the TDM logo. Need a hand with anything?`,
@@ -39,10 +44,18 @@ const COPY: Record<Locale, { lines: Record<Line, string>; consult: string; tools
       leaving: "Leaving already? A free consultation only takes one short message.",
       tip: "Want a quick answer first? Try one of our free tools.",
       menu: "What would you like to do?",
+      service: "Looking into this service? There's a free tool that goes with it.",
+      sector: "Not sure which of these you need? A short quiz can point you in the right direction.",
+      blog: "When you finish reading, test yourself. I host the quizzes.",
+      tools: "Pick a tool and run it. If the result raises questions, I can get you a free consultation.",
+      playhub: "Pick a quiz and I'll host it, or come and throw some arrows with me.",
     },
     consult: "Free consultation",
     tools: "Free tools",
     play: "Play a game",
+    tryTool: "Try the free tool",
+    quiz: "Take a quiz",
+    strike: "Play Arrow Strike",
     close: "Close",
     hide: `Hide ${MASCOT_NAME}`,
     open: `${MASCOT_NAME}, the TDM mascot. Open menu`,
@@ -54,10 +67,18 @@ const COPY: Record<Locale, { lines: Record<Line, string>; consult: string; tools
       leaving: "Vous partez déjà ? Une consultation gratuite ne demande qu'un court message.",
       tip: "Envie d'une réponse rapide ? Essayez l'un de nos outils gratuits.",
       menu: "Que souhaitez-vous faire ?",
+      service: "Ce service vous intéresse ? Un outil gratuit va avec.",
+      sector: "Vous hésitez entre ces services ? Un court quiz peut vous orienter.",
+      blog: "Une fois la lecture finie, testez-vous. C'est moi qui anime les quiz.",
+      tools: "Choisissez un outil et lancez-le. Si le résultat soulève des questions, je vous obtiens une consultation gratuite.",
+      playhub: "Choisissez un quiz, je l'anime. Ou venez lancer quelques flèches avec moi.",
     },
     consult: "Consultation gratuite",
     tools: "Outils gratuits",
     play: "Jouer",
+    tryTool: "Essayer l'outil gratuit",
+    quiz: "Faire un quiz",
+    strike: "Jouer à Arrow Strike",
     close: "Fermer",
     hide: `Masquer ${MASCOT_NAME}`,
     open: `${MASCOT_NAME}, la mascotte de TDM. Ouvrir le menu`,
@@ -69,10 +90,18 @@ const COPY: Record<Locale, { lines: Record<Line, string>; consult: string; tools
       leaving: "هل ستغادر بهذه السرعة؟ الاستشارة المجانية لا تحتاج سوى رسالة قصيرة.",
       tip: "تريد إجابة سريعة أولاً؟ جرّب إحدى أدواتنا المجانية.",
       menu: "ماذا تودّ أن تفعل؟",
+      service: "مهتم بهذه الخدمة؟ هناك أداة مجانية تناسبها.",
+      sector: "لست متأكداً أي خدمة تحتاج؟ اختبار قصير قد يوجّهك.",
+      blog: "عندما تنتهي من القراءة، اختبر نفسك. أنا من يقدّم الاختبارات.",
+      tools: "اختر أداة وشغّلها. وإن أثارت النتيجة أسئلة، أرتّب لك استشارة مجانية.",
+      playhub: "اختر اختباراً وسأقدّمه لك، أو تعال نرمِ بعض الأسهم معاً.",
     },
     consult: "استشارة مجانية",
     tools: "أدوات مجانية",
     play: "العب",
+    tryTool: "جرّب الأداة المجانية",
+    quiz: "خُض اختباراً",
+    strike: "العب Arrow Strike",
     close: "إغلاق",
     hide: `إخفاء ${MASCOT_NAME}`,
     open: `${MASCOT_NAME}، تميمة TDM. افتح القائمة`,
@@ -98,11 +127,26 @@ const store = {
   },
 };
 
-export function GrowthMascot({ locale }: { locale: Locale }) {
+/** Which guide line fits a page, from its path without the language prefix. */
+function guideFor(path: string, groups: string[]): Guide | null {
+  const parts = path.split("/").filter(Boolean);
+  if (parts[0] === "play") return parts.length === 1 ? "playhub" : null;
+  if (parts[0] === "tools") return "tools";
+  if (parts[0] === "blog") return parts.length > 1 && parts[1] !== "author" ? "blog" : null;
+  if (groups.includes(parts[0])) return parts.length > 1 ? "service" : "sector";
+  return null;
+}
+
+export function GrowthMascot({ locale, groups, serviceTools }: { locale: Locale; groups: string[]; serviceTools: Record<string, string> }) {
   const t = COPY[locale];
   const rtl = isRtl(locale);
-  // Growth is the player in the game, so it stays out of the corner there.
-  const inGame = usePathname().includes("/play/lead-runner");
+  const pathname = usePathname();
+  const prefix = href(locale, "/").replace(/\/$/, "");
+  const path = prefix && pathname.startsWith(prefix) ? pathname.slice(prefix.length) || "/" : pathname;
+  // Inside a game or a quiz Growth is the host on the page itself, so it stays out of the corner.
+  const inGame = /^\/play\/[^/]+/.test(path);
+  const guide = guideFor(path, groups);
+  const tool = serviceTools[path.endsWith("/") ? path : `${path}/`];
   const [mode, setMode] = useState<Mode>("off");
   const [arrived, setArrived] = useState(false);
   const [tick, setTick] = useState(0);
@@ -131,28 +175,42 @@ export function GrowthMascot({ locale }: { locale: Locale }) {
     [clear, later],
   );
 
-  // Arrival: run in on the first page of a visit, simply be there on the next ones.
+  // Arrival, on every page: run in from the edge; say hello on the first page of a visit,
+  // and on later pages point to the next useful thing for that kind of page.
   useEffect(() => {
-    if (store.get(HIDDEN)) return;
+    if (store.get(HIDDEN) || inGame) return;
     still.current = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     for (const name of ALL) new window.Image().src = `/mascot/${name}.webp`;
     const first = !store.get(SEEN);
+    const guideKey = guide && `tdm-growth-guide-${guide}`;
+    const speak = () => {
+      if (first) {
+        say("hi", "wave");
+      } else if (guide && guideKey && !store.get(guideKey) && (guide !== "service" || tool)) {
+        store.set(guideKey);
+        later(() => say(guide, "point", 11000), 3500);
+      }
+    };
     later(() => {
-      if (!first || still.current) {
+      store.set(SEEN);
+      setLine(null);
+      if (still.current) {
         setArrived(true);
         setMode("idle");
-        if (first) later(() => say("hi", "wave"), 600);
-      } else {
-        setMode("enter");
-        // Next frame, so the slide starts from off-screen.
-        window.requestAnimationFrame(() => window.requestAnimationFrame(() => setArrived(true)));
-        later(() => say("hi", "wave"), 1700);
+        later(speak, 600);
+        return;
       }
-      store.set(SEEN);
-      said.current.add("hi");
-    }, first ? 1400 : 300);
+      setArrived(false);
+      setMode("enter");
+      // Two frames on, so the slide starts from off-screen.
+      window.requestAnimationFrame(() => window.requestAnimationFrame(() => setArrived(true)));
+      later(() => {
+        setMode("idle");
+        speak();
+      }, first ? 1700 : 1100);
+    }, first ? 1400 : 250);
     return clear;
-  }, [clear, later, say]);
+  }, [clear, later, say, path, inGame, guide, tool]);
 
   // Frame clock for the current move.
   useEffect(() => {
@@ -200,7 +258,18 @@ export function GrowthMascot({ locale }: { locale: Locale }) {
   // The run is rendered heading left; mirror it when Growth comes in from the left edge.
   const mirror = mode === "enter" && !rtl;
   const offscreen = rtl ? "translateX(180px)" : "translateX(-180px)";
-  const cta = line === "tip" ? { to: "/tools/", label: t.tools } : { to: "/contact/", label: t.consult };
+  const cta =
+    line === "tip"
+      ? { to: "/tools/", label: t.tools }
+      : line === "service" && tool
+        ? { to: `/tools/${tool}/`, label: t.tryTool }
+        : line === "sector"
+          ? { to: "/play/scale-readiness-quiz/", label: t.quiz }
+          : line === "blog"
+            ? { to: "/play/", label: t.quiz }
+            : line === "playhub"
+              ? { to: "/play/arrow-strike/", label: t.strike }
+              : { to: "/contact/", label: t.consult };
 
   const hide = () => {
     clear();
@@ -253,8 +322,8 @@ export function GrowthMascot({ locale }: { locale: Locale }) {
         onClick={() => (line ? setLine(null) : say("menu", "wave", 20000))}
         aria-label={t.open}
         aria-expanded={line === "menu"}
-        className="pointer-events-auto block h-[104px] w-[124px] cursor-pointer outline-none transition-transform ease-linear focus-visible:ring-2 focus-visible:ring-amber sm:h-[150px] sm:w-[178px]"
-        style={{ transform: arrived ? "none" : offscreen, transitionDuration: mode === "enter" ? "1500ms" : "0ms" }}
+        className="pointer-events-auto block h-[104px] w-[124px] cursor-pointer outline-none transition-transform ease-linear focus-visible:ring-2 focus-visible:ring-amber sm:h-[132px] sm:w-[157px]"
+        style={{ transform: arrived ? "none" : offscreen, transitionDuration: mode === "enter" && arrived ? "1000ms" : "0ms" }}
       >
         {/* A plain image: the frames swap many times a second, which the image optimiser is not for. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}

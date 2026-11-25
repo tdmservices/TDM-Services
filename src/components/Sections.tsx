@@ -235,9 +235,10 @@ export function ShatterSurface({ index = 0 }: { index?: number }) {
  */
 export function PartnerRail({ size = "sm", bare = false }: { size?: "sm" | "lg"; bare?: boolean }) {
   // `bare` drops the white chip and shows each badge as a white mark, for dark
-  // backgrounds such as the footer.
+  // backgrounds such as the footer. On hover the badge shows its real colours,
+  // on a white chip, because most of the coloured marks are drawn for a light ground.
   const chip = bare
-    ? "h-14 w-32 opacity-80 hover:opacity-100"
+    ? "group/badge relative h-14 w-32 rounded-xl opacity-80 transition-[opacity,background-color,transform] hover:bg-white hover:opacity-100"
     : size === "lg"
       ? "h-14 w-28 rounded-xl bg-white shadow-lg shadow-black/20"
       : "h-11 w-24 rounded-xl bg-white/95 shadow-sm";
@@ -265,8 +266,18 @@ export function PartnerRail({ size = "sm", bare = false }: { size?: "sm" | "lg";
                 alt={pass === 1 ? "" : partner.name}
                 width={partner.width}
                 height={partner.height}
-                className={`${logo} w-auto max-w-full object-contain`}
+                className={`${logo} w-auto max-w-full object-contain ${bare ? "transition-opacity duration-300 group-hover/badge:opacity-0" : ""}`}
               />
+              {bare && (
+                <Image
+                  src={partner.src}
+                  alt=""
+                  aria-hidden
+                  width={partner.width}
+                  height={partner.height}
+                  className="absolute inset-0 m-auto max-h-9 w-auto max-w-[80%] object-contain opacity-0 transition-opacity duration-300 group-hover/badge:opacity-100"
+                />
+              )}
             </span>
           )),
         )}

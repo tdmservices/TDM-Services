@@ -59,6 +59,39 @@ export interface PlayCopy {
     tap: string;
     cta: string;
   };
+  /** The aiming game: Growth throws arrows at the things that hold a business back. */
+  shooter: {
+    slug: string;
+    name: string;
+    tagline: string;
+    metaTitle: string;
+    metaDescription: string;
+    intro: string[];
+    how: string;
+    start: string;
+    again: string;
+    over: string;
+    score: string;
+    best: string;
+    lives: string;
+    tap: string;
+    cta: string;
+    /** Short labels painted on the targets. */
+    targets: string[];
+  };
+  /** What Growth, the mascot, says as the host of the quizzes and games. */
+  host: {
+    quizIntro: string;
+    right: string[];
+    wrong: string[];
+    noted: string[];
+    /** Result lines, lowest score first. */
+    results: [string, string, string];
+    runnerTip: string;
+    runnerOver: string;
+    shooterTip: string;
+    shooterOver: string;
+  };
   quiz: {
     question: string;
     of: string;

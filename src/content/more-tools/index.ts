@@ -7,6 +7,12 @@ import { WP_SLUG, wpAr, wpEn, wpFr } from "./wp";
 import { marketingEn } from "./marketing-en";
 import { marketingFr } from "./marketing-fr";
 import { marketingAr } from "./marketing-ar";
+import { tools as set1En } from "./new/set1.en";
+import { tools as set1Fr } from "./new/set1.fr";
+import { tools as set1Ar } from "./new/set1.ar";
+import { tools as set2En } from "./new/set2.en";
+import { tools as set2Fr } from "./new/set2.fr";
+import { tools as set2Ar } from "./new/set2.ar";
 
 /**
  * Copy for the data-driven tools (src/lib/tool-defs.ts) and the WordPress
@@ -20,9 +26,9 @@ const withWp = (copy: MoreToolsCopy, wp: MoreToolCopy, more: Record<string, More
   tools: { ...copy.tools, [WP_SLUG]: wp, ...more },
 });
 
-const base = withWp(en, wpEn, marketingEn);
+const base = withWp(en, wpEn, { ...marketingEn, ...set1En, ...set2En });
 /** Every language's copy, English fallbacks not applied. */
-export const MORE_TOOLS: Partial<Record<Locale, MoreToolsCopy>> = { en: base, fr: withWp(fr, wpFr, marketingFr), ar: withWp(ar, wpAr, marketingAr) };
+export const MORE_TOOLS: Partial<Record<Locale, MoreToolsCopy>> = { en: base, fr: withWp(fr, wpFr, { ...marketingFr, ...set1Fr, ...set2Fr }), ar: withWp(ar, wpAr, { ...marketingAr, ...set1Ar, ...set2Ar }) };
 const registry = MORE_TOOLS;
 
 export const getToolUi = (locale: Locale) => (registry[locale] ?? base).ui;
