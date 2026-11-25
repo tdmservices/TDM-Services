@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { href, isRtl, localePrefix } from "@/lib/i18n";
 import { site } from "@/lib/site";
-import { getPlay } from "@/content/play";
+import { getPlay, getWidgetPlay } from "@/content/play";
+import { PlayWidget } from "@/components/play/PlayWidget";
 import { getToolSummary } from "@/content/all-tools";
 import { ui } from "@/content/ui";
 import { JsonLd } from "@/components/JsonLd";
@@ -27,7 +28,7 @@ export function PlayIndexView({ locale }: { locale: Locale }) {
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <h2 className="font-display text-3xl font-bold text-forest">{copy.hub.quizHeading}</h2>
-        <ul className="mt-8 grid gap-6 md:grid-cols-3">
+        <ul className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {copy.quizzes.map((q, i) => (
             <li key={q.slug}>
               <Reveal delay={i * 0.08} className="h-full">
@@ -57,8 +58,9 @@ export function PlayIndexView({ locale }: { locale: Locale }) {
             {copy.game.name} {arrow}
           </Link>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 grid items-start gap-6 lg:grid-cols-[1fr_20rem]">
           <LeadRunner locale={locale} copy={copy.game} />
+          <PlayWidget locale={locale} copy={getWidgetPlay(locale)} />
         </div>
       </section>
       <CtaBand locale={locale} audit />
@@ -82,7 +84,7 @@ export function PlayItemView({ locale, slug }: { locale: Locale; slug: string })
   if (!quiz && !isGame) notFound();
   const name = quiz ? quiz.name : copy.game.name;
   const url = `${site.url}${localePrefix(locale)}/play/${slug}/`;
-  const others = copy.quizzes.filter((q) => q.slug !== slug);
+  const others = copy.quizzes.filter((q) => q.slug !== slug).slice(0, isGame ? 3 : 2);
 
   return (
     <>

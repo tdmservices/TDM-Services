@@ -3,6 +3,8 @@ import type { Locale } from "@/lib/types";
 import { href, isRtl } from "@/lib/i18n";
 import { ui } from "@/content/ui";
 import { CtaBand, Kicker, PageHero } from "@/components/Sections";
+import { getWidgetPlay } from "@/content/play";
+import { PlayWidget } from "@/components/play/PlayWidget";
 
 /**
  * The page behind every dead end: `missing` for an address that never matched
@@ -145,6 +147,13 @@ export function NotFoundView({ locale = "en", variant = "missing" }: { locale?: 
             </li>
           ))}
         </ul>
+        {/* A wrong turn is a good moment for a small game. Not on the "removed"
+            page, which exists for search engines clearing out old addresses. */}
+        {variant === "missing" && (
+          <div className="mt-10 max-w-sm">
+            <PlayWidget locale={locale} copy={getWidgetPlay(locale)} />
+          </div>
+        )}
       </section>
 
       <CtaBand locale={locale} />

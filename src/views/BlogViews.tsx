@@ -7,6 +7,8 @@ import { site } from "@/lib/site";
 import { getBlogPost, getBlogPosts } from "@/content/db";
 import { ui } from "@/content/ui";
 import { getAuthor } from "@/content/authors";
+import { getWidgetPlay } from "@/content/play";
+import { PlayWidget } from "@/components/play/PlayWidget";
 import { SHARE_IMAGE } from "@/lib/meta";
 import { getContent } from "@/content";
 import { sectorForCategory } from "@/lib/service-links";
@@ -484,6 +486,7 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
               {t.cta}
             </ConsultationLink>
           </div>
+          <PlayWidget locale={locale} copy={getWidgetPlay(locale)} className="mt-6 shrink-0" startClosed />
         </aside>
       </div>
       {p.faqs && <FaqSection faqs={p.faqs} locale={locale} />}

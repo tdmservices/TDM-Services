@@ -4,8 +4,13 @@ export interface QuizQuestion {
   options: string[];
   /** Index of the right option. */
   answer: number;
-  /** Shown after answering: why that option is right. */
+  /** Shown after answering: why that option is right, or why the question matters. */
   why: string;
+  /**
+   * For a self-assessment: points for each option, in order. When present the
+   * question has no wrong answer and the quiz adds up points instead.
+   */
+  weights?: number[];
 }
 
 export interface Quiz {
@@ -18,6 +23,8 @@ export interface Quiz {
   service: string;
   /** A free tool to try next. */
   tool: string;
+  /** Result messages for a self-assessment, lowest score first. Knowledge quizzes use the shared ones. */
+  tiers?: [string, string, string];
   questions: QuizQuestion[];
 }
 
@@ -66,6 +73,30 @@ export interface PlayCopy {
     learn: string;
     tryTool: string;
     other: string;
+    /** Shown after an answer in a self-assessment, where nothing is right or wrong. */
+    noted: string;
   };
+  /** The small games shown in side columns. */
+  widget: {
+    title: string;
+    sub: string;
+    tabDaily: string;
+    tabWord: string;
+    tabMatch: string;
+    dailyHeading: string;
+    fullQuiz: string;
+    wordHeading: string;
+    clue: string;
+    clear: string;
+    solved: string;
+    another: string;
+    matchHeading: string;
+    moves: string;
+    matched: string;
+    again: string;
+    more: string;
+  };
+  /** Words for the unscramble game: one word, no spaces, with a one-line clue. */
+  words: { word: string; clue: string }[];
   quizzes: Quiz[];
 }

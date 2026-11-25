@@ -14,3 +14,12 @@ export const getPlay = (locale: Locale): PlayCopy => registry[locale] ?? en;
 
 /** Slugs are the same in every language: the game, then the quizzes. */
 export const PLAY_SLUGS: string[] = [en.game.slug, ...en.quizzes.map((q) => q.slug)];
+
+/**
+ * The copy the side widget needs, without the self-assessment quizzes: they
+ * have no single right answer, and leaving them out keeps the page lighter.
+ */
+export const getWidgetPlay = (locale: Locale): PlayCopy => {
+  const copy = getPlay(locale);
+  return { ...copy, quizzes: copy.quizzes.filter((quiz) => !quiz.questions.some((q) => q.weights)) };
+};
