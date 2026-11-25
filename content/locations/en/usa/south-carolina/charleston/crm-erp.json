@@ -6,7 +6,7 @@
   "title": "CRM and ERP Development in Charleston, SC",
   "metaTitle": "CRM and ERP Development in Charleston, SC | TDM",
   "metaDescription": "Custom CRM and ERP software for Charleston businesses: port logistics, wedding and hospitality firms, rental managers, clinics and plant suppliers.",
-  "lead": "TDM (The Digital Marketing Services) designs and builds custom CRM and ERP software for businesses in Charleston and the surrounding Lowcountry. That means a sales and enquiry system that follows your own process, plus modules for stock, purchasing, staff, finance and day-to-day operations where you need them. In Charleston the work usually starts with one of two problems: too many enquiries tracked in inboxes, or too many moving goods tracked in spreadsheets.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds custom CRM and ERP software for businesses in Charleston and the surrounding Lowcountry. That means a sales and enquiry system that follows your own process, plus modules for stock, purchasing, staff, finance and day-to-day operations where you need them.",
   "sections": [
     {
       "heading": "Two kinds of Charleston business, two kinds of system",
@@ -23,7 +23,6 @@
       "bullets": [
         "Enquiry and booking pipelines with date holds, proposals, deposits and automatic reminders.",
         "Stock and warehouse records by location, with receiving, movements and purchasing.",
-        "Staff scheduling and HR records for seasonal teams that grow in spring and shrink in late summer.",
         "Invoicing and expenses that sync with your accounting package.",
         "Dashboards for each role, with permissions that limit who sees what."
       ]
@@ -31,7 +30,7 @@
     {
       "heading": "Integrations that matter locally",
       "paragraphs": [
-        "A Charleston system rarely stands alone. A venue needs its website enquiry form to create the record. A rental manager needs bookings from the listing platforms, cleaning schedules and owner statements in one place. A restaurant group with kitchens downtown and in Mount Pleasant wants purchasing and supplier invoices compared across sites. A warehouse wants customers to check their own stock without phoning the office. We connect the new system to your website, store, payment gateway, email and accounting tools, and we migrate old records only after they have been cleaned and checked against the source."
+        "A Charleston system rarely stands alone. A venue needs its website enquiry form to create the record. A rental manager needs bookings from the listing platforms, cleaning schedules and owner statements in one place. A warehouse wants customers to check their own stock without phoning the office. We connect the new system to your website, store, payment gateway, email and accounting tools, and we migrate old records only after they have been cleaned and checked against the source."
       ]
     },
     {
@@ -82,11 +81,11 @@
     },
     {
       "q": "How soon could our team be using it?",
-      "a": "That depends on your requirements and the brief. Discovery produces a plan with milestones, and the schedule is agreed in that plan before the build begins. Modules go live one after another instead of all at once."
+      "a": "The answer rests on your requirements and the brief. Discovery produces a plan with milestones, and the schedule is agreed in that plan before the build begins."
     },
     {
       "q": "Should a small Charleston company buy software instead?",
-      "a": "Often, yes. If a standard booking or accounting product covers your process, it is the cheaper route. Custom work earns its place when you are copying data between several tools by hand or paying for seats and features you never use."
+      "a": "Often, yes. If a standard booking or accounting product covers your process, it is the cheaper route. Custom work earns its place when you are copying data between several tools by hand."
     }
   ]
 }

@@ -6,14 +6,13 @@
   "title": "Mobile App Development in Charleston, SC",
   "metaTitle": "Mobile App Development in Charleston, SC | TDM",
   "metaDescription": "iOS and Android app development for Charleston businesses: visitor and booking apps, field tools for port and plant suppliers, patient and resident apps.",
-  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Charleston businesses, from the first user research to release on the App Store and Google Play. We build native apps in Swift and Kotlin, and cross-platform apps in Flutter or React Native. Charleston is a city people experience on foot and by phone, and it also has a large workforce that never sits at a desk, so apps here tend to serve either a guest in the street or an employee on a dock, a ward or a job site.",
+  "lead": "TDM (The Digital Marketing Services) designs and builds iOS and Android apps for Charleston businesses, from the first user research to release on the App Store and Google Play. Builds are native in Swift and Kotlin, or cross-platform in Flutter or React Native, depending on the project. Charleston is a city people experience on foot and by phone, and it also has a large workforce that never sits at a desk, so apps here tend to serve either a guest in the street or an employee on a dock, a ward or a job site.",
   "sections": [
     {
       "heading": "Who uses apps in Charleston",
       "paragraphs": [
-        "Visitors are the obvious group. Someone walking south of Broad, queuing for a harbor tour or waiting for a table on King Street has a phone in hand and a short attention span. Tour operators, hotel groups, restaurant groups and attractions use apps for self-guided routes, tickets, room access, ordering and loyalty. An app only earns its place here if a guest will open it more than once, so we are frank when a fast mobile website would do the job.",
-        "The second group is larger and less visible. Truck drivers checking in at the terminals, technicians working for plant suppliers in North Charleston and Ladson, home health staff, property inspectors and construction crews across Summerville and Johns Island all need to record work where it happens. For them an app replaces paper forms and phone calls back to the office.",
-        "The third group is the region's software community. Founders in the area often called Silicon Harbor come to us for a first version of a product they need to put in front of users and investors."
+        "Visitors are the obvious group. Someone walking south of Broad, queuing for a harbor tour or waiting for a table on King Street has a phone in hand and a short attention span. Tour operators, hotel groups, restaurant groups and attractions use apps for self-guided routes, tickets, room access, ordering and loyalty.",
+        "The second group is larger and less visible. Truck drivers checking in at the terminals, technicians working for plant suppliers in North Charleston and Ladson, home health staff, property inspectors and construction crews across Summerville and Johns Island all need to record work where it happens. For them an app replaces paper forms and phone calls back to the office."
       ]
     },
     {
@@ -32,7 +31,7 @@
     {
       "heading": "Details that are particular to this city",
       "paragraphs": [
-        "Coverage is uneven inside thick-walled historic buildings, on the water and inside steel warehouses, so offline mode is not optional for a tour, a boat charter or a yard-check app. Location features need care on a peninsula where a wrong pin can put a guest on the far side of a creek. Visitor apps should be built for a short, intense relationship: easy sign-up, useful within a minute, and no reason to delete after the trip if the guest may return for a wedding or a festival.",
+        "Coverage is uneven inside thick-walled historic buildings, on the water and inside steel warehouses, so offline mode is not optional for a tour, a boat charter or a yard-check app. Location features need care on a peninsula where a wrong pin can put a guest on the far side of a creek.",
         "Storm season is another design input. Venues, schools, marinas and property managers use push notifications to tell people about closures and reopenings, and that channel has to be set up and tested long before it is needed. Apps that touch health information for clinics near the medical district carry privacy obligations that must be part of the specification from day one."
       ]
     }
@@ -70,7 +69,7 @@
   "faqs": [
     {
       "q": "Is there a mobile app developer for Charleston businesses at TDM?",
-      "a": "Yes. TDM builds iOS and Android apps for companies in Charleston, Mount Pleasant, North Charleston and Summerville. The work is delivered remotely, and a member of our team is based in South Carolina."
+      "a": "Yes. TDM builds iOS and Android apps for companies in Charleston, Mount Pleasant, North Charleston and Summerville. The work is delivered remotely."
     },
     {
       "q": "Does my Charleston tour or restaurant need an app or just a mobile website?",
@@ -78,7 +77,7 @@
     },
     {
       "q": "Should we choose native or cross-platform?",
-      "a": "Native suits apps that lean heavily on GPS, camera, sensors or demanding performance. Flutter or React Native suits content, commerce and workflow apps where reaching both platforms quickly matters more. We build both and recommend per project."
+      "a": "Native suits apps that lean heavily on GPS, camera, sensors or demanding performance. Flutter or React Native suits content, commerce and workflow apps where reaching both platforms quickly matters more."
     },
     {
       "q": "How much does it cost to build an app in Charleston?",
@@ -86,7 +85,7 @@
     },
     {
       "q": "How long before the app is in the stores?",
-      "a": "It depends on your requirements and the brief. The release schedule, including store review, is set out in the project plan we agree with you before development starts."
+      "a": "Your requirements and the brief decide that. The release schedule, including store review, is set out in the project plan we agree with you before development starts."
     }
   ]
 }

@@ -6,7 +6,7 @@
   "title": "Video Editing Services for New York City Businesses",
   "metaTitle": "Video Editing Services in New York City | TDM",
   "metaDescription": "Video editing for New York City brands: ad cuts, reels, product and brand videos, captions and every platform format, edited remotely from TDM's Lahore hub.",
-  "lead": "TDM (The Digital Marketing Services) edits video for New York City businesses: ad cuts, reels and short-form clips, product videos, brand films and creator footage. Editing runs from our hub in Lahore, and we work with New York clients entirely remotely. You send the footage, whether it came from a phone, a creator or a professional shoot, and receive finished videos in the formats each platform needs. A great deal of footage is filmed in this city and never used. Editing is how it starts earning its keep.",
+  "lead": "TDM (The Digital Marketing Services) edits video for New York City businesses: ad cuts, reels and short-form clips, product videos, brand films and creator footage. Editing runs from our hub in Lahore, and we work with New York clients entirely remotely. You send the footage, whether it came from a phone, a creator or a professional shoot, and receive finished videos in the formats each platform needs.",
   "sections": [
     {
       "heading": "New York has plenty of footage and too few finished videos",
@@ -32,33 +32,62 @@
       "heading": "Working with an editing team outside the city",
       "paragraphs": [
         "Editing does not need to happen near the place the footage was shot. Files are uploaded, cuts are reviewed in a browser, and feedback is written against the timeline. Because our editors are many hours ahead of New York, work often moves forward outside your business day, and notes sent in the evening can be picked up while the city sleeps.",
-        "What matters more than location is who the editors sit beside. Ours work next to the team that runs paid campaigns. For clients whose ads we manage, editors see how long viewers stay with each cut and how often they click, and they re-edit the weak openings. In a market where advertising is expensive, a better first three seconds is one of the few savings fully within your control."
+        "What matters more than location is who the editors sit beside. Ours work next to the team that runs paid campaigns. For clients whose ads we manage, editors see how long viewers stay with each cut and how often they click, and they re-edit the weak openings."
       ]
     },
     {
       "heading": "Before you send footage to any editor",
       "paragraphs": [
-        "Agree which platforms the videos are for, and in which lengths. Check that you hold the rights to any music in the raw footage, and that people who appear on camera have given consent. Settle how many revision rounds are included and how files will be delivered. For regulated fields such as finance, law and health, decide who signs off on wording before anything is published."
+        "Agree which platforms the videos are for, and in which lengths. Check that you hold the rights to any music in the raw footage, and that people who appear on camera have given consent. For regulated fields such as finance, law and health, decide who signs off on wording before anything is published."
       ]
     }
   ],
   "cards": {
     "heading": "Editing work New York clients ask for",
     "items": [
-      { "title": "Restaurant and bar reels", "text": "Phone clips from the kitchen and the floor turned into a steady run of short videos for Instagram and TikTok." },
-      { "title": "Property walkthroughs", "text": "Listing tours trimmed, stabilised and captioned, with vertical versions for social and wider cuts for listing pages." },
-      { "title": "Founder and expert clips", "text": "Interviews, panels and podcast recordings cut into short captioned segments for LinkedIn and YouTube." },
-      { "title": "Fashion and product videos", "text": "Lookbook and product footage graded and versioned for product pages, paid social and launch emails." },
-      { "title": "Ad variations for testing", "text": "One concept cut with different hooks, lengths and endings so the ad account can compare them properly." },
-      { "title": "Event recaps", "text": "Pop-ups, openings, trade show stands and runway moments edited into highlights while interest is still fresh." }
+      {
+        "title": "Restaurant and bar reels",
+        "text": "Phone clips from the kitchen and the floor turned into a steady run of short videos for Instagram and TikTok."
+      },
+      {
+        "title": "Property walkthroughs",
+        "text": "Listing tours trimmed, stabilised and captioned, with vertical versions for social and wider cuts for listing pages."
+      },
+      {
+        "title": "Founder and expert clips",
+        "text": "Interviews, panels and podcast recordings cut into short captioned segments for LinkedIn and YouTube."
+      },
+      {
+        "title": "Fashion and product videos",
+        "text": "Lookbook and product footage graded and versioned for product pages, paid social and launch emails."
+      },
+      {
+        "title": "Ad variations for testing",
+        "text": "One concept cut with different hooks, lengths and endings so the ad account can compare them properly."
+      }
     ]
   },
   "presence": "TDM works with New York City businesses remotely and has no office, studio or editor in the city. All editing is carried out at our Lahore hub, with footage and review cuts exchanged online.",
   "faqs": [
-    { "q": "Can you edit footage I filmed on my phone in my New York shop or restaurant?", "a": "Yes. Many clients send phone footage, creator submissions or archive material. We review it, tell you what it can support and point out any gaps a short extra shot would close." },
-    { "q": "How much does video editing cost for a New York business?", "a": "It depends on scope: the number of videos, their length, the graphics involved and how many variants are needed. We quote after a free consultation." },
-    { "q": "How quickly can edits be turned around?", "a": "It depends on the brief and the volume of footage, and the schedule is agreed in the plan. Because our editors work ahead of New York time, progress often happens outside your working hours." },
-    { "q": "Which formats will I receive?", "a": "Each approved edit is exported in the ratios its placements require: vertical for reels, stories and TikTok, square and portrait for feeds, and widescreen for YouTube and websites, with captioned and clean versions where needed." },
-    { "q": "Do you film in New York as well as edit?", "a": "Editing is a separate service handled entirely from our hub. If you also need new footage, our video shoot service covers planning and scripting, with filming arranged locally for each project." }
+    {
+      "q": "Can you edit footage I filmed on my phone in my New York shop or restaurant?",
+      "a": "Yes. Many clients send phone footage, creator submissions or archive material. We review it, tell you what it can support and point out any gaps a short extra shot would close."
+    },
+    {
+      "q": "How much does video editing cost for a New York business?",
+      "a": "It depends on scope: the number of videos, their length, the graphics involved and how many variants are needed. We quote after a free consultation."
+    },
+    {
+      "q": "How quickly can edits be turned around?",
+      "a": "It depends on the brief and the volume of footage, and the schedule is agreed in the plan. Because our editors work ahead of New York time, progress often happens outside your working hours."
+    },
+    {
+      "q": "Which formats will I receive?",
+      "a": "Each approved edit is exported in the ratios its placements require: vertical for reels, stories and TikTok, square and portrait for feeds, and widescreen for YouTube and websites, with captioned and clean versions where needed."
+    },
+    {
+      "q": "Do you film in New York as well as edit?",
+      "a": "Editing is a separate service handled entirely from our hub. If you also need new footage, our video shoot service covers planning and scripting, with filming arranged locally for each project."
+    }
   ]
 }

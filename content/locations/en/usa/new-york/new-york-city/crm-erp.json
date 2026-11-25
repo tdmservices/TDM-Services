@@ -6,19 +6,19 @@
   "title": "Custom CRM and ERP Development in New York City",
   "metaTitle": "Custom CRM and ERP Development in New York City | TDM",
   "metaDescription": "Custom CRM and ERP systems for New York City firms: pipelines, inventory, HR, finance, integrations and data migration. Quoted after a free consultation.",
-  "lead": "TDM (The Digital Marketing Services) builds custom CRM and ERP systems for New York City businesses, working remotely. We design software around the way a company actually sells, stocks, staffs and bills: sales pipelines, inventory and purchasing, HR, finance and operations, connected to the tools already in use. In a city where a wholesaler in the Garment District, a property manager in the Bronx and a contractor in Queens each run on their own mix of spreadsheets and group chats, a system that fits the work can remove a lot of daily friction.",
+  "lead": "TDM (The Digital Marketing Services) builds custom CRM and ERP systems for New York City businesses, working remotely. We design software around the way a company actually sells, stocks, staffs and bills: sales pipelines, inventory and purchasing, HR, finance and operations, connected to the tools already in use. A wholesaler in the Garment District, a property manager in the Bronx and a contractor in Queens each tend to run on their own mix of spreadsheets and group chats, and a system that fits the work removes much of that friction.",
   "sections": [
     {
       "heading": "Why off-the-shelf software often strains in New York",
       "paragraphs": [
-        "Many New York companies are small in headcount and complicated in operation. A property management firm does not think in customers and deals. It thinks in buildings, units, tenants, supers, work orders and inspections. A food distributor near Hunts Point works through the night and needs orders, routes and returns recorded before the office opens. A showroom selling to retail buyers needs line sheets, samples and seasonal orders tracked together. Standard CRM products can be bent to fit, but the bending usually ends in a spreadsheet kept on the side.",
-        "Then there is cost. Subscription software charges per seat, and that bill grows with every hire, every part-time dispatcher and every field worker who only needs to tick off a job from a phone. For some firms a system they own outright is the cheaper path over several years. For others a standard tool covers nearly everything and buying is the right call. We run that comparison with you before any build is proposed, and we say so when buying is the better answer."
+        "Many New York companies are small in headcount and complicated in operation. A property management firm does not think in customers and deals. It thinks in buildings, units, tenants, supers, work orders and inspections. Standard CRM products can be bent to fit, but a spreadsheet usually ends up kept on the side.",
+        "Then there is cost. Subscription software charges per seat, and that bill grows with every hire, every part-time dispatcher and every field worker who only needs to tick off a job from a phone. For some firms a system they own outright is the cheaper path over several years. We run that comparison with you before any build is proposed, and we say so when buying is the better answer."
       ]
     },
     {
       "heading": "What a build covers",
       "paragraphs": [
-        "Most clients begin with the one or two modules that cause the most trouble and add others later on the same platform. The work starts with the people who do the job, on calls with sales, warehouse, HR and finance staff, so the system reflects real steps and not an idealised chart."
+        "Most clients begin with the one or two modules that cause the most trouble and add others later on the same platform. Discovery is done on calls with the people who do the job, so the system reflects real steps."
       ],
       "bullets": [
         "CRM: lead capture, pipeline stages, contact histories, task automation and follow-up workflows.",
@@ -32,34 +32,59 @@
     {
       "heading": "Things specific to operating here",
       "paragraphs": [
-        "Field staff in New York rarely sit at a desk. Technicians, brokers, inspectors and drivers move between boroughs by subway and van, so screens have to work on a phone, with one hand, and cope with a signal that drops underground. We design the daily screens for that situation first.",
-        "Companies with customers or sites on both sides of the Hudson, or in Westchester and Long Island, deal with different tax rates and rules by location. The system should store the location logic your accountant specifies, not leave it to memory. Firms that hold personal data about New York residents also have state data security obligations, and financial firms regulated by the state have cybersecurity rules of their own. We build access controls, logging and encryption to support the requirements your counsel or compliance officer sets out. We do not give legal advice."
+        "Field staff in New York rarely sit at a desk. Technicians, brokers, inspectors and drivers move between boroughs by subway and van, so screens have to work on a phone, with one hand, and cope with a signal that drops underground.",
+        "Companies with customers or sites on both sides of the Hudson, or in Westchester and Long Island, deal with different tax rates and rules by location. Firms that hold personal data about New York residents also have state data security obligations, and financial firms regulated by the state have cybersecurity rules of their own. We build access controls, logging and encryption to support the requirements your counsel or compliance officer sets out. We do not give legal advice."
       ]
     },
     {
       "heading": "What to ask any developer before signing",
       "paragraphs": [
-        "Ask who will own the source code and the data. With TDM you own both, and full documentation means another competent team could take the system over. Ask to see a clickable prototype before development begins, since that is the cheapest moment to change anything. Ask how the old data will be tested before the switch, and whether the old system stays available to read afterwards. Ask how staff will be trained, and what support looks like once the system is live."
+        "Ask who will own the source code and the data. With TDM you own both, and full documentation means another competent team could take the system over. Ask to see a clickable prototype before development begins, since that is the cheapest moment to change anything."
       ]
     }
   ],
   "cards": {
     "heading": "Where New York firms use custom systems",
     "items": [
-      { "title": "Property management", "text": "Buildings, units, tenants, work orders and vendor invoices in one record, with each super and manager seeing only their own portfolio." },
-      { "title": "Wholesale and import", "text": "Purchase orders, stock by location, customer price lists and invoices that sync with the accounting package." },
-      { "title": "Contractors and trades", "text": "Estimates, job schedules, crew assignments, materials and change orders followed from first call to final payment." },
-      { "title": "Professional firms", "text": "Client intake, matter or engagement tracking, referral sources and follow-up reminders for law, accounting and advisory practices." },
-      { "title": "Multi-location hospitality", "text": "Suppliers, stock counts, staff rotas and daily numbers compared across sites in different neighbourhoods." },
-      { "title": "Staffing and home care agencies", "text": "Worker records, shift assignments, attendance and payroll inputs handled with strict permissions." }
+      {
+        "title": "Property management",
+        "text": "Buildings, units, tenants, work orders and vendor invoices in one record, with each super and manager seeing only their own portfolio."
+      },
+      {
+        "title": "Wholesale and import",
+        "text": "Purchase orders, stock by location, customer price lists and invoices that sync with the accounting package."
+      },
+      {
+        "title": "Contractors and trades",
+        "text": "Estimates, job schedules, crew assignments, materials and change orders followed from first call to final payment."
+      },
+      {
+        "title": "Professional firms",
+        "text": "Client intake, matter or engagement tracking, referral sources and follow-up reminders for law, accounting and advisory practices."
+      },
+      {
+        "title": "Staffing and home care agencies",
+        "text": "Worker records, shift assignments, attendance and payroll inputs handled with strict permissions."
+      }
     ]
   },
-  "presence": "TDM works with New York City businesses remotely and has no office or staff in the city. Discovery sessions, prototype reviews, training and support for CRM and ERP projects take place over video calls, with staging access so your team can test each module as it is built.",
+  "presence": "TDM works with New York City businesses remotely and has no office or staff in the city. Discovery sessions, prototype reviews, training and support for CRM and ERP projects take place over video calls.",
   "faqs": [
-    { "q": "Should my NYC business build a custom CRM or buy one?", "a": "Buy when a standard product covers nearly everything you do. Build when your workflows are specific to your trade, or when per-seat fees across a growing team would cost more over a few years than a system you own. We help you compare both before recommending either." },
-    { "q": "How much does a custom CRM or ERP cost in New York City?", "a": "It depends on scope: the number of modules, integrations, users and the state of your existing data. We quote after a free consultation and a discovery stage that defines what will be built." },
-    { "q": "Can a custom system connect to our accounting software and website?", "a": "Yes. Integration is often the main reason to go custom. Website enquiries can flow into the CRM, store orders can update stock, and invoices can sync with your accounting package so nothing is typed twice." },
-    { "q": "How do you move our data out of spreadsheets safely?", "a": "We export from your current tools, map each field to the new structure, clean and deduplicate the records, and run trial migrations on a staging system that your team checks against the source. The final migration runs only after sign-off." },
-    { "q": "How long does a CRM or ERP project take?", "a": "It depends on your requirements and how many modules are in the first release. Systems are rolled out module by module, and the milestones are agreed in the plan after discovery." }
+    {
+      "q": "Should my NYC business build a custom CRM or buy one?",
+      "a": "Buy when a standard product covers nearly everything you do. Build when your workflows are specific to your trade, or when per-seat fees across a growing team would cost more over a few years than a system you own."
+    },
+    {
+      "q": "How much does a custom CRM or ERP cost in New York City?",
+      "a": "It depends on scope: the number of modules, integrations, users and the state of your existing data. We quote after a free consultation and a discovery stage that defines what will be built."
+    },
+    {
+      "q": "How do you move our data out of spreadsheets safely?",
+      "a": "We export from your current tools, map each field to the new structure, clean and deduplicate the records, and run trial migrations on a staging system that your team checks against the source. The final migration runs only after sign-off."
+    },
+    {
+      "q": "How long does a CRM or ERP project take?",
+      "a": "It depends on your requirements and how many modules are in the first release. Systems are rolled out module by module, and the milestones are agreed in the plan after discovery."
+    }
   ]
 }

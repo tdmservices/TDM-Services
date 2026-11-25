@@ -11,7 +11,7 @@
     {
       "heading": "A city of product businesses",
       "paragraphs": [
-        "New York makes and sells an unusual range of physical goods. Fashion labels work out of the Garment District and Brooklyn lofts. Jewellers cluster around the Diamond District on 47th Street. Independent beauty, fragrance and candle brands operate from small studios, and food makers share production space in places like Industry City and the Brooklyn Navy Yard. Many of them sell nationally from a base of a few hundred square feet.",
+        "New York makes and sells an unusual range of physical goods. Fashion labels work out of the Garment District and Brooklyn lofts. Jewellers cluster around the Diamond District on 47th Street. Independent beauty, fragrance and candle brands operate from small studios, and food makers share production space in places like Industry City and the Brooklyn Navy Yard. Many sell nationally from very little space.",
         "Their images are held to a high standard because their buyers are surrounded by good design every day. The same photograph may have to work on a product page, in a marketplace listing with strict rules, in a paid social ad and in a line sheet sent to a store buyer. Shooting in the city is possible, but studio time and space are costly, and founders often end up photographing new items on a windowsill between other jobs. Shipping a box and approving a shot list is a practical alternative."
       ]
     },
@@ -32,7 +32,7 @@
     {
       "heading": "How shipping from New York works",
       "paragraphs": [
-        "You send the products to our Lahore studio by international courier. We confirm their condition on arrival and stage them for the shoot. Art direction is agreed beforehand with reference images and a written set list, so there are no surprises. Selects are retouched and shared for review, and your notes are applied before the final export.",
+        "You send the products to our Lahore studio by international courier. We confirm their condition on arrival and stage them for the shoot. Selects are retouched and shared for review, and your notes are applied before the final export.",
         "Some things should be settled before the box leaves. Send the exact colourways and sizes you intend to sell, with packaging if it will appear in shots. Tell us if items must be returned, as return shipping needs to be arranged. For high-value goods such as fine jewellery or watches, talk to us first about insurance, customs paperwork and whether shipping is sensible at all. In some cases a local photographer is the better choice, and we will tell you so."
       ]
     },
@@ -46,20 +46,49 @@
   "cards": {
     "heading": "Shoots New York brands commonly book",
     "items": [
-      { "title": "Fashion accessories", "text": "Bags, shoes, scarves and small leather goods photographed consistently for product pages and line sheets." },
-      { "title": "Beauty and fragrance", "text": "Bottles, jars and textures shot with controlled reflections, plus styled scenes for launches." },
-      { "title": "Packaged food and drink", "text": "Pack shots and styled serving scenes for online stores, retailer listings and pitch decks." },
-      { "title": "Home goods and candles", "text": "Catalogue angles and room-style scenes for independent makers and design shops." },
-      { "title": "Full catalogue refreshes", "text": "A repeatable lighting and framing system so a large range looks like one brand." },
-      { "title": "Marketplace listing sets", "text": "Main images, secondary angles and detail shots prepared to pass marketplace review." }
+      {
+        "title": "Fashion accessories",
+        "text": "Bags, shoes, scarves and small leather goods photographed consistently for product pages and line sheets."
+      },
+      {
+        "title": "Beauty and fragrance",
+        "text": "Bottles, jars and textures shot with controlled reflections, plus styled scenes for launches."
+      },
+      {
+        "title": "Packaged food and drink",
+        "text": "Pack shots and styled serving scenes for online stores, retailer listings and pitch decks."
+      },
+      {
+        "title": "Full catalogue refreshes",
+        "text": "A repeatable lighting and framing system so a large range looks like one brand."
+      },
+      {
+        "title": "Marketplace listing sets",
+        "text": "Main images, secondary angles and detail shots prepared to pass marketplace review."
+      }
     ]
   },
   "presence": "TDM works with New York City brands remotely and has no office, studio or photographer in the city. Product photography takes place at our Lahore studio from items you ship to us, with the shot list, art direction and retouched selects approved online.",
   "faqs": [
-    { "q": "Does TDM have a product photography studio in New York City?", "a": "No. Our studio is in Lahore. New York brands ship products to us, approve the shot list and art direction remotely, and receive retouched images digitally. No on-site session is needed." },
-    { "q": "How much does product photography cost for a New York brand?", "a": "It depends on scope: the number of products, the images per product, the styling involved and the formats required. We quote after a free consultation." },
-    { "q": "How long does a product shoot take once I ship from New York?", "a": "It depends on shipping, the size of the range and the brief. The schedule, including time for review and revisions, is agreed in the plan before you send anything." },
-    { "q": "Can you photograph a whole catalogue and keep it consistent?", "a": "Yes. We build a repeatable lighting and framing setup for each category so every item matches, then batch the shoot and the retouching." },
-    { "q": "Will the images meet Amazon and marketplace rules?", "a": "Image sets can be specified to meet Amazon and other marketplace requirements for background, framing and resolution. Tell us which channels you sell on and we plan the set list around them." }
+    {
+      "q": "Does TDM have a product photography studio in New York City?",
+      "a": "No. Our studio is in Lahore. New York brands ship products to us, approve the shot list and art direction remotely, and receive retouched images digitally."
+    },
+    {
+      "q": "How much does product photography cost for a New York brand?",
+      "a": "It depends on scope: the number of products, the images per product, the styling involved and the formats required. We quote after a free consultation."
+    },
+    {
+      "q": "How long does a product shoot take once I ship from New York?",
+      "a": "It depends on shipping, the size of the range and the brief. The schedule, including time for review and revisions, is agreed in the plan before you send anything."
+    },
+    {
+      "q": "Can you photograph a whole catalogue and keep it consistent?",
+      "a": "Yes. We build a repeatable lighting and framing setup for each category so every item matches, then batch the shoot and the retouching."
+    },
+    {
+      "q": "Will the images meet Amazon and marketplace rules?",
+      "a": "Image sets can be specified to meet Amazon and other marketplace requirements for background, framing and resolution. Tell us which channels you sell on and we plan the set list around them."
+    }
   ]
 }
