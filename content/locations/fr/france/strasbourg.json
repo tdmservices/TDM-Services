@@ -11,8 +11,7 @@
       "heading": "Institutions européennes, santé, industrie : les moteurs de l'activité",
       "paragraphs": [
         "Le Parlement européen, le Conseil de l'Europe et la Cour européenne des droits de l'homme sont installés dans le quartier du Wacken, au nord du centre. Les sessions parlementaires amènent régulièrement élus, collaborateurs, journalistes et délégations, ce qui remplit hôtels, restaurants et salles de réunion à des dates connues d'avance. Un quartier d'affaires s'est développé à proximité.",
-        "La santé est l'autre point fort : hôpitaux universitaires, recherche médicale, formation à la chirurgie et entreprises de technologies médicales, avec un parc d'innovation à Illkirch-Graffenstaden. La production pharmaceutique est présente dans l'agglomération. Dans ces métiers, la communication est encadrée, et un site doit informer avec exactitude plutôt que promettre.",
-        "Le port du Rhin, la logistique et un tissu d'entreprises industrielles de taille moyenne complètent le tableau, tandis que les vins d'Alsace, la brasserie et la gastronomie portent l'image de la région. Beaucoup de ces sociétés sont familiales, anciennes et solides, avec un site qui n'a pas suivi leur développement. La refonte est souvent le premier chantier utile."
+        "La santé est l'autre point fort : hôpitaux universitaires, recherche médicale, formation à la chirurgie et entreprises de technologies médicales, avec un parc d'innovation à Illkirch-Graffenstaden. La production pharmaceutique est présente dans l'agglomération. Dans ces métiers, la communication est encadrée, et un site doit informer avec exactitude plutôt que promettre."
       ]
     },
     {
@@ -25,37 +24,55 @@
       "bullets": [
         "Fiche Google avec les horaires exacts, jours fériés locaux compris.",
         "Pages par quartier, par commune ou par ville alsacienne effectivement desservie.",
-        "Avis clients sollicités et traités avec soin, dans une région où la recommandation pèse.",
-        "Annonces locales dont le périmètre suit vos déplacements réels le long de la plaine.",
-        "Contenus clairs, structurés pour apparaître aussi dans les réponses des assistants d'IA."
+        "Avis clients sollicités et traités avec soin, dans une région où la recommandation pèse."
       ]
     },
     {
       "heading": "Noël d'abord, puis le reste de l'année",
       "paragraphs": [
         "Le marché de Noël de Strasbourg, l'un des plus anciens d'Europe, occupe la Grande Île de la fin novembre à la fin décembre. La ville reçoit alors un afflux considérable de visiteurs, et les hébergements se réservent très longtemps à l'avance. Pour un hôtel, un restaurant, un artisan ou une boutique de spécialités, la préparation commence à la fin de l'été : pages dédiées, offres, vente en ligne des produits que les visiteurs voudront recommander une fois rentrés.",
-        "Le reste de l'année suit d'autres rythmes. Les sessions du Parlement créent des pics de demande réguliers. À partir du printemps, les visiteurs viennent pour la Petite France, la cathédrale et la route des vins, puis les vendanges animent le vignoble à l'automne. Janvier et février sont plus calmes, et se prêtent au travail de fond sur le site et le référencement.",
-        "Un vigneron ou un producteur qui a vu passer des milliers de visiteurs en décembre a tout intérêt à garder le lien avec eux, par une liste d'e-mails constituée avec leur accord et une boutique en ligne qui prolonge la vente au caveau."
+        "Le reste de l'année suit d'autres rythmes. Les sessions du Parlement créent des pics de demande réguliers. À partir du printemps, les visiteurs viennent pour la Petite France, la cathédrale et la route des vins, puis les vendanges animent le vignoble à l'automne. Janvier et février sont plus calmes, et se prêtent au travail de fond sur le site et le référencement."
       ]
     }
   ],
   "cards": {
     "heading": "Notre accompagnement des entreprises alsaciennes",
     "items": [
-      { "title": "Hôtellerie et restauration", "text": "Winstubs, hôtels, tables d'hôtes : réservation directe, avis et campagnes calées sur Noël, les sessions parlementaires et la belle saison." },
-      { "title": "Vins d'Alsace et produits du terroir", "text": "Boutique en ligne, photos produit et récit de la maison, avec une publicité pour le vin conforme à la loi Évin." },
-      { "title": "Santé et technologies médicales", "text": "Sites précis, contenus validés par vos experts et communication menée dans le respect de la réglementation." },
-      { "title": "Industrie et logistique", "text": "Pages par métier et par service, référencement sur les recherches techniques et formulaires de demande de devis efficaces." },
-      { "title": "Entreprises familiales", "text": "Refonte d'un site vieillissant, sous WordPress ou sur mesure, sans perdre le référencement acquis ni l'identité de la maison." },
-      { "title": "Commerces et artisans", "text": "Visibilité de proximité, réseaux sociaux tenus au quotidien et vente en ligne pour prolonger la saison de Noël." }
+      {
+        "title": "Hôtellerie et restauration",
+        "text": "Winstubs, hôtels, tables d'hôtes : réservation directe, avis et campagnes calées sur Noël, les sessions parlementaires et la belle saison."
+      },
+      {
+        "title": "Vins d'Alsace et produits du terroir",
+        "text": "Boutique en ligne, photos produit et récit de la maison, avec une publicité pour le vin conforme à la loi Évin."
+      },
+      {
+        "title": "Santé et technologies médicales",
+        "text": "Sites précis, contenus validés par vos experts et communication menée dans le respect de la réglementation."
+      },
+      {
+        "title": "Industrie et logistique",
+        "text": "Pages par métier et par service, référencement sur les recherches techniques et formulaires de demande de devis efficaces."
+      }
     ]
   },
   "presence": "TDM accompagne les entreprises de Strasbourg et d'Alsace à distance. Nous n'avons pas de bureau dans la région ni ailleurs en France. Le travail se fait en français, par visioconférence et par écrit, avec des rapports dont le rythme est décidé avec vous.",
   "faqs": [
-    { "q": "Votre agence est-elle basée à Strasbourg ?", "a": "Non. Nous travaillons avec les entreprises strasbourgeoises à distance, en français. Vous échangez avec nous en visioconférence et recevez des comptes rendus écrits après chaque étape." },
-    { "q": "Quand préparer sa communication pour le marché de Noël de Strasbourg ?", "a": "À la fin de l'été au plus tard. Les visiteurs réservent leur séjour très tôt, et les coûts publicitaires augmentent à l'approche de décembre. Pages, offres, photos et campagnes doivent être prêtes avant l'ouverture, pas pendant." },
-    { "q": "Combien faut-il prévoir pour une agence de marketing digital à Strasbourg ?", "a": "Le montant dépend de vos objectifs, des canaux utilisés et du travail à mener sur votre site. Nous vous le communiquons sous forme de devis, après une consultation gratuite." },
-    { "q": "Faut-il refaire son site avant de lancer des publicités ?", "a": "Pas toujours. Si le site est lent, peu lisible sur mobile ou sans moyen simple de vous contacter, la publicité y enverra des visiteurs qui repartiront. Nous commençons par vérifier ces points, puis nous décidons avec vous entre des corrections ciblées et une refonte." },
-    { "q": "Quels sont les délais pour une refonte ou une campagne ?", "a": "Ils varient selon vos besoins et le contenu du brief. Le planning est défini dans le plan de travail et validé avec vous avant le début de la mission." }
+    {
+      "q": "Votre agence est-elle basée à Strasbourg ?",
+      "a": "Non. Nous travaillons avec les entreprises strasbourgeoises à distance, en français. Vous échangez avec nous en visioconférence et recevez des comptes rendus écrits après chaque étape."
+    },
+    {
+      "q": "Quand préparer sa communication pour le marché de Noël de Strasbourg ?",
+      "a": "À la fin de l'été au plus tard. Les visiteurs réservent leur séjour très tôt, et les coûts publicitaires augmentent à l'approche de décembre. Pages, offres, photos et campagnes doivent être prêtes avant l'ouverture, pas pendant."
+    },
+    {
+      "q": "Combien faut-il prévoir pour une agence de marketing digital à Strasbourg ?",
+      "a": "Le montant dépend de vos objectifs, des canaux utilisés et du travail à mener sur votre site. Nous vous le communiquons sous forme de devis, après une consultation gratuite."
+    },
+    {
+      "q": "Quels sont les délais pour une refonte ou une campagne ?",
+      "a": "Ils varient selon vos besoins et le contenu du brief. Le planning est défini dans le plan de travail et validé avec vous avant le début de la mission."
+    }
   ]
 }

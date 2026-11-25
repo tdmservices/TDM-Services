@@ -11,8 +11,7 @@
       "heading": "Autour d'Airbus, une économie de fournisseurs et d'ingénieurs",
       "paragraphs": [
         "Le siège d'Airbus et ses chaînes d'assemblage se trouvent à Blagnac et à Colomiers, ATR assemble ses avions à côté, et le centre spatial du CNES occupe le sud-est de la ville. Autour de ces donneurs d'ordres gravitent des usineurs, des spécialistes des matériaux, des éditeurs de logiciels embarqués et des sociétés d'ingénierie installés à Labège, à Montaudran, à Saint-Martin-du-Touch ou plus loin dans la région.",
-        "Pour ces entreprises, le client est un acheteur ou un responsable technique qui connaît son sujet. Il cherche un savoir-faire précis, une certification, une capacité de production, et il veut des preuves avant de décrocher son téléphone. Un site qui décrit clairement vos procédés, vos moyens et vos qualifications fait une partie du travail de prospection à votre place.",
-        "Le secteur connaît des cycles, et beaucoup de sous-traitants cherchent à se diversifier vers le ferroviaire, le médical, l'énergie ou la défense. Le marketing digital sert alors à se faire connaître d'acheteurs qui ne vous ont jamais croisé sur un salon aéronautique. Autre besoin fréquent : recruter. Dans un bassin où les ingénieurs et les techniciens sont très sollicités, une page carrière soignée et des contenus qui montrent l'atelier comptent autant que la plaquette commerciale."
+        "Pour ces entreprises, le client est un acheteur ou un responsable technique qui connaît son sujet. Il cherche un savoir-faire précis, une certification, une capacité de production, et il veut des preuves avant de décrocher son téléphone. Un site qui décrit clairement vos procédés, vos moyens et vos qualifications fait une partie du travail de prospection à votre place."
       ]
     },
     {
@@ -32,28 +31,52 @@
       "heading": "Le calendrier toulousain",
       "paragraphs": [
         "La rentrée de septembre est le grand moment de l'année pour tout ce qui touche à l'installation : logement, ameublement, assurances, abonnements, auto-écoles, banques. Les campagnes se préparent pendant l'été, quand les étudiants et leurs parents font leurs recherches, souvent depuis une autre ville.",
-        "Les soirs de match du Stade Toulousain remplissent les bars et les restaurants, et les beaux jours déplacent la vie vers les terrasses et les bords de Garonne. En août, la ville se vide en partie et l'activité entre professionnels tourne au ralenti. L'hiver, la proximité des Pyrénées ouvre une saison aux loueurs de matériel, aux transporteurs et aux hébergeurs qui visent une clientèle toulousaine partant skier à la journée ou au week-end.",
-        "Côté professionnel, les salons et congrès qui se tiennent au MEETT, le parc des expositions situé au nord-ouest de l'agglomération, demandent une préparation en amont : prise de rendez-vous, page consacrée à votre présence, puis suivi des contacts après l'événement."
+        "Les soirs de match du Stade Toulousain remplissent les bars et les restaurants, et les beaux jours déplacent la vie vers les terrasses et les bords de Garonne. En août, la ville se vide en partie et l'activité entre professionnels tourne au ralenti. L'hiver, la proximité des Pyrénées ouvre une saison aux loueurs de matériel, aux transporteurs et aux hébergeurs qui visent une clientèle toulousaine partant skier à la journée ou au week-end."
       ]
     }
   ],
   "cards": {
     "heading": "Les entreprises toulousaines avec lesquelles nous travaillons le mieux",
     "items": [
-      { "title": "Sous-traitance aéronautique et spatiale", "text": "Des pages par procédé et par certification, un référencement sur les requêtes techniques et des campagnes LinkedIn tournées vers les acheteurs industriels." },
-      { "title": "Ingénierie et logiciel", "text": "Articles de fond, études de cas rédigées avec vos équipes et marque employeur visible pour attirer les profils que tout le bassin recherche." },
-      { "title": "Santé et recherche", "text": "Pour les sociétés installées autour de l'Oncopole et des hôpitaux : des sites précis, sobres, et une communication qui reste dans le cadre réglementaire." },
-      { "title": "Restauration et vie nocturne", "text": "Présence sur la carte Google, gestion des avis, photos et formats courts pour remplir la salle en semaine comme les soirs de match." },
-      { "title": "Services aux étudiants", "text": "Résidences, écoles, auto-écoles, salles de sport : des campagnes calées sur la rentrée et diffusées là où ce public passe son temps." },
-      { "title": "Commerce en ligne", "text": "Boutiques Shopify, WooCommerce ou Magento, photos produit et publicités pilotées sur la rentabilité de chaque commande." }
+      {
+        "title": "Sous-traitance aéronautique et spatiale",
+        "text": "Des pages par procédé et par certification, un référencement sur les requêtes techniques et des campagnes LinkedIn tournées vers les acheteurs industriels."
+      },
+      {
+        "title": "Ingénierie et logiciel",
+        "text": "Articles de fond, études de cas rédigées avec vos équipes et marque employeur visible pour attirer les profils que tout le bassin recherche."
+      },
+      {
+        "title": "Restauration et vie nocturne",
+        "text": "Présence sur la carte Google, gestion des avis, photos et formats courts pour remplir la salle en semaine comme les soirs de match."
+      },
+      {
+        "title": "Services aux étudiants",
+        "text": "Résidences, écoles, auto-écoles, salles de sport : des campagnes calées sur la rentrée et diffusées là où ce public passe son temps."
+      },
+      {
+        "title": "Commerce en ligne",
+        "text": "Boutiques Shopify, WooCommerce ou Magento, photos produit et publicités pilotées sur la rentabilité de chaque commande."
+      }
     ]
   },
   "presence": "TDM travaille avec les entreprises de Toulouse et de la Haute-Garonne à distance. Nous n'avons ni bureau ni collaborateur sur place : tout se passe en français, en visioconférence et par écrit, avec des comptes rendus après chaque étape.",
   "faqs": [
-    { "q": "TDM est-elle une agence installée à Toulouse ?", "a": "Non. Nous accompagnons les entreprises toulousaines à distance, en français. Après un premier échange sur votre activité, nous fixons ensemble la fréquence des réunions en visioconférence et le format des rapports." },
-    { "q": "Comment un sous-traitant aéronautique peut-il trouver de nouveaux clients en ligne ?", "a": "En rendant son savoir-faire trouvable. Des pages détaillées sur vos procédés, vos moyens de production et vos certifications, bien référencées, attirent les acheteurs qui cherchent un fournisseur. Des campagnes ciblées par fonction et par secteur permettent ensuite d'aller vers d'autres filières que l'aéronautique." },
-    { "q": "Combien coûte une agence de marketing digital à Toulouse ?", "a": "Le prix varie selon les canaux choisis, la quantité de contenus à produire et l'état de votre site. Nous commençons par une consultation gratuite, puis nous vous remettons un devis détaillé." },
-    { "q": "Quand lancer une campagne pour la rentrée étudiante ?", "a": "Avant l'été. Les étudiants et leurs familles se renseignent dès la période des admissions, puis en juillet et en août. Vos pages et vos annonces doivent être en place à ce moment-là, et non début septembre quand les choix sont déjà faits." },
-    { "q": "Sous quel délai pouvez-vous démarrer ?", "a": "Tout dépend de ce qu'il y a à faire et du brief que vous nous confiez. Le calendrier figure dans le plan que nous validons avec vous avant de commencer." }
+    {
+      "q": "TDM est-elle une agence installée à Toulouse ?",
+      "a": "Non. Nous accompagnons les entreprises toulousaines à distance, en français. Après un premier échange sur votre activité, nous fixons ensemble la fréquence des réunions en visioconférence et le format des rapports."
+    },
+    {
+      "q": "Comment un sous-traitant aéronautique peut-il trouver de nouveaux clients en ligne ?",
+      "a": "En rendant son savoir-faire trouvable. Des pages détaillées sur vos procédés, vos moyens de production et vos certifications, bien référencées, attirent les acheteurs qui cherchent un fournisseur. Des campagnes ciblées par fonction et par secteur permettent ensuite d'aller vers d'autres filières que l'aéronautique."
+    },
+    {
+      "q": "Combien coûte une agence de marketing digital à Toulouse ?",
+      "a": "Le prix varie selon les canaux choisis, la quantité de contenus à produire et l'état de votre site. Nous commençons par une consultation gratuite, puis nous vous remettons un devis détaillé."
+    },
+    {
+      "q": "Sous quel délai pouvez-vous démarrer ?",
+      "a": "Tout dépend de ce qu'il y a à faire et du brief que vous nous confiez. Le calendrier figure dans le plan que nous validons avec vous avant de commencer."
+    }
   ]
 }

@@ -11,8 +11,7 @@
       "heading": "Une métropole de commerçants, de Roubaix à Villeneuve-d'Ascq",
       "paragraphs": [
         "Le textile a longtemps fait vivre Roubaix et Tourcoing. De cette histoire sont nés la vente à distance, puis de grands groupes de distribution dont les sièges se trouvent encore dans la métropole, dans l'alimentaire, le sport, le bricolage ou l'habillement. Autour d'eux travaillent des fournisseurs, des logisticiens, des agences et des éditeurs de solutions pour le commerce.",
-        "Pour une marque ou une boutique indépendante, cet environnement a deux conséquences. Les clients sont habitués à des sites marchands efficaces, avec des prix clairs, une livraison rapide et des retours faciles, et ils jugent le vôtre à cette aune. Et la concurrence publicitaire est forte sur les mots-clés génériques : mieux vaut viser des recherches précises, une gamme bien choisie et une clientèle fidèle que l'on recontacte.",
-        "Le numérique s'est installé dans d'anciennes usines reconverties, avec un grand pôle de jeunes entreprises dans le quartier des Bois-Blancs, tandis que la filière santé se regroupe près du centre hospitalier, au sud de Lille. Le quartier d'affaires d'Euralille, entre les deux gares, accueille les services, la banque et l'assurance."
+        "Pour une marque ou une boutique indépendante, cet environnement a deux conséquences. Les clients sont habitués à des sites marchands efficaces, avec des prix clairs, une livraison rapide et des retours faciles, et ils jugent le vôtre à cette aune. Et la concurrence publicitaire est forte sur les mots-clés génériques : mieux vaut viser des recherches précises, une gamme bien choisie et une clientèle fidèle que l'on recontacte."
       ]
     },
     {
@@ -24,37 +23,55 @@
       "bullets": [
         "Une fiche Google par établissement, rattachée à la bonne commune.",
         "Des pages par ville de la métropole, pour celles où vous avez une activité réelle.",
-        "Des campagnes géolocalisées qui incluent la Belgique proche si vous y vendez.",
-        "Des fiches produit et des pages de service écrites pour répondre aux questions avant qu'elles ne soient posées.",
-        "Un suivi des ventes et des contacts paramétré dans le respect du consentement."
+        "Des campagnes géolocalisées qui incluent la Belgique proche si vous y vendez."
       ]
     },
     {
       "heading": "Braderie, fêtes de fin d'année et temps forts du commerce",
       "paragraphs": [
         "Le premier week-end de septembre, la Braderie de Lille transforme la ville en un immense marché et attire une foule venue de toute la région et de l'étranger. Pour les restaurants, les bars, les hôtels et les commerces du centre, c'est l'un des plus gros week-ends de l'année, et il se prépare dès l'été : horaires, offres, pages et annonces prêtes avant l'arrivée des visiteurs.",
-        "L'hiver, le marché de Noël et la grande roue de la Grand'Place amènent à nouveau du monde, y compris des visiteurs arrivés en train de Paris, de Bruxelles ou de Londres pour un court séjour. Les soldes, le Black Friday et la période des cadeaux comptent énormément dans une région où le commerce est roi, et les coûts publicitaires montent à ces moments-là.",
-        "La bonne méthode consiste à constituer son audience avant les pics : enrichir sa liste de contacts, tester ses messages en période calme, puis concentrer le budget sur ce qui a fait ses preuves quand la demande arrive."
+        "L'hiver, le marché de Noël et la grande roue de la Grand'Place amènent à nouveau du monde, y compris des visiteurs arrivés en train de Paris, de Bruxelles ou de Londres pour un court séjour. Les soldes, le Black Friday et la période des cadeaux comptent énormément dans une région où le commerce est roi, et les coûts publicitaires montent à ces moments-là."
       ]
     }
   ],
   "cards": {
     "heading": "Nos services pour les entreprises de la métropole lilloise",
     "items": [
-      { "title": "Marques et boutiques en ligne", "text": "Sites Shopify, WooCommerce ou Magento, parcours d'achat soignés, photos produit et campagnes suivies commande par commande." },
-      { "title": "Fournisseurs de la distribution", "text": "Sites et contenus qui parlent aux acheteurs des enseignes, avec une prospection ciblée par fonction sur LinkedIn." },
-      { "title": "Mode et textile", "text": "Shootings, vidéos UGC et publicités sur Meta et TikTok pour des marques qui prolongent le savoir-faire textile de la région." },
-      { "title": "Restauration et sorties", "text": "Estaminets, brasseries, bars : carte Google, avis et vidéos courtes, avec un effort particulier autour de la Braderie et de Noël." },
-      { "title": "Santé et services", "text": "Présence locale nette pour les cabinets et les sociétés de services, dans le respect des règles de communication du secteur." },
-      { "title": "Jeunes entreprises du numérique", "text": "Site clair, contenus de fond, acquisition des premiers clients et renfort d'équipes en développement quand il faut accélérer." }
+      {
+        "title": "Marques et boutiques en ligne",
+        "text": "Sites Shopify, WooCommerce ou Magento, parcours d'achat soignés, photos produit et campagnes suivies commande par commande."
+      },
+      {
+        "title": "Mode et textile",
+        "text": "Shootings, vidéos UGC et publicités sur Meta et TikTok pour des marques qui prolongent le savoir-faire textile de la région."
+      },
+      {
+        "title": "Restauration et sorties",
+        "text": "Estaminets, brasseries, bars : carte Google, avis et vidéos courtes, avec un effort particulier autour de la Braderie et de Noël."
+      },
+      {
+        "title": "Jeunes entreprises du numérique",
+        "text": "Site clair, contenus de fond, acquisition des premiers clients et renfort d'équipes en développement quand il faut accélérer."
+      }
     ]
   },
   "presence": "TDM travaille avec les entreprises de Lille et du Nord à distance. Nous n'avons ni locaux ni salarié dans la région. Les échanges se font en français, en visioconférence et par écrit, et vous disposez d'un point d'avancement régulier.",
   "faqs": [
-    { "q": "TDM dispose-t-elle d'une équipe à Lille ?", "a": "Non. Nous travaillons à distance avec les entreprises lilloises, en français. Un premier entretien permet de faire le point sur votre activité, puis nous convenons de rendez-vous réguliers en visioconférence." },
-    { "q": "Comment une petite boutique en ligne peut-elle exister face aux grandes enseignes du Nord ?", "a": "En évitant le terrain où elles sont imbattables. Une gamme spécialisée, des fiches produit plus complètes que les leurs, un référencement sur des recherches précises, un service client réactif et des clients fidélisés par e-mail permettent de construire une activité rentable sans rivaliser sur les budgets." },
-    { "q": "Quel prix pour une agence de marketing digital à Lille ?", "a": "Le prix est lié à l'ampleur du travail : taille du catalogue, canaux publicitaires, contenus à créer. Il est indiqué dans un devis, remis à la suite d'une consultation gratuite." },
-    { "q": "Peut-on cibler aussi les clients belges depuis Lille ?", "a": "Oui, si vous pouvez les servir correctement. Les plateformes permettent de cibler les villes belges proches. Il faut que votre site annonce clairement la livraison ou l'intervention en Belgique et les conditions qui s'appliquent." },
-    { "q": "Quand faut-il commencer à préparer la fin d'année ?", "a": "Dès la fin de l'été. Le calendrier précis dépend de vos besoins et du brief, et nous l'arrêtons avec vous dans le plan de travail. Plus les tests sont faits tôt, mieux le budget est employé en novembre et en décembre." }
+    {
+      "q": "TDM dispose-t-elle d'une équipe à Lille ?",
+      "a": "Non. Nous travaillons à distance avec les entreprises lilloises, en français. Un premier entretien permet de faire le point sur votre activité, puis nous convenons de rendez-vous réguliers en visioconférence."
+    },
+    {
+      "q": "Comment une petite boutique en ligne peut-elle exister face aux grandes enseignes du Nord ?",
+      "a": "En évitant le terrain où elles sont imbattables. Une gamme spécialisée, des fiches produit plus complètes que les leurs, un référencement sur des recherches précises, un service client réactif et des clients fidélisés par e-mail permettent de construire une activité rentable sans rivaliser sur les budgets."
+    },
+    {
+      "q": "Quel prix pour une agence de marketing digital à Lille ?",
+      "a": "Le prix est lié à l'ampleur du travail : taille du catalogue, canaux publicitaires, contenus à créer. Il est indiqué dans un devis, remis à la suite d'une consultation gratuite."
+    },
+    {
+      "q": "Quand faut-il commencer à préparer la fin d'année ?",
+      "a": "Dès la fin de l'été. Le calendrier précis dépend de vos besoins et du brief, et nous l'arrêtons avec vous dans le plan de travail."
+    }
   ]
 }

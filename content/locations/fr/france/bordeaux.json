@@ -23,37 +23,55 @@
       "bullets": [
         "Une fiche d'établissement Google complète pour chaque point de vente ou agence.",
         "Des pages dédiées aux quartiers et aux communes que vous servez, rive gauche comme rive droite.",
-        "Des campagnes locales pour les métiers de l'habitat, très sollicités par les nouveaux propriétaires.",
-        "Des contenus qui répondent aux questions pratiques des arrivants, repris par Google et par les assistants d'IA.",
-        "Une mesure des demandes de devis et des appels qui tient compte du refus des cookies par une partie des visiteurs."
+        "Des campagnes locales pour les métiers de l'habitat, très sollicités par les nouveaux propriétaires."
       ]
     },
     {
       "heading": "Vendanges, saison touristique et bassin d'Arcachon",
       "paragraphs": [
         "L'année viticole donne le tempo. La semaine des primeurs, au printemps, réunit les professionnels autour du nouveau millésime. Les vendanges, à la fin de l'été et au début de l'automne, sont le moment le plus photogénique de l'année et un temps fort de l'œnotourisme. Les fêtes de fin d'année concentrent une part importante des ventes de vin aux particuliers, et les commandes en ligne doivent être prêtes bien avant décembre.",
-        "Le tourisme suit un rythme proche de celui du littoral : la fréquentation monte dès le printemps, avec les visiteurs venus pour le centre historique, la Cité du Vin et les escapades dans le vignoble. L'été, une partie des Bordelais part vers le bassin d'Arcachon, le Cap Ferret et les plages de l'océan, où restaurants, loueurs et hébergeurs réalisent l'essentiel de leur année en quelques mois.",
-        "Pour un domaine qui reçoit du public, un restaurant ou un hébergeur, le travail de visibilité commence donc plusieurs mois avant l'arrivée des visiteurs, quand ils choisissent leurs dates et leurs étapes."
+        "Le tourisme suit un rythme proche de celui du littoral : la fréquentation monte dès le printemps, avec les visiteurs venus pour le centre historique, la Cité du Vin et les escapades dans le vignoble. L'été, une partie des Bordelais part vers le bassin d'Arcachon, le Cap Ferret et les plages de l'océan, où restaurants, loueurs et hébergeurs réalisent l'essentiel de leur année en quelques mois."
       ]
     }
   ],
   "cards": {
     "heading": "Les secteurs bordelais que nous accompagnons",
     "items": [
-      { "title": "Domaines, négoce et cavistes", "text": "Boutique en ligne, fiches de vins, récit du domaine et publicité conçue dans le respect de la loi Évin." },
-      { "title": "Œnotourisme et hébergement", "text": "Réservation de visites et de séjours en ligne, référencement sur les recherches de week-end et vidéos tournées dans le vignoble." },
-      { "title": "Aéronautique et défense", "text": "Pour les sous-traitants de Mérignac et des environs : sites techniques, contenus de fond et prospection ciblée sur LinkedIn." },
-      { "title": "E-commerce", "text": "Shopify, WooCommerce ou Magento, shootings produit et campagnes Google, Meta et TikTok pilotées sur la marge." },
-      { "title": "Habitat et rénovation", "text": "Artisans, architectes, cuisinistes : visibilité locale et demandes de devis venues de ceux qui s'installent dans la métropole." },
-      { "title": "Restauration", "text": "Carte Google, avis, photos et formats courts pour les tables du centre comme pour celles du Bassin en saison." }
+      {
+        "title": "Domaines, négoce et cavistes",
+        "text": "Boutique en ligne, fiches de vins, récit du domaine et publicité conçue dans le respect de la loi Évin."
+      },
+      {
+        "title": "Œnotourisme et hébergement",
+        "text": "Réservation de visites et de séjours en ligne, référencement sur les recherches de week-end et vidéos tournées dans le vignoble."
+      },
+      {
+        "title": "Aéronautique et défense",
+        "text": "Pour les sous-traitants de Mérignac et des environs : sites techniques, contenus de fond et prospection ciblée sur LinkedIn."
+      },
+      {
+        "title": "Habitat et rénovation",
+        "text": "Artisans, architectes, cuisinistes : visibilité locale et demandes de devis venues de ceux qui s'installent dans la métropole."
+      }
     ]
   },
   "presence": "TDM travaille avec les entreprises de Bordeaux et de la Gironde à distance. Nous n'avons pas d'implantation en France : la relation se déroule en français, en visioconférence, avec des comptes rendus écrits et un interlocuteur qui suit votre dossier du début à la fin.",
   "faqs": [
-    { "q": "Êtes-vous présents physiquement à Bordeaux ?", "a": "Non. Nous accompagnons nos clients bordelais à distance et en français. Les réunions ont lieu en visioconférence, à un rythme fixé avec vous, et les rapports vous parviennent par écrit." },
-    { "q": "Peut-on faire de la publicité en ligne pour du vin ?", "a": "Oui, dans les limites de la loi Évin et des règles de chaque plateforme. Le contenu doit rester informatif, porter le message sanitaire et ne pas viser les mineurs. Nous préparons les campagnes dans ce cadre. Les questions juridiques particulières sont à valider avec votre conseil." },
-    { "q": "Combien coûte l'accompagnement d'une agence de marketing digital à Bordeaux ?", "a": "Tout dépend de ce que vous nous confiez : référencement seul, publicité, boutique en ligne, production de contenus. Après une consultation gratuite, nous vous adressons un devis adapté à ce périmètre." },
-    { "q": "Comment un domaine viticole peut-il vendre en direct sur internet ?", "a": "Avec une boutique en ligne claire, des fiches de vins complètes, une livraison bien expliquée et une liste de clients à qui écrire régulièrement, avec leur accord. Le référencement et la publicité amènent ensuite de nouveaux acheteurs vers cette boutique." },
-    { "q": "En combien de temps un projet peut-il être lancé ?", "a": "Cela dépend de vos exigences et du brief. Les échéances sont fixées dans le plan que nous établissons ensemble avant de démarrer." }
+    {
+      "q": "Êtes-vous présents physiquement à Bordeaux ?",
+      "a": "Non. Nous accompagnons nos clients bordelais à distance et en français. Les réunions ont lieu en visioconférence, à un rythme fixé avec vous, et les rapports vous parviennent par écrit."
+    },
+    {
+      "q": "Peut-on faire de la publicité en ligne pour du vin ?",
+      "a": "Oui, dans les limites de la loi Évin et des règles de chaque plateforme. Le contenu doit rester informatif, porter le message sanitaire et ne pas viser les mineurs. Nous préparons les campagnes dans ce cadre. Les questions juridiques particulières sont à valider avec votre conseil."
+    },
+    {
+      "q": "Combien coûte l'accompagnement d'une agence de marketing digital à Bordeaux ?",
+      "a": "Tout dépend de ce que vous nous confiez : référencement seul, publicité, boutique en ligne, production de contenus. Après une consultation gratuite, nous vous adressons un devis adapté à ce périmètre."
+    },
+    {
+      "q": "En combien de temps un projet peut-il être lancé ?",
+      "a": "Cela dépend de vos exigences et du brief. Les échéances sont fixées dans le plan que nous établissons ensemble avant de démarrer."
+    }
   ]
 }

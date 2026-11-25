@@ -25,15 +25,13 @@
         "Une fiche Google exacte et vivante, avec des avis auxquels vous répondez.",
         "Des pages distinctes pour Rennes et pour les communes de la métropole que vous servez.",
         "Des campagnes locales dont le rayon suit la rocade et vos temps de déplacement.",
-        "Des contenus courts et réguliers sur les réseaux où se trouvent les étudiants.",
-        "Un suivi des contacts qui reste fiable malgré le refus des cookies par une partie du public."
+        "Des contenus courts et réguliers sur les réseaux où se trouvent les étudiants."
       ]
     },
     {
       "heading": "Les grands rendez-vous et les creux de l'année",
       "paragraphs": [
         "En septembre, le salon international de l'élevage se tient au parc des expositions de Rennes, à Bruz, et rassemble la filière pendant plusieurs jours. Pour un fabricant ou un prestataire du monde agricole, c'est le rendez-vous de l'année : il se prépare par des invitations, une page consacrée à votre stand et des annonces adressées aux visiteurs, puis par la relance des contacts.",
-        "Début décembre, les Trans Musicales attirent un public venu de toute la France, et le samedi matin le marché des Lices rappelle le poids des producteurs locaux dans les habitudes des Rennais. La rentrée universitaire reste le grand moment pour tout ce qui s'adresse aux étudiants.",
         "L'été est plus calme en ville. Beaucoup de Rennais partent vers Saint-Malo, la Côte d'Émeraude ou le golfe du Morbihan, et les étudiants sont absents. Les commerces du centre peuvent réduire la voilure, tandis qu'une entreprise présente sur la côte y reporte son effort. Pour les sociétés qui vendent à d'autres entreprises, c'est le moment de préparer les contenus de la rentrée."
       ]
     }
@@ -41,20 +39,41 @@
   "cards": {
     "heading": "Ce que nous faisons pour les entreprises rennaises",
     "items": [
-      { "title": "Cybersécurité et télécoms", "text": "Sites et contenus techniques compréhensibles par un décideur, référencement sur les questions des acheteurs et prospection ciblée." },
-      { "title": "Agroalimentaire et monde agricole", "text": "Catalogue en ligne, fiches produit détaillées, vidéos de démonstration et préparation des salons de la filière." },
-      { "title": "Sous-traitance industrielle", "text": "Pages par savoir-faire, demandes de devis simplifiées et visibilité auprès d'acheteurs au-delà de la Bretagne." },
-      { "title": "Crêperies, bars et restaurants", "text": "Carte Google, avis, photos et formats courts pour une clientèle étudiante et de passage qui choisit sur son téléphone." },
-      { "title": "Services aux étudiants", "text": "Logement, écoles, auto-écoles, loisirs : des campagnes construites autour de la rentrée et des périodes d'inscription." },
-      { "title": "Marques bretonnes en ligne", "text": "Boutiques Shopify ou WooCommerce, shootings produit et publicité pour vendre partout en France des produits fabriqués ici." }
+      {
+        "title": "Cybersécurité et télécoms",
+        "text": "Sites et contenus techniques compréhensibles par un décideur, référencement sur les questions des acheteurs et prospection ciblée."
+      },
+      {
+        "title": "Agroalimentaire et monde agricole",
+        "text": "Catalogue en ligne, fiches produit détaillées, vidéos de démonstration et préparation des salons de la filière."
+      },
+      {
+        "title": "Crêperies, bars et restaurants",
+        "text": "Carte Google, avis, photos et formats courts pour une clientèle étudiante et de passage qui choisit sur son téléphone."
+      },
+      {
+        "title": "Services aux étudiants",
+        "text": "Logement, écoles, auto-écoles, loisirs : des campagnes construites autour de la rentrée et des périodes d'inscription."
+      }
     ]
   },
   "presence": "TDM travaille avec les entreprises de Rennes et de Bretagne à distance. Nous n'avons pas de bureau à Rennes ni de collaborateur en France. Les échanges se déroulent en français, en visioconférence et par écrit, selon un calendrier de suivi fixé ensemble.",
   "faqs": [
-    { "q": "Faut-il une agence rennaise pour travailler son marketing à Rennes ?", "a": "Non. Ce qui compte, c'est de comprendre votre marché et vos clients. Nous travaillons à distance, en français, en commençant par un échange approfondi sur votre activité, votre zone et vos concurrents." },
-    { "q": "Comment une société de cybersécurité peut-elle générer des contacts en ligne ?", "a": "Par des contenus qui répondent aux questions réelles des responsables informatiques, un site qui explique l'offre sans jargon inutile et des campagnes ciblées sur les bonnes fonctions. Les acheteurs de ce secteur se méfient des promesses : la précision et les cas concrets font mieux que les slogans." },
-    { "q": "Combien coûte une prestation de marketing digital à Rennes ?", "a": "Le coût est fonction du travail demandé : audit, contenus, campagnes, développement. Nous le chiffrons dans un devis après une première consultation, qui est gratuite." },
-    { "q": "Comment préparer le salon de l'élevage avec le digital ?", "a": "En annonçant votre présence plusieurs semaines avant, avec une page dédiée, des e-mails à vos contacts et des annonces ciblées sur la filière. Sur place, des vidéos courtes de vos produits prolongent le stand. Après le salon, une relance organisée transforme les visites en rendez-vous." },
-    { "q": "Dans quels délais pouvez-vous intervenir ?", "a": "Cela dépend de l'étendue de vos besoins et du brief. Nous inscrivons les échéances dans le plan de travail, que vous validez avant le démarrage." }
+    {
+      "q": "Faut-il une agence rennaise pour travailler son marketing à Rennes ?",
+      "a": "Non. Ce qui compte, c'est de comprendre votre marché et vos clients. Nous travaillons à distance, en français, en commençant par un échange approfondi sur votre activité, votre zone et vos concurrents."
+    },
+    {
+      "q": "Combien coûte une prestation de marketing digital à Rennes ?",
+      "a": "Le coût est fonction du travail demandé : audit, contenus, campagnes, développement. Nous le chiffrons dans un devis après une première consultation, qui est gratuite."
+    },
+    {
+      "q": "Comment préparer le salon de l'élevage avec le digital ?",
+      "a": "En annonçant votre présence plusieurs semaines avant, avec une page dédiée, des e-mails à vos contacts et des annonces ciblées sur la filière. Sur place, des vidéos courtes de vos produits prolongent le stand. Après le salon, une relance organisée transforme les visites en rendez-vous."
+    },
+    {
+      "q": "Dans quels délais pouvez-vous intervenir ?",
+      "a": "Cela dépend de l'étendue de vos besoins et du brief. Nous inscrivons les échéances dans le plan de travail, que vous validez avant le démarrage."
+    }
   ]
 }
