@@ -111,7 +111,7 @@ export const CASE_SHARED_FIELDS: Field[] = [
     label: "Sector",
     type: "select",
     required: true,
-    options: ["marketing", "development", "media", "staff-augmentation"],
+    options: ["marketing", "development", "media", "ai", "3d-design", "marketplaces", "consulting", "staff-augmentation"],
   },
   {
     name: "anonymous",
@@ -195,6 +195,10 @@ export const EDITABLE_PAGES = [
   { key: "marketing", label: "Marketing", cases: true },
   { key: "media", label: "Media", cases: true },
   { key: "development", label: "Development", cases: true },
+  { key: "ai", label: "AI & Automation", cases: true },
+  { key: "3d-design", label: "3D & Design", cases: true },
+  { key: "marketplaces", label: "Marketplaces", cases: true },
+  { key: "consulting", label: "Consulting", cases: true },
   { key: "staff-augmentation", label: "Staff augmentation", cases: true },
 ] as const;
 

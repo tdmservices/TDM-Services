@@ -359,7 +359,7 @@ export function Header({
                           onMouseEnter={() => setGroup(group.slug)}
                           onFocus={() => setGroup(group.slug)}
                           onClick={() => setOpenMega(null)}
-                          className={`flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-bold transition-colors duration-150 ${
+                          className={`flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-bold ${
                             on ? "bg-white text-forest" : "text-white/80 hover:bg-white/10 hover:text-white"
                           }`}
                         >
