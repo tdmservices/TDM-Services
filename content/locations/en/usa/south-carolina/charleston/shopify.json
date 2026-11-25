@@ -13,21 +13,21 @@
       "paragraphs": [
         "With Shopify POS at the counter, the shop and the website share one stock list and one customer list. A visitor's email address is captured at the till with their agreement, and a ship-it-home option suits anyone who would sooner not carry a painting or a case of sauce through an airport.",
         "Local customers want something else: pickup in store, or delivery this week. Around Charleston, delivery zones are better set by postcode than by distance, because a short line on the map from downtown to Mount Pleasant, Daniel Island or James Island can be a long drive over a bridge.",
-        "Then there is the event trade. Wedding welcome bags, gifts for the wedding party, favours and gifts for conference delegates are ordered in bulk, tied to a date and often delivered to a hotel or venue. A store that takes these orders needs quantity pricing, a delivery date field and room for notes, so they do not all arrive as emails."
+        "Then there is the event trade. Wedding welcome bags, gifts for the wedding party, favours and gifts for conference delegates are ordered in bulk, tied to a date and often delivered to a hotel or venue. The store needs quantity pricing, a delivery date field and room for notes."
       ]
     },
     {
       "heading": "Products that need particular handling",
       "paragraphs": [
         "Food gifts are a Charleston staple: pralines, benne wafers, sauces, tea, grits. Some travel badly in summer heat, so shipping rules should limit which items go by which service in the warm months and add the true cost of insulated packing.",
-        "Galleries, antique dealers and craftspeople sell single pieces. Each product exists once, so the gallery wall and the website must update together or the same item is sold twice. We set up stock and product templates for one-off pieces, with room for dimensions, provenance and several photographs.",
-        "Clothing and accessories bring sizes, colour variants and returns, and restaurants and hotels increasingly sell gift cards, cookbooks and their own merchandise. Each needs different product pages. Sales tax is the last detail: South Carolina's local taxes can differ between Charleston, Berkeley and Dorchester counties, which matters for local delivery. Shopify calculates it once configured, and your accountant should confirm the settings."
+        "Galleries, antique dealers and craftspeople sell single pieces. Each product exists once, so the gallery wall and the website must update together or the same item is sold twice. We build product templates for one-off pieces, with dimensions and provenance.",
+        "Clothing brings sizes, colour variants and returns, and restaurants and hotels increasingly sell gift cards, cookbooks and their own merchandise. Sales tax is the last detail: South Carolina's local taxes can differ between Charleston, Berkeley and Dorchester counties, which matters for local delivery. Shopify calculates it once configured, and your accountant should confirm the settings."
       ]
     },
     {
       "heading": "What we build",
       "paragraphs": [
-        "A new brand can launch sensibly on a well-configured premium theme. A store with steady traffic usually gains from a custom one. We say which applies after looking at your figures."
+        "A new brand can launch sensibly on a premium theme, while a store with steady traffic usually gains from a custom one."
       ],
       "bullets": [
         "Theme design and build on Online Store 2.0, custom or adapted from a premium theme.",
@@ -49,20 +49,41 @@
   "cards": {
     "heading": "What Charleston merchants ask us for",
     "items": [
-      { "title": "Shop plus online store", "text": "One stock list across the counter and the website, so staff and customers see the same availability." },
-      { "title": "Food gifts shipped nationally", "text": "Gift boxes, subscriptions and seasonal shipping rules for Lowcountry food and drink producers." },
-      { "title": "Galleries and one-off pieces", "text": "Product pages for single items that mark themselves sold the moment they go, in the gallery or online." },
-      { "title": "Wedding and event orders", "text": "Bulk gifts and welcome bags with quantity pricing, a required-by date and delivery to a venue or hotel." },
-      { "title": "Restaurant and hotel shops", "text": "Gift cards, cookbooks and branded goods sold from a small store that matches the main website." },
-      { "title": "A move to Shopify", "text": "Catalogue, customers and order history carried over from an older platform without losing search traffic." }
+      {
+        "title": "Shop plus online store",
+        "text": "One stock list across the counter and the website, so staff and customers see the same availability."
+      },
+      {
+        "title": "Food gifts shipped nationally",
+        "text": "Gift boxes, subscriptions and seasonal shipping rules for Lowcountry food and drink producers."
+      },
+      {
+        "title": "Galleries and one-off pieces",
+        "text": "Product pages for single items that mark themselves sold the moment they go, in the gallery or online."
+      },
+      {
+        "title": "Wedding and event orders",
+        "text": "Bulk gifts and welcome bags with quantity pricing, a required-by date and delivery to a venue or hotel."
+      }
     ]
   },
-  "presence": "A member of our team is based in South Carolina, not in Charleston itself. Store design, theme development and testing are carried out remotely by the wider TDM team on a preview store you can check before launch.",
+  "presence": "A member of our team is based in South Carolina, away from Charleston itself, and store design, theme development and testing are carried out remotely by the wider TDM team on a preview store you can check before launch.",
   "faqs": [
-    { "q": "Can you link the till in my King Street shop to a Shopify store?", "a": "Yes. Shopify POS runs the counter and the online store from the same products, stock and customer records. We set up the catalogue, staff accounts and stock locations, and test sales in both directions." },
-    { "q": "Can Shopify handle pickup and local delivery around Charleston?", "a": "Yes. You can offer pickup at one or more locations and define delivery zones by postcode with their own fees and minimums. We set the zones to match the areas you can actually reach in a day." },
-    { "q": "How much does a Shopify store cost in Charleston?", "a": "It depends on whether the design is theme-based or custom, the size of the catalogue, POS and any migration. We quote after a free consultation." },
-    { "q": "Does TDM have Shopify developers in Charleston?", "a": "A member of our team is based in South Carolina, outside the city. The build is done remotely, with calls at each stage and a preview link for you to review." },
-    { "q": "How long does it take to launch a Shopify store?", "a": "That depends on your requirements, the brief and how ready your product photos and descriptions are. The timeline is set in the plan once discovery is complete." }
+    {
+      "q": "Can you link the till in my King Street shop to a Shopify store?",
+      "a": "Yes. Shopify POS runs the counter and the online store from the same products, stock and customer records."
+    },
+    {
+      "q": "Can Shopify handle pickup and local delivery around Charleston?",
+      "a": "Yes. You can offer pickup at one or more locations and define delivery zones by postcode with their own fees and minimums. We set the zones to match the areas you can actually reach in a day."
+    },
+    {
+      "q": "How much does a Shopify store cost in Charleston?",
+      "a": "It depends on whether the design is theme-based or custom, the size of the catalogue, POS and any migration, and we give the figure after a free consultation."
+    },
+    {
+      "q": "How long does it take to launch a Shopify store?",
+      "a": "That depends on your requirements, the brief and how ready your product photos and descriptions are. The timeline is set in the plan once discovery is complete."
+    }
   ]
 }

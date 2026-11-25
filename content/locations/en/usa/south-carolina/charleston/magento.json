@@ -6,21 +6,20 @@
   "title": "Magento Development Agency in Charleston, SC",
   "metaTitle": "Magento Development Agency in Charleston, SC | TDM",
   "metaDescription": "Magento and Adobe Commerce for Charleston importers, distributors and wholesalers: trade accounts, ERP links, inbound stock, freight rules and upgrades.",
-  "lead": "TDM (The Digital Marketing Services) builds, extends and maintains Magento Open Source and Adobe Commerce stores for Charleston-area companies with large catalogues, trade customers and stock managed in other systems. Around Charleston these are mostly businesses a visitor never sees: importers bringing containers through the port terminals, distributors supplying the aircraft and vehicle plants, marine and industrial suppliers, and the wholesalers that keep the city's hotels and restaurants stocked.",
+  "lead": "TDM (The Digital Marketing Services) builds, extends and maintains Magento Open Source and Adobe Commerce stores for Charleston-area companies with large catalogues, trade customers and stock managed in other systems. Around Charleston these are mostly businesses a visitor never sees: importers bringing containers through the port terminals, distributors supplying the aircraft and vehicle plants, and the wholesalers that keep the city's hotels and restaurants stocked.",
   "sections": [
     {
       "heading": "The trade side of Charleston",
       "paragraphs": [
         "Importers and distributors. Containers land at terminals in Mount Pleasant and North Charleston and move to warehouses along I-26 toward Summerville and Ridgeville. Companies that import this way sell to retailers and trade accounts across the country, and their stock arrives in waves. A useful store shows what is on the shelf, what is still at sea with an expected date, and lets a customer place a backorder against the next container.",
         "Suppliers to the plants. Boeing in North Charleston, Mercedes-Benz Vans in Ladson and Volvo in Ridgeville have drawn firms that sell tooling, fasteners, safety equipment and maintenance supplies. Their buyers order by part number, work from approved item lists, quote a purchase order number and sometimes need a certificate or safety data sheet attached to the order.",
-        "Hospitality supply. Hotels, restaurants, caterers and wedding venues buy linen, glassware, kitchen equipment, cleaning products and food on account, often several times a week. They want a saved list per property, delivery days that match the truck route and a clear cut-off time for next-day orders. Demand rises sharply in the visitor seasons.",
-        "Marine trade. Boatyards, marinas and chandlers around the harbour deal in parts catalogues where fitment by make, model and year decides whether the right item is found."
+        "Hospitality supply. Hotels, restaurants, caterers and wedding venues buy linen, glassware, kitchen equipment, cleaning products and food on account, often several times a week. They want a saved list per property, delivery days that match the truck route and a clear cut-off time for next-day orders."
       ]
     },
     {
       "heading": "What these stores need from Magento",
       "paragraphs": [
-        "Company accounts come first: several buyers under one customer, each with a role and a spending limit, all seeing that customer's negotiated prices. Stock held in more than one warehouse has to be shown and allocated correctly, which Magento's multi-source inventory supports.",
+        "Company accounts come first: several buyers under one customer, each with a role and a spending limit, all seeing that customer's negotiated prices. Magento's multi-source inventory handles stock held in more than one warehouse.",
         "Delivery is rarely a parcel. Orders go by pallet carrier, on your own trucks around the tri-county area, or are collected from the warehouse counter, and the checkout should offer the right choice for the order and the address. Many trade customers are tax exempt, so certificates need to be recorded against the account. Behind all of it sits the ERP, and the site must agree with it on price, stock and order status."
       ]
     },
@@ -42,27 +41,56 @@
     {
       "heading": "Before committing to Magento",
       "paragraphs": [
-        "Ask whether you need it. A Charleston boutique or food brand with a few hundred products is better served by Shopify, and we will tell you so. If Magento is right, ask which version you will run and who applies patches. Ask what happens when an order fails to reach the ERP, and who is alerted. Ask how the site will behave on your heaviest ordering day. And insist that the code, hosting account and licences are in your company's name."
+        "Ask whether you need it. A Charleston boutique or food brand with a few hundred products is better served by Shopify, and we will tell you so. If Magento is right, ask which version you will run and who applies patches. Ask what happens when an order fails to reach the ERP. And insist that the code, hosting account and licences are in your company's name."
       ]
     }
   ],
   "cards": {
     "heading": "Charleston-area sellers Magento suits",
     "items": [
-      { "title": "Importers and distributors", "text": "Large catalogues with stock on hand and stock inbound, sold to trade accounts nationwide." },
-      { "title": "Suppliers to the plants", "text": "Part-number ordering, approved lists and order documents for aerospace and automotive buyers." },
-      { "title": "Hospitality wholesalers", "text": "Repeat ordering for hotels, restaurants and venues, with saved lists and route-based delivery days." },
-      { "title": "Marine and industrial parts", "text": "Search by fitment, specification or cross-reference so the buyer lands on the exact item." },
-      { "title": "Multi-brand retailers", "text": "Separate storefronts sharing one catalogue, one stock pool and one back office." },
-      { "title": "Ageing Magento stores", "text": "Audits, upgrades and performance repairs for sites left on old versions or slowed by poor extensions." }
+      {
+        "title": "Importers and distributors",
+        "text": "Large catalogues with stock on hand and stock inbound, sold to trade accounts nationwide."
+      },
+      {
+        "title": "Suppliers to the plants",
+        "text": "Part-number ordering, approved lists and order documents for aerospace and automotive buyers."
+      },
+      {
+        "title": "Hospitality wholesalers",
+        "text": "Repeat ordering for hotels, restaurants and venues, with saved lists and route-based delivery days."
+      },
+      {
+        "title": "Marine and industrial parts",
+        "text": "Search by fitment, specification or cross-reference so the buyer lands on the exact item."
+      },
+      {
+        "title": "Ageing Magento stores",
+        "text": "Audits, upgrades and performance repairs for sites left on old versions or slowed by poor extensions."
+      }
     ]
   },
-  "presence": "A member of our team is based in South Carolina, outside Charleston. Magento development, integration work and testing are done remotely by the wider TDM team on a staging environment that mirrors your live store.",
+  "presence": "A member of our team is based in South Carolina, but not in the Charleston area. Magento development, integration work and testing are done remotely by the wider TDM team on a staging environment that mirrors your live store.",
   "faqs": [
-    { "q": "Is there a Magento agency that works with Charleston businesses?", "a": "TDM does, remotely. A member of our team is based in South Carolina, though not in Charleston, and our engineers handle builds, integrations and support with regular calls and a shared staging site." },
-    { "q": "Can Magento show stock that is still on its way to the port?", "a": "Yes, provided your ERP or purchasing system holds inbound quantities and expected dates. We bring that data into the store so customers can see it and backorder. The dates shown are only as reliable as the source." },
-    { "q": "Can restaurant and hotel customers reorder from a saved list?", "a": "Yes. Saved lists and quick order let a buyer repeat a regular order in a few clicks, with their own prices applied. Adobe Commerce includes these features, and on Magento Open Source we add them through a module." },
-    { "q": "How much does Magento development cost in Charleston?", "a": "It depends on catalogue size, the trade features required and the number of systems to connect. We scope the work in a free consultation and quote after it." },
-    { "q": "How long does a Magento build or upgrade take?", "a": "It depends on your requirements and the brief, especially the integrations and the amount of data to move. Milestones are agreed in the plan before development begins." }
+    {
+      "q": "Is there a Magento agency that works with Charleston businesses?",
+      "a": "TDM does, remotely. A member of our team is based in South Carolina, and our engineers handle builds, integrations and support with regular calls and a shared staging site."
+    },
+    {
+      "q": "Can Magento show stock that is still on its way to the port?",
+      "a": "Yes, provided your ERP or purchasing system holds inbound quantities and expected dates. We bring that data into the store so customers can see it and backorder. The dates shown are only as reliable as the source."
+    },
+    {
+      "q": "Can restaurant and hotel customers reorder from a saved list?",
+      "a": "Yes. Saved lists and quick order let a buyer repeat a regular order in a few clicks at their own prices."
+    },
+    {
+      "q": "How much does Magento development cost in Charleston?",
+      "a": "It depends on catalogue size, the trade features required and the number of systems to connect. We scope the work in a free consultation and quote after it."
+    },
+    {
+      "q": "How long does a Magento project take for a Charleston distributor?",
+      "a": "It depends on your requirements and the brief, especially the integrations and the amount of data to move. Milestones are agreed in the plan before development begins."
+    }
   ]
 }
