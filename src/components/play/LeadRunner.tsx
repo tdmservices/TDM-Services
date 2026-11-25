@@ -9,9 +9,9 @@ import type { PlayCopy } from "@/content/play/types";
 /**
  * Lead Runner: a small endless runner drawn on a canvas.
  *
- * The campaign (the amber block) runs by itself; the player jumps the blockers
- * and picks up leads. Everything is drawn from shapes in the site's colours, so
- * there are no image files to load. The best score is kept on the device.
+ * Growth, the TDM mascot, runs by itself; the player jumps the blockers and picks
+ * up leads. The scenery is drawn from shapes in the site's colours; the mascot is
+ * a set of rendered frames (see scripts/mascot). The best score is kept on the device.
  */
 
 const W = 800;
@@ -19,6 +19,7 @@ const H = 300;
 const GROUND = 248;
 const SIZE = 34;
 const BEST_KEY = "tdm-lead-runner-best";
+const RUN = ["run1", "run2", "run3", "run4"];
 
 type Phase = "idle" | "running" | "over";
 interface Blocker { x: number; w: number; h: number }
@@ -74,6 +75,12 @@ export function LeadRunner({ locale, copy }: { locale: Locale; copy: PlayCopy["g
       ctx.roundRect(x, y, w, h, r);
       ctx.fill();
     };
+
+    const sprites: Record<string, HTMLImageElement> = {};
+    for (const name of [...RUN, "jump", "hit", "idle1"]) {
+      sprites[name] = new window.Image();
+      sprites[name].src = `/mascot/${name}.webp`;
+    }
 
     let raf = 0;
     let last = performance.now();
@@ -190,26 +197,38 @@ export function LeadRunner({ locale, copy }: { locale: Locale; copy: PlayCopy["g
         ctx.lineTo(cx - 4, cy + 4);
         ctx.stroke();
       }
-      // the campaign: an amber block with a rising arrow
+      // Growth, the mascot: runs on the ground, jumps in the air, falls back when hit.
       const py = g.y;
-      const squash = g.y < GROUND - SIZE ? 0 : Math.sin(g.t / 3) * 1.2;
-      ctx.fillStyle = col.amber;
-      rounded(80, py - squash, SIZE, SIZE + squash, 8);
-      ctx.strokeStyle = "#fff";
-      ctx.lineWidth = 3;
-      ctx.lineCap = "round";
-      ctx.lineJoin = "round";
-      ctx.beginPath();
-      ctx.moveTo(89, py + 24);
-      ctx.lineTo(97, py + 16);
-      ctx.lineTo(101, py + 20);
-      ctx.lineTo(106, py + 10);
-      ctx.stroke();
-      ctx.beginPath();
-      ctx.moveTo(100, py + 10);
-      ctx.lineTo(106, py + 10);
-      ctx.lineTo(106, py + 16);
-      ctx.stroke();
+      const air = py < GROUND - SIZE - 0.5;
+      const name = g.phase === "over" ? "hit" : g.phase === "idle" ? "idle1" : air ? "jump" : RUN[Math.floor(g.dist / 16) % RUN.length];
+      const img = sprites[name];
+      if (img?.complete && img.naturalWidth) {
+        // The front-facing frames have more room around the character, so they are drawn a little larger to match.
+        const h = RUN.includes(name) ? 92 : 107;
+        const w = (img.naturalWidth / img.naturalHeight) * h;
+        const x = 80 + SIZE / 2 - w / 2;
+        const y = py + SIZE - h + 3;
+        // soft shadow on the ground, smaller the higher the jump
+        const lift = Math.min((GROUND - SIZE - py) / 90, 1);
+        ctx.fillStyle = "rgba(15,53,39,0.16)";
+        ctx.beginPath();
+        ctx.ellipse(80 + SIZE / 2, GROUND + 1, 24 - lift * 10, 4.5 - lift * 1.5, 0, 0, Math.PI * 2);
+        ctx.fill();
+        if (RUN.includes(name)) {
+          // The run is rendered heading left; the game runs to the right.
+          ctx.save();
+          ctx.translate(x + w, y);
+          ctx.scale(-1, 1);
+          ctx.drawImage(img, 0, 0, w, h);
+          ctx.restore();
+        } else {
+          ctx.drawImage(img, x, y, w, h);
+        }
+      } else {
+        // Until the pictures arrive: the plain amber block.
+        ctx.fillStyle = col.amber;
+        rounded(80, py, SIZE, SIZE, 8);
+      }
 
       raf = requestAnimationFrame(frame);
     };
