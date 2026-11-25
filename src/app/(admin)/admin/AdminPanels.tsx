@@ -86,7 +86,7 @@ function LocaleTabs({ locale, onChange }: { locale: AdminLocale; onChange: (l: A
 /** First path segments the site already uses; a page there would never be reached. */
 const RESERVED = new Set([
   "admin", "blog", "case-studies", "about", "contact", "clients", "portfolio", "locations", "fr", "ar",
-  "gone", "terms-and-conditions", "privacy-policy", "legal-notice", "tools", "api",
+  "gone", "terms-and-conditions", "privacy-policy", "legal-notice", "tools", "play", "api",
   "shopdetail", "category", "shop",
 ]);
 

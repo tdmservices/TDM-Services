@@ -1,3 +1,4 @@
+import { PLAY_SLUGS } from "@/content/play";
 import { AUTHOR_SLUGS } from "@/content/authors";
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
@@ -18,7 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Pages that exist in every language at the same path.
   const shared: { path: string; priority: number; changeFrequency: Entry["changeFrequency"] }[] = [
     { path: "/", priority: 1, changeFrequency: "monthly" },
-    ...["/about/", "/contact/", "/clients/", "/portfolio/", "/case-studies/", "/locations/", "/blog/", "/tools/"].map(
+    ...["/about/", "/contact/", "/clients/", "/portfolio/", "/case-studies/", "/locations/", "/blog/", "/tools/", "/play/", ...PLAY_SLUGS.map((x) => `/play/${x}/`)].map(
       (path) => ({ path, priority: 0.8, changeFrequency: "monthly" as const }),
     ),
     ...sectors.map((s) => ({ path: `/${s.slug}/`, priority: 0.9, changeFrequency: "monthly" as const })),
