@@ -5,6 +5,7 @@ import { isRtl } from "@/lib/i18n";
 import { site } from "@/lib/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { GrowthMascot } from "@/components/mascot/GrowthMascot";
 import { JsonLd } from "@/components/JsonLd";
 import { BackToTop } from "@/components/motion/BackToTop";
 import { ui } from "@/content/ui";
@@ -89,6 +90,7 @@ export function LocaleShell({ locale, children }: { locale: Locale; children: Re
         <Header locale={locale} megaSectors={megaSectors} />
         <main>{children}</main>
         <Footer locale={locale} />
+        <GrowthMascot locale={locale} />
         <BackToTop label={ui[locale].backToTop} />
       </body>
     </html>

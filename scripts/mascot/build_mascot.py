@@ -225,7 +225,7 @@ POSES = {
     "run3": dict(tilt=10, lift=0.1, tip=-0.25, hand_l=(-0.65, 0.55, 0.55), hand_r=(0.55, -0.7, 0.95), foot_l=(-0.3, -0.6, 0.1), foot_r=(0.16, 0.6, 0.36), foot_l_rot=-20, foot_r_rot=55, mouth="grin", brows=4),
     "run4": dict(tilt=10, lift=0.02, tip=-0.15, hand_l=(-0.75, 0.1, 0.65), hand_r=(0.7, -0.2, 0.65), foot_l=(-0.3, -0.05, 0.0), foot_r=(0.16, 0.12, 0.26), foot_r_rot=30, mouth="grin", brows=4),
     "jump": dict(tilt=4, lift=0.4, tip=0.0, stretch=0.08, hand_l=(-1.2, -0.15, 1.5), hand_r=(1.3, -0.15, 1.5), foot_l=(-0.42, 0.15, 0.3), foot_r=(0.3, -0.2, 0.22), foot_l_rot=35, foot_r_rot=-15, eyes="wide", mouth="open", brows=10),
-    "hit": dict(lean=-22, tilt=-8, squash=0.92, tip=-0.6, hand_l=(-1.15, -0.2, 1.0), hand_r=(1.1, -0.2, 0.95), foot_l=(-0.5, -0.15, 0.0), foot_r=(0.25, 0.1, 0.0), eyes="wide", mouth="oh", brows=-12),
+    "hit": dict(lean=-13, tilt=-6, squash=0.93, tip=-0.42, hand_l=(-1.15, -0.2, 1.0), hand_r=(1.1, -0.2, 0.95), foot_l=(-0.5, -0.15, 0.0), foot_r=(0.25, 0.1, 0.0), eyes="wide", mouth="oh", brows=-12),
     "cheer": dict(lift=0.22, tip=0.0, stretch=0.1, hand_l=(-1.2, -0.15, 1.55), hand_r=(1.3, -0.15, 1.55), foot_l=(-0.44, 0, 0.2), foot_r=(0.3, 0, 0.2), eyes="happy", mouth="open", brows=8),
     "point": dict(lean=2, hand_l=(-1.45, -0.3, 0.95), hand_r=(0.72, -0.25, 0.66), mouth="grin", look=(-0.03, 0), point=True),
     "peek": dict(lean=6, hand_r=(1.25, -0.2, 1.3), mouth="smile", eyes="wink", brows=5, wave=True, tip=0.3),
@@ -247,9 +247,9 @@ def gradient_material(name, anchor):
     m.use_nodes = True
     nt = m.node_tree
     b = nt.nodes["Principled BSDF"]
-    b.inputs["Roughness"].default_value = 0.3
+    b.inputs["Roughness"].default_value = 0.38
     if "Coat Weight" in b.inputs:
-        b.inputs["Coat Weight"].default_value = 0.7
+        b.inputs["Coat Weight"].default_value = 0.3
         b.inputs["Coat Roughness"].default_value = 0.08
     tc = nt.nodes.new("ShaderNodeTexCoord")
     tc.object = anchor
@@ -279,7 +279,8 @@ def build(pose_name):
         lead=material("lead", "forest", rough=0.25, coat=0.4),
         metal=material("metal", "metal", rough=0.25, metallic=1.0),
         eraser=material("eraser", "eraser", rough=0.7, sss=0.2),
-        limb=material("limb", "forest", rough=0.45),
+        limb=material("limb", "fern", rough=0.45),
+        brow=material("brow", "ink", rough=0.45),
         glove=material("glove", "white", rough=0.5, sss=0.1),
         shoe=material("shoe", "amber", rough=0.4, coat=0.3),
         sole=material("sole", "cream", rough=0.6),
@@ -354,7 +355,7 @@ def build(pose_name):
         # brow: a positive angle lifts the inner end (friendly), a negative one drops it (worried)
         lift = math.sin(math.radians(pose["brows"])) * 0.1
         bz = eye_z + 0.27
-        brow = tube(f"brow_{side}", [(ex - side * 0.1, front - 0.04, bz + lift), (ex, front - 0.055, bz + 0.02), (ex + side * 0.1, front - 0.04, bz - lift)], 0.026, M["limb"])
+        brow = tube(f"brow_{side}", [(ex - side * 0.1, front - 0.04, bz + lift), (ex, front - 0.055, bz + 0.02), (ex + side * 0.1, front - 0.04, bz - lift)], 0.026, M["brow"])
         parent(brow, face)
 
     mz = eye_z - 0.27
@@ -510,7 +511,7 @@ def stage(scene, size, samples, side_view=False):
 
     light("key", (-3.2, -4.5, 5.0), 330, 4.0, (1, 0.97, 0.93))
     light("fill", (4.5, -3.0, 2.2), 90, 5.0, (0.9, 0.97, 1))
-    light("rim", (2.0, 4.5, 4.5), 420, 3.0, (1, 1, 1))
+    light("rim", (2.0, 4.5, 4.5), 240, 3.0, (1, 1, 1))
 
     cam_d = bpy.data.cameras.new("cam")
     cam_d.lens = 85
