@@ -1,3 +1,4 @@
+import { getPlay } from "@/content/play";
 import { asset } from "@/lib/asset-manifest";
 import Image from "next/image";
 import Link from "next/link";
@@ -71,6 +72,7 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
     { label: t.blog, path: "/blog/" },
     { label: t.contact, path: "/contact/" },
     { label: getTools(locale).hub.navLabel, path: "/tools/" },
+    { label: getPlay(locale).hub.navLabel, path: "/play/" },
   ];
 
   // The legal pages exist in English only, so every language links to the same three.

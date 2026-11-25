@@ -5,8 +5,8 @@
   "service": "media/product-shoots",
   "title": "Product Photography for South Carolina Businesses",
   "metaTitle": "Product Photography for South Carolina Brands | TDM",
-  "metaDescription": "Product photography for South Carolina brands and suppliers: catalog, lifestyle and detail shots. You ship products to TDM's studio and receive retouched images.",
-  "lead": "TDM (The Digital Marketing Services) photographs products for South Carolina businesses: clean catalog images, styled lifestyle scenes and close-up detail shots, retouched and delivered in every size your store, marketplace listings and ads require. This is not an on-site service and we do not have a studio in South Carolina. You ship your products to TDM's production studio in Lahore, approve the shot list and art direction remotely, and receive the finished images digitally.",
+  "metaDescription": "Product photography for South Carolina brands and suppliers: catalog, lifestyle and detail shots. Shot by TDM's US-based team and retouched for every channel.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for South Carolina businesses: clean catalog images, styled lifestyle scenes and close-up detail shots, retouched and delivered in every size your store, marketplace listings and ads require. Our team in the United States photographs the products, in a studio setup or on location depending on what the images need. The files then go to TDM's operations office in Lahore for retouching and export. You approve the shot list and art direction before the shoot and review the results online.",
   "sections": [
     {
       "heading": "Who needs product photography in this state",
@@ -18,13 +18,13 @@
     {
       "heading": "How it works from South Carolina",
       "paragraphs": [
-        "The process is built around shipping. That suits products that travel well and are not needed back in a hurry, and it should be planned with transit time and customs paperwork in mind."
+        "The process starts with a plan, because a shoot moves quickly when every angle has been agreed and slowly when it has not. The same steps apply to a handful of new items and to a whole range."
       ],
       "bullets": [
         "Shot list and art direction: we map your catalog, channels and gaps, and agree the angles, scenes and detail shots per product.",
-        "You ship the products to the studio. We confirm their condition on arrival.",
+        "Our US-based team photographs the products, in a controlled setup or on location where the setting matters.",
         "The shoot follows the approved list, with lighting and styling kept consistent across the range.",
-        "Selected images are retouched and sent for review, and your revision notes are applied.",
+        "Selected images are retouched at our operations office in Lahore and sent for review, and your revision notes are applied.",
         "Finals are exported in each crop and resolution you need, organised and named to your convention."
       ]
     },
@@ -36,9 +36,9 @@
       ]
     },
     {
-      "heading": "When shipping is not the right answer",
+      "heading": "Studio setup or real location",
       "paragraphs": [
-        "Be realistic about what suits this model. Perishable food, very heavy or oversized items, one-off pieces you cannot spare and anything restricted for international shipping need a conversation first, and sometimes a different approach. A photograph that depends on a real South Carolina setting, such as a product on a Lowcountry dock or in a restaurant dining room, is a location shoot, not a studio one. Styled scenes can suggest a setting, but they should not pretend to be a place. We will tell you plainly whether your products are a good fit before you ship anything."
+        "The first decision is where each image should be made. Catalog and marketplace images need controlled light and a plain background, so they are shot in a studio setup. A photograph that depends on a real South Carolina setting, such as a product on a Lowcountry dock or in a restaurant dining room, is a location shoot, and our US-based team plans it as one. Styled scenes can suggest a setting, but they should not pretend to be a place. Tell us early about perishable food, very heavy or oversized items and one-off pieces you cannot spare for long, because they change how the day is scheduled. Industrial parts raise their own questions: reflective metal, dark rubber and very small components each need different lighting, and it is worth approving a sample image per category before the full range is shot."
       ]
     }
   ],
@@ -67,11 +67,11 @@
       }
     ]
   },
-  "presence": "A member of our team is based in South Carolina, so you can talk through a project with someone in the state. The photography is done at TDM's production studio in Lahore: products are shipped there and images are delivered digitally.",
+  "presence": "A member of our team is based in South Carolina, so you can talk through a project with someone in the state. Products are photographed by TDM's team in the United States, and retouching is done at our operations office in Lahore.",
   "faqs": [
     {
-      "q": "Do you have a product photography studio in South Carolina?",
-      "a": "No. A member of our team is based in South Carolina, but products are photographed at TDM's studio in Lahore. You ship the products, approve the shot list and art direction remotely, and receive retouched images digitally."
+      "q": "Who photographs the products, and where?",
+      "a": "TDM's own team in the United States photographs them, in a studio setup or on location depending on the brief. A member of our team is based in South Carolina. Retouching and file preparation are done at our operations office in Lahore, and you review the images online."
     },
     {
       "q": "How much does product photography cost?",
@@ -79,7 +79,7 @@
     },
     {
       "q": "How long does a product shoot take?",
-      "a": "It depends on the brief, the size of the range and shipping time to the studio. Dates are agreed in the plan before you send anything, so allow for transit when planning a launch."
+      "a": "It depends on the brief, the size of the range and how much styling and retouching the images need. Dates are agreed in the plan before the shoot, so tell us about any launch you are working towards."
     },
     {
       "q": "Can you photograph a whole catalog, including industrial parts?",

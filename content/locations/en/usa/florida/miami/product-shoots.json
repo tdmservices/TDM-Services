@@ -5,8 +5,8 @@
   "service": "media/product-shoots",
   "title": "Product Photography for Miami Brands",
   "metaTitle": "Product Photography for Miami Brands | TDM",
-  "metaDescription": "Product shoots for Miami e-commerce brands: catalog, lifestyle and detail images, retouched and sized for your store, Amazon and ads. Ship samples, approve remotely.",
-  "lead": "TDM (The Digital Marketing Services) photographs products for Miami brands that sell through their own store, on marketplaces such as Amazon, or through paid social. The work covers art direction, shooting, retouching and delivery in every crop each channel needs. We do not have a photo studio in Miami: you ship your products to our production hub in Lahore, approve the shot list and art direction remotely, and receive finished images digitally.",
+  "metaDescription": "Product shoots for Miami e-commerce brands: catalog, lifestyle and detail images shot in the US by our team, retouched and sized for your store, Amazon and ads.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Miami brands that sell through their own store, on marketplaces such as Amazon, or through paid social. The work covers art direction, shooting, retouching and delivery in every crop each channel needs. Our US-based team photographs your products in the United States, on location or in a setup suited to the range, and a member of the team is based in Miami. The selected images are then retouched at our operations office in Lahore and delivered to you digitally.",
   "sections": [
     {
       "heading": "What Miami sells, and why the photos carry the sale",
@@ -16,14 +16,14 @@
       ]
     },
     {
-      "heading": "How a remote product shoot works from Miami",
+      "heading": "How a product shoot with TDM works",
       "paragraphs": [
-        "We map your catalog and channels and define a set list: catalog angles, lifestyle scenes and detail shots per product. You send one sample of each item, not your inventory. We confirm condition on arrival, shoot against the approved list with lighting and styling kept consistent, retouch the selects and send them for review. After your notes are applied, finals are exported in every crop and resolution and delivered named and organised.",
-        "This is an international shipment, so it needs a little planning. Allow transit time in your launch schedule, declare samples properly for customs, and check with us first about anything fragile, perishable, liquid or restricted, since alcohol and some fragrances cannot be sent by ordinary courier. Where a product cannot travel, we will say so instead of promising a shoot we cannot do well."
+        "We map your catalog and channels and define a set list: catalog angles, lifestyle scenes and detail shots per product. You approve that list and the art direction, and our US-based team then photographs the range in the United States with lighting and styling kept consistent. The selects go to our retouchers at the operations office in Lahore and come back to you for review. After your notes are applied, finals are exported in every crop and resolution and delivered named and organised.",
+        "Because the photography happens in this country, the plan can follow the product. Swimwear can be shot on a model near the water, a rum or a hot sauce beside the food it belongs with, and a sofa in the showroom where it already stands. Fragile, perishable and oversized items are discussed at the briefing so the right setup is ready on the day."
       ],
       "bullets": [
         "Studio catalog images on white or coloured backgrounds, consistent across the whole range.",
-        "Styled lifestyle scenes with props and surfaces that suit a warm-weather, coastal brand without relying on a real beach.",
+        "Styled lifestyle scenes with props and surfaces that suit a warm-weather, coastal brand, indoors or outside.",
         "Macro detail shots of fabric, stitching, labels, finishes and mechanisms.",
         "Sets that meet Amazon and other marketplace requirements for background, framing and resolution.",
         "Colour-accurate retouching, because misleading images come back as returns.",
@@ -31,9 +31,9 @@
       ]
     },
     {
-      "heading": "When a local photographer is the better choice",
+      "heading": "Catalog set or location campaign",
       "paragraphs": [
-        "Some shoots have to happen in Miami. Swimwear on models at the beach, a restaurant's dishes as they leave the kitchen, furniture too large to ship, or anything needed within days all call for a photographer on the spot. Our service fits products that travel well and catalogs where consistency matters more than location. In the consultation we will tell you which case you are in. Often the answer is both: shipped products for the catalog, and a local session for the campaign images."
+        "Most Miami sellers need two kinds of image, and they are planned differently. Catalog photography is about repetition: the same angle, light and crop for every item, so that a collection page looks like one brand. Campaign photography is about context: swimwear on a person, a dish as it leaves the kitchen, a chair in a furnished room. Often the answer is both: a consistent catalog set for the store and marketplaces, and a shorter location session for the images that lead your ads."
       ]
     },
     {
@@ -48,18 +48,18 @@
     "items": [
       { "title": "Swimwear and resort wear", "text": "Flat lays, ghost-mannequin and detail shots that show cut, colour and fabric accurately for online and wholesale buyers." },
       { "title": "Beauty and skincare", "text": "Clean pack shots, texture swatches and styled scenes that hold up next to established brands." },
-      { "title": "Fragrance", "text": "Glass, liquid and reflections lit with care. Shipping restrictions apply, so we plan logistics with you first." },
+      { "title": "Fragrance", "text": "Glass, liquid and reflections lit with care, with bottle, cap and box photographed as matching sets." },
       { "title": "Jewellery and accessories", "text": "Macro photography that shows stones, clasps and finishes at the size a buyer wants to inspect them." },
-      { "title": "Packaged food and drink", "text": "Shelf-stable products photographed for listings and ads, with labels legible and colours true." },
-      { "title": "Home and decor", "text": "Smaller pieces and textiles shot in styled settings, with consistent catalog images for the full range." }
+      { "title": "Packaged food and drink", "text": "Bottles, bags and jars photographed for listings and ads, with labels legible and colours true." },
+      { "title": "Home and decor", "text": "Furniture, lighting and textiles shot in styled settings or in your showroom, with consistent catalog images for the full range." }
     ]
   },
-  "presence": "A member of our team is based in Miami and can help you plan the shot list and the shipment. The photography and retouching are done at our production hub in Lahore, with approvals handled online.",
+  "presence": "A member of our team is based in Miami and can help you plan the shot list and the session. The photography is done in the United States by our US-based team and the retouching at our operations office in Lahore, with approvals handled online.",
   "faqs": [
-    { "q": "Do you have a product photography studio in Miami?", "a": "No. A member of our team is based in Miami, but products are photographed at TDM's studio in Lahore. You ship samples, approve the shot list remotely and receive retouched images digitally." },
-    { "q": "How do I send my products for the shoot?", "a": "You send one sample of each item by international courier, declared as samples. We confirm the address, packing advice and any restrictions for your product type before you ship, and check condition when the parcel arrives." },
+    { "q": "Where are my products photographed?", "a": "In the United States, by TDM's own US-based team, and a member of that team is based in Miami. Depending on the brief, the session takes place on location, at your premises or in a setup arranged for the range. The images are then retouched at our operations office in Lahore." },
+    { "q": "What do I need to prepare before the session?", "a": "One clean sample of each product and variant to be photographed, plus any packaging, props or swatches that must appear. We agree the set list and art direction with you beforehand, and settle at the briefing how the items get to our team for the session." },
     { "q": "How much does product photography cost?", "a": "It depends on the number of products, the images per product and how much styling the lifestyle scenes need. We quote after a free consultation and a look at your catalog." },
     { "q": "Will the images meet Amazon requirements?", "a": "Yes, when that is part of the brief. We shoot and export main and secondary images to marketplace specifications for background, framing and resolution, alongside the versions for your own store and ads." },
-    { "q": "How long does a product shoot take from Miami?", "a": "It depends on the size of the catalog, the brief and shipping time. The schedule, including transit, is agreed in the plan, so tell us about any launch date at the start." }
+    { "q": "How long does a product shoot take for a Miami brand?", "a": "It depends on the size of the catalog, the number of images per product and how many lifestyle scenes are involved. The schedule for the session, retouching and review is agreed in the plan, so tell us about any launch date at the start." }
   ]
 }

@@ -5,14 +5,14 @@
   "service": "media/ugc-ads",
   "title": "UGC Ads for Charleston, SC Brands",
   "metaTitle": "UGC Ads for Charleston, SC Brands | TDM",
-  "metaDescription": "Creator-style UGC video ads for Charleston brands: scripted hooks, directed talent and edited variations for Meta and TikTok, produced remotely by TDM.",
-  "lead": "TDM (The Digital Marketing Services) makes UGC ads for Charleston brands: short, handheld, creator-style videos in which a person talks to the camera about a product the way a customer would. We write the hooks and scripts, find and direct the talent, and edit every session into a set of ad variations for Meta and TikTok. Production runs from TDM's hub in Lahore, not from Charleston, so this service fits best when the product can be sent to us or shown on a screen.",
+  "metaDescription": "Creator-style UGC video ads for Charleston brands: scripted hooks, directed talent and edited variations for Meta and TikTok, filmed by TDM's US-based creators.",
+  "lead": "TDM (The Digital Marketing Services) makes UGC ads for Charleston brands: short, handheld, creator-style videos in which a person talks to the camera about a product the way a customer would. We write the hooks and scripts, direct the delivery, and edit every session into a set of ad variations for Meta and TikTok. Filming is done in the United States by TDM's own creators, and the cutting, captioning and versioning happen at our operations office in Lahore.",
   "sections": [
     {
       "heading": "Where UGC fits in Charleston, and where it does not",
       "paragraphs": [
         "Charleston has a busy trade in things that travel well. Visitors discover a hot sauce, a bag of stone-ground grits, a candle, a linen shirt or a piece of jewellery in a King Street shop or the City Market, go home, and reorder online. Local skincare, apparel, home goods and specialty food brands sell to the whole country from a small base here. For them, creator-style ads are the format that performs in paid social, because a stranger trusts a person holding the product more than a polished brand film.",
-        "It suits place-based businesses less directly. An ad for a hotel, a restaurant or a wedding venue needs to be filmed in that building, and we do not have creators stationed in Charleston. In those cases there are two honest options: we script and edit footage that you, your staff or your guests record on site, or we plan a video shoot arranged locally."
+        "It suits place-based businesses too, with a different plan. An ad for a hotel, a restaurant or a wedding venue needs to be filmed in that building, so the session is scheduled on site with our US-based team and built around what a guest would really notice: the room, the plate, the view from the piazza. If you already hold clips recorded by staff or guests, send them and the usable ones can be cut into the batch."
       ]
     },
     {
@@ -24,15 +24,15 @@
         "Research into what your customers say in reviews and comments, used as raw material for scripts.",
         "Several concepts per batch: problem and solution, unboxing, first impression, comparison, a day with the product.",
         "Multiple hooks written for each concept.",
-        "Talent chosen to match the customer you sell to, briefed and directed to sound natural.",
+        "TDM's US-based creators, chosen to match the customer you sell to and directed to sound natural.",
         "Edits with captions, in vertical and feed formats, ready to upload to the ad account.",
-        "Usage rights for paid advertising agreed with the talent up front."
+        "Usage rights for paid advertising set out in writing up front."
       ]
     },
     {
       "heading": "Getting the Charleston details right",
       "paragraphs": [
-        "A brand rooted here usually sells the place along with the product: the porch, the marsh, the kitchen table, the slow Saturday. Scripts should carry that without faking it. We do not put a creator in front of a stock photo of the Battery or have someone claim to be a local. Instead we ask you for real footage of your shop, workshop or kitchen to cut into the ad, and we write lines that are true for a customer anywhere in the country.",
+        "A brand rooted here usually sells the place along with the product: the porch, the marsh, the kitchen table, the slow Saturday. Scripts should carry that without faking it. We do not put a creator in front of a stock photo of the Battery or have someone claim to be a local. Instead we film in real settings, cut in footage of your shop, workshop or kitchen where it helps, and write lines that are true for a customer anywhere in the country.",
         "Timing matters too. Many Charleston product brands earn a large share of their year in the gift season and again when spring visitors return. Batches should be scripted and filmed ahead of those periods so that the ad account has fresh creative when spending rises, and so that a winning ad can be followed by new variations before it tires."
       ]
     }
@@ -58,23 +58,23 @@
       },
       {
         "title": "Venues and hospitality",
-        "text": "Guest-recorded or staff-recorded clips, scripted by us and edited into ads, when filming must happen on site."
+        "text": "On-site sessions filmed by our US-based team, with guest-recorded or staff-recorded clips cut in where you have them."
       }
     ]
   },
-  "presence": "A member of our team is based in South Carolina, not in Charleston. UGC production is managed from TDM's hub in Lahore: you ship the product, approve scripts and talent online, and receive finished ad variations. We do not claim a Charleston studio or a local pool of creators.",
+  "presence": "A member of our team is based in South Carolina, not in Charleston. The ads are filmed in the United States by TDM's own creators and then edited at our operations office in Lahore. You approve scripts before filming and receive finished ad variations.",
   "faqs": [
     {
-      "q": "Do you have UGC creators in Charleston?",
-      "a": "No. Talent is sourced and directed through our production hub in Lahore and matched to the audience you sell to. If your ad has to be filmed inside a Charleston venue, we can script and edit footage recorded on site, or plan a locally arranged shoot."
+      "q": "Who are the creators in your UGC ads?",
+      "a": "They are TDM's own US-based creators, chosen for each brief to fit the audience you sell to. Filming takes place in the United States, including inside your venue when the ad depends on it, and the edit is done at our operations office in Lahore."
     },
     {
       "q": "Will UGC ads work for a Charleston restaurant or hotel?",
-      "a": "They can, but the footage must come from your premises. The practical route is to collect clips from staff and willing guests against a shot list we write, then let us edit them into ads."
+      "a": "They can, and the footage must come from your premises. Our US-based team films there against a script and shot list agreed with you, and clips from staff and willing guests can be edited in."
     },
     {
-      "q": "How do I get my product to you?",
-      "a": "You send samples to our production hub once the scripts are approved. Tell us early about fragile, perishable or temperature-sensitive items, since that affects packing and which concepts are realistic."
+      "q": "What do the creators need from us?",
+      "a": "Samples of the product once the scripts are approved, plus anything they should know about using it. Tell us early about fragile, perishable or temperature-sensitive items, since that affects which concepts are realistic."
     },
     {
       "q": "What do UGC ads cost?",
@@ -82,7 +82,7 @@
     },
     {
       "q": "When will the ads be ready to run?",
-      "a": "It depends on the brief, shipping and approvals. The schedule for scripting, filming and editing is agreed in the plan before production begins."
+      "a": "It depends on the brief, the number of concepts and approvals. The schedule for scripting, filming and editing is agreed in the plan before production begins."
     }
   ]
 }

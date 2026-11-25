@@ -5,8 +5,8 @@
   "service": "media/product-shoots",
   "title": "Product Photography for Dallas Brands",
   "metaTitle": "Product Photography for Dallas Brands | TDM",
-  "metaDescription": "Product shoots for Dallas brands: catalog, lifestyle and detail images for stores, marketplaces, line sheets and ads. Ship products to TDM's Lahore studio.",
-  "lead": "TDM (The Digital Marketing Services) photographs products for Dallas brands: clean studio images for catalogs and marketplaces, styled lifestyle scenes and close detail shots. The work is not done in Dallas. You ship your products to our production hub in Lahore, approve the shot list and art direction remotely, and receive retouched images digitally in the formats each channel needs. It suits Dallas brands that sell to retailers, on their own online store, on Amazon, or through all three.",
+  "metaDescription": "Product shoots for Dallas brands: catalog, lifestyle and detail images for stores, marketplaces, line sheets and ads, photographed in the US by TDM's own team.",
+  "lead": "TDM (The Digital Marketing Services) photographs products for Dallas brands: clean studio images for catalogs and marketplaces, styled lifestyle scenes and close detail shots. The photography is done in the United States by our own US-based team, in a setting chosen for the range, though we keep no studio or office in Dallas itself. You approve the shot list and art direction beforehand, and the images are retouched at our operations office in Lahore and delivered digitally in the formats each channel needs. It suits Dallas brands that sell to retailers, on their own online store, on Amazon, or through all three.",
   "sections": [
     {
       "heading": "A wholesale city needs more than one set of pictures",
@@ -18,7 +18,7 @@
     {
       "heading": "What the shoot includes",
       "paragraphs": [
-        "We plan the set list with you before anything is shipped, so every product has a defined list of angles and uses."
+        "We plan the set list with you before anything is photographed, so every product has a defined list of angles and uses."
       ],
       "bullets": [
         "Art direction and a shot list agreed in advance, with reference images.",
@@ -30,10 +30,10 @@
       ]
     },
     {
-      "heading": "Shipping from Dallas: how to plan it",
+      "heading": "Planning a shoot around a market date",
       "paragraphs": [
-        "Sending products abroad takes preparation, and it is better to know that at the outset. Work back from the date you need the images, such as a market week, a seasonal launch or a retailer's deadline, and allow for transit and customs on top of the shoot and retouching. Send samples in final packaging, since prototypes photograph differently from finished stock. A clear commercial description on the shipping paperwork helps the parcel clear without delay, and some categories, such as liquids, aerosols and batteries, are subject to carrier restrictions that should be checked first.",
-        "We confirm the condition of the items when they arrive and tell you if anything was damaged in transit before the shoot begins. Agree with us beforehand what should happen to the samples afterwards."
+        "Work back from the date you need the images, such as a market week, a seasonal launch or a retailer's deadline, and leave room for the shoot, the retouching and a round of changes. Supply samples in final packaging, since prototypes photograph differently from finished stock, and include every colourway and size that needs its own image. Tell us which items are fragile, reflective or need assembling, because glass, polished metal and light fittings take longer to light well than a boxed candle.",
+        "Our team in the United States checks the samples before the session and tells you if anything is marked, dented or missing, so a replacement can be found before the camera is set up. The photographs then pass to our retouchers in Lahore, who remove dust and creases, correct colour and match variants across the range. Agree with us beforehand what should happen to the samples afterwards."
       ]
     },
     {
@@ -68,11 +68,11 @@
       }
     ]
   },
-  "presence": "TDM has no studio, office or photographer in Dallas. We work with Dallas brands remotely: products are shipped to our Lahore production hub, direction and approvals are handled online, and finished images are delivered digitally.",
+  "presence": "TDM has no office or studio in Dallas. Products for Dallas brands are photographed by our team in the United States, retouching is done at our operations office in Lahore, and direction, proofs and approvals are handled online.",
   "faqs": [
     {
       "q": "Do you have a product photography studio in Dallas?",
-      "a": "No. Our studio is at TDM's production hub in Lahore. Dallas brands ship products to us, approve the shot list and art direction remotely and receive retouched images online. No on-site session is involved."
+      "a": "No, there is no TDM studio or office in Dallas. Your products are photographed in the United States by our own US-based team, in a setting chosen to suit the range, and the retouching is done at our operations office in Lahore. You approve the shot list and art direction before the session."
     },
     {
       "q": "How much does product photography cost for a Dallas brand?",
@@ -83,12 +83,12 @@
       "a": "Yes. We plan the shot list around every place the images will be used, so a single session can supply wholesale catalogs, retailer websites, marketplace listings and adverts."
     },
     {
-      "q": "Is it practical to ship products overseas for a shoot?",
-      "a": "For most packaged consumer goods, yes. It needs planning for transit, customs paperwork and any carrier restrictions on your category. Very large, fragile or perishable items may be better photographed locally, and we will tell you if that is the case."
+      "q": "Do our products have to leave the United States to be photographed?",
+      "a": "No. The photography is done in the United States by our team. Only the image files travel: they go to our operations office in Lahore for retouching, colour correction and export. Very large, fragile or perishable items need extra planning before a date is set."
     },
     {
       "q": "How long before a market date should we start?",
-      "a": "It depends on the size of the range and the brief, plus shipping time. The schedule is agreed in the plan, and starting early leaves room for transit and for a round of changes."
+      "a": "It depends on the size of the range and the brief. The schedule is agreed in the plan, and starting early leaves room for samples that arrive late from the factory and for a round of changes."
     }
   ]
 }

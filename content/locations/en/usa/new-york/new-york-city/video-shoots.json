@@ -5,8 +5,8 @@
   "service": "media/video-shoots",
   "title": "Video Shoots and Production for New York City Brands",
   "metaTitle": "Video Shoots and Production in New York City | TDM",
-  "metaDescription": "Video shoots for New York City brands: concept, scripts and shot lists by TDM, filming arranged locally, post-production at our Lahore hub. Free consultation.",
-  "lead": "TDM (The Digital Marketing Services) plans, scripts and directs video shoots for New York City brands and delivers the finished videos: brand films, product videos and footage for ads and social. We have no studio or crew in New York. Concept, scripting and all post-production run from our production hub in Lahore, and filming is arranged locally where your business is. For videos where the product is the subject, many clients ship it to us and approve the treatment and the cuts remotely.",
+  "metaDescription": "Video shoots for New York City brands: concept and scripts by TDM, filming by our team in the United States, editing at our Lahore office. Free consultation.",
+  "lead": "TDM (The Digital Marketing Services) plans, scripts and films video shoots for New York City brands and delivers the finished videos: brand films, product videos and footage for ads and social. Our team in the United States runs the shoot on location or wherever suits the project. The footage then goes to our operations office in Lahore for editing, grading and versioning, and you approve the treatment beforehand and the cuts afterwards.",
   "sections": [
     {
       "heading": "What filming in New York demands",
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "heading": "How we organise a shoot from a distance",
+      "heading": "How we organise a shoot",
       "paragraphs": [
-        "We begin with what the footage must do: which ads, pages and channels it will feed. From that we write treatments, scripts and storyboards for your approval. Pre-production then fixes casting, locations, props, wardrobe and a shot-by-shot schedule. Filming is arranged where you are, against the approved shot list, and the footage goes directly into our own edit pipeline.",
+        "We begin with what the footage must do: which ads, pages and channels it will feed. From that we write treatments, scripts and storyboards for your approval. Pre-production then fixes casting, locations, props, wardrobe and a shot-by-shot schedule. Our team in the United States then films against the approved shot list, and the footage goes directly to our editors in Lahore.",
         "Because TDM also runs advertising and social media, the shot list is written backwards from distribution. It names the opening hooks an ad account needs to test, the demonstrations a product page lacks and the b-roll a content calendar will use."
       ],
       "bullets": [
@@ -31,7 +31,7 @@
     {
       "heading": "When the city does not need to be in the frame",
       "paragraphs": [
-        "A candle, a serum, a handbag or a kitchen gadget can be filmed anywhere. For product-led videos, New York brands can send items to our production hub and receive finished videos without booking a location or attending a set. Filming in the city makes sense when the place or the people are the point: a dining room, a showroom, an apartment for sale, a clinic, a founder at work."
+        "A candle, a serum, a handbag or a kitchen gadget can be filmed anywhere. For product-led videos, our US-based team films the items on a tabletop set or in a setting chosen for the brief, with no city location to book. Filming in the city makes sense when the place or the people are the point: a dining room, a showroom, an apartment for sale, a clinic, a founder at work."
       ]
     },
     {
@@ -61,16 +61,16 @@
         "text": "Short interviews for startups and professional practices whose clients choose on trust."
       },
       {
-        "title": "Product videos from shipped items",
-        "text": "Detail shots and in-use demonstrations for product pages and ads, filmed at our hub."
+        "title": "Product-led videos",
+        "text": "Detail shots and in-use demonstrations for product pages and ads, filmed by our US-based team."
       }
     ]
   },
-  "presence": "TDM works with New York City businesses remotely and has no office, studio or crew in the city. Concept, scripting and post-production are handled by our production team in Lahore, and filming is arranged locally for each project or carried out at our hub from shipped products.",
+  "presence": "TDM has no office or studio in New York City. Shoots for New York businesses are filmed by our team in the United States, on location or wherever suits the project, and editing and post-production are done at our operations office in Lahore. Planning and approvals take place online.",
   "faqs": [
     {
-      "q": "Does TDM have a studio or film crew in New York City?",
-      "a": "No. We work with New York clients remotely. Filming is arranged locally for each project, or products are shipped to us for product-led videos."
+      "q": "Who films a TDM video shoot in New York City?",
+      "a": "Our team in the United States. They run the shoot on location or wherever suits the project, and the footage is edited at our operations office in Lahore."
     },
     {
       "q": "Do I need a permit to film in New York City?",
@@ -86,7 +86,7 @@
     },
     {
       "q": "Can you make product videos without filming in New York?",
-      "a": "Yes. For product-led videos you can ship items to our production hub, approve the treatment and shot list remotely, and receive finished videos in every format you need."
+      "a": "Yes. When the product is the subject and the city is not, our US-based team films it in a setting that fits the treatment."
     }
   ]
 }
