@@ -33,6 +33,23 @@ function FooterLink({ to, children }: { to: string; children: React.ReactNode })
   );
 }
 
+/**
+ * Where each place we work from sits on the footer map, as a percentage of the
+ * map's width and height: Dubai, Lahore, Bury, South Florida, Greenville,
+ * Douala, Gifu, France, Bulgaria.
+ */
+const PINS: [number, number][] = [
+  [59.94, 46.43],
+  [64.3, 43.08],
+  [46.74, 31.34],
+  [28.89, 46.11],
+  [28.39, 41.3],
+  [49.49, 57.67],
+  [78.62, 41.01],
+  [47.81, 33.86],
+  [52.61, 37.13],
+];
+
 export function Footer({ locale = "en" }: { locale?: Locale }) {
   const t = ui[locale];
   const c = getContent(locale);
@@ -95,17 +112,19 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
         <div className="blob blob-slow absolute -bottom-40 start-1/3 h-80 w-80 rounded-full bg-amber/12 blur-3xl" />
         <div className="blob blob-slow absolute top-1/4 -start-24 h-72 w-72 rounded-full bg-sage/15 blur-3xl" />
       </div>
-      {/* The whole lockup as a watermark, spanning the footer rather than the
-          three letters tucked into one corner. Faint enough to sit behind the
-          columns without competing with them. */}
-      <div aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
-        <Image
-          src={asset("branding/logo-white.png")}
-          alt=""
-          width={776}
-          height={178}
-          className="w-[115%] max-w-none opacity-[0.045]"
-        />
+      {/* The world map behind the columns, with a marker on each place we work
+          from. Map and markers share one box, so they stay aligned at any width.
+          The map's own dark ground is blended away so only the dots show. */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
+        <div className="absolute left-1/2 top-1/2 aspect-[1942/809] w-full min-w-[60rem] -translate-x-1/2 -translate-y-1/2">
+          <Image src="/branding/world-map.webp" alt="" fill sizes="100vw" className="object-cover opacity-30 mix-blend-screen" />
+          {PINS.map(([left, top], n) => (
+            <span key={n} className="absolute -translate-x-1/2 -translate-y-1/2" style={{ left: `${left}%`, top: `${top}%` }}>
+              <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-amber opacity-60" style={{ animationDelay: `${n * 0.35}s`, animationDuration: "2.6s" }} />
+              <span className="relative block h-3 w-3 rounded-full bg-amber shadow-[0_0_12px_rgba(240,138,36,0.9)]" />
+            </span>
+          ))}
+        </div>
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 pb-8 pt-16 sm:px-6">
