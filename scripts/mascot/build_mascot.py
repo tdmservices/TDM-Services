@@ -1,5 +1,5 @@
 """
-Builds the TDM mascot (a pencil character carrying the TDM arrow) in Blender and renders it.
+Builds the TDM mascot (the arrow from the TDM logo as a stick-style character) in Blender and renders it.
 
 Run with Blender's Python module (pip install bpy) or inside Blender:
     python build_mascot.py <out_dir> [pose ...] [--size 900] [--samples 96] [--blend]
@@ -138,7 +138,7 @@ def parent(child, par):
 # Face: eyes (open|happy|wide|wink), mouth (smile|open|oh|grin), brows (deg), look (x, z).
 REST = dict(
     lean=0, tilt=0, squash=1.0, lift=0.0, turn=0,
-    hand_l=(-0.78, -0.1, 0.55), hand_r=(0.78, -0.1, 0.55),
+    hand_l=(-0.62, -0.1, 0.78), hand_r=(0.62, -0.1, 0.78),
     foot_l=(-0.26, 0.0, 0.0), foot_r=(0.26, 0.0, 0.0),
     foot_l_rot=0, foot_r_rot=0,
     eyes="open", mouth="smile", brows=0, look=(0, 0),
@@ -161,11 +161,12 @@ POSES = {
 }
 
 # --- character ---------------------------------------------------------------------
-BODY_R = 0.5      # pencil half-width
-BODY_BOTTOM = 0.62  # underside of the pencil above the ground (leg length)
-BODY_H = 1.4
-CONE_H = 0.62
-TIP_H = 0.26
+HIP = 0.78        # height of the hips above the ground (leg length)
+SHAFT = 0.92      # length of the arrow's shaft (the torso)
+HEAD_W = 0.66     # half-width of the arrowhead
+HEAD_H = 1.08     # height of the arrowhead
+HEAD_D = 0.34     # thickness of the arrowhead
+BASE_LEAN = 9     # the arrow leans to its right, as it does in the logo
 
 
 def build(pose_name):
@@ -174,7 +175,7 @@ def build(pose_name):
     scene = bpy.context.scene
 
     M = dict(
-        body=material("body", "amber", rough=0.28, coat=0.6),
+        body=material("body", "fern", rough=0.3, coat=0.6),
         stripe=material("stripe", "amber_dark", rough=0.3, coat=0.6),
         wood=material("wood", "wood", rough=0.6),
         lead=material("lead", "forest", rough=0.25, coat=0.4),
@@ -182,7 +183,7 @@ def build(pose_name):
         eraser=material("eraser", "eraser", rough=0.7, sss=0.2),
         limb=material("limb", "forest", rough=0.45),
         glove=material("glove", "white", rough=0.5, sss=0.1),
-        shoe=material("shoe", "pine", rough=0.4, coat=0.3),
+        shoe=material("shoe", "amber", rough=0.4, coat=0.3),
         sole=material("sole", "cream", rough=0.6),
         eye=material("eye", "white", rough=0.15, coat=1.0),
         pupil=material("pupil", "ink", rough=0.1, coat=1.0),
@@ -197,53 +198,35 @@ def build(pose_name):
     bpy.context.collection.objects.link(body)
     parent(body, root)
 
-    z0 = BODY_BOTTOM
-    # Hexagonal barrel, a flat side facing the camera (-Y).
-    barrel = add(bpy.ops.mesh.primitive_cylinder_add, M["body"], "barrel", vertices=6, radius=BODY_R, depth=BODY_H,
-                 location=(0, 0, z0 + BODY_H / 2), rotation=(0, 0, math.radians(0)))
-    bevel(barrel, 0.06, 6)
-    smooth(barrel)
-    # Sharpened wood and the green lead: the point of the pencil is the top of the arrow.
-    cone = add(bpy.ops.mesh.primitive_cone_add, M["wood"], "wood", vertices=48, radius1=BODY_R * 0.93, radius2=0.17, depth=CONE_H,
-               location=(0, 0, z0 + BODY_H + CONE_H / 2 - 0.02))
-    smooth(cone, 60)
-    tip = add(bpy.ops.mesh.primitive_cone_add, M["lead"], "lead", vertices=48, radius1=0.172, radius2=0.012, depth=TIP_H,
-              location=(0, 0, z0 + BODY_H + CONE_H + TIP_H / 2 - 0.025))
-    smooth(tip, 60)
-    # Ferrule and eraser at the bottom.
-    ferrule = add(bpy.ops.mesh.primitive_cylinder_add, M["metal"], "ferrule", vertices=48, radius=BODY_R * 0.9, depth=0.2,
-                  location=(0, 0, z0 - 0.06))
-    bevel(ferrule, 0.012, 2)
-    smooth(ferrule, 60)
-    for dz in (-0.02, 0.04):
-        ring = add(bpy.ops.mesh.primitive_torus_add, M["metal"], "ring", major_radius=BODY_R * 0.9, minor_radius=0.018,
-                   location=(0, 0, z0 - 0.06 + dz))
-        smooth(ring, 60)
-        parent(ring, body)
-    eraser = add(bpy.ops.mesh.primitive_cylinder_add, M["eraser"], "eraser", vertices=48, radius=BODY_R * 0.84, depth=0.2,
-                 location=(0, 0, z0 - 0.22))
-    bevel(eraser, 0.07, 6)
-    smooth(eraser, 60)
-    for o in (barrel, cone, tip, ferrule, eraser):
-        parent(o, body)
-
-    # A hexagon with 6 vertices at 0°, 60°... has a vertex on +X; the flat faces sit at 30°+k·60°.
-    # Turn the barrel so a flat face looks at -Y.
-    barrel.rotation_euler[2] = math.radians(30)
-    front = -BODY_R * math.cos(math.radians(30))  # y of the front face
+    z0 = HIP
+    neck = z0 + SHAFT
+    # The shaft of the arrow is the torso: a slim stroke with the slight curve of the logo's rising line.
+    shaft = tube("shaft", [(0, 0, z0 - 0.02), (-0.07, 0, z0 + SHAFT * 0.35), (-0.05, 0, z0 + SHAFT * 0.7), (0, 0, neck + 0.12)], 0.115, M["body"])
+    parent(shaft, body)
+    # The arrowhead is the head: a bold triangle with a notched base, as in the logo.
+    outline = [(0, neck + HEAD_H), (HEAD_W, neck - 0.02), (0.2, neck + 0.1), (-0.2, neck + 0.1), (-HEAD_W, neck - 0.02)]
+    head = plate("head", outline, HEAD_D / 2, HEAD_D, M["body"])
+    bevel(head, 0.11, 8).angle_limit = math.radians(20)
+    smooth(head, 50)
+    parent(head, body)
+    front = -HEAD_D / 2
 
     # --- face ---
     look = pose["look"]
-    eye_z = z0 + BODY_H * 0.69
+    eye_z = neck + 0.47
+    face = bpy.data.objects.new("face", None)
+    bpy.context.collection.objects.link(face)
+    face.location = (0, front, eye_z)
+    bpy.context.view_layer.update()
     for side in (-1, 1):
-        ex = side * 0.185
+        ex = side * 0.2
         kind = pose["eyes"]
         if kind == "wink" and side == 1:
             kind = "happy"
         if kind == "happy":
             arc = tube(f"eye_{side}", [(ex - 0.11, front - 0.03, eye_z - 0.03), (ex - 0.06, front - 0.05, eye_z + 0.05),
                                        (ex + 0.06, front - 0.05, eye_z + 0.05), (ex + 0.11, front - 0.03, eye_z - 0.03)], 0.028, M["mouth"])
-            parent(arc, body)
+            parent(arc, face)
         else:
             s = 1.12 if kind == "wide" else 1.0
             white = add(bpy.ops.mesh.primitive_uv_sphere_add, M["eye"], f"eye_{side}", segments=48, ring_count=24, radius=0.165 * s,
@@ -258,66 +241,45 @@ def build(pose_name):
                         location=(ex + look[0] * 2 - side * 0.02 + 0.03, front - 0.094, eye_z + look[1] * 2 + 0.04))
             smooth(glint, 180)
             for o in (white, pupil, glint):
-                parent(o, body)
+                parent(o, face)
         # brow: a positive angle lifts the inner end (friendly), a negative one drops it (worried)
         lift = math.sin(math.radians(pose["brows"])) * 0.1
         bz = eye_z + 0.27
         brow = tube(f"brow_{side}", [(ex - side * 0.1, front - 0.04, bz + lift), (ex, front - 0.055, bz + 0.02), (ex + side * 0.1, front - 0.04, bz - lift)], 0.026, M["limb"])
-        parent(brow, body)
+        parent(brow, face)
 
-    mz = eye_z - 0.3
+    mz = eye_z - 0.27
     kind = pose["mouth"]
     if kind in ("smile", "grin"):
         w = 0.17 if kind == "smile" else 0.2
         d = 0.07 if kind == "smile" else 0.1
         m = tube("mouth", [(-w, front - 0.03, mz + 0.03), (-w * 0.5, front - 0.045, mz - d * 0.75), (w * 0.5, front - 0.045, mz - d * 0.75), (w, front - 0.03, mz + 0.03)], 0.026, M["mouth"])
-        parent(m, body)
+        parent(m, face)
     elif kind == "open":
         w, d = 0.19, 0.17
         outline = [(-w, mz + 0.04)] + [(w * math.cos(math.radians(t)), mz + 0.04 - d * math.sin(math.radians(t))) for t in range(170, 9, -10)] + [(w, mz + 0.04)]
         m = plate("mouth", outline, front + 0.02, 0.035, M["mouth"])
         bevel(m, 0.012, 3)
-        parent(m, body)
+        parent(m, face)
         t = add(bpy.ops.mesh.primitive_uv_sphere_add, M["tongue"], "tongue", segments=24, ring_count=12, radius=0.085, location=(0, front - 0.012, mz - 0.075))
         t.scale = (1.15, 0.2, 0.6)
         smooth(t, 180)
-        parent(t, body)
+        parent(t, face)
     else:
         m = add(bpy.ops.mesh.primitive_uv_sphere_add, M["mouth"], "mouth", segments=32, ring_count=16, radius=0.075, location=(0, front, mz - 0.02))
         m.scale = (0.9, 0.35, 1.1)
         smooth(m, 180)
-        parent(m, body)
+        parent(m, face)
 
-    # --- the TDM arrow on the chest: a rising line that ends in an arrowhead ---
-    az = z0 + 0.1
-    y = front - 0.004
-    pts = [(-0.19, az + 0.03), (-0.075, az + 0.2), (0.005, az + 0.085), (0.11, az + 0.27)]
-    line = bpy.data.curves.new("arrow", "CURVE")
-    line.dimensions = "3D"
-    line.bevel_depth = 0.032
-    line.bevel_resolution = 6
-    line.use_fill_caps = True
-    sp = line.splines.new("POLY")
-    sp.points.add(len(pts) - 1)
-    for p, (x, z) in zip(sp.points, pts):
-        p.co = (x, y, z, 1)
-    arrow = bpy.data.objects.new("arrow", line)
-    bpy.context.collection.objects.link(arrow)
-    arrow.data.materials.append(M["mark"])
-    parent(arrow, body)
-    dx, dz = pts[-1][0] - pts[-2][0], pts[-1][1] - pts[-2][1]
-    ln = math.hypot(dx, dz)
-    dx, dz = dx / ln, dz / ln
-    ex_, ez_ = pts[-1]
-    head = plate("arrow_head", [(ex_ + dx * 0.13, ez_ + dz * 0.13), (ex_ - dx * 0.02 - dz * 0.095, ez_ - dz * 0.02 + dx * 0.095), (ex_ - dx * 0.02 + dz * 0.095, ez_ - dz * 0.02 - dx * 0.095)], y + 0.03, 0.062, M["mark"])
-    bevel(head, 0.012, 3)
-    parent(head, body)
+    # The face was laid out at full size; bring it down to fit the arrowhead.
+    face.scale = (0.74, 0.74, 0.74)
+    parent(face, body)
 
     # --- body transform ---
     body.location = (0, 0, pose["lift"])
     # Rotate about the bottom of the pencil so leans read as a hip movement.
     pivot = Vector((0, 0, z0))
-    lean, tilt = math.radians(pose["lean"]), math.radians(pose["tilt"])
+    lean, tilt = math.radians(pose["lean"] + BASE_LEAN), math.radians(pose["tilt"])
     body.rotation_euler = (-tilt, lean, 0)
     rot = body.rotation_euler.to_matrix()
     body.location = pivot - rot @ pivot + Vector((0, 0, pose["lift"]))
@@ -331,12 +293,12 @@ def build(pose_name):
 
     # --- arms: from the sides of the barrel to the hand targets ---
     for side, key in ((-1, "hand_l"), (1, "hand_r")):
-        shoulder = on_body((side * (BODY_R * 0.86), 0.0, z0 + BODY_H * 0.36))
+        shoulder = on_body((side * 0.06, 0.0, z0 + SHAFT * 0.78))
         hand = Vector(pose[key]) + Vector((0, 0, pose["lift"] * 0.6))
         mid = (shoulder + hand) / 2
         raised = hand.z > shoulder.z + 0.3
         bend = Vector((side * (0.22 if raised else 0.12), 0.04, -0.06 if raised else -0.2))
-        arm = tube(f"arm_{side}", [tuple(shoulder), tuple(shoulder + Vector((side * 0.12, 0, -0.02))), tuple(mid + bend), tuple(hand)], 0.05, M["limb"])
+        arm = tube(f"arm_{side}", [tuple(shoulder), tuple(shoulder + Vector((side * 0.14, 0, -0.03))), tuple(mid + bend), tuple(hand)], 0.055, M["limb"])
         parent(arm, root)
         glove = add(bpy.ops.mesh.primitive_uv_sphere_add, M["glove"], f"hand_{side}", segments=32, ring_count=16, radius=0.15, location=tuple(hand))
         glove.scale = (1, 0.8, 1.05)
@@ -373,13 +335,13 @@ def build(pose_name):
 
     # --- legs and shoes ---
     for side, key in ((-1, "foot_l"), (1, "foot_r")):
-        hip = on_body((side * 0.2, 0.0, z0 - 0.3))
+        hip = on_body((side * 0.04, 0.0, z0 + 0.02))
         foot = Vector(pose[key])
         ankle = foot + Vector((0, 0, 0.13))
         mid = (hip + ankle) / 2
         slack = max(0.0, 0.55 - (hip - ankle).length)
         knee = mid + Vector((side * 0.03, -0.25 * slack / 0.3 - 0.02, 0))
-        leg = tube(f"leg_{side}", [tuple(hip), tuple(hip + Vector((0, 0, -0.06))), tuple(knee), tuple(ankle)], 0.052, M["limb"])
+        leg = tube(f"leg_{side}", [tuple(hip), tuple(hip + Vector((side * 0.08, 0, -0.08))), tuple(knee), tuple(ankle)], 0.058, M["limb"])
         parent(leg, root)
         pitch = math.radians(pose[f"foot_{'l' if side < 0 else 'r'}_rot"])
         shoe = add(bpy.ops.mesh.primitive_uv_sphere_add, M["shoe"], f"shoe_{side}", segments=32, ring_count=16, radius=0.17, location=(0, 0, 0))
@@ -444,12 +406,12 @@ def stage(scene, size, samples, side_view=False):
     cam_d.lens = 85
     cam = bpy.data.objects.new("cam", cam_d)
     bpy.context.collection.objects.link(cam)
-    target = Vector((0, 0, 1.45))
+    target = Vector((0.1, 0, 1.5))
     if side_view:
         # Game sprites: seen from the side, running toward screen right.
-        cam.location = (8.6, -2.4, 1.9)
+        cam.location = (10.6, -3.0, 2.1)
     else:
-        cam.location = (1.9, -8.6, 2.2)
+        cam.location = (2.3, -10.6, 2.4)
     cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
     scene.camera = cam
 
