@@ -114,6 +114,8 @@ export interface BlogPost {
   metaDescription: string;
   date: string;
   category: string;
+  /** Author slug from src/content/authors.ts. */
+  author: string;
   excerpt: string;
   /** Markdown-ish paragraphs & headings: strings starting with "## " render as h2, "### " as h3. */
   body: string[];

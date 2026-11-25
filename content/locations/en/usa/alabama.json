@@ -1,0 +1,64 @@
+{
+  "slug": "usa/alabama",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Alabama",
+  "metaTitle": "Digital Marketing Agency in Alabama | TDM",
+  "metaDescription": "Digital marketing for Alabama businesses: SEO, paid ads, social media, websites and video for Birmingham, Huntsville, Mobile, Montgomery and the Gulf Coast.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Alabama businesses on SEO, paid advertising, social media, websites and video. Alabama's economy is spread across several mid-sized cities, each built on something different: medicine and banking in Birmingham, aerospace in Huntsville, the port in Mobile, state government in Montgomery and beach tourism on the Gulf. We plan each campaign around the city and the buyer it is meant to reach.",
+  "sections": [
+    {
+      "heading": "One state, several economies",
+      "paragraphs": [
+        "Birmingham is the largest metro area and the state's centre for healthcare, banking, insurance and construction, with the University of Alabama at Birmingham and its medical centre at the core. Huntsville, in the north, is an engineering town: Redstone Arsenal, NASA's Marshall Space Flight Center and the contractors of Cummings Research Park give it a workforce of engineers and a steady flow of people moving in for work.",
+        "Mobile is a port city with shipbuilding, an aircraft assembly plant and a long Mardi Gras tradition of its own. Montgomery is the capital, with state agencies, Maxwell Air Force Base and a large car plant. Tuscaloosa and Auburn are college towns whose trade follows the academic year, and Gulf Shores and Orange Beach live on summer visitors.",
+        "A message that works in one of these places can miss in another. A Huntsville IT firm is selling to defence contractors, while a Baldwin County rental company is selling a week at the beach to a family several states away."
+      ]
+    },
+    {
+      "heading": "Manufacturing and the suppliers around it",
+      "paragraphs": [
+        "Alabama builds cars. Mercedes-Benz near Tuscaloosa, Honda in Lincoln, Hyundai in Montgomery and the Mazda Toyota plant in Huntsville are surrounded by parts makers, logistics firms, staffing companies and industrial contractors. Steel, chemicals, forestry and poultry add more business-to-business trade across the state.",
+        "These companies rarely need a flashy campaign. They need a website that states capabilities, certifications and capacity clearly, search visibility for the exact processes they offer, and a way for a purchasing manager to request a quote without hunting for it. For recruitment, which is a constant concern for plants and their suppliers, careers pages and paid social aimed at the right commuting area do more than a generic jobs ad."
+      ],
+      "bullets": [
+        "Capability and industry pages written for buyers who check specifications.",
+        "Search campaigns built on precise process and part terms.",
+        "LinkedIn activity aimed at job roles in procurement, engineering and operations.",
+        "Hiring campaigns targeted by drive time to the plant."
+      ]
+    },
+    {
+      "heading": "The Alabama calendar",
+      "paragraphs": [
+        "Autumn Saturdays belong to college football. When Alabama or Auburn plays at home, Tuscaloosa and Auburn fill with visitors, and across the state shops and restaurants plan around kick-off times. A promotion that ignores the schedule competes with the game for attention.",
+        "The coast has its own rhythm. Gulf Shores and Orange Beach are busiest from spring break through summer, and holiday rentals, restaurants and charter boats need to be visible well before then, when families in Birmingham, Nashville and Atlanta are choosing dates. Weather matters too. Spring brings tornado risk across much of the state, and the Gulf hurricane season affects Mobile and Baldwin counties, so roofing, tree and restoration firms need pages and ad campaigns ready in advance."
+      ]
+    },
+    {
+      "heading": "Small-town reach",
+      "paragraphs": [
+        "A large part of Alabama lives outside the big metros, in towns such as Dothan, Florence, Gadsden, Decatur and Cullman. Search volumes are lower there, but so is competition, and a well-kept Google Business Profile with recent reviews can put a local firm ahead quickly. For businesses that serve several counties, we build a page for each area served instead of relying on a single address."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Alabama sectors we plan campaigns for",
+    "items": [
+      { "title": "Healthcare practices", "text": "Clinics, dentists and specialists around Birmingham and Huntsville need clear service pages, reviews and ad wording that respects platform rules on health claims." },
+      { "title": "Automotive suppliers and manufacturers", "text": "Parts makers and contractors near the car plants need technical pages, quote requests that work and recruitment campaigns." },
+      { "title": "Aerospace and defence services", "text": "Huntsville firms selling to contractors and agencies need precise capability content and a professional, fast site." },
+      { "title": "Gulf Coast tourism", "text": "Rentals, restaurants and charters in Gulf Shores and Orange Beach need early-season search visibility, video and direct booking pages." },
+      { "title": "Home services", "text": "HVAC, roofing, pest control and tree work depend on map results, call ads and readiness for storm weeks." },
+      { "title": "Retail and restaurants", "text": "Local shops and food businesses do well with short video, active social accounts and promotions timed around football weekends." }
+    ]
+  },
+  "presence": "TDM works with Alabama businesses remotely. We have no office in the state. Meetings are held by video call, reports are shared online, and strategy, design, development and video come from one team.",
+  "faqs": [
+    { "q": "Does TDM have an office in Alabama?", "a": "No. We work with businesses in Alabama remotely, through video calls, shared documents and regular written reports." },
+    { "q": "How much does digital marketing cost for an Alabama business?", "a": "It depends on scope: which channels you need, how many locations you have and how competitive your field is in your city. We give a quote after a free consultation." },
+    { "q": "Should a Huntsville company market differently from one in Birmingham?", "a": "Usually, yes. Huntsville's customers are often engineers, contractors and recent arrivals, while Birmingham has a larger consumer, medical and financial market spread over many suburbs. Keywords, pages and ad targeting should be set up for each city separately." },
+    { "q": "When should a Gulf Shores or Orange Beach business start advertising for summer?", "a": "Before the season, while families are still choosing where to stay. Search visibility and booking pages should be in place over the winter, with ad budgets rising ahead of spring break and staying up through summer." },
+    { "q": "How long does SEO take to work in Alabama?", "a": "It depends on your requirements, the state of your current site and how much competition there is in your town. The timeline is agreed in the plan before work begins." }
+  ]
+}

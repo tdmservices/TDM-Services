@@ -1,0 +1,59 @@
+{
+  "slug": "france/nice",
+  "locale": "fr",
+  "kind": "city",
+  "title": "Agence de marketing digital à Nice",
+  "metaTitle": "Agence de marketing digital à Nice | TDM",
+  "metaDescription": "TDM accompagne à distance les entreprises de Nice et de la Côte d'Azur : SEO, publicité en ligne, réseaux sociaux, sites web et vidéo. Consultation gratuite.",
+  "lead": "TDM (The Digital Marketing Services) est une agence de marketing digital au service des entreprises de Nice et de la Côte d'Azur. Nous prenons en charge le référencement, la publicité en ligne, les réseaux sociaux, les sites web et la production de contenus vidéo. À Nice, une grande partie de l'activité dépend de personnes qui ne vivent pas là toute l'année : vacanciers, congressistes, propriétaires de résidences secondaires. Il faut donc être visible auprès de quelqu'un qui prépare sa venue depuis ailleurs, sans négliger les habitants qui font tourner les commerces en basse saison.",
+  "sections": [
+    {
+      "heading": "Une ville qui reçoit : hôtellerie, restauration, immobilier",
+      "paragraphs": [
+        "Le tourisme structure l'économie niçoise depuis longtemps. Hôtels de la Promenade des Anglais, locations meublées, restaurants du Vieux-Nice et du port, plages privées, loueurs de bateaux, guides et chauffeurs vivent d'une clientèle qui arrive par l'aéroport Nice Côte d'Azur, installé à l'entrée ouest de la ville.",
+        "Ce visiteur choisit avant de partir. Il compare les photos, lit les avis, vérifie l'emplacement sur la carte et réserve en ligne. Pour un établissement, l'enjeu est d'obtenir des réservations directes plutôt que de tout laisser aux plateformes, ce qui suppose un site rapide, un moteur de réservation simple et des images qui montrent la réalité des lieux.",
+        "L'immobilier obéit à une logique voisine. Entre les résidences secondaires, l'investissement locatif et les retraités qui s'installent au soleil, beaucoup d'acheteurs cherchent à distance. Des annonces bien présentées, des visites vidéo et des pages par quartier, du Carré d'Or à Cimiez en passant par le Mont-Boron, répondent à leurs premières questions avant la visite."
+      ]
+    },
+    {
+      "heading": "Se rendre visible entre le Var et Menton",
+      "paragraphs": [
+        "Le littoral forme une suite presque continue de communes, et les habitants passent de l'une à l'autre pour travailler ou consommer : Saint-Laurent-du-Var, Cagnes-sur-Mer, Antibes, Cannes à l'ouest, Villefranche-sur-Mer, Beaulieu-sur-Mer, Menton et Monaco à l'est. Dans Nice même, on précise le quartier : Libération, Riquier, Saint-Roch, l'Arénas. La plaine du Var et la technopole de Sophia Antipolis, vers Valbonne et Antibes, concentrent quant à elles les entreprises du numérique et de la recherche."
+      ],
+      "bullets": [
+        "Une fiche Google soignée, avec des photos de saison et des horaires mis à jour quand ils changent entre l'été et l'hiver.",
+        "Des pages distinctes pour les communes desservies, quand vous vous y déplacez vraiment.",
+        "Des campagnes séparées pour les habitants et pour les visiteurs, qui n'ont ni les mêmes recherches ni le même calendrier.",
+        "Une stratégie d'avis clients : sur la Côte d'Azur, ils pèsent lourd dans le choix d'une table ou d'un hébergement.",
+        "Un suivi des réservations et des appels conforme au consentement des visiteurs."
+      ]
+    },
+    {
+      "heading": "Une saison qui ne se limite pas à l'été",
+      "paragraphs": [
+        "L'été reste le sommet de fréquentation, mais Nice a été une station d'hiver avant d'être une destination balnéaire, et l'année garde plusieurs temps forts. Le Carnaval occupe la ville en février. En mai, le Festival de Cannes et le Grand Prix de Monaco remplissent les hébergements bien au-delà des deux villes concernées. Les congrès et salons professionnels, à Nice comme à Cannes, amènent une clientèle d'affaires au printemps et à l'automne.",
+        "L'arrière-pays ajoute sa propre saison : les stations du Mercantour, comme Isola 2000 ou Auron, attirent les skieurs en hiver, et les villages perchés reçoivent du monde dès les premiers beaux jours.",
+        "Pour un professionnel, cela veut dire anticiper. Les réservations d'été se jouent au printemps, celles des grands événements des mois à l'avance. En basse saison, le budget publicitaire gagne à se recentrer sur la clientèle locale, avec des offres et des messages pensés pour elle."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Nos domaines d'intervention sur la Côte d'Azur",
+    "items": [
+      { "title": "Hôtels et locations saisonnières", "text": "Site de réservation directe, référencement sur les recherches de séjour et campagnes lancées au moment où les voyageurs planifient." },
+      { "title": "Restaurants et plages", "text": "Carte Google, avis, photos et vidéos courtes pour donner envie, avec une réservation en ligne qui fonctionne sur mobile." },
+      { "title": "Immobilier", "text": "Pages par quartier, visites vidéo des biens et annonces ciblées sur les acheteurs qui cherchent depuis une autre région." },
+      { "title": "Nautisme et loisirs", "text": "Location de bateaux, excursions, activités : des offres lisibles, un paiement en ligne simple et des visuels tournés sur l'eau." },
+      { "title": "Santé et services à la personne", "text": "Cabinets, cliniques et services à domicile : une présence locale claire et rassurante, pour une population qui compte beaucoup de retraités." },
+      { "title": "Entreprises de Sophia Antipolis", "text": "Contenus techniques, génération de contacts entre entreprises et renfort d'équipes pour les sociétés du numérique." }
+    ]
+  },
+  "presence": "TDM travaille avec les entreprises de Nice et des Alpes-Maritimes à distance, en français. Nous n'avons pas de bureau sur la Côte d'Azur. Les rendez-vous se tiennent en visioconférence, et vous recevez des rapports écrits à intervalles convenus.",
+  "faqs": [
+    { "q": "Avez-vous une agence à Nice ?", "a": "Non, nous travaillons à distance avec nos clients niçois, en français. Un appel de découverte nous permet de comprendre votre établissement et votre clientèle, puis le suivi se fait en visioconférence et par écrit." },
+    { "q": "Comment obtenir plus de réservations directes pour un hôtel à Nice ?", "a": "Avec un site rapide et clair, un moteur de réservation sans friction, un bon référencement sur le nom de l'établissement et sur les recherches de séjour, et des campagnes qui rappellent aux visiteurs intéressés qu'ils peuvent réserver chez vous. L'objectif est de réduire la part des plateformes, pas de s'en passer du jour au lendemain." },
+    { "q": "Quel est le tarif d'une agence de marketing digital à Nice ?", "a": "Il dépend de l'étendue de la mission : nombre de canaux, production de photos et de vidéos, intensité de la concurrence sur votre activité. Le devis est établi après une consultation gratuite." },
+    { "q": "Faut-il arrêter la publicité en basse saison ?", "a": "Pas forcément. C'est souvent le bon moment pour viser les habitants, travailler le référencement et préparer les contenus de la saison suivante. Le budget peut baisser, mais disparaître complètement oblige à tout reconstruire au printemps." },
+    { "q": "Combien de temps faut-il pour mettre en place une campagne ?", "a": "La durée dépend de vos besoins et des éléments fournis dans le brief. Elle est inscrite dans le plan de travail, que nous arrêtons ensemble au départ." }
+  ]
+}

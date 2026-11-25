@@ -59,6 +59,13 @@ export const BLOG_SHARED_FIELDS: Field[] = [
     required: true,
     options: ["Marketing", "Media", "Development", "Staff Augmentation"],
   },
+  {
+    name: "author",
+    label: "Author",
+    type: "select",
+    options: ["tdm-editorial-team", "abdul-rehman", "muhammad-adnan", "ernest-ekwoge"],
+    hint: "Who the post is credited to. Each author has a page at /blog/author/<name>/ listing their posts.",
+  },
 ];
 
 /** Everything written afresh for each language. */

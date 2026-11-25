@@ -1,0 +1,64 @@
+{
+  "slug": "usa/maine/portland",
+  "locale": "en",
+  "kind": "city",
+  "title": "Digital Marketing Agency in Portland, ME",
+  "metaTitle": "Digital Marketing Agency in Portland, Maine | TDM",
+  "metaDescription": "Digital marketing for Portland, Maine businesses: SEO, paid ads, social media, websites and video for restaurants, retailers, professional firms and trades.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with businesses in Portland, Maine on SEO, paid advertising, social media, websites and video. Portland is a small city with an outsized food scene, a working waterfront and a steady flow of visitors, and it shares its name with a much larger city on the other coast. We help local companies show up clearly for the right Portland and for the customers who matter to them.",
+  "sections": [
+    {
+      "heading": "The other Portland problem",
+      "paragraphs": [
+        "Any business here has met it: search results, directories and ad platforms that confuse Portland, Maine with Portland, Oregon. It shows up as irrelevant clicks on ads, reviews left for the wrong company and listings that sit under the wrong state.",
+        "The fix is partly technical and partly editorial. Location targeting in ad accounts has to be drawn by geography, never by keyword alone. Pages, titles and structured data should state Maine plainly and name local landmarks and neighbourhoods. Business listings need the same address format everywhere. These are small details, and they decide whether your budget reaches Casco Bay or the Pacific Northwest."
+      ],
+      "bullets": [
+        "Ad campaigns limited by location, with the Oregon metro excluded where needed.",
+        "Maine named in page titles, headings and business schema.",
+        "Consistent name, address and phone details across maps and directories.",
+        "Search term reports reviewed regularly to block wasted clicks."
+      ]
+    },
+    {
+      "heading": "A peninsula, its neighbourhoods and its suburbs",
+      "paragraphs": [
+        "Much of Portland's commercial life sits on a compact peninsula. The Old Port, with its cobbled streets and wharves, is the centre for restaurants, bars, shops and visitors. Congress Street and the Arts District hold galleries, theatres and the art museum. Munjoy Hill and the East End, the West End, Bayside and the off-peninsula neighbourhoods around Deering each have their own cafés, studios and service businesses, mostly serving residents.",
+        "The wider market includes South Portland, where the Maine Mall area concentrates large retailers, along with Westbrook, Scarborough, Falmouth and Cape Elizabeth. Many service firms based in the city earn most of their income in these towns, so their pages and profiles should name them."
+      ]
+    },
+    {
+      "heading": "Restaurants, breweries and a visitor season",
+      "paragraphs": [
+        "Portland is known well beyond Maine for its restaurants, bakeries and craft breweries, and competition among them is serious. A place can be full in August and quiet in March. Summer and early autumn bring holidaymakers, day trippers from the beaches and cruise ship passengers who walk straight into the Old Port, while the ferries carry people out to the Casco Bay islands.",
+        "For hospitality businesses we plan in two parts. In season, the work is map visibility, reservations, fresh photography and short video. Out of season, it is the local audience: email lists, events, weekday offers and social content that reminds residents you are open. Reviews matter in both, since visitors and locals read them before choosing."
+      ]
+    },
+    {
+      "heading": "Offices, clinics and the working waterfront",
+      "paragraphs": [
+        "Portland is also where much of Maine does its professional business. Healthcare is a major employer, with the state's largest hospital in the city, and there are sizeable finance, insurance, legal and technology employers in and around town. Firms that sell to other companies need websites that explain services clearly, search visibility for specific needs and thoughtful LinkedIn activity.",
+        "The waterfront still works for a living, with fishing boats, lobster dealers, marine suppliers and a container terminal alongside the restaurants. Seafood companies that ship nationally benefit from a well-built online shop and product photography. And as in any New England city with old houses and hard winters, heating, roofing, plumbing and renovation firms are in demand all year."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Portland businesses we can support",
+    "items": [
+      { "title": "Restaurants and cafés", "text": "Reservation-ready listings, seasonal menus kept current online and video that shows the room and the food." },
+      { "title": "Breweries and distilleries", "text": "Tasting room visits, event promotion and online merchandise, within the platforms' rules on alcohol advertising." },
+      { "title": "Independent retail", "text": "Old Port and Congress Street shops gain from local search, a simple online store and holiday campaigns." },
+      { "title": "Professional and financial firms", "text": "Clear service pages, expert articles and targeted campaigns that reach decision makers across Maine." },
+      { "title": "Seafood and marine", "text": "Lobster shippers and marine suppliers need product pages, shipping details and search visibility beyond the state." },
+      { "title": "Home services", "text": "Heating, roofing and renovation companies need pages for each town served and a steady stream of reviews." }
+    ]
+  },
+  "presence": "TDM works with Portland, Maine businesses remotely. We have no office or team member in the city. Our team delivers strategy, design, development and video online, with scheduled calls and clear written reports.",
+  "faqs": [
+    { "q": "Is TDM located in Portland, Maine?", "a": "No. We work with Portland businesses remotely, by video call and shared reporting." },
+    { "q": "How do I stop my ads showing to people in Portland, Oregon?", "a": "Set location targeting by geography around Greater Portland, Maine, target people who are in or regularly in that area, exclude the Oregon metro, and add negative keywords for Oregon terms. We also check search term reports to catch what slips through." },
+    { "q": "How can a Portland restaurant stay busy in the off-season?", "a": "Shift the focus to residents. Build an email list during the busy months, promote weekday events and seasonal menus, keep your business profile and social accounts active, and ask regulars for reviews." },
+    { "q": "What does digital marketing cost in Portland, Maine?", "a": "It depends on the scope of the work and the channels involved. We quote after a free consultation." },
+    { "q": "Do you work with businesses in South Portland, Westbrook and Scarborough?", "a": "Yes. We build pages and listings for each town you serve and set ad targeting to match, since many customers search by their own town name." }
+  ]
+}

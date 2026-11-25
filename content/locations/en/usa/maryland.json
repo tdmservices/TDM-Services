@@ -1,0 +1,64 @@
+{
+  "slug": "usa/maryland",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Maryland",
+  "metaTitle": "Digital Marketing Agency in Maryland | TDM",
+  "metaDescription": "Digital marketing for Maryland businesses: SEO, paid ads, social media, websites and video for Baltimore, the DC suburbs, Annapolis, Frederick and Ocean City.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Maryland businesses on SEO, paid advertising, social media, websites and video. Maryland is small on the map and split in practice: half of it looks to Baltimore, half to Washington, and the rest to the Chesapeake Bay or the mountains. We plan campaigns around the region your customers belong to and the kind of buyer they are, from a federal contracting officer to a family booking a beach week.",
+  "sections": [
+    {
+      "heading": "Two metro areas and a bay between regions",
+      "paragraphs": [
+        "Baltimore is the state's largest city, with a major port, large hospital systems and universities, and suburbs spreading through Baltimore, Howard, Anne Arundel and Harford counties. The Washington suburbs are a separate world. Montgomery County, with Bethesda, Rockville, Silver Spring and Gaithersburg, and Prince George's County, with College Park, Bowie and National Harbor, follow the federal government's rhythm and share media, commutes and competitors with DC and Northern Virginia.",
+        "Between them, Columbia and the Fort Meade area have grown into a centre for defence and cybersecurity firms. Annapolis is the state capital, the home of the Naval Academy and a sailing town. Frederick anchors a growing area to the west, and beyond it lie Hagerstown, Cumberland and the resort country around Deep Creek Lake. Across the Bay Bridge, the Eastern Shore is farms, poultry, small waterfront towns such as Easton and St. Michaels, and Ocean City on the Atlantic."
+      ]
+    },
+    {
+      "heading": "Selling to government, science and medicine",
+      "paragraphs": [
+        "A great many Maryland companies sell to federal agencies or to the contractors that serve them. Others grow out of the research done at the National Institutes of Health in Bethesda, at Johns Hopkins and the University of Maryland, and along the Interstate 270 corridor, where biotechnology firms cluster.",
+        "These buyers are cautious and well informed. They look for past performance, certifications, contract vehicles and named expertise, and several people are involved in each decision. Marketing for them is less about volume and more about being found for precise terms and looking credible when someone checks."
+      ],
+      "bullets": [
+        "Capability pages written for the people who evaluate vendors.",
+        "Search content built around specific services, not broad slogans.",
+        "LinkedIn campaigns aimed at job roles and agencies or industries.",
+        "Sites that are fast, accessible and easy to navigate."
+      ]
+    },
+    {
+      "heading": "Affluent suburbs and careful shoppers",
+      "paragraphs": [
+        "The corridor from Bethesda through Columbia to Towson holds some of the country's better-off and most highly educated households. They research thoroughly, compare reviews and expect a polished website before they call a remodeller, an orthodontist, a tutor or a financial adviser. Competition for these customers is heavy and ad costs reflect it.",
+        "Traffic shapes behaviour too. With the beltways around both cities and long commutes, people choose providers near home or near the office, and they search by town or county name. A business in Rockville should not pay for clicks from Towson. We set targeting and build local pages around the distance your customers will realistically travel."
+      ]
+    },
+    {
+      "heading": "The bay, the beach and the seasons",
+      "paragraphs": [
+        "Summer has its own economy in Maryland. Ocean City fills from late spring to early autumn with families from Baltimore, Washington and Pennsylvania, and the hotels, rentals, restaurants and amusements there do most of their marketing months before the season. Crab houses, marinas, charter boats and waterfront venues around the Chesapeake follow the same warm-weather curve, and Annapolis draws crowds for its boat shows and Naval Academy events.",
+        "In the far west, Deep Creek Lake brings summer lake visitors and winter skiers. For seasonal businesses we weight budgets to the booking window and use the quiet months for content, reviews and site improvements."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Maryland sectors we plan campaigns for",
+    "items": [
+      { "title": "Government contractors", "text": "IT, engineering and professional services firms need sites that set out capabilities, clearances and past work clearly." },
+      { "title": "Biotech and life sciences", "text": "Research suppliers and young companies need technical content and targeted outreach to scientists and partners." },
+      { "title": "Healthcare practices", "text": "Dental, specialist and therapy practices compete on reviews, provider pages and ads worded within platform rules." },
+      { "title": "Home improvement", "text": "Remodellers, roofers and landscapers in the suburbs need county and town pages with project photography." },
+      { "title": "Beach and bay tourism", "text": "Rentals, restaurants, charters and attractions need early booking campaigns and listings with accurate seasonal hours." },
+      { "title": "Professional services", "text": "Law, accounting and advisory firms win clients through search for specific problems and well-written expertise pages." }
+    ]
+  },
+  "presence": "TDM works with Maryland businesses remotely. We have no office or team member in the state. Meetings are by video call, reports are shared online, and one team delivers strategy, design, development and video.",
+  "faqs": [
+    { "q": "Does TDM have a Maryland office?", "a": "No. We work with Maryland businesses remotely, with video calls and shared reporting on an agreed schedule." },
+    { "q": "Should a Maryland business target Baltimore and the DC suburbs together?", "a": "Usually not in one campaign. They are separate markets with different competitors, costs and commuting patterns. We set up each region with its own keywords, pages and budget, and add the second only if you can serve it well." },
+    { "q": "Can digital marketing help a government contractor win work?", "a": "It supports the process. Contracting staff and prime contractors check a firm's website and online presence when assessing it. Clear capability pages, search visibility for your specialisms and targeted LinkedIn activity help you get shortlisted and found by teaming partners." },
+    { "q": "How much does a marketing agency cost in Maryland?", "a": "It depends on scope: channels, number of locations and how competitive your field is in your region. We provide a quote after a free consultation." },
+    { "q": "When should an Ocean City business start advertising for summer?", "a": "Before the season, when families are choosing dates and comparing places to stay. The right start date and budget curve come from your own booking history, and we agree them in the plan." }
+  ]
+}

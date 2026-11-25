@@ -71,6 +71,10 @@ create index if not exists blog_posts_published_idx
   on public.blog_posts (published_on desc);
 
 -- ---------------------------------------------------------------------------
+-- Who a post is credited to: an author slug from src/content/authors.ts.
+-- Empty means the editorial team.
+alter table public.blog_posts add column if not exists author text not null default '';
+
 -- Keep updated_at honest.
 -- ---------------------------------------------------------------------------
 create or replace function public.touch_updated_at()

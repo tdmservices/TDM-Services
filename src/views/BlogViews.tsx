@@ -2,10 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { asset } from "@/lib/asset-manifest";
 import type { BlogPost, Locale } from "@/lib/types";
-import { href, isRtl } from "@/lib/i18n";
+import { href, isRtl, localePrefix } from "@/lib/i18n";
 import { site } from "@/lib/site";
 import { getBlogPost, getBlogPosts } from "@/content/db";
 import { ui } from "@/content/ui";
+import { getAuthor } from "@/content/authors";
 import { SHARE_IMAGE } from "@/lib/meta";
 import { getContent } from "@/content";
 import { sectorForCategory } from "@/lib/service-links";
@@ -304,6 +305,7 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
   const sections = rich ? rich.headings : outline(p.body);
   const content = getContent(locale);
   const sector = content.sectors.find((x) => x.slug === sectorForCategory(p.category));
+  const author = getAuthor(locale, p.author);
   const sectorServices = sector ? content.services.filter((sv) => sv.sector === sector.slug) : [];
 
   return (
@@ -322,7 +324,9 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
           articleSection: p.category,
           wordCount: wordCount(p),
           inLanguage: locale,
-          author: { "@type": "Organization", name: site.name, url: site.url },
+          author: author.isTeam
+            ? { "@type": "Organization", name: site.name, url: site.url }
+            : { "@type": "Person", "@id": `${site.url}/blog/author/${author.slug}/#person`, name: author.name, jobTitle: author.role, url: `${site.url}${localePrefix(locale)}/blog/author/${author.slug}/` },
           publisher: {
             "@type": "Organization",
             name: site.name,
@@ -360,7 +364,9 @@ export async function BlogPostView({ locale, slug }: { locale: Locale; slug: str
               </li>
               <li className="flex items-center gap-3">
                 <span aria-hidden className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber" />
-                {t.publishedBy}
+                <Link href={href(locale, `/blog/author/${author.slug}/`)} className="underline decoration-white/30 underline-offset-4 hover:decoration-amber">
+                  {author.name}
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,0 +1,65 @@
+{
+  "slug": "usa/arizona",
+  "locale": "en",
+  "kind": "state",
+  "title": "Digital Marketing Agency in Arizona",
+  "metaTitle": "Digital Marketing Agency in Arizona | TDM",
+  "metaDescription": "Digital marketing for Arizona businesses: SEO, paid ads, social media, websites and video for Phoenix, Scottsdale, Tucson, Flagstaff and the rest of the state.",
+  "lead": "TDM (The Digital Marketing Services) is a digital marketing agency that works remotely with Arizona businesses on SEO, paid advertising, social media, websites and video. Arizona's market turns on two things: a fast-growing desert metro in Phoenix, and a calendar that runs backwards from most of the country, with crowds in winter and quiet in the heat of summer. We plan campaigns around where your customers live and which months they are here.",
+  "sections": [
+    {
+      "heading": "The Valley, Tucson and the high country",
+      "paragraphs": [
+        "Most Arizonans live in the Phoenix area, known locally as the Valley. It is a ring of large cities, not one: Phoenix itself, Scottsdale with its resorts and nightlife, Tempe with Arizona State University, Mesa, Chandler and Gilbert in the East Valley, Glendale and Peoria to the west. Semiconductor plants, financial services offices, healthcare systems and endless new housing drive its economy.",
+        "Tucson is a different city with a different pace. The University of Arizona, a large aerospace and defence employer, an air force base and a long-standing optics and astronomy community shape it, and its food scene is a point of local pride.",
+        "North of the Mogollon Rim the state changes completely. Flagstaff is a cool pine-forest college town and a base for the Grand Canyon and winter skiing. Sedona and Prescott draw visitors and retirees. Along the Colorado River, Yuma and Lake Havasu City fill with winter visitors and boaters."
+      ]
+    },
+    {
+      "heading": "A reversed calendar",
+      "paragraphs": [
+        "From late autumn to spring, the desert cities are at their busiest. Part-time residents arrive from colder states and Canada for the season, golf courses and resorts fill up, and baseball's spring training brings fans to ballparks across the Valley. Restaurants, medical practices, golf shops, RV parks and estate agents all see their peak.",
+        "Summer reverses it. The heat empties patios and keeps people indoors, hotels cut rates to attract locals, and those who can leave head for Flagstaff, the White Mountains or San Diego. For air conditioning companies, though, summer is the emergency season, and the monsoon storms that arrive with it bring dust, wind damage and roof leaks.",
+        "A flat monthly budget suits almost nobody here. We match spending to your own busy months."
+      ],
+      "bullets": [
+        "Winter campaigns that reach seasonal residents before they arrive, targeted at the regions they come from.",
+        "Summer offers for locals when visitor trade is slow.",
+        "Emergency-service campaigns for cooling and storm repair that can scale within hours.",
+        "Content planned around spring training, golf season and the big winter events."
+      ]
+    },
+    {
+      "heading": "Growth, new residents and home services",
+      "paragraphs": [
+        "Arizona keeps drawing people from other states, and new subdivisions spread outward from Phoenix every year. New arrivals need everything at once: a dentist, a pool service, pest control, window coverings, landscaping suited to the desert. They have no local habits yet, so they pick from map results and reviews.",
+        "Home services are crowded and ad costs reflect that. The firms that do well keep a strong review record, set their service areas carefully and run pages for each city they cover, since someone in Gilbert rarely clicks on a result that only says Phoenix. Retirement communities such as Sun City are a market of their own, with residents who research carefully and value a phone number answered by a person."
+      ]
+    },
+    {
+      "heading": "Industry and business buyers",
+      "paragraphs": [
+        "Chip manufacturing has brought a wave of suppliers, contractors and engineering firms to the Valley, alongside established aerospace, defence, mining and logistics companies. Fresh produce moves through Nogales and Yuma in the winter months. For companies selling to these industries, we focus on technical service pages, search terms that match how buyers describe their needs, and LinkedIn campaigns aimed at specific job functions."
+      ]
+    }
+  ],
+  "cards": {
+    "heading": "Arizona sectors we plan campaigns for",
+    "items": [
+      { "title": "Home services", "text": "Air conditioning, pools, pest control, roofing, solar and landscaping firms competing city by city across the Valley and Tucson." },
+      { "title": "Resorts, golf and hospitality", "text": "Winter-season visibility, summer offers for locals, and video and photography that show the property honestly." },
+      { "title": "Real estate and home building", "text": "Agents and builders reaching buyers who are still living in another state when they start looking." },
+      { "title": "Healthcare and wellness", "text": "Practices serving both year-round and seasonal patients, with clear service pages and policy-compliant ads." },
+      { "title": "Technology and manufacturing suppliers", "text": "Capability pages and targeted outreach for firms selling to chip plants, aerospace and defence." },
+      { "title": "Tourism in the north", "text": "Tours, lodging and restaurants around Flagstaff, Sedona and the Grand Canyon, found early by trip planners." }
+    ]
+  },
+  "presence": "TDM works with Arizona businesses remotely. We have no office in the state. Meetings take place by video call, reporting is shared online, and one team handles strategy, design, development and video.",
+  "faqs": [
+    { "q": "Does TDM have an office in Arizona?", "a": "No. We work with Arizona businesses remotely, by video call and shared reporting, to a plan and schedule agreed with you." },
+    { "q": "How do I market to snowbirds in Arizona?", "a": "Reach them before and during the season. Run search and social campaigns from autumn, target the states and provinces your winter customers come from as well as your local area, and keep your business profile and hours current so returning visitors find you again." },
+    { "q": "What should an Arizona business do with its marketing in summer?", "a": "It depends on the trade. Cooling, pool and storm repair firms should spend more. Restaurants, resorts and attractions usually shift to offers for local residents. Others use the quiet months to improve the site and content before the winter rush." },
+    { "q": "How much does a marketing agency cost in Arizona?", "a": "It depends on the scope: channels, number of service areas and how competitive your field is. We quote after a free consultation." },
+    { "q": "Do Phoenix and Tucson need separate campaigns?", "a": "Yes. They are distinct markets with their own competitors, neighbourhoods and costs. Each should have its own keywords, landing pages and budget." }
+  ]
+}
