@@ -1,6 +1,14 @@
 export type Locale = "en" | "fr" | "ar";
 
-export type SectorSlug = "media" | "marketing" | "development" | "staff-augmentation";
+export type SectorSlug =
+  | "media"
+  | "marketing"
+  | "development"
+  | "ai"
+  | "3d-design"
+  | "marketplaces"
+  | "consulting"
+  | "staff-augmentation";
 
 export interface Faq {
   q: string;

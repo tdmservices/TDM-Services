@@ -1,4 +1,8 @@
 import type { Sector } from "@/lib/types";
+import { aiSector } from "./sectors-new/ai";
+import { design3dSector } from "./sectors-new/design3d";
+import { marketplacesSector } from "./sectors-new/marketplaces";
+import { consultingSector } from "./sectors-new/consulting";
 
 export const sectors: Sector[] = [
   {
@@ -91,6 +95,10 @@ export const sectors: Sector[] = [
       },
     ],
   },
+  aiSector,
+  design3dSector,
+  marketplacesSector,
+  consultingSector,
   {
     slug: "staff-augmentation",
     name: "Staff Augmentation",

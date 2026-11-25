@@ -354,10 +354,13 @@ function builtInPages(locale: AdminLocale): SeoRow[] {
     { path: "/blog/", group: "Main pages", name: "Blog", title: blog.metaTitle, description: blog.metaDescription },
   ];
   for (const s of c.sectors) {
-    rows.push({ path: `/${s.slug}/`, group: "Sectors", name: s.name, title: s.metaTitle, description: s.metaDescription });
+    rows.push({ path: `/${s.slug}/`, group: "Service groups", name: s.name, title: s.metaTitle, description: s.metaDescription });
   }
-  for (const sv of c.services) {
-    rows.push({ path: `/${sv.sector}/${sv.slug}/`, group: "Services", name: sv.name, title: sv.metaTitle, description: sv.metaDescription });
+  // One block per group, in the same order as the Services menu on the site.
+  for (const s of c.sectors) {
+    for (const sv of c.services.filter((x) => x.sector === s.slug)) {
+      rows.push({ path: `/${sv.sector}/${sv.slug}/`, group: `Services: ${s.name}`, name: sv.name, title: sv.metaTitle, description: sv.metaDescription });
+    }
   }
   for (const o of c.offices) {
     rows.push({ path: `/locations/${o.slug}/`, group: "Locations", name: o.country, title: o.metaTitle, description: o.metaDescription });

@@ -40,7 +40,7 @@ create table if not exists public.case_studies (
   locale            text        not null check (locale in ('en', 'fr', 'ar')),
   -- 0 is featured on the home page and heads the case-studies index.
   sort_order        integer     not null default 99,
-  sector            text        not null check (sector in ('marketing', 'development', 'media', 'staff-augmentation')),
+  sector            text        not null check (sector in ('marketing', 'development', 'media', 'ai', '3d-design', 'marketplaces', 'consulting', 'staff-augmentation')),
   -- While true, only public_name is ever rendered — client is never shown.
   anonymous         boolean     not null default true,
   client            text,
