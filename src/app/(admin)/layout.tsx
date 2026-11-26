@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { montserrat } from "@/fonts";
 import { asset } from "@/lib/asset-manifest";
 import "@/app/globals.css";
 
@@ -12,12 +12,6 @@ import "@/app/globals.css";
  * the content and inert to the pointer, so it reads as the company's tool
  * without ever competing with the form on top of it.
  */
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-montserrat",
-});
 
 export const metadata: Metadata = {
   title: "Content admin: TDM",

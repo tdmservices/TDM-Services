@@ -1,5 +1,5 @@
 import { asset } from "@/lib/asset-manifest";
-import { Montserrat, Noto_Sans_Arabic } from "next/font/google";
+import { montserrat, notoArabic } from "@/fonts";
 import type { Locale } from "@/lib/types";
 import { isRtl } from "@/lib/i18n";
 import { site } from "@/lib/site";
@@ -11,17 +11,6 @@ import { JsonLd } from "@/components/JsonLd";
 import { BackToTop } from "@/components/motion/BackToTop";
 import { ui } from "@/content/ui";
 import { getContent } from "@/content";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-montserrat",
-});
-const notoArabic = Noto_Sans_Arabic({
-  subsets: ["arabic"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-noto-ar",
-});
 
 export function LocaleShell({ locale, children }: { locale: Locale; children: React.ReactNode }) {
   const content = getContent(locale);
