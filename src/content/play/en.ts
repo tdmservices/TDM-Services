@@ -18,18 +18,18 @@ export const en: PlayCopy = {
   game: {
     slug: "lead-runner",
     name: "Lead Runner",
-    tagline: "Jump the blockers, collect the leads. How far can your campaign run?",
+    tagline: "Growth runs; you jump the blockers and collect the leads. How far can you get?",
     metaTitle: "Lead Runner: A Free Marketing Browser Game | TDM",
     metaDescription:
       "Play Lead Runner, a quick free browser game. Jump over the blockers, collect leads and beat your best score. Works on phone and desktop.",
     intro: [
-      "Lead Runner is a small game for the gaps in a working day. Your campaign runs on its own; you jump the blockers in its path and pick up leads along the way. It gets faster the longer you last.",
+      "Lead Runner is a small game for the gaps in a working day. Growth, the TDM mascot, runs on its own; you jump the blockers in its path and pick up leads along the way. It gets faster the longer you last.",
       "It works with a keyboard, a mouse or a tap on a phone, and it keeps your best score on this device.",
     ],
     how: "Press space, click or tap to jump.",
     start: "Start",
     again: "Play again",
-    over: "Campaign over",
+    over: "Growth tripped",
     score: "Score",
     best: "Best",
     leads: "Leads",

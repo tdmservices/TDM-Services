@@ -553,4 +553,5 @@ def main():
             bpy.ops.wm.save_as_mainfile(filepath=str(out / f"mascot-{name}.blend"))
 
 
-main()
+if __name__ == "__main__":
+    main()
