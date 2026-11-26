@@ -151,6 +151,8 @@ export function GrowthMascot({ locale, groups, serviceTools }: { locale: Locale;
   const [arrived, setArrived] = useState(false);
   const [tick, setTick] = useState(0);
   const [line, setLine] = useState<Line | null>(null);
+  // Once the visitor is reading down the page, Growth steps back to a small figure so it does not sit over the text.
+  const [scrolled, setScrolled] = useState(false);
   const timers = useRef<number[]>([]);
   const said = useRef<Set<Line>>(new Set());
   const still = useRef(false);
@@ -238,6 +240,7 @@ export function GrowthMascot({ locale, groups, serviceTools }: { locale: Locale;
       if (!e.relatedTarget && e.clientY <= 0) once("leaving", "cheer");
     };
     const onScroll = () => {
+      setScrolled(window.scrollY > 260);
       const room = document.documentElement.scrollHeight - window.innerHeight;
       if (room > 1200 && window.scrollY / room > 0.6) once("tip", "point");
     };
@@ -270,6 +273,8 @@ export function GrowthMascot({ locale, groups, serviceTools }: { locale: Locale;
             : line === "playhub"
               ? { to: "/play/arrow-strike/", label: t.strike }
               : { to: "/contact/", label: t.consult };
+
+  const small = scrolled && !line && mode === "idle";
 
   const hide = () => {
     clear();
@@ -322,8 +327,13 @@ export function GrowthMascot({ locale, groups, serviceTools }: { locale: Locale;
         onClick={() => (line ? setLine(null) : say("menu", "wave", 20000))}
         aria-label={t.open}
         aria-expanded={line === "menu"}
-        className="pointer-events-auto block h-[104px] w-[124px] cursor-pointer outline-none transition-transform ease-linear focus-visible:ring-2 focus-visible:ring-amber sm:h-[132px] sm:w-[157px]"
-        style={{ transform: arrived ? "none" : offscreen, transitionDuration: mode === "enter" && arrived ? "1000ms" : "0ms" }}
+        className={`pointer-events-auto block cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-amber ${
+          small ? "h-[60px] w-[71px] sm:h-[72px] sm:w-[86px]" : "h-[104px] w-[124px] sm:h-[132px] sm:w-[157px]"
+        }`}
+        style={{
+          transform: arrived ? "none" : offscreen,
+          transition: `transform ${mode === "enter" && arrived ? 1000 : 0}ms linear, width 300ms ease, height 300ms ease`,
+        }}
       >
         {/* A plain image: the frames swap many times a second, which the image optimiser is not for. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}

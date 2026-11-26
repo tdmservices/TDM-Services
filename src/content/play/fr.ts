@@ -18,18 +18,18 @@ export const fr: PlayCopy = {
   game: {
     slug: "lead-runner",
     name: "Lead Runner",
-    tagline: "Sautez les obstacles, ramassez les leads. Jusqu'où ira votre campagne ?",
+    tagline: "Growth court, vous sautez les obstacles et ramassez les leads. Jusqu'où irez-vous ?",
     metaTitle: "Lead Runner : un jeu marketing gratuit en ligne | TDM",
     metaDescription:
       "Jouez à Lead Runner, un petit jeu gratuit dans votre navigateur. Sautez les obstacles, ramassez des leads et battez votre record. Sur mobile et sur ordinateur.",
     intro: [
-      "Lead Runner est un petit jeu pour les temps morts d'une journée de travail. Votre campagne avance toute seule : vous sautez les obstacles qui lui barrent la route et vous ramassez des leads au passage. Plus vous tenez, plus le rythme s'accélère.",
+      "Lead Runner est un petit jeu pour les temps morts d'une journée de travail. Growth, la mascotte de TDM, court toute seule : vous sautez les obstacles qui lui barrent la route et vous ramassez des leads au passage. Plus vous tenez, plus le rythme s'accélère.",
       "Il se joue au clavier, à la souris ou du bout du doigt sur un téléphone, et votre meilleur score est conservé sur cet appareil.",
     ],
     how: "Appuyez sur la barre d'espace, cliquez ou touchez l'écran pour sauter.",
     start: "Démarrer",
     again: "Rejouer",
-    over: "Campagne terminée",
+    over: "Growth a trébuché",
     score: "Score",
     best: "Record",
     leads: "Leads",

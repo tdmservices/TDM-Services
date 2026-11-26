@@ -119,7 +119,7 @@ export function Footer({ locale = "en" }: { locale?: Locale }) {
           The map's own dark ground is blended away so only the dots show. */}
       <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute left-1/2 top-1/2 aspect-[1942/809] w-full min-w-[60rem] -translate-x-1/2 -translate-y-1/2">
-          <Image src="/branding/world-map.webp" alt="" fill sizes="100vw" className="object-cover opacity-30 mix-blend-screen" />
+          <Image src={asset("branding/world-map.webp")} alt="" fill sizes="100vw" className="object-cover opacity-30 mix-blend-screen" />
           {PINS.map(([left, top], n) => (
             <span key={n} className="absolute -translate-x-1/2 -translate-y-1/2" style={{ left: `${left}%`, top: `${top}%` }}>
               <span className="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-amber opacity-60" style={{ animationDelay: `${n * 0.35}s`, animationDuration: "2.6s" }} />
