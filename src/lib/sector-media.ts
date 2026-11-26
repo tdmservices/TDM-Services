@@ -19,4 +19,9 @@ export const sectorHeroImage: Partial<Record<SectorSlug, string>> = {
   media: asset("sectors/media.webp"),
   development: asset("sectors/development.webp"),
   marketing: asset("sectors/marketing.webp"),
+  // Rendered illustrations (scripts/mascot/build_art.py), with Growth presenting.
+  ai: asset("sectors/ai.webp"),
+  "3d-design": asset("sectors/3d-design.webp"),
+  marketplaces: asset("sectors/marketplaces.webp"),
+  consulting: asset("sectors/consulting.webp"),
 };
