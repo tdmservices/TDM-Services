@@ -34,6 +34,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const urls: MetadataRoute.Sitemap = [];
 
+  // Everything the database lists, fetched together before the loop: one slow
+  // or failed read then costs one timeout, not one per language and table.
+  const stored = Object.fromEntries(
+    await Promise.all(
+      locales.map(async (locale) => {
+        const [cases, posts, pages] = await Promise.all([getCaseStudies(locale), getBlogPosts(locale), getSitePages(locale)]);
+        return [locale, { cases, posts, pages }] as const;
+      }),
+    ),
+  );
+
   for (const locale of locales) {
     // English is the primary site; translations rank a notch below it.
     const weight = locale === "en" ? 1 : 0.9;
@@ -48,14 +59,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // Written per language: list only what exists in this one, so the sitemap
     // never advertises a translation that would 404.
-    for (const cs of await getCaseStudies(locale)) {
+    for (const cs of stored[locale].cases) {
       urls.push({
         url: `${site.url}${href(locale, `/case-studies/${cs.slug}/`)}`,
         changeFrequency: "yearly",
         priority: 0.7 * weight,
       });
     }
-    for (const post of await getBlogPosts(locale)) {
+    for (const post of stored[locale].posts) {
       urls.push({
         url: `${site.url}${href(locale, `/blog/${post.slug}/`)}`,
         lastModified: post.date,
@@ -64,12 +75,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       });
     }
     // Authors with at least one post in this language; an empty author page is not worth indexing.
-    const credited = new Set((await getBlogPosts(locale)).map((post) => post.author));
+    const credited = new Set(stored[locale].posts.map((post) => post.author));
     for (const slug of AUTHOR_SLUGS.filter((x) => credited.has(x))) {
       urls.push({ url: `${site.url}${href(locale, `/blog/author/${slug}/`)}`, changeFrequency: "monthly", priority: 0.4 * weight });
     }
     // Pages published from the admin as HTML.
-    for (const page of await getSitePages(locale)) {
+    for (const page of stored[locale].pages) {
       urls.push({
         url: `${site.url}${href(locale, `/${page.slug}/`)}`,
         lastModified: page.updatedAt,

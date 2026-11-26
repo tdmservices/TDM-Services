@@ -32,11 +32,19 @@ function credentials() {
   return { url, anonKey };
 }
 
+const READ_TIMEOUT_MS = 8000;
+
 export const isConfigured = () => Boolean(url && anonKey);
 
 export function publicDb() {
   const { url: u, anonKey: k } = credentials();
-  return createClient(u, k, { auth: { persistSession: false } });
+  return createClient(u, k, {
+    auth: { persistSession: false },
+    // Give up on a read after a few seconds. Callers fall back to the built-in
+    // content, so a database that cannot be reached slows a build or a page a
+    // little instead of hanging it until the whole build is abandoned.
+    global: { fetch: (input, init) => fetch(input, { ...init, signal: init?.signal ?? AbortSignal.timeout(READ_TIMEOUT_MS) }) },
+  });
 }
 
 export function browserDb() {
